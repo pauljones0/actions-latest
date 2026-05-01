@@ -42,7 +42,6 @@ runner-images-check
 runner-images-sangeeth
 runner-images-temp
 scaleset
-setup-copilot
 starter-workflows
 toolkit
 typescript-action
