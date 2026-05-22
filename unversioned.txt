@@ -16,6 +16,7 @@ container-toolkit-action
 create-win-version
 example-services
 gh-actions-cache
+gh-drives-preview
 github
 github-drives-preview
 go-versions
