@@ -18,14 +18,19 @@ from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent.resolve()
 VERSIONS_FILE = SCRIPT_DIR / "versions.txt"
+COMMUNITY_VERSIONS_FILE = SCRIPT_DIR / "community-versions.txt"
 PACKAGE_VERSIONS_FILE = SCRIPT_DIR / "actions_latest" / "versions.txt"
+PACKAGE_COMMUNITY_VERSIONS_FILE = SCRIPT_DIR / "actions_latest" / "community-versions.txt"
 UNVERSIONED_FILE = SCRIPT_DIR / "unversioned.txt"
-TRACKED_ACTIONS_FILE = SCRIPT_DIR / "tracked-actions.txt"
+TRUSTED_ACTIONS_FILE = SCRIPT_DIR / "trusted-actions.txt"
+COMMUNITY_ACTIONS_FILE = SCRIPT_DIR / "community-actions.txt"
 README_FILE = SCRIPT_DIR / "README.md"
 
 # Markers for the README section
 README_START_MARKER = "<!-- VERSIONS_START -->"
 README_END_MARKER = "<!-- VERSIONS_END -->"
+COMMUNITY_README_START_MARKER = "<!-- COMMUNITY_VERSIONS_START -->"
+COMMUNITY_README_END_MARKER = "<!-- COMMUNITY_VERSIONS_END -->"
 ORG_NAME = "actions"
 GITHUB_API_URL = "https://api.github.com"
 ACTION_NAME_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
@@ -61,26 +66,48 @@ def save_unversioned(repos: set[str]) -> None:
             f.write(f"{repo_name}\n")
 
 
-def load_tracked_actions() -> list[str]:
-    """Load additional owner/repo actions to include in generated versions."""
-    if not TRACKED_ACTIONS_FILE.exists():
+def load_actions_file(path: Path) -> list[str]:
+    """Load owner/repo action names from a text file."""
+    if not path.exists():
         return []
 
     actions = []
-    for line_number, line in enumerate(TRACKED_ACTIONS_FILE.read_text().splitlines(), start=1):
+    for line_number, line in enumerate(path.read_text().splitlines(), start=1):
         action = line.split("#", 1)[0].strip()
         if not action:
             continue
         if not ACTION_NAME_RE.match(action):
             raise ValueError(
-                f"Invalid action name in {TRACKED_ACTIONS_FILE}:{line_number}: {line!r}"
+                f"Invalid action name in {path}:{line_number}: {line!r}"
             )
         actions.append(action)
 
     return sorted(set(actions), key=str.lower)
 
 
-def update_readme(versions_content: str) -> None:
+def load_trusted_actions() -> list[str]:
+    """Load curated trusted owner/repo actions to include in generated versions."""
+    return load_actions_file(TRUSTED_ACTIONS_FILE)
+
+
+def load_community_actions() -> list[str]:
+    """Load broader community owner/repo actions to include in generated versions."""
+    return load_actions_file(COMMUNITY_ACTIONS_FILE)
+
+
+def replace_readme_section(text: str, start_marker: str, end_marker: str, section: str) -> str:
+    """Replace one generated README section, or append it when absent."""
+    if start_marker in text and end_marker in text:
+        pattern = re.compile(
+            re.escape(start_marker) + r".*?" + re.escape(end_marker),
+            re.DOTALL,
+        )
+        return pattern.sub(section, text)
+
+    return text.rstrip() + "\n\n" + section + "\n"
+
+
+def update_readme(versions_content: str, community_versions_content: str = "") -> None:
     """Update the README.md with the latest versions in a fenced code block."""
     if not README_FILE.exists():
         print(f"Warning: {README_FILE} not found, skipping README update")
@@ -88,25 +115,33 @@ def update_readme(versions_content: str) -> None:
 
     readme_text = README_FILE.read_text()
 
-    # Build the new section content
-    new_section = f"""{README_START_MARKER}
-## Latest versions
+    trusted_section = f"""{README_START_MARKER}
+## Latest trusted versions
 
 ```
 {versions_content}```
 {README_END_MARKER}"""
 
-    # Check if markers already exist
-    if README_START_MARKER in readme_text and README_END_MARKER in readme_text:
-        # Replace existing section
-        pattern = re.compile(
-            re.escape(README_START_MARKER) + r".*?" + re.escape(README_END_MARKER),
-            re.DOTALL
+    new_readme = replace_readme_section(
+        readme_text,
+        README_START_MARKER,
+        README_END_MARKER,
+        trusted_section,
+    )
+
+    if community_versions_content:
+        community_section = f"""{COMMUNITY_README_START_MARKER}
+## Latest community versions
+
+```
+{community_versions_content}```
+{COMMUNITY_README_END_MARKER}"""
+        new_readme = replace_readme_section(
+            new_readme,
+            COMMUNITY_README_START_MARKER,
+            COMMUNITY_README_END_MARKER,
+            community_section,
         )
-        new_readme = pattern.sub(new_section, readme_text)
-    else:
-        # Append to end of file
-        new_readme = readme_text.rstrip() + "\n\n" + new_section + "\n"
 
     README_FILE.write_text(new_readme)
     print(f"Updated {README_FILE} with latest versions")
@@ -196,6 +231,45 @@ def get_latest_version_tag(tags: list[str]) -> str | None:
     return version_tags[0][1]
 
 
+def fetch_tracked_action_versions(
+    actions: list[str],
+    label: str,
+    skip_actions: set[str] | None = None,
+) -> list[tuple[str, str]]:
+    """Fetch latest vINTEGER tags for a list of owner/repo actions."""
+    if actions:
+        print(f"\nFetching tags for {len(actions)} {label} actions...")
+
+    versions = []
+    versioned_actions = set(skip_actions or set())
+    for action in actions:
+        if action in versioned_actions:
+            print(f"Skipping {action} (already fetched)")
+            continue
+
+        owner, repo_name = action.split("/", 1)
+        print(f"Fetching tags for {action}...", end=" ")
+        tags = fetch_tags(owner, repo_name)
+        latest_tag = get_latest_version_tag(tags)
+
+        if latest_tag:
+            versions.append((action, latest_tag))
+            versioned_actions.add(action)
+            print(f"{latest_tag}")
+        else:
+            print("no vINTEGER tag")
+
+    return versions
+
+
+def versions_content(versions: list[tuple[str, str]]) -> str:
+    """Build versions.txt content from action version tuples."""
+    versions.sort(key=lambda x: x[0].lower())
+    if not versions:
+        return ""
+    return "\n".join(f"{action}@{tag}" for action, tag in versions) + "\n"
+
+
 def main():
     """Main function to fetch repos, get tags via API, and generate versions.txt."""
     # Load cached unversioned repos
@@ -230,49 +304,43 @@ def main():
             print("no vINTEGER tag")
             new_unversioned.add(repo_name)
 
-    tracked_actions = load_tracked_actions()
-    if tracked_actions:
-        print(f"\nFetching tags for {len(tracked_actions)} tracked third-party actions...")
+    trusted_actions = load_trusted_actions()
+    trusted_versioned = {action for action, _ in versions}
+    versions.extend(
+        fetch_tracked_action_versions(
+            trusted_actions,
+            "trusted",
+            skip_actions=trusted_versioned,
+        )
+    )
+    trusted_versioned = {action for action, _ in versions}
 
-    tracked_versioned = {action for action, _ in versions}
-    for action in tracked_actions:
-        if action in tracked_versioned:
-            print(f"Skipping {action} (already fetched)")
-            continue
+    community_versions = fetch_tracked_action_versions(
+        load_community_actions(),
+        "community",
+        skip_actions=trusted_versioned,
+    )
 
-        owner, repo_name = action.split("/", 1)
-        print(f"Fetching tags for {action}...", end=" ")
-        tags = fetch_tags(owner, repo_name)
-        latest_tag = get_latest_version_tag(tags)
-
-        if latest_tag:
-            versions.append((action, latest_tag))
-            tracked_versioned.add(action)
-            print(f"{latest_tag}")
-        else:
-            print("no vINTEGER tag")
-
-    # Sort alphabetically by action name
-    versions.sort(key=lambda x: x[0].lower())
-
-    # Build versions content
-    versions_content = "\n".join(
-        f"{action}@{tag}" for action, tag in versions
-    ) + "\n"
+    trusted_versions_content = versions_content(versions)
+    community_versions_content = versions_content(community_versions)
 
     # Write versions snapshots
     with open(VERSIONS_FILE, "w") as f:
-        f.write(versions_content)
+        f.write(trusted_versions_content)
+    with open(COMMUNITY_VERSIONS_FILE, "w") as f:
+        f.write(community_versions_content)
     if PACKAGE_VERSIONS_FILE.parent.exists():
-        PACKAGE_VERSIONS_FILE.write_text(versions_content)
+        PACKAGE_VERSIONS_FILE.write_text(trusted_versions_content)
+        PACKAGE_COMMUNITY_VERSIONS_FILE.write_text(community_versions_content)
 
     # Update README.md with the versions
-    update_readme(versions_content)
+    update_readme(trusted_versions_content, community_versions_content)
 
     # Update unversioned.txt
     save_unversioned(new_unversioned)
 
-    print(f"\nWrote {len(versions)} versions to {VERSIONS_FILE}")
+    print(f"\nWrote {len(versions)} trusted versions to {VERSIONS_FILE}")
+    print(f"Wrote {len(community_versions)} community versions to {COMMUNITY_VERSIONS_FILE}")
     print(f"Cached {len(new_unversioned)} unversioned repos to {UNVERSIONED_FILE}")
 
 

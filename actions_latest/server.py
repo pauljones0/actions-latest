@@ -15,16 +15,20 @@ mcp = FastMCP("actions-latest")
 
 
 @mcp.tool()
-def latest_github_actions_versions(refresh: bool = True) -> str:
-    """Return all latest tracked GitHub Actions version tags as versions.txt content."""
-    return load_versions_text(refresh=refresh)
+def latest_github_actions_versions(refresh: bool = True, include_untrusted: bool = False) -> str:
+    """Return latest trusted GitHub Actions versions, optionally including community actions."""
+    return load_versions_text(refresh=refresh, include_untrusted=include_untrusted)
 
 
 @mcp.tool()
-def latest_github_action_version(action: str, refresh: bool = True) -> str:
+def latest_github_action_version(
+    action: str,
+    refresh: bool = True,
+    include_untrusted: bool = False,
+) -> str:
     """Return the latest stable major tag for one GitHub action."""
-    versions = parse_versions(load_versions_text(refresh=refresh))
-    result = latest_for_action(action, versions, refresh=refresh)
+    versions = parse_versions(load_versions_text(refresh=refresh, include_untrusted=include_untrusted))
+    result = latest_for_action(action, versions, refresh=refresh and include_untrusted)
     if result is None:
         return f"No stable major tag found for {action!r}."
 
@@ -33,10 +37,14 @@ def latest_github_action_version(action: str, refresh: bool = True) -> str:
 
 
 @mcp.tool()
-def check_github_actions_workflow(workflow: str, refresh: bool = True) -> str:
+def check_github_actions_workflow(
+    workflow: str,
+    refresh: bool = True,
+    include_untrusted: bool = False,
+) -> str:
     """Check workflow YAML text and suggest stable major tag updates."""
-    versions = parse_versions(load_versions_text(refresh=refresh))
-    updates = workflow_updates(workflow, versions, refresh=refresh)
+    versions = parse_versions(load_versions_text(refresh=refresh, include_untrusted=include_untrusted))
+    updates = workflow_updates(workflow, versions, refresh=refresh and include_untrusted)
     if not updates:
         return "No outdated stable GitHub Action references found."
 

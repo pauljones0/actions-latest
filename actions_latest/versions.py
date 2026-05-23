@@ -12,6 +12,7 @@ from urllib.error import URLError
 from urllib.request import Request, urlopen
 
 DEFAULT_VERSIONS_URL = "https://raw.githubusercontent.com/pauljones0/actions-latest/main/versions.txt"
+DEFAULT_COMMUNITY_VERSIONS_URL = "https://raw.githubusercontent.com/pauljones0/actions-latest/main/community-versions.txt"
 GITHUB_API_URL = "https://api.github.com"
 VERSION_TOKEN_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+@v[0-9][A-Za-z0-9_.-]*$")
 MAJOR_TAG_RE = re.compile(r"^v(\d+)$")
@@ -29,15 +30,29 @@ class WorkflowUpdate:
     line: str
 
 
-def bundled_versions_text() -> str:
+def bundled_versions_text(include_untrusted: bool = False) -> str:
     """Return the packaged versions snapshot."""
-    return resources.files("actions_latest").joinpath("versions.txt").read_text()
+    package_files = resources.files("actions_latest")
+    versions_text = package_files.joinpath("versions.txt").read_text()
+    if include_untrusted:
+        versions_text += "\n" + package_files.joinpath("community-versions.txt").read_text()
+    return versions_text
 
 
 def fetch_versions_text(url: str | None = None, timeout: float = 10.0) -> str:
-    """Fetch the latest versions text from the configured URL."""
+    """Fetch trusted versions text from the configured URL."""
     request = Request(
         url or os.environ.get("ACTIONS_LATEST_URL", DEFAULT_VERSIONS_URL),
+        headers={"User-Agent": "actions-latest-mcp"},
+    )
+    with urlopen(request, timeout=timeout) as response:
+        return response.read().decode("utf-8")
+
+
+def fetch_community_versions_text(url: str | None = None, timeout: float = 10.0) -> str:
+    """Fetch community versions text from the configured URL."""
+    request = Request(
+        url or os.environ.get("ACTIONS_LATEST_COMMUNITY_URL", DEFAULT_COMMUNITY_VERSIONS_URL),
         headers={"User-Agent": "actions-latest-mcp"},
     )
     with urlopen(request, timeout=timeout) as response:
@@ -60,15 +75,18 @@ def github_api_json(path: str, timeout: float = 10.0) -> object:
         return json.loads(response.read().decode("utf-8"))
 
 
-def load_versions_text(refresh: bool = True) -> str:
+def load_versions_text(refresh: bool = True, include_untrusted: bool = False) -> str:
     """Return remote versions text, falling back to the packaged snapshot."""
     if not refresh or os.environ.get("ACTIONS_LATEST_OFFLINE"):
-        return bundled_versions_text()
+        return bundled_versions_text(include_untrusted=include_untrusted)
 
     try:
-        return fetch_versions_text()
+        versions_text = fetch_versions_text()
+        if include_untrusted:
+            versions_text += "\n" + fetch_community_versions_text()
+        return versions_text
     except (OSError, URLError):
-        return bundled_versions_text()
+        return bundled_versions_text(include_untrusted=include_untrusted)
 
 
 def parse_versions(text: str) -> dict[str, str]:

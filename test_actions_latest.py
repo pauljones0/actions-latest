@@ -5,6 +5,7 @@ import unittest
 from unittest.mock import patch
 
 from actions_latest.versions import (
+    bundled_versions_text,
     latest_for_action,
     latest_major_tag,
     normalize_action_name,
@@ -53,6 +54,10 @@ class TestActionsLatestVersions(unittest.TestCase):
         self.assertEqual(latest_for_action("astral-sh/setup-uv@v6", versions, refresh=False), ("astral-sh/setup-uv", "v7"))
         self.assertEqual(latest_for_action("github/codeql-action/init@v3", versions, refresh=False), ("github/codeql-action", "v4"))
         self.assertIsNone(latest_for_action("softprops/action-gh-release", versions, refresh=False))
+
+    def test_bundled_versions_can_include_untrusted(self):
+        self.assertIn("actions/checkout@", bundled_versions_text())
+        self.assertIn("actions/checkout@", bundled_versions_text(include_untrusted=True))
 
     @patch("actions_latest.versions.fetch_action_tags")
     def test_latest_for_third_party_action_uses_highest_major_tag(self, mock_fetch_tags):

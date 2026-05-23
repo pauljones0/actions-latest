@@ -166,7 +166,7 @@ class TestUnversionedCache(unittest.TestCase):
 class TestTrackedActions(unittest.TestCase):
     """Tests for additional tracked action loading."""
 
-    def test_load_tracked_actions(self):
+    def test_load_actions_file(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             tracked_actions_file = Path(tmpdir) / "tracked-actions.txt"
             tracked_actions_file.write_text(
@@ -177,20 +177,18 @@ class TestTrackedActions(unittest.TestCase):
                 "astral-sh/setup-uv\n"
             )
 
-            with patch.object(fetch_versions, "TRACKED_ACTIONS_FILE", tracked_actions_file):
-                self.assertEqual(
-                    fetch_versions.load_tracked_actions(),
-                    ["astral-sh/setup-uv", "softprops/action-gh-release"],
-                )
+            self.assertEqual(
+                fetch_versions.load_actions_file(tracked_actions_file),
+                ["astral-sh/setup-uv", "softprops/action-gh-release"],
+            )
 
-    def test_load_tracked_actions_rejects_invalid_names(self):
+    def test_load_actions_file_rejects_invalid_names(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             tracked_actions_file = Path(tmpdir) / "tracked-actions.txt"
             tracked_actions_file.write_text("not-an-action\n")
 
-            with patch.object(fetch_versions, "TRACKED_ACTIONS_FILE", tracked_actions_file):
-                with self.assertRaises(ValueError):
-                    fetch_versions.load_tracked_actions()
+            with self.assertRaises(ValueError):
+                fetch_versions.load_actions_file(tracked_actions_file)
 
 
 class TestUpdateReadme(unittest.TestCase):
@@ -221,7 +219,7 @@ class TestUpdateReadme(unittest.TestCase):
                 readme_file.read_text(),
                 "Intro text\n\n"
                 f"{fetch_versions.README_START_MARKER}\n"
-                "## Latest versions\n\n"
+                "## Latest trusted versions\n\n"
                 "```\n"
                 "actions/checkout@v6\n"
                 "actions/upload-artifact@v7\n"
@@ -286,7 +284,9 @@ class TestMain(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmpdir:
             tmppath = Path(tmpdir)
             versions_file = tmppath / "versions.txt"
+            community_versions_file = tmppath / "community-versions.txt"
             package_versions_file = tmppath / "package_versions.txt"
+            package_community_versions_file = tmppath / "package_community_versions.txt"
             readme_file = tmppath / "README.md"
             readme_file.write_text(
                 f"{fetch_versions.README_START_MARKER}\n"
@@ -331,15 +331,20 @@ class TestMain(unittest.TestCase):
             original_open = open
 
             def patched_open(path, *args, **kwargs):
-                if "versions.txt" in str(path):
+                if str(path) == str(versions_file):
                     return original_open(versions_file, *args, **kwargs)
+                if str(path) == str(community_versions_file):
+                    return original_open(community_versions_file, *args, **kwargs)
                 return original_open(path, *args, **kwargs)
 
             with (
                 patch("builtins.open", side_effect=patched_open),
+                patch.object(fetch_versions, "COMMUNITY_VERSIONS_FILE", community_versions_file),
                 patch.object(fetch_versions, "PACKAGE_VERSIONS_FILE", package_versions_file),
+                patch.object(fetch_versions, "PACKAGE_COMMUNITY_VERSIONS_FILE", package_community_versions_file),
                 patch.object(fetch_versions, "README_FILE", readme_file),
-                patch.object(fetch_versions, "TRACKED_ACTIONS_FILE", tmppath / "tracked-actions.txt"),
+                patch.object(fetch_versions, "TRUSTED_ACTIONS_FILE", tmppath / "trusted-actions.txt"),
+                patch.object(fetch_versions, "COMMUNITY_ACTIONS_FILE", tmppath / "community-actions.txt"),
             ):
                 fetch_versions.main()
 
@@ -351,6 +356,8 @@ class TestMain(unittest.TestCase):
             self.assertIn("actions/setup-node@v4", lines)
             self.assertIn("actions/setup-python@v5", lines)
             self.assertEqual(package_versions_file.read_text(), content)
+            self.assertEqual(community_versions_file.read_text(), "")
+            self.assertEqual(package_community_versions_file.read_text(), "")
 
             # Verify alphabetical ordering (setup-node before setup-python)
             self.assertEqual(lines[0], "actions/setup-node@v4")
@@ -380,7 +387,9 @@ class TestMain(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmpdir:
             tmppath = Path(tmpdir)
             versions_file = tmppath / "versions.txt"
+            community_versions_file = tmppath / "community-versions.txt"
             package_versions_file = tmppath / "package_versions.txt"
+            package_community_versions_file = tmppath / "package_community_versions.txt"
             readme_file = tmppath / "README.md"
             readme_file.write_text(
                 f"{fetch_versions.README_START_MARKER}\n"
@@ -406,15 +415,20 @@ class TestMain(unittest.TestCase):
             original_open = open
 
             def patched_open(path, *args, **kwargs):
-                if "versions.txt" in str(path):
+                if str(path) == str(versions_file):
                     return original_open(versions_file, *args, **kwargs)
+                if str(path) == str(community_versions_file):
+                    return original_open(community_versions_file, *args, **kwargs)
                 return original_open(path, *args, **kwargs)
 
             with (
                 patch("builtins.open", side_effect=patched_open),
+                patch.object(fetch_versions, "COMMUNITY_VERSIONS_FILE", community_versions_file),
                 patch.object(fetch_versions, "PACKAGE_VERSIONS_FILE", package_versions_file),
+                patch.object(fetch_versions, "PACKAGE_COMMUNITY_VERSIONS_FILE", package_community_versions_file),
                 patch.object(fetch_versions, "README_FILE", readme_file),
-                patch.object(fetch_versions, "TRACKED_ACTIONS_FILE", tmppath / "tracked-actions.txt"),
+                patch.object(fetch_versions, "TRUSTED_ACTIONS_FILE", tmppath / "trusted-actions.txt"),
+                patch.object(fetch_versions, "COMMUNITY_ACTIONS_FILE", tmppath / "community-actions.txt"),
             ):
                 fetch_versions.main()
 
@@ -439,10 +453,12 @@ class TestMain(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmpdir:
             tmppath = Path(tmpdir)
             versions_file = tmppath / "versions.txt"
+            community_versions_file = tmppath / "community-versions.txt"
             package_versions_file = tmppath / "package_versions.txt"
+            package_community_versions_file = tmppath / "package_community_versions.txt"
             readme_file = tmppath / "README.md"
-            tracked_actions_file = tmppath / "tracked-actions.txt"
-            tracked_actions_file.write_text("astral-sh/setup-uv\n")
+            trusted_actions_file = tmppath / "trusted-actions.txt"
+            trusted_actions_file.write_text("astral-sh/setup-uv\n")
             readme_file.write_text(
                 f"{fetch_versions.README_START_MARKER}\n"
                 f"{fetch_versions.README_END_MARKER}\n"
@@ -457,20 +473,27 @@ class TestMain(unittest.TestCase):
             original_open = open
 
             def patched_open(path, *args, **kwargs):
-                if "versions.txt" in str(path):
+                if str(path) == str(versions_file):
                     return original_open(versions_file, *args, **kwargs)
+                if str(path) == str(community_versions_file):
+                    return original_open(community_versions_file, *args, **kwargs)
                 return original_open(path, *args, **kwargs)
 
             with (
                 patch("builtins.open", side_effect=patched_open),
+                patch.object(fetch_versions, "COMMUNITY_VERSIONS_FILE", community_versions_file),
                 patch.object(fetch_versions, "PACKAGE_VERSIONS_FILE", package_versions_file),
+                patch.object(fetch_versions, "PACKAGE_COMMUNITY_VERSIONS_FILE", package_community_versions_file),
                 patch.object(fetch_versions, "README_FILE", readme_file),
-                patch.object(fetch_versions, "TRACKED_ACTIONS_FILE", tracked_actions_file),
+                patch.object(fetch_versions, "TRUSTED_ACTIONS_FILE", trusted_actions_file),
+                patch.object(fetch_versions, "COMMUNITY_ACTIONS_FILE", tmppath / "community-actions.txt"),
             ):
                 fetch_versions.main()
 
             self.assertEqual(versions_file.read_text(), "astral-sh/setup-uv@v7\n")
             self.assertEqual(package_versions_file.read_text(), "astral-sh/setup-uv@v7\n")
+            self.assertEqual(community_versions_file.read_text(), "")
+            self.assertEqual(package_community_versions_file.read_text(), "")
             mock_fetch_tags.assert_called_once_with("astral-sh", "setup-uv")
             mock_save_unversioned.assert_called_once_with(set())
 

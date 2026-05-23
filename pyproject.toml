@@ -19,4 +19,4 @@ build-backend = "setuptools.build_meta"
 include = ["actions_latest*"]
 
 [tool.setuptools.package-data]
-actions_latest = ["versions.txt"]
+actions_latest = ["versions.txt", "community-versions.txt"]
