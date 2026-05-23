@@ -19,7 +19,7 @@ This fork can also run as a stdio MCP server for coding agents:
       "command": "uvx",
       "args": [
         "--from",
-        "git+https://github.com/pauljones0/actions-latest.git@codex/actions-latest-mcp",
+        "git+https://github.com/pauljones0/actions-latest.git",
         "actions-latest-mcp"
       ]
     }
@@ -35,7 +35,7 @@ Available tools:
 
 Version recommendations follow the same style as Simon's original `versions.txt`: the highest floating major tag that matches `vN`, such as `actions/checkout@v6`, not exact release tags such as `v6.0.2`. Existing `@stable` branch refs are treated as already intentionally stable.
 
-Set `ACTIONS_LATEST_URL` to override the versions source, or set `ACTIONS_LATEST_OFFLINE=1` to use the packaged snapshot instead of fetching the live URL.
+Set `GITHUB_TOKEN` to avoid GitHub API rate limits when checking third-party actions. Set `ACTIONS_LATEST_URL` to override the versions source, or set `ACTIONS_LATEST_OFFLINE=1` to use the packaged snapshot instead of fetching the live URL.
 
 <!-- VERSIONS_START -->
 ## Latest versions
