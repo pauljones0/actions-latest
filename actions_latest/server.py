@@ -22,11 +22,11 @@ def latest_github_actions_versions(refresh: bool = True) -> str:
 
 @mcp.tool()
 def latest_github_action_version(action: str, refresh: bool = True) -> str:
-    """Return the latest version tag for one official GitHub action."""
+    """Return the latest stable major tag for one GitHub action."""
     versions = parse_versions(load_versions_text(refresh=refresh))
-    result = latest_for_action(action, versions)
+    result = latest_for_action(action, versions, refresh=refresh)
     if result is None:
-        return f"No official actions/* version found for {action!r}."
+        return f"No stable major tag found for {action!r}."
 
     normalized, latest = result
     return f"{normalized}@{latest}"
@@ -34,11 +34,11 @@ def latest_github_action_version(action: str, refresh: bool = True) -> str:
 
 @mcp.tool()
 def check_github_actions_workflow(workflow: str, refresh: bool = True) -> str:
-    """Check workflow YAML text and suggest official actions/* version updates."""
+    """Check workflow YAML text and suggest stable major tag updates."""
     versions = parse_versions(load_versions_text(refresh=refresh))
-    updates = workflow_updates(workflow, versions)
+    updates = workflow_updates(workflow, versions, refresh=refresh)
     if not updates:
-        return "No outdated official actions/* references found."
+        return "No outdated stable GitHub Action references found."
 
     return "\n".join(
         f"{update.action}: {update.current} -> {update.latest} ({update.line.strip()})"

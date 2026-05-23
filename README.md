@@ -30,8 +30,10 @@ This fork can also run as a stdio MCP server for coding agents:
 Available tools:
 
 - `latest_github_actions_versions`: returns the full `versions.txt` content.
-- `latest_github_action_version`: looks up one official action, such as `checkout` or `actions/checkout@v4`.
-- `check_github_actions_workflow`: checks workflow YAML text for outdated official `actions/*` references.
+- `latest_github_action_version`: looks up one action, such as `checkout`, `actions/checkout@v4`, or `softprops/action-gh-release@v2`.
+- `check_github_actions_workflow`: checks workflow YAML text for outdated GitHub Action references.
+
+Version recommendations follow the same style as Simon's original `versions.txt`: the highest floating major tag that matches `vN`, such as `actions/checkout@v6`, not exact release tags such as `v6.0.2`. Existing `@stable` branch refs are treated as already intentionally stable.
 
 Set `ACTIONS_LATEST_URL` to override the versions source, or set `ACTIONS_LATEST_OFFLINE=1` to use the packaged snapshot instead of fetching the live URL.
 
