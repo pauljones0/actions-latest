@@ -4,7 +4,7 @@ Keeping track of the latest versions of various GitHub Actions
 
 https://raw.githubusercontent.com/pauljones0/actions-latest/main/versions.txt
 
-Access that URL for a list of the official Actions belonging to the [GitHub Actions](https://github.com/actions) organization, plus additional third-party actions listed in `tracked-actions.txt`, along with their latest version tags.
+Access that URL for a list of the official Actions belonging to the [GitHub Actions](https://github.com/actions) organization, plus additional actions listed in `tracked-actions.txt`, along with their latest version tags.
 
 You can point coding agents such as Claude Code and Codex CLI at this URL so they know the most recent Actions versions to use in their workflow files.
 
@@ -76,5 +76,15 @@ actions/upload-pages-artifact@v5
 actions/upload-release-asset@v1
 astral-sh/ruff-action@v3
 astral-sh/setup-uv@v7
+github/ai-moderator@v1
+github/branch-deploy@v11
+github/codeql-action@v4
+github/codeql-coding-standards@v2
+github/command@v2
+github/copilot-release-notes@v1
+github/dependabot-action@v3
+github/lock@v3
+github/update-project-action@v4
+github/webpack-bundlesize-compare-action@v1
 ```
 <!-- VERSIONS_END -->

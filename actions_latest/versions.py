@@ -148,21 +148,25 @@ def fetch_action_tags(action: str) -> list[str]:
 def latest_for_action(action: str, versions: dict[str, str], refresh: bool = True) -> tuple[str, str] | None:
     """Return (normalized_action, latest stable ref) for an action, if known."""
     normalized = normalize_action_name(action)
-    latest = versions.get(normalized)
-    if latest is not None:
-        return normalized, latest
+    for candidate in dict.fromkeys((normalized, action_repo(normalized))):
+        if candidate is None:
+            continue
+        latest = versions.get(candidate)
+        if latest is not None:
+            return candidate, latest
 
     if not refresh:
         return None
 
     try:
-        latest = latest_major_tag(fetch_action_tags(normalized))
+        repo = action_repo(normalized) or normalized
+        latest = latest_major_tag(fetch_action_tags(repo))
     except (OSError, URLError, RuntimeError):
         return None
 
     if latest is None:
         return None
-    return normalized, latest
+    return repo, latest
 
 
 def workflow_updates(workflow: str, versions: dict[str, str], refresh: bool = True) -> list[WorkflowUpdate]:

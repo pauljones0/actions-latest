@@ -18,6 +18,7 @@ astral-sh/setup-uv@v7
 actions/checkout@v6
 actions/download-artifact@v8
 actions/upload-artifact@v7
+github/codeql-action@v4
 """
 
 
@@ -32,6 +33,7 @@ class TestActionsLatestVersions(unittest.TestCase):
                 "actions/download-artifact": "v8",
                 "actions/upload-artifact": "v7",
                 "astral-sh/setup-uv": "v7",
+                "github/codeql-action": "v4",
             },
         )
 
@@ -49,6 +51,7 @@ class TestActionsLatestVersions(unittest.TestCase):
 
         self.assertEqual(latest_for_action("checkout@v4", versions, refresh=False), ("actions/checkout", "v6"))
         self.assertEqual(latest_for_action("astral-sh/setup-uv@v6", versions, refresh=False), ("astral-sh/setup-uv", "v7"))
+        self.assertEqual(latest_for_action("github/codeql-action/init@v3", versions, refresh=False), ("github/codeql-action", "v4"))
         self.assertIsNone(latest_for_action("softprops/action-gh-release", versions, refresh=False))
 
     @patch("actions_latest.versions.fetch_action_tags")
