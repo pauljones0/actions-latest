@@ -74,6 +74,7 @@ actions/upload-artifact@v7
 actions/upload-code-coverage@v1
 actions/upload-pages-artifact@v5
 actions/upload-release-asset@v1
+astral-sh/ruff-action@v3
 astral-sh/setup-uv@v7
 ```
 <!-- VERSIONS_END -->
