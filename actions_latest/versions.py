@@ -1,7 +1,8 @@
-"""Load, parse, and compare latest official GitHub Actions versions."""
+"""Load, parse, and compare latest stable GitHub Actions versions."""
 
 from __future__ import annotations
 
+import json
 import os
 import re
 from dataclasses import dataclass
@@ -11,7 +12,10 @@ from urllib.error import URLError
 from urllib.request import Request, urlopen
 
 DEFAULT_VERSIONS_URL = "https://simonw.github.io/actions-latest/versions.txt"
+GITHUB_API_URL = "https://api.github.com"
 VERSION_TOKEN_RE = re.compile(r"^actions/[A-Za-z0-9_.-]+@v[0-9][A-Za-z0-9_.-]*$")
+MAJOR_TAG_RE = re.compile(r"^v(\d+)$")
+SHA_RE = re.compile(r"^[0-9a-fA-F]{40}$")
 USES_RE = re.compile(r"^\s*-?\s*uses:\s*['\"]?([^'\"#\s]+)", re.MULTILINE)
 
 
@@ -40,6 +44,22 @@ def fetch_versions_text(url: str | None = None, timeout: float = 10.0) -> str:
         return response.read().decode("utf-8")
 
 
+def github_api_json(path: str, timeout: float = 10.0) -> object:
+    """Fetch JSON from the GitHub API."""
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "actions-latest-mcp",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    request = Request(f"{GITHUB_API_URL}{path}", headers=headers)
+    with urlopen(request, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
 def load_versions_text(refresh: bool = True) -> str:
     """Return remote versions text, falling back to the packaged snapshot."""
     if not refresh or os.environ.get("ACTIONS_LATEST_OFFLINE"):
@@ -63,6 +83,21 @@ def parse_versions(text: str) -> dict[str, str]:
     return dict(sorted(versions.items()))
 
 
+def latest_major_tag(tags: list[str]) -> str | None:
+    """Return the highest floating major tag, matching Simon's vINTEGER style."""
+    major_tags: list[tuple[int, str]] = []
+    for tag in tags:
+        match = MAJOR_TAG_RE.match(tag.strip())
+        if match:
+            major_tags.append((int(match.group(1)), tag.strip()))
+
+    if not major_tags:
+        return None
+
+    major_tags.sort(reverse=True, key=lambda item: item[0])
+    return major_tags[0][1]
+
+
 def normalize_action_name(action: str) -> str:
     """Normalize an action input to owner/name form."""
     name = action.strip().strip("'\"")
@@ -75,26 +110,79 @@ def normalize_action_name(action: str) -> str:
     return name
 
 
-def latest_for_action(action: str, versions: dict[str, str]) -> tuple[str, str] | None:
-    """Return (normalized_action, latest_ref) for an action, if known."""
+def action_repo(action: str) -> str | None:
+    """Return owner/repo for an action reference."""
+    parts = normalize_action_name(action).split("/")
+    if len(parts) < 2:
+        return None
+    return "/".join(parts[:2])
+
+
+def fetch_action_tags(action: str) -> list[str]:
+    """Fetch all tags for an action repository."""
+    repo = action_repo(action)
+    if repo is None:
+        return []
+
+    tags: list[str] = []
+    page = 1
+    per_page = 100
+    while True:
+        page_tags = github_api_json(f"/repos/{repo}/tags?per_page={per_page}&page={page}")
+        if not isinstance(page_tags, list):
+            raise RuntimeError(f"Unexpected tags response for {repo}")
+        if not page_tags:
+            break
+
+        for tag in page_tags:
+            if isinstance(tag, dict) and isinstance(tag.get("name"), str):
+                tags.append(tag["name"])
+
+        if len(page_tags) < per_page:
+            break
+        page += 1
+
+    return tags
+
+
+def latest_for_action(action: str, versions: dict[str, str], refresh: bool = True) -> tuple[str, str] | None:
+    """Return (normalized_action, latest stable ref) for an action, if known."""
     normalized = normalize_action_name(action)
     latest = versions.get(normalized)
+    if latest is not None:
+        return normalized, latest
+
+    if not refresh:
+        return None
+
+    try:
+        latest = latest_major_tag(fetch_action_tags(normalized))
+    except (OSError, URLError, RuntimeError):
+        return None
+
     if latest is None:
         return None
     return normalized, latest
 
 
-def workflow_updates(workflow: str, versions: dict[str, str]) -> list[WorkflowUpdate]:
-    """Find official actions in a workflow that do not use the latest major tag."""
+def workflow_updates(workflow: str, versions: dict[str, str], refresh: bool = True) -> list[WorkflowUpdate]:
+    """Find action references that do not use the latest stable major tag."""
     updates: list[WorkflowUpdate] = []
     for match in USES_RE.finditer(workflow):
         ref = match.group(1).strip()
-        if ref.startswith("./") or "@" not in ref:
+        if ref.startswith(("./", "docker://")) or "@" not in ref:
             continue
 
         action, current = ref.split("@", 1)
-        latest = versions.get(action)
-        if latest is None or current == latest:
+        if SHA_RE.match(current) or current == "stable":
+            continue
+
+        result = latest_for_action(action, versions, refresh=refresh)
+        if result is None:
+            continue
+
+        normalized, latest = result
+        if current == latest:
             continue
 
         line_start = workflow.rfind("\n", 0, match.start()) + 1
@@ -104,7 +192,7 @@ def workflow_updates(workflow: str, versions: dict[str, str]) -> list[WorkflowUp
 
         updates.append(
             WorkflowUpdate(
-                action=action,
+                action=normalized,
                 current=current,
                 latest=latest,
                 line=workflow[line_start:line_end],
