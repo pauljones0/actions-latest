@@ -20,15 +20,17 @@ jobs:
           python-version: '3.12'
 
       - name: Run tests
-        run: python -m unittest test_fetch_versions -v
+        run: python -m unittest -v
 
       - name: Run fetch_versions.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: python fetch_versions.py
 
       - name: Commit changes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add versions.txt unversioned.txt
+          git add README.md actions_latest/versions.txt versions.txt unversioned.txt
           git diff --staged --quiet || git commit -m "Update versions.txt"
           git push

@@ -1,0 +1,22 @@
+[project]
+name = "actions-latest"
+version = "0.1.0"
+description = "Track and expose latest official GitHub Actions versions"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.12.0",
+]
+
+[project.scripts]
+actions-latest-mcp = "actions_latest.server:main"
+
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["actions_latest*"]
+
+[tool.setuptools.package-data]
+actions_latest = ["versions.txt"]
