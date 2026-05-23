@@ -156,7 +156,7 @@ def fetch_repos(org: str) -> list[dict]:
     while True:
         url = f"{GITHUB_API_URL}/orgs/{org}/repos?per_page={per_page}&page={page}"
         result = subprocess.run(
-            ["curl", "-s", *github_api_headers(), url],
+            ["curl", "-sL", *github_api_headers(), url],
             capture_output=True,
             text=True,
             check=True,
@@ -188,7 +188,7 @@ def fetch_tags(org: str, repo_name: str) -> list[str]:
     while True:
         url = f"{GITHUB_API_URL}/repos/{org}/{repo_name}/tags?per_page={per_page}&page={page}"
         result = subprocess.run(
-            ["curl", "-s", *github_api_headers(), url],
+            ["curl", "-sL", *github_api_headers(), url],
             capture_output=True,
             text=True,
             check=True,
