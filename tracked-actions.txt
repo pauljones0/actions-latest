@@ -1,4 +1,6 @@
 # Additional GitHub Actions outside the official actions org.
 # Versions are fetched from https://api.github.com/repos/{owner}/{repo}/tags.
+astral-sh/attest-action
+astral-sh/pyx-auth-action
 astral-sh/ruff-action
 astral-sh/setup-uv
