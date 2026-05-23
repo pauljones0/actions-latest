@@ -14,6 +14,7 @@ from actions_latest.versions import (
 
 
 VERSIONS_TEXT = """
+astral-sh/setup-uv@v7
 actions/checkout@v6
 actions/download-artifact@v8
 actions/upload-artifact@v7
@@ -30,6 +31,7 @@ class TestActionsLatestVersions(unittest.TestCase):
                 "actions/checkout": "v6",
                 "actions/download-artifact": "v8",
                 "actions/upload-artifact": "v7",
+                "astral-sh/setup-uv": "v7",
             },
         )
 
@@ -46,6 +48,7 @@ class TestActionsLatestVersions(unittest.TestCase):
         versions = parse_versions(VERSIONS_TEXT)
 
         self.assertEqual(latest_for_action("checkout@v4", versions, refresh=False), ("actions/checkout", "v6"))
+        self.assertEqual(latest_for_action("astral-sh/setup-uv@v6", versions, refresh=False), ("astral-sh/setup-uv", "v7"))
         self.assertIsNone(latest_for_action("softprops/action-gh-release", versions, refresh=False))
 
     @patch("actions_latest.versions.fetch_action_tags")

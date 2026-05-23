@@ -20,6 +20,7 @@ SCRIPT_DIR = Path(__file__).parent.resolve()
 VERSIONS_FILE = SCRIPT_DIR / "versions.txt"
 PACKAGE_VERSIONS_FILE = SCRIPT_DIR / "actions_latest" / "versions.txt"
 UNVERSIONED_FILE = SCRIPT_DIR / "unversioned.txt"
+TRACKED_ACTIONS_FILE = SCRIPT_DIR / "tracked-actions.txt"
 README_FILE = SCRIPT_DIR / "README.md"
 
 # Markers for the README section
@@ -27,6 +28,7 @@ README_START_MARKER = "<!-- VERSIONS_START -->"
 README_END_MARKER = "<!-- VERSIONS_END -->"
 ORG_NAME = "actions"
 GITHUB_API_URL = "https://api.github.com"
+ACTION_NAME_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 
 
 def github_api_headers() -> list[str]:
@@ -57,6 +59,25 @@ def save_unversioned(repos: set[str]) -> None:
     with open(UNVERSIONED_FILE, "w") as f:
         for repo_name in sorted(repos):
             f.write(f"{repo_name}\n")
+
+
+def load_tracked_actions() -> list[str]:
+    """Load additional owner/repo actions to include in generated versions."""
+    if not TRACKED_ACTIONS_FILE.exists():
+        return []
+
+    actions = []
+    for line_number, line in enumerate(TRACKED_ACTIONS_FILE.read_text().splitlines(), start=1):
+        action = line.split("#", 1)[0].strip()
+        if not action:
+            continue
+        if not ACTION_NAME_RE.match(action):
+            raise ValueError(
+                f"Invalid action name in {TRACKED_ACTIONS_FILE}:{line_number}: {line!r}"
+            )
+        actions.append(action)
+
+    return sorted(set(actions), key=str.lower)
 
 
 def update_readme(versions_content: str) -> None:
@@ -203,18 +224,40 @@ def main():
         latest_tag = get_latest_version_tag(tags)
 
         if latest_tag:
-            versions.append((repo_name, latest_tag))
+            versions.append((f"{ORG_NAME}/{repo_name}", latest_tag))
             print(f"{latest_tag}")
         else:
             print("no vINTEGER tag")
             new_unversioned.add(repo_name)
 
-    # Sort alphabetically by repo name
+    tracked_actions = load_tracked_actions()
+    if tracked_actions:
+        print(f"\nFetching tags for {len(tracked_actions)} tracked third-party actions...")
+
+    tracked_versioned = {action for action, _ in versions}
+    for action in tracked_actions:
+        if action in tracked_versioned:
+            print(f"Skipping {action} (already fetched)")
+            continue
+
+        owner, repo_name = action.split("/", 1)
+        print(f"Fetching tags for {action}...", end=" ")
+        tags = fetch_tags(owner, repo_name)
+        latest_tag = get_latest_version_tag(tags)
+
+        if latest_tag:
+            versions.append((action, latest_tag))
+            tracked_versioned.add(action)
+            print(f"{latest_tag}")
+        else:
+            print("no vINTEGER tag")
+
+    # Sort alphabetically by action name
     versions.sort(key=lambda x: x[0].lower())
 
     # Build versions content
     versions_content = "\n".join(
-        f"{ORG_NAME}/{repo_name}@{tag}" for repo_name, tag in versions
+        f"{action}@{tag}" for action, tag in versions
     ) + "\n"
 
     # Write versions snapshots

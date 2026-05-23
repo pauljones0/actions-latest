@@ -11,9 +11,9 @@ from pathlib import Path
 from urllib.error import URLError
 from urllib.request import Request, urlopen
 
-DEFAULT_VERSIONS_URL = "https://simonw.github.io/actions-latest/versions.txt"
+DEFAULT_VERSIONS_URL = "https://raw.githubusercontent.com/pauljones0/actions-latest/main/versions.txt"
 GITHUB_API_URL = "https://api.github.com"
-VERSION_TOKEN_RE = re.compile(r"^actions/[A-Za-z0-9_.-]+@v[0-9][A-Za-z0-9_.-]*$")
+VERSION_TOKEN_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+@v[0-9][A-Za-z0-9_.-]*$")
 MAJOR_TAG_RE = re.compile(r"^v(\d+)$")
 SHA_RE = re.compile(r"^[0-9a-fA-F]{40}$")
 USES_RE = re.compile(r"^\s*-?\s*uses:\s*['\"]?([^'\"#\s]+)", re.MULTILINE)

@@ -2,9 +2,9 @@
 
 Keeping track of the latest versions of various GitHub Actions
 
-https://simonw.github.io/actions-latest/versions.txt
+https://raw.githubusercontent.com/pauljones0/actions-latest/main/versions.txt
 
-Access that URL for a list of all of the official Actions belonging to the [GitHub Actions](https://github.com/actions) organization along with their latest version tags.
+Access that URL for a list of the official Actions belonging to the [GitHub Actions](https://github.com/actions) organization, plus additional third-party actions listed in `tracked-actions.txt`, along with their latest version tags.
 
 You can point coding agents such as Claude Code and Codex CLI at this URL so they know the most recent Actions versions to use in their workflow files.
 
@@ -29,7 +29,7 @@ This fork can also run as a stdio MCP server for coding agents:
 
 Available tools:
 
-- `latest_github_actions_versions`: returns the full `versions.txt` content.
+- `latest_github_actions_versions`: returns the full tracked `versions.txt` content.
 - `latest_github_action_version`: looks up one action, such as `checkout`, `actions/checkout@v4`, or `softprops/action-gh-release@v2`.
 - `check_github_actions_workflow`: checks workflow YAML text for outdated GitHub Action references.
 
@@ -74,5 +74,6 @@ actions/upload-artifact@v7
 actions/upload-code-coverage@v1
 actions/upload-pages-artifact@v5
 actions/upload-release-asset@v1
+astral-sh/setup-uv@v7
 ```
 <!-- VERSIONS_END -->

@@ -163,6 +163,36 @@ class TestUnversionedCache(unittest.TestCase):
                 self.assertEqual(lines, ["alpha", "mango", "zebra"])
 
 
+class TestTrackedActions(unittest.TestCase):
+    """Tests for additional tracked action loading."""
+
+    def test_load_tracked_actions(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tracked_actions_file = Path(tmpdir) / "tracked-actions.txt"
+            tracked_actions_file.write_text(
+                "# comment\n"
+                "astral-sh/setup-uv\n"
+                "\n"
+                "softprops/action-gh-release # inline comment\n"
+                "astral-sh/setup-uv\n"
+            )
+
+            with patch.object(fetch_versions, "TRACKED_ACTIONS_FILE", tracked_actions_file):
+                self.assertEqual(
+                    fetch_versions.load_tracked_actions(),
+                    ["astral-sh/setup-uv", "softprops/action-gh-release"],
+                )
+
+    def test_load_tracked_actions_rejects_invalid_names(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tracked_actions_file = Path(tmpdir) / "tracked-actions.txt"
+            tracked_actions_file.write_text("not-an-action\n")
+
+            with patch.object(fetch_versions, "TRACKED_ACTIONS_FILE", tracked_actions_file):
+                with self.assertRaises(ValueError):
+                    fetch_versions.load_tracked_actions()
+
+
 class TestUpdateReadme(unittest.TestCase):
     """Tests for updating the README versions block."""
 
@@ -309,6 +339,7 @@ class TestMain(unittest.TestCase):
                 patch("builtins.open", side_effect=patched_open),
                 patch.object(fetch_versions, "PACKAGE_VERSIONS_FILE", package_versions_file),
                 patch.object(fetch_versions, "README_FILE", readme_file),
+                patch.object(fetch_versions, "TRACKED_ACTIONS_FILE", tmppath / "tracked-actions.txt"),
             ):
                 fetch_versions.main()
 
@@ -383,12 +414,65 @@ class TestMain(unittest.TestCase):
                 patch("builtins.open", side_effect=patched_open),
                 patch.object(fetch_versions, "PACKAGE_VERSIONS_FILE", package_versions_file),
                 patch.object(fetch_versions, "README_FILE", readme_file),
+                patch.object(fetch_versions, "TRACKED_ACTIONS_FILE", tmppath / "tracked-actions.txt"),
             ):
                 fetch_versions.main()
 
             # fetch_tags should only be called once (for setup-python, not cached-no-tags)
             self.assertEqual(mock_fetch_tags.call_count, 1)
             mock_fetch_tags.assert_called_with("actions", "setup-python")
+
+    @patch("fetch_versions.save_unversioned")
+    @patch("fetch_versions.load_unversioned")
+    @patch("fetch_versions.VERSIONS_FILE")
+    @patch("fetch_versions.fetch_tags")
+    @patch("fetch_versions.fetch_repos")
+    def test_main_includes_tracked_actions(
+        self,
+        mock_fetch_repos,
+        mock_fetch_tags,
+        mock_versions_file,
+        mock_load_unversioned,
+        mock_save_unversioned,
+    ):
+        """Test that tracked third-party actions are included in generated versions."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmppath = Path(tmpdir)
+            versions_file = tmppath / "versions.txt"
+            package_versions_file = tmppath / "package_versions.txt"
+            readme_file = tmppath / "README.md"
+            tracked_actions_file = tmppath / "tracked-actions.txt"
+            tracked_actions_file.write_text("astral-sh/setup-uv\n")
+            readme_file.write_text(
+                f"{fetch_versions.README_START_MARKER}\n"
+                f"{fetch_versions.README_END_MARKER}\n"
+            )
+            mock_versions_file.__str__ = lambda self: str(versions_file)
+            mock_versions_file.__fspath__ = lambda self: str(versions_file)
+
+            mock_load_unversioned.return_value = set()
+            mock_fetch_repos.return_value = []
+            mock_fetch_tags.return_value = ["v8.1.0", "v7", "v6"]
+
+            original_open = open
+
+            def patched_open(path, *args, **kwargs):
+                if "versions.txt" in str(path):
+                    return original_open(versions_file, *args, **kwargs)
+                return original_open(path, *args, **kwargs)
+
+            with (
+                patch("builtins.open", side_effect=patched_open),
+                patch.object(fetch_versions, "PACKAGE_VERSIONS_FILE", package_versions_file),
+                patch.object(fetch_versions, "README_FILE", readme_file),
+                patch.object(fetch_versions, "TRACKED_ACTIONS_FILE", tracked_actions_file),
+            ):
+                fetch_versions.main()
+
+            self.assertEqual(versions_file.read_text(), "astral-sh/setup-uv@v7\n")
+            self.assertEqual(package_versions_file.read_text(), "astral-sh/setup-uv@v7\n")
+            mock_fetch_tags.assert_called_once_with("astral-sh", "setup-uv")
+            mock_save_unversioned.assert_called_once_with(set())
 
 
 class TestVersionPatternMatching(unittest.TestCase):

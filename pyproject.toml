@@ -1,7 +1,7 @@
 [project]
 name = "actions-latest"
 version = "0.1.0"
-description = "Track and expose latest official GitHub Actions versions"
+description = "Track and expose latest tracked GitHub Actions versions"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

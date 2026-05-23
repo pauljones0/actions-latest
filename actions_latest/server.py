@@ -1,4 +1,4 @@
-"""MCP server exposing latest official GitHub Actions versions."""
+"""MCP server exposing latest tracked GitHub Actions versions."""
 
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ mcp = FastMCP("actions-latest")
 
 @mcp.tool()
 def latest_github_actions_versions(refresh: bool = True) -> str:
-    """Return all latest official actions/* version tags as versions.txt content."""
+    """Return all latest tracked GitHub Actions version tags as versions.txt content."""
     return load_versions_text(refresh=refresh)
 
 
