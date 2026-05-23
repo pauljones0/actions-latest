@@ -125,9 +125,8 @@ class TestFetchTags(unittest.TestCase):
             returncode=0,
         )
 
-        tags = fetch_versions.fetch_tags("actions", "some-repo")
-
-        self.assertEqual(len(tags), 0)
+        with self.assertRaises(RuntimeError):
+            fetch_versions.fetch_tags("actions", "some-repo")
 
 
 class TestUnversionedCache(unittest.TestCase):
@@ -162,6 +161,44 @@ class TestUnversionedCache(unittest.TestCase):
                 lines = content.strip().split("\n")
                 # Should be sorted alphabetically
                 self.assertEqual(lines, ["alpha", "mango", "zebra"])
+
+
+class TestUpdateReadme(unittest.TestCase):
+    """Tests for updating the README versions block."""
+
+    def test_update_readme_replaces_only_marked_section(self):
+        """Test replacing the generated block while preserving surrounding text."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            readme_file = Path(tmpdir) / "README.md"
+            readme_file.write_text(
+                "Intro text\n\n"
+                f"{fetch_versions.README_START_MARKER}\n"
+                "## Latest versions\n\n"
+                "```\n"
+                "actions/checkout@v5\n"
+                "```\n"
+                f"{fetch_versions.README_END_MARKER}\n\n"
+                "Footer text\n"
+            )
+
+            with patch.object(fetch_versions, "README_FILE", readme_file):
+                fetch_versions.update_readme(
+                    "actions/checkout@v6\n"
+                    "actions/upload-artifact@v7\n"
+                )
+
+            self.assertEqual(
+                readme_file.read_text(),
+                "Intro text\n\n"
+                f"{fetch_versions.README_START_MARKER}\n"
+                "## Latest versions\n\n"
+                "```\n"
+                "actions/checkout@v6\n"
+                "actions/upload-artifact@v7\n"
+                "```\n"
+                f"{fetch_versions.README_END_MARKER}\n\n"
+                "Footer text\n"
+            )
 
 
 class TestGetLatestVersionTag(unittest.TestCase):
@@ -219,6 +256,12 @@ class TestMain(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmpdir:
             tmppath = Path(tmpdir)
             versions_file = tmppath / "versions.txt"
+            package_versions_file = tmppath / "package_versions.txt"
+            readme_file = tmppath / "README.md"
+            readme_file.write_text(
+                f"{fetch_versions.README_START_MARKER}\n"
+                f"{fetch_versions.README_END_MARKER}\n"
+            )
             mock_versions_file.__str__ = lambda self: str(versions_file)
             mock_versions_file.__fspath__ = lambda self: str(versions_file)
 
@@ -262,7 +305,11 @@ class TestMain(unittest.TestCase):
                     return original_open(versions_file, *args, **kwargs)
                 return original_open(path, *args, **kwargs)
 
-            with patch("builtins.open", side_effect=patched_open):
+            with (
+                patch("builtins.open", side_effect=patched_open),
+                patch.object(fetch_versions, "PACKAGE_VERSIONS_FILE", package_versions_file),
+                patch.object(fetch_versions, "README_FILE", readme_file),
+            ):
                 fetch_versions.main()
 
             # Verify the versions file was written correctly
@@ -272,6 +319,7 @@ class TestMain(unittest.TestCase):
             self.assertEqual(len(lines), 2)
             self.assertIn("actions/setup-node@v4", lines)
             self.assertIn("actions/setup-python@v5", lines)
+            self.assertEqual(package_versions_file.read_text(), content)
 
             # Verify alphabetical ordering (setup-node before setup-python)
             self.assertEqual(lines[0], "actions/setup-node@v4")
@@ -301,6 +349,12 @@ class TestMain(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmpdir:
             tmppath = Path(tmpdir)
             versions_file = tmppath / "versions.txt"
+            package_versions_file = tmppath / "package_versions.txt"
+            readme_file = tmppath / "README.md"
+            readme_file.write_text(
+                f"{fetch_versions.README_START_MARKER}\n"
+                f"{fetch_versions.README_END_MARKER}\n"
+            )
             mock_versions_file.__str__ = lambda self: str(versions_file)
             mock_versions_file.__fspath__ = lambda self: str(versions_file)
 
@@ -325,7 +379,11 @@ class TestMain(unittest.TestCase):
                     return original_open(versions_file, *args, **kwargs)
                 return original_open(path, *args, **kwargs)
 
-            with patch("builtins.open", side_effect=patched_open):
+            with (
+                patch("builtins.open", side_effect=patched_open),
+                patch.object(fetch_versions, "PACKAGE_VERSIONS_FILE", package_versions_file),
+                patch.object(fetch_versions, "README_FILE", readme_file),
+            ):
                 fetch_versions.main()
 
             # fetch_tags should only be called once (for setup-python, not cached-no-tags)

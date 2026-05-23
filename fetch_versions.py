@@ -10,14 +10,15 @@ API calls on future runs.
 """
 
 import json
+import os
 import re
 import subprocess
-import sys
 from pathlib import Path
 
 
 SCRIPT_DIR = Path(__file__).parent.resolve()
 VERSIONS_FILE = SCRIPT_DIR / "versions.txt"
+PACKAGE_VERSIONS_FILE = SCRIPT_DIR / "actions_latest" / "versions.txt"
 UNVERSIONED_FILE = SCRIPT_DIR / "unversioned.txt"
 README_FILE = SCRIPT_DIR / "README.md"
 
@@ -26,6 +27,22 @@ README_START_MARKER = "<!-- VERSIONS_START -->"
 README_END_MARKER = "<!-- VERSIONS_END -->"
 ORG_NAME = "actions"
 GITHUB_API_URL = "https://api.github.com"
+
+
+def github_api_headers() -> list[str]:
+    """Return curl headers for GitHub API requests."""
+    headers = ["-H", "Accept: application/vnd.github+json"]
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers.extend(
+            [
+                "-H",
+                f"Authorization: Bearer {token}",
+                "-H",
+                "X-GitHub-Api-Version: 2022-11-28",
+            ]
+        )
+    return headers
 
 
 def load_unversioned() -> set[str]:
@@ -83,13 +100,15 @@ def fetch_repos(org: str) -> list[dict]:
     while True:
         url = f"{GITHUB_API_URL}/orgs/{org}/repos?per_page={per_page}&page={page}"
         result = subprocess.run(
-            ["curl", "-s", "-H", "Accept: application/vnd.github+json", url],
+            ["curl", "-s", *github_api_headers(), url],
             capture_output=True,
             text=True,
             check=True,
         )
 
         page_repos = json.loads(result.stdout)
+        if isinstance(page_repos, dict) and "message" in page_repos:
+            raise RuntimeError(f"API error fetching repos for {org}: {page_repos['message']}")
 
         if not page_repos:
             break
@@ -113,7 +132,7 @@ def fetch_tags(org: str, repo_name: str) -> list[str]:
     while True:
         url = f"{GITHUB_API_URL}/repos/{org}/{repo_name}/tags?per_page={per_page}&page={page}"
         result = subprocess.run(
-            ["curl", "-s", "-H", "Accept: application/vnd.github+json", url],
+            ["curl", "-s", *github_api_headers(), url],
             capture_output=True,
             text=True,
             check=True,
@@ -121,10 +140,8 @@ def fetch_tags(org: str, repo_name: str) -> list[str]:
 
         page_tags = json.loads(result.stdout)
 
-        # Handle error responses (e.g., rate limiting)
         if isinstance(page_tags, dict) and "message" in page_tags:
-            print(f"  API error for {repo_name}: {page_tags['message']}", file=sys.stderr)
-            break
+            raise RuntimeError(f"API error for {repo_name}: {page_tags['message']}")
 
         if not page_tags:
             break
@@ -200,9 +217,11 @@ def main():
         f"{ORG_NAME}/{repo_name}@{tag}" for repo_name, tag in versions
     ) + "\n"
 
-    # Write versions.txt
+    # Write versions snapshots
     with open(VERSIONS_FILE, "w") as f:
         f.write(versions_content)
+    if PACKAGE_VERSIONS_FILE.parent.exists():
+        PACKAGE_VERSIONS_FILE.write_text(versions_content)
 
     # Update README.md with the versions
     update_readme(versions_content)
