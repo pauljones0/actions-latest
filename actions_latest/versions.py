@@ -1,228 +1,161 @@
-"""Load, parse, and compare latest stable GitHub Actions versions."""
+"""Data access layer for the Action Navigator."""
 
 from __future__ import annotations
 
-import json
+import sqlite3
+import subprocess
 import os
-import re
 from dataclasses import dataclass
 from importlib import resources
 from pathlib import Path
-from urllib.error import URLError
-from urllib.request import Request, urlopen
-
-DEFAULT_VERSIONS_URL = "https://raw.githubusercontent.com/pauljones0/actions-latest/main/versions.txt"
-DEFAULT_COMMUNITY_VERSIONS_URL = "https://raw.githubusercontent.com/pauljones0/actions-latest/main/community-versions.txt"
-GITHUB_API_URL = "https://api.github.com"
-VERSION_TOKEN_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+@v[0-9][A-Za-z0-9_.-]*$")
-MAJOR_TAG_RE = re.compile(r"^v(\d+)$")
-SHA_RE = re.compile(r"^[0-9a-fA-F]{40}$")
-USES_RE = re.compile(r"^\s*-?\s*uses:\s*['\"]?([^'\"#\s]+)", re.MULTILINE)
-
+from typing import List, Optional
 
 @dataclass(frozen=True)
-class WorkflowUpdate:
-    """A workflow action reference that can be updated."""
-
+class ActionMetadata:
     action: str
-    current: str
-    latest: str
-    line: str
+    latest_tag: str
+    description: str
+    category: str = "General"
+    tags: str = ""
+    best_use_case: str = ""
+    robustness_score: int = 0
+    stars: int = 0
+    runtime: str = ""
+    requires: str = "[]"
+    conflicts: str = "[]"
+    permissions: str = "{}"
+    auth: str = ""
+    outputs: str = "[]"
+    side_effects: str = "[]"
+    performance: str = ""
+    match_logic: str = ""
 
+class MetadataStore:
+    def __init__(self, db_path: str):
+        self.db_path = db_path
 
-def bundled_versions_text(include_untrusted: bool = False) -> str:
-    """Return the packaged versions snapshot."""
-    package_files = resources.files("actions_latest")
-    versions_text = package_files.joinpath("versions.txt").read_text()
-    if include_untrusted:
-        versions_text += "\n" + package_files.joinpath("community-versions.txt").read_text()
-    return versions_text
+    def _get_conn(self):
+        return sqlite3.connect(self.db_path)
 
+    def search(self, query: str, limit: int = 10) -> List[ActionMetadata]:
+        """Search actions using BM25 and Robustness Score."""
+        conn = self._get_conn()
+        cursor = conn.cursor()
+        try:
+            # Rank by BM25 ranking (rank) first, then authority (robustness_score)
+            cursor.execute("""
+                SELECT actions.action, actions.latest_tag, actions.description, 
+                       actions.category, actions.tags, actions.best_use_case,
+                       actions.robustness_score, actions.stars,
+                       actions.runtime, actions.requires, actions.conflicts,
+                       actions.permissions, actions.auth, actions.outputs,
+                       actions.side_effects, actions.performance, actions.match_logic
+                FROM actions_fts
+                JOIN actions ON actions.rowid = actions_fts.rowid
+                WHERE actions_fts MATCH ?
+                ORDER BY rank, actions.robustness_score DESC
+                LIMIT ?
+            """, (query, limit))
+            results = cursor.fetchall()
+            return [ActionMetadata(*r) for r in results]
+        except sqlite3.OperationalError:
+            return []
+        finally:
+            conn.close()
 
-def fetch_versions_text(url: str | None = None, timeout: float = 10.0) -> str:
-    """Fetch trusted versions text from the configured URL."""
-    request = Request(
-        url or os.environ.get("ACTIONS_LATEST_URL", DEFAULT_VERSIONS_URL),
-        headers={"User-Agent": "actions-latest-mcp"},
-    )
-    with urlopen(request, timeout=timeout) as response:
-        return response.read().decode("utf-8")
+    def find_by_tag(self, tag: str, limit: int = 10) -> List[ActionMetadata]:
+        """Find actions by tag, sorted by robustness."""
+        conn = self._get_conn()
+        cursor = conn.cursor()
+        cursor.execute("""
+            SELECT action, latest_tag, description, category, tags, best_use_case, robustness_score, stars,
+                   runtime, requires, conflicts, permissions, auth, outputs, side_effects, performance, match_logic
+            FROM actions 
+            WHERE tags LIKE ? 
+            ORDER BY robustness_score DESC
+            LIMIT ?
+        """, (f"%{tag}%", limit))
+        results = cursor.fetchall()
+        conn.close()
+        return [ActionMetadata(*r) for r in results]
 
+    def list_categories(self) -> List[str]:
+        """List available categories."""
+        conn = self._get_conn()
+        cursor = conn.cursor()
+        cursor.execute("SELECT DISTINCT category FROM actions")
+        categories = [r[0] for r in cursor.fetchall()]
+        conn.close()
+        return sorted(categories)
 
-def fetch_community_versions_text(url: str | None = None, timeout: float = 10.0) -> str:
-    """Fetch community versions text from the configured URL."""
-    request = Request(
-        url or os.environ.get("ACTIONS_LATEST_COMMUNITY_URL", DEFAULT_COMMUNITY_VERSIONS_URL),
-        headers={"User-Agent": "actions-latest-mcp"},
-    )
-    with urlopen(request, timeout=timeout) as response:
-        return response.read().decode("utf-8")
+    def list_owners(self, category: str = "all") -> List[str]:
+        """List owners (simulated directories)."""
+        conn = self._get_conn()
+        cursor = conn.cursor()
+        cursor.execute("SELECT DISTINCT SUBSTR(action, 1, INSTR(action, '/') - 1) FROM actions")
+        owners = [r[0] for r in cursor.fetchall()]
+        conn.close()
+        return sorted(owners)
 
+    def list_repos(self, owner: str) -> List[ActionMetadata]:
+        """List repos for a specific owner."""
+        conn = self._get_conn()
+        cursor = conn.cursor()
+        cursor.execute("""
+            SELECT action, latest_tag, description, category, tags, best_use_case, robustness_score, stars,
+                   runtime, requires, conflicts, permissions, auth, outputs, side_effects, performance, match_logic
+            FROM actions 
+            WHERE action LIKE ?
+        """, (f"{owner}/%",))
+        results = cursor.fetchall()
+        conn.close()
+        return [ActionMetadata(*r) for r in results]
 
-def github_api_json(path: str, timeout: float = 10.0) -> object:
-    """Fetch JSON from the GitHub API."""
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "User-Agent": "actions-latest-mcp",
-        "X-GitHub-Api-Version": "2022-11-28",
-    }
+    def get_info(self, action: str) -> Optional[ActionMetadata]:
+        """Get metadata for a specific action."""
+        conn = self._get_conn()
+        cursor = conn.cursor()
+        cursor.execute("""
+            SELECT action, latest_tag, description, category, tags, best_use_case, robustness_score, stars,
+                   runtime, requires, conflicts, permissions, auth, outputs, side_effects, performance, match_logic
+            FROM actions 
+            WHERE action = ?
+        """, (action,))
+        result = cursor.fetchone()
+        conn.close()
+        if result:
+            return ActionMetadata(*result)
+        return None
+
+def get_db_path() -> Path:
+    """Return the path to the actions.db file."""
+    package_db = resources.files("actions_latest").joinpath("actions.db")
+    try:
+        with resources.as_file(package_db) as f:
+            return f
+    except:
+        return Path(__file__).resolve().parent / "actions.db"
+
+def fetch_action_manifest(action: str, timeout: float = 10.0) -> str:
+    """Fetch action.yml or action.yaml from the repository."""
     token = os.environ.get("GITHUB_TOKEN")
+    headers = ["-H", "Accept: application/vnd.github.v3.raw"]
     if token:
-        headers["Authorization"] = f"Bearer {token}"
-
-    request = Request(f"{GITHUB_API_URL}{path}", headers=headers)
-    with urlopen(request, timeout=timeout) as response:
-        return json.loads(response.read().decode("utf-8"))
-
-
-def load_versions_text(refresh: bool = True, include_untrusted: bool = False) -> str:
-    """Return remote versions text, falling back to the packaged snapshot."""
-    if not refresh or os.environ.get("ACTIONS_LATEST_OFFLINE"):
-        return bundled_versions_text(include_untrusted=include_untrusted)
-
-    try:
-        versions_text = fetch_versions_text()
-        if include_untrusted:
-            versions_text += "\n" + fetch_community_versions_text()
-        return versions_text
-    except (OSError, URLError):
-        return bundled_versions_text(include_untrusted=include_untrusted)
-
-
-def parse_versions(text: str) -> dict[str, str]:
-    """Parse versions text into {action_name: version_ref}."""
-    versions: dict[str, str] = {}
-    for token in text.split():
-        token = token.strip()
-        if not VERSION_TOKEN_RE.match(token):
-            continue
-        action, version = token.split("@", 1)
-        versions[action] = version
-    return dict(sorted(versions.items()))
-
-
-def latest_major_tag(tags: list[str]) -> str | None:
-    """Return the highest floating major tag, matching Simon's vINTEGER style."""
-    major_tags: list[tuple[int, str]] = []
-    for tag in tags:
-        match = MAJOR_TAG_RE.match(tag.strip())
-        if match:
-            major_tags.append((int(match.group(1)), tag.strip()))
-
-    if not major_tags:
-        return None
-
-    major_tags.sort(reverse=True, key=lambda item: item[0])
-    return major_tags[0][1]
-
-
-def normalize_action_name(action: str) -> str:
-    """Normalize an action input to owner/name form."""
-    name = action.strip().strip("'\"")
-    if name.startswith("uses:"):
-        name = name.split(":", 1)[1].strip()
-    if "@" in name:
-        name = name.split("@", 1)[0]
-    if "/" not in name:
-        name = f"actions/{name}"
-    return name
-
-
-def action_repo(action: str) -> str | None:
-    """Return owner/repo for an action reference."""
-    parts = normalize_action_name(action).split("/")
-    if len(parts) < 2:
-        return None
-    return "/".join(parts[:2])
-
-
-def fetch_action_tags(action: str) -> list[str]:
-    """Fetch all tags for an action repository."""
-    repo = action_repo(action)
-    if repo is None:
-        return []
-
-    tags: list[str] = []
-    page = 1
-    per_page = 100
-    while True:
-        page_tags = github_api_json(f"/repos/{repo}/tags?per_page={per_page}&page={page}")
-        if not isinstance(page_tags, list):
-            raise RuntimeError(f"Unexpected tags response for {repo}")
-        if not page_tags:
-            break
-
-        for tag in page_tags:
-            if isinstance(tag, dict) and isinstance(tag.get("name"), str):
-                tags.append(tag["name"])
-
-        if len(page_tags) < per_page:
-            break
-        page += 1
-
-    return tags
-
-
-def latest_for_action(action: str, versions: dict[str, str], refresh: bool = True) -> tuple[str, str] | None:
-    """Return (normalized_action, latest stable ref) for an action, if known."""
-    normalized = normalize_action_name(action)
-    for candidate in dict.fromkeys((normalized, action_repo(normalized))):
-        if candidate is None:
-            continue
-        latest = versions.get(candidate)
-        if latest is not None:
-            return candidate, latest
-
-    if not refresh:
-        return None
-
-    try:
-        repo = action_repo(normalized) or normalized
-        latest = latest_major_tag(fetch_action_tags(repo))
-    except (OSError, URLError, RuntimeError):
-        return None
-
-    if latest is None:
-        return None
-    return repo, latest
-
-
-def workflow_updates(workflow: str, versions: dict[str, str], refresh: bool = True) -> list[WorkflowUpdate]:
-    """Find action references that do not use the latest stable major tag."""
-    updates: list[WorkflowUpdate] = []
-    for match in USES_RE.finditer(workflow):
-        ref = match.group(1).strip()
-        if ref.startswith(("./", "docker://")) or "@" not in ref:
-            continue
-
-        action, current = ref.split("@", 1)
-        if SHA_RE.match(current) or current == "stable":
-            continue
-
-        result = latest_for_action(action, versions, refresh=refresh)
-        if result is None:
-            continue
-
-        normalized, latest = result
-        if current == latest:
-            continue
-
-        line_start = workflow.rfind("\n", 0, match.start()) + 1
-        line_end = workflow.find("\n", match.start())
-        if line_end == -1:
-            line_end = len(workflow)
-
-        updates.append(
-            WorkflowUpdate(
-                action=normalized,
-                current=current,
-                latest=latest,
-                line=workflow[line_start:line_end],
+        headers.extend(["-H", f"Authorization: Bearer {token}"])
+    
+    for filename in ["action.yml", "action.yaml"]:
+        url = f"https://api.github.com/repos/{action}/contents/{filename}"
+        try:
+            result = subprocess.run(
+                ["curl", "-sL", *headers, url],
+                capture_output=True, text=True, timeout=timeout
             )
-        )
-    return updates
+            if result.returncode == 0 and not result.stdout.startswith("{"):
+                return result.stdout
+        except:
+            continue
+    return f"[error] Could not find action.yml or action.yaml for {action}."
 
-
-def repo_versions_file() -> Path:
-    """Return the root versions.txt path for this repository checkout."""
-    return Path(__file__).resolve().parent.parent / "versions.txt"
+def generate_usage_snippet(action: str, version: str) -> str:
+    """Generate a simple YAML usage snippet."""
+    return f"- uses: {action}@{version}\n  with:\n    # Pass inputs here"
