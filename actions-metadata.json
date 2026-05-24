@@ -488,8 +488,8 @@
     "latest_tag": "v5",
     "description": "Pre-condition: Artifacts are uploaded for Pages. Transform: Deploys the static site artifacts to the GitHub Pages hosting service. Post-condition: The site is live and accessible via the Pages URL.",
     "category": "Deployment",
-    "stars": 911,
-    "robustness_score": 19490,
+    "stars": 912,
+    "robustness_score": 19510,
     "tags": [
       "pages",
       "deploy",
@@ -572,8 +572,8 @@
     "latest_tag": "v4",
     "description": "Pre-condition: CodeQL database is initialized. Transform: Executes security analysis queries against the source code database. Post-condition: Vulnerabilities are identified and uploaded to GitHub Security tab.",
     "category": "Security",
-    "stars": 1545,
-    "robustness_score": 17740,
+    "stars": 1546,
+    "robustness_score": 17750,
     "tags": [
       "codeql",
       "security",
@@ -795,8 +795,8 @@
     "latest_tag": "v8",
     "description": "Pre-condition: Source code is present in the workspace. Transform: Runs a comprehensive suite of linters across multiple languages. Post-condition: Reports linting errors and fails if issues are found.",
     "category": "CI",
-    "stars": 10458,
-    "robustness_score": 10988,
+    "stars": 10459,
+    "robustness_score": 10989,
     "tags": [
       "check-square",
       "super",
@@ -878,8 +878,8 @@
     "latest_tag": "v1",
     "description": "Pre-condition: API key and instruction prompt are provided. Transform: Processes repository context with Claude AI to generate code or analysis. Post-condition: Returns AI-generated results or performs automated changes.",
     "category": "Other",
-    "stars": 7696,
-    "robustness_score": 8626,
+    "stars": 7698,
+    "robustness_score": 8628,
     "tags": [
       "ai",
       "claude",
@@ -962,8 +962,8 @@
     "latest_tag": "v3",
     "description": "Pre-condition: GitHub username is provided. Transform: Fetches contribution data and generates a snake game animation. Post-condition: GIF or SVG animation is saved to the workspace.",
     "category": "Source Control",
-    "stars": 5835,
-    "robustness_score": 6955,
+    "stars": 5837,
+    "robustness_score": 6957,
     "tags": [
       "generate",
       "snake",
@@ -1071,8 +1071,8 @@
     "latest_tag": "v3",
     "description": "Pre-condition: Tag exists and artifacts are available. Transform: Creates or updates a GitHub Release and uploads specified files. Post-condition: A public release is created on GitHub with attached artifacts.",
     "category": "Deployment",
-    "stars": 5627,
-    "robustness_score": 5938,
+    "stars": 5628,
+    "robustness_score": 5939,
     "tags": [
       "release",
       "artifacts",
@@ -1159,8 +1159,8 @@
     "latest_tag": "v6",
     "description": "Pre-condition: GitHub Pages is enabled for the repo. Transform: Configures the pages environment and retrieves deployment metadata. Post-condition: Metadata for the Pages site is available for subsequent deployment steps.",
     "category": "Deployment",
-    "stars": 226,
-    "robustness_score": 5240,
+    "stars": 227,
+    "robustness_score": 5260,
     "tags": [
       "pages",
       "static-site",
@@ -1536,8 +1536,8 @@
     "latest_tag": "v1",
     "description": "Pre-condition: A README file exists in the repo and a blog feed URL is provided. Transform: Fetches the latest posts and injects them into the README between defined markers. Post-condition: The README is updated with fresh blog content and committed back to the repository.",
     "category": "CI",
-    "stars": 3399,
-    "robustness_score": 3545,
+    "stars": 3398,
+    "robustness_score": 3544,
     "tags": [
       "activity",
       "blog",
@@ -3082,8 +3082,8 @@
     "latest_tag": "v4",
     "description": "Pre-condition: Tailscale Auth Key. Transform: Installs Tailscale and connects to tailnet. Post-condition: Runner has network access to Tailscale nodes.",
     "category": "Source Control",
-    "stars": 895,
-    "robustness_score": 960,
+    "stars": 896,
+    "robustness_score": 961,
     "tags": [
       "arrow-right-circle",
       "connect",
@@ -3535,8 +3535,8 @@
     "latest_tag": "v1",
     "description": "Pre-condition: AI agent configurations. Transform: Scans for security risks and vulnerabilities. Post-condition: Security report generated with risk assessment.",
     "category": "Security",
-    "stars": 671,
-    "robustness_score": 741,
+    "stars": 672,
+    "robustness_score": 742,
     "tags": [
       "claude",
       "ai-security",
@@ -3615,8 +3615,8 @@
     "latest_tag": "v5",
     "description": "Pre-condition: Issue comment event. Transform: Parses slash command and triggers repository_dispatch. Post-condition: Downstream workflow triggered by dispatch event.",
     "category": "Utility",
-    "stars": 689,
-    "robustness_score": 720,
+    "stars": 690,
+    "robustness_score": 721,
     "tags": [
       "target",
       "slash",
@@ -3815,8 +3815,8 @@
     "latest_tag": "v2",
     "description": "Pre-condition: Agent project. Transform: Scans for AI security risks and misconfigurations. Post-condition: Security report and hardened config generated.",
     "category": "Security",
-    "stars": 636,
-    "robustness_score": 673,
+    "stars": 637,
+    "robustness_score": 674,
     "tags": [
       "shield",
       "pipelock",
@@ -3841,8 +3841,8 @@
     "latest_tag": "v0",
     "description": "Pre-condition: New PR event. Transform: Analyzes PR content for low-quality AI patterns. Post-condition: Low-quality PRs automatically closed with feedback.",
     "category": "CI",
-    "stars": 664,
-    "robustness_score": 670,
+    "stars": 665,
+    "robustness_score": 671,
     "tags": [
       "slash",
       "anti",
@@ -8074,8 +8074,8 @@
       "govulncheck",
       "tool"
     ],
-    "robustness_score": 148,
-    "stars": 139,
+    "robustness_score": 149,
+    "stars": 140,
     "runtime": "node20",
     "requires": [
       "actions/setup-go"
@@ -8567,7 +8567,7 @@
       "added",
       "pull"
     ],
-    "robustness_score": 128,
+    "robustness_score": 129,
     "stars": 114,
     "runtime": "node20",
     "requires": [],
@@ -11189,7 +11189,7 @@
   },
   {
     "action": "GrantBirki/json-yaml-validate",
-    "latest_tag": "v4",
+    "latest_tag": "v5",
     "description": "Pre-condition: A repository with JSON/YAML files. Transform: Parses the files to ensure they are well-formed. Post-condition: Fails if any files are invalid.",
     "category": "Source Control",
     "tags": [
@@ -11824,7 +11824,7 @@
       "builds",
       "binaries"
     ],
-    "robustness_score": 37,
+    "robustness_score": 38,
     "stars": 26,
     "runtime": "docker",
     "requires": [],
