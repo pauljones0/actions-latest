@@ -2,9 +2,14 @@
 
 from __future__ import annotations
 
+import json
+import os
 import shlex
+import subprocess
+import tempfile
 import time
 import re
+from pathlib import Path
 from typing import List, Optional
 
 from mcp.server.fastmcp import FastMCP
@@ -29,6 +34,7 @@ HELP_TEXT = """Available commands:
   find --tag <T>  - Filter by high-signal tags.
   browse          - List categories.
   man <action>    - Fetch and display the action.yml manifest.
+  audit <action>  - Run on-demand zizmor security scan on an action's manifest.
   help            - Show this help message.
 
 Unix Chaining Supported:
@@ -38,6 +44,7 @@ Unix Chaining Supported:
 
 Example:
   run "grep setup | grep node | cat"
+  run "grep deploy | cat | audit"
 """
 
 def format_result(output: str, exit_code: int = 0, duration_ms: int = 0) -> str:
@@ -73,7 +80,8 @@ def execute_internal(command_str: str, stdin: Optional[str] = None) -> tuple[str
             return f"[error] Owner {owner!r} not found. Use 'ls' to see available owners.", 1
         output = f"Actions in {owner}/:\n"
         for r in repos:
-            output += f"  {r.action.split('/')[-1]:<25} | {r.best_use_case or r.description} (⭐ {r.stars})\n"
+            security_marker = " 🚫" if r.zizmor_blocked else (" ⚠️" if not r.zizmor_ok else "")
+            output += f"  {r.action.split('/')[-1]:<25} | {r.best_use_case or r.description} (⭐ {r.stars}){security_marker}\n"
         return output, 0
 
     elif cmd == "grep":
@@ -110,21 +118,53 @@ def execute_internal(command_str: str, stdin: Optional[str] = None) -> tuple[str
         if not cmd_args:
             return "[error] usage: cat <action>. Use 'grep' to find actions first.", 1
         # Handle multiple actions if piped (just take first one for now or loop)
-        actions = cmd_args[0].splitlines()
-        if not actions: return "[error] No action specified.", 1
-        
-        action = actions[0].split()[0] # Take first word of first line
+        actions_list = cmd_args[0].splitlines()
+        if not actions_list:
+            return "[error] No action specified.", 1
+
+        action = actions_list[0].split()[0]  # Take first word of first line
         info = store.get_info(action)
         if not info:
             return f"[error] Action {action!r} not found. Try 'grep {action}' to find similar.", 1
-        
+
+        # Build security badge from stored zizmor scan results.
+        # Three tiers:
+        #   BLOCKED  — has ERROR findings. Never recommended; shown for transparency.
+        #   WARNING  — has WARNING findings. Show what they are.
+        #   CLEAN    — no significant findings (INFO only, or not yet scanned).
+        if info.zizmor_blocked:
+            try:
+                errs = json.loads(info.zizmor_error_findings)
+            except Exception:
+                errs = []
+            security_line = (
+                f"Security:   🚫 BLOCKED — {len(errs)} ERROR finding(s) — run 'audit {action}' for details\n"
+                f"            DO NOT USE: this action has critical security issues in its manifest."
+            )
+        elif not info.zizmor_ok:
+            try:
+                warns = json.loads(info.zizmor_warning_findings)
+                n = len(warns)
+            except Exception:
+                n = "?"
+            security_line = f"Security:   ⚠️  {n} WARNING finding(s) — run 'audit {action}' for details"
+        else:
+            scanned_at = info.zizmor_scanned_at
+            scan_note = f" (scanned {scanned_at[:10]}" + ")" if scanned_at else " (not yet scanned)"
+            security_line = f"Security:   ✅ zizmor clean{scan_note}"
+
+        # Show the ref we actually recommend (SHA for determinism, tag as label)
+        sha_short = (info.latest_sha or "")[:8]
+        ref_display = f"{info.latest_tag}" + (f"  [{sha_short}]" if sha_short else "")
+
         output = f"Action:     {info.action}\n"
-        output += f"Latest:     {info.latest_tag}\n"
+        output += f"Latest:     {ref_display}\n"
         output += f"Category:   {info.category}\n"
         output += f"Popularity: ⭐ {info.stars} stars\n"
+        output += f"{security_line}\n"
         output += f"Contract:   {info.description or 'No description'}\n"
         output += f"Match Logic:{info.match_logic or info.best_use_case}\n\n"
-        
+
         output += "--- Operational Logic ---\n"
         output += f"Runtime:    {info.runtime or 'unknown'}\n"
         output += f"Auth Method:{info.auth or 'none'}\n"
@@ -147,8 +187,140 @@ def execute_internal(command_str: str, stdin: Optional[str] = None) -> tuple[str
         manifest = fetch_action_manifest(action)
         return manifest, 0
 
+    elif cmd == "audit":
+        # Support piped input: 'cat actions/checkout | audit'
+        action_arg = cmd_args[0] if cmd_args else (stdin or "").strip()
+        if not action_arg:
+            return "[error] usage: audit <action>. Example: audit actions/checkout", 1
+
+        # Take the first token in case of multi-line pipe input
+        action_arg = action_arg.splitlines()[0].split()[0]
+
+        # Check if zizmor is available
+        import sys
+        venv_zizmor = Path(sys.executable).parent / "zizmor"
+        zizmor_cmd = str(venv_zizmor) if venv_zizmor.exists() else "zizmor"
+
+        try:
+            zizmor_check = subprocess.run(
+                [zizmor_cmd, "--version"], capture_output=True, text=True
+            )
+            zizmor_found = zizmor_check.returncode == 0
+        except FileNotFoundError:
+            zizmor_found = False
+
+        if not zizmor_found:
+            return (
+                "[error] zizmor is not installed or not on PATH.\n"
+                "Install it with: pip install zizmor  OR  uv tool install zizmor",
+                1,
+            )
+
+        # Determine the ref to fetch at.
+        # Prefer the stored commit SHA for determinism — if the floating tag
+        # has moved since last update, we still audit what we actually recommend.
+        info = store.get_info(action_arg)
+        ref = (info.latest_sha or info.latest_tag) if info else ""
+
+        manifest = fetch_action_manifest(action_arg, ref=ref)
+        if manifest.startswith("[error]"):
+            return manifest, 1
+
+        # Use TemporaryDirectory so the file can be named action.yml.
+        # zizmor relies on the filename to identify it as an action manifest instead of a workflow.
+        import shutil
+        tmp_dir = tempfile.mkdtemp(prefix="zizmor_audit_")
+        tmp_path = Path(tmp_dir) / "action.yml"
+        tmp_path.write_text(manifest)
+
+        try:
+            result = subprocess.run(
+                [zizmor_cmd, "--format", "json", str(tmp_path)],
+                capture_output=True, text=True, timeout=30
+            )
+            raw = result.stdout.strip()
+            if not raw:
+                return f"✅ zizmor: no findings for {action_arg}@{ref or 'HEAD'}", 0
+
+            data = json.loads(raw)
+            diagnostics = data if isinstance(data, list) else data.get("diagnostics", [])
+
+            if not diagnostics:
+                return f"✅ zizmor: no findings for {action_arg}@{ref or 'HEAD'}", 0
+
+            # Bucket by severity
+            errors, warnings, infos = [], [], []
+            for d in diagnostics:
+                rule = d.get("ident") or d.get("id") or d.get("check_name", "unknown")
+                
+                # Map determinations.severity (High/Critical -> error, Medium/Low -> warning, else info)
+                det_severity = d.get("determinations", {}).get("severity")
+                if det_severity:
+                    det_sev_lower = det_severity.lower()
+                    if det_sev_lower in ("high", "critical"):
+                        severity = "error"
+                    elif det_sev_lower in ("medium", "low"):
+                        severity = "warning"
+                    else:
+                        severity = "info"
+                else:
+                    severity = (d.get("severity") or "info").lower()
+
+                message = d.get("message", "") or d.get("desc", "") or ""
+                location = ""
+                locs = d.get("locations", [])
+                if locs:
+                    loc = locs[0]
+                    # Try SARIF format first
+                    loc_range = loc.get("physicalLocation", {}).get("region", {})
+                    start_line = loc_range.get("startLine")
+                    if start_line is None:
+                        # Try custom JSON format
+                        start_line = loc.get("concrete", {}).get("location", {}).get("start_point", {}).get("row", "?")
+                    location = f" (line {start_line})"
+                entry_str = f"  [{severity.upper()}] {rule}{location}: {message}"
+                if severity == "error":
+                    errors.append(entry_str)
+                elif severity == "warning":
+                    warnings.append(entry_str)
+                else:
+                    infos.append(entry_str)
+
+            ref_label = (info.latest_tag if info else "") or ref or "HEAD"
+            sha_label = (" @ " + (info.latest_sha or "")[:8]) if (info and info.latest_sha) else ""
+            header = f"{action_arg}{sha_label} ({ref_label})"
+
+            lines = []
+            if errors:
+                lines.append(f"🚫 BLOCKED — {header}: {len(errors)} ERROR finding(s)")
+                lines.extend(errors)
+                lines.append("")
+            if warnings:
+                lines.append(f"⚠️  {header}: {len(warnings)} WARNING finding(s)")
+                lines.extend(warnings)
+                lines.append("")
+            if infos:
+                lines.append(f"ℹ️   {header}: {len(infos)} INFO finding(s)")
+                lines.extend(infos)
+                lines.append("")
+            if not lines:
+                return f"✅ zizmor: no findings for {header}", 0
+
+            lines.append(f"Run 'man {action_arg}' to inspect the full manifest.")
+            return "\n".join(lines), 1 if errors else 0
+
+        except json.JSONDecodeError:
+            return f"[error] Could not parse zizmor output for {action_arg}", 1
+        except subprocess.TimeoutExpired:
+            return f"[error] zizmor timed out scanning {action_arg}", 1
+        finally:
+            try:
+                shutil.rmtree(tmp_dir, ignore_errors=True)
+            except Exception:
+                pass
+
     else:
-        return f"[error] unknown command: {cmd}\nAvailable: ls, cat, grep, find, browse, man, help", 127
+        return f"[error] unknown command: {cmd}\nAvailable: ls, cat, grep, find, browse, man, audit, help", 127
 
 @mcp.tool()
 def run(command: str) -> str:
