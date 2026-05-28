@@ -1,0 +1,3 @@
+# Ensure generated data files are treated as binary to avoid broken text merges
+actions-metadata.json binary
+actions_latest/actions.db binary
