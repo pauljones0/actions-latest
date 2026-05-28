@@ -1,8 +1,8 @@
-name: Update GitHub Actions versions
+name: Update GitHub Actions versions + Security Scan
 
 on:
   schedule:
-    - cron: '51 4 * * *'
+    - cron: '51 4 * * 0'   # Weekly on Sunday at 04:51 UTC
   workflow_dispatch:
 
 permissions:
@@ -18,8 +18,14 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.12'
+          cache: 'pip'
 
-      - name: Run update engine
+      - name: Install zizmor (security scanner)
+        # zizmor is kept as an optional external tool — the update engine
+        # soft-fails gracefully if it isn't present, but in CI we always want it.
+        run: pip install zizmor
+
+      - name: Run update engine (includes zizmor scan)
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT || github.token }}
         run: python update.py
@@ -29,5 +35,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add actions-metadata.json actions_latest/actions.db
-          git diff --staged --quiet || git commit -m "Engine Sync: Refresh versions, stats, and search index"
+          git diff --staged --quiet || git commit -m "Engine Sync: Refresh versions, security scans, and search index"
           git push
