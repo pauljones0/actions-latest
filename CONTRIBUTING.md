@@ -19,7 +19,7 @@ CI repeats the tests on Python 3.10, 3.12, and 3.14. Run the same checks before 
 
 ## Maintainer workflow
 
-Use [MAINTENANCE.md](MAINTENANCE.md) as the starting point. `manage.py status` shows priorities; `manage.py review <action>` produces a source-linked review packet; `manage.py changes --base <commit>` makes snapshot changes readable. The `reviewed` command records completed human review only and requires an exact selected SHA.
+Routine upgrades run automatically or arrive as prepared PRs. [MAINTENANCE.md](MAINTENANCE.md) is optional troubleshooting reference. For deliberate catalog work, `manage.py status` shows priorities; `manage.py review <action>` produces a source-linked review packet; `manage.py changes --base <commit>` makes snapshot changes readable. The `reviewed` command records completed human review only and requires an exact selected SHA.
 
 ## Catalog edits
 
