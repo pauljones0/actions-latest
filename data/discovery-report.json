@@ -1,12 +1,5 @@
 {
-  "admitted": [
-    "danielroe/uppt",
-    "robvanderleek/create-issue-branch",
-    "Readme-Workflows/recent-activity",
-    "poseidon/wait-for-status-checks",
-    "DeLaGuardo/setup-clojure",
-    "suzuki-shunsuke/tfaction"
-  ],
+  "admitted": [],
   "candidates": {
     "DeLaGuardo/setup-clojure": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -160,7 +153,7 @@
       "status": "error"
     }
   },
-  "checked_at": "2026-09-05T20:09:31.916888+00:00",
+  "checked_at": "2026-09-05T20:16:44.869413+00:00",
   "errors": [],
-  "inspected": 29
+  "inspected": 0
 }
