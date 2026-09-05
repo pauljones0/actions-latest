@@ -1,0 +1,132 @@
+[
+  {
+    "action": "danielroe/uppt",
+    "description": "Open release PRs from conventional commits, tag on merge, publish to npm via OIDC.",
+    "category": "Discovered",
+    "tags": [
+      "npm",
+      "npmjs",
+      "oidc",
+      "staged-publish",
+      "trusted-publishing"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/danielroe/uppt/tree/d79b75daee9448ee3b1570a8a31c4bd67f76c8f5",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "DeLaGuardo/setup-clojure",
+    "description": "Setup your runner with Clojure build tools",
+    "category": "Discovered",
+    "tags": [
+      "boot-clj",
+      "clojure",
+      "clojure-cli",
+      "leiningen"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/DeLaGuardo/setup-clojure/tree/6d46099eae24853c33c0482f2bb54edf4f1a4c74",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "poseidon/wait-for-status-checks",
+    "description": "Wait for GitHub Status Checks",
+    "category": "Discovered",
+    "tags": [],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/poseidon/wait-for-status-checks/tree/b307cd0b272ef86d71bc040c46ca922164c546cf",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "Readme-Workflows/recent-activity",
+    "description": "Add your recent activity to your profile readme!",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "hacktoberfest",
+      "node",
+      "node-js",
+      "nodejs",
+      "profile-readme",
+      "readme-workflows",
+      "workflows"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/Readme-Workflows/recent-activity/tree/10b572562febeed6640a8683434b34a864a7e044",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "robvanderleek/create-issue-branch",
+    "description": "GitHub action that creates a new branch after assigning an issue.",
+    "category": "Discovered",
+    "tags": [
+      "github-app",
+      "issue-label",
+      "issues",
+      "probot"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/robvanderleek/create-issue-branch/tree/56770a5551493d63451167816f5d65c9060960d7",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "suzuki-shunsuke/tfaction",
+    "description": "JavaScript Action",
+    "category": "Discovered",
+    "tags": [
+      "oss",
+      "terraform"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/suzuki-shunsuke/tfaction/tree/b48cad6febbd6d60111dae34207b180952bd9fed",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  }
+]

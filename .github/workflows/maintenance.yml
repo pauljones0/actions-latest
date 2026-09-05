@@ -1,0 +1,54 @@
+name: Maintain dependencies and tooling
+on:
+  schedule:
+    - cron: '23 2 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: action-catalog-update
+  cancel-in-progress: false
+jobs:
+  maintain:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install uv==0.12.10
+      - name: Prepare compatible upgrades
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: uv run --frozen python scripts/maintain.py | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Validate proposed upgrades
+        run: |
+          uv_version=$(sed -n 's/.*pip install uv==\([0-9.]*\).*/\1/p' .github/workflows/test.yml)
+          python -m pip install "uv==$uv_version"
+          uv sync --locked --group dev
+          uv run --frozen ruff check .
+          uv run --frozen ruff format --check .
+          for version in 3.10 3.12 3.14; do
+            uv run --locked --python "$version" pytest -q
+          done
+          uv run --locked --python 3.12 python update.py --check
+          uv run --frozen python scripts/smoke_install.py
+          uv run --frozen zizmor --offline --min-severity high .github/workflows
+      - name: Publish tested maintenance and refresh evidence
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || github.token }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add pyproject.toml uv.lock actions_latest/models.py .github/workflows
+          if ! git diff --staged --quiet; then
+            git commit -m 'Maintain compatible dependencies and scanner contract'
+            uv run --frozen python scripts/push_snapshot.py
+          fi
+          gh workflow run update.yml --ref main

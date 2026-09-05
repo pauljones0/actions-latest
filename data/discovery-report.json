@@ -1,0 +1,166 @@
+{
+  "admitted": [
+    "danielroe/uppt",
+    "robvanderleek/create-issue-branch",
+    "Readme-Workflows/recent-activity",
+    "poseidon/wait-for-status-checks",
+    "DeLaGuardo/setup-clojure",
+    "suzuki-shunsuke/tfaction"
+  ],
+  "candidates": {
+    "DeLaGuardo/setup-clojure": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "6d46099eae24853c33c0482f2bb54edf4f1a4c74",
+      "status": "admitted"
+    },
+    "IT-NuanxinPro/wallpaper-gallery": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at IT-NuanxinPro/wallpaper-gallery@e08ad863f840369f9f93000f17752f00b95b5726",
+      "status": "error"
+    },
+    "ITJoker233/BingPicApi": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@91dce007ea5768acba7795d20b36ceef9011e8f8",
+      "status": "error"
+    },
+    "Juror-AI/juror": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
+    "LindseyB/dummy": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at LindseyB/dummy@c4b5b84d490717b0107b6cde2a4c254343375abe",
+      "status": "error"
+    },
+    "ProxyScrape/free-proxy-list": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@81b12d0539b4af42c19fdfa69b9c585450d85881",
+      "status": "error"
+    },
+    "RamiKrispin/ai-dev-2024-ml-workshop": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/ai-dev-2024-ml-workshop@dd0845f4e9685e3e067f0ebe8d82febcfee1c59e",
+      "status": "error"
+    },
+    "RamiKrispin/pydata-ny-ga-workshop": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/pydata-ny-ga-workshop@91cd47c92f4f8e2a2cad0f5d3eac5782d656b11a",
+      "status": "error"
+    },
+    "RamiKrispin/useR2024-pipeline-workshop": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@87cfd31359c0ce1624112e67bf24c5e026445ea1",
+      "status": "error"
+    },
+    "Readme-Workflows/recent-activity": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "10b572562febeed6640a8683434b34a864a7e044",
+      "status": "admitted"
+    },
+    "SpaceTimee/Fusion-JetBrainsMapleMono": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@a030d9a3974fd6e947229615ea6f2cea0ac87c53",
+      "status": "error"
+    },
+    "Vladimir-Human/humanizer-ru": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at Vladimir-Human/humanizer-ru@0097e7d72aa4aaebae7ceeb28eae64685ba70485",
+      "status": "error"
+    },
+    "aeonfun/aeon": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at aeonfun/aeon@ad4dd8250ccb76c9308c6b27977fa17acd634756",
+      "status": "error"
+    },
+    "danielroe/uppt": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "d79b75daee9448ee3b1570a8a31c4bd67f76c8f5",
+      "status": "admitted"
+    },
+    "f/wvw.dev": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at f/wvw.dev@408718de51daec6bb3bf6c081696519762a3de47",
+      "status": "error"
+    },
+    "goreleaser/goreleaser": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at goreleaser/goreleaser@628c889d7f2a34066649833be419fdb9abe01174",
+      "status": "error"
+    },
+    "hect0x7/JMComic-Crawler-Python": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at hect0x7/JMComic-Crawler-Python@9fddb0494caf0cdc812ac6cbfc1c62f4f845b058",
+      "status": "error"
+    },
+    "ipitio/backage": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at ipitio/backage@2e2891ce83742e40fc94671a5e414a3aebd77cec",
+      "status": "error"
+    },
+    "kucherenko/jscpd": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
+    "melogabriel/tinfoil-shops-status": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@ed5bc6c3c2c544bf64b9397f921a72e86e93a281",
+      "status": "error"
+    },
+    "node9-ai/node9-proxy": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
+    "nowscott/EverydayTechNews": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@63a6a9455f4021d35d1c0d2a74dc43331b5426d7",
+      "status": "error"
+    },
+    "poseidon/wait-for-status-checks": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "b307cd0b272ef86d71bc040c46ca922164c546cf",
+      "status": "admitted"
+    },
+    "prashanth-sams/pytest-html-reporter": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at prashanth-sams/pytest-html-reporter@494a56160863e709309b5ea24d858701326626c3",
+      "status": "error"
+    },
+    "robvanderleek/create-issue-branch": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "56770a5551493d63451167816f5d65c9060960d7",
+      "status": "admitted"
+    },
+    "sandro2211/powerbi-ml-insight-engine": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@34d4d75ed7b611d1cd0f38fd6dc940e4ef261ecd",
+      "status": "error"
+    },
+    "suzuki-shunsuke/tfaction": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "b48cad6febbd6d60111dae34207b180952bd9fed",
+      "status": "admitted"
+    },
+    "ultralytics/actions": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
+    "zhongfly/mpv-winbuild": {
+      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@423ffd555dddc9b7fceae22eb303eebc2dc47574",
+      "status": "error"
+    }
+  },
+  "checked_at": "2026-09-05T20:09:31.916888+00:00",
+  "errors": [],
+  "inspected": 29
+}
