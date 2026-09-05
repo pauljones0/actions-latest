@@ -20,7 +20,8 @@ Open the first failed step above; subsequent skipped steps are consequences.
 | Git push rejected | Another commit won the race. Rerun from current main; never force-push generated data. |
 | GitHub rate limit, network outage, or 5xx | Keep the working snapshot. Retry after the upstream service recovers. |
 | Authentication or 403 | Check token permissions/expiry. Data and maintenance writes use the workflow token; GH_PAT is read-only. |
-| Dependency resolution, tests, or scanner contract | Nothing from the proposed maintenance change was pushed. Reproduce locally with `uv run python scripts/maintain.py`, then inspect `data/dependency-review.md` and the first failing check. |
+| Dependency validation | Main keeps its existing dependencies. Open the draft repair PR linked in this run's summary; its changes and CI are already prepared. The proposal artifact is a fallback if PR creation failed. |
+| Dependency resolution or bootstrap | No complete upgrade candidate exists yet. Inspect the first failing step; rerun after resolving its cause. |
 | Snapshot/feed validation | Do not bypass it. Rebuild with `uv run python update.py --rebuild`, then run `--check`. |
 | Publication/observation coverage | Inspect [prioritized issues]({URL}/blob/main/data/maintenance.md). The health monitor can retry stalled refreshes. |
 

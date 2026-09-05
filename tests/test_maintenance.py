@@ -221,3 +221,81 @@ def test_unobserved_entries_are_not_reported_as_successful_fetches(record):
     report = maintenance_summary([record], {"healthy": True, "reasons": []})
     assert "1 entries have never been checked" in report
     assert "observations succeeded" not in report
+
+
+def test_failed_upgrade_proposal_requires_complete_unpublished_changes(tmp_path):
+    module = runpy.run_path(str(ROOT / "scripts/maintenance_pr.py"))
+    data = tmp_path / "data"
+    data.mkdir()
+    report = {"prepared": True, "validated": False, "base_commit": SHA}
+    (data / "dependency-review.json").write_text(json.dumps(report))
+    assert module["proposal"](tmp_path) is None
+    (data / "maintenance-proposal.patch").write_text("candidate")
+    assert module["proposal"](tmp_path) == report
+    for field, value in (("prepared", False), ("validated", True)):
+        (data / "dependency-review.json").write_text(json.dumps({**report, field: value}))
+        assert module["proposal"](tmp_path) is None
+
+
+def test_failed_upgrade_pr_publishes_exact_patch_and_preserves_existing_review(tmp_path):
+    import subprocess
+
+    module = runpy.run_path(str(ROOT / "scripts/maintenance_pr.py"))
+    root = tmp_path / "source"
+    root.mkdir()
+    remote = tmp_path / "remote.git"
+
+    def git(*args, cwd=root):
+        return subprocess.check_output(["git", *args], cwd=cwd, text=True).strip()
+
+    git("init", "--bare", str(remote))
+    git("init", "-b", "main")
+    git("config", "user.name", "Test")
+    git("config", "user.email", "test@example.invalid")
+    git("remote", "add", "origin", str(remote))
+    (root / "data").mkdir()
+    for name in module["FILES"]:
+        path = root / name
+        path.parent.mkdir(exist_ok=True)
+        path.write_text("old\n")
+    git("add", ".")
+    git("commit", "-m", "baseline")
+    base = git("rev-parse", "HEAD")
+    (root / "tooling.json").write_text("new\n")
+    (root / "data/maintenance-proposal.patch").write_text(git("diff") + "\n")
+    (root / "data/dependency-review.json").write_text(
+        json.dumps({"prepared": True, "validated": False, "base_commit": base})
+    )
+    (root / "data/dependency-review.md").write_text("uv: old -> new")
+    # Validation side effects must not leak into the proposal branch.
+    (root / "uv.lock").write_text("unrelated validation side effect\n")
+    calls = []
+    existing = []
+
+    def command(*args, cwd=None):
+        if args[0] == "gh":
+            calls.append(args)
+            if args[1:3] == ("pr", "list"):
+                return json.dumps(existing)
+            if args[1:3] == ("pr", "create"):
+                description = Path(args[-1]).read_text()
+                assert "uv: old -> new" in description
+                assert "/actions/runs/123" in description
+                assert "--draft" in args
+            return "https://github.com/example/repo/pull/1"
+        return subprocess.check_output(args, cwd=cwd or root, text=True).strip()
+
+    from unittest.mock import patch
+
+    with patch.dict(module["main"].__globals__, ROOT=root, run=command):
+        with patch.dict("os.environ", GITHUB_REPOSITORY="example/repo", GITHUB_RUN_ID="123"):
+            module["main"]()
+            head = git("rev-parse", "refs/heads/maintenance/failed-upgrade-123", cwd=remote)
+            assert git("show", f"{head}:tooling.json", cwd=remote) == "new"
+            assert git("show", f"{head}:uv.lock", cwd=remote) == "old"
+            assert git("rev-parse", "HEAD") == base
+            assert any(call[1:3] == ("workflow", "run") for call in calls)
+            existing.append({"headRefName": "maintenance/failed-upgrade-123", "url": "review"})
+            calls.clear()
+            module["main"]()
+            assert len(calls) == 1  # No push, new PR, CI, or overwrite of human work.

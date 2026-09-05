@@ -66,7 +66,11 @@ The initial migrated snapshot retains the original 541 catalog entries and their
 
 ## Maintain the catalog
 
-Start with **[MAINTENANCE.md](MAINTENANCE.md)** for the prioritized overview, readable changes, upgrade reviews, and recovery commands.
+Routine maintenance runs automatically. Workflow upgrades arrive as Dependabot PRs;
+dependency upgrades that fail validation arrive as a draft repair PR with the exact
+changes, version comparison, failure link, and automatically dispatched CI. Review
+those PRs when they arrive. [MAINTENANCE.md](MAINTENANCE.md) is optional troubleshooting
+reference, not a checklist you need to follow.
 
 Edit **`catalog.json`** to add or remove actions or improve editorial descriptions, categories, tags, and usage guidance. Action identifiers support `owner/repo` and `owner/repo/subdirectory`. Manifest descriptions, runtime, inputs, outputs, popularity, observations, and scans are generated state in **`actions_latest/actions.db`**. The updater never edits the catalog or removes an entry because an API request failed or a repository became inactive.
 

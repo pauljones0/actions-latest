@@ -6,6 +6,7 @@ on:
 permissions:
   contents: write
   actions: write
+  pull-requests: write
 concurrency:
   group: action-catalog-update
   cancel-in-progress: false
@@ -30,6 +31,7 @@ jobs:
         id: proposal
         run: uv run --frozen python scripts/maintain.py | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Validate proposed upgrades
+        id: validation
         run: |
           python scripts/install_tooling.py
           uv sync --locked --group dev
@@ -56,6 +58,11 @@ jobs:
             uv run --frozen python scripts/push_snapshot.py
           fi
           gh workflow run update.yml --ref main
+      - name: Open a repair PR for a failed upgrade
+        if: failure() && steps.proposal.outcome == 'success' && steps.validation.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/maintenance_pr.py >> "$GITHUB_STEP_SUMMARY"
       - name: Preserve the exact failed maintenance proposal
         if: failure() && steps.proposal.outcome == 'success'
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
