@@ -1,5 +1,26 @@
 [
   {
+    "action": "akiomik/mado",
+    "description": "Run mado to check Markdown files",
+    "category": "Discovered",
+    "tags": [
+      "linter",
+      "markdown",
+      "rust"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/akiomik/mado/tree/f41b281d09625079ca2b3f0e60165e4d975f991d",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "danielroe/uppt",
     "description": "Open release PRs from conventional commits, tag on merge, publish to npm via OIDC.",
     "category": "Discovered",
@@ -41,6 +62,27 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/DeLaGuardo/setup-clojure/tree/6d46099eae24853c33c0482f2bb54edf4f1a4c74",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "int128/datadog-actions-metrics",
+    "description": "submit metrics of GitHub Actions to Datadog",
+    "category": "Discovered",
+    "tags": [
+      "datadog",
+      "metrics",
+      "observability"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/int128/datadog-actions-metrics/tree/1d33ee325bfd8a9fa61fd31333daa735d99f7ed1",
     "reviewed_sha": null,
     "reviewed_at": null
   },

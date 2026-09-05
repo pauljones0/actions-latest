@@ -1,5 +1,8 @@
 {
-  "admitted": [],
+  "admitted": [
+    "int128/datadog-actions-metrics",
+    "akiomik/mado"
+  ],
   "candidates": {
     "DeLaGuardo/setup-clojure": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -68,6 +71,12 @@
       "reason": "No action.yml or action.yaml at aeonfun/aeon@ad4dd8250ccb76c9308c6b27977fa17acd634756",
       "status": "error"
     },
+    "akiomik/mado": {
+      "checked_at": "2026-09-05T20:49:50.304295+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "f41b281d09625079ca2b3f0e60165e4d975f991d",
+      "status": "admitted"
+    },
     "danielroe/uppt": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "scanner_version": "1.30.0",
@@ -79,15 +88,31 @@
       "reason": "No action.yml or action.yaml at f/wvw.dev@408718de51daec6bb3bf6c081696519762a3de47",
       "status": "error"
     },
+    "github/gh-aw": {
+      "checked_at": "2026-09-05T20:49:50.304295+00:00",
+      "reason": "No action.yml or action.yaml at github/gh-aw@c5ef3e88b222dfa440f76a14ab75628ef512edd7",
+      "status": "rejected"
+    },
     "goreleaser/goreleaser": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "reason": "No action.yml or action.yaml at goreleaser/goreleaser@628c889d7f2a34066649833be419fdb9abe01174",
       "status": "error"
     },
+    "goreleaser/goreleaser-pro": {
+      "checked_at": "2026-09-05T20:49:50.304295+00:00",
+      "reason": "No action.yml or action.yaml at goreleaser/goreleaser-pro@ac8a1a7068cbd14312e1f9eb07292163100938e1",
+      "status": "rejected"
+    },
     "hect0x7/JMComic-Crawler-Python": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "reason": "No action.yml or action.yaml at hect0x7/JMComic-Crawler-Python@9fddb0494caf0cdc812ac6cbfc1c62f4f845b058",
       "status": "error"
+    },
+    "int128/datadog-actions-metrics": {
+      "checked_at": "2026-09-05T20:49:50.304295+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "1d33ee325bfd8a9fa61fd31333daa735d99f7ed1",
+      "status": "admitted"
     },
     "ipitio/backage": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -153,7 +178,7 @@
       "status": "error"
     }
   },
-  "checked_at": "2026-09-05T20:22:18.726538+00:00",
+  "checked_at": "2026-09-05T20:49:50.304295+00:00",
   "errors": [],
-  "inspected": 0
+  "inspected": 4
 }
