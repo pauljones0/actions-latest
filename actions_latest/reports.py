@@ -211,6 +211,7 @@ def maintenance_summary(records: list[ActionRecord], health: dict) -> str:
     counts[2] = sum(r.guidance_status() == "unreviewed" for r in records)
     shared = service_issues(records)
     failed_fetches = sum(bool(r.state.update_error) for r in records)
+    unchecked = sum(r.state.checked_at is None for r in records)
     lines = [
         "# Maintenance overview",
         "",
@@ -220,7 +221,9 @@ def maintenance_summary(records: list[ActionRecord], health: dict) -> str:
         "",
         f"**Last refresh: partial ({failed_fetches} fetch failures)**"
         if failed_fetches
-        else "**Last refresh: all repository observations succeeded**",
+        else f"**Observations pending: {unchecked} entries have never been checked**"
+        if unchecked
+        else "**Last refresh: no recorded fetch errors**",
         "",
         f"Stored observations outside the 72-hour window: {len(health.get('stale_observations', []))}.",
         "",

@@ -214,3 +214,10 @@ def test_shared_recovery_includes_known_quota_reset_time(record):
     )
     summary = maintenance_summary([record], {"healthy": True, "reasons": []})
     assert "2026-09-05 21:08:15 UTC" in summary
+
+
+def test_unobserved_entries_are_not_reported_as_successful_fetches(record):
+    record.state.checked_at = None
+    report = maintenance_summary([record], {"healthy": True, "reasons": []})
+    assert "1 entries have never been checked" in report
+    assert "observations succeeded" not in report
