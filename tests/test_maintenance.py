@@ -206,3 +206,11 @@ def test_error_grouping_never_hides_a_new_action_specific_failure(record):
     report = change_report([previous], [record], NOW)
     assert "Invalid action manifest" in report
     assert "## example/setup-node" in report
+
+
+def test_shared_recovery_includes_known_quota_reset_time(record):
+    record.state.update_error = (
+        "GitHub rate limit reached; retry after 2026-09-05T21:08:15+00:00 (response header)"
+    )
+    summary = maintenance_summary([record], {"healthy": True, "reasons": []})
+    assert "2026-09-05 21:08:15 UTC" in summary

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 from collections import Counter
 from datetime import datetime
 from urllib.parse import quote
@@ -213,13 +214,15 @@ def maintenance_summary(records: list[ActionRecord], health: dict) -> str:
     lines = [
         "# Maintenance overview",
         "",
-        "**Stored data: "
-        + ("within freshness limits" if health["healthy"] else "needs attention")
+        "**Overall freshness checks: "
+        + ("passing" if health["healthy"] else "needs attention")
         + "**",
         "",
         f"**Last refresh: partial ({failed_fetches} fetch failures)**"
         if failed_fetches
         else "**Last refresh: all repository observations succeeded**",
+        "",
+        f"Stored observations outside the 72-hour window: {len(health.get('stale_observations', []))}.",
         "",
         f"{len(records)} catalog entries. {counts[0]} action-specific fetch/scan failures; {counts[1]} reviews invalidated by revision changes; {counts[2]} historical guidance reviews.",
         "",
@@ -238,6 +241,24 @@ def maintenance_summary(records: list[ActionRecord], health: dict) -> str:
             "GitHub access rejected": "Inspect the read token's expiry/permissions and affected repository access, then rerun refresh once. Do not delete entries to clear access failures.",
             "GitHub transport/server failure": "Wait for GitHub/network recovery, then rerun refresh once. No separate source review is required for each affected action.",
         }
+        retry_dates = []
+        for record in records:
+            for error in (record.state.update_error, record.state.scan_error):
+                match = re.search(r"retry after ([0-9T:+.\-]+)", error or "")
+                if match:
+                    try:
+                        retry_at = datetime.fromisoformat(match.group(1))
+                        if retry_at.tzinfo:
+                            retry_dates.append(retry_at)
+                    except ValueError:
+                        pass
+        if retry_dates:
+            recovery["GitHub API rate limit"] = (
+                "GitHub's response header says retry after **"
+                + max(retry_dates).strftime("%Y-%m-%d %H:%M:%S %Z")
+                + "**. "
+                + recovery["GitHub API rate limit"]
+            )
         insertion = [
             "## Shared service recovery",
             "",

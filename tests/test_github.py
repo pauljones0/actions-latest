@@ -125,3 +125,26 @@ def test_request_encoding_and_token_stays_in_header():
     assert request.get_header("Authorization") == "Bearer test-token"
     assert "test-token" not in request.full_url
     assert "ref=release%2Fv1+%2B+x" in request.full_url
+
+
+def test_rate_limit_preserves_authoritative_reset_for_later_skipped_requests():
+    from datetime import timedelta
+
+    from conftest import NOW
+
+    reset = NOW + timedelta(minutes=10)
+    client = GitHubClient(token="")
+    with patch(
+        "actions_latest.github.urlopen",
+        side_effect=http_error(
+            403, {"X-RateLimit-Remaining": "0", "X-RateLimit-Reset": str(int(reset.timestamp()))}
+        ),
+    ) as request:
+        messages = []
+        for path in ("/first", "/skipped"):
+            with pytest.raises(RateLimited) as failure:
+                client.request(path)
+            messages.append(str(failure.value))
+        assert messages[0] == messages[1]
+        assert reset.replace(microsecond=0).isoformat() in messages[0]
+        request.assert_called_once()

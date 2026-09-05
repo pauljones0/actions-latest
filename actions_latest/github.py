@@ -7,6 +7,7 @@ import os
 import re
 import threading
 import time
+from datetime import datetime, timezone
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
@@ -34,16 +35,31 @@ class TransientError(GitHubError):
     pass
 
 
+def rate_limit_message(headers) -> str:
+    retry_at = None
+    try:
+        retry_at = (
+            time.time() + float(headers["Retry-After"])
+            if headers.get("Retry-After")
+            else float(headers["X-RateLimit-Reset"])
+        )
+        stamp = datetime.fromtimestamp(retry_at, timezone.utc).isoformat()
+    except (KeyError, ValueError, TypeError, OverflowError, OSError):
+        return "GitHub rate limit reached; retry in a later update"
+    return f"GitHub rate limit reached; retry after {stamp} (response header)"
+
+
 class GitHubClient:
     def __init__(self, token: str | None = None, timeout: float = 15, retries: int = 2):
         self.token = token if token is not None else os.environ.get("GITHUB_TOKEN", "")
         self.timeout = timeout
         self.retries = retries
         self.rate_limited = threading.Event()
+        self.rate_limit_message = "GitHub rate limit reached; retry in a later update"
 
     def request(self, path: str, params: dict | None = None, *, raw: bool = False):
         if self.rate_limited.is_set():
-            raise RateLimited("GitHub rate limit reached; retry in a later update")
+            raise RateLimited(self.rate_limit_message)
         url = "https://api.github.com" + path
         if params:
             url += "?" + urlencode(params)
@@ -73,10 +89,9 @@ class GitHubClient:
                         or "rate limit" in message
                     )
                 ):
+                    self.rate_limit_message = rate_limit_message(exc.headers)
                     self.rate_limited.set()
-                    raise RateLimited(
-                        "GitHub rate limit reached; retaining previous state"
-                    ) from exc
+                    raise RateLimited(self.rate_limit_message) from exc
                 if exc.code in {401, 403}:
                     raise AuthenticationError(f"GitHub rejected access (HTTP {exc.code})") from exc
                 if exc.code < 500:

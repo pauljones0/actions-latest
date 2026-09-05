@@ -43,7 +43,7 @@ uv run python manage.py health
 
 Without a checkout, open [Refresh](https://github.com/pauljones0/actions-latest/actions/workflows/update.yml), [Maintenance](https://github.com/pauljones0/actions-latest/actions/workflows/maintenance.yml), or [Health](https://github.com/pauljones0/actions-latest/actions/workflows/health.yml) and choose **Run workflow**.
 
-Failure summaries explain common causes and the correct next operation. A rejected push usually needs a rerun from current main. An outage needs upstream recovery, not deleting catalog entries. Persistent manifest failures need inspection at the selected immutable SHA; a repository can contain subdirectory actions without having a root action.
+Failure summaries explain common causes and the correct next operation. A rejected push usually needs a rerun from current main. An outage needs upstream recovery, not deleting catalog entries. Rate-limit reports include the retry time from GitHub’s actual response header when available; wait until then before retrying. Persistent manifest failures need inspection at the selected immutable SHA; a repository can contain subdirectory actions without having a root action.
 
 For failed dependency maintenance, download the **maintenance-proposal** artifact from that run (retained 14 days). It contains the exact proposed patch and before/after report. In a clean checkout of the **proposal base commit printed in the report**, inspect it, then:
 
