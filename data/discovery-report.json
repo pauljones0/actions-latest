@@ -1,8 +1,5 @@
 {
-  "admitted": [
-    "int128/datadog-actions-metrics",
-    "akiomik/mado"
-  ],
+  "admitted": [],
   "candidates": {
     "DeLaGuardo/setup-clojure": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -178,7 +175,7 @@
       "status": "error"
     }
   },
-  "checked_at": "2026-09-05T20:49:50.304295+00:00",
+  "checked_at": "2026-09-05T20:55:38.761280+00:00",
   "errors": [],
-  "inspected": 4
+  "inspected": 0
 }
