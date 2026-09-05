@@ -9,6 +9,9 @@ permissions:
 concurrency:
   group: action-catalog-update
   cancel-in-progress: false
+defaults:
+  run:
+    shell: bash
 jobs:
   maintain:
     if: github.ref == 'refs/heads/main'
@@ -24,6 +27,7 @@ jobs:
           python-version: '3.12'
       - run: python scripts/install_tooling.py
       - name: Prepare compatible upgrades
+        id: proposal
         run: uv run --frozen python scripts/maintain.py | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Validate proposed upgrades
         run: |
@@ -37,6 +41,8 @@ jobs:
           uv run --locked --python 3.12 python update.py --check
           uv run --frozen python scripts/smoke_install.py
           uv run --frozen zizmor --offline --min-severity high .github/workflows
+      - name: Record successful validation
+        run: uv run --frozen python scripts/maintain.py --finalize >> "$GITHUB_STEP_SUMMARY"
       - name: Publish tested maintenance and refresh evidence
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -44,9 +50,23 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add pyproject.toml uv.lock actions_latest/models.py tooling.json
+          git add pyproject.toml uv.lock actions_latest/models.py tooling.json data/dependency-review.md data/dependency-review.json
           if ! git diff --staged --quiet; then
             git commit -m 'Maintain compatible dependencies and scanner contract'
             uv run --frozen python scripts/push_snapshot.py
           fi
           gh workflow run update.yml --ref main
+      - name: Preserve the exact failed maintenance proposal
+        if: failure() && steps.proposal.outcome == 'success'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: maintenance-proposal
+          path: |
+            data/maintenance-proposal.patch
+            data/dependency-review.md
+            data/dependency-review.json
+          retention-days: 14
+          if-no-files-found: ignore
+      - name: Explain the failure and recovery action
+        if: failure()
+        run: python scripts/job_failure.py maintain

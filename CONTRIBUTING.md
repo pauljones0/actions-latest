@@ -17,6 +17,10 @@ The test suite runs offline. It uses real SQLite databases, a real pinned zizmor
 
 CI repeats the tests on Python 3.10, 3.12, and 3.14. Run the same checks before proposing changes. Investigate a failing test or unexpected empty result before accepting it as expected behavior.
 
+## Maintainer workflow
+
+Use [MAINTENANCE.md](MAINTENANCE.md) as the starting point. `manage.py status` shows priorities; `manage.py review <action>` produces a source-linked review packet; `manage.py changes --base <commit>` makes snapshot changes readable. The `reviewed` command records completed human review only and requires an exact selected SHA.
+
 ## Catalog edits
 
 `catalog.json` is the curated input. Use a unique action name, a concrete description, one category, and specific tags. Subdirectory actions use the complete path, such as `owner/repo/setup`. Human guidance about authentication, permissions, side effects, and matching intent is editorial; do not represent it as scanner output.

@@ -2,3 +2,10 @@
 actions_latest/actions.db binary
 # Curated inputs remain reviewable and mergeable text.
 catalog.json text eol=lf
+# Collapse machine state in PRs; Markdown reports remain visible for review.
+actions_latest/actions.db linguist-generated=true
+data/snapshot-*.json.gz binary linguist-generated=true
+data/health.json linguist-generated=true
+data/review-queue.json linguist-generated=true
+data/dependency-review.json linguist-generated=true
+data/discovery-report.json linguist-generated=true

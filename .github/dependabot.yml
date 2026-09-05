@@ -9,5 +9,6 @@ updates:
       timezone: Etc/UTC
     open-pull-requests-limit: 5
     groups:
-      workflow-actions:
+      routine-workflow-actions:
         patterns: ['*']
+        update-types: [minor, patch]
