@@ -32,7 +32,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_PAT || github.token }}
         run: |
           uv run --frozen python update.py --discover | tee "$RUNNER_TEMP/update-summary.json"
-          cat "$RUNNER_TEMP/update-summary.json" >> "$GITHUB_STEP_SUMMARY"
       - name: Validate replacement snapshot
         run: uv run --frozen python update.py --check
       - name: Commit and push snapshot
@@ -48,6 +47,11 @@ jobs:
             git commit -m 'Refresh action observations and security scans'
             uv run --frozen python scripts/push_snapshot.py
           fi
+      - name: Review published changes
+        run: python scripts/render_summary.py >> "$GITHUB_STEP_SUMMARY"
       - name: Report observation coverage
         run: |
-          uv run --frozen python update.py --health | tee -a "$GITHUB_STEP_SUMMARY"
+          uv run --frozen python update.py --health
+      - name: Explain the failure and recovery action
+        if: failure()
+        run: python scripts/job_failure.py refresh

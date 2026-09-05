@@ -10,6 +10,7 @@ from actions_latest.feed import decode_feed, export_feed
 from actions_latest.github import GitHubClient
 from actions_latest.health import health_report, include_discovery
 from actions_latest.models import ActionRecord, ActionState
+from actions_latest.reports import change_report, maintenance_summary, review_queue
 from actions_latest.security import Scanner
 from actions_latest.snapshot import digest, publish_snapshot, validate_snapshot
 from actions_latest.updater import update
@@ -61,6 +62,7 @@ def main() -> None:
         else:
             print(f"Validated {len(records)} actions and publication inputs")
         return
+    before = validate_snapshot(args.snapshot) if standard and args.snapshot.exists() else []
     if args.rebuild:
         previous = (
             {r.action.casefold(): r.state for r in validate_snapshot(args.snapshot)}
@@ -113,6 +115,12 @@ def main() -> None:
             report, json.loads(discovery_path.read_text()) if discovery_path.exists() else {}
         )
         atomic_write(ROOT / "data/health.json", (json.dumps(report, indent=2) + "\n").encode())
+        atomic_write(ROOT / "data/catalog-changes.md", change_report(before, records).encode())
+        atomic_write(ROOT / "data/maintenance.md", maintenance_summary(records, report).encode())
+        atomic_write(
+            ROOT / "data/review-queue.json",
+            (json.dumps(review_queue(records), indent=2) + "\n").encode(),
+        )
 
 
 if __name__ == "__main__":

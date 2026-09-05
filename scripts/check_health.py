@@ -10,6 +10,7 @@ from pathlib import Path
 from actions_latest.feed import decode_feed
 from actions_latest.health import health_report, include_discovery
 from actions_latest.models import utc_now
+from actions_latest.reports import maintenance_summary
 
 
 def main():
@@ -21,7 +22,7 @@ def main():
     print(text)
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as handle:
-            handle.write("```json\n" + text + "\n```\n")
+            handle.write(maintenance_summary(feed.records, report))
     if report["healthy"]:
         return
     runs = json.loads(

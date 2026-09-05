@@ -73,3 +73,6 @@ dmypy.json
 *.swp
 *.swo
 *~
+
+# Ephemeral candidate, retained as a workflow artifact on failure
+data/maintenance-proposal.patch

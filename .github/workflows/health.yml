@@ -28,3 +28,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: uv run --frozen python scripts/check_health.py
+      - name: Explain the failure and recovery action
+        if: failure()
+        run: python scripts/job_failure.py health
