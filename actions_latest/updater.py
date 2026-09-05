@@ -6,6 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta
 from pathlib import Path
 
+from .discovery import combined_catalog
 from .github import GitHubClient, GitHubError, NotFound
 from .models import (
     MIN_TAG_AGE,
@@ -18,7 +19,7 @@ from .models import (
     version_key,
 )
 from .security import POLICY_VERSION, SCANNER_VERSION, ScanError, Scanner, parse_manifest
-from .snapshot import digest, load_catalog, publish_snapshot, validate_snapshot
+from .snapshot import digest, publish_snapshot, validate_snapshot
 
 
 def observe_tags(
@@ -119,8 +120,10 @@ def update(
     scanner: Scanner | None = None,
     workers: int = 6,
     now: datetime | None = None,
+    discovered_path: Path | None = None,
+    policy_path: Path | None = None,
 ) -> dict[str, int]:
-    catalog = load_catalog(catalog_path)
+    catalog = combined_catalog(catalog_path, discovered_path, policy_path)
     catalog_digest = digest([c.model_dump(mode="json") for c in catalog])
     previous = (
         {record.action.casefold(): record.state for record in validate_snapshot(snapshot_path)}
@@ -152,7 +155,7 @@ def update(
         ]
         for future in as_completed(futures):
             records.append(future.result())
-    latest_catalog = load_catalog(catalog_path)
+    latest_catalog = combined_catalog(catalog_path, discovered_path, policy_path)
     if digest([c.model_dump(mode="json") for c in latest_catalog]) != catalog_digest:
         raise RuntimeError("Catalog changed during the update; rerun against the new inputs")
     publish_snapshot(records, snapshot_path)

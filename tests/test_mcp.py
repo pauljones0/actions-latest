@@ -13,7 +13,7 @@ def test_stdio_protocol_discovery_search_and_errors():
             command=sys.executable,
             args=["-m", "actions_latest.server"],
             cwd=str(Path(__file__).resolve().parents[1]),
-            env={"PATH": os.environ["PATH"]},
+            env={"PATH": os.environ["PATH"], "ACTIONS_LATEST_AUTO_REFRESH": "0"},
         )
         async with stdio_client(parameters) as (reader, writer):
             async with ClientSession(reader, writer) as session:

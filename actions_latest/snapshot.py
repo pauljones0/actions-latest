@@ -29,7 +29,7 @@ def fts_fields(record: ActionRecord) -> tuple[str, ...]:
     catalog, state = record.catalog, record.state
     return (
         record.action,
-        catalog.description,
+        record.description,
         catalog.category,
         " ".join(sorted({tag.casefold() for tag in catalog.tags})),
         catalog.match_logic,

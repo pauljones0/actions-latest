@@ -80,6 +80,15 @@ def test_manifest_fields_are_derived_from_revision():
     assert parsed.runtime == "node24"
     assert parsed.outputs == ["installed-version"]
     assert parsed.inputs["version"]["required"] is True
+    assert parsed.name == "example"
+    assert parsed.description == "example action"
+
+
+def test_compatible_new_scanner_evidence_can_refresh_older_clients(record):
+    record.state.scan.scanner_version = "1.999.0"
+    assert record.security_status(NOW) == "clean"
+    record.state.scan.scanner_version = "2.0.0"
+    assert record.security_status(NOW) == "stale"
 
 
 def test_usage_requires_fresh_scanned_observed_sha(record):

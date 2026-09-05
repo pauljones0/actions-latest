@@ -12,7 +12,7 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 SCANNER_VERSION = "1.30.0"
 POLICY_VERSION = 1
 MIN_TAG_AGE = timedelta(days=7)
@@ -50,6 +50,10 @@ class CatalogEntry(Model):
     auth: str = ""
     side_effects: list[str] = Field(default_factory=list)
     performance: str = ""
+    origin: Literal["curated", "discovered"] = "curated"
+    source_url: str | None = None
+    reviewed_sha: str | None = Field(default=None, pattern=SHA_PATTERN)
+    reviewed_at: datetime | None = None
 
     @field_validator("action")
     @classmethod
@@ -84,6 +88,8 @@ class TagObservation(Model):
 
 class Manifest(Model):
     sha: str = Field(pattern=SHA_PATTERN)
+    name: str = ""
+    description: str = ""
     runtime: str = Field(min_length=1)
     inputs: dict[str, dict] = Field(default_factory=dict)
     outputs: list[str] = Field(default_factory=list)
@@ -135,6 +141,21 @@ class ActionRecord(Model):
     def action(self) -> str:
         return self.catalog.action
 
+    @property
+    def description(self) -> str:
+        if self.state.manifest and self.state.manifest.description:
+            return self.state.manifest.description
+        return self.catalog.description
+
+    def guidance_status(self) -> str:
+        if self.catalog.origin == "discovered":
+            return "source-derived"
+        if not self.catalog.reviewed_sha:
+            return "unreviewed"
+        if self.state.selected and self.catalog.reviewed_sha == self.state.selected.sha:
+            return "reviewed for selected SHA"
+        return "needs review after revision change"
+
     def security_status(self, now: datetime | None = None) -> str:
         now = now or utc_now()
         scan = self.state.scan
@@ -145,7 +166,15 @@ class ActionRecord(Model):
             return "error"
         if not scan:
             return "unknown"
-        if scan.scanner_version != SCANNER_VERSION or scan.policy_version != POLICY_VERSION:
+        version = version_key(scan.scanner_version)
+        minimum = version_key(SCANNER_VERSION)
+        if (
+            version is None
+            or minimum is None
+            or version[0] != minimum[0]
+            or version < minimum
+            or scan.policy_version != POLICY_VERSION
+        ):
             return "stale"
         if scan.scanned_at > now or now - scan.scanned_at > SCAN_MAX_AGE:
             return "stale"

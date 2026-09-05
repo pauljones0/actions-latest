@@ -1,6 +1,6 @@
 [project]
 name = "actions-latest"
-version = "0.3.0"
+version = "0.4.0"
 description = "Offline GitHub Actions discovery with observed tags and SHA-specific manifest scans"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -8,10 +8,11 @@ dependencies = [
     "mcp>=1.27.1,<2",
     "pydantic>=2.11,<3",
     "PyYAML>=6.0.2,<7",
+    "filelock>=3.20,<4",
 ]
 
 [dependency-groups]
-dev = ["pytest>=8.3,<10", "ruff==0.15.0", "zizmor==1.30.0"]
+dev = ["pytest>=8.3,<10", "ruff==0.16.6", "zizmor==1.30.0"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

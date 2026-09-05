@@ -30,7 +30,14 @@ def parse_manifest(content: str, sha: str) -> Manifest:
         outputs = data.get("outputs") or {}
         if not isinstance(inputs, dict) or not isinstance(outputs, dict):
             raise ValueError("inputs and outputs must be mappings")
-        return Manifest(sha=sha, runtime=runtime, inputs=inputs, outputs=sorted(outputs))
+        return Manifest(
+            sha=sha,
+            name=data.get("name", ""),
+            description=data.get("description", ""),
+            runtime=runtime,
+            inputs=inputs,
+            outputs=sorted(outputs),
+        )
     except (yaml.YAMLError, ValueError, TypeError) as exc:
         raise ScanError(f"Invalid action manifest: {exc}") from exc
 

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import shlex
 import sqlite3
 import time
@@ -23,6 +24,7 @@ HELP_TEXT = """GitHub Actions Navigator
   cat <action...>   Inspect candidate revisions, security, and pinned usage
   man <action...>   Fetch manifests at the stored commit SHAs
   audit <action...> Scan those exact manifests with pinned zizmor
+  status            Show snapshot refresh state and offline fallback errors
   help              Show this help
 
 Search returns candidates, including unscanned actions; use cat to assess them.
@@ -115,8 +117,10 @@ def render_record(record: ActionRecord) -> str:
     )
     lines.extend(
         [
-            f"Description (editorial): {catalog.description}",
-            f"Match guidance (editorial): {catalog.match_logic}",
+            f"Description ({'manifest' if state.manifest and state.manifest.description else 'editorial'}): {record.description}",
+            f"Editorial guidance status: {record.guidance_status()}",
+            f"Editorial notes ({record.guidance_status()}): {catalog.match_logic}",
+            f"Required inputs (manifest): {', '.join(k for k, v in state.manifest.inputs.items() if v.get('required') is True) if state.manifest else 'unknown'}",
             f"Runtime: {state.manifest.runtime if state.manifest else 'unknown'}",
             f"Outputs: {', '.join(state.manifest.outputs) if state.manifest else 'unknown'}",
             f"Auth guidance: {catalog.auth or 'unspecified'}",
@@ -139,10 +143,12 @@ class Navigator:
         store: MetadataStore,
         client: GitHubClient | None = None,
         scanner: Scanner | None = None,
+        freshness=None,
     ):
         self.store = store
         self.client = client
         self.scanner = scanner
+        self.freshness = freshness
 
     def execute(
         self, command: str, stdin: CommandResult | None = None, *, defer_limit: bool = False
@@ -152,6 +158,15 @@ class Navigator:
             if not args:
                 return CommandResult(HELP_TEXT)
             name, args = args[0], args[1:]
+            if name == "status":
+                return CommandResult(
+                    json.dumps(
+                        self.freshness()
+                        if self.freshness
+                        else {"source": "local", "auto_refresh": False},
+                        indent=2,
+                    )
+                )
             if name == "help":
                 return CommandResult(HELP_TEXT)
             if name == "browse":

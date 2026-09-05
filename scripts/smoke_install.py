@@ -22,7 +22,7 @@ assert MetadataStore(get_db_path()).search('checkout'), 'packaged search is brok
 async def check():
     executable = Path(sys.executable).parent / ('actions-latest-mcp.exe' if os.name == 'nt' else 'actions-latest-mcp')
     assert executable.is_file(), 'wheel omitted the console entry point'
-    parameters = StdioServerParameters(command=str(executable))
+    parameters = StdioServerParameters(command=str(executable), env={'ACTIONS_LATEST_AUTO_REFRESH': '0'})
     async with stdio_client(parameters) as (reader, writer):
         async with ClientSession(reader, writer) as session:
             await session.initialize()
@@ -55,6 +55,7 @@ def main():
         )
         env = os.environ.copy()
         env.pop("PYTHONPATH", None)
+        env["ACTIONS_LATEST_AUTO_REFRESH"] = "0"
         subprocess.run([str(python), "-c", SMOKE], cwd=temporary, env=env, check=True, timeout=30)
 
 

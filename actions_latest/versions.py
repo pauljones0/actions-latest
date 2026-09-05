@@ -6,6 +6,7 @@ import re
 from contextlib import closing
 from pathlib import Path
 
+from .client_updates import SnapshotManager
 from .models import ActionRecord
 from .snapshot import connect
 
@@ -82,6 +83,15 @@ class MetadataStore:
     def get_info(self, action: str) -> ActionRecord | None:
         rows = self._query("SELECT record FROM actions WHERE action = ? COLLATE NOCASE", (action,))
         return rows[0] if rows else None
+
+
+class RefreshingMetadataStore(MetadataStore):
+    def __init__(self, manager: SnapshotManager):
+        self.manager = manager
+
+    @property
+    def db_path(self) -> Path:
+        return self.manager.path
 
 
 def get_db_path() -> Path:

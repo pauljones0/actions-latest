@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "minimum_stars": 50,
+  "maximum_inactive_days": 365,
+  "admissions_per_run": 10,
+  "candidates_per_query": 20,
+  "excluded_actions": []
+}

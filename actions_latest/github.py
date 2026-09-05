@@ -96,6 +96,24 @@ class GitHubClient:
             raise GitHubError("Invalid repository response")
         return data
 
+    def search_repositories(self, query: str, limit: int = 20) -> list[dict]:
+        data = self.request(
+            "/search/repositories",
+            {"q": query, "sort": "updated", "order": "desc", "per_page": limit},
+        )
+        if not isinstance(data, dict) or not isinstance(data.get("items"), list):
+            raise GitHubError("Invalid repository search response")
+        if data.get("incomplete_results"):
+            raise GitHubError("GitHub returned incomplete repository search results")
+        return data["items"]
+
+    def default_sha(self, repository: str, branch: str) -> str:
+        data = self.request(f"/repos/{repository}/commits/{quote(branch, safe='')}")
+        sha = data.get("sha") if isinstance(data, dict) else None
+        if not isinstance(sha, str) or not re.fullmatch(r"[0-9a-f]{40}", sha):
+            raise GitHubError("Invalid default-branch commit response")
+        return sha
+
     def tags(self, repository: str) -> dict[str, str]:
         tags = {}
         for page in range(1, 51):

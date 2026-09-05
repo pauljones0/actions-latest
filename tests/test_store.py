@@ -76,11 +76,15 @@ def test_snapshot_tampering_detected(tmp_path, record):
 
 
 def test_bundled_snapshot_matches_catalog():
-    from actions_latest.snapshot import load_catalog
+    from actions_latest.discovery import combined_catalog
+    from actions_latest.feed import decode_feed
 
     root = Path(__file__).resolve().parents[1]
     records = validate_snapshot(root / "actions_latest/actions.db")
-    assert [r.catalog for r in records] == load_catalog(root / "catalog.json")
+    assert [r.catalog for r in records] == combined_catalog(
+        root / "catalog.json", root / "data/discovered.json", root / "catalog-policy.json"
+    )
+    assert decode_feed((root / "data/snapshot-v2.json.gz").read_bytes()).records == records
     assert records
 
 

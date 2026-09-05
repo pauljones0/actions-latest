@@ -2,7 +2,7 @@
 
 ## Development
 
-Use Python 3.10 or newer and uv 0.11.8 (the CI tooling version):
+Use Python 3.10 or newer and the uv version pinned in CI:
 
 ```sh
 uv sync --locked --group dev
@@ -23,7 +23,7 @@ CI repeats the tests on Python 3.10, 3.12, and 3.14. Run the same checks before 
 
 Rebuild the snapshot after catalog edits. Offline rebuilds preserve observations for retained actions and initialize newly added actions without a selected revision. Network updates begin observing their tags; the first eligible revision requires observations at least seven days apart. Remove an entry only by an intentional catalog edit, never as an outage response.
 
-Do not hand-edit `actions_latest/actions.db`. It is the only published generated artifact. JSON state can be inspected with `ActionRecord.model_dump(mode='json')`; there is no second generated JSON file to keep synchronized.
+Do not hand-edit `actions_latest/actions.db`. `update.py --rebuild` also exports the matching versioned feed and health report. `update.py --check` rejects mismatched inputs, database, and feed.
 
 ## Code changes
 
@@ -35,10 +35,10 @@ Update the SQLite schema version if an incompatible format changes. Update the p
 
 `uv.lock` fixes development and CI dependencies. Package consumers use the supported ranges in `pyproject.toml`; therefore the fresh installation smoke test is required after dependency changes. MCP is constrained to `<2` until a deliberate migration is implemented and tested.
 
-Zizmor is pinned in the dev dependency group and `models.SCANNER_VERSION`. Update both together and exercise the real scanner fixtures before accepting a new version. The adapter selects `json-v1`, rejects unknown severity values, and treats execution/collection/parse failures as errors. Changing the classification policy also requires incrementing `POLICY_VERSION`, which forces a rescan. Evidence from a different scanner or policy version is stale until rescanned; known blocks remain enforced.
+Zizmor is pinned in the dev dependency group and `models.SCANNER_VERSION`. Update both together and exercise the real scanner fixtures before accepting a new version. The adapter selects `json-v1`, rejects unknown severity values, and treats execution/collection/parse failures as errors. Changing the classification policy also requires incrementing `POLICY_VERSION`, which forces a rescan. Evidence from an older/incompatible scanner or a different policy version is stale until rescanned; known blocks remain enforced.
 
 ## Publishing and automation
 
-The update job writes only the database. Git's normal fast-forward push protects concurrent changes. Do not add `-X theirs`, force pushes, or binary merge drivers to resolve conflicts. Rerun on the latest catalog instead.
+The update job writes the database, feed, discovery registry/provenance report, and health report. Git's normal fast-forward push protects concurrent changes. Do not add `-X theirs`, force pushes, or binary merge drivers to resolve conflicts. Rerun on the latest catalog instead.
 
-A branch protection policy requiring the test workflow is recommended repository configuration; it is not installed by this source change. Publishing releases, changing repository settings, and deploying these changes are separate maintainer actions.
+Weekly maintenance tests compatible updates before a normal push to main. Workflow-file changes use the existing `GH_PAT` secret with workflow write permission; expired or insufficient credentials fail visibly. The independent monitor can recover missed updates, but credential failures require maintainer repair. See [operations](docs/operations.md).
