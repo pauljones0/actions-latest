@@ -1,3 +1,4 @@
-# Ensure generated data files are treated as binary to avoid broken text merges
-actions-metadata.json binary
+# Generated SQLite state is replaced as one snapshot, never merged.
 actions_latest/actions.db binary
+# Curated inputs remain reviewable and mergeable text.
+catalog.json text eol=lf

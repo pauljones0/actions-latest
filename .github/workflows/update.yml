@@ -1,42 +1,49 @@
-name: Update GitHub Actions versions + Security Scan
-
+name: Refresh action observations and scans
 on:
   schedule:
-    - cron: '51 4 * * 0'   # Weekly on Sunday at 04:51 UTC
+    - cron: '51 4 * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
-
+concurrency:
+  group: action-catalog-update
+  cancel-in-progress: false
 jobs:
-  update-versions:
+  update:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v6
-
-      - name: Set up Python
-        uses: actions/setup-python@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
           python-version: '3.12'
-          cache: 'pip'
-
-      - name: Install zizmor (security scanner)
-        # zizmor is kept as an optional external tool — the update engine
-        # soft-fails gracefully if it isn't present, but in CI we always want it.
-        run: pip install zizmor
-
-      - name: Run update engine (includes zizmor scan)
+      - name: Install tooling and locked dependencies
+        run: |
+          python -m pip install uv==0.11.8
+          uv sync --locked --group dev
+      - name: Test before updating
+        run: uv run --frozen pytest -q
+      - name: Refresh observations and manifests
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT || github.token }}
-        run: python update.py
-
-      - name: Commit changes
+        run: |
+          uv run --frozen python update.py | tee "$RUNNER_TEMP/update-summary.json"
+          cat "$RUNNER_TEMP/update-summary.json" >> "$GITHUB_STEP_SUMMARY"
+      - name: Validate replacement snapshot
+        run: uv run --frozen python update.py --check
+      - name: Commit and push snapshot
+        # A rejected push deliberately fails. Rerun from current main to rebuild
+        # against concurrent catalog edits; never merge or force generated state.
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add actions-metadata.json actions_latest/actions.db
+          git add actions_latest/actions.db
           if ! git diff --staged --quiet; then
-            git commit -m "Engine Sync: Refresh versions, security scans, and search index"
-            # Try to push, and if it fails (due to remote changes), rebase and favor our new data
-            git push origin main || (git pull --rebase origin main -X theirs && git push origin main)
+            git commit -m 'Refresh action observations and security scans'
+            uv run --frozen python scripts/push_snapshot.py
           fi

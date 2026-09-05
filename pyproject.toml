@@ -1,12 +1,27 @@
 [project]
 name = "actions-latest"
-version = "0.2.0"
-description = "High-fidelity GitHub Actions Navigator MCP Server"
+version = "0.3.0"
+description = "Offline GitHub Actions discovery with observed tags and SHA-specific manifest scans"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "mcp>=1.12.0",
+    "mcp>=1.27.1,<2",
+    "pydantic>=2.11,<3",
+    "PyYAML>=6.0.2,<7",
 ]
+
+[dependency-groups]
+dev = ["pytest>=8.3,<10", "ruff==0.15.0", "zizmor==1.30.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B"]
 
 [project.scripts]
 actions-latest-mcp = "actions_latest.server:main"
