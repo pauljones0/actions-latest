@@ -41,6 +41,9 @@ def save_report(changes: list[dict], validated: bool, *, prepared: bool = True) 
         "changes": changes,
         "validated": validated,
         "prepared": prepared,
+        "base_commit": subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], cwd=ROOT, text=True, timeout=10
+        ).strip(),
         "held_tools": json.loads((ROOT / "tooling.json").read_text()).get("hold", []),
         "run_url": f"https://github.com/pauljones0/actions-latest/actions/runs/{run}"
         if run

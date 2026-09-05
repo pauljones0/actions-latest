@@ -293,6 +293,13 @@ def dependency_report(report: dict) -> str:
         lines.append(
             "| No package version changes | — | — | Lock format/metadata may still change. |"
         )
+    if report.get("base_commit"):
+        lines += [
+            "",
+            "**Proposal base commit:** `"
+            + report["base_commit"]
+            + "`. Reproduce the downloaded patch from this exact commit, which can differ from the event that queued the run.",
+        ]
     if report.get("held_tools"):
         lines += [
             "",

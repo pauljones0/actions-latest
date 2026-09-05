@@ -9,6 +9,9 @@ permissions:
 concurrency:
   group: action-catalog-update
   cancel-in-progress: false
+defaults:
+  run:
+    shell: bash
 jobs:
   maintain:
     if: github.ref == 'refs/heads/main'
@@ -24,6 +27,7 @@ jobs:
           python-version: '3.12'
       - run: python scripts/install_tooling.py
       - name: Prepare compatible upgrades
+        id: proposal
         run: uv run --frozen python scripts/maintain.py | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Validate proposed upgrades
         run: |
@@ -53,7 +57,7 @@ jobs:
           fi
           gh workflow run update.yml --ref main
       - name: Preserve the exact failed maintenance proposal
-        if: failure()
+        if: failure() && steps.proposal.outcome == 'success'
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: maintenance-proposal

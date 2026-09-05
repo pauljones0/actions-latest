@@ -45,7 +45,7 @@ Without a checkout, open [Refresh](https://github.com/pauljones0/actions-latest/
 
 Failure summaries explain common causes and the correct next operation. A rejected push usually needs a rerun from current main. An outage needs upstream recovery, not deleting catalog entries. Persistent manifest failures need inspection at the selected immutable SHA; a repository can contain subdirectory actions without having a root action.
 
-For failed dependency maintenance, download the **maintenance-proposal** artifact from that run (retained 14 days). It contains the exact proposed patch and before/after report. In a clean checkout of that run's commit, inspect it, then:
+For failed dependency maintenance, download the **maintenance-proposal** artifact from that run (retained 14 days). It contains the exact proposed patch and before/after report. In a clean checkout of the **proposal base commit printed in the report**, inspect it, then:
 
 ```sh
 git apply --check maintenance-proposal.patch

@@ -153,3 +153,19 @@ def test_tool_hold_prevents_reapplying_a_bad_upgrade(monkeypatch):
     assert function("ruff", "1.2.0", {"ruff"}) == "1.2.0"
     resolver.assert_not_called()
     assert function("zizmor", "1.2.0", {"ruff"}) == "1.9.0"
+
+
+def test_logged_workflow_failures_cannot_be_hidden_by_tee(tmp_path):
+    import subprocess
+
+    import yaml
+
+    for name in ("update", "maintenance"):
+        workflow = yaml.safe_load((ROOT / f".github/workflows/{name}.yml").read_text())
+        shell = workflow.get("defaults", {}).get("run", {}).get("shell")
+        # Match GitHub's explicit bash behavior versus its implicit bash -e default.
+        flags = ["-e", "-o", "pipefail"] if shell == "bash" else ["-e"]
+        result = subprocess.run(
+            ["bash", *flags, "-c", "false | tee failure.log"], cwd=tmp_path, capture_output=True
+        )
+        assert result.returncode != 0, f"{name}: tee masked the failed maintenance command"
