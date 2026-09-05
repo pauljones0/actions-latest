@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import html
 import json
+from collections import Counter
 from datetime import datetime
 from urllib.parse import quote
 
@@ -68,6 +69,7 @@ def change_report(
     previous = {r.action.casefold(): r for r in before}
     current = {r.action.casefold(): r for r in after}
     sections = []
+    service_changes = Counter()
     for key in sorted(previous.keys() | current.keys()):
         old, new = previous.get(key), current.get(key)
         record = new or old
@@ -88,6 +90,23 @@ def change_report(
             ]
             if not changed:
                 continue
+            if all(
+                field in {"Fetch error", "Scan error"}
+                and (not left.get(field) or service_issue(left.get(field)))
+                and (not right.get(field) or service_issue(right.get(field)))
+                for field in changed
+            ):
+                for field in changed:
+                    old_issue, new_issue = (
+                        service_issue(left.get(field)),
+                        service_issue(right.get(field)),
+                    )
+                    if old_issue != new_issue:
+                        if old_issue:
+                            service_changes[(old_issue, "recovered")] += 1
+                        if new_issue:
+                            service_changes[(new_issue, "affected")] += 1
+                continue
             rows = [
                 f"| {cell(field)} | {cell(left.get(field))} | {cell(right.get(field))} |"
                 for field in changed
@@ -103,24 +122,61 @@ def change_report(
                 f"## {cell(record.action)}\n\n{links}\n\n| Changed | Before | After |\n| --- | --- | --- |\n"
                 + "\n".join(rows)
             )
+    intro = (
+        f"{len(sections)} actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted."
+        if sections
+        else "No meaningful catalog changes. Only observation/scan timestamps or popularity may have changed."
+    )
+    if service_changes and not sections:
+        intro = "No action content or policy changes; shared service status changed."
+    shared = ""
+    if service_changes:
+        shared = "\n\n## Shared service changes\n\n" + "\n".join(
+            f"- {issue}: {count} request-error transitions {transition}."
+            for (issue, transition), count in sorted(service_changes.items())
+        )
+        shared += f"\n\nThese are grouped recovery items, not separate action-code reviews. [Current affected entries]({REPO_URL}/blob/main/data/review-queue.json)."
     return (
         "# Latest catalog changes\n\n"
-        + (
-            f"{len(sections)} actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.\n\n"
-            + "\n\n".join(sections)
-            if sections
-            else "No meaningful catalog changes. Only observation/scan timestamps or popularity may have changed."
-        )
+        + intro
+        + shared
+        + ("\n\n" + "\n\n".join(sections) if sections else "")
         + "\n"
     )
+
+
+def service_issue(error: str | None) -> str | None:
+    value = (error or "").lower()
+    if "github rate limit" in value:
+        return "GitHub API rate limit"
+    if "github rejected access" in value:
+        return "GitHub access rejected"
+    if "github transport failure" in value or "github server error" in value:
+        return "GitHub transport/server failure"
+    return None
+
+
+def service_issues(records: list[ActionRecord]) -> dict[str, int]:
+    counts = Counter()
+    for record in records:
+        for issue in {
+            service_issue(record.state.update_error),
+            service_issue(record.state.scan_error),
+        } - {None}:
+            counts[issue] += 1
+    return dict(counts)
 
 
 def review_queue(records: list[ActionRecord]) -> list[dict]:
     queue = []
     for record in records:
-        error = record.state.update_error or record.state.scan_error
+        errors = [e for e in (record.state.scan_error, record.state.update_error) if e]
+        error = next((e for e in errors if not service_issue(e)), errors[0] if errors else None)
         status = record.guidance_status()
-        if error:
+        if service_issue(error):
+            priority, reason = 3, service_issue(error)
+            next_step = "Use the shared service recovery item in the overview; no separate action-source review is required for this fetch failure."
+        elif error:
             priority, reason = 0, "Fetch or scan failed"
             next_step = "Inspect the immutable source. For a missing root manifest, check subdirectory actions; for a transient failure, rerun refresh. Never mark this clean."
         elif status == "needs review after revision change":
@@ -150,12 +206,22 @@ def review_queue(records: list[ActionRecord]) -> list[dict]:
 def maintenance_summary(records: list[ActionRecord], health: dict) -> str:
     queue = review_queue(records)
     counts = {p: sum(item["priority"] == p for item in queue) for p in range(3)}
+    counts[1] = sum(r.guidance_status() == "needs review after revision change" for r in records)
+    counts[2] = sum(r.guidance_status() == "unreviewed" for r in records)
+    shared = service_issues(records)
+    failed_fetches = sum(bool(r.state.update_error) for r in records)
     lines = [
         "# Maintenance overview",
         "",
-        "**Freshness: " + ("healthy" if health["healthy"] else "needs attention") + "**",
+        "**Stored data: "
+        + ("within freshness limits" if health["healthy"] else "needs attention")
+        + "**",
         "",
-        f"{len(records)} catalog entries. {counts[0]} fetch/scan failures; {counts[1]} reviews invalidated by revision changes; {counts[2]} historical guidance reviews.",
+        f"**Last refresh: partial ({failed_fetches} fetch failures)**"
+        if failed_fetches
+        else "**Last refresh: all repository observations succeeded**",
+        "",
+        f"{len(records)} catalog entries. {counts[0]} action-specific fetch/scan failures; {counts[1]} reviews invalidated by revision changes; {counts[2]} historical guidance reviews.",
         "",
         "Routine observations and compatible Python/tool maintenance are automatic. Historical editorial reviews are a backlog, not a reason to stop all updates.",
         "",
@@ -166,7 +232,24 @@ def maintenance_summary(records: list[ActionRecord], health: dict) -> str:
         "| Action | Why it is here | Next step |",
         "| --- | --- | --- |",
     ]
-    for item in queue[:15]:
+    if shared:
+        recovery = {
+            "GitHub API rate limit": "Wait for quota reset or the next scheduled update; avoid repeated manual refreshes. Then run `uv run python manage.py refresh` once. Existing observations and scan evidence are retained.",
+            "GitHub access rejected": "Inspect the read token's expiry/permissions and affected repository access, then rerun refresh once. Do not delete entries to clear access failures.",
+            "GitHub transport/server failure": "Wait for GitHub/network recovery, then rerun refresh once. No separate source review is required for each affected action.",
+        }
+        insertion = [
+            "## Shared service recovery",
+            "",
+            "| Cause | Affected entries | One recovery action |",
+            "| --- | --- | --- |",
+        ]
+        insertion += [
+            f"| {cause} | {count} | {recovery[cause]} |" for cause, count in sorted(shared.items())
+        ]
+        index = lines.index("## Next decisions")
+        lines[index:index] = insertion + [""]
+    for item in [entry for entry in queue if entry["priority"] != 3][:15]:
         lines.append(
             f"| [{cell(item['action'])}]({item['source']}) | {cell(item['reason'])}: {cell(item['detail'])} | {cell(item['next_step'])} Run `uv run python manage.py review {item['action']}`. |"
         )

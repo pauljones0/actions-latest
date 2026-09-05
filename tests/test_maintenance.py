@@ -59,7 +59,7 @@ def test_queue_prioritizes_failures_then_invalidated_reviews(record):
         record.action,
     ]
     report = maintenance_summary([record, changed, failed], {"healthy": True, "reasons": []})
-    assert "1 fetch/scan failures" in report
+    assert "1 action-specific fetch/scan failures" in report
     assert "1 reviews invalidated" in report
     assert "manage.py review" in report
 
@@ -169,3 +169,40 @@ def test_logged_workflow_failures_cannot_be_hidden_by_tee(tmp_path):
             ["bash", *flags, "-c", "false | tee failure.log"], cwd=tmp_path, capture_output=True
         )
         assert result.returncode != 0, f"{name}: tee masked the failed maintenance command"
+
+
+def test_shared_rate_limit_is_one_recovery_item_not_hundreds_of_reviews(record):
+    affected = []
+    before = []
+    for index in range(30):
+        item = record.model_copy(deep=True)
+        item.catalog.action = f"owner/action-{index}"
+        before.append(item.model_copy(deep=True))
+        item.state.update_error = "GitHub rate limit reached; retry in a later update"
+        affected.append(item)
+    summary = maintenance_summary(affected, {"healthy": True, "reasons": []})
+    assert "partial (30 fetch failures)" in summary
+    assert summary.count("| GitHub API rate limit | 30 |") == 1
+    assert "manage.py review owner/" not in summary
+    assert "30 historical guidance reviews" in summary
+    report = change_report(before, affected, NOW)
+    assert "30 request-error transitions affected" in report
+    assert "## owner/action-" not in report
+    assert "30 request-error transitions recovered" in change_report(affected, before, NOW)
+
+
+def test_shared_outage_does_not_hide_an_independent_manifest_failure(record):
+    record.state.update_error = "GitHub rate limit reached; retaining previous state"
+    record.state.scan_error = "Invalid action manifest"
+    queue = review_queue([record])
+    assert queue[0]["priority"] == 0
+    assert queue[0]["detail"] == "Invalid action manifest"
+
+
+def test_error_grouping_never_hides_a_new_action_specific_failure(record):
+    previous = record.model_copy(deep=True)
+    previous.state.scan_error = "GitHub rate limit reached; retaining previous state"
+    record.state.scan_error = "Invalid action manifest"
+    report = change_report([previous], [record], NOW)
+    assert "Invalid action manifest" in report
+    assert "## example/setup-node" in report

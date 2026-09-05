@@ -26,7 +26,11 @@ def main():
     print(
         f"[Complete changes]({prefix}/catalog-changes.md) · [Review queue]({prefix}/review-queue.json)"
     )
-    print(summarize_changes((ROOT / "data/catalog-changes.md").read_text()))
+    print(
+        summarize_changes((ROOT / "data/catalog-changes.md").read_text()).replace(
+            "/blob/main/data/", f"/blob/{commit}/data/"
+        )
+    )
     print(
         (ROOT / "data/maintenance.md")
         .read_text()

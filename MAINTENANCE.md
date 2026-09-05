@@ -29,7 +29,7 @@ uv run python manage.py review actions/checkout
 
 The review packet contains the immutable source, parsed facts, each human claim, the previous reviewed revision when available, and the exact acknowledgement command. Fix unsupported claims in `catalog.json` before acknowledging. The command requires the selected SHA and refuses stale acknowledgements. It rebuilds the publication artifacts for you; review and commit the resulting diff normally. Editorial acknowledgement never clears scanner findings or bypasses the seven-day stability gate.
 
-Failures come first, then previously reviewed guidance invalidated by a changed revision, then historical unreviewed entries ordered by popularity. The full queue is linked from the overview; you do not need to work through hundreds of historical entries before operating the repo.
+Shared API rate limits, access failures, and transport outages appear once with an affected count and recovery action; they do not create hundreds of independent source reviews. Stored-data freshness and last-refresh success are shown separately. Action-specific failures come first, then previously reviewed guidance invalidated by a changed revision, then historical unreviewed entries ordered by popularity. The full queue is linked from the overview; you do not need to work through hundreds of historical entries before operating the repo.
 
 ## Rerun or diagnose
 
