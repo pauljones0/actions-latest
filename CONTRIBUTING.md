@@ -2,7 +2,7 @@
 
 ## Development
 
-Use Python 3.10 or newer and the uv version pinned in CI:
+Use Python 3.10 or newer and the uv version pinned in `tooling.json`:
 
 ```sh
 uv sync --locked --group dev
@@ -41,4 +41,4 @@ Zizmor is pinned in the dev dependency group and `models.SCANNER_VERSION`. Updat
 
 The update job writes the database, feed, discovery registry/provenance report, and health report. Git's normal fast-forward push protects concurrent changes. Do not add `-X theirs`, force pushes, or binary merge drivers to resolve conflicts. Rerun on the latest catalog instead.
 
-Weekly maintenance tests compatible updates before a normal push to main. Workflow-file changes use the existing `GH_PAT` secret with workflow write permission; expired or insufficient credentials fail visibly. The independent monitor can recover missed updates, but credential failures require maintainer repair. See [operations](docs/operations.md).
+Weekly maintenance tests compatible Python/tool updates before a normal push to main using the scoped workflow token. The uv bootstrap reads `tooling.json`. Dependabot proposes workflow-action pin updates as tested PRs for review; maintenance never needs a personal token to edit workflow files. The independent monitor can recover missed updates, but credential failures require maintainer repair. See [operations](docs/operations.md).

@@ -23,7 +23,7 @@ jobs:
           python-version: '3.12'
       - name: Install tooling and locked dependencies
         run: |
-          python -m pip install uv==0.12.10
+          python scripts/install_tooling.py
           uv sync --locked --group dev
       - name: Test before updating
         run: uv run --frozen pytest -q
