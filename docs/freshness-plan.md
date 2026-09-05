@@ -7,9 +7,11 @@ This tracks the active follow-up goal. Completion requires publication and real 
 - [x] Refresh installed clients in the background, with a compatible-schema cache, integrity validation, offline fallback, rollback protection, bounded downloads, and visible refresh status.
 - [x] Refresh manifest-backed descriptions and operational facts; preserve explicit curated overrides and label outdated/unreviewed editorial claims instead of inventing guidance.
 - [x] Discover qualifying maintained action repositories automatically; validate manifests, apply scanning and observation gates, retain curated overrides and explicit exclusions, and publish admission/rejection provenance.
-- [x] Automate supported dependency/tool/scanner upgrades and tested Dependabot workflow-pin proposals, with coordinated scanner-version updates and full validation before publication or review proposals.
+- [x] Automate supported dependency/tool/scanner upgrades and Dependabot workflow-pin proposal configuration, with coordinated scanner-version updates and full validation before publication or review proposals.
 - [x] Produce freshness/coverage metrics and run an independent scheduled health check with bounded recovery dispatch.
 - [x] Update operations documentation and test every new success/failure path.
-- [ ] Publish changes, run CI and maintenance workflows, inspect actual results, and verify an installed client updates from the published feed.
+- [x] Publish changes, run CI and maintenance workflows, inspect actual results, and verify an installed client updates from the published feed.
 
 Design constraints: no untrusted action code execution; no fabricated release ages or editorial claims; preserve SHA-pinned recommendations; never turn failed scans into clean results; prevent generated snapshots from overwriting concurrent human edits; do not silently auto-upgrade incompatible executable client code.
+
+- [x] Activate Dependabot version updates in GitHub's fork settings and verify its first check. The user enabled the switch; Dependabot completed its first checks and opened PR #4, which passed all three Python versions and was reviewed and merged.
