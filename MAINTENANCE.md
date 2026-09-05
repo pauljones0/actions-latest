@@ -1,6 +1,13 @@
-# Maintenance: start here
+# Maintenance reference (optional)
 
 **Most days, do nothing.** Catalog refresh, candidate discovery, client data refresh, and compatible Python/tool upgrades run automatically. Tests and freshness checks run before a change is treated as successful.
+
+You do not need to read this guide to review an upgrade. Dependabot supplies workflow
+upgrade PRs. When a prepared dependency upgrade fails validation, automation opens
+one draft repair PR with the exact candidate, version comparison, failure link, and
+CI already dispatched. It preserves human edits and keeps at most one repair PR open.
+Bootstrap/resolver failures without a complete candidate still use workflow failure
+notifications; freshness incidents still use the health workflow and its recovery.
 
 | What you need | Open this |
 | --- | --- |
@@ -45,7 +52,10 @@ Without a checkout, open [Refresh](https://github.com/pauljones0/actions-latest/
 
 Failure summaries explain common causes and the correct next operation. A rejected push usually needs a rerun from current main. An outage needs upstream recovery, not deleting catalog entries. Rate-limit reports include the retry time from GitHub’s actual response header when available; wait until then before retrying. Persistent manifest failures need inspection at the selected immutable SHA; a repository can contain subdirectory actions without having a root action.
 
-For failed dependency maintenance, download the **maintenance-proposal** artifact from that run (retained 14 days). It contains the exact proposed patch and before/after report. In a clean checkout of the **proposal base commit printed in the report**, inspect it, then:
+For failed dependency validation, use the automatically opened draft PR. If PR
+creation itself failed, the **maintenance-proposal** artifact from that run (retained
+14 days) is a fallback. In a clean checkout of the **proposal base commit printed in
+the report**, inspect the downloaded patch, then:
 
 ```sh
 git apply --check maintenance-proposal.patch
