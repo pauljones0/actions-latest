@@ -1,5 +1,10 @@
 {
-  "admitted": [],
+  "admitted": [
+    "duriantaco/skylos",
+    "zaproxy/action-baseline",
+    "plengauer/Thoth",
+    "ThreeMoonsLab/agents-shipgate"
+  ],
   "candidates": {
     "DeLaGuardo/setup-clojure": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -7,35 +12,50 @@
       "source_sha": "6d46099eae24853c33c0482f2bb54edf4f1a4c74",
       "status": "admitted"
     },
+    "DenverCoder1/DenverCoder1": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at DenverCoder1/DenverCoder1@7d937148d20ca45f3149853ed8e5745f72a17a92",
+      "status": "rejected"
+    },
     "IT-NuanxinPro/wallpaper-gallery": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "reason": "No action.yml or action.yaml at IT-NuanxinPro/wallpaper-gallery@e08ad863f840369f9f93000f17752f00b95b5726",
       "status": "error"
     },
     "ITJoker233/BingPicApi": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@91dce007ea5768acba7795d20b36ceef9011e8f8",
-      "status": "error"
+      "status": "rejected"
+    },
+    "Jasonliu-0/Newapi-checkin": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at Jasonliu-0/Newapi-checkin@fccc8ce399f23ae638f70fe566533b287d63bd80",
+      "status": "rejected"
     },
     "Juror-AI/juror": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "KryptosAI/mcp-observatory": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at KryptosAI/mcp-observatory@011ed59b31f5b23ef56f5db1d698b277d5296854",
+      "status": "rejected"
+    },
     "LindseyB/dummy": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
-      "reason": "No action.yml or action.yaml at LindseyB/dummy@c4b5b84d490717b0107b6cde2a4c254343375abe",
-      "status": "error"
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at LindseyB/dummy@8edee8d91bad1eaa9072feb2eaadc779a29b6716",
+      "status": "rejected"
     },
     "ProxyScrape/free-proxy-list": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
-      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@81b12d0539b4af42c19fdfa69b9c585450d85881",
-      "status": "error"
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@19e6dd2e1aee75ea32498025e7554a0f1cb7c031",
+      "status": "rejected"
     },
     "RamiKrispin/ai-dev-2024-ml-workshop": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
-      "reason": "No action.yml or action.yaml at RamiKrispin/ai-dev-2024-ml-workshop@dd0845f4e9685e3e067f0ebe8d82febcfee1c59e",
-      "status": "error"
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/ai-dev-2024-ml-workshop@0ffe51edbb221d728b324dd8f0b20809f2cc110a",
+      "status": "rejected"
     },
     "RamiKrispin/pydata-ny-ga-workshop": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -43,9 +63,9 @@
       "status": "error"
     },
     "RamiKrispin/useR2024-pipeline-workshop": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
-      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@87cfd31359c0ce1624112e67bf24c5e026445ea1",
-      "status": "error"
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@1ab74d5748de864e62095ee1794adb46287417dd",
+      "status": "rejected"
     },
     "Readme-Workflows/recent-activity": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -58,10 +78,16 @@
       "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@a030d9a3974fd6e947229615ea6f2cea0ac87c53",
       "status": "error"
     },
+    "ThreeMoonsLab/agents-shipgate": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "db63e42b59d637dd5127cf3a2a12cc7d74028926",
+      "status": "admitted"
+    },
     "Vladimir-Human/humanizer-ru": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
-      "reason": "No action.yml or action.yaml at Vladimir-Human/humanizer-ru@0097e7d72aa4aaebae7ceeb28eae64685ba70485",
-      "status": "error"
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at Vladimir-Human/humanizer-ru@074cfae6cc81a5a21178b395b77d9d025a3034f6",
+      "status": "rejected"
     },
     "aeonfun/aeon": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -74,20 +100,41 @@
       "source_sha": "f41b281d09625079ca2b3f0e60165e4d975f991d",
       "status": "admitted"
     },
+    "azat-io/actions-up": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at azat-io/actions-up@571c9933f7f0231c195f5ee110970bc5670e9f06",
+      "status": "rejected"
+    },
+    "cybersecsi/RAUDI": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@a6167d87471ccb4344ff0c3c7b0b019322f76fc8",
+      "status": "rejected"
+    },
     "danielroe/uppt": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "scanner_version": "1.30.0",
       "source_sha": "d79b75daee9448ee3b1570a8a31c4bd67f76c8f5",
       "status": "admitted"
     },
+    "duriantaco/skylos": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "d33d5dd545ef12d83a01b243760bc1de830843fc",
+      "status": "admitted"
+    },
     "f/wvw.dev": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
-      "reason": "No action.yml or action.yaml at f/wvw.dev@408718de51daec6bb3bf6c081696519762a3de47",
-      "status": "error"
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at f/wvw.dev@11e2342f898ebad1dcf11424b07ff208cbfccf63",
+      "status": "rejected"
     },
     "github/gh-aw": {
       "checked_at": "2026-09-05T20:49:50.304295+00:00",
       "reason": "No action.yml or action.yaml at github/gh-aw@c5ef3e88b222dfa440f76a14ab75628ef512edd7",
+      "status": "rejected"
+    },
+    "go-gitea/gitea": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at go-gitea/gitea@7c280c0ce6f8888b6df6605be546817ee2f21e53",
       "status": "rejected"
     },
     "goreleaser/goreleaser": {
@@ -101,9 +148,9 @@
       "status": "rejected"
     },
     "hect0x7/JMComic-Crawler-Python": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at hect0x7/JMComic-Crawler-Python@9fddb0494caf0cdc812ac6cbfc1c62f4f845b058",
-      "status": "error"
+      "status": "rejected"
     },
     "int128/datadog-actions-metrics": {
       "checked_at": "2026-09-05T20:49:50.304295+00:00",
@@ -112,9 +159,14 @@
       "status": "admitted"
     },
     "ipitio/backage": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
-      "reason": "No action.yml or action.yaml at ipitio/backage@2e2891ce83742e40fc94671a5e414a3aebd77cec",
-      "status": "error"
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at ipitio/backage@df57f83d0a5521744752c74ca3f2fb1e961953eb",
+      "status": "rejected"
+    },
+    "kkzzhizhou/scoop-apps": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@bd58d641dcadfe22d72ef666d84756016beb8dfb",
+      "status": "rejected"
     },
     "kucherenko/jscpd": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -132,9 +184,20 @@
       "status": "rejected"
     },
     "nowscott/EverydayTechNews": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
-      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@63a6a9455f4021d35d1c0d2a74dc43331b5426d7",
-      "status": "error"
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@d7a87ceab4d04fe0abf501b855c354dcad7edce4",
+      "status": "rejected"
+    },
+    "oasdiff/oasdiff": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at oasdiff/oasdiff@7145b77e8e8259c44ea95c38cfe08cbb0a3f2d1c",
+      "status": "rejected"
+    },
+    "plengauer/Thoth": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "99fa99b5460624494ac0c2442696c8bd8e5153b1",
+      "status": "admitted"
     },
     "poseidon/wait-for-status-checks": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -147,6 +210,11 @@
       "reason": "No action.yml or action.yaml at prashanth-sams/pytest-html-reporter@494a56160863e709309b5ea24d858701326626c3",
       "status": "error"
     },
+    "raeperd/realworld-springboot-java": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at raeperd/realworld-springboot-java@67cf40d83a7a8d0f818fddc53a52d01a3529a95e",
+      "status": "rejected"
+    },
     "robvanderleek/create-issue-branch": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "scanner_version": "1.30.0",
@@ -157,6 +225,11 @@
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@34d4d75ed7b611d1cd0f38fd6dc940e4ef261ecd",
       "status": "error"
+    },
+    "some-natalie/kubernoodles": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "reason": "No action.yml or action.yaml at some-natalie/kubernoodles@ea88c91bdf917bfa451ce6628f3c3dc3028d0ba7",
+      "status": "rejected"
     },
     "suzuki-shunsuke/tfaction": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -169,13 +242,19 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "zaproxy/action-baseline": {
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "544a81b5ffe6cf15320d7a944a7c19643d4ceab7",
+      "status": "admitted"
+    },
     "zhongfly/mpv-winbuild": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@423ffd555dddc9b7fceae22eb303eebc2dc47574",
-      "status": "error"
+      "status": "rejected"
     }
   },
-  "checked_at": "2026-09-05T21:08:49.129873+00:00",
+  "checked_at": "2026-09-06T08:58:28.620886+00:00",
   "errors": [],
-  "inspected": 0
+  "inspected": 25
 }

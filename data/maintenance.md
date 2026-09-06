@@ -6,7 +6,7 @@
 
 Stored observations outside the 72-hour window: 0.
 
-549 catalog entries. 5 action-specific fetch/scan failures; 0 reviews invalidated by revision changes; 541 historical guidance reviews.
+553 catalog entries. 5 action-specific fetch/scan failures; 0 reviews invalidated by revision changes; 541 historical guidance reviews.
 
 Routine observations and compatible Python/tool maintenance are automatic. Historical editorial reviews are a backlog, not a reason to stop all updates.
 
