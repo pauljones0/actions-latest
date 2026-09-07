@@ -1,11 +1,9 @@
 {
   "admitted": [
-    "myrotvorets/set-commit-status-action",
-    "yoshi389111/github-profile-3d-contrib",
-    "IEvangelist/resource-translator",
-    "ComunidadAylas/PackSquash-action",
-    "WtfJoke/setup-tectonic",
-    "tmatens/compose-lint"
+    "danielroe/provenance-action",
+    "vladopajic/go-test-coverage",
+    "upptime/uptime-monitor",
+    "laminas/automatic-releases"
   ],
   "candidates": {
     "CDFER/jlcpcb-parts-database": {
@@ -93,9 +91,9 @@
       "status": "admitted"
     },
     "SpaceTimee/Fusion-JetBrainsMapleMono": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
-      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@a030d9a3974fd6e947229615ea6f2cea0ac87c53",
-      "status": "error"
+      "checked_at": "2026-09-07T09:46:50.517175+00:00",
+      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@99b59c13f19b9712217e2e9ab5752b339d3e47ff",
+      "status": "rejected"
     },
     "ThreeMoonsLab/agents-shipgate": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
@@ -113,6 +111,11 @@
       "scanner_version": "1.30.0",
       "source_sha": "4c5141536933d0ca4c23afe7995c08afc187cd90",
       "status": "admitted"
+    },
+    "actions/actions-runner-controller": {
+      "checked_at": "2026-09-07T09:46:50.517175+00:00",
+      "reason": "No action.yml or action.yaml at actions/actions-runner-controller@87592be6d3586557b281cabb1f384b34605cd734",
+      "status": "rejected"
     },
     "aeonfun/aeon": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -135,6 +138,12 @@
       "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@a6167d87471ccb4344ff0c3c7b0b019322f76fc8",
       "status": "rejected"
     },
+    "danielroe/provenance-action": {
+      "checked_at": "2026-09-07T09:46:50.517175+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "ba56f4e13095c19a1747b2fd379ce124016b2d7b",
+      "status": "admitted"
+    },
     "danielroe/uppt": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "scanner_version": "1.30.0",
@@ -150,6 +159,11 @@
     "f/wvw.dev": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at f/wvw.dev@11e2342f898ebad1dcf11424b07ff208cbfccf63",
+      "status": "rejected"
+    },
+    "f2calv/yamlizr": {
+      "checked_at": "2026-09-07T09:46:50.517175+00:00",
+      "reason": "No action.yml or action.yaml at f2calv/yamlizr@b2762d5ad83eb35f05a5553151985c6d8aeb901a",
       "status": "rejected"
     },
     "github/gh-aw": {
@@ -203,6 +217,12 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "laminas/automatic-releases": {
+      "checked_at": "2026-09-07T09:46:50.517175+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "ea2a082a1ff051369e88fa1c87a038d11ecbe7c1",
+      "status": "admitted"
+    },
     "melogabriel/tinfoil-shops-status": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@fbb3fa40ae3613d76cdcabbf59ebb7f322269ffb",
@@ -227,6 +247,11 @@
     "oasdiff/oasdiff": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at oasdiff/oasdiff@7145b77e8e8259c44ea95c38cfe08cbb0a3f2d1c",
+      "status": "rejected"
+    },
+    "philips-labs/slsa-provenance-action": {
+      "checked_at": "2026-09-07T09:46:50.517175+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "plengauer/Thoth": {
@@ -284,10 +309,27 @@
       "source_sha": "84e0810ed3b3ad9bc79e2dc5a384aa4160f25643",
       "status": "admitted"
     },
+    "ubicloud/ubicloud": {
+      "checked_at": "2026-09-07T09:46:50.517175+00:00",
+      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@01b4f4647754f12966ace6acfb226287b485938d",
+      "status": "rejected"
+    },
     "ultralytics/actions": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
+    },
+    "upptime/uptime-monitor": {
+      "checked_at": "2026-09-07T09:46:50.517175+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "2e53e7570ad597ccf3f251d43502846a042165d2",
+      "status": "admitted"
+    },
+    "vladopajic/go-test-coverage": {
+      "checked_at": "2026-09-07T09:46:50.517175+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "e19818641060ec56bed8f72673177dd937b2adb5",
+      "status": "admitted"
     },
     "yoshi389111/github-profile-3d-contrib": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
@@ -307,7 +349,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-07T07:23:29.528680+00:00",
+  "checked_at": "2026-09-07T09:46:50.517175+00:00",
   "errors": [],
-  "inspected": 13
+  "inspected": 9
 }

@@ -78,7 +78,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/anthropics/claude-code-action/tree/20c8abf165d5f85ab3fc970db9498436377dc9d1/",
-    "stars": 8806
+    "stars": 8810
   },
   {
     "action": "appleboy/ssh-action",
@@ -321,7 +321,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/setup-java/tree/be666c2fcd27ec809703dec50e508c2fdc7f6654/",
-    "stars": 2001
+    "stars": 2002
   },
   {
     "action": "google-github-actions/setup-gcloud",
@@ -564,7 +564,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/openai/codex-action/tree/e0fdf01220eb9a88167c4898839d273e3f2609d1/",
-    "stars": 1225
+    "stars": 1226
   },
   {
     "action": "peter-evans/repository-dispatch",
@@ -627,7 +627,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/pullfrog/pullfrog/tree/fb22cb3ae3e85b594dc006e21e64dc58a091ca67/",
-    "stars": 1142
+    "stars": 1144
   },
   {
     "action": "aklofas/kicad-happy",
@@ -636,7 +636,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/aklofas/kicad-happy/tree/968f5c847121e1c36a4ed848f2bab87f9dfc1016/",
-    "stars": 1134
+    "stars": 1135
   },
   {
     "action": "aws-actions/amazon-ecr-login",
@@ -744,7 +744,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/create-github-app-token/tree/bcd2ba49218906704ab6c1aa796996da409d3eb1/",
-    "stars": 882
+    "stars": 883
   },
   {
     "action": "anothrNick/github-tag-action",
@@ -771,7 +771,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/astral-sh/setup-uv/tree/08807647e7069bb48b6ef5acd8ec9567f424441b/",
-    "stars": 861
+    "stars": 862
   },
   {
     "action": "machulav/ec2-github-runner",
@@ -1365,7 +1365,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/jfrog/frogbot/tree/d757a1e4560cd6e083e69677bf12103a36755800/",
-    "stars": 369
+    "stars": 370
   },
   {
     "action": "jdx/mise-action",
@@ -1374,7 +1374,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/jdx/mise-action/tree/1648a7812b9aeae629881980618f079932869151/",
-    "stars": 363
+    "stars": 364
   },
   {
     "action": "awalsh128/cache-apt-pkgs-action",

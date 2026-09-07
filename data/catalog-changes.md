@@ -1,39 +1,27 @@
 # Latest catalog changes
 
-6 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+4 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## Added: ComunidadAylas/PackSquash-action
+## Added: danielroe/provenance-action
 
-[Source](https://github.com/ComunidadAylas/PackSquash-action) — Official action to run PackSquash in a GitHub Actions workflow.
-
-New entries still require observed stability and fresh scan evidence before usage.
-
-## Added: IEvangelist/resource-translator
-
-[Source](https://github.com/IEvangelist/resource-translator) — Automatically open machine-translated pull requests for resource files using Azure, AWS, or Google translation providers. Supports .resx, .restext, .ini, .xliff, .po, and .json.
+[Source](https://github.com/danielroe/provenance-action) — Fail CI when dependencies in your lockfile lose npm provenance, trusted publisher or staged publishing status.
 
 New entries still require observed stability and fresh scan evidence before usage.
 
-## Added: myrotvorets/set-commit-status-action
+## Added: laminas/automatic-releases
 
-[Source](https://github.com/myrotvorets/set-commit-status-action) — Updates the status of the given commit
-
-New entries still require observed stability and fresh scan evidence before usage.
-
-## Added: tmatens/compose-lint
-
-[Source](https://github.com/tmatens/compose-lint) — Security-focused linter for Docker Compose files
+[Source](https://github.com/laminas/automatic-releases) — Automates automatic releases for semver-compliant repositories
 
 New entries still require observed stability and fresh scan evidence before usage.
 
-## Added: WtfJoke/setup-tectonic
+## Added: upptime/uptime-monitor
 
-[Source](https://github.com/WtfJoke/setup-tectonic) — Sets up Tectonic for Github Actions to compile your LaTeX documents
+[Source](https://github.com/upptime/uptime-monitor) — Uptime monitor and status page powered entirely by GitHub
 
 New entries still require observed stability and fresh scan evidence before usage.
 
-## Added: yoshi389111/github-profile-3d-contrib
+## Added: vladopajic/go-test-coverage
 
-[Source](https://github.com/yoshi389111/github-profile-3d-contrib) — Generate profile 3D Contributions
+[Source](https://github.com/vladopajic/go-test-coverage) — go-test-coverage is a tool designed to report issues when test coverage falls below a specified threshold.
 
 New entries still require observed stability and fresh scan evidence before usage.
