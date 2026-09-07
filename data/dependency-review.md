@@ -8,9 +8,9 @@ Direct tools stay within their current major. Runtime dependencies stay within d
 | --- | --- | --- | --- |
 | No package version changes | — | — | Lock format/metadata may still change. |
 
-**Proposal base commit:** `ed014b9c4e279aabe30b00305dddedf06e546fa9`. Reproduce the downloaded patch from this exact commit, which can differ from the event that queued the run.
+**Proposal base commit:** `ce4f661c5a4cfca53a30c5052c72e08e7ea8bb91`. Reproduce the downloaded patch from this exact commit, which can differ from the event that queued the run.
 
-[Checks and publication result](https://github.com/pauljones0/actions-latest/actions/runs/33991213956)
+[Checks and publication result](https://github.com/pauljones0/actions-latest/actions/runs/34095147966)
 
 ## Decision
 
