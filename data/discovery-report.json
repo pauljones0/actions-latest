@@ -1,9 +1,9 @@
 {
   "admitted": [
-    "danielroe/provenance-action",
-    "vladopajic/go-test-coverage",
-    "upptime/uptime-monitor",
-    "laminas/automatic-releases"
+    "devops-infra/action-pull-request",
+    "cncf/prow-github-actions",
+    "coursier/setup-action",
+    "aminya/setup-cpp"
   ],
   "candidates": {
     "CDFER/jlcpcb-parts-database": {
@@ -26,6 +26,11 @@
     "DenverCoder1/DenverCoder1": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at DenverCoder1/DenverCoder1@7d937148d20ca45f3149853ed8e5745f72a17a92",
+      "status": "rejected"
+    },
+    "Excelius-Wang/harbor": {
+      "checked_at": "2026-09-08T09:10:11.633765+00:00",
+      "reason": "No action.yml or action.yaml at Excelius-Wang/harbor@a3f2594ef35a84b1aa0f2183efd1fb87a0655b33",
       "status": "rejected"
     },
     "IEvangelist/resource-translator": {
@@ -62,6 +67,11 @@
     "LindseyB/dummy": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at LindseyB/dummy@8edee8d91bad1eaa9072feb2eaadc779a29b6716",
+      "status": "rejected"
+    },
+    "MohammadBahemmat/V2ray-Collector": {
+      "checked_at": "2026-09-08T09:10:11.633765+00:00",
+      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@dfa3d72b2f1a67d54c69370eae0cf39d303aa617",
       "status": "rejected"
     },
     "ProxyScrape/free-proxy-list": {
@@ -128,10 +138,38 @@
       "source_sha": "f41b281d09625079ca2b3f0e60165e4d975f991d",
       "status": "admitted"
     },
+    "aminya/setup-cpp": {
+      "checked_at": "2026-09-08T09:10:11.633765+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "80675fd3148d77bca96ba6d5967a41b3ccbfa8d3",
+      "status": "admitted"
+    },
+    "ashtanko/flutter_bloc_app_template": {
+      "checked_at": "2026-09-08T09:10:11.633765+00:00",
+      "reason": "No action.yml or action.yaml at ashtanko/flutter_bloc_app_template@c7235604d0cc66e86dc894f64b6f03d8ca617ee2",
+      "status": "rejected"
+    },
     "azat-io/actions-up": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at azat-io/actions-up@571c9933f7f0231c195f5ee110970bc5670e9f06",
       "status": "rejected"
+    },
+    "cncf/prow-github-actions": {
+      "checked_at": "2026-09-08T09:10:11.633765+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "9cd93b8428b53111b005d4882145aa9142b52be1",
+      "status": "admitted"
+    },
+    "cobusgreyling/loop-engineering": {
+      "checked_at": "2026-09-08T09:10:11.633765+00:00",
+      "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@931b7324257736669333e1bcc100c4597e253609",
+      "status": "rejected"
+    },
+    "coursier/setup-action": {
+      "checked_at": "2026-09-08T09:10:11.633765+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "1b01649eb5512eacaa3ef94b5c416e8c3848e982",
+      "status": "admitted"
     },
     "cybersecsi/RAUDI": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
@@ -148,6 +186,12 @@
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "scanner_version": "1.30.0",
       "source_sha": "d79b75daee9448ee3b1570a8a31c4bd67f76c8f5",
+      "status": "admitted"
+    },
+    "devops-infra/action-pull-request": {
+      "checked_at": "2026-09-08T09:10:11.633765+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "daefd140bf63be73733ad178abeafa7af20a8699",
       "status": "admitted"
     },
     "duriantaco/skylos": {
@@ -222,6 +266,11 @@
       "scanner_version": "1.30.0",
       "source_sha": "ea2a082a1ff051369e88fa1c87a038d11ecbe7c1",
       "status": "admitted"
+    },
+    "liudf0716/xfrpc": {
+      "checked_at": "2026-09-08T09:10:11.633765+00:00",
+      "reason": "No action.yml or action.yaml at liudf0716/xfrpc@946b88a5328f09da1f3e91922d44b7403e8c4b5f",
+      "status": "rejected"
     },
     "melogabriel/tinfoil-shops-status": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
@@ -349,7 +398,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-07T09:46:50.517175+00:00",
+  "checked_at": "2026-09-08T09:10:11.633765+00:00",
   "errors": [],
   "inspected": 9
 }

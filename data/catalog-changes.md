@@ -2,26 +2,26 @@
 
 4 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## Added: danielroe/provenance-action
+## Added: aminya/setup-cpp
 
-[Source](https://github.com/danielroe/provenance-action) — Fail CI when dependencies in your lockfile lose npm provenance, trusted publisher or staged publishing status.
-
-New entries still require observed stability and fresh scan evidence before usage.
-
-## Added: laminas/automatic-releases
-
-[Source](https://github.com/laminas/automatic-releases) — Automates automatic releases for semver-compliant repositories
+[Source](https://github.com/aminya/setup-cpp) — Install all the tools required for building and testing C++/C projects.
 
 New entries still require observed stability and fresh scan evidence before usage.
 
-## Added: upptime/uptime-monitor
+## Added: cncf/prow-github-actions
 
-[Source](https://github.com/upptime/uptime-monitor) — Uptime monitor and status page powered entirely by GitHub
+[Source](https://github.com/cncf/prow-github-actions) — Prow inspired github CI/CD actions
 
 New entries still require observed stability and fresh scan evidence before usage.
 
-## Added: vladopajic/go-test-coverage
+## Added: coursier/setup-action
 
-[Source](https://github.com/vladopajic/go-test-coverage) — go-test-coverage is a tool designed to report issues when test coverage falls below a specified threshold.
+[Source](https://github.com/coursier/setup-action) — Use Coursier to install JVM and Scala apps
+
+New entries still require observed stability and fresh scan evidence before usage.
+
+## Added: devops-infra/action-pull-request
+
+[Source](https://github.com/devops-infra/action-pull-request) — GitHub Action that will create a pull request from the current branch
 
 New entries still require observed stability and fresh scan evidence before usage.
