@@ -264,6 +264,27 @@
     "reviewed_at": null
   },
   {
+    "action": "FantasticFiasco/action-update-license-year",
+    "description": "Updates the copyright year(s) in your license file and creates a pull request.",
+    "category": "Discovered",
+    "tags": [
+      "license",
+      "license-management",
+      "year"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/FantasticFiasco/action-update-license-year/tree/bf87d0d34d20fbd3349a1eb0ad4eb66e44e110d8",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "IEvangelist/resource-translator",
     "description": "Automatically open machine-translated pull requests for resource files using Azure, AWS, or Google translation providers. Supports .resx, .restext, .ini, .xliff, .po, and .json.",
     "category": "Discovered",
@@ -335,6 +356,55 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/laminas/automatic-releases/tree/ea2a082a1ff051369e88fa1c87a038d11ecbe7c1",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "lukka/run-cmake",
+    "description": "Run CMake with CMakePreset.json to configure, build, package and test C/C++ source code.",
+    "category": "Discovered",
+    "tags": [
+      "cmake",
+      "cplusplus",
+      "cpp",
+      "git",
+      "ninja",
+      "vcpkg"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/lukka/run-cmake/tree/c575fbf7e977dee9e825cfea913263f7c4377960",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "lukka/run-vcpkg",
+    "description": "Setup (and optionally run) vcpkg to build C/C++ dependencies and cache them automatically.",
+    "category": "Discovered",
+    "tags": [
+      "cmake",
+      "cplusplus",
+      "cpp",
+      "devops",
+      "git",
+      "ninja",
+      "vcpkg"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/lukka/run-vcpkg/tree/5ad8bfa6267ef808f7d48cf4004c879bed752401",
     "reviewed_sha": null,
     "reviewed_at": null
   },
@@ -448,6 +518,27 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/robvanderleek/create-issue-branch/tree/56770a5551493d63451167816f5d65c9060960d7",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "sigstore/gh-action-sigstore-python",
+    "description": "Use sigstore-python to sign Python packages",
+    "category": "Discovered",
+    "tags": [
+      "codesigning",
+      "security",
+      "supply-chain"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/sigstore/gh-action-sigstore-python/tree/e1a61b8eff97eb7f41488af1dc1fd7b86b72a136",
     "reviewed_sha": null,
     "reviewed_at": null
   },
@@ -598,6 +689,32 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/vladopajic/go-test-coverage/tree/e19818641060ec56bed8f72673177dd937b2adb5",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "vn7n24fzkq/github-profile-summary-cards",
+    "description": "Generate profile summary cards and commit to default branch",
+    "category": "Discovered",
+    "tags": [
+      "github-profile-readme",
+      "hacktoberfest",
+      "profile-readme",
+      "profile-summary",
+      "readme-stats",
+      "star",
+      "summary-cards",
+      "trigger-action"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/vn7n24fzkq/github-profile-summary-cards/tree/e722eded97059b31d7e8ad3ae0267b74ff24172d",
     "reviewed_sha": null,
     "reviewed_at": null
   },

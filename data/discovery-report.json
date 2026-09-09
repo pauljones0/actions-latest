@@ -1,9 +1,10 @@
 {
   "admitted": [
-    "devops-infra/action-pull-request",
-    "cncf/prow-github-actions",
-    "coursier/setup-action",
-    "aminya/setup-cpp"
+    "lukka/run-vcpkg",
+    "FantasticFiasco/action-update-license-year",
+    "vn7n24fzkq/github-profile-summary-cards",
+    "lukka/run-cmake",
+    "sigstore/gh-action-sigstore-python"
   ],
   "candidates": {
     "CDFER/jlcpcb-parts-database": {
@@ -32,6 +33,12 @@
       "checked_at": "2026-09-08T09:10:11.633765+00:00",
       "reason": "No action.yml or action.yaml at Excelius-Wang/harbor@a3f2594ef35a84b1aa0f2183efd1fb87a0655b33",
       "status": "rejected"
+    },
+    "FantasticFiasco/action-update-license-year": {
+      "checked_at": "2026-09-09T09:14:54.525651+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "bf87d0d34d20fbd3349a1eb0ad4eb66e44e110d8",
+      "status": "admitted"
     },
     "IEvangelist/resource-translator": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
@@ -72,6 +79,11 @@
     "MohammadBahemmat/V2ray-Collector": {
       "checked_at": "2026-09-08T09:10:11.633765+00:00",
       "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@dfa3d72b2f1a67d54c69370eae0cf39d303aa617",
+      "status": "rejected"
+    },
+    "Pradumnasaraf/DevOps": {
+      "checked_at": "2026-09-09T09:14:54.525651+00:00",
+      "reason": "No action.yml or action.yaml at Pradumnasaraf/DevOps@f89fc4c684672cd901e5c51edb9a361bf4247987",
       "status": "rejected"
     },
     "ProxyScrape/free-proxy-list": {
@@ -154,6 +166,11 @@
       "reason": "No action.yml or action.yaml at azat-io/actions-up@571c9933f7f0231c195f5ee110970bc5670e9f06",
       "status": "rejected"
     },
+    "cloudbase/garm": {
+      "checked_at": "2026-09-09T09:14:54.525651+00:00",
+      "reason": "No action.yml or action.yaml at cloudbase/garm@e42ba3ba30616f03baca0bfa3aaffe63948a50ee",
+      "status": "rejected"
+    },
     "cncf/prow-github-actions": {
       "checked_at": "2026-09-08T09:10:11.633765+00:00",
       "scanner_version": "1.30.0",
@@ -193,6 +210,11 @@
       "scanner_version": "1.30.0",
       "source_sha": "daefd140bf63be73733ad178abeafa7af20a8699",
       "status": "admitted"
+    },
+    "docker/actions-toolkit": {
+      "checked_at": "2026-09-09T09:14:54.525651+00:00",
+      "reason": "No action.yml or action.yaml at docker/actions-toolkit@cd8a5b965fa62640d5056558b8d138158922925d",
+      "status": "rejected"
     },
     "duriantaco/skylos": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
@@ -272,6 +294,18 @@
       "reason": "No action.yml or action.yaml at liudf0716/xfrpc@946b88a5328f09da1f3e91922d44b7403e8c4b5f",
       "status": "rejected"
     },
+    "lukka/run-cmake": {
+      "checked_at": "2026-09-09T09:14:54.525651+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "c575fbf7e977dee9e825cfea913263f7c4377960",
+      "status": "admitted"
+    },
+    "lukka/run-vcpkg": {
+      "checked_at": "2026-09-09T09:14:54.525651+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "5ad8bfa6267ef808f7d48cf4004c879bed752401",
+      "status": "admitted"
+    },
     "melogabriel/tinfoil-shops-status": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@fbb3fa40ae3613d76cdcabbf59ebb7f322269ffb",
@@ -341,6 +375,12 @@
       "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@547a6f6a33d3665e043e86cb25ad464aa55ee10d",
       "status": "rejected"
     },
+    "sigstore/gh-action-sigstore-python": {
+      "checked_at": "2026-09-09T09:14:54.525651+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "e1a61b8eff97eb7f41488af1dc1fd7b86b72a136",
+      "status": "admitted"
+    },
     "some-natalie/kubernoodles": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at some-natalie/kubernoodles@ea88c91bdf917bfa451ce6628f3c3dc3028d0ba7",
@@ -380,6 +420,12 @@
       "source_sha": "e19818641060ec56bed8f72673177dd937b2adb5",
       "status": "admitted"
     },
+    "vn7n24fzkq/github-profile-summary-cards": {
+      "checked_at": "2026-09-09T09:14:54.525651+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "e722eded97059b31d7e8ad3ae0267b74ff24172d",
+      "status": "admitted"
+    },
     "yoshi389111/github-profile-3d-contrib": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "scanner_version": "1.30.0",
@@ -396,9 +442,14 @@
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@423ffd555dddc9b7fceae22eb303eebc2dc47574",
       "status": "rejected"
+    },
+    "ziwenhahaha/daily-paper-reader": {
+      "checked_at": "2026-09-09T09:14:54.525651+00:00",
+      "reason": "No action.yml or action.yaml at ziwenhahaha/daily-paper-reader@1e93324ac76c35cff7892458b1ac7e09f24f5c78",
+      "status": "rejected"
     }
   },
-  "checked_at": "2026-09-08T09:10:11.633765+00:00",
+  "checked_at": "2026-09-09T09:14:54.525651+00:00",
   "errors": [],
   "inspected": 9
 }
