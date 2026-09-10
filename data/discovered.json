@@ -522,6 +522,34 @@
     "reviewed_at": null
   },
   {
+    "action": "ruzickap/action-my-broken-link-checker",
+    "description": "Broken link checker for web pages located locally or remotely",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "broken-links",
+      "checker",
+      "link-checker",
+      "link-checking",
+      "links",
+      "public",
+      "url-checker",
+      "url-checking",
+      "website"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/ruzickap/action-my-broken-link-checker/tree/0edc2293b3381624f1f28e557397cfd75c4e8179",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "sigstore/gh-action-sigstore-python",
     "description": "Use sigstore-python to sign Python packages",
     "category": "Discovered",

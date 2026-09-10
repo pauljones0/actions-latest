@@ -1,10 +1,6 @@
 {
   "admitted": [
-    "lukka/run-vcpkg",
-    "FantasticFiasco/action-update-license-year",
-    "vn7n24fzkq/github-profile-summary-cards",
-    "lukka/run-cmake",
-    "sigstore/gh-action-sigstore-python"
+    "ruzickap/action-my-broken-link-checker"
   ],
   "candidates": {
     "CDFER/jlcpcb-parts-database": {
@@ -117,6 +113,11 @@
       "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@99b59c13f19b9712217e2e9ab5752b339d3e47ff",
       "status": "rejected"
     },
+    "Terrenceeeee/AI-frontend-engineering-starter": {
+      "checked_at": "2026-09-10T09:13:49.409079+00:00",
+      "reason": "No action.yml or action.yaml at Terrenceeeee/AI-frontend-engineering-starter@c16432888fddae17a329c06e25dae09bf5183e1c",
+      "status": "rejected"
+    },
     "ThreeMoonsLab/agents-shipgate": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "scanner_version": "1.30.0",
@@ -164,6 +165,11 @@
     "azat-io/actions-up": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at azat-io/actions-up@571c9933f7f0231c195f5ee110970bc5670e9f06",
+      "status": "rejected"
+    },
+    "bitscoper/bitscoper_cyberkit": {
+      "checked_at": "2026-09-10T09:13:49.409079+00:00",
+      "reason": "No action.yml or action.yaml at bitscoper/bitscoper_cyberkit@6310ffb85c97aac0b0e332c435cba9ee2d93d680",
       "status": "rejected"
     },
     "cloudbase/garm": {
@@ -370,6 +376,17 @@
       "source_sha": "56770a5551493d63451167816f5d65c9060960d7",
       "status": "admitted"
     },
+    "runs-on/runs-on": {
+      "checked_at": "2026-09-10T09:13:49.409079+00:00",
+      "reason": "No action.yml or action.yaml at runs-on/runs-on@ab6d5ca156bb7ac1355c238743cbeb312939e9d5",
+      "status": "rejected"
+    },
+    "ruzickap/action-my-broken-link-checker": {
+      "checked_at": "2026-09-10T09:13:49.409079+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "0edc2293b3381624f1f28e557397cfd75c4e8179",
+      "status": "admitted"
+    },
     "sandro2211/powerbi-ml-insight-engine": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@547a6f6a33d3665e043e86cb25ad464aa55ee10d",
@@ -397,6 +414,11 @@
       "scanner_version": "1.30.0",
       "source_sha": "84e0810ed3b3ad9bc79e2dc5a384aa4160f25643",
       "status": "admitted"
+    },
+    "tryAGI/AutoSDK": {
+      "checked_at": "2026-09-10T09:13:49.409079+00:00",
+      "reason": "No action.yml or action.yaml at tryAGI/AutoSDK@f673a8498c02081b926c832e27e8fc5820a3f134",
+      "status": "rejected"
     },
     "ubicloud/ubicloud": {
       "checked_at": "2026-09-07T09:46:50.517175+00:00",
@@ -449,7 +471,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-09T09:14:54.525651+00:00",
+  "checked_at": "2026-09-10T09:13:49.409079+00:00",
   "errors": [],
-  "inspected": 9
+  "inspected": 5
 }
