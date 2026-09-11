@@ -21,6 +21,29 @@
     "reviewed_at": null
   },
   {
+    "action": "Aletheore/Aletheore",
+    "description": "Posts an evidence-grounded PR diff: secrets, vulnerabilities, layer violations, architecture deltas.",
+    "category": "Discovered",
+    "tags": [
+      "code-review",
+      "dependency-vulnerabilities",
+      "mcp-server",
+      "secrets-detection",
+      "static-analysis"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/Aletheore/Aletheore/tree/52cf06c1253340345124e55e50a547eea78a371b",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "aminya/setup-cpp",
     "description": "Install all the tools required for building and testing C++/C projects.",
     "category": "Discovered",

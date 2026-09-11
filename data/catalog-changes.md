@@ -2,8 +2,8 @@
 
 1 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## Added: ruzickap/action-my-broken-link-checker
+## Added: Aletheore/Aletheore
 
-[Source](https://github.com/ruzickap/action-my-broken-link-checker) — Broken link checker for web pages located locally or remotely
+[Source](https://github.com/Aletheore/Aletheore) — Posts an evidence-grounded PR diff: secrets, vulnerabilities, layer violations, architecture deltas.
 
 New entries still require observed stability and fresh scan evidence before usage.

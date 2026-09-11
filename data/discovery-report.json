@@ -1,8 +1,19 @@
 {
   "admitted": [
-    "ruzickap/action-my-broken-link-checker"
+    "Aletheore/Aletheore"
   ],
   "candidates": {
+    "Agents365-ai/drawio-skill": {
+      "checked_at": "2026-09-11T09:11:06.276205+00:00",
+      "reason": "No action.yml or action.yaml at Agents365-ai/drawio-skill@cfe61314136431621c9268d8ea0d811bff308f5a",
+      "status": "rejected"
+    },
+    "Aletheore/Aletheore": {
+      "checked_at": "2026-09-11T09:11:06.276205+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "52cf06c1253340345124e55e50a547eea78a371b",
+      "status": "admitted"
+    },
     "CDFER/jlcpcb-parts-database": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "reason": "No action.yml or action.yaml at CDFER/jlcpcb-parts-database@a851ef730af2c2686b15ec3f20a8c89ca4c36265",
@@ -217,6 +228,11 @@
       "source_sha": "daefd140bf63be73733ad178abeafa7af20a8699",
       "status": "admitted"
     },
+    "dflook/terraform-github-actions": {
+      "checked_at": "2026-09-11T09:11:06.276205+00:00",
+      "reason": "No action.yml or action.yaml at dflook/terraform-github-actions@bb0ed9a8ea82a38e966e372da328aa881e00fef4",
+      "status": "rejected"
+    },
     "docker/actions-toolkit": {
       "checked_at": "2026-09-09T09:14:54.525651+00:00",
       "reason": "No action.yml or action.yaml at docker/actions-toolkit@cd8a5b965fa62640d5056558b8d138158922925d",
@@ -236,6 +252,11 @@
     "f2calv/yamlizr": {
       "checked_at": "2026-09-07T09:46:50.517175+00:00",
       "reason": "No action.yml or action.yaml at f2calv/yamlizr@b2762d5ad83eb35f05a5553151985c6d8aeb901a",
+      "status": "rejected"
+    },
+    "github-aws-runners/terraform-aws-github-runner": {
+      "checked_at": "2026-09-11T09:11:06.276205+00:00",
+      "reason": "No action.yml or action.yaml at github-aws-runners/terraform-aws-github-runner@1df3735cbfd7c394a35420e4b6df29105891f981",
       "status": "rejected"
     },
     "github/gh-aw": {
@@ -471,7 +492,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-10T09:13:49.409079+00:00",
+  "checked_at": "2026-09-11T09:11:06.276205+00:00",
   "errors": [],
-  "inspected": 5
+  "inspected": 4
 }
