@@ -840,5 +840,26 @@
     "source_url": "https://github.com/zaproxy/action-baseline/tree/544a81b5ffe6cf15320d7a944a7c19643d4ceab7",
     "reviewed_sha": null,
     "reviewed_at": null
+  },
+  {
+    "action": "zgosalvez/github-actions-report-lcov",
+    "description": "Report the code coverage from LCOV files",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "github",
+      "lcov"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/zgosalvez/github-actions-report-lcov/tree/b481d6d39d8e437a2395fb817a4bf9b9225811ea",
+    "reviewed_sha": null,
+    "reviewed_at": null
   }
 ]

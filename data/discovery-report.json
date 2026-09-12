@@ -1,8 +1,13 @@
 {
   "admitted": [
-    "Aletheore/Aletheore"
+    "zgosalvez/github-actions-report-lcov"
   ],
   "candidates": {
+    "ARM-software/AVH": {
+      "checked_at": "2026-09-12T08:52:56.533053+00:00",
+      "reason": "No action.yml or action.yaml at ARM-software/AVH@6eb2fc4685b50540667ccd7364f2f1459bade884",
+      "status": "rejected"
+    },
     "Agents365-ai/drawio-skill": {
       "checked_at": "2026-09-11T09:11:06.276205+00:00",
       "reason": "No action.yml or action.yaml at Agents365-ai/drawio-skill@cfe61314136431621c9268d8ea0d811bff308f5a",
@@ -199,6 +204,11 @@
       "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@931b7324257736669333e1bcc100c4597e253609",
       "status": "rejected"
     },
+    "cortinico/kotlin-gradle-plugin-template": {
+      "checked_at": "2026-09-12T08:52:56.533053+00:00",
+      "reason": "No action.yml or action.yaml at cortinico/kotlin-gradle-plugin-template@2139c24996475f6a41eb3cdb69d6da78472d307f",
+      "status": "rejected"
+    },
     "coursier/setup-action": {
       "checked_at": "2026-09-08T09:10:11.633765+00:00",
       "scanner_version": "1.30.0",
@@ -298,6 +308,16 @@
     "ipitio/backage": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at ipitio/backage@df57f83d0a5521744752c74ca3f2fb1e961953eb",
+      "status": "rejected"
+    },
+    "its-me-debk007/kotlin-android-mvvm-template": {
+      "checked_at": "2026-09-12T08:52:56.533053+00:00",
+      "reason": "No action.yml or action.yaml at its-me-debk007/kotlin-android-mvvm-template@bc5223b91c8d3c1475c4173d8a7b9b643faa98fd",
+      "status": "rejected"
+    },
+    "jacopone/antigravity-nix": {
+      "checked_at": "2026-09-12T08:52:56.533053+00:00",
+      "reason": "No action.yml or action.yaml at jacopone/antigravity-nix@0d6f9760ee4d685c6e75faeafb5055b93c4bc4aa",
       "status": "rejected"
     },
     "kkzzhizhou/scoop-apps": {
@@ -457,6 +477,11 @@
       "source_sha": "2e53e7570ad597ccf3f251d43502846a042165d2",
       "status": "admitted"
     },
+    "vidyabhandary/vidyabhandary": {
+      "checked_at": "2026-09-12T08:52:56.533053+00:00",
+      "reason": "No action.yml or action.yaml at vidyabhandary/vidyabhandary@0e5f2d1c6869296ae80c82c89d4e77c2db835fb8",
+      "status": "rejected"
+    },
     "vladopajic/go-test-coverage": {
       "checked_at": "2026-09-07T09:46:50.517175+00:00",
       "scanner_version": "1.30.0",
@@ -481,6 +506,12 @@
       "source_sha": "544a81b5ffe6cf15320d7a944a7c19643d4ceab7",
       "status": "admitted"
     },
+    "zgosalvez/github-actions-report-lcov": {
+      "checked_at": "2026-09-12T08:52:56.533053+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "b481d6d39d8e437a2395fb817a4bf9b9225811ea",
+      "status": "admitted"
+    },
     "zhongfly/mpv-winbuild": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@423ffd555dddc9b7fceae22eb303eebc2dc47574",
@@ -492,7 +523,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-11T09:11:06.276205+00:00",
+  "checked_at": "2026-09-12T08:52:56.533053+00:00",
   "errors": [],
-  "inspected": 4
+  "inspected": 6
 }

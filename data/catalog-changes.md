@@ -2,8 +2,8 @@
 
 1 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## Added: Aletheore/Aletheore
+## Added: zgosalvez/github-actions-report-lcov
 
-[Source](https://github.com/Aletheore/Aletheore) — Posts an evidence-grounded PR diff: secrets, vulnerabilities, layer violations, architecture deltas.
+[Source](https://github.com/zgosalvez/github-actions-report-lcov) — Report the code coverage from LCOV files
 
 New entries still require observed stability and fresh scan evidence before usage.
