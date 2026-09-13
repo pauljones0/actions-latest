@@ -1,6 +1,7 @@
 {
   "admitted": [
-    "zgosalvez/github-actions-report-lcov"
+    "yokawasa/action-setup-kube-tools",
+    "shalzz/zola-deploy-action"
   ],
   "candidates": {
     "ARM-software/AVH": {
@@ -18,6 +19,11 @@
       "scanner_version": "1.30.0",
       "source_sha": "52cf06c1253340345124e55e50a547eea78a371b",
       "status": "admitted"
+    },
+    "Bush2021/chrome_installer": {
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at Bush2021/chrome_installer@67f63f4bb18de1f45e9a1fb2b2e0c6c2dbd3374c",
+      "status": "rejected"
     },
     "CDFER/jlcpcb-parts-database": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
@@ -37,8 +43,8 @@
       "status": "admitted"
     },
     "DenverCoder1/DenverCoder1": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at DenverCoder1/DenverCoder1@7d937148d20ca45f3149853ed8e5745f72a17a92",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at DenverCoder1/DenverCoder1@725779e386039df89fc691d2f4aa1efa7517855b",
       "status": "rejected"
     },
     "Excelius-Wang/harbor": {
@@ -64,8 +70,8 @@
       "status": "error"
     },
     "ITJoker233/BingPicApi": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@91dce007ea5768acba7795d20b36ceef9011e8f8",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@b65c6c78a70d945d2d9ac0b7fc65b9a19617e269",
       "status": "rejected"
     },
     "Jasonliu-0/Newapi-checkin": {
@@ -74,7 +80,7 @@
       "status": "rejected"
     },
     "Juror-AI/juror": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -84,8 +90,8 @@
       "status": "rejected"
     },
     "LindseyB/dummy": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at LindseyB/dummy@8edee8d91bad1eaa9072feb2eaadc779a29b6716",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at LindseyB/dummy@826f8867115c764d16146a5e621157973c9e7006",
       "status": "rejected"
     },
     "MohammadBahemmat/V2ray-Collector": {
@@ -99,8 +105,8 @@
       "status": "rejected"
     },
     "ProxyScrape/free-proxy-list": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@19e6dd2e1aee75ea32498025e7554a0f1cb7c031",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@40685607b441f5fea705cd1153faa7987dafd23b",
       "status": "rejected"
     },
     "RamiKrispin/ai-dev-2024-ml-workshop": {
@@ -141,8 +147,8 @@
       "status": "admitted"
     },
     "Vladimir-Human/humanizer-ru": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at Vladimir-Human/humanizer-ru@074cfae6cc81a5a21178b395b77d9d025a3034f6",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at Vladimir-Human/humanizer-ru@417c48f1256e615e91fd8dca5a4a91d83a27cdc0",
       "status": "rejected"
     },
     "WtfJoke/setup-tectonic": {
@@ -179,8 +185,8 @@
       "status": "rejected"
     },
     "azat-io/actions-up": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at azat-io/actions-up@571c9933f7f0231c195f5ee110970bc5670e9f06",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at azat-io/actions-up@77ccc0c47eef0c3a0a1cb323f41e30e9b42121be",
       "status": "rejected"
     },
     "bitscoper/bitscoper_cyberkit": {
@@ -216,8 +222,8 @@
       "status": "admitted"
     },
     "cybersecsi/RAUDI": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@a6167d87471ccb4344ff0c3c7b0b019322f76fc8",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@5a36c0f57efbccb47e59823a769ce582162c39e7",
       "status": "rejected"
     },
     "danielroe/provenance-action": {
@@ -241,6 +247,11 @@
     "dflook/terraform-github-actions": {
       "checked_at": "2026-09-11T09:11:06.276205+00:00",
       "reason": "No action.yml or action.yaml at dflook/terraform-github-actions@bb0ed9a8ea82a38e966e372da328aa881e00fef4",
+      "status": "rejected"
+    },
+    "diggerhq/digger": {
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "docker/actions-toolkit": {
@@ -321,12 +332,12 @@
       "status": "rejected"
     },
     "kkzzhizhou/scoop-apps": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@bd58d641dcadfe22d72ef666d84756016beb8dfb",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@5a620ac01b1763d6106bc5a7cbddb7facbd5de9f",
       "status": "rejected"
     },
     "kucherenko/jscpd": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -365,7 +376,7 @@
       "status": "admitted"
     },
     "node9-ai/node9-proxy": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -375,8 +386,8 @@
       "status": "rejected"
     },
     "oasdiff/oasdiff": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at oasdiff/oasdiff@7145b77e8e8259c44ea95c38cfe08cbb0a3f2d1c",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at oasdiff/oasdiff@63632bfb3618b8f8565e90b1a1731144b2c66887",
       "status": "rejected"
     },
     "philips-labs/slsa-provenance-action": {
@@ -411,6 +422,11 @@
       "reason": "No action.yml or action.yaml at raeperd/realworld-springboot-java@67cf40d83a7a8d0f818fddc53a52d01a3529a95e",
       "status": "rejected"
     },
+    "ram0verflow/ram0verflow": {
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@556332c717e1423c90d7c7bc264df3d6698a1ee8",
+      "status": "rejected"
+    },
     "robvanderleek/create-issue-branch": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "scanner_version": "1.30.0",
@@ -433,6 +449,17 @@
       "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@547a6f6a33d3665e043e86cb25ad464aa55ee10d",
       "status": "rejected"
     },
+    "scanaislop/aislop": {
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
+    "shalzz/zola-deploy-action": {
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "1be083648a1db2853ce4970e381740c0e2fd06de",
+      "status": "admitted"
+    },
     "sigstore/gh-action-sigstore-python": {
       "checked_at": "2026-09-09T09:14:54.525651+00:00",
       "scanner_version": "1.30.0",
@@ -440,8 +467,8 @@
       "status": "admitted"
     },
     "some-natalie/kubernoodles": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at some-natalie/kubernoodles@ea88c91bdf917bfa451ce6628f3c3dc3028d0ba7",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at some-natalie/kubernoodles@4bc25f8e4b19557b9bd7c02760336bd0352ac10b",
       "status": "rejected"
     },
     "suzuki-shunsuke/tfaction": {
@@ -494,6 +521,17 @@
       "source_sha": "e722eded97059b31d7e8ad3ae0267b74ff24172d",
       "status": "admitted"
     },
+    "yamadashy/tech-blog-rss-feed": {
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "reason": "No action.yml or action.yaml at yamadashy/tech-blog-rss-feed@d58541832514ff00f3203839bd01e06fc1dd607c",
+      "status": "rejected"
+    },
+    "yokawasa/action-setup-kube-tools": {
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "scanner_version": "1.30.0",
+      "source_sha": "753c0a4bf82e29f3e63f96ff0198e086f8e25e47",
+      "status": "admitted"
+    },
     "yoshi389111/github-profile-3d-contrib": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "scanner_version": "1.30.0",
@@ -513,7 +551,7 @@
       "status": "admitted"
     },
     "zhongfly/mpv-winbuild": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
+      "checked_at": "2026-09-13T09:47:10.016412+00:00",
       "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@423ffd555dddc9b7fceae22eb303eebc2dc47574",
       "status": "rejected"
     },
@@ -523,7 +561,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-12T08:52:56.533053+00:00",
+  "checked_at": "2026-09-13T09:47:10.016412+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 21
 }

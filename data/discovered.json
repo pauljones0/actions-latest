@@ -573,6 +573,27 @@
     "reviewed_at": null
   },
   {
+    "action": "shalzz/zola-deploy-action",
+    "description": "Build and deploy a Zola site to GitHub Pages",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "github",
+      "zola"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/shalzz/zola-deploy-action/tree/1be083648a1db2853ce4970e381740c0e2fd06de",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "sigstore/gh-action-sigstore-python",
     "description": "Use sigstore-python to sign Python packages",
     "category": "Discovered",
@@ -791,6 +812,36 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/WtfJoke/setup-tectonic/tree/4c5141536933d0ca4c23afe7995c08afc187cd90",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "yokawasa/action-setup-kube-tools",
+    "description": "Setup Kubernetes tools: kubectl, kustomize, helm, kubeconform, conftest, yq, rancher, tilt, skaffold, kube-score",
+    "category": "Discovered",
+    "tags": [
+      "conftest",
+      "helm",
+      "kube-score",
+      "kubeconform",
+      "kubectl",
+      "kubernetes",
+      "kubeval",
+      "kustomize",
+      "rancher",
+      "skaffold",
+      "tilt",
+      "yq"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/yokawasa/action-setup-kube-tools/tree/753c0a4bf82e29f3e63f96ff0198e086f8e25e47",
     "reviewed_sha": null,
     "reviewed_at": null
   },
