@@ -133,6 +133,36 @@
     "reviewed_at": null
   },
   {
+    "action": "conda-incubator/setup-miniconda",
+    "description": "Set up Conda package and environment manager with Miniconda.",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "anaconda",
+      "conda",
+      "dependencies",
+      "environment",
+      "miniconda",
+      "package",
+      "package-manager",
+      "python",
+      "setup-miniconda",
+      "typescript",
+      "yml"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/conda-incubator/setup-miniconda/tree/8646c593e9db0e35c8d580cb677f53ba6547804c",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "coursier/setup-action",
     "description": "Use Coursier to install JVM and Scala apps",
     "category": "Discovered",
@@ -569,6 +599,26 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/ruzickap/action-my-broken-link-checker/tree/0edc2293b3381624f1f28e557397cfd75c4e8179",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "sersoft-gmbh/xcodebuild-action",
+    "description": "Runs xcodebuild e.g. to run tests.",
+    "category": "Discovered",
+    "tags": [
+      "xcode",
+      "xcodebuild"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/sersoft-gmbh/xcodebuild-action/tree/8852f2d93d31995f294f470746c12003b628bf59",
     "reviewed_sha": null,
     "reviewed_at": null
   },

@@ -1,7 +1,7 @@
 {
   "admitted": [
-    "yokawasa/action-setup-kube-tools",
-    "shalzz/zola-deploy-action"
+    "sersoft-gmbh/xcodebuild-action",
+    "conda-incubator/setup-miniconda"
   ],
   "candidates": {
     "ARM-software/AVH": {
@@ -77,6 +77,11 @@
     "Jasonliu-0/Newapi-checkin": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at Jasonliu-0/Newapi-checkin@fccc8ce399f23ae638f70fe566533b287d63bd80",
+      "status": "rejected"
+    },
+    "JuliusBairaktaris/Qualcommax_NSS_Builder": {
+      "checked_at": "2026-09-14T07:57:42.638604+00:00",
+      "reason": "No action.yml or action.yaml at JuliusBairaktaris/Qualcommax_NSS_Builder@6217270923be141134b36b10850fe046e8564397",
       "status": "rejected"
     },
     "Juror-AI/juror": {
@@ -210,6 +215,12 @@
       "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@931b7324257736669333e1bcc100c4597e253609",
       "status": "rejected"
     },
+    "conda-incubator/setup-miniconda": {
+      "checked_at": "2026-09-14T07:57:42.638604+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "8646c593e9db0e35c8d580cb677f53ba6547804c",
+      "status": "admitted"
+    },
     "cortinico/kotlin-gradle-plugin-template": {
       "checked_at": "2026-09-12T08:52:56.533053+00:00",
       "reason": "No action.yml or action.yaml at cortinico/kotlin-gradle-plugin-template@2139c24996475f6a41eb3cdb69d6da78472d307f",
@@ -266,13 +277,18 @@
       "status": "admitted"
     },
     "f/wvw.dev": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at f/wvw.dev@11e2342f898ebad1dcf11424b07ff208cbfccf63",
+      "checked_at": "2026-09-14T07:57:42.638604+00:00",
+      "reason": "No action.yml or action.yaml at f/wvw.dev@fffd5cf87648733714d6454ad09e9bebc89588ea",
       "status": "rejected"
     },
     "f2calv/yamlizr": {
       "checked_at": "2026-09-07T09:46:50.517175+00:00",
       "reason": "No action.yml or action.yaml at f2calv/yamlizr@b2762d5ad83eb35f05a5553151985c6d8aeb901a",
+      "status": "rejected"
+    },
+    "fibelatti/pinboard-kotlin": {
+      "checked_at": "2026-09-14T07:57:42.638604+00:00",
+      "reason": "No action.yml or action.yaml at fibelatti/pinboard-kotlin@e9394d6de4dee346124acf01ce397860427212aa",
       "status": "rejected"
     },
     "github-aws-runners/terraform-aws-github-runner": {
@@ -281,8 +297,8 @@
       "status": "rejected"
     },
     "github/gh-aw": {
-      "checked_at": "2026-09-05T20:49:50.304295+00:00",
-      "reason": "No action.yml or action.yaml at github/gh-aw@c5ef3e88b222dfa440f76a14ab75628ef512edd7",
+      "checked_at": "2026-09-14T07:57:42.638604+00:00",
+      "reason": "No action.yml or action.yaml at github/gh-aw@a013f5a88a73b26fe91dbcd401427cc3bc76701f",
       "status": "rejected"
     },
     "go-gitea/gitea": {
@@ -317,8 +333,8 @@
       "status": "admitted"
     },
     "ipitio/backage": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at ipitio/backage@df57f83d0a5521744752c74ca3f2fb1e961953eb",
+      "checked_at": "2026-09-14T07:57:42.638604+00:00",
+      "reason": "No action.yml or action.yaml at ipitio/backage@6fc1b655211c697d509cf71e3d602272784114f4",
       "status": "rejected"
     },
     "its-me-debk007/kotlin-android-mvvm-template": {
@@ -454,6 +470,12 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "sersoft-gmbh/xcodebuild-action": {
+      "checked_at": "2026-09-14T07:57:42.638604+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "8852f2d93d31995f294f470746c12003b628bf59",
+      "status": "admitted"
+    },
     "shalzz/zola-deploy-action": {
       "checked_at": "2026-09-13T09:47:10.016412+00:00",
       "scanner_version": "1.30.0",
@@ -469,6 +491,11 @@
     "some-natalie/kubernoodles": {
       "checked_at": "2026-09-13T09:47:10.016412+00:00",
       "reason": "No action.yml or action.yaml at some-natalie/kubernoodles@4bc25f8e4b19557b9bd7c02760336bd0352ac10b",
+      "status": "rejected"
+    },
+    "stategraph/stategraph": {
+      "checked_at": "2026-09-14T07:57:42.638604+00:00",
+      "reason": "No action.yml or action.yaml at stategraph/stategraph@39d0daa88f4ff1d47c204f4c399af9b31dec1f02",
       "status": "rejected"
     },
     "suzuki-shunsuke/tfaction": {
@@ -561,7 +588,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-13T09:47:10.016412+00:00",
+  "checked_at": "2026-09-14T07:57:42.638604+00:00",
   "errors": [],
-  "inspected": 21
+  "inspected": 8
 }
