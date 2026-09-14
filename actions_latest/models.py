@@ -13,7 +13,7 @@ from typing import Literal
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
 SCHEMA_VERSION = 2
-SCANNER_VERSION = "1.30.0"
+SCANNER_VERSION = "1.30.1"
 POLICY_VERSION = 1
 MIN_TAG_AGE = timedelta(days=7)
 SCAN_MAX_AGE = timedelta(days=14)
