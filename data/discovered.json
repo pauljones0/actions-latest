@@ -81,6 +81,51 @@
     "reviewed_at": null
   },
   {
+    "action": "amirisback/automated-build-android-app-with-github-action",
+    "description": "Automated build android app bundle and apk with github action",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "android",
+      "android-ci",
+      "android-ci-cd",
+      "build-tool",
+      "ci-cd",
+      "github"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/amirisback/automated-build-android-app-with-github-action/tree/a9b0c810bb4a8384f0ffcf0067afbef553d22f0c",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "benchmark-action/github-action-benchmark",
+    "description": "Continuous Benchmark using GitHub pages as dash board for keeping performance",
+    "category": "Discovered",
+    "tags": [
+      "benchmark",
+      "ci"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/benchmark-action/github-action-benchmark/tree/64c1e0ae78e8888a8ad9ec376e146ae2b068b01e",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "cncf/prow-github-actions",
     "description": "Prow inspired github CI/CD actions",
     "category": "Discovered",
@@ -387,6 +432,27 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/int128/datadog-actions-metrics/tree/1d33ee325bfd8a9fa61fd31333daa735d99f7ed1",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "jbrooksuk/laravel-forge-action",
+    "description": "Trigger Laravel Forge Deployments with Github Actions",
+    "category": "Discovered",
+    "tags": [
+      "deployment",
+      "laravel",
+      "laravel-forge"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/jbrooksuk/laravel-forge-action/tree/916b17213d00299c2f2e9462df2bb36504ebf974",
     "reviewed_sha": null,
     "reviewed_at": null
   },

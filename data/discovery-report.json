@@ -1,8 +1,8 @@
 {
   "admitted": [
-    "redhat-plumbers-in-action/differential-shellcheck",
-    "presubmit/ai-reviewer",
-    "macalbert/envilder"
+    "benchmark-action/github-action-benchmark",
+    "amirisback/automated-build-android-app-with-github-action",
+    "jbrooksuk/laravel-forge-action"
   ],
   "candidates": {
     "ARM-software/AVH": {
@@ -136,9 +136,14 @@
       "source_sha": "10b572562febeed6640a8683434b34a864a7e044",
       "status": "admitted"
     },
+    "SecOpsNews/news": {
+      "checked_at": "2026-09-15T09:38:35.764623+00:00",
+      "reason": "No action.yml or action.yaml at SecOpsNews/news@80c9203bc0733d89070d1d2775abc6976eef5115",
+      "status": "rejected"
+    },
     "SpaceTimee/Fusion-JetBrainsMapleMono": {
-      "checked_at": "2026-09-07T09:46:50.517175+00:00",
-      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@99b59c13f19b9712217e2e9ab5752b339d3e47ff",
+      "checked_at": "2026-09-15T09:38:35.764623+00:00",
+      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@1e89b54b4ef069a707ad301f86680f7c8de66685",
       "status": "rejected"
     },
     "Terrenceeeee/AI-frontend-engineering-starter": {
@@ -185,6 +190,12 @@
       "source_sha": "80675fd3148d77bca96ba6d5967a41b3ccbfa8d3",
       "status": "admitted"
     },
+    "amirisback/automated-build-android-app-with-github-action": {
+      "checked_at": "2026-09-15T09:38:35.764623+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "a9b0c810bb4a8384f0ffcf0067afbef553d22f0c",
+      "status": "admitted"
+    },
     "ashtanko/flutter_bloc_app_template": {
       "checked_at": "2026-09-08T09:10:11.633765+00:00",
       "reason": "No action.yml or action.yaml at ashtanko/flutter_bloc_app_template@c7235604d0cc66e86dc894f64b6f03d8ca617ee2",
@@ -194,6 +205,12 @@
       "checked_at": "2026-09-13T09:47:10.016412+00:00",
       "reason": "No action.yml or action.yaml at azat-io/actions-up@77ccc0c47eef0c3a0a1cb323f41e30e9b42121be",
       "status": "rejected"
+    },
+    "benchmark-action/github-action-benchmark": {
+      "checked_at": "2026-09-15T09:38:35.764623+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "64c1e0ae78e8888a8ad9ec376e146ae2b068b01e",
+      "status": "admitted"
     },
     "bitscoper/bitscoper_cyberkit": {
       "checked_at": "2026-09-10T09:13:49.409079+00:00",
@@ -212,8 +229,8 @@
       "status": "admitted"
     },
     "cobusgreyling/loop-engineering": {
-      "checked_at": "2026-09-08T09:10:11.633765+00:00",
-      "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@931b7324257736669333e1bcc100c4597e253609",
+      "checked_at": "2026-09-15T09:38:35.764623+00:00",
+      "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@0948ac1661de2000a391975576e47cf1a4b4f53c",
       "status": "rejected"
     },
     "conda-incubator/setup-miniconda": {
@@ -308,8 +325,8 @@
       "status": "rejected"
     },
     "go-gitea/gitea": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at go-gitea/gitea@7c280c0ce6f8888b6df6605be546817ee2f21e53",
+      "checked_at": "2026-09-15T09:38:35.764623+00:00",
+      "reason": "No action.yml or action.yaml at go-gitea/gitea@812191c0f9283ecf469b1655a7c31c2f86dccf20",
       "status": "rejected"
     },
     "goreleaser/goreleaser": {
@@ -332,6 +349,11 @@
       "reason": "No action.yml or action.yaml at hect0x7/JMComic-Crawler-Python@9fddb0494caf0cdc812ac6cbfc1c62f4f845b058",
       "status": "rejected"
     },
+    "hostinger/fireactions": {
+      "checked_at": "2026-09-15T09:38:35.764623+00:00",
+      "reason": "No action.yml or action.yaml at hostinger/fireactions@80016981f117430585badbd8053049dab1faa9ea",
+      "status": "rejected"
+    },
     "int128/datadog-actions-metrics": {
       "checked_at": "2026-09-05T20:49:50.304295+00:00",
       "scanner_version": "1.30.0",
@@ -352,6 +374,12 @@
       "checked_at": "2026-09-12T08:52:56.533053+00:00",
       "reason": "No action.yml or action.yaml at jacopone/antigravity-nix@0d6f9760ee4d685c6e75faeafb5055b93c4bc4aa",
       "status": "rejected"
+    },
+    "jbrooksuk/laravel-forge-action": {
+      "checked_at": "2026-09-15T09:38:35.764623+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "916b17213d00299c2f2e9462df2bb36504ebf974",
+      "status": "admitted"
     },
     "kdeldycke/repomatic": {
       "checked_at": "2026-09-14T10:09:02.295269+00:00",
@@ -433,6 +461,11 @@
       "scanner_version": "1.30.0",
       "source_sha": "99fa99b5460624494ac0c2442696c8bd8e5153b1",
       "status": "admitted"
+    },
+    "pliablepixels/gap-trap": {
+      "checked_at": "2026-09-15T09:38:35.764623+00:00",
+      "reason": "No action.yml or action.yaml at pliablepixels/gap-trap@49e22be8046aeb4a90894fee9122cc4302f4d6e4",
+      "status": "rejected"
     },
     "poetries/poetries.github.io": {
       "checked_at": "2026-09-14T10:09:02.295269+00:00",
@@ -627,7 +660,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-14T10:09:02.295269+00:00",
+  "checked_at": "2026-09-15T09:38:35.764623+00:00",
   "errors": [],
-  "inspected": 11
+  "inspected": 9
 }
