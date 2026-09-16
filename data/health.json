@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-09-15T09:40:33.322510+00:00",
-  "published_at": "2026-09-15T09:40:31.816409+00:00",
+  "checked_at": "2026-09-16T09:35:15.970505+00:00",
+  "published_at": "2026-09-16T09:35:14.278571+00:00",
   "healthy": true,
   "reasons": [],
   "actions": 585,
@@ -14,10 +14,10 @@
     "bytecodealliance/actions"
   ],
   "security_counts": {
-    "clean": 492,
+    "clean": 497,
     "warning": 8,
     "blocked": 62,
-    "unknown": 18,
+    "unknown": 13,
     "stale": 0,
     "error": 5
   },
