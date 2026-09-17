@@ -1,218 +1,249 @@
 # Latest catalog changes
 
-14 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+25 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+
+## actions/setup-java
+
+[Previous source](https://github.com/actions/setup-java/tree/dd06d9cba3e5552c54d9f8ea23572deb30010f7c/) · [Current source](https://github.com/actions/setup-java/tree/de7274f081f381c8f8158605e0321c36c376e2e6/) · [Upstream code diff](https://github.com/actions/setup-java/compare/dd06d9cba3e5552c54d9f8ea23572deb30010f7c...de7274f081f381c8f8158605e0321c36c376e2e6)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: verify-signature | {&quot;description&quot;: &quot;Verify downloaded Java package signatures when supported by the selected distribution&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Check downloaded Java package signatures when supported by the selected distribution. When omitted, failures produce warnings. Explicitly setting this to true enforces verification and makes failures fatal, including failures caused by an unexpected vendor signing-key rotation.&quot;, &quot;required&quot;: false} |
+| Input: verify-signature-public-key | {&quot;description&quot;: &quot;ASCII-armored GPG public key used to verify the downloaded package signature. Overrides the default bundled key for the selected distribution.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;One or more ASCII-armored GPG public keys used to verify downloaded package signatures. Concatenate multiple armored key blocks. Custom keys replace the bundled keys for the selected distribution.&quot;, &quot;required&quot;: false} |
+| Selected SHA | dd06d9cba3e5552c54d9f8ea23572deb30010f7c | de7274f081f381c8f8158605e0321c36c376e2e6 |
+| Selected tag | v6.0.0 | v6.0.1 |
+
+## aminya/setup-cpp
+
+[Previous source](https://github.com/aminya/setup-cpp/tree/59179aabb1f9453d12daf81c00d789af3b67b1a6/) · [Current source](https://github.com/aminya/setup-cpp/tree/15a6bd8cf39030f88b5da3d203a829ec4eea4955/) · [Upstream code diff](https://github.com/aminya/setup-cpp/compare/59179aabb1f9453d12daf81c00d789af3b67b1a6...15a6bd8cf39030f88b5da3d203a829ec4eea4955)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 59179aabb1f9453d12daf81c00d789af3b67b1a6 | 15a6bd8cf39030f88b5da3d203a829ec4eea4955 |
+| Selected tag | v1.10.0 | v1.10.1 |
 
 ## anthropics/claude-code-action
 
-[Previous source](https://github.com/anthropics/claude-code-action/tree/9c5ddab2e6d17b83ea679153b31f1d5f023cf636/) · [Current source](https://github.com/anthropics/claude-code-action/tree/5ccc3a35a6367cdb8e6fbd0728287467540ecfe2/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/9c5ddab2e6d17b83ea679153b31f1d5f023cf636...5ccc3a35a6367cdb8e6fbd0728287467540ecfe2)
+[Previous source](https://github.com/anthropics/claude-code-action/tree/5ccc3a35a6367cdb8e6fbd0728287467540ecfe2/) · [Current source](https://github.com/anthropics/claude-code-action/tree/19dda84776b3518d98b8798e591daee763049ed3/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/5ccc3a35a6367cdb8e6fbd0728287467540ecfe2...19dda84776b3518d98b8798e591daee763049ed3)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 9c5ddab2e6d17b83ea679153b31f1d5f023cf636 | 5ccc3a35a6367cdb8e6fbd0728287467540ecfe2 |
-| Selected tag | v1.0.217 | v1.0.219 |
+| Selected SHA | 5ccc3a35a6367cdb8e6fbd0728287467540ecfe2 | 19dda84776b3518d98b8798e591daee763049ed3 |
+| Selected tag | v1.0.219 | v1.0.220 |
 
-## AurorNZ/paths-filter
+## asklokesh/loki-mode
 
-[Previous source](https://github.com/AurorNZ/paths-filter/tree/c9dd42e99db87803313ff6f4b1150cc9f6c836af/) · [Current source](https://github.com/AurorNZ/paths-filter/tree/ead37777b84ca4c3301a92f453c4040b85287e76/) · [Upstream code diff](https://github.com/AurorNZ/paths-filter/compare/c9dd42e99db87803313ff6f4b1150cc9f6c836af...ead37777b84ca4c3301a92f453c4040b85287e76)
+[Previous source](https://github.com/asklokesh/loki-mode/tree/e71827db642cfffc91dd661e668e8953d341dc16/) · [Current source](https://github.com/asklokesh/loki-mode/tree/95a6f54149a82f0d54d9f6d3275461cad18f0fc0/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/e71827db642cfffc91dd661e668e8953d341dc16...95a6f54149a82f0d54d9f6d3275461cad18f0fc0)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | c9dd42e99db87803313ff6f4b1150cc9f6c836af | ead37777b84ca4c3301a92f453c4040b85287e76 |
+| Selected SHA | e71827db642cfffc91dd661e668e8953d341dc16 | 95a6f54149a82f0d54d9f6d3275461cad18f0fc0 |
+| Selected tag | v9.22.13 | v9.26.3 |
+
+## aws-actions/aws-secretsmanager-get-secrets
+
+[Previous source](https://github.com/aws-actions/aws-secretsmanager-get-secrets/tree/2cb1a461cbd4865ac4299648312e4704c646cd53/) · [Current source](https://github.com/aws-actions/aws-secretsmanager-get-secrets/tree/2297f9a879480a9e3af9b293ed15c70caf8e1c88/) · [Upstream code diff](https://github.com/aws-actions/aws-secretsmanager-get-secrets/compare/2cb1a461cbd4865ac4299648312e4704c646cd53...2297f9a879480a9e3af9b293ed15c70caf8e1c88)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 2cb1a461cbd4865ac4299648312e4704c646cd53 | 2297f9a879480a9e3af9b293ed15c70caf8e1c88 |
+| Selected tag | v3.0.1 | v3.0.2 |
+
+## Azure/login
+
+[Previous source](https://github.com/Azure/login/tree/7ddb5af1ef8758cf1353cf3b42f940aee27ba21c/) · [Current source](https://github.com/Azure/login/tree/a641126d1b8aa4d1fa005f4f92df94a3a4c4c906/) · [Upstream code diff](https://github.com/Azure/login/compare/7ddb5af1ef8758cf1353cf3b42f940aee27ba21c...a641126d1b8aa4d1fa005f4f92df94a3a4c4c906)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: mask-client-id | null | {&quot;default&quot;: true, &quot;description&quot;: &quot;Set this value to false to stop registering the client-id as a secret, so it is not masked in workflow logs&quot;, &quot;required&quot;: false} |
+| Input: max-context-population | null | {&quot;description&quot;: &quot;Only used when enable-AzPSSession is true. Overrides the Azure PowerShell MaxContextPopulation used by Connect-AzAccount (the number of subscription contexts loaded). Set to -1 to load all subscriptions, or a positive integer. When unset, the Azure PowerShell default of 25 applies.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 7ddb5af1ef8758cf1353cf3b42f940aee27ba21c | a641126d1b8aa4d1fa005f4f92df94a3a4c4c906 |
+| Selected tag | v3.0.2 | v3.1.0 |
+
+## bridgecrewio/checkov-action
+
+[Previous source](https://github.com/bridgecrewio/checkov-action/tree/f967808197a8d784d3e72919f38c3ff0cda7884e/) · [Current source](https://github.com/bridgecrewio/checkov-action/tree/a8664e3a0549367977f0cda990a34311835c87c0/) · [Upstream code diff](https://github.com/bridgecrewio/checkov-action/compare/f967808197a8d784d3e72919f38c3ff0cda7884e...a8664e3a0549367977f0cda990a34311835c87c0)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | f967808197a8d784d3e72919f38c3ff0cda7884e | a8664e3a0549367977f0cda990a34311835c87c0 |
+| Selected tag | v12.3122.0 | v12.3123.0 |
+
+## DeterminateSystems/flake-checker-action
+
+[Previous source](https://github.com/DeterminateSystems/flake-checker-action/tree/de924abd783455e8429c858962b9e43062d19da1/) · [Current source](https://github.com/DeterminateSystems/flake-checker-action/tree/786422608c7bded2bbc9741ad9f91356842bf520/) · [Upstream code diff](https://github.com/DeterminateSystems/flake-checker-action/compare/de924abd783455e8429c858962b9e43062d19da1...786422608c7bded2bbc9741ad9f91356842bf520)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | de924abd783455e8429c858962b9e43062d19da1 | 786422608c7bded2bbc9741ad9f91356842bf520 |
+| Selected tag | v13 | v14 |
+
+## DeterminateSystems/flakehub-push
+
+[Previous source](https://github.com/DeterminateSystems/flakehub-push/tree/71f57208810a5d299fc6545350981de98fdbc860/) · [Current source](https://github.com/DeterminateSystems/flakehub-push/tree/e001ee821cdb763ef120c01f1048bfb2f938bb9c/) · [Upstream code diff](https://github.com/DeterminateSystems/flakehub-push/compare/71f57208810a5d299fc6545350981de98fdbc860...e001ee821cdb763ef120c01f1048bfb2f938bb9c)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: rev | null | {&quot;default&quot;: null, &quot;description&quot;: &quot;The Git revision SHA to use for non-rolling releases.&quot;, &quot;required&quot;: false} |
+| Input: rolling-major | null | {&quot;default&quot;: null, &quot;description&quot;: &quot;Specify the SemVer major version of your rolling releases. All releases will follow the versioning scheme &#x27;\[rolling-major\].\[rolling-minor\].\[commit count\]+rev-\[git sha\]&#x27;&quot;, &quot;required&quot;: false} |
+| Input: rolling-minor | {&quot;default&quot;: null, &quot;description&quot;: &quot;Specify the SemVer minor version of your rolling releases. All releases will follow the versioning scheme &#x27;0.\[rolling-minor\].\[commit count\]+rev-\[git sha\]&#x27;&quot;, &quot;required&quot;: false} | {&quot;default&quot;: null, &quot;description&quot;: &quot;Specify the SemVer minor version of your rolling releases. All releases will follow the versioning scheme &#x27;\[rolling-major\].\[rolling-minor\].\[commit count\]+rev-\[git sha\]&#x27;&quot;, &quot;required&quot;: false} |
+| Input: sbom-path | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The path to the SBOM for this flake.&quot;, &quot;required&quot;: false} |
+| Runtime | node20 | node24 |
+| Selected SHA | 71f57208810a5d299fc6545350981de98fdbc860 | e001ee821cdb763ef120c01f1048bfb2f938bb9c |
+| Selected tag | v6 | v7 |
+
+## DeterminateSystems/magic-nix-cache-action
+
+[Previous source](https://github.com/DeterminateSystems/magic-nix-cache-action/tree/908b263ff629f4cc17666315b7fd3ec127c6244d/) · [Current source](https://github.com/DeterminateSystems/magic-nix-cache-action/tree/84c0677f58dcedf3b91f8223ce36a9ea5b3c84b7/) · [Upstream code diff](https://github.com/DeterminateSystems/magic-nix-cache-action/compare/908b263ff629f4cc17666315b7fd3ec127c6244d...84c0677f58dcedf3b91f8223ce36a9ea5b3c84b7)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: source-checksums-sha256 | null | {&quot;description&quot;: &quot;Pinned SHA-256 (hex) of the file served at \`source-checksums-url\`. Must be set together with\\n\`source-checksums-url\`.\\n&quot;, &quot;required&quot;: false} |
+| Input: source-checksums-url | null | {&quot;description&quot;: &quot;URL of a \`shasum\`-format checksums file listing the SHA-256 of each artifact. Used together\\nwith \`source-checksums-sha256\` to verify the downloaded installer.\\n&quot;, &quot;required&quot;: false} |
+| Selected SHA | 908b263ff629f4cc17666315b7fd3ec127c6244d | 84c0677f58dcedf3b91f8223ce36a9ea5b3c84b7 |
+| Selected tag | v14 | v15 |
+
+## DeterminateSystems/nix-installer-action
+
+[Previous source](https://github.com/DeterminateSystems/nix-installer-action/tree/ef8a148080ab6020fd15196c2084a2eea5ff2d25/) · [Current source](https://github.com/DeterminateSystems/nix-installer-action/tree/3138316df39ed29be04236d7ffc686fa525866aa/) · [Upstream code diff](https://github.com/DeterminateSystems/nix-installer-action/compare/ef8a148080ab6020fd15196c2084a2eea5ff2d25...3138316df39ed29be04236d7ffc686fa525866aa)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: source-checksums-sha256 | null | {&quot;description&quot;: &quot;Pinned SHA-256 (hex) of the file served at \`source-checksums-url\`. Must\\nbe set together with \`source-checksums-url\`.\\n&quot;, &quot;required&quot;: false} |
+| Input: source-checksums-url | null | {&quot;description&quot;: &quot;URL of a \`shasum\`-format checksums file listing the SHA-256 of each\\n\`nix-installer-&lt;arch&gt;-&lt;os&gt;\` artifact. Used together with\\n\`source-checksums-sha256\` to verify the downloaded installer.\\n&quot;, &quot;required&quot;: false} |
+| Selected SHA | ef8a148080ab6020fd15196c2084a2eea5ff2d25 | 3138316df39ed29be04236d7ffc686fa525866aa |
+| Selected tag | v22 | v23 |
+
+## DeterminateSystems/update-flake-lock
+
+[Previous source](https://github.com/DeterminateSystems/update-flake-lock/tree/834c491b2ece4de0bbd00d85214bb5e83b4da5c6/) · [Current source](https://github.com/DeterminateSystems/update-flake-lock/tree/da03c0f078bc4b2c37ee4f7e072d34bf8f188bb3/) · [Upstream code diff](https://github.com/DeterminateSystems/update-flake-lock/compare/834c491b2ece4de0bbd00d85214bb5e83b4da5c6...da03c0f078bc4b2c37ee4f7e072d34bf8f188bb3)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: push-to-fork | null | {&quot;description&quot;: &quot;A fork of the checked out parent repository to which the pull request branch will be pushed. e.g. \`owner/repo-fork\`. The pull request will be created to merge the fork&#x27;s branch into the parent&#x27;s base.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 834c491b2ece4de0bbd00d85214bb5e83b4da5c6 | da03c0f078bc4b2c37ee4f7e072d34bf8f188bb3 |
+| Selected tag | v28 | v29 |
+
+## Added: gensecaihq/Shai-Hulud-2.0-Detector
+
+[Source](https://github.com/gensecaihq/Shai-Hulud-2.0-Detector) — Detect Shai-Hulud npm supply chain attacks (2.0 + ChainDrop) - 1,240+ packages, SHA256 hashing, IDE persistence &amp; backdoor detection
+
+New entries still require observed stability and fresh scan evidence before usage.
+
+## github-community-projects/issue-metrics
+
+[Previous source](https://github.com/github-community-projects/issue-metrics/tree/61084fa9599a62c7821f06602e180a42d1c7a205/) · [Current source](https://github.com/github-community-projects/issue-metrics/tree/a7dc2fb675661e208d4fc6fa321a6b95fc4a06f9/) · [Upstream code diff](https://github.com/github-community-projects/issue-metrics/compare/61084fa9599a62c7821f06602e180a42d1c7a205...a7dc2fb675661e208d4fc6fa321a6b95fc4a06f9)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 61084fa9599a62c7821f06602e180a42d1c7a205 | a7dc2fb675661e208d4fc6fa321a6b95fc4a06f9 |
+| Selected tag | v5.0.1 | v5.0.2 |
+
+## github/codeql-action
+
+[Previous source](https://github.com/github/codeql-action/tree/cdf488f595d80d6e07e03d4674febd5ab45fa938/) · [Current source](https://github.com/github/codeql-action/tree/b96794f015dfd88f77b49b1c93e0fa7110f94c63/) · [Upstream code diff](https://github.com/github/codeql-action/compare/cdf488f595d80d6e07e03d4674febd5ab45fa938...b96794f015dfd88f77b49b1c93e0fa7110f94c63)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | cdf488f595d80d6e07e03d4674febd5ab45fa938 | b96794f015dfd88f77b49b1c93e0fa7110f94c63 |
+| Selected tag | v4.37.9 | v4.38.0 |
+
+## jfrog/frogbot
+
+[Previous source](https://github.com/jfrog/frogbot/tree/6bd943187b61eba578e53b5316e804cd16fb5f9a/) · [Current source](https://github.com/jfrog/frogbot/tree/98d710f28baab51f18800cdbbada700f245e9933/) · [Upstream code diff](https://github.com/jfrog/frogbot/compare/6bd943187b61eba578e53b5316e804cd16fb5f9a...98d710f28baab51f18800cdbbada700f245e9933)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 6bd943187b61eba578e53b5316e804cd16fb5f9a | 98d710f28baab51f18800cdbbada700f245e9933 |
+| Selected tag | v3.6.0 | v3.7.0 |
+
+## laminas/automatic-releases
+
+[Previous source](https://github.com/laminas/automatic-releases/tree/ef538023efb250f43f96aa999a19188016534da7/) · [Current source](https://github.com/laminas/automatic-releases/tree/98204e32a52de981e1d75622d0d89a9520b6e87a/) · [Upstream code diff](https://github.com/laminas/automatic-releases/compare/ef538023efb250f43f96aa999a19188016534da7...98204e32a52de981e1d75622d0d89a9520b6e87a)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | ef538023efb250f43f96aa999a19188016534da7 | 98204e32a52de981e1d75622d0d89a9520b6e87a |
+| Selected tag | 1.27.0 | 1.28.0 |
+
+## pyvista/setup-headless-display-action
+
+[Previous source](https://github.com/pyvista/setup-headless-display-action/tree/b0bf9f57d62d2b3fee9f1c0e0c7e390f05e97a4e/) · [Current source](https://github.com/pyvista/setup-headless-display-action/tree/c103a2ff45650d38cb71684b5dc6cdfeb9442c79/) · [Upstream code diff](https://github.com/pyvista/setup-headless-display-action/compare/b0bf9f57d62d2b3fee9f1c0e0c7e390f05e97a4e...c103a2ff45650d38cb71684b5dc6cdfeb9442c79)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: install-mesa3d-offscreen | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Installs Mesa3D off-screen renderer on Windows. Configures VTK to use it\\nby means of the \`VTK\_DEFAULT\_OPENGL\_WINDOW\` environment variable.\\nThis is only used on Windows.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Installs Mesa3D off-screen renderer on Windows. Configures VTK to use it\\nby means of the \`VTK\_DEFAULT\_OPENGL\_WINDOW\` environment variable, and\\nsets \`LP\_NUM\_THREADS=0\` so processes that rendered do not hang at exit.\\nThis is only used on Windows.\\n&quot;, &quot;required&quot;: false} |
+| Selected SHA | b0bf9f57d62d2b3fee9f1c0e0c7e390f05e97a4e | c103a2ff45650d38cb71684b5dc6cdfeb9442c79 |
 | Selected tag | v5.0.0 | v5.1.0 |
 
-## dawidd6/action-send-mail
+## ruzickap/action-my-broken-link-checker
 
-[Previous source](https://github.com/dawidd6/action-send-mail/tree/d35571df1982970871070b5e02f01d3b6095cb74/) · [Current source](https://github.com/dawidd6/action-send-mail/tree/ca8dbb4d4f91ca7f75e7f2feea5339e76ce70c90/) · [Upstream code diff](https://github.com/dawidd6/action-send-mail/compare/d35571df1982970871070b5e02f01d3b6095cb74...ca8dbb4d4f91ca7f75e7f2feea5339e76ce70c90)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | d35571df1982970871070b5e02f01d3b6095cb74 | ca8dbb4d4f91ca7f75e7f2feea5339e76ce70c90 |
-| Selected tag | v19 | v20 |
-
-## DeLaGuardo/setup-clojure
-
-[Previous source](https://github.com/DeLaGuardo/setup-clojure/tree/4c7a6f613e5089821bb3bb2a33a3ee115578580d/) · [Current source](https://github.com/DeLaGuardo/setup-clojure/tree/6d46099eae24853c33c0482f2bb54edf4f1a4c74/) · [Upstream code diff](https://github.com/DeLaGuardo/setup-clojure/compare/4c7a6f613e5089821bb3bb2a33a3ee115578580d...6d46099eae24853c33c0482f2bb54edf4f1a4c74)
+[Previous source](https://github.com/ruzickap/action-my-broken-link-checker) · [Current source](https://github.com/ruzickap/action-my-broken-link-checker/tree/3337ef0c9ac76042e776df6c44590dd6bf58dcaf/)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 4c7a6f613e5089821bb3bb2a33a3ee115578580d | 6d46099eae24853c33c0482f2bb54edf4f1a4c74 |
-| Selected tag | 13.6.1 | 13.7.0 |
-
-## duriantaco/skylos
-
-[Previous source](https://github.com/duriantaco/skylos/tree/2c963dcec8097bb6e931819804e817f32f49a5b0/) · [Current source](https://github.com/duriantaco/skylos/tree/9f0dfc74cb9c7cc7d73e187a74b655eb396d57f2/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/2c963dcec8097bb6e931819804e817f32f49a5b0...9f0dfc74cb9c7cc7d73e187a74b655eb396d57f2)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 2c963dcec8097bb6e931819804e817f32f49a5b0 | 9f0dfc74cb9c7cc7d73e187a74b655eb396d57f2 |
-| Selected tag | v4.36.0 | v4.36.1 |
-
-## FantasticFiasco/action-update-license-year
-
-[Previous source](https://github.com/FantasticFiasco/action-update-license-year) · [Current source](https://github.com/FantasticFiasco/action-update-license-year/tree/f180e962fa988db222d8f03ef4636750312d1b3d/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: assignees | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Comma-separated list with usernames of people to assign when pull request is created.\\n&quot;, &quot;required&quot;: false} |
-| Input: branchName | null | {&quot;default&quot;: &quot;license/copyright-to-{{currentYear}}&quot;, &quot;description&quot;: &quot;The branch name. Supports substituting variable {{currentYear}}.&quot;, &quot;required&quot;: false} |
-| Input: commitAuthorEmail | null | {&quot;default&quot;: &quot;github-actions@github.com&quot;, &quot;description&quot;: &quot;The git author e-mail, used when committing changes to the repository.&quot;, &quot;required&quot;: false} |
-| Input: commitAuthorName | null | {&quot;default&quot;: &quot;github-actions&quot;, &quot;description&quot;: &quot;The git author name, used when committing changes to the repository.&quot;, &quot;required&quot;: false} |
-| Input: commitBody | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The git commit body that will be appended to commit title, separated by two line returns. Supports substituting variable {{currentYear}}.\\n&quot;, &quot;required&quot;: false} |
-| Input: commitTitle | null | {&quot;default&quot;: &quot;docs(license): update copyright year(s)&quot;, &quot;description&quot;: &quot;The git commit title. Supports substituting variable {{currentYear}}.&quot;, &quot;required&quot;: false} |
-| Input: gpgPassphrase | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The GPG passphrase, used in combination with gpgPrivateKey when signing commits.&quot;, &quot;required&quot;: false} |
-| Input: gpgPrivateKey | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The GPG private key, used in combination with gpgPassphrase when signing commits. Private keys protected by a passphrase are supported while private keys without a passphrase are unsupported.\\n&quot;, &quot;required&quot;: false} |
-| Input: labels | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Comma-separated list of labels to add when pull request is created.&quot;, &quot;required&quot;: false} |
-| Input: path | null | {&quot;default&quot;: &quot;LICENSE&quot;, &quot;description&quot;: &quot;A path or wildcard pattern specifying files to transform. Multiple paths can be specified using literal styled YAML.\\n&quot;, &quot;required&quot;: false} |
-| Input: prBody | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The contents of the pull request. Supports substituting variable {{currentYear}}.&quot;, &quot;required&quot;: false} |
-| Input: prTitle | null | {&quot;default&quot;: &quot;Update license copyright year(s)&quot;, &quot;description&quot;: &quot;The title of the new pull request. Supports substituting variable {{currentYear}}.&quot;, &quot;required&quot;: false} |
-| Input: token | null | {&quot;description&quot;: &quot;Personal access token (PAT) used when interacting with Git and GitHub.\\n\\nWe recommend using a service account with the least permissions necessary. Also when generating a new PAT, select the least scopes necessary.\\n\\n\[Learn more about creating and using encrypted secrets\](https://help.github.com/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)\\n&quot;, &quot;required&quot;: true} |
-| Input: transform | null | {&quot;default&quot;: null, &quot;description&quot;: &quot;A regular expression (JavaScript flavor) describing the license transform. The expression must have the following properties:\\n\\n- A capturing group named \\&quot;from\\&quot;, encapsulating the first year of license validity\\n- Written to support the RegExp flags \\&quot;gmi\\&quot; (\\&quot;global\\&quot;, \\&quot;multiline\\&quot; and \\&quot;ignore case\\&quot;)\\n\\nThe expression will be used by String.prototype.replace() to apply the transformation.\\n&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[&quot;branchName&quot;, &quot;currentYear&quot;, &quot;pullRequestNumber&quot;, &quot;pullRequestUrl&quot;\] |
-| Runtime | null | node16 |
-| Security | unknown | clean |
-| Selected SHA | null | f180e962fa988db222d8f03ef4636750312d1b3d |
-| Selected tag | null | v3.0.4 |
-
-## lukka/run-cmake
-
-[Previous source](https://github.com/lukka/run-cmake) · [Current source](https://github.com/lukka/run-cmake/tree/5d55ea7949e25f69f0ecb516d8d572297e03a956/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: buildPreset | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The name of the build preset. Optional, but at least one of the preset input must be provided. This value is stored in the BUILD\_PRESET\_NAME environment variable, and used by the default value of &#x27;buildPresetCmdString&#x27; input.&#x27;&quot;, &quot;required&quot;: false} |
-| Input: buildPresetAdditionalArgs | null | {&quot;default&quot;: &quot;\[\]&quot;, &quot;description&quot;: &quot;A string representing list of additional arguments for building. Optional. Useful when specifing the config to build with a multi configuration generator, e.g., \[&#x27;--config DEBUG&#x27;\]&quot;, &quot;required&quot;: false} |
-| Input: buildPresetCmdString | null | {&quot;default&quot;: &quot;\[\`--build\`, \`--preset\`, \`$\[env.BUILD\_PRESET\_NAME\]\`\]&quot;, &quot;description&quot;: &quot;The CMake command format string to run the build.&quot;, &quot;required&quot;: false} |
-| Input: cmakeListsTxtPath | null | {&quot;default&quot;: &quot;${{ github.workspace }}/CMakeLists.txt&quot;, &quot;description&quot;: &quot;Path to CMakeLists.txt.&quot;, &quot;required&quot;: false} |
-| Input: configurePreset | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The name of the configure preset. Optional, but at least one of the preset input must be provided. This value is stored in the CONFIGURE\_PRESET\_NAME environment variable, and used by the default value of &#x27;configurePresetCmdString&#x27; input.&quot;, &quot;required&quot;: false} |
-| Input: configurePresetAdditionalArgs | null | {&quot;default&quot;: &quot;\[\]&quot;, &quot;description&quot;: &quot;A string representing list of additional arguments for configuring. Optional. Useful when specifing additional variables such as, e.g., \[&#x27;-DVARIABLE=NAME&#x27;, &#x27;-DANOTHERVARIABLE=ANOTHERNAME&#x27;\]&quot;, &quot;required&quot;: false} |
-| Input: configurePresetCmdString | null | {&quot;default&quot;: &quot;\[\`--preset\`, \`$\[env.CONFIGURE\_PRESET\_NAME\]\`\]&quot;, &quot;description&quot;: &quot;The CMake command format string to configure and generate project files.&quot;, &quot;required&quot;: false} |
-| Input: logCollectionRegExps | null | {&quot;default&quot;: &quot;\\\\s\*\\&quot;(.+CMakeOutput\\\\.log)\\&quot;\\\\.\\\\s\*;\\\\s\*\\&quot;(.+CMakeError\\\\.log)\\&quot;\\\\.\\\\s\*;\\\\s\*(.+out\\\\.log)\\\\s\*;\\\\s+(.+err\\\\.log)\\\\s\*;\\\\s\*(.+vcpkg.+\\\\.log)\\\\s\*&quot;, &quot;description&quot;: &quot;Specifies a semicolon separated list of regular expressions that are used to identify log file paths in the workflow output. A regular expression must have a single capturing group, that is a single pair of parenthesis such as &#x27;See also (.+.log)&#x27;. When a match occurs, the content of the file is written into the workflow output for disclosing its content to the user. The default regular expressions are for CMake&#x27;s and vcpkg&#x27;s log files.&quot;, &quot;required&quot;: false} |
-| Input: packagePreset | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The name of the package preset (cpack). Optional, but at least one of the preset input must be provided. This value is stored in the PACKAGE\_PRESET\_NAME environment variable, and used by the default value of &#x27;packagePresetCmdString&#x27; input.&#x27;&quot;, &quot;required&quot;: false} |
-| Input: packagePresetAdditionalArgs | null | {&quot;default&quot;: &quot;\[\]&quot;, &quot;description&quot;: &quot;A string representing list of additional arguments for cpack. Optional.&quot;, &quot;required&quot;: false} |
-| Input: packagePresetCmdString | null | {&quot;default&quot;: &quot;\[\`--preset\`, \`$\[env.PACKAGE\_PRESET\_NAME\]\`\]&quot;, &quot;description&quot;: &quot;The CPack command format string to package the project.&quot;, &quot;required&quot;: false} |
-| Input: runVcpkgEnvFormatString | null | {&quot;default&quot;: &quot;\[\`env\`, \`--bin\`, \`--include\`, \`--tools\`, \`--python\`, \`--triplet\`, \`$\[env.VCPKG\_DEFAULT\_TRIPLET\]\`, \`set\`\]&quot;, &quot;description&quot;: &quot;Specify the command line to dump the environment variables with the &#x27;vcpkg env&#x27; command. This command is only used when setting up the environment for MSVC on Windows.&quot;, &quot;required&quot;: false} |
-| Input: testPreset | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The name of the test preset (ctest). Optional, but at least one of the preset input must be provided. This value is stored in the TEST\_PRESET\_NAME environment variable, and used by the default value of &#x27;testPresetCmdString&#x27; input.&#x27;&quot;, &quot;required&quot;: false} |
-| Input: testPresetAdditionalArgs | null | {&quot;default&quot;: &quot;\[\]&quot;, &quot;description&quot;: &quot;A string representing list of additional arguments for testing. Optional. Useful when specifing the config to test with a multi configuration generator, e.g., \[&#x27;--config DEBUG&#x27;\]&quot;, &quot;required&quot;: false} |
-| Input: testPresetCmdString | null | {&quot;default&quot;: &quot;\[\`--preset\`, \`$\[env.TEST\_PRESET\_NAME\]\`\]&quot;, &quot;description&quot;: &quot;The CTest command format string to run test.&quot;, &quot;required&quot;: false} |
-| Input: useShell | null | {&quot;default&quot;: true, &quot;description&quot;: &quot;Specify which shell to be used when launching commands. &#x27;true&#x27; means the default shell is used. &#x27;false&#x27; means no shell is used. It also can be an absolute with arguments of the shell to spawn commands with.&quot;, &quot;required&quot;: false} |
-| Input: workflowPreset | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The name of the workflow preset. Optional, it cannot be used with any other preset input. This value is stored in the WORKFLOW\_PRESET\_NAME environment variable, and used by the default value of &#x27;workflowPresetCmdString&#x27; input.&quot;, &quot;required&quot;: false} |
-| Input: workflowPresetCmdString | null | {&quot;default&quot;: &quot;\[\`--workflow\`, \`--preset\`, \`$\[env.WORKFLOW\_PRESET\_NAME\]\`, \`--fresh\`\]&quot;, &quot;description&quot;: &quot;The CMake command format string to run the workflow steps.&quot;, &quot;required&quot;: false} |
+| Input: cmd\_params | null | {&quot;description&quot;: &quot;Command line parameters for URL checker&quot;} |
+| Input: debug | null | {&quot;description&quot;: &quot;Debug mode&quot;} |
+| Input: pages\_path | null | {&quot;description&quot;: &quot;Relative path to the directory with local web pages&quot;} |
+| Input: url | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;URL which will be checked&quot;, &quot;required&quot;: true} |
 | Observed stability | null | observed |
 | Outputs | null | \[\] |
-| Runtime | null | node24 |
+| Runtime | null | docker |
 | Security | unknown | clean |
-| Selected SHA | null | 5d55ea7949e25f69f0ecb516d8d572297e03a956 |
-| Selected tag | null | v10.9 |
+| Selected SHA | null | 3337ef0c9ac76042e776df6c44590dd6bf58dcaf |
+| Selected tag | null | v3.0.1 |
 
-## lukka/run-vcpkg
+## shogo82148/actions-setup-perl
 
-[Previous source](https://github.com/lukka/run-vcpkg) · [Current source](https://github.com/lukka/run-vcpkg/tree/b1a0dd252f06b9e25b3c022a9a03bd7a427fb6a2/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: binaryCachePath | null | {&quot;description&quot;: &quot;Specify a path to store the built packages to be cached with the GitHub cache service. Default is &#x27;&lt;runnerWorkspace&gt;/b/vcpkg\_cache&#x27;.&quot;, &quot;required&quot;: false} |
-| Input: doNotCache | null | {&quot;default&quot;: true, &quot;description&quot;: &quot;Enable the caching of the vcpkg executable and its data files (e.g. ports) by setting it to false. Default is true. Set this input to false when the vcpkg&#x27;s executable is not delivered as a prebuilt file upon bootstrapping vcpkg. This does not disable vcpkg&#x27;s binary cache which is always on and can be controlled by the user with the env var VCPKG\_BINARY\_SOURCES.&quot;, &quot;required&quot;: false} |
-| Input: doNotUpdateVcpkg | null | {&quot;default&quot;: false, &quot;description&quot;: &quot;Avoid to update vcpkg (launching git) in the specified &#x27;vcpkgDirectory&#x27;. This is useful when vcpkg is being checkout independently of the run-vcpkg action. Default is false.&quot;, &quot;required&quot;: false} |
-| Input: logCollectionRegExps | null | {&quot;default&quot;: &quot;\\\\s\*\\&quot;(.+CMakeOutput\\\\.log)\\&quot;\\\\.\\\\s\*;\\\\s\*\\&quot;(.+CMakeError\\\\.log)\\&quot;\\\\.\\\\s\*;\\\\s\*(.+out\\\\.log)\\\\s\*;\\\\s+(.+err\\\\.log)\\\\s\*;\\\\s\*(.+vcpkg.+\\\\.log)\\\\s\*&quot;, &quot;description&quot;: &quot;Specifies a semicolon separated list of regular expressions that are used to identify log file paths in the workflow output. A regular expression must have a single capturing group, that is a single pair of parenthesis such as &#x27;See also (.+.log)&#x27;. When a match occurs, the content of the file is written into the workflow output for disclosing its content to the user. The default regular expressions are for CMake&#x27;s and vcpkg&#x27;s log files.&quot;, &quot;required&quot;: false} |
-| Input: runVcpkgFormatString | null | {&quot;default&quot;: &quot;\[\`install\`, \`--recurse\`, \`--clean-after-build\`, \`--x-install-root\`, \`$\[env.VCPKG\_INSTALLED\_DIR\]\`, \`--triplet\`, \`$\[env.VCPKG\_DEFAULT\_TRIPLET\]\`\]&quot;, &quot;description&quot;: &quot;Specify the command line to run vcpkg with. This is only useful when the input &#x27;runVcpkgInstall&#x27; is set to true.&quot;, &quot;required&quot;: false} |
-| Input: runVcpkgInstall | null | {&quot;default&quot;: false, &quot;description&quot;: &quot;Run the installation of packages by running \`vcpkg install\` on the directory of the discovered &#x27;vcpkg.json&#x27; file. Default is false.&quot;, &quot;required&quot;: false} |
-| Input: useShell | null | {&quot;default&quot;: true, &quot;description&quot;: &quot;Specify which shell to be used when launching commands. &#x27;true&#x27; means the default shell is used. &#x27;false&#x27; means no shell is used. It also can be an absolute path and arguments of the shell to spawn commands with.&quot;, &quot;required&quot;: false} |
-| Input: vcpkgConfigurationJsonGlob | null | {&quot;default&quot;: &quot;\*\*/vcpkg-configuration.json&quot;, &quot;description&quot;: &quot;When the vcpkgGitCommitId input is not provided by the user, this glob expression is used to locate the vcpkg-configuration.json file which contains the commit id of the builtin baseline. On Windows GitHub runners do not use \`github.workspace\` context expression to form the value of this input, since it contains backslashes and it will eventually fail. Use instead \`\*\*/path/to/vcpkg-configuration.json\` to match the desired \`vcpkg-configuration.json\` file.&quot;, &quot;required&quot;: false} |
-| Input: vcpkgDirectory | null | {&quot;default&quot;: &quot;${{ github.workspace }}/vcpkg&quot;, &quot;descriptions&quot;: &quot;Specify the vcpkg&#x27;s root directory. If not specified, it defaults to  &lt;github.workspace&gt;/vcpkg/ . When vcpkg is a Git submodule, specify the path to it.&quot;, &quot;required&quot;: false} |
-| Input: vcpkgGitCommitId | null | {&quot;description&quot;: &quot;Specify the full SHA-1 hash of a Git commit (not a branch name, nor a tag!) that establishes which version of vcpkg needs to be used. When using vcpkg as a Git submodule, this input is \*not\* needed as implicitly specified by the submodule. When not specified and a submodule is not used for vcpkg, the commit id is being searched in vcpkg.json or vcpkg-configure.json, see vcpkgConfigurationJsonGlob input.&quot;, &quot;required&quot;: false} |
-| Input: vcpkgGitURL | null | {&quot;default&quot;: &quot;https://github.com/microsoft/vcpkg.git&quot;, &quot;description&quot;: &quot;Specify the URL Git repository to download vcpkg from. Defaults to https://github.com/microsoft/vcpkg.git&quot;, &quot;required&quot;: false} |
-| Input: vcpkgJsonGlob | null | {&quot;default&quot;: &quot;\*\*/vcpkg.json&quot;, &quot;description&quot;: &quot;Specify the glob expression used to discover the vcpkg.json whose content&#x27;s hash is added to the cache key. On Windows runners using \`github.workspace\` context to form the expression would not work as expected since it contains backslashes. Use instead \`\*\*/path/to/vcpkg.json\` to match the desired \`vcpkg.json\` file.&quot;, &quot;required&quot;: false} |
-| Input: vcpkgJsonIgnores | null | {&quot;default&quot;: &quot;\[&#x27;\*\*/vcpkg/\*\*&#x27;\]&quot;, &quot;description&quot;: &quot;Specify an array of string containing the pattenrs to be ignored when searching for the vcpkg.json file. The default value ignores the pattern &#x27;\*\*/vcpkg/\*\*&#x27;&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | node24 |
-| Security | unknown | clean |
-| Selected SHA | null | b1a0dd252f06b9e25b3c022a9a03bd7a427fb6a2 |
-| Selected tag | null | v11.6 |
-
-## PaulHatch/semantic-version
-
-[Previous source](https://github.com/PaulHatch/semantic-version/tree/502226b17e3e242e4befd0a45690fcbb27dd1373/) · [Current source](https://github.com/PaulHatch/semantic-version/tree/4d6da96a9bc3116da3613309a11ff75fba58eb8d/) · [Upstream code diff](https://github.com/PaulHatch/semantic-version/compare/502226b17e3e242e4befd0a45690fcbb27dd1373...4d6da96a9bc3116da3613309a11ff75fba58eb8d)
+[Previous source](https://github.com/shogo82148/actions-setup-perl/tree/53e33bb27be492a926eee378e8a5f7ff6618b061/) · [Current source](https://github.com/shogo82148/actions-setup-perl/tree/ac3202722f5744e62a8fa3af3e1aaaebb08861f3/) · [Upstream code diff](https://github.com/shogo82148/actions-setup-perl/compare/53e33bb27be492a926eee378e8a5f7ff6618b061...ac3202722f5744e62a8fa3af3e1aaaebb08861f3)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 502226b17e3e242e4befd0a45690fcbb27dd1373 | 4d6da96a9bc3116da3613309a11ff75fba58eb8d |
-| Selected tag | v6.0.3 | v6.0.4 |
+| Selected SHA | 53e33bb27be492a926eee378e8a5f7ff6618b061 | ac3202722f5744e62a8fa3af3e1aaaebb08861f3 |
+| Selected tag | v1.43.1 | v1.44.0 |
 
-## pullfrog/pullfrog
+## taiki-e/install-action
 
-[Previous source](https://github.com/pullfrog/pullfrog/tree/22442cbbe9039fe186e20f1fdf9206bb4a07e7cd/) · [Current source](https://github.com/pullfrog/pullfrog/tree/e6d5add383f6fa331f36f35a7ae3977c0c0a1971/) · [Upstream code diff](https://github.com/pullfrog/pullfrog/compare/22442cbbe9039fe186e20f1fdf9206bb4a07e7cd...e6d5add383f6fa331f36f35a7ae3977c0c0a1971)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 22442cbbe9039fe186e20f1fdf9206bb4a07e7cd | e6d5add383f6fa331f36f35a7ae3977c0c0a1971 |
-| Selected tag | v0.1.69 | v0.1.70 |
-
-## sbt/setup-sbt
-
-[Previous source](https://github.com/sbt/setup-sbt/tree/c7d2d6258b4bd0d3ec5129e6b3453199d3c79729/) · [Current source](https://github.com/sbt/setup-sbt/tree/82da71df4e122282484a99a8d70096bc2369dbd8/) · [Upstream code diff](https://github.com/sbt/setup-sbt/compare/c7d2d6258b4bd0d3ec5129e6b3453199d3c79729...82da71df4e122282484a99a8d70096bc2369dbd8)
+[Previous source](https://github.com/taiki-e/install-action/tree/d438492cf8a250514fa2d34b30bc3c0dc37c65ff/) · [Current source](https://github.com/taiki-e/install-action/tree/c3ec0de9ae7f1019cea21aa96aa0a895b9552063/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/d438492cf8a250514fa2d34b30bc3c0dc37c65ff...c3ec0de9ae7f1019cea21aa96aa0a895b9552063)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: sbt-runner-version | {&quot;default&quot;: &quot;2.0.7&quot;, &quot;description&quot;: &quot;The runner version (The actual version is controlled via project/build.properties)&quot;, &quot;required&quot;: true} | {&quot;default&quot;: &quot;2.0.8&quot;, &quot;description&quot;: &quot;The runner version (The actual version is controlled via project/build.properties)&quot;, &quot;required&quot;: true} |
-| Selected SHA | c7d2d6258b4bd0d3ec5129e6b3453199d3c79729 | 82da71df4e122282484a99a8d70096bc2369dbd8 |
-| Selected tag | v1.5.8 | v1.5.9 |
+| Selected SHA | d438492cf8a250514fa2d34b30bc3c0dc37c65ff | c3ec0de9ae7f1019cea21aa96aa0a895b9552063 |
+| Selected tag | v2.87.8 | v2.87.9 |
 
-## sigstore/gh-action-sigstore-python
+## techpivot/terraform-module-releaser
 
-[Previous source](https://github.com/sigstore/gh-action-sigstore-python) · [Current source](https://github.com/sigstore/gh-action-sigstore-python/tree/790bc6befb9d733738f18d8f895854b453640ec9/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Findings | \[\] | \[\[&quot;superfluous-actions&quot;, &quot;info&quot;, &quot;action functionality is already included by the runner&quot;\]\] |
-| Input: identity-token | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;the OIDC identity token to use&quot;, &quot;required&quot;: false} |
-| Input: inputs | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;the files to sign, whitespace separated&quot;, &quot;required&quot;: false} |
-| Input: internal-be-careful-debug | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;run with debug logs (default false)&quot;, &quot;required&quot;: false} |
-| Input: oidc-client-id | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;the custom OpenID Connect client ID to use during OAuth2&quot;, &quot;required&quot;: false} |
-| Input: oidc-client-secret | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;the custom OpenID Connect client secret to use during OAuth2&quot;, &quot;required&quot;: false} |
-| Input: rekor-version | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The Rekor transparency log instance version used during signing. Valid values are \[1, 2\].\\nVerifying clients must be compatible with the used Rekor version.\\n\\nDefault rekor-version is 1, except when \`staging\` is enabled: then default rekor-version is 2.\\n&quot;, &quot;required&quot;: false} |
-| Input: release-signing-artifacts | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;attach all signing artifacts as release assets&quot;, &quot;required&quot;: false} |
-| Input: staging | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;use sigstore&#x27;s staging instances, instead of the default production instances&quot;, &quot;required&quot;: false} |
-| Input: upload-signing-artifacts | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;upload all signing artifacts as workflow artifacts&quot;, &quot;required&quot;: false} |
-| Input: verify | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;verify the generated signatures after signing&quot;, &quot;required&quot;: false} |
-| Input: verify-cert-identity | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;verify the identity in the signing certificate&#x27;s Subject Alternative Name\\n\\nrequired if \`verify\` is enabled; has no effect otherwise.\\n&quot;, &quot;required&quot;: false} |
-| Input: verify-oidc-issuer | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;verify the issuer extension of the signing certificate\\n\\nrequired if \`verify\` is enabled; has no effect otherwise.\\n&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | composite |
-| Security | unknown | clean |
-| Selected SHA | null | 790bc6befb9d733738f18d8f895854b453640ec9 |
-| Selected tag | null | v3.5.0 |
-
-## vmactions/netbsd-vm
-
-[Previous source](https://github.com/vmactions/netbsd-vm/tree/7f23a491dcc69c34195721ab67934917707f84c7/) · [Current source](https://github.com/vmactions/netbsd-vm/tree/20ee93a005c9fc78743e6e05269f4cb023b87413/) · [Upstream code diff](https://github.com/vmactions/netbsd-vm/compare/7f23a491dcc69c34195721ab67934917707f84c7...20ee93a005c9fc78743e6e05269f4cb023b87413)
+[Previous source](https://github.com/techpivot/terraform-module-releaser/tree/5f3fc036202008b9a2d3ab5dbb1e4a734cd90e4d/) · [Current source](https://github.com/techpivot/terraform-module-releaser/tree/b5df513373777916d19dd842bf0b2b7461e7cf8f/) · [Upstream code diff](https://github.com/techpivot/terraform-module-releaser/compare/5f3fc036202008b9a2d3ab5dbb1e4a734cd90e4d...b5df513373777916d19dd842bf0b2b7461e7cf8f)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 7f23a491dcc69c34195721ab67934917707f84c7 | 20ee93a005c9fc78743e6e05269f4cb023b87413 |
-| Selected tag | v1.4.9 | v1.5.0 |
+| Selected SHA | 5f3fc036202008b9a2d3ab5dbb1e4a734cd90e4d | b5df513373777916d19dd842bf0b2b7461e7cf8f |
+| Selected tag | v2.2.0 | v2.2.1 |
 
-## vn7n24fzkq/github-profile-summary-cards
+## useblacksmith/stickydisk
 
-[Previous source](https://github.com/vn7n24fzkq/github-profile-summary-cards) · [Current source](https://github.com/vn7n24fzkq/github-profile-summary-cards/tree/d9632798b299e9ad6940449a859c30742eb5b549/)
+[Previous source](https://github.com/useblacksmith/stickydisk/tree/74f3f01ab1392726dd6ee06904f0452b0ec1e151/) · [Current source](https://github.com/useblacksmith/stickydisk/tree/25e27b93b68733b532d9af6b201df28ffaf7dbfc/) · [Upstream code diff](https://github.com/useblacksmith/stickydisk/compare/74f3f01ab1392726dd6ee06904f0452b0ec1e151...25e27b93b68733b532d9af6b201df28ffaf7dbfc)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: ANIMATION | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Bake a CSS animation into the cards: none \| fade \| rise \| draw \| stagger \| load \| sequence \| tint \| rgb \| rgb-soft. Leave empty for no animation.&quot;, &quot;required&quot;: false, &quot;type&quot;: &quot;string&quot;} |
-| Input: AUTO\_PUSH | null | {&quot;default&quot;: true, &quot;description&quot;: &quot;Whether automatically push generated files to desired branch&quot;, &quot;required&quot;: false, &quot;type&quot;: &quot;boolean&quot;} |
-| Input: BRANCH\_NAME | null | {&quot;default&quot;: &quot;main&quot;, &quot;description&quot;: &quot;The branch to push cards&quot;, &quot;required&quot;: false, &quot;type&quot;: &quot;string&quot;} |
-| Input: DURATION | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Animation speed in seconds (0.2–10). Only applies when ANIMATION is set; leave empty for the preset default.&quot;, &quot;required&quot;: false, &quot;type&quot;: &quot;string&quot;} |
-| Input: EXCLUDE | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A comma separated list of languages to exclude&quot;, &quot;required&quot;: false, &quot;type&quot;: &quot;string&quot;} |
-| Input: EXCLUDE\_REPOS | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A comma separated list of repository names to exclude from the language cards (case-insensitive; owner/repo also matches on the commits card)&quot;, &quot;required&quot;: false, &quot;type&quot;: &quot;string&quot;} |
-| Input: NAME | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Override the displayed name/title on the profile-details card (elided to fit). Leave empty to use the default \\&quot;login (name)\\&quot;.&quot;, &quot;required&quot;: false, &quot;type&quot;: &quot;string&quot;} |
-| Input: THEME | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Generate only this theme (e.g. github\_dark). Leave empty to generate every theme.&quot;, &quot;required&quot;: false, &quot;type&quot;: &quot;string&quot;} |
-| Input: USERNAME | null | {&quot;default&quot;: &quot;${{ github.repository\_owner }}&quot;, &quot;description&quot;: &quot;GitHub username&quot;, &quot;required&quot;: true, &quot;type&quot;: &quot;string&quot;} |
-| Input: UTC\_OFFSET | null | {&quot;default&quot;: 0, &quot;description&quot;: &quot;The UTC offset used in the Productive Time Card.(e.g., 8, -3)&quot;, &quot;required&quot;: false, &quot;type&quot;: &quot;string&quot;} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | node24 |
-| Security | unknown | clean |
-| Selected SHA | null | d9632798b299e9ad6940449a859c30742eb5b549 |
-| Selected tag | null | v0.12.0 |
+| Selected SHA | 74f3f01ab1392726dd6ee06904f0452b0ec1e151 | 25e27b93b68733b532d9af6b201df28ffaf7dbfc |
+| Selected tag | v1.6.0 | v1.7.0 |
+
+## vmactions/freebsd-vm
+
+[Previous source](https://github.com/vmactions/freebsd-vm/tree/f0552d3b69211736abd97f02ff3d4674c56b73b1/) · [Current source](https://github.com/vmactions/freebsd-vm/tree/8b0f1a8fc0ea0def307835c258940ca358fe6480/) · [Upstream code diff](https://github.com/vmactions/freebsd-vm/compare/f0552d3b69211736abd97f02ff3d4674c56b73b1...8b0f1a8fc0ea0def307835c258940ca358fe6480)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: osname | {&quot;default&quot;: &quot;FreeBSD&quot;, &quot;description&quot;: &quot;The OS name&quot;, &quot;required&quot;: true} | {&quot;default&quot;: &quot;freebsd&quot;, &quot;description&quot;: &quot;The OS name&quot;, &quot;required&quot;: true} |
+| Selected SHA | f0552d3b69211736abd97f02ff3d4674c56b73b1 | 8b0f1a8fc0ea0def307835c258940ca358fe6480 |
+| Selected tag | v1.5.5 | v1.5.6 |
+
+## WyriHaximus/github-action-get-previous-tag
+
+[Previous source](https://github.com/WyriHaximus/github-action-get-previous-tag/tree/61819f33034117e6c686e6a31dba995a85afc9de/) · [Current source](https://github.com/WyriHaximus/github-action-get-previous-tag/tree/83f26fea93bc7efcbca2eb5591f5eaaf66b8f206/) · [Upstream code diff](https://github.com/WyriHaximus/github-action-get-previous-tag/compare/61819f33034117e6c686e6a31dba995a85afc9de...83f26fea93bc7efcbca2eb5591f5eaaf66b8f206)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 61819f33034117e6c686e6a31dba995a85afc9de | 83f26fea93bc7efcbca2eb5591f5eaaf66b8f206 |
+| Selected tag | v2.0.0 | v2.1.0 |

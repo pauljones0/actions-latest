@@ -1,5 +1,7 @@
 {
-  "admitted": [],
+  "admitted": [
+    "gensecaihq/Shai-Hulud-2.0-Detector"
+  ],
   "candidates": {
     "ARM-software/AVH": {
       "checked_at": "2026-09-12T08:52:56.533053+00:00",
@@ -16,6 +18,11 @@
       "scanner_version": "1.30.0",
       "source_sha": "52cf06c1253340345124e55e50a547eea78a371b",
       "status": "admitted"
+    },
+    "AmadeusITGroup/otter": {
+      "checked_at": "2026-09-17T09:40:57.309160+00:00",
+      "reason": "No action.yml or action.yaml at AmadeusITGroup/otter@d517ef248e456fb04254f570d114694d3aebaaa0",
+      "status": "rejected"
     },
     "Bush2021/chrome_installer": {
       "checked_at": "2026-09-13T09:47:10.016412+00:00",
@@ -96,6 +103,11 @@
       "reason": "No action.yml or action.yaml at LindseyB/dummy@826f8867115c764d16146a5e621157973c9e7006",
       "status": "rejected"
     },
+    "MauroDruwel/NIMStats": {
+      "checked_at": "2026-09-17T09:40:57.309160+00:00",
+      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@387db414ccca53fafecdb93506b8e0a6f3887342",
+      "status": "rejected"
+    },
     "MohammadBahemmat/V2ray-Collector": {
       "checked_at": "2026-09-08T09:10:11.633765+00:00",
       "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@dfa3d72b2f1a67d54c69370eae0cf39d303aa617",
@@ -153,6 +165,11 @@
       "source_sha": "db63e42b59d637dd5127cf3a2a12cc7d74028926",
       "status": "admitted"
     },
+    "VeryGoodOpenSource/very_good_workflows": {
+      "checked_at": "2026-09-17T09:40:57.309160+00:00",
+      "reason": "No action.yml or action.yaml at VeryGoodOpenSource/very_good_workflows@ba7405aac33b7d8e733fb049045074a750ed9c7d",
+      "status": "rejected"
+    },
     "Vladimir-Human/humanizer-ru": {
       "checked_at": "2026-09-13T09:47:10.016412+00:00",
       "reason": "No action.yml or action.yaml at Vladimir-Human/humanizer-ru@417c48f1256e615e91fd8dca5a4a91d83a27cdc0",
@@ -209,8 +226,8 @@
       "status": "admitted"
     },
     "bitscoper/bitscoper_cyberkit": {
-      "checked_at": "2026-09-10T09:13:49.409079+00:00",
-      "reason": "No action.yml or action.yaml at bitscoper/bitscoper_cyberkit@6310ffb85c97aac0b0e332c435cba9ee2d93d680",
+      "checked_at": "2026-09-17T09:40:57.309160+00:00",
+      "reason": "No action.yml or action.yaml at bitscoper/bitscoper_cyberkit@19c8e8cc81cf99efce8c17a7e51fd8886b654a74",
       "status": "rejected"
     },
     "cloudbase/garm": {
@@ -310,6 +327,12 @@
       "reason": "No action.yml or action.yaml at fibelatti/pinboard-kotlin@e9394d6de4dee346124acf01ce397860427212aa",
       "status": "rejected"
     },
+    "gensecaihq/Shai-Hulud-2.0-Detector": {
+      "checked_at": "2026-09-17T09:40:57.309160+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "d96885a17a1b9ce40bb669c6fa34bbdf75fe2c17",
+      "status": "admitted"
+    },
     "github-aws-runners/terraform-aws-github-runner": {
       "checked_at": "2026-09-11T09:11:06.276205+00:00",
       "reason": "No action.yml or action.yaml at github-aws-runners/terraform-aws-github-runner@1df3735cbfd7c394a35420e4b6df29105891f981",
@@ -336,8 +359,8 @@
       "status": "rejected"
     },
     "hect0x7/JMComic-APK": {
-      "checked_at": "2026-09-07T07:23:29.528680+00:00",
-      "reason": "No action.yml or action.yaml at hect0x7/JMComic-APK@d9966fbb394bbe433e35b31ce98a715376f7887e",
+      "checked_at": "2026-09-17T09:40:57.309160+00:00",
+      "reason": "No action.yml or action.yaml at hect0x7/JMComic-APK@a19710211d05241cb770f715c4f46710baa14d83",
       "status": "rejected"
     },
     "hect0x7/JMComic-Crawler-Python": {
@@ -376,6 +399,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "916b17213d00299c2f2e9462df2bb36504ebf974",
       "status": "admitted"
+    },
+    "jckling/Daily-Bonus": {
+      "checked_at": "2026-09-17T09:40:57.309160+00:00",
+      "reason": "No action.yml or action.yaml at jckling/Daily-Bonus@2463891b8801b4da180ab31b60c61ec2dd9683b1",
+      "status": "rejected"
     },
     "kdeldycke/repomatic": {
       "checked_at": "2026-09-14T10:09:02.295269+00:00",
@@ -666,7 +694,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-16T09:33:55.168839+00:00",
+  "checked_at": "2026-09-17T09:40:57.309160+00:00",
   "errors": [],
-  "inspected": 5
+  "inspected": 7
 }
