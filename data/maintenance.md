@@ -6,7 +6,7 @@
 
 Stored observations outside the 72-hour window: 0.
 
-586 catalog entries. 5 action-specific fetch/scan failures; 0 reviews invalidated by revision changes; 541 historical guidance reviews.
+588 catalog entries. 5 action-specific fetch/scan failures; 0 reviews invalidated by revision changes; 541 historical guidance reviews.
 
 Routine observations and compatible Python/tool maintenance are automatic. Historical editorial reviews are a backlog, not a reason to stop all updates.
 
@@ -23,7 +23,7 @@ Routine observations and compatible Python/tool maintenance are automatic. Histo
 | [bytecodealliance/actions](https://github.com/bytecodealliance/actions/tree/9152e710e9f7182e4c29ad218e4f335a7b203613/) | Fetch or scan failed: No action.yml or action.yaml at bytecodealliance/actions@9152e710e9f7182e4c29ad218e4f335a7b203613 | Inspect the immutable source. For a missing root manifest, check subdirectory actions; for a transient failure, rerun refresh. Never mark this clean. Run `uv run python manage.py review bytecodealliance/actions`. |
 | [mikefarah/yq](https://github.com/mikefarah/yq/tree/c14f446382944492701b16c1ddb48bb9dbe683e3/) | Historical editorial guidance has not been reviewed:  | Review source-backed facts and human claims. Unsupported claims should be corrected or removed. Run `uv run python manage.py review mikefarah/yq`. |
 | [super-linter/super-linter](https://github.com/super-linter/super-linter/tree/4ce20838b8ab83717e78138c5b3a1407148e0918/) | Historical editorial guidance has not been reviewed:  | Review source-backed facts and human claims. Unsupported claims should be corrected or removed. Run `uv run python manage.py review super-linter/super-linter`. |
-| [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action/tree/19dda84776b3518d98b8798e591daee763049ed3/) | Historical editorial guidance has not been reviewed:  | Review source-backed facts and human claims. Unsupported claims should be corrected or removed. Run `uv run python manage.py review anthropics/claude-code-action`. |
+| [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action/tree/0a8d3c9443bbff909ab973b6a17a340b913f229f/) | Historical editorial guidance has not been reviewed:  | Review source-backed facts and human claims. Unsupported claims should be corrected or removed. Run `uv run python manage.py review anthropics/claude-code-action`. |
 | [actions/checkout](https://github.com/actions/checkout/tree/3d3c42e5aac5ba805825da76410c181273ba90b1/) | Historical editorial guidance has not been reviewed:  | Review source-backed facts and human claims. Unsupported claims should be corrected or removed. Run `uv run python manage.py review actions/checkout`. |
 | [appleboy/ssh-action](https://github.com/appleboy/ssh-action/tree/0ff4204d59e8e51228ff73bce53f80d53301dee2/) | Historical editorial guidance has not been reviewed:  | Review source-backed facts and human claims. Unsupported claims should be corrected or removed. Run `uv run python manage.py review appleboy/ssh-action`. |
 | [Platane/snk](https://github.com/Platane/snk/tree/d8f6715049803e982ee5ff501b6b9b7d5deeb09b/) | Historical editorial guidance has not been reviewed:  | Review source-backed facts and human claims. Unsupported claims should be corrected or removed. Run `uv run python manage.py review Platane/snk`. |

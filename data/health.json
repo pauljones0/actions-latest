@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-09-17T09:42:01.433805+00:00",
-  "published_at": "2026-09-17T09:41:59.641749+00:00",
+  "checked_at": "2026-09-18T09:16:01.631400+00:00",
+  "published_at": "2026-09-18T09:15:59.773027+00:00",
   "healthy": true,
   "reasons": [],
-  "actions": 586,
+  "actions": 588,
   "stale_observations": [],
   "update_errors": [],
   "scan_errors": [
@@ -15,9 +15,9 @@
   ],
   "security_counts": {
     "clean": 498,
-    "warning": 8,
+    "warning": 9,
     "blocked": 62,
-    "unknown": 13,
+    "unknown": 14,
     "stale": 0,
     "error": 5
   },
