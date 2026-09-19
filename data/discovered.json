@@ -830,6 +830,31 @@
     "reviewed_at": null
   },
   {
+    "action": "ryanccn/attic-action",
+    "description": "Cache Nix derivations with Attic",
+    "category": "Discovered",
+    "tags": [
+      "attic",
+      "cache",
+      "ci",
+      "ci-cd",
+      "github-actions-cache",
+      "nix",
+      "nix-flake"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/ryanccn/attic-action/tree/b783315e3a06e33b82e76d259a7c924ec4ce17a6",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "sersoft-gmbh/xcodebuild-action",
     "description": "Runs xcodebuild e.g. to run tests.",
     "category": "Discovered",

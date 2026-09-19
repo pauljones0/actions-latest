@@ -1,7 +1,6 @@
 {
   "admitted": [
-    "hermes-labs-ai/lintlang",
-    "UiPath/coder_eval"
+    "ryanccn/attic-action"
   ],
   "candidates": {
     "ARM-software/AVH": {
@@ -31,8 +30,8 @@
       "status": "rejected"
     },
     "CDFER/jlcpcb-parts-database": {
-      "checked_at": "2026-09-07T07:23:29.528680+00:00",
-      "reason": "No action.yml or action.yaml at CDFER/jlcpcb-parts-database@a851ef730af2c2686b15ec3f20a8c89ca4c36265",
+      "checked_at": "2026-09-19T09:01:01.538456+00:00",
+      "reason": "No action.yml or action.yaml at CDFER/jlcpcb-parts-database@5aa323a9908084fe42152d0542b578b1ae9844e4",
       "status": "rejected"
     },
     "ComunidadAylas/PackSquash-action": {
@@ -99,9 +98,14 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "Kesin11/CIAnalyzer": {
+      "checked_at": "2026-09-19T09:01:01.538456+00:00",
+      "reason": "No action.yml or action.yaml at Kesin11/CIAnalyzer@5c5c4534c6d1ce10f6f6d9eb591aea552cea5eb0",
+      "status": "rejected"
+    },
     "KryptosAI/mcp-observatory": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at KryptosAI/mcp-observatory@011ed59b31f5b23ef56f5db1d698b277d5296854",
+      "checked_at": "2026-09-19T09:01:01.538456+00:00",
+      "reason": "No action.yml or action.yaml at KryptosAI/mcp-observatory@db50000dbc3123fc7633d681e10e2fbfef62197e",
       "status": "rejected"
     },
     "LindseyB/dummy": {
@@ -334,6 +338,11 @@
       "reason": "No action.yml or action.yaml at falcondev-oss/github-actions-cache-server@c866ae42315af2cb5e165a23a414228fd2fc035f",
       "status": "rejected"
     },
+    "fatwang2/awesome-jev": {
+      "checked_at": "2026-09-19T09:01:01.538456+00:00",
+      "reason": "No action.yml or action.yaml at fatwang2/awesome-jev@bb77fcee96c33855d69463a8d764402088283626",
+      "status": "rejected"
+    },
     "fibelatti/pinboard-kotlin": {
       "checked_at": "2026-09-14T07:57:42.638604+00:00",
       "reason": "No action.yml or action.yaml at fibelatti/pinboard-kotlin@e9394d6de4dee346124acf01ce397860427212aa",
@@ -361,8 +370,8 @@
       "status": "rejected"
     },
     "goreleaser/goreleaser": {
-      "checked_at": "2026-09-07T07:23:29.528680+00:00",
-      "reason": "No action.yml or action.yaml at goreleaser/goreleaser@e65c78afc6c9eb67e5d473970afcae09617c2af9",
+      "checked_at": "2026-09-19T09:01:01.538456+00:00",
+      "reason": "No action.yml or action.yaml at goreleaser/goreleaser@048a5869ad3201ed1a684cf187e71e2be328bd6d",
       "status": "rejected"
     },
     "goreleaser/goreleaser-pro": {
@@ -408,8 +417,8 @@
       "status": "rejected"
     },
     "jacopone/antigravity-nix": {
-      "checked_at": "2026-09-12T08:52:56.533053+00:00",
-      "reason": "No action.yml or action.yaml at jacopone/antigravity-nix@0d6f9760ee4d685c6e75faeafb5055b93c4bc4aa",
+      "checked_at": "2026-09-19T09:01:01.538456+00:00",
+      "reason": "No action.yml or action.yaml at jacopone/antigravity-nix@b92ea8e30f8b8dc0892586940c1437d52228e14c",
       "status": "rejected"
     },
     "jbrooksuk/laravel-forge-action": {
@@ -471,6 +480,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "f341edad39effc746fa09e5a16e0a4bd398be868",
       "status": "admitted"
+    },
+    "maehr/academic-pandoc-template": {
+      "checked_at": "2026-09-19T09:01:01.538456+00:00",
+      "reason": "No action.yml or action.yaml at maehr/academic-pandoc-template@b029b8645bbf2406757935c5b5a686c5dfd9967f",
+      "status": "rejected"
     },
     "melogabriel/tinfoil-shops-status": {
       "checked_at": "2026-09-14T10:09:02.295269+00:00",
@@ -542,8 +556,8 @@
       "status": "rejected"
     },
     "raeperd/realworld-springboot-java": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at raeperd/realworld-springboot-java@67cf40d83a7a8d0f818fddc53a52d01a3529a95e",
+      "checked_at": "2026-09-19T09:01:01.538456+00:00",
+      "reason": "No action.yml or action.yaml at raeperd/realworld-springboot-java@bab76acebff861733ae7e24c8e7e626cde12e5f7",
       "status": "rejected"
     },
     "ram0verflow/ram0verflow": {
@@ -572,6 +586,12 @@
       "checked_at": "2026-09-10T09:13:49.409079+00:00",
       "scanner_version": "1.30.0",
       "source_sha": "0edc2293b3381624f1f28e557397cfd75c4e8179",
+      "status": "admitted"
+    },
+    "ryanccn/attic-action": {
+      "checked_at": "2026-09-19T09:01:01.538456+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "b783315e3a06e33b82e76d259a7c924ec4ce17a6",
       "status": "admitted"
     },
     "sandro2211/powerbi-ml-insight-engine": {
@@ -717,7 +737,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-18T09:14:56.894930+00:00",
+  "checked_at": "2026-09-19T09:01:01.538456+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 9
 }
