@@ -875,6 +875,28 @@
     "reviewed_at": null
   },
   {
+    "action": "shaftoe/pi-coding-agent-action",
+    "description": "Run the pi coding agent (pi.dev) in GitHub Actions workflows",
+    "category": "Discovered",
+    "tags": [
+      "ai-assisted",
+      "code-review",
+      "coding-agents",
+      "pi-coding-agent"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/shaftoe/pi-coding-agent-action/tree/f9b68d664192c5f6ffb16e1201f10342891b302d",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "shalzz/zola-deploy-action",
     "description": "Build and deploy a Zola site to GitHub Pages",
     "category": "Discovered",
