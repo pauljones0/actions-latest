@@ -6,17 +6,14 @@ Direct tools stay within their current major. Runtime dependencies stay within d
 
 | Package | Before | After | Upstream details |
 | --- | --- | --- | --- |
-| filelock | \[&quot;3.32.5&quot;\] | \[&quot;3.32.6&quot;\] | [3.32.6](https://pypi.org/project/filelock/3.32.6/) |
-| mcp | \[&quot;1.29.1&quot;\] | \[&quot;1.30.0&quot;\] | [1.30.0](https://pypi.org/project/mcp/1.30.0/) |
-| pyjwt | \[&quot;2.13.0&quot;\] | \[&quot;2.14.0&quot;\] | [2.14.0](https://pypi.org/project/pyjwt/2.14.0/) |
-| ruff | \[&quot;0.16.6&quot;\] | \[&quot;0.16.7&quot;\] | [0.16.7](https://pypi.org/project/ruff/0.16.7/) |
-| uv | \[&quot;0.12.10&quot;\] | \[&quot;0.12.13&quot;\] | [0.12.13](https://pypi.org/project/uv/0.12.13/) |
-| uvicorn | \[&quot;0.52.4&quot;\] | \[&quot;0.53.0&quot;\] | [0.53.0](https://pypi.org/project/uvicorn/0.53.0/) |
-| zizmor | \[&quot;1.30.0&quot;\] | \[&quot;1.30.1&quot;\] | [1.30.1](https://pypi.org/project/zizmor/1.30.1/) |
+| filelock | \[&quot;3.32.6&quot;\] | \[&quot;3.32.7&quot;\] | [3.32.7](https://pypi.org/project/filelock/3.32.7/) |
+| idna | \[&quot;3.19&quot;\] | \[&quot;3.20&quot;\] | [3.20](https://pypi.org/project/idna/3.20/) |
+| ruff | \[&quot;0.16.7&quot;\] | \[&quot;0.16.8&quot;\] | [0.16.8](https://pypi.org/project/ruff/0.16.8/) |
+| uv | \[&quot;0.12.13&quot;\] | \[&quot;0.12.17&quot;\] | [0.12.17](https://pypi.org/project/uv/0.12.17/) |
 
-**Proposal base commit:** `c6de647958584ea869146d7e13cc98195e82781e`. Reproduce the downloaded patch from this exact commit, which can differ from the event that queued the run.
+**Proposal base commit:** `0cd139553e3d4e70d19c38cc7873e833fb7352d6`. Reproduce the downloaded patch from this exact commit, which can differ from the event that queued the run.
 
-[Checks and publication result](https://github.com/pauljones0/actions-latest/actions/runs/34820212664)
+[Checks and publication result](https://github.com/pauljones0/actions-latest/actions/runs/35575643677)
 
 ## Decision
 
