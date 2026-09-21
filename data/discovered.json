@@ -530,6 +530,26 @@
     "reviewed_at": null
   },
   {
+    "action": "jurplel/install-qt-action",
+    "description": "Install Qt on your Github Actions workflows with just one simple action",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "qt"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/jurplel/install-qt-action/tree/1d6fe1893defb8788d65967424d57a83d41d4472",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "laminas/automatic-releases",
     "description": "Automates automatic releases for semver-compliant repositories",
     "category": "Discovered",
