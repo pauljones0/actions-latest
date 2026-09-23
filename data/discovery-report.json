@@ -1,11 +1,6 @@
 {
   "admitted": [
-    "github/branch-deploy",
-    "apisec-inc/AI-Surface",
-    "devops-infra/action-commit-push",
-    "cloudflare/wrangler-action",
-    "Mic92/hestia",
-    "derberg/manage-files-in-multiple-repositories"
+    "owenthereal/action-upterm"
   ],
   "candidates": {
     "ARM-software/AVH": {
@@ -212,6 +207,11 @@
       "reason": "No action.yml or action.yaml at Vladimir-Human/humanizer-ru@417c48f1256e615e91fd8dca5a4a91d83a27cdc0",
       "status": "rejected"
     },
+    "Wangnov/codex-app-mirror": {
+      "checked_at": "2026-09-23T09:35:06.503212+00:00",
+      "reason": "No action.yml or action.yaml at Wangnov/codex-app-mirror@a4a8f45127f0d4f8194f78f879f741781626e22b",
+      "status": "rejected"
+    },
     "WtfJoke/setup-tectonic": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "scanner_version": "1.30.0",
@@ -251,6 +251,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "2a44c23db5043868aad8a096971c8a6945224b3d",
       "status": "admitted"
+    },
+    "aripalo/aws-cdk-github-oidc": {
+      "checked_at": "2026-09-23T09:35:06.503212+00:00",
+      "reason": "No action.yml or action.yaml at aripalo/aws-cdk-github-oidc@6b61f33dd9ea7725e9b50636e642611cfed33e83",
+      "status": "rejected"
     },
     "ashleymavericks/ashleymavericks": {
       "checked_at": "2026-09-22T09:30:22.736679+00:00",
@@ -301,8 +306,8 @@
       "status": "admitted"
     },
     "cobusgreyling/loop-engineering": {
-      "checked_at": "2026-09-15T09:38:35.764623+00:00",
-      "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@0948ac1661de2000a391975576e47cf1a4b4f53c",
+      "checked_at": "2026-09-23T09:35:06.503212+00:00",
+      "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@02b85b7988949073ad600de200adfe1fc4e3c1a0",
       "status": "rejected"
     },
     "conda-incubator/setup-miniconda": {
@@ -383,6 +388,11 @@
       "source_sha": "d33d5dd545ef12d83a01b243760bc1de830843fc",
       "status": "admitted"
     },
+    "eyupio/zoomies": {
+      "checked_at": "2026-09-23T09:35:06.503212+00:00",
+      "reason": "No action.yml or action.yaml at eyupio/zoomies@33759b2bc4341b7d4d97fd2b636383a73854e6b5",
+      "status": "rejected"
+    },
     "f/wvw.dev": {
       "checked_at": "2026-09-21T08:01:20.244752+00:00",
       "reason": "No action.yml or action.yaml at f/wvw.dev@eb478ba9726793a02fe0d325301b28147e603670",
@@ -431,8 +441,8 @@
       "status": "rejected"
     },
     "go-gitea/gitea": {
-      "checked_at": "2026-09-15T09:38:35.764623+00:00",
-      "reason": "No action.yml or action.yaml at go-gitea/gitea@812191c0f9283ecf469b1655a7c31c2f86dccf20",
+      "checked_at": "2026-09-23T09:35:06.503212+00:00",
+      "reason": "No action.yml or action.yaml at go-gitea/gitea@08149f9bec9d9c8f3acb980b9e289f058cd29b93",
       "status": "rejected"
     },
     "goreleaser/goreleaser": {
@@ -505,8 +515,8 @@
       "status": "admitted"
     },
     "kdeldycke/repomatic": {
-      "checked_at": "2026-09-14T10:09:02.295269+00:00",
-      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@f7f16632e16402214564e4ca38be44f0fdf552c7",
+      "checked_at": "2026-09-23T09:35:06.503212+00:00",
+      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@76bf52f9b42681ef2c102914811abee7065b7570",
       "status": "rejected"
     },
     "kkzzhizhou/scoop-apps": {
@@ -558,6 +568,11 @@
       "reason": "No action.yml or action.yaml at maehr/academic-pandoc-template@b029b8645bbf2406757935c5b5a686c5dfd9967f",
       "status": "rejected"
     },
+    "matlab-actions/.github": {
+      "checked_at": "2026-09-23T09:35:06.503212+00:00",
+      "reason": "No action.yml or action.yaml at matlab-actions/.github@5cc6685169f0296f12afda6a650bb2ec6cee0180",
+      "status": "rejected"
+    },
     "melogabriel/tinfoil-shops-status": {
       "checked_at": "2026-09-14T10:09:02.295269+00:00",
       "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@70067e750c28c054b4a9e4102cdf5255bf4e38ed",
@@ -583,6 +598,12 @@
       "checked_at": "2026-09-13T09:47:10.016412+00:00",
       "reason": "No action.yml or action.yaml at oasdiff/oasdiff@63632bfb3618b8f8565e90b1a1731144b2c66887",
       "status": "rejected"
+    },
+    "owenthereal/action-upterm": {
+      "checked_at": "2026-09-23T09:35:06.503212+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "42902ffb5244d6d63501c1daf4f4ec82884025f6",
+      "status": "admitted"
     },
     "philips-labs/slsa-provenance-action": {
       "checked_at": "2026-09-21T08:01:20.244752+00:00",
@@ -677,8 +698,8 @@
       "status": "rejected"
     },
     "sanitizers/octomachinery": {
-      "checked_at": "2026-09-16T09:33:55.168839+00:00",
-      "reason": "No action.yml or action.yaml at sanitizers/octomachinery@66c84bbc1c2bcb66876844a8f475400b97689f8b",
+      "checked_at": "2026-09-23T09:35:06.503212+00:00",
+      "reason": "No action.yml or action.yaml at sanitizers/octomachinery@db0a470321f6af0b40b520deae779578e81d32ae",
       "status": "rejected"
     },
     "scanaislop/aislop": {
@@ -820,7 +841,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-22T09:30:22.736679+00:00",
+  "checked_at": "2026-09-23T09:35:06.503212+00:00",
   "errors": [],
-  "inspected": 11
+  "inspected": 9
 }

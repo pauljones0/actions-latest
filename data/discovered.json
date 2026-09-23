@@ -830,6 +830,30 @@
     "reviewed_at": null
   },
   {
+    "action": "owenthereal/action-upterm",
+    "description": "This GitHub Action enables direct interaction with the host system running your GitHub Actions via SSH",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "debug",
+      "debugging",
+      "ssh",
+      "tmux",
+      "upterm"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/owenthereal/action-upterm/tree/42902ffb5244d6d63501c1daf4f4ec82884025f6",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "plengauer/Thoth",
     "description": "Export traces, metrics, and logs by injecting deeply into javascript, docker, shell and composite actions.",
     "category": "Discovered",
