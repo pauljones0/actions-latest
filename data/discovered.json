@@ -1,5 +1,26 @@
 [
   {
+    "action": "actions-hub/kubectl",
+    "description": "GitHub Action for interacting with kubectl (k8s)",
+    "category": "Discovered",
+    "tags": [
+      "k8s",
+      "kubectl",
+      "kubernetes"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/actions-hub/kubectl/tree/d95b167fd6c1be77bcace93d188d57d19dfc5258",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "akiomik/mado",
     "description": "Run mado to check Markdown files",
     "category": "Discovered",
@@ -711,6 +732,29 @@
     "reviewed_at": null
   },
   {
+    "action": "launchdarkly/find-code-references",
+    "description": "Find references to feature flags in your code.",
+    "category": "Discovered",
+    "tags": [
+      "action",
+      "launchdarkly",
+      "launchdarkly-docker-image",
+      "launchdarkly-integration",
+      "managed-by-terraform"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/launchdarkly/find-code-references/tree/3f782158d0ee6aec19291b232147e2f6c714f9ee",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "lukka/run-cmake",
     "description": "Run CMake with CMakePreset.json to configure, build, package and test C/C++ source code.",
     "category": "Discovered",
@@ -927,6 +971,39 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/presubmit/ai-reviewer/tree/e6b156816467568378900cdb353daa4dbd19cad3",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "qoomon/actions--access-token",
+    "description": "GitHub Action to request temporary access tokens",
+    "category": "Discovered",
+    "tags": [
+      "access",
+      "action",
+      "alternativ",
+      "ci",
+      "expiring",
+      "organization",
+      "owner",
+      "pat",
+      "permissions",
+      "policy",
+      "repository",
+      "self-hosted",
+      "self-managed",
+      "temporary",
+      "token"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/qoomon/actions--access-token/tree/65e975c6448e701770da0d9cfe9f0038a7ff29c8",
     "reviewed_sha": null,
     "reviewed_at": null
   },

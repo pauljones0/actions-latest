@@ -1,6 +1,8 @@
 {
   "admitted": [
-    "owenthereal/action-upterm"
+    "actions-hub/kubectl",
+    "launchdarkly/find-code-references",
+    "qoomon/actions--access-token"
   ],
   "candidates": {
     "ARM-software/AVH": {
@@ -218,6 +220,12 @@
       "source_sha": "4c5141536933d0ca4c23afe7995c08afc187cd90",
       "status": "admitted"
     },
+    "actions-hub/kubectl": {
+      "checked_at": "2026-09-24T09:35:05.975472+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "d95b167fd6c1be77bcace93d188d57d19dfc5258",
+      "status": "admitted"
+    },
     "actions/actions-runner-controller": {
       "checked_at": "2026-09-18T09:14:56.894930+00:00",
       "reason": "No action.yml or action.yaml at actions/actions-runner-controller@6df0e09f8454c9a3920a86755cf2d58e60e4b06b",
@@ -233,6 +241,11 @@
       "scanner_version": "1.30.0",
       "source_sha": "f41b281d09625079ca2b3f0e60165e4d975f991d",
       "status": "admitted"
+    },
+    "alirezaeiii/TMDb-Compose-Playground": {
+      "checked_at": "2026-09-24T09:35:05.975472+00:00",
+      "reason": "No action.yml or action.yaml at alirezaeiii/TMDb-Compose-Playground@5694395f4e8408200aa06dd493187611a5948168",
+      "status": "rejected"
     },
     "aminya/setup-cpp": {
       "checked_at": "2026-09-08T09:10:11.633765+00:00",
@@ -268,8 +281,8 @@
       "status": "rejected"
     },
     "azat-io/actions-up": {
-      "checked_at": "2026-09-13T09:47:10.016412+00:00",
-      "reason": "No action.yml or action.yaml at azat-io/actions-up@77ccc0c47eef0c3a0a1cb323f41e30e9b42121be",
+      "checked_at": "2026-09-24T09:35:05.975472+00:00",
+      "reason": "No action.yml or action.yaml at azat-io/actions-up@b00e8e31436fd785b2928fa1f1117465b1be5f84",
       "status": "rejected"
     },
     "benchmark-action/github-action-benchmark": {
@@ -535,6 +548,12 @@
       "source_sha": "ea2a082a1ff051369e88fa1c87a038d11ecbe7c1",
       "status": "admitted"
     },
+    "launchdarkly/find-code-references": {
+      "checked_at": "2026-09-24T09:35:05.975472+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "3f782158d0ee6aec19291b232147e2f6c714f9ee",
+      "status": "admitted"
+    },
     "levnikolaevich/claude-code-skills": {
       "checked_at": "2026-09-16T09:33:55.168839+00:00",
       "reason": "No action.yml or action.yaml at levnikolaevich/claude-code-skills@298d9b9d587ec567e24dc6f5a96927ee99a390b4",
@@ -647,6 +666,12 @@
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "reason": "No action.yml or action.yaml at probot/adapter-github-actions@0fe8f98357efd872de3c441af8994bdcb23c0d89",
       "status": "rejected"
+    },
+    "qoomon/actions--access-token": {
+      "checked_at": "2026-09-24T09:35:05.975472+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "65e975c6448e701770da0d9cfe9f0038a7ff29c8",
+      "status": "admitted"
     },
     "r-lib/actions": {
       "checked_at": "2026-09-21T08:01:20.244752+00:00",
@@ -841,7 +866,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-23T09:35:06.503212+00:00",
+  "checked_at": "2026-09-24T09:35:05.975472+00:00",
   "errors": [],
-  "inspected": 9
+  "inspected": 5
 }
