@@ -710,6 +710,34 @@
     "reviewed_at": null
   },
   {
+    "action": "Justintime50/homebrew-releaser",
+    "description": "Release scripts, binaries, and executables directly to Homebrew via GitHub Actions.",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "binaries",
+      "brew",
+      "distribute",
+      "executables",
+      "github",
+      "homebrew",
+      "release",
+      "script",
+      "shell"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/Justintime50/homebrew-releaser/tree/ac9c6091821c58f5473bdfade52248da5364dff4",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "laminas/automatic-releases",
     "description": "Automates automatic releases for semver-compliant repositories",
     "category": "Discovered",

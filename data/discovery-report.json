@@ -1,8 +1,6 @@
 {
   "admitted": [
-    "actions-hub/kubectl",
-    "launchdarkly/find-code-references",
-    "qoomon/actions--access-token"
+    "Justintime50/homebrew-releaser"
   ],
   "candidates": {
     "ARM-software/AVH": {
@@ -105,6 +103,12 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "Justintime50/homebrew-releaser": {
+      "checked_at": "2026-09-25T09:51:42.609964+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "ac9c6091821c58f5473bdfade52248da5364dff4",
+      "status": "admitted"
+    },
     "Kesin11/CIAnalyzer": {
       "checked_at": "2026-09-19T09:01:01.538456+00:00",
       "reason": "No action.yml or action.yaml at Kesin11/CIAnalyzer@5c5c4534c6d1ce10f6f6d9eb591aea552cea5eb0",
@@ -126,8 +130,8 @@
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
-      "checked_at": "2026-09-17T09:40:57.309160+00:00",
-      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@387db414ccca53fafecdb93506b8e0a6f3887342",
+      "checked_at": "2026-09-25T09:51:42.609964+00:00",
+      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@a7d0a9d644a1b107d7b240644d3733820961a4d9",
       "status": "rejected"
     },
     "Mic92/hestia": {
@@ -137,8 +141,8 @@
       "status": "admitted"
     },
     "MohammadBahemmat/V2ray-Collector": {
-      "checked_at": "2026-09-18T09:14:56.894930+00:00",
-      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@684b98a24b7334323f8e4e9da749a858850b191a",
+      "checked_at": "2026-09-25T09:51:42.609964+00:00",
+      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@c4680ba88a54a1045e3dcaaf56f3ba0091aa116d",
       "status": "rejected"
     },
     "Pradumnasaraf/DevOps": {
@@ -178,8 +182,8 @@
       "status": "rejected"
     },
     "SpaceTimee/Fusion-JetBrainsMapleMono": {
-      "checked_at": "2026-09-15T09:38:35.764623+00:00",
-      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@1e89b54b4ef069a707ad301f86680f7c8de66685",
+      "checked_at": "2026-09-25T09:51:42.609964+00:00",
+      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@682f65e24ff4149cd54873f2db4048a184a0ea71",
       "status": "rejected"
     },
     "Terrenceeeee/AI-frontend-engineering-starter": {
@@ -449,8 +453,8 @@
       "status": "admitted"
     },
     "github/gh-aw": {
-      "checked_at": "2026-09-14T07:57:42.638604+00:00",
-      "reason": "No action.yml or action.yaml at github/gh-aw@a013f5a88a73b26fe91dbcd401427cc3bc76701f",
+      "checked_at": "2026-09-25T09:51:42.609964+00:00",
+      "reason": "No action.yml or action.yaml at github/gh-aw@158f1a327537e81c946c813ebeeb30e7879b4483",
       "status": "rejected"
     },
     "go-gitea/gitea": {
@@ -866,7 +870,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-24T09:35:05.975472+00:00",
+  "checked_at": "2026-09-25T09:51:42.609964+00:00",
   "errors": [],
   "inspected": 5
 }
