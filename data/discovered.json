@@ -310,6 +310,37 @@
     "reviewed_at": null
   },
   {
+    "action": "cucuwang/geoptimize",
+    "description": "Run the deterministic geoptimize readiness lint against a build directory",
+    "category": "Discovered",
+    "tags": [
+      "ai-search",
+      "ai-seo",
+      "claude-code-skill",
+      "content-linter",
+      "generative-engine-optimization",
+      "geo",
+      "json-ld",
+      "llms-txt",
+      "nextjs",
+      "seo",
+      "static-site",
+      "structured-data",
+      "vite"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/cucuwang/geoptimize/tree/326e5b538f3a90f3a5e1ff4b9813bd8b5a67fba9",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "danielroe/provenance-action",
     "description": "Fail CI when dependencies in your lockfile lose npm provenance, trusted publisher or staged publishing status.",
     "category": "Discovered",
