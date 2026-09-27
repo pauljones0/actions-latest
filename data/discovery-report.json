@@ -1,6 +1,7 @@
 {
   "admitted": [
-    "cucuwang/geoptimize"
+    "pypa/cibuildwheel",
+    "rjstone/discord-webhook-notify"
   ],
   "candidates": {
     "ARM-software/AVH": {
@@ -209,8 +210,8 @@
       "status": "rejected"
     },
     "Vladimir-Human/humanizer-ru": {
-      "checked_at": "2026-09-13T09:47:10.016412+00:00",
-      "reason": "No action.yml or action.yaml at Vladimir-Human/humanizer-ru@417c48f1256e615e91fd8dca5a4a91d83a27cdc0",
+      "checked_at": "2026-09-27T10:14:10.079085+00:00",
+      "reason": "No action.yml or action.yaml at Vladimir-Human/humanizer-ru@75c7711f174133139e3ff8e22c67bdc11231baee",
       "status": "rejected"
     },
     "Wangnov/codex-app-mirror": {
@@ -441,6 +442,11 @@
       "reason": "No action.yml or action.yaml at fibelatti/pinboard-kotlin@e9394d6de4dee346124acf01ce397860427212aa",
       "status": "rejected"
     },
+    "firsttris/plugin.video.sendtokodi": {
+      "checked_at": "2026-09-27T10:14:10.079085+00:00",
+      "reason": "No action.yml or action.yaml at firsttris/plugin.video.sendtokodi@cd28363e4a096705cbf2d849fc2072ddd08431b2",
+      "status": "rejected"
+    },
     "gensecaihq/Shai-Hulud-2.0-Detector": {
       "checked_at": "2026-09-17T09:40:57.309160+00:00",
       "scanner_version": "1.30.1",
@@ -516,8 +522,8 @@
       "status": "rejected"
     },
     "jacopone/antigravity-nix": {
-      "checked_at": "2026-09-19T09:01:01.538456+00:00",
-      "reason": "No action.yml or action.yaml at jacopone/antigravity-nix@b92ea8e30f8b8dc0892586940c1437d52228e14c",
+      "checked_at": "2026-09-27T10:14:10.079085+00:00",
+      "reason": "No action.yml or action.yaml at jacopone/antigravity-nix@035886f06f81f9645d83ea2a2bd75db18f4e4a24",
       "status": "rejected"
     },
     "jbrooksuk/laravel-forge-action": {
@@ -532,7 +538,7 @@
       "status": "rejected"
     },
     "jianruntech/geo-score": {
-      "checked_at": "2026-09-26T09:34:33.065894+00:00",
+      "checked_at": "2026-09-27T10:14:10.079085+00:00",
       "reason": "Invalid action manifest: while scanning a simple key\n  in \"<unicode string>\", line 56, column 1:\n    import json,sys\n    ^\ncould not find expected ':'\n  in \"<unicode string>\", line 57, column 1:\n    d=json.load(open(sys.argv[1]))\n    ^",
       "status": "error"
     },
@@ -682,6 +688,12 @@
       "reason": "No action.yml or action.yaml at probot/adapter-github-actions@0fe8f98357efd872de3c441af8994bdcb23c0d89",
       "status": "rejected"
     },
+    "pypa/cibuildwheel": {
+      "checked_at": "2026-09-27T10:14:10.079085+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "ad6da852d942f2a1fd9456119a482bc348c277d5",
+      "status": "admitted"
+    },
     "qoomon/actions--access-token": {
       "checked_at": "2026-09-24T09:35:05.975472+00:00",
       "scanner_version": "1.30.1",
@@ -707,6 +719,12 @@
       "checked_at": "2026-09-14T10:09:02.295269+00:00",
       "scanner_version": "1.30.1",
       "source_sha": "16042e67893932a3c93a9fb9ac768b5be9d5cc5a",
+      "status": "admitted"
+    },
+    "rjstone/discord-webhook-notify": {
+      "checked_at": "2026-09-27T10:14:10.079085+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "65e1bcce8eb085032806d3876cb7cb7e64d50fd7",
       "status": "admitted"
     },
     "robvanderleek/create-issue-branch": {
@@ -772,8 +790,8 @@
       "status": "admitted"
     },
     "some-natalie/kubernoodles": {
-      "checked_at": "2026-09-13T09:47:10.016412+00:00",
-      "reason": "No action.yml or action.yaml at some-natalie/kubernoodles@4bc25f8e4b19557b9bd7c02760336bd0352ac10b",
+      "checked_at": "2026-09-27T10:14:10.079085+00:00",
+      "reason": "No action.yml or action.yaml at some-natalie/kubernoodles@3abcb23bf2c60d10f7eb501726c3c3f5982b059e",
       "status": "rejected"
     },
     "stategraph/stategraph": {
@@ -881,7 +899,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-26T09:34:33.065894+00:00",
+  "checked_at": "2026-09-27T10:14:10.079085+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 7
 }

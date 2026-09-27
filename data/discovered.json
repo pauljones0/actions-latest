@@ -1034,6 +1034,34 @@
     "reviewed_at": null
   },
   {
+    "action": "pypa/cibuildwheel",
+    "description": "Installs and runs cibuildwheel on the current runner",
+    "category": "Discovered",
+    "tags": [
+      "appveyor",
+      "azure-pipelines",
+      "build-automation",
+      "ci",
+      "circleci",
+      "pypi",
+      "python",
+      "python-wheels",
+      "travis-ci",
+      "wheel"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/pypa/cibuildwheel/tree/ad6da852d942f2a1fd9456119a482bc348c277d5",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "qoomon/actions--access-token",
     "description": "GitHub Action to request temporary access tokens",
     "category": "Discovered",
@@ -1117,6 +1145,27 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/redhat-plumbers-in-action/differential-shellcheck/tree/16042e67893932a3c93a9fb9ac768b5be9d5cc5a",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "rjstone/discord-webhook-notify",
+    "description": "Send notifications to Discord using a webhook. Works with all execution environments including windows, macos, and linux.\n",
+    "category": "Discovered",
+    "tags": [
+      "discord",
+      "notifications",
+      "webhook"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/rjstone/discord-webhook-notify/tree/65e1bcce8eb085032806d3876cb7cb7e64d50fd7",
     "reviewed_sha": null,
     "reviewed_at": null
   },
