@@ -6,14 +6,15 @@ Direct tools stay within their current major. Runtime dependencies stay within d
 
 | Package | Before | After | Upstream details |
 | --- | --- | --- | --- |
-| filelock | \[&quot;3.32.6&quot;\] | \[&quot;3.32.7&quot;\] | [3.32.7](https://pypi.org/project/filelock/3.32.7/) |
-| idna | \[&quot;3.19&quot;\] | \[&quot;3.20&quot;\] | [3.20](https://pypi.org/project/idna/3.20/) |
-| ruff | \[&quot;0.16.7&quot;\] | \[&quot;0.16.8&quot;\] | [0.16.8](https://pypi.org/project/ruff/0.16.8/) |
-| uv | \[&quot;0.12.13&quot;\] | \[&quot;0.12.17&quot;\] | [0.12.17](https://pypi.org/project/uv/0.12.17/) |
+| pyjwt | \[&quot;2.14.0&quot;\] | \[&quot;2.15.0&quot;\] | [2.15.0](https://pypi.org/project/pyjwt/2.15.0/) |
+| ruff | \[&quot;0.16.8&quot;\] | \[&quot;0.16.9&quot;\] | [0.16.9](https://pypi.org/project/ruff/0.16.9/) |
+| starlette | \[&quot;1.6.0&quot;\] | \[&quot;1.7.0&quot;\] | [1.7.0](https://pypi.org/project/starlette/1.7.0/) |
+| uv | \[&quot;0.12.17&quot;\] | \[&quot;0.12.19&quot;\] | [0.12.19](https://pypi.org/project/uv/0.12.19/) |
+| uvicorn | \[&quot;0.53.0&quot;\] | \[&quot;0.54.0&quot;\] | [0.54.0](https://pypi.org/project/uvicorn/0.54.0/) |
 
-**Proposal base commit:** `0cd139553e3d4e70d19c38cc7873e833fb7352d6`. Reproduce the downloaded patch from this exact commit, which can differ from the event that queued the run.
+**Proposal base commit:** `e8cfa5cc4798d96694a59ba79da8dfaaba34c7a3`. Reproduce the downloaded patch from this exact commit, which can differ from the event that queued the run.
 
-[Checks and publication result](https://github.com/pauljones0/actions-latest/actions/runs/35575643677)
+[Checks and publication result](https://github.com/pauljones0/actions-latest/actions/runs/36399219646)
 
 ## Decision
 
