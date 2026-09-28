@@ -1,8 +1,5 @@
 {
-  "admitted": [
-    "upsidr/merge-gatekeeper",
-    "jianruntech/geo-score"
-  ],
+  "admitted": [],
   "candidates": {
     "ARM-software/AVH": {
       "checked_at": "2026-09-21T10:14:39.436991+00:00",
@@ -167,8 +164,8 @@
       "status": "rejected"
     },
     "RamiKrispin/useR2024-pipeline-workshop": {
-      "checked_at": "2026-09-21T10:14:39.436991+00:00",
-      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@147298389a52d1d494b70aa7ad036a3a549bb2ff",
+      "checked_at": "2026-09-28T11:16:37.963924+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@30f038816bcdc4ba277a6db4dafa6fbc55564f31",
       "status": "rejected"
     },
     "Readme-Workflows/recent-activity": {
@@ -210,8 +207,8 @@
       "status": "admitted"
     },
     "VeryGoodOpenSource/very_good_workflows": {
-      "checked_at": "2026-09-17T09:40:57.309160+00:00",
-      "reason": "No action.yml or action.yaml at VeryGoodOpenSource/very_good_workflows@ba7405aac33b7d8e733fb049045074a750ed9c7d",
+      "checked_at": "2026-09-28T11:16:37.963924+00:00",
+      "reason": "No action.yml or action.yaml at VeryGoodOpenSource/very_good_workflows@d9c1b5f7df33ab2923d303cebb25fee5e6ac7300",
       "status": "rejected"
     },
     "Vladimir-Human/humanizer-ru": {
@@ -500,8 +497,8 @@
       "status": "rejected"
     },
     "hect0x7/JMComic-Crawler-Python": {
-      "checked_at": "2026-09-06T08:58:28.620886+00:00",
-      "reason": "No action.yml or action.yaml at hect0x7/JMComic-Crawler-Python@9fddb0494caf0cdc812ac6cbfc1c62f4f845b058",
+      "checked_at": "2026-09-28T11:16:37.963924+00:00",
+      "reason": "No action.yml or action.yaml at hect0x7/JMComic-Crawler-Python@5a3f627cea76030886f3da452ffb8ec7a540a0bb",
       "status": "rejected"
     },
     "hermes-labs-ai/lintlang": {
@@ -565,8 +562,8 @@
       "status": "rejected"
     },
     "kkzzhizhou/scoop-apps": {
-      "checked_at": "2026-09-21T10:14:39.436991+00:00",
-      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@37de8db70d85f10978b88477d65cdfe6b2333a59",
+      "checked_at": "2026-09-28T11:16:37.963924+00:00",
+      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@ba3c34c5edeb55908ad254218422a0e98ae6bab1",
       "status": "rejected"
     },
     "kucherenko/jscpd": {
@@ -641,8 +638,8 @@
       "status": "rejected"
     },
     "nowscott/EverydayTechNews": {
-      "checked_at": "2026-09-21T10:14:39.436991+00:00",
-      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@f410137266e6fb46c7804146d5a24f1465b12741",
+      "checked_at": "2026-09-28T11:16:37.963924+00:00",
+      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@a323061f31f7b297e00a06ff2754b13c72147d27",
       "status": "rejected"
     },
     "oasdiff/oasdiff": {
@@ -806,8 +803,8 @@
       "status": "rejected"
     },
     "stategraph/stategraph": {
-      "checked_at": "2026-09-21T10:14:39.436991+00:00",
-      "reason": "No action.yml or action.yaml at stategraph/stategraph@34aa216d818af826d9f585c19bcca2c57a19be86",
+      "checked_at": "2026-09-28T11:16:37.963924+00:00",
+      "reason": "No action.yml or action.yaml at stategraph/stategraph@0449c4af02b247883a92ce5f895e21ae6d241b8e",
       "status": "rejected"
     },
     "step-security/agent": {
@@ -838,8 +835,8 @@
       "status": "rejected"
     },
     "ubicloud/ubicloud": {
-      "checked_at": "2026-09-21T10:14:39.436991+00:00",
-      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@b39ef6c724a3417218757523b1df9ed22b7b3444",
+      "checked_at": "2026-09-28T11:16:37.963924+00:00",
+      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@4a993c27ecc61637ed2337a5243bd981c6ea2fa4",
       "status": "rejected"
     },
     "ultralytics/actions": {
@@ -921,7 +918,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-28T08:46:03.413383+00:00",
+  "checked_at": "2026-09-28T11:16:37.963924+00:00",
   "errors": [],
-  "inspected": 16
+  "inspected": 7
 }
