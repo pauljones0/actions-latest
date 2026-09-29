@@ -184,6 +184,30 @@
     "reviewed_at": null
   },
   {
+    "action": "calibreapp/image-actions",
+    "description": "Compresses Images for the Web",
+    "category": "Discovered",
+    "tags": [
+      "compression",
+      "image-compression",
+      "image-processing",
+      "performance",
+      "performance-monitoring",
+      "performance-testing"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/calibreapp/image-actions/tree/c3752f0cc46d3f73677f20c7bfe20ed4601ba2a3",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "cloudflare/wrangler-action",
     "description": "Deploy your Cloudflare projects from GitHub using Wrangler",
     "category": "Discovered",
@@ -221,6 +245,33 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/cncf/prow-github-actions/tree/9cd93b8428b53111b005d4882145aa9142b52be1",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "CodelyTV/pr-size-labeler",
+    "description": "Label a PR based on the amount of changes",
+    "category": "Discovered",
+    "tags": [
+      "action",
+      "automation",
+      "codely",
+      "codelytv",
+      "github",
+      "pull-request",
+      "pull-request-action",
+      "pull-request-management",
+      "pull-requests"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/CodelyTV/pr-size-labeler/tree/4e3aa0f77f348c8066513d453515316ffa01a607",
     "reviewed_sha": null,
     "reviewed_at": null
   },
