@@ -1,8 +1,5 @@
 {
-  "admitted": [
-    "calibreapp/image-actions",
-    "CodelyTV/pr-size-labeler"
-  ],
+  "admitted": [],
   "candidates": {
     "ARM-software/AVH": {
       "checked_at": "2026-09-21T10:14:39.436991+00:00",
@@ -93,6 +90,11 @@
     "ITJoker233/BingPicApi": {
       "checked_at": "2026-09-28T08:46:03.413383+00:00",
       "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@022d13a48a122d2c5c9c7426e2d1b9512eb02c08",
+      "status": "rejected"
+    },
+    "Jackychen-12/AI-Search": {
+      "checked_at": "2026-09-30T10:46:22.012766+00:00",
+      "reason": "No action.yml or action.yaml at Jackychen-12/AI-Search@da8fdf3e11cd89472ee4d67c2ac7df2ea3195ae5",
       "status": "rejected"
     },
     "Jasonliu-0/Newapi-checkin": {
@@ -329,8 +331,8 @@
       "status": "admitted"
     },
     "cisco-open/forge": {
-      "checked_at": "2026-09-22T09:30:22.736679+00:00",
-      "reason": "No action.yml or action.yaml at cisco-open/forge@70619032ed8189a3399591fef285909dfdf7da76",
+      "checked_at": "2026-09-30T10:46:22.012766+00:00",
+      "reason": "No action.yml or action.yaml at cisco-open/forge@90712de407d6abef9e6d7879e7b7306496a9cf7f",
       "status": "rejected"
     },
     "cloudbase/garm": {
@@ -440,8 +442,8 @@
       "status": "admitted"
     },
     "eyupio/zoomies": {
-      "checked_at": "2026-09-23T09:35:06.503212+00:00",
-      "reason": "No action.yml or action.yaml at eyupio/zoomies@33759b2bc4341b7d4d97fd2b636383a73854e6b5",
+      "checked_at": "2026-09-30T10:46:22.012766+00:00",
+      "reason": "No action.yml or action.yaml at eyupio/zoomies@a07c744bea1b65023be79c6554e39a7bea3aaca0",
       "status": "rejected"
     },
     "f/wvw.dev": {
@@ -577,8 +579,8 @@
       "status": "admitted"
     },
     "kdeldycke/repomatic": {
-      "checked_at": "2026-09-23T09:35:06.503212+00:00",
-      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@76bf52f9b42681ef2c102914811abee7065b7570",
+      "checked_at": "2026-09-30T10:46:22.012766+00:00",
+      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@54ae69f894eaecd4f94da5fd393e1fc02c8fac41",
       "status": "rejected"
     },
     "kkzzhizhou/scoop-apps": {
@@ -687,6 +689,11 @@
     "pliablepixels/gap-trap": {
       "checked_at": "2026-09-29T10:55:46.601694+00:00",
       "reason": "No action.yml or action.yaml at pliablepixels/gap-trap@e31485a984647f96d6d5cd0530f00e6cf8f94bb9",
+      "status": "rejected"
+    },
+    "pmndrs/docs": {
+      "checked_at": "2026-09-30T10:46:22.012766+00:00",
+      "reason": "No action.yml or action.yaml at pmndrs/docs@df4fa242db587e5c86977a35f525010b82bc6fa9",
       "status": "rejected"
     },
     "poetries/poetries.github.io": {
@@ -864,6 +871,11 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "unfunco/terraform-aws-oidc-github": {
+      "checked_at": "2026-09-30T10:46:22.012766+00:00",
+      "reason": "No action.yml or action.yaml at unfunco/terraform-aws-oidc-github@4be06dcc472c8b352f73a7f77f5155ce13a71683",
+      "status": "rejected"
+    },
     "upptime/uptime-monitor": {
       "checked_at": "2026-09-07T09:46:50.517175+00:00",
       "scanner_version": "1.30.0",
@@ -938,7 +950,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-29T10:55:46.601694+00:00",
+  "checked_at": "2026-09-30T10:46:22.012766+00:00",
   "errors": [],
   "inspected": 6
 }

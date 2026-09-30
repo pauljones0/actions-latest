@@ -1,294 +1,182 @@
 # Latest catalog changes
 
-17 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+16 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## apisec-inc/AI-Surface
+## Aletheore/Aletheore
 
-[Previous source](https://github.com/apisec-inc/AI-Surface) · [Current source](https://github.com/apisec-inc/AI-Surface/tree/2a44c23db5043868aad8a096971c8a6945224b3d/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: comment-on-pr | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Post (or update) a PR comment with the AI surface report. Set to \\&quot;false\\&quot; to disable.&quot;, &quot;required&quot;: false} |
-| Input: fail-on | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Severity-threshold gate: fail the build if a finding is at or above this severity (critical\|high\|medium\|low). On PRs with a base ref, gates only on NEWLY introduced findings. Recommended: high.&quot;, &quot;required&quot;: false} |
-| Input: fail-on-risk | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Exit non-zero if any risk indicators are detected. Aggressive; prefer fail-on for a severity threshold.&quot;, &quot;required&quot;: false} |
-| Input: github-token | null | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;Token used to post PR comments. Defaults to the workflow GITHUB\_TOKEN.&quot;, &quot;required&quot;: false} |
-| Input: path | null | {&quot;default&quot;: &quot;.&quot;, &quot;description&quot;: &quot;Directory to scan, relative to the repository root.&quot;, &quot;required&quot;: false} |
-| Input: write-inventory | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Write .ai-inventory.md back to the workspace.&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[&quot;json-report&quot;, &quot;risk-count&quot;, &quot;surfaces-count&quot;\] |
-| Runtime | null | docker |
-| Security | unknown | clean |
-| Selected SHA | null | 2a44c23db5043868aad8a096971c8a6945224b3d |
-| Selected tag | null | v1.1.0 |
-
-## astral-sh/setup-uv
-
-[Previous source](https://github.com/astral-sh/setup-uv/tree/bec219d24cd3e171d82865faccec33120bb574f4/) · [Current source](https://github.com/astral-sh/setup-uv/tree/c18668ad3cf93ea998bef934396af7bb5c839dc7/) · [Upstream code diff](https://github.com/astral-sh/setup-uv/compare/bec219d24cd3e171d82865faccec33120bb574f4...c18668ad3cf93ea998bef934396af7bb5c839dc7)
+[Previous source](https://github.com/Aletheore/Aletheore/tree/e1eb71895c7ce2a01df7be98a1ac41ef70656884/) · [Current source](https://github.com/Aletheore/Aletheore/tree/58525fda08ab3f6a8c385022293c90070bd6dd42/) · [Upstream code diff](https://github.com/Aletheore/Aletheore/compare/e1eb71895c7ce2a01df7be98a1ac41ef70656884...58525fda08ab3f6a8c385022293c90070bd6dd42)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: save-cache | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Whether to save the cache after the run.&quot;} | {&quot;default&quot;: &quot;auto&quot;, &quot;description&quot;: &quot;Whether to save the cache after the run. &#x27;auto&#x27; disables saving for merge\_group events.&quot;} |
-| Selected SHA | bec219d24cd3e171d82865faccec33120bb574f4 | c18668ad3cf93ea998bef934396af7bb5c839dc7 |
-| Selected tag | v10.1.0 | v10.2.0 |
+| Selected SHA | e1eb71895c7ce2a01df7be98a1ac41ef70656884 | 58525fda08ab3f6a8c385022293c90070bd6dd42 |
+| Selected tag | v0.9.18 | v0.9.19 |
 
-## Added: calibreapp/image-actions
+## ansible/ansible-lint
 
-[Source](https://github.com/calibreapp/image-actions) — Compresses Images for the Web
+[Previous source](https://github.com/ansible/ansible-lint/tree/665d9e07a1943254d2910faffc106adaf7ea7294/) · [Current source](https://github.com/ansible/ansible-lint/tree/e7f397ad6dfa20d274afa17cd7bbedd84ed136f5/) · [Upstream code diff](https://github.com/ansible/ansible-lint/compare/665d9e07a1943254d2910faffc106adaf7ea7294...e7f397ad6dfa20d274afa17cd7bbedd84ed136f5)
 
-New entries still require observed stability and fresh scan evidence before usage.
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 665d9e07a1943254d2910faffc106adaf7ea7294 | e7f397ad6dfa20d274afa17cd7bbedd84ed136f5 |
+| Selected tag | v26.8.0 | v26.9.0 |
+
+## bufbuild/buf-action
+
+[Previous source](https://github.com/bufbuild/buf-action/tree/8c6a16e16f12ba20b6470afa9c2ba9b5ba8c97c3/) · [Current source](https://github.com/bufbuild/buf-action/tree/85aebf73123b5c15fd5528aaecbf9129cddf7fa7/) · [Upstream code diff](https://github.com/bufbuild/buf-action/compare/8c6a16e16f12ba20b6470afa9c2ba9b5ba8c97c3...85aebf73123b5c15fd5528aaecbf9129cddf7fa7)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: archive | {&quot;default&quot;: &quot;${{ github.event\_name == &#x27;delete&#x27; }}&quot;, &quot;description&quot;: &quot;Whether to run the archive step. Runs by default on deletes, for non forked repositories.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;${{ github.event\_name == &#x27;delete&#x27; &amp;&amp; !github.event.repository.fork }}&quot;, &quot;description&quot;: &quot;Whether to run the archive step. Runs by default on deletes, for non forked repositories.&quot;, &quot;required&quot;: false} |
+| Input: bot\_username | null | {&quot;description&quot;: &quot;Username of the bot user to authenticate as with workload identity\\nfederation, instead of a static API token.\\nRequires \\&quot;permissions: id-token: write\\&quot; on the job, and a trust\\ncredential configured on the bot user.\\nSee: https://buf.build/docs/bsr/authentication&quot;, &quot;required&quot;: false} |
+| Input: push | {&quot;default&quot;: &quot;${{ github.event\_name == &#x27;push&#x27; }}&quot;, &quot;description&quot;: &quot;Whether to run the push step. Runs by default on pushes, for non forked repositories.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;${{ github.event\_name == &#x27;push&#x27; &amp;&amp; !github.event.repository.fork }}&quot;, &quot;description&quot;: &quot;Whether to run the push step. Runs by default on pushes, for non forked repositories.&quot;, &quot;required&quot;: false} |
+| Input: token | {&quot;description&quot;: &quot;API token for logging into the BSR.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;API token for logging into the BSR.\\nIf not set, \\&quot;bot\_username\\&quot; is used to mint a short-lived token with\\nworkload identity federation.\\nSee: https://buf.build/docs/bsr/authentication&quot;, &quot;required&quot;: false} |
+| Input: version | {&quot;description&quot;: &quot;Version of the Buf CLI to use.\\nExample:\\n  with:\\n    version: 1.50.1&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Version of the Buf CLI to use.\\nExample:\\n  with:\\n    version: 1.73.0&quot;, &quot;required&quot;: false} |
+| Outputs | \[&quot;buf\_path&quot;, &quot;buf\_version&quot;\] | \[&quot;buf\_path&quot;, &quot;buf\_version&quot;, &quot;token&quot;\] |
+| Selected SHA | 8c6a16e16f12ba20b6470afa9c2ba9b5ba8c97c3 | 85aebf73123b5c15fd5528aaecbf9129cddf7fa7 |
+| Selected tag | v1.5.0 | v1.6.0 |
 
 ## cloudflare/wrangler-action
 
-[Previous source](https://github.com/cloudflare/wrangler-action) · [Current source](https://github.com/cloudflare/wrangler-action/tree/ebbaa1584979971c8614a24965b4405ff95890e0/)
+[Previous source](https://github.com/cloudflare/wrangler-action/tree/ebbaa1584979971c8614a24965b4405ff95890e0/) · [Current source](https://github.com/cloudflare/wrangler-action/tree/4e88846969242f7752bcfdaf5511bfbb3985ca47/) · [Upstream code diff](https://github.com/cloudflare/wrangler-action/compare/ebbaa1584979971c8614a24965b4405ff95890e0...4e88846969242f7752bcfdaf5511bfbb3985ca47)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: accountId | null | {&quot;description&quot;: &quot;Your Cloudflare Account ID&quot;, &quot;required&quot;: false} |
-| Input: apiToken | null | {&quot;description&quot;: &quot;Your Cloudflare API Token&quot;, &quot;required&quot;: false} |
-| Input: command | null | {&quot;description&quot;: &quot;The Wrangler command (along with any arguments) you wish to run. Multiple Wrangler commands can be run by separating each command with a newline. Defaults to \`\\&quot;deploy\\&quot;\`.&quot;, &quot;required&quot;: false} |
-| Input: environment | null | {&quot;description&quot;: &quot;The environment you&#x27;d like to deploy your Workers project to - must be defined in wrangler.toml&quot;} |
-| Input: gitHubToken | null | {&quot;description&quot;: &quot;GitHub Token&quot;, &quot;required&quot;: false} |
-| Input: packageManager | null | {&quot;description&quot;: &quot;The package manager you&#x27;d like to use to install and run wrangler. If not specified, the preferred package manager will be inferred based on the presence of a lockfile or fallback to using npm if no lockfile is found. Valid values are \`npm\` \| \`pnpm\` \| \`yarn\` \| \`bun\`.&quot;, &quot;required&quot;: false} |
-| Input: postCommands | null | {&quot;description&quot;: &quot;Commands to execute after deploying the Workers project&quot;, &quot;required&quot;: false} |
-| Input: preCommands | null | {&quot;description&quot;: &quot;Commands to execute before deploying the Workers project&quot;, &quot;required&quot;: false} |
-| Input: quiet | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Supresses output from Wrangler commands, defaults to \`false\`&quot;, &quot;required&quot;: false} |
-| Input: secrets | null | {&quot;description&quot;: &quot;A string of environment variable names, separated by newlines. These will be bound to your Worker as Secrets and must match the names of environment variables declared in \`env\` of this workflow.&quot;, &quot;required&quot;: false} |
-| Input: vars | null | {&quot;description&quot;: &quot;A string of environment variable names, separated by newlines. These will be bound to your Worker using the values of matching environment variables declared in \`env\` of this workflow.&quot;, &quot;required&quot;: false} |
-| Input: workingDirectory | null | {&quot;description&quot;: &quot;The relative path which Wrangler commands should be run from&quot;, &quot;required&quot;: false} |
-| Input: wranglerVersion | null | {&quot;description&quot;: &quot;The version of Wrangler you&#x27;d like to use to deploy your Workers project&quot;, &quot;required&quot;: false} |
+| Input: command | {&quot;description&quot;: &quot;The Wrangler command (along with any arguments) you wish to run. Multiple Wrangler commands can be run by separating each command with a newline. Defaults to \`\\&quot;deploy\\&quot;\`.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;The Wrangler command (along with any arguments) you wish to run. Multiple Wrangler commands can be run by separating each command with a newline. Defaults to \`\\&quot;deploy\\&quot;\`. The \`preview\` command requires Wrangler &gt;= 4.136.0.&quot;, &quot;required&quot;: false} |
+| Outputs | \[&quot;command-output&quot;, &quot;command-stderr&quot;, &quot;deployment-url&quot;, &quot;pages-deployment-alias-url&quot;, &quot;pages-deployment-id&quot;, &quot;pages-environment&quot;\] | \[&quot;command-output&quot;, &quot;command-stderr&quot;, &quot;deployment-url&quot;, &quot;pages-deployment-alias-url&quot;, &quot;pages-deployment-id&quot;, &quot;pages-environment&quot;, &quot;preview-deployment-id&quot;, &quot;preview-deployment-url&quot;, &quot;preview-id&quot;, &quot;preview-name&quot;, &quot;preview-url&quot;\] |
+| Selected SHA | ebbaa1584979971c8614a24965b4405ff95890e0 | 4e88846969242f7752bcfdaf5511bfbb3985ca47 |
+| Selected tag | v4.0.0 | v4.1.1 |
+
+## cncf/prow-github-actions
+
+[Previous source](https://github.com/cncf/prow-github-actions/tree/c44ac3a57d67639e39e4a4988b52049ef45b80dd/) · [Current source](https://github.com/cncf/prow-github-actions/tree/582d83b8c37fd9a48f67d65d24fb1f37ce2030eb/) · [Upstream code diff](https://github.com/cncf/prow-github-actions/compare/c44ac3a57d67639e39e4a4988b52049ef45b80dd...582d83b8c37fd9a48f67d65d24fb1f37ce2030eb)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: cat-api-key | null | {&quot;description&quot;: &quot;Optional API key for the /meow image provider (https://thecatapi.com), sent as the x-api-key header. Provide it from a repository secret. The action registers it for runner masking before use and never intentionally includes it in request URLs or GitHub comments.&quot;, &quot;required&quot;: false} |
+| Input: config | null | {&quot;description&quot;: &quot;Optional explicit source of the shared prow configuration, replacing the organization&#x27;s .project/.github lookup: &#x27;owner/repo:path\[@ref\]&#x27; (read with github-token) or an &#x27;https://&#x27; url (fetched anonymously). The repository&#x27;s own prow.yaml or .prowlabels.yaml is still layered on top.&quot;, &quot;required&quot;: false} |
+| Input: dry-run | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;When &#x27;true&#x27;, the label-sync job logs the labels it would create or update and writes nothing. Defaults to &#x27;false&#x27;.&quot;, &quot;required&quot;: false} |
+| Input: jobs | {&quot;description&quot;: &quot;The jobs to automatically run on event. Space delimited. Expect commands on own line.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;The jobs to run for schedule, workflow\_dispatch, push and pull\_request events. Space or newline delimited: &#x27;lgtm&#x27; (merge lgtm PRs on a schedule, remove lgtm on pull\_request), &#x27;sweep&#x27; (evaluate the pull requests updated within sweep.lookback on a schedule, for fork pull requests under pull\_request), &#x27;label-sync&#x27; (create and update the repository labels from the prow configuration; never deletes).&quot;, &quot;required&quot;: false} |
+| Input: merge-method | {&quot;description&quot;: &quot;Strategy for Prow-github-actions to take when merging a pull request using the lgtm cron-job. Can be &#x27;squash&#x27;, &#x27;rebase&#x27;, or &#x27;merge&#x27;. Defaults to &#x27;merge&#x27;&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Strategy for Prow-github-actions to take when merging a pull request, on events and in the lgtm cron-job. Can be &#x27;squash&#x27;, &#x27;rebase&#x27;, or &#x27;merge&#x27;. Defaults to &#x27;merge&#x27;. A tide.merge\_method in the prow configuration wins over this input.&quot;, &quot;required&quot;: false} |
+| Input: prow-commands | {&quot;description&quot;: &quot;Comment keywords/commands to look for. Space delimited. Expect commands on own line.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Comment keywords/commands to look for. Space delimited. Expect commands on own line. Prow-style aliases (e.g. /unhold, /remove-lgtm) are enabled with their base command, and listing an alias enables the whole command family (e.g. /remove-kind also enables /kind).&quot;, &quot;required&quot;: false} |
+| Runtime | node20 | node24 |
+| Selected SHA | c44ac3a57d67639e39e4a4988b52049ef45b80dd | 582d83b8c37fd9a48f67d65d24fb1f37ce2030eb |
+| Selected tag | v2.0.0 | v3.0.0 |
+
+## duriantaco/skylos
+
+[Previous source](https://github.com/duriantaco/skylos/tree/d8288c5837793e2c51be869714573ebb7f2a044d/) · [Current source](https://github.com/duriantaco/skylos/tree/ba4c85f963e56053684f1a7eb3d8fc7aa09e8458/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/d8288c5837793e2c51be869714573ebb7f2a044d...ba4c85f963e56053684f1a7eb3d8fc7aa09e8458)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Description | SAST, dead code detection, secrets scanning, and PR gating for Python, TypeScript, Java, and Go. | SAST, dead code, secrets, PR gates, and digest-pinned container image vulnerability scans. |
+| Input: image | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Optional repository@sha256:digest to scan instead of source code; requires an installed Trivy&quot;, &quot;required&quot;: false} |
+| Input: image-fail-on | null | {&quot;default&quot;: &quot;high&quot;, &quot;description&quot;: &quot;Image severity threshold for mode gate: low, medium, high, or critical&quot;, &quot;required&quot;: false} |
+| Input: image-platform | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Required with image: deployment os/architecture\[/variant\], for example linux/amd64&quot;, &quot;required&quot;: false} |
+| Input: mode | {&quot;default&quot;: &quot;gate&quot;, &quot;description&quot;: &quot;Scan mode: &#x27;scan&#x27; (report only), &#x27;gate&#x27; (fail on issues), &#x27;review&#x27; (PR comments + gate)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;gate&quot;, &quot;description&quot;: &quot;Scan mode: &#x27;scan&#x27; (report only), &#x27;gate&#x27; (fail on issues), or source-only &#x27;review&#x27; (PR comments + gate)&quot;, &quot;required&quot;: false} |
+| Selected SHA | d8288c5837793e2c51be869714573ebb7f2a044d | ba4c85f963e56053684f1a7eb3d8fc7aa09e8458 |
+| Selected tag | v4.38.0 | v4.39.0 |
+
+## grafana/run-k6-action
+
+[Previous source](https://github.com/grafana/run-k6-action/tree/de51a7390bdf0ac85a3bef493691bd71d4c7c158/) · [Current source](https://github.com/grafana/run-k6-action/tree/4082a08c7e40cf6d65863911077dfb60ae0a4f04/) · [Upstream code diff](https://github.com/grafana/run-k6-action/compare/de51a7390bdf0ac85a3bef493691bd71d4c7c158...4082a08c7e40cf6d65863911077dfb60ae0a4f04)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | de51a7390bdf0ac85a3bef493691bd71d4c7c158 | 4082a08c7e40cf6d65863911077dfb60ae0a4f04 |
+| Selected tag | v1.4.0 | v1.5.0 |
+
+## grafana/setup-k6-action
+
+[Previous source](https://github.com/grafana/setup-k6-action/tree/db07bd9765aac508ef18982e52ab937fe633a065/) · [Current source](https://github.com/grafana/setup-k6-action/tree/43b9fc21641a76002687994433dd586f56e791b1/) · [Upstream code diff](https://github.com/grafana/setup-k6-action/compare/db07bd9765aac508ef18982e52ab937fe633a065...43b9fc21641a76002687994433dd586f56e791b1)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | db07bd9765aac508ef18982e52ab937fe633a065 | 43b9fc21641a76002687994433dd586f56e791b1 |
+| Selected tag | v1.2.1 | v1.2.2 |
+
+## owenthereal/action-upterm
+
+[Previous source](https://github.com/owenthereal/action-upterm) · [Current source](https://github.com/owenthereal/action-upterm/tree/42902ffb5244d6d63501c1daf4f4ec82884025f6/)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: detached | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;In detached mode, the workflow job will continue while the upterm session is active&quot;, &quot;required&quot;: false} |
+| Input: limit-access-to-actor | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;If only the public SSH keys of the user triggering the workflow should be authorized&quot;, &quot;required&quot;: false} |
+| Input: limit-access-to-users | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;If only the public SSH keys of the listed GitHub users should be authorized&quot;, &quot;required&quot;: false} |
+| Input: upterm-server | null | {&quot;default&quot;: &quot;ssh://uptermd.upterm.dev:22&quot;, &quot;description&quot;: &quot;upterm server address (required), supported protocols are ssh, ws, or wss.&quot;, &quot;required&quot;: true} |
+| Input: upterm-version | null | {&quot;description&quot;: &quot;Upterm version/tag to install (e.g., v0.30.0). Requires v0.30.0 or newer. Defaults to latest when unset.&quot;, &quot;required&quot;: false} |
+| Input: wait-timeout-minutes | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Integer number of minutes to wait for user to connect before shutting down server. In detached mode, the countdown starts after all regular steps finish. Once a user connects, the server will stay up.&quot;, &quot;required&quot;: false} |
 | Observed stability | null | observed |
-| Outputs | null | \[&quot;command-output&quot;, &quot;command-stderr&quot;, &quot;deployment-url&quot;, &quot;pages-deployment-alias-url&quot;, &quot;pages-deployment-id&quot;, &quot;pages-environment&quot;\] |
+| Outputs | null | \[&quot;ssh-command&quot;\] |
 | Runtime | null | node24 |
 | Security | unknown | clean |
-| Selected SHA | null | ebbaa1584979971c8614a24965b4405ff95890e0 |
-| Selected tag | null | v4.0.0 |
-
-## Added: CodelyTV/pr-size-labeler
-
-[Source](https://github.com/CodelyTV/pr-size-labeler) — Label a PR based on the amount of changes
-
-New entries still require observed stability and fresh scan evidence before usage.
-
-## conda-incubator/setup-miniconda
-
-[Previous source](https://github.com/conda-incubator/setup-miniconda/tree/8ee1f361103df19b6f8c8655fd3967a8ecb162d5/) · [Current source](https://github.com/conda-incubator/setup-miniconda/tree/be893c923ea9cf1cf7cd510fbdde27c7e18cbdcb/) · [Upstream code diff](https://github.com/conda-incubator/setup-miniconda/compare/8ee1f361103df19b6f8c8655fd3967a8ecb162d5...be893c923ea9cf1cf7cd510fbdde27c7e18cbdcb)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 8ee1f361103df19b6f8c8655fd3967a8ecb162d5 | be893c923ea9cf1cf7cd510fbdde27c7e18cbdcb |
-| Selected tag | v4.0.1 | v4.1.0 |
-
-## crowdin/github-action
-
-[Previous source](https://github.com/crowdin/github-action/tree/9af557de76d70c480f88065d336f445a362f402b/) · [Current source](https://github.com/crowdin/github-action/tree/df474cdfb9f41d6ae777118749477c2cdf7cacc8/) · [Upstream code diff](https://github.com/crowdin/github-action/compare/9af557de76d70c480f88065d336f445a362f402b...df474cdfb9f41d6ae777118749477c2cdf7cacc8)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 9af557de76d70c480f88065d336f445a362f402b | df474cdfb9f41d6ae777118749477c2cdf7cacc8 |
-| Selected tag | v3.1.0 | v3.2.0 |
-
-## danielroe/uppt
-
-[Previous source](https://github.com/danielroe/uppt/tree/09882a5a0a1a20a0e802613a77ad59fcb1c1611c/) · [Current source](https://github.com/danielroe/uppt/tree/65a86313a63b10a6793de6c4ff8614b18e127a71/) · [Upstream code diff](https://github.com/danielroe/uppt/compare/09882a5a0a1a20a0e802613a77ad59fcb1c1611c...65a86313a63b10a6793de6c4ff8614b18e127a71)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 09882a5a0a1a20a0e802613a77ad59fcb1c1611c | 65a86313a63b10a6793de6c4ff8614b18e127a71 |
-| Selected tag | v0.6.9 | v0.6.10 |
-
-## derberg/manage-files-in-multiple-repositories
-
-[Previous source](https://github.com/derberg/manage-files-in-multiple-repositories) · [Current source](https://github.com/derberg/manage-files-in-multiple-repositories/tree/b64d9c8480606c15f957cdda078f0122815512b8/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: bot\_branch\_name | null | {&quot;description&quot;: &quot;Use it if you do not want this action to create a new branch and new pull request with every run. By default branch names are generated. This means every single change is a separate commit. Such a static hardcoded branch name has an advantage that if you make a lot of changes, instead of having 5 PRs merged with 5 commits, you get one PR that is updated with new changes as long as the PR is not yet merged. If you use static name, and by mistake someone closed a PR, without merging and removing branch, this action will not fail but update the branch and open a new PR. Example value that you could provide: \`bot\_branch\_name: bot/update-files-from-global-repo\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: branches | null | {&quot;description&quot;: &quot;By default, action creates branch from default branch and opens PR only against default branch. With this property you can override this behaviour. You can provide a comma-separated list of branches this action shoudl work agains. You can also provide regex, but without comma as list of branches is split in code by comma.\\n&quot;, &quot;required&quot;: false} |
-| Input: commit\_message | null | {&quot;default&quot;: &quot;Update global workflows&quot;, &quot;description&quot;: &quot;It is used as a commit message when pushing changes with global workflows.  It is also used as a title of the pull request that is created by this action.\\n&quot;, &quot;required&quot;: false} |
-| Input: committer\_email | null | {&quot;default&quot;: &quot;noreply@github.com&quot;, &quot;description&quot;: &quot;The email of the committer that will be used in the commit of changes in the workflow file in specific repository. In the format \`noreply@github.com\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: committer\_username | null | {&quot;default&quot;: &quot;web-flow&quot;, &quot;description&quot;: &quot;The username (not display name) of the committer that will be used in the commit of changes in the workflow file in specific repository. In the format \`web-flow\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: destination | null | {&quot;description&quot;: &quot;Name of the directory where all files matching \\&quot;patterns\_to\_include\\&quot; will be copied. It doesn&#x27;t work with \\&quot;patterns\_to\_remove\\&quot;. In the format \`.github/workflows\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: exclude\_forked | null | {&quot;default&quot;: false, &quot;description&quot;: &quot;Boolean value on whether to exclude forked repositories from this action.\\n&quot;, &quot;required&quot;: false} |
-| Input: exclude\_private | null | {&quot;default&quot;: false, &quot;description&quot;: &quot;Boolean value on whether to exclude private repositories from this action.\\n&quot;, &quot;required&quot;: false} |
-| Input: github\_token | null | {&quot;description&quot;: &quot;Token to use GitHub API. It must have \\&quot;repo\\&quot; and \\&quot;workflow\\&quot; scopes so it can push to repo and edit workflows. It cannot be the default GitHub Actions token GITHUB\_TOKEN. GitHub Action token&#x27;s permissions are limited to the repository that contains your workflows. Provide token of the user that has rights to push to the repos that this action is suppose to update. \\n&quot;, &quot;required&quot;: true} |
-| Input: patterns\_to\_ignore | null | {&quot;description&quot;: &quot;Comma-separated list of file paths or directories that should be handled by this action and updated in other repositories. This option is useful if you use \\&quot;patterns\_to\_include\\&quot; or \\&quot;patterns\_to\_remove\\&quot; with large amount of files, and some of them you want to ignore. In the format \`./github/workflows/another\_file.yml\`.\\n&quot;, &quot;required&quot;: true} |
-| Input: patterns\_to\_include | null | {&quot;description&quot;: &quot;Comma-separated list of file paths or directories that should be handled by this action and copied or updated in other repositories. This option cannot be used at the same time with \\&quot;patterns\_to\_remove\\&quot;, these fields are mutually exclusive. In the format \`.github/workflows\`.\\n&quot;, &quot;required&quot;: true} |
-| Input: patterns\_to\_remove | null | {&quot;description&quot;: &quot;Comma-separated list of file paths or directories that should be handled by this action and removed from other repositories. This option do not perform any removal of files that are located in repository there this action is used. This option cannot be used at the same time with \\&quot;patterns\_to\_include\\&quot;, these fields are mutually exclusive. In the format \`./github/workflows\`.\\n&quot;, &quot;required&quot;: true} |
-| Input: repos\_to\_ignore | null | {&quot;description&quot;: &quot;Comma-separated list of repositories that should not get updates from this action. Action already ignores the repo in which the action is triggered so you do not need to add it explicitly. In the format \`repo1,repo2\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: sleep\_pr\_creation | null | {&quot;default&quot;: 0, &quot;description&quot;: &quot;Sleep time in seconds between processing each pull request. This is useful to avoid overwhelming CI/CD pipelines with too many PRs created at once. Set to 0 to disable sleep.\\n&quot;, &quot;required&quot;: false} |
-| Input: topics\_to\_include | null | {&quot;description&quot;: &quot;Comma-separated list of topics that should get updates from this action.  Repos that do not contain one of the specified topics will get appended to the repos\_to\_ignore list.  In the format topic1,topic2.\\n&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | node24 |
-| Security | unknown | clean |
-| Selected SHA | null | b64d9c8480606c15f957cdda078f0122815512b8 |
-| Selected tag | null | v3.1.2 |
-
-## devops-infra/action-commit-push
-
-[Previous source](https://github.com/devops-infra/action-commit-push) · [Current source](https://github.com/devops-infra/action-commit-push/tree/f066ea8e19660de57d3d3a4a0b9d294ea2612e20/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: add\_timestamp | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether to add timestamp to a new branch name&quot;, &quot;required&quot;: false} |
-| Input: allow\_empty\_commit | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether to allow creating an empty commit when there are no file changes.&quot;, &quot;required&quot;: false} |
-| Input: amend | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether to make amendment to the previous commit (--amend). Can be combined with commit\_message to change the message.&quot;, &quot;required&quot;: false} |
-| Input: base\_branch | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Base branch name used for branch sync/reset (defaults to auto-detected main/master).&quot;, &quot;required&quot;: false} |
-| Input: commit\_message | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Commit message to set&quot;, &quot;required&quot;: false} |
-| Input: commit\_prefix | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Prefix added to commit message&quot;, &quot;required&quot;: false} |
-| Input: fail\_on\_rebase\_conflict | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Whether to fail when branch rebase onto base branch conflicts.&quot;, &quot;required&quot;: false} |
-| Input: force | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether to use force push (--force). Use only when you need to overwrite remote changes. Potentially dangerous.&quot;, &quot;required&quot;: false} |
-| Input: force\_with\_lease | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether to use force push with lease (--force-with-lease). Safer than force as it checks for remote changes.&quot;, &quot;required&quot;: false} |
-| Input: github\_token | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Personal Access Token for GitHub for pushing the code&quot;, &quot;required&quot;: true} |
-| Input: no\_edit | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether to not edit commit message when using amend&quot;, &quot;required&quot;: false} |
-| Input: organization\_domain | null | {&quot;default&quot;: &quot;github.com&quot;, &quot;description&quot;: &quot;Name of GitHub Enterprise organization&quot;, &quot;required&quot;: false} |
-| Input: repository\_path | null | {&quot;default&quot;: &quot;.&quot;, &quot;description&quot;: &quot;Relative path under GITHUB\_WORKSPACE to the checked-out repository (use when actions/checkout path is set)&quot;, &quot;required&quot;: false} |
-| Input: reset\_target\_branch | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether to hard-reset target branch to origin/base\_branch before committing.&quot;, &quot;required&quot;: false} |
-| Input: signing\_key | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Signing key material. For gpg use an ASCII-armored private key export; for ssh use a private key in OpenSSH or PEM format.&quot;, &quot;required&quot;: false} |
-| Input: signing\_mode | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Commit signing mode. Supported values are gpg and ssh.&quot;, &quot;required&quot;: false} |
-| Input: signing\_passphrase | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Optional passphrase for the signing key.&quot;, &quot;required&quot;: false} |
-| Input: target\_branch | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Name of a new branch to push the code into (skipped when no changes and amend is false)&quot;, &quot;required&quot;: false} |
-| Input: user\_email | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Git user.email to use for created commits. Defaults to GITHUB\_ACTOR@users.noreply.&lt;organization\_domain&gt; when empty.&quot;, &quot;required&quot;: false} |
-| Input: user\_name | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Git user.name to use for created commits. Defaults to GITHUB\_ACTOR when empty.&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[&quot;branch\_name&quot;, &quot;files\_changed&quot;\] |
-| Runtime | null | docker |
-| Security | unknown | clean |
-| Selected SHA | null | f066ea8e19660de57d3d3a4a0b9d294ea2612e20 |
-| Selected tag | null | v1.5.0 |
-
-## github/branch-deploy
-
-[Previous source](https://github.com/github/branch-deploy) · [Current source](https://github.com/github/branch-deploy/tree/97edad089bbbe0c0ad13db7bf9ac085eaa47e255/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: admins | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;A comma separated list of GitHub usernames or teams that should be considered admins by this Action. Admins can deploy pull requests without the need for branch protection approvals. Example: \\&quot;monalisa,octocat,my-org/my-team\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: admins\_pat | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;A GitHub personal access token with \\&quot;read:org\\&quot; scopes. This is only needed if you are using the \\&quot;admins\\&quot; option with a GitHub org team. For example: \\&quot;my-org/my-team\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: allow\_forks | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Allow branch deployments to run on repository forks. Default is \\&quot;false\\&quot;. Set to \\&quot;true\\&quot; only when your workflow intentionally supports deployments from forked pull requests.&quot;, &quot;required&quot;: false} |
-| Input: allow\_non\_default\_target\_branch\_deployments | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether or not to allow deployments of pull requests that target a branch other than the default branch (aka stable branch) as their merge target. By default, this Action would reject the deployment of a branch named \\&quot;feature-branch\\&quot; if it was targeting \\&quot;foo\\&quot; instead of \\&quot;main\\&quot; (or whatever your default branch is). This option allows you to override that behavior and be able to deploy any branch in your repository regardless of the target branch. This option is potentially unsafe and should be used with caution as most default branches contain branch protection rules. Often times non-default branches do not contain these same branch protection rules. Follow along in this issue thread to learn more https://github.com/github/branch-deploy/issues/340&quot;, &quot;required&quot;: false} |
-| Input: allow\_sha\_deployments | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;If set to \\&quot;true\\&quot;, then you can deploy a specific sha instead of a branch. Example: \\&quot;.deploy 1234567890abcdef1234567890abcdef12345678 to production\\&quot; - This is dangerous and potentially unsafe, view the docs to learn more: https://github.com/github/branch-deploy/blob/main/docs/sha-deployments.md&quot;, &quot;required&quot;: false} |
-| Input: checks | null | {&quot;default&quot;: &quot;all&quot;, &quot;description&quot;: &quot;This input defines how the branch-deploy Action will handle the status of CI checks on your PR/branch before deployments can continue. \`\\&quot;all\\&quot;\` requires that all CI checks must pass in order for a deployment to be triggered. \`\\&quot;required\\&quot;\` only waits for required CI checks to be passing. You can also pass in the names of your CI jobs in a comma separated list. View the documentation (docs/checks.md) for more details.&quot;, &quot;required&quot;: false} |
-| Input: commit\_verification | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether or not to enforce commit verification before a deployment can continue. Default is \\&quot;false\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: deploy\_message\_path | null | {&quot;default&quot;: &quot;.github/deployment\_message.md&quot;, &quot;description&quot;: &quot;The repository-relative path to a trusted Markdown template for custom deployment messages. The file is fetched from the repository at the exact workflow SHA. Example: \\&quot;.github/deployment\_message.md\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: deployment\_confirmation | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether or not to require an additional confirmation before a deployment can continue. Default is \\&quot;false\\&quot;. If your project requires elevated security, it is highly recommended to enable this option - especially in open source projects where you might be deploying forks. docs/deployment-confirmation.md&quot;, &quot;required&quot;: false} |
-| Input: deployment\_confirmation\_timeout | null | {&quot;default&quot;: &quot;60&quot;, &quot;description&quot;: &quot;The number of seconds to wait for a deployment confirmation before timing out. Must be a positive integer. Default is \\&quot;60\\&quot; seconds (1 minute).&quot;, &quot;required&quot;: false} |
-| Input: deployment\_order\_scope | null | {&quot;default&quot;: &quot;all&quot;, &quot;description&quot;: &quot;Controls which deployment history records are considered by enforced deployment order. \\&quot;all\\&quot; uses the newest deployment from any system. \\&quot;branch-deploy\\&quot; uses the newest deployment whose payload identifies it as Branch Deploy and ignores newer deployments from other systems. Use \\&quot;branch-deploy\\&quot; only when Branch Deploy is authoritative for promotion.&quot;, &quot;required&quot;: false} |
-| Input: disable\_lock | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;If set to \\&quot;true\\&quot;, all deployment locking is disabled. Useful for workflows where concurrent deployments are safe (e.g. iOS/Android builds uploaded to TestFlight). When disabled, lock-related commands return an informational message instead of modifying lock state.&quot;, &quot;required&quot;: false} |
-| Input: disable\_naked\_commands | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;If set to \\&quot;true\\&quot;, then naked commands will be disabled. Example: \\&quot;.deploy\\&quot; will not trigger a deployment. Instead, you must use \\&quot;.deploy to production\\&quot; to trigger a deployment. This is useful if you want to prevent accidental deployments from happening. Read more about naked commands here: https://github.com/github/branch-deploy/blob/main/docs/naked-commands.md&quot;, &quot;required&quot;: false} |
-| Input: draft\_permitted\_targets | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Optional environments which can allow \\&quot;draft\\&quot; pull requests to be deployed. By default, this input option is empty and no environments allow deployments sourced from a pull request in a \\&quot;draft\\&quot; state. Examples: \\&quot;development,staging\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: enforced\_deployment\_order | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A comma separated list of environments that must be deployed in a specific order. Example: \`\\&quot;development,staging,production\\&quot;\`. If this is set then you cannot deploy to latter environments unless the former ones have a successful and active deployment on the latest commit first.&quot;, &quot;required&quot;: false} |
-| Input: environment | null | {&quot;default&quot;: &quot;production&quot;, &quot;description&quot;: &quot;The name of the default environment to deploy to. Example: by default, if you type \`.deploy\`, it will assume \\&quot;production\\&quot; as the default environment&quot;, &quot;required&quot;: false} |
-| Input: environment\_targets | null | {&quot;default&quot;: &quot;production,development,staging&quot;, &quot;description&quot;: &quot;Optional (or additional) target environments to select for use with deployments. Example, \\&quot;production,development,staging\\&quot;. Example  usage: \`.deploy to development\`, \`.deploy to production\`, \`.deploy to staging\`&quot;, &quot;required&quot;: false} |
-| Input: environment\_url\_in\_comment | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;If the environment\_url detected in the deployment should be appended to the successful deployment comment or not. Examples: \\&quot;true\\&quot; or \\&quot;false\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: environment\_urls | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Optional target environment URLs to use with deployments. This input option is a mapping of environment names to URLs and the environment names must match the \\&quot;environment\_targets\\&quot; input option. This option is a comma separated list with pipes (\|) separating the environment from the URL. Note: \\&quot;disabled\\&quot; is a special keyword to disable an environment url if you enable this option. Format: \\&quot;&lt;environment1&gt;\|&lt;url1&gt;,&lt;environment2&gt;\|&lt;url2&gt;,etc\\&quot; Example: \\&quot;production\|https://myapp.com,development\|https://dev.myapp.com,staging\|disabled\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: failed\_deploy\_labels | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A comma separated list of labels to add to the pull request when a deployment fails. Example: \\&quot;failed,deploy-failed\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: failed\_noop\_labels | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A comma separated list of labels to add to the pull request when a noop deployment fails. Example: \\&quot;failed,noop-failed\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: github\_token | null | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;The GitHub token used to create an authenticated client - Provided for you by default!&quot;, &quot;required&quot;: true} |
-| Input: global\_lock\_flag | null | {&quot;default&quot;: &quot;--global&quot;, &quot;description&quot;: &quot;The flag to pass into the lock command to lock all environments. Example: \\&quot;--global\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: help\_trigger | null | {&quot;default&quot;: &quot;.help&quot;, &quot;description&quot;: &quot;The string to look for in comments as an IssueOps help trigger. Example: \\&quot;.help\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: ignored\_checks | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A comma separated list of checks that will be ignored when determining if a deployment can continue. This setting allows you to skip failing, pending, or incomplete checks regardless of the \`checks\` setting above. Example: \\&quot;lint,markdown-formatting,update-pr-label\\&quot;. View the documentation (docs/checks.md) for more details.&quot;, &quot;required&quot;: false} |
-| Input: lock\_info\_alias | null | {&quot;default&quot;: &quot;.wcid&quot;, &quot;description&quot;: &quot;An alias or shortcut to get details about the current lock (if it exists) Example: \\&quot;.info\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: lock\_trigger | null | {&quot;default&quot;: &quot;.lock&quot;, &quot;description&quot;: &quot;The string to look for in comments as an IssueOps lock trigger. Used for locking branch deployments on a specific branch. Example: \\&quot;.lock\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: merge\_deploy\_mode | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;This advanced alternate mode controls deployment after changes reach the default branch. The &#x27;continue&#x27; output is &#x27;false&#x27; only when the newest identifiable Branch Deploy deployment for the environment is active and its commit tree matches the current default branch. Missing, inactive, failed, pending, malformed, or different-tree deployment history sets &#x27;continue&#x27; to &#x27;true&#x27;. The &#x27;environment&#x27; output is also set for subsequent steps.&quot;, &quot;required&quot;: false} |
-| Input: noop\_trigger | null | {&quot;default&quot;: &quot;.noop&quot;, &quot;description&quot;: &quot;The string to look for in comments as an IssueOps noop trigger. Example: \\&quot;.noop\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: outdated\_mode | null | {&quot;default&quot;: &quot;strict&quot;, &quot;description&quot;: &quot;The mode to use for determining if a branch is up-to-date or not before allowing deployments. This option is closely related to the \\&quot;update\_branch\\&quot; input option above. There are three available modes to choose from \\&quot;pr\_base\\&quot;, \\&quot;default\_branch\\&quot;, or \\&quot;strict\\&quot;. The default is \\&quot;strict\\&quot; to help ensure that deployments are using the most up-to-date code. Please see the docs/outdated\_mode.md document for more details.&quot;, &quot;required&quot;: false} |
-| Input: param\_separator | null | {&quot;default&quot;: &quot;\|&quot;, &quot;description&quot;: &quot;The separator to use for parsing parameters in comments in deployment requests. Parameters will are saved as outputs and can be used in subsequent steps&quot;, &quot;required&quot;: false} |
-| Input: permissions | null | {&quot;default&quot;: &quot;write,admin&quot;, &quot;description&quot;: &quot;The allowed GitHub permissions an actor can have to invoke IssueOps commands - Example: \\&quot;write,admin\\&quot;&quot;, &quot;required&quot;: true} |
-| Input: production\_environments | null | {&quot;default&quot;: &quot;production&quot;, &quot;description&quot;: &quot;A comma separated list of environments that should be treated as \\&quot;production\\&quot;. GitHub defines \\&quot;production\\&quot; as an environment that end users or systems interact with. Example: \\&quot;production,production-eu\\&quot;. By default, GitHub will set the \\&quot;production\_environment\\&quot; to \\&quot;true\\&quot; if the environment name is \\&quot;production\\&quot;. This option allows you to override that behavior so you can use \\&quot;prod\\&quot;, \\&quot;prd\\&quot;, \\&quot;main\\&quot;, \\&quot;production-eu\\&quot;, etc. as your production environment name. ref: https://github.com/github/branch-deploy/issues/208&quot;, &quot;required&quot;: false} |
-| Input: reaction | null | {&quot;default&quot;: &quot;eyes&quot;, &quot;description&quot;: &quot;If set, the specified emoji \\&quot;reaction\\&quot; is put on the comment to indicate that the trigger was detected. For example, \\&quot;rocket\\&quot; or \\&quot;eyes\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: required\_contexts | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Manually enforce commit status checks before a deployment can continue. Only use this option if you wish to manually override the settings you have configured for your branch protection settings for your GitHub repository. Default is \\&quot;false\\&quot; - Example value: \\&quot;context1,context2,context3\\&quot; - In most cases you will not need to touch this option&quot;, &quot;required&quot;: false} |
-| Input: skip\_ci | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A comma separated list of environments that will not use passing CI as a requirement for deployment. Use this option to explicitly bypass branch protection settings for a certain environment in your repository. Default is an empty string \\&quot;\\&quot; - Example: \\&quot;development,staging\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: skip\_completing | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;If set to true, bypass the entire post-action completion path. The workflow must manage final deployment status, comments, reactions, labels, and non-sticky lock cleanup. Default is false.&quot;, &quot;required&quot;: false} |
-| Input: skip\_reviews | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A comma separated list of environment that will not use reviews/approvals as a requirement for deployment. Use this options to explicitly bypass branch protection settings for a certain environment in your repository. Default is an empty string \\&quot;\\&quot; - Example: \\&quot;development,staging\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: skip\_successful\_deploy\_labels\_if\_approved | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether or not the post run logic should skip adding successful deploy labels if the pull request is approved. This can be useful if you add a label such as \\&quot;ready-for-review\\&quot; after a .deploy completes but want to skip adding that label in situations where the pull request is already approved.&quot;, &quot;required&quot;: false} |
-| Input: skip\_successful\_noop\_labels\_if\_approved | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether or not the post run logic should skip adding successful noop labels if the pull request is approved. This can be useful if you add a label such as \\&quot;ready-for-review\\&quot; after a .noop completes but want to skip adding that label in situations where the pull request is already approved.&quot;, &quot;required&quot;: false} |
-| Input: stable\_branch | null | {&quot;default&quot;: &quot;main&quot;, &quot;description&quot;: &quot;The name of a stable branch to deploy to (rollbacks). Example: \\&quot;main\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: status | null | {&quot;default&quot;: &quot;${{ job.status }}&quot;, &quot;description&quot;: &quot;The status of the GitHub Actions - For use in the post run workflow - Provided for you by default!&quot;, &quot;required&quot;: true} |
-| Input: sticky\_locks | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;If set to \\&quot;true\\&quot;, locks will not be released after a deployment run completes. This applies to both successful, and failed deployments. Sticky locks are also known as \\&quot;hubot style deployment locks\\&quot;. They will persist until they are manually released by a user, or if you configure another workflow with the \\&quot;unlock on merge\\&quot; mode to remove them automatically on PR merge.&quot;, &quot;required&quot;: false} |
-| Input: sticky\_locks\_for\_noop | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;If set to \\&quot;true\\&quot;, then sticky\_locks will also be used for noop deployments. This can be useful in some cases but it often leads to locks being left behind when users test noop deployments.&quot;, &quot;required&quot;: false} |
-| Input: successful\_deploy\_labels | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A comma separated list of labels to add to the pull request when a deployment is successful. Example: \\&quot;deployed,success\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: successful\_noop\_labels | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A comma separated list of labels to add to the pull request when a noop deployment is successful. Example: \\&quot;noop,success\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: trigger | null | {&quot;default&quot;: &quot;.deploy&quot;, &quot;description&quot;: &quot;The string to look for in comments as an IssueOps trigger. Example: \\&quot;.deploy\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: unlock\_on\_merge\_mode | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;This is an advanced option that is an alternate workflow bundled into this Action. You can optionally use this mode in a custom workflow to automatically release all locks that came from a pull request when the pull request is merged. This is useful if you want to ensure that locks are not left behind when a pull request is merged.&quot;, &quot;required&quot;: false} |
-| Input: unlock\_trigger | null | {&quot;default&quot;: &quot;.unlock&quot;, &quot;description&quot;: &quot;The string to look for in comments as an IssueOps unlock trigger. Used for unlocking branch deployments. Example: \\&quot;.unlock\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: update\_branch | null | {&quot;default&quot;: &quot;warn&quot;, &quot;description&quot;: &quot;Determine how you want this Action to handle \\&quot;out-of-date\\&quot; branches. Available options: \\&quot;disabled\\&quot;, \\&quot;warn\\&quot;, \\&quot;force\\&quot;. \\&quot;disabled\\&quot; means that the Action will not care if a branch is out-of-date. \\&quot;warn\\&quot; means that the Action will warn the user that a branch is out-of-date and exit without deploying. \\&quot;force\\&quot; means that the Action will force update the branch. Note: The \\&quot;force\\&quot; option is not recommended due to Actions not being able to re-run CI on commits originating from Actions itself&quot;, &quot;required&quot;: false} |
-| Input: use\_security\_warnings | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Whether or not to leave security related warnings in log messages during deployments. Default is \\&quot;true\\&quot;&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[&quot;actor&quot;, &quot;actor\_handle&quot;, &quot;approved\_reviews\_count&quot;, &quot;base\_ref&quot;, &quot;comment\_body&quot;, &quot;comment\_id&quot;, &quot;commit\_status&quot;, &quot;commit\_verified&quot;, &quot;continue&quot;, &quot;decision&quot;, &quot;default\_branch\_tree\_sha&quot;, &quot;deployment\_id&quot;, &quot;environment&quot;, &quot;environment\_url&quot;, &quot;fork&quot;, &quot;fork\_checkout&quot;, &quot;fork\_full\_name&quot;, &quot;fork\_label&quot;, &quot;fork\_ref&quot;, &quot;global\_lock\_claimed&quot;, &quot;global\_lock\_released&quot;, &quot;initial\_comment\_id&quot;, &quot;initial\_reaction\_id&quot;, &quot;is\_outdated&quot;, &quot;issue\_number&quot;, &quot;merge\_state\_status&quot;, &quot;needs\_to\_be\_deployed&quot;, &quot;non\_default\_target\_branch\_used&quot;, &quot;noop&quot;, &quot;params&quot;, &quot;parsed\_params&quot;, &quot;reason\_code&quot;, &quot;ref&quot;, &quot;result&quot;, &quot;review\_decision&quot;, &quot;sha&quot;, &quot;sha\_deployment&quot;, &quot;total\_seconds&quot;, &quot;triggered&quot;, &quot;type&quot;, &quot;unlocked\_environments&quot;\] |
-| Runtime | null | node24 |
-| Security | unknown | clean |
-| Selected SHA | null | 97edad089bbbe0c0ad13db7bf9ac085eaa47e255 |
-| Selected tag | null | v12.0.1 |
-
-## hashicorp/actions-generate-metadata
-
-[Previous source](https://github.com/hashicorp/actions-generate-metadata/tree/a43468dfb100445f2c2aa52cdc3d57b2c982a0f3/) · [Current source](https://github.com/hashicorp/actions-generate-metadata/tree/780b17558ee4b93391b26a9e08d7cb858d9ae1e8/) · [Upstream code diff](https://github.com/hashicorp/actions-generate-metadata/compare/a43468dfb100445f2c2aa52cdc3d57b2c982a0f3...780b17558ee4b93391b26a9e08d7cb858d9ae1e8)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: releaseSubDir | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Sub-directory name under .release/ that holds the ci.hcl for this sub-product (e.g. \\&quot;alpha-plugin\\&quot;). The CRT orchestrator uses this value to load .release/&lt;releaseSubDir&gt;/ci.hcl instead of the legacy .release/ci.hcl. Leave empty (default) for single-product repos.\\n&quot;, &quot;required&quot;: false} |
-| Selected SHA | a43468dfb100445f2c2aa52cdc3d57b2c982a0f3 | 780b17558ee4b93391b26a9e08d7cb858d9ae1e8 |
-| Selected tag | v1.2.0 | v1.3.0 |
-
-## korthout/backport-action
-
-[Previous source](https://github.com/korthout/backport-action/tree/2e830a1d0b8269505846ddd407a70876913ad1f8/) · [Current source](https://github.com/korthout/backport-action/tree/6b65649031ac6d18ffdfd0c0820e9436f3fde22b/) · [Upstream code diff](https://github.com/korthout/backport-action/compare/2e830a1d0b8269505846ddd407a70876913ad1f8...6b65649031ac6d18ffdfd0c0820e9436f3fde22b)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 2e830a1d0b8269505846ddd407a70876913ad1f8 | 6b65649031ac6d18ffdfd0c0820e9436f3fde22b |
-| Selected tag | v4.6.0 | v4.6.1 |
-
-## Mic92/hestia
-
-[Previous source](https://github.com/Mic92/hestia) · [Current source](https://github.com/Mic92/hestia/tree/dfed9ced335d28978ba74e513939a10db1f71025/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: binary | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Path to a pre-built hestia binary (e.g. the result of \`nix build\`). Takes precedence over \`version\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: drain-timeout | null | {&quot;default&quot;: &quot;300&quot;, &quot;description&quot;: &quot;Maximum number of seconds the post-job step waits for the final upload (chunking, pack upload, manifest commit).\\n&quot;, &quot;required&quot;: false} |
-| Input: filter-drv-closures | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Apply upstream-cache-filter to registered derivation closures. Requires \`upstream-cache-filter\`; use \`hestia prefetch\` to retain bulk closure fetching.\\n&quot;, &quot;required&quot;: false} |
-| Input: github-token | null | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;Token for the attestation API lookup that verifies downloaded release binaries, and for the daemon&#x27;s upfront check which cached packs were evicted (needs \`actions: read\`; skipped without it).\\n&quot;, &quot;required&quot;: false} |
-| Input: listen | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Address the substituter HTTP server listens on. Defaults to 127.0.0.1 with a free port picked per invocation, so the action can run more than once in a job without the daemons colliding.\\n&quot;, &quot;required&quot;: false} |
-| Input: no-closure | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Cache built paths only, without their runtime closure (dependencies stay on upstream caches).\\n&quot;, &quot;required&quot;: false} |
-| Input: read-only | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Substitute from the cache but never write to it: no post-build-hook, no drain, and the daemon refuses uploads. For jobs that should only consume what a central job cached.\\n&quot;, &quot;required&quot;: false} |
-| Input: socket | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Unix socket path for the post-build-hook listener. Defaults to a per-invocation path under the runner&#x27;s temp directory.\\n&quot;, &quot;required&quot;: false} |
-| Input: upstream-cache-filter | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Skip paths signed by an upstream cache (cache.nixos.org by default) instead of caching them. Saves GHA cache quota for projects with big nixpkgs closures.\\n&quot;, &quot;required&quot;: false} |
-| Input: upstream-cache-key-names | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Space-separated signing key names treated as upstream caches by \`upstream-cache-filter\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: version | null | {&quot;default&quot;: &quot;latest&quot;, &quot;description&quot;: &quot;Hestia release tag to download from GitHub releases (e.g. \\&quot;v0.1.0-beta.1\\&quot;), or \\&quot;latest\\&quot; to auto-resolve the newest release.  The downloaded binary is verified against GitHub&#x27;s build provenance attestations before it runs.\\n&quot;, &quot;required&quot;: false} |
-| Input: wait-manifest-version | null | {&quot;default&quot;: &quot;0&quot;, &quot;description&quot;: &quot;Wait up to 60s at daemon startup until the cache manifest has at least this version. Matrix build jobs pass the eval job&#x27;s \`manifest-version\` output so the just-uploaded drv closures are visible despite GHA cache lookup lag.\\n&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | node24 |
-| Security | unknown | clean |
-| Selected SHA | null | dfed9ced335d28978ba74e513939a10db1f71025 |
-| Selected tag | null | v3.1.0 |
+| Selected SHA | null | 42902ffb5244d6d63501c1daf4f4ec82884025f6 |
+| Selected tag | null | v1.16.0 |
 
 ## reviewdog/action-actionlint
 
-[Previous source](https://github.com/reviewdog/action-actionlint/tree/320fcdd9c860767cf17fab3b20e22e739d5d02b8/) · [Current source](https://github.com/reviewdog/action-actionlint/tree/5be522b94290e249dba9f5daded2f7157733e3d2/) · [Upstream code diff](https://github.com/reviewdog/action-actionlint/compare/320fcdd9c860767cf17fab3b20e22e739d5d02b8...5be522b94290e249dba9f5daded2f7157733e3d2)
+[Previous source](https://github.com/reviewdog/action-actionlint/tree/5be522b94290e249dba9f5daded2f7157733e3d2/) · [Current source](https://github.com/reviewdog/action-actionlint/tree/2085657ab2c7f48c58edcc767fba576f63bea76b/) · [Upstream code diff](https://github.com/reviewdog/action-actionlint/compare/5be522b94290e249dba9f5daded2f7157733e3d2...2085657ab2c7f48c58edcc767fba576f63bea76b)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 320fcdd9c860767cf17fab3b20e22e739d5d02b8 | 5be522b94290e249dba9f5daded2f7157733e3d2 |
-| Selected tag | v1.76.0 | v1.76.1 |
+| Selected SHA | 5be522b94290e249dba9f5daded2f7157733e3d2 | 2085657ab2c7f48c58edcc767fba576f63bea76b |
+| Selected tag | v1.76.1 | v1.77.0 |
 
-## shaftoe/pi-coding-agent-action
+## sbt/setup-sbt
 
-[Previous source](https://github.com/shaftoe/pi-coding-agent-action/tree/853a9af5ac64e79c79fa6bb3958314aa1acf7e92/) · [Current source](https://github.com/shaftoe/pi-coding-agent-action/tree/8faf601af3a91f4526c8fc0f4b50cea0ef67b5d4/) · [Upstream code diff](https://github.com/shaftoe/pi-coding-agent-action/compare/853a9af5ac64e79c79fa6bb3958314aa1acf7e92...8faf601af3a91f4526c8fc0f4b50cea0ef67b5d4)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: cache\_warming | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Prompt cache-warming mode. Keeps expensive prompt-cache prefixes alive with cost-aware one-token refreshes so pauses (e.g. long tool runs) don&#x27;t pay full input price again. One of \`off\`, \`streaming\` (refresh during long tool executions; the default), or \`idle\` (also refresh between prompts). Refreshes are billed as a cache read plus one output token and only fire when expected savings exceed the cost.&quot;, &quot;required&quot;: false} |
-| Selected SHA | 853a9af5ac64e79c79fa6bb3958314aa1acf7e92 | 8faf601af3a91f4526c8fc0f4b50cea0ef67b5d4 |
-| Selected tag | v2.28.1 | v2.29.0 |
-
-## voidzero-dev/setup-vp
-
-[Previous source](https://github.com/voidzero-dev/setup-vp/tree/24d870228786dc83ae73482406bdd1e7befaec14/) · [Current source](https://github.com/voidzero-dev/setup-vp/tree/3754dd7dbdb32bd8f6d28b6043de13ad3a75f21f/) · [Upstream code diff](https://github.com/voidzero-dev/setup-vp/compare/24d870228786dc83ae73482406bdd1e7befaec14...3754dd7dbdb32bd8f6d28b6043de13ad3a75f21f)
+[Previous source](https://github.com/sbt/setup-sbt/tree/82da71df4e122282484a99a8d70096bc2369dbd8/) · [Current source](https://github.com/sbt/setup-sbt/tree/ce95da69b39609ea153bad087708da5f37366897/) · [Upstream code diff](https://github.com/sbt/setup-sbt/compare/82da71df4e122282484a99a8d70096bc2369dbd8...ce95da69b39609ea153bad087708da5f37366897)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 24d870228786dc83ae73482406bdd1e7befaec14 | 3754dd7dbdb32bd8f6d28b6043de13ad3a75f21f |
-| Selected tag | v1.21.0 | v1.21.1 |
+| Input: sbt-runner-version | {&quot;default&quot;: &quot;2.0.8&quot;, &quot;description&quot;: &quot;The runner version (The actual version is controlled via project/build.properties)&quot;, &quot;required&quot;: true} | {&quot;default&quot;: &quot;2.0.9&quot;, &quot;description&quot;: &quot;The runner version (The actual version is controlled via project/build.properties)&quot;, &quot;required&quot;: true} |
+| Selected SHA | 82da71df4e122282484a99a8d70096bc2369dbd8 | ce95da69b39609ea153bad087708da5f37366897 |
+| Selected tag | v1.5.9 | v1.5.10 |
+
+## Songmu/tagpr
+
+[Previous source](https://github.com/Songmu/tagpr/tree/7ebae2dcc300132baa7cc9dd108c8923b07fc366/) · [Current source](https://github.com/Songmu/tagpr/tree/2afc990a4a5a9a340665cc1a484c2102f7de332f/) · [Upstream code diff](https://github.com/Songmu/tagpr/compare/7ebae2dcc300132baa7cc9dd108c8923b07fc366...2afc990a4a5a9a340665cc1a484c2102f7de332f)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: version | {&quot;default&quot;: &quot;v1.20.3&quot;, &quot;description&quot;: &quot;A version to install tagpr&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;v1.21.0&quot;, &quot;description&quot;: &quot;A version to install tagpr&quot;, &quot;required&quot;: false} |
+| Selected SHA | 7ebae2dcc300132baa7cc9dd108c8923b07fc366 | 2afc990a4a5a9a340665cc1a484c2102f7de332f |
+| Selected tag | v1.20.3 | v1.21.0 |
+
+## taiki-e/install-action
+
+[Previous source](https://github.com/taiki-e/install-action/tree/94c31af3204a9f15ab40b35ad084410b905bbc73/) · [Current source](https://github.com/taiki-e/install-action/tree/7623a79cdfecb99d681017af368ca353d9f49bb5/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/94c31af3204a9f15ab40b35ad084410b905bbc73...7623a79cdfecb99d681017af368ca353d9f49bb5)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 94c31af3204a9f15ab40b35ad084410b905bbc73 | 7623a79cdfecb99d681017af368ca353d9f49bb5 |
+| Selected tag | v2.87.17 | v2.87.19 |
+
+## tailscale/github-action
+
+[Previous source](https://github.com/tailscale/github-action/tree/780049a30b6ff5c378a9e7b389d15ece7a204888/) · [Current source](https://github.com/tailscale/github-action/tree/d1b6cd204f8dceda5b3eaad7f1f767be390056cd/) · [Upstream code diff](https://github.com/tailscale/github-action/compare/780049a30b6ff5c378a9e7b389d15ece7a204888...d1b6cd204f8dceda5b3eaad7f1f767be390056cd)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: log-mode | null | {&quot;default&quot;: &quot;grouped&quot;, &quot;description&quot;: &quot;Controls action log output mode. Use \`grouped\` to fold major setup and cleanup phases, \`normal\` for ungrouped logs, or \`quiet\` to suppress routine informational output.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 780049a30b6ff5c378a9e7b389d15ece7a204888 | d1b6cd204f8dceda5b3eaad7f1f767be390056cd |
+| Selected tag | v4.1.3 | v4.2.0 |
+
+## ThreeMoonsLab/agents-shipgate
+
+[Previous source](https://github.com/ThreeMoonsLab/agents-shipgate/tree/bace7c1871834e0b3eb98e6f60c0627725c53a59/) · [Current source](https://github.com/ThreeMoonsLab/agents-shipgate/tree/e3c6cb0c7657d9c53d4e29b2061d04dcf99a4e9b/) · [Upstream code diff](https://github.com/ThreeMoonsLab/agents-shipgate/compare/bace7c1871834e0b3eb98e6f60c0627725c53a59...e3c6cb0c7657d9c53d4e29b2061d04dcf99a4e9b)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: output\_dir | {&quot;default&quot;: &quot;agents-shipgate-reports&quot;, &quot;description&quot;: &quot;Output directory for reports.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;agents-shipgate-reports&quot;, &quot;description&quot;: &quot;Output directory for reports. verify refuses (exit 2) a directory inside the repository that holds committed files or unignored files other than Shipgate artifacts, or that lies in a trust root Git does not ignore.&quot;, &quot;required&quot;: false} |
+| Selected SHA | bace7c1871834e0b3eb98e6f60c0627725c53a59 | e3c6cb0c7657d9c53d4e29b2061d04dcf99a4e9b |
+| Selected tag | v1.0.0 | v1.1.0 |
+
+## UiPath/coder\_eval
+
+[Previous source](https://github.com/UiPath/coder_eval/tree/d960de1c433a1b050d2509f04d94a60e3cabaaf0/) · [Current source](https://github.com/UiPath/coder_eval/tree/fdb3bc1e33edc1f5c044c9202548f38e4b9ae4f4/) · [Upstream code diff](https://github.com/UiPath/coder_eval/compare/d960de1c433a1b050d2509f04d94a60e3cabaaf0...fdb3bc1e33edc1f5c044c9202548f38e4b9ae4f4)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: version | {&quot;default&quot;: &quot;0.12.4&quot;, &quot;description&quot;: &quot;coder-eval version to install from PyPI, or \\&quot;local\\&quot; to install from the action checkout&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.12.5&quot;, &quot;description&quot;: &quot;coder-eval version to install from PyPI, or \\&quot;local\\&quot; to install from the action checkout&quot;, &quot;required&quot;: false} |
+| Selected SHA | d960de1c433a1b050d2509f04d94a60e3cabaaf0 | fdb3bc1e33edc1f5c044c9202548f38e4b9ae4f4 |
+| Selected tag | v0.12.4 | v0.12.5 |
