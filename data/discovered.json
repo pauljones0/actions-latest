@@ -593,6 +593,33 @@
     "reviewed_at": null
   },
   {
+    "action": "Flow-Scanner/lightning-flow-scanner",
+    "description": "Scan Salesforce Flows for best practices, security, and performance issues.",
+    "category": "Discovered",
+    "tags": [
+      "cicd",
+      "code-quality",
+      "flow",
+      "monitoring-tool",
+      "salesforce",
+      "salesforce-cli-plugin",
+      "security",
+      "static-analysis",
+      "visual-studio-code-extension"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/Flow-Scanner/lightning-flow-scanner/tree/82099739b1880fd187fb6234b491c0f3f07fedb9",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "gensecaihq/Shai-Hulud-2.0-Detector",
     "description": "Detect Shai-Hulud npm supply chain attacks (2.0 + ChainDrop) - 1,240+ packages, SHA256 hashing, IDE persistence & backdoor detection",
     "category": "Discovered",

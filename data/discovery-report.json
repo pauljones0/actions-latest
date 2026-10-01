@@ -1,5 +1,7 @@
 {
-  "admitted": [],
+  "admitted": [
+    "Flow-Scanner/lightning-flow-scanner"
+  ],
   "candidates": {
     "ARM-software/AVH": {
       "checked_at": "2026-09-21T10:14:39.436991+00:00",
@@ -76,6 +78,12 @@
       "reason": "No action.yml or action.yaml at FidelusAleksander/ghcertified@13fea21cbe452354dd561995a3377265d4c73d93",
       "status": "rejected"
     },
+    "Flow-Scanner/lightning-flow-scanner": {
+      "checked_at": "2026-10-01T11:12:41.093343+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "82099739b1880fd187fb6234b491c0f3f07fedb9",
+      "status": "admitted"
+    },
     "IEvangelist/resource-translator": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "scanner_version": "1.30.0",
@@ -129,8 +137,8 @@
       "status": "rejected"
     },
     "KryptosAI/mcp-observatory": {
-      "checked_at": "2026-09-19T09:01:01.538456+00:00",
-      "reason": "No action.yml or action.yaml at KryptosAI/mcp-observatory@db50000dbc3123fc7633d681e10e2fbfef62197e",
+      "checked_at": "2026-10-01T11:12:41.093343+00:00",
+      "reason": "No action.yml or action.yaml at KryptosAI/mcp-observatory@8f148e6fa0350ca48c62888f686a76ab547689f9",
       "status": "rejected"
     },
     "L0NE-6/WorkBuddy-Daily": {
@@ -461,6 +469,11 @@
       "reason": "No action.yml or action.yaml at falcondev-oss/github-actions-cache-server@c866ae42315af2cb5e165a23a414228fd2fc035f",
       "status": "rejected"
     },
+    "fastapi/full-stack-fastapi-template": {
+      "checked_at": "2026-10-01T11:12:41.093343+00:00",
+      "reason": "No action.yml or action.yaml at fastapi/full-stack-fastapi-template@cb740b656d7a0a6c5e12c7bf8e50343ec94ee9c7",
+      "status": "rejected"
+    },
     "fatwang2/awesome-jev": {
       "checked_at": "2026-09-19T09:01:01.538456+00:00",
       "reason": "No action.yml or action.yaml at fatwang2/awesome-jev@bb77fcee96c33855d69463a8d764402088283626",
@@ -499,8 +512,8 @@
       "status": "rejected"
     },
     "go-gitea/gitea": {
-      "checked_at": "2026-09-23T09:35:06.503212+00:00",
-      "reason": "No action.yml or action.yaml at go-gitea/gitea@08149f9bec9d9c8f3acb980b9e289f058cd29b93",
+      "checked_at": "2026-10-01T11:12:41.093343+00:00",
+      "reason": "No action.yml or action.yaml at go-gitea/gitea@2f5cdbd5c141f1309444e6082716e5425b339543",
       "status": "rejected"
     },
     "goreleaser/goreleaser": {
@@ -950,7 +963,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-09-30T10:46:22.012766+00:00",
+  "checked_at": "2026-10-01T11:12:41.093343+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 4
 }
