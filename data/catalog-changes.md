@@ -1,164 +1,147 @@
 # Latest catalog changes
 
-14 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+13 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## actions-hub/kubectl
+## Added: amyu/setup-android
 
-[Previous source](https://github.com/actions-hub/kubectl) · [Current source](https://github.com/actions-hub/kubectl/tree/4a69b4074d038d7bc36682b7d0862db29c181ed4/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: args | null | {&quot;description&quot;: &quot;Arguments for the CLI command&quot;, &quot;required&quot;: false} |
-| Input: redirect-to | null | {&quot;description&quot;: &quot;Variable name to redirect CLI output&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | docker |
-| Security | unknown | clean |
-| Selected SHA | null | 4a69b4074d038d7bc36682b7d0862db29c181ed4 |
-| Selected tag | null | v1.37.1 |
-
-## Aletheore/Aletheore
-
-[Previous source](https://github.com/Aletheore/Aletheore/tree/58525fda08ab3f6a8c385022293c90070bd6dd42/) · [Current source](https://github.com/Aletheore/Aletheore/tree/9c98d95f5245674a024e982a0b8f8352c32f169a/) · [Upstream code diff](https://github.com/Aletheore/Aletheore/compare/58525fda08ab3f6a8c385022293c90070bd6dd42...9c98d95f5245674a024e982a0b8f8352c32f169a)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 58525fda08ab3f6a8c385022293c90070bd6dd42 | 9c98d95f5245674a024e982a0b8f8352c32f169a |
-| Selected tag | v0.9.19 | v0.9.20 |
-
-## anthropics/claude-code-action
-
-[Previous source](https://github.com/anthropics/claude-code-action/tree/cfc3eb22bfed5c26ef66e3223c982af27e4524de/) · [Current source](https://github.com/anthropics/claude-code-action/tree/8cf3482550831fb35a4fc3fbf7ca139cf8028b4c/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/cfc3eb22bfed5c26ef66e3223c982af27e4524de...8cf3482550831fb35a4fc3fbf7ca139cf8028b4c)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | cfc3eb22bfed5c26ef66e3223c982af27e4524de | 8cf3482550831fb35a4fc3fbf7ca139cf8028b4c |
-| Selected tag | v1.0.231 | v1.0.233 |
-
-## aws-actions/sustainability-scanner
-
-[Previous source](https://github.com/aws-actions/sustainability-scanner/tree/d6067411fc5290a836e3ebcf388c746d83cf0e9f/) · [Current source](https://github.com/aws-actions/sustainability-scanner/tree/af96153806024859a75e721a2e20a285040ee891/) · [Upstream code diff](https://github.com/aws-actions/sustainability-scanner/compare/d6067411fc5290a836e3ebcf388c746d83cf0e9f...af96153806024859a75e721a2e20a285040ee891)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: fail\_on\_findings | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Fail the action if any sustainability improvement is identified&quot;, &quot;required&quot;: false} |
-| Input: max\_score\_threshold | null | {&quot;description&quot;: &quot;Fail the action if the total sustainability score exceeds this value (higher scores mean more improvements to apply)&quot;, &quot;required&quot;: false} |
-| Selected SHA | d6067411fc5290a836e3ebcf388c746d83cf0e9f | af96153806024859a75e721a2e20a285040ee891 |
-| Selected tag | v1.3.1 | v1.4.0 |
-
-## cloudflare/wrangler-action
-
-[Previous source](https://github.com/cloudflare/wrangler-action/tree/4e88846969242f7752bcfdaf5511bfbb3985ca47/) · [Current source](https://github.com/cloudflare/wrangler-action/tree/25853364521e0d392ece9b0c1e97a4b37b638087/) · [Upstream code diff](https://github.com/cloudflare/wrangler-action/compare/4e88846969242f7752bcfdaf5511bfbb3985ca47...25853364521e0d392ece9b0c1e97a4b37b638087)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 4e88846969242f7752bcfdaf5511bfbb3985ca47 | 25853364521e0d392ece9b0c1e97a4b37b638087 |
-| Selected tag | v4.1.1 | v4.1.2 |
-
-## cncf/prow-github-actions
-
-[Previous source](https://github.com/cncf/prow-github-actions/tree/582d83b8c37fd9a48f67d65d24fb1f37ce2030eb/) · [Current source](https://github.com/cncf/prow-github-actions/tree/187c5e3cd95a329c43448e1bdb3b1f5249232e44/) · [Upstream code diff](https://github.com/cncf/prow-github-actions/compare/582d83b8c37fd9a48f67d65d24fb1f37ce2030eb...187c5e3cd95a329c43448e1bdb3b1f5249232e44)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 582d83b8c37fd9a48f67d65d24fb1f37ce2030eb | 187c5e3cd95a329c43448e1bdb3b1f5249232e44 |
-| Selected tag | v3.0.0 | v3.0.1 |
-
-## duriantaco/skylos
-
-[Previous source](https://github.com/duriantaco/skylos/tree/ba4c85f963e56053684f1a7eb3d8fc7aa09e8458/) · [Current source](https://github.com/duriantaco/skylos/tree/0c95b002424453983d5c96708cf7865939745d98/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/ba4c85f963e56053684f1a7eb3d8fc7aa09e8458...0c95b002424453983d5c96708cf7865939745d98)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | ba4c85f963e56053684f1a7eb3d8fc7aa09e8458 | 0c95b002424453983d5c96708cf7865939745d98 |
-| Selected tag | v4.39.0 | v4.39.1 |
-
-## Added: Flow-Scanner/lightning-flow-scanner
-
-[Source](https://github.com/Flow-Scanner/lightning-flow-scanner) — Scan Salesforce Flows for best practices, security, and performance issues.
+[Source](https://github.com/amyu/setup-android) — Install and cache Android SDK components on self-hosted GitHub Actions runners
 
 New entries still require observed stability and fresh scan evidence before usage.
 
-## garnet-org/action
+## anthropics/claude-code-action
 
-[Previous source](https://github.com/garnet-org/action/tree/3d47f4a9004f7356c980a0e8d420ef5984750e3c/) · [Current source](https://github.com/garnet-org/action/tree/245ad6be82de3200c205109c8ca7ac816dc692ea/) · [Upstream code diff](https://github.com/garnet-org/action/compare/3d47f4a9004f7356c980a0e8d420ef5984750e3c...245ad6be82de3200c205109c8ca7ac816dc692ea)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Description | Records what each job in your workflow did at runtime — processes and network egress — and posts the Runtime Review from the Action stage | Execution evidence for code review: what each CI job ran and reached, recorded at the kernel. |
-| Input: api\_token | {&quot;description&quot;: &quot;Your Garnet API token from app.garnet.ai&quot;, &quot;required&quot;: true} | {&quot;description&quot;: &quot;Garnet API token from app.garnet.ai. Optional when the job has \`id-token: write\`\\n(GitHub OIDC is the preferred authentication method). When set, the token is used\\nas-is and no OIDC token is requested, so \`id-token: write\` is not needed.\\nIf neither OIDC nor api\_token is available, runtime recording is skipped with\\na warning and a Job Summary explanation. The workflow continues.\\n&quot;, &quot;required&quot;: false} |
-| Input: github\_token | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;GitHub token used for pull request comments&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;GitHub token used to verify Jibril attestations and read workflow job status. Defaults to the built-in GITHUB\_TOKEN.&quot;, &quot;required&quot;: false} |
-| Input: jibril\_version | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Jibril version (v2.10.8, v0.0, or &#x27;latest&#x27;)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;v2.17.0&quot;, &quot;description&quot;: &quot;Jibril version (for example v2.16.0, v0.0, or &#x27;latest&#x27;); empty resolves from the action tag&quot;, &quot;required&quot;: false} |
-| Input: preview | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Render the full-fidelity Step Summary record (assertions + evidence). Preview shape is unstable and may change without a major version bump&quot;, &quot;required&quot;: false} |
-| Input: stop\_timeout\_seconds | null | {&quot;default&quot;: &quot;1800&quot;, &quot;description&quot;: &quot;Maximum seconds Jibril is given at shutdown to finish writing its Execution Profile and flushing\\nevents. The post step waits this long (plus a small grace) and then force stops the sensor,\\nso a heavy backlog cannot stall the job indefinitely. Lower it to bound the post step;\\nraise it on long jobs where the profile matters more than post-step latency. Set to \`0\`\\nor a negative integer to disable the flush timeout entirely.\\n&quot;, &quot;required&quot;: false} |
-| Selected SHA | 3d47f4a9004f7356c980a0e8d420ef5984750e3c | 245ad6be82de3200c205109c8ca7ac816dc692ea |
-| Selected tag | v2.2.0 | v2.3.0 |
-
-## hermes-labs-ai/lintlang
-
-[Previous source](https://github.com/hermes-labs-ai/lintlang/tree/58e66871531eb585869336189d07b4334e963a5f/) · [Current source](https://github.com/hermes-labs-ai/lintlang/tree/6aace2a175483757c64d7aa2105346d1cc34b857/) · [Upstream code diff](https://github.com/hermes-labs-ai/lintlang/compare/58e66871531eb585869336189d07b4334e963a5f...6aace2a175483757c64d7aa2105346d1cc34b857)
+[Previous source](https://github.com/anthropics/claude-code-action/tree/8cf3482550831fb35a4fc3fbf7ca139cf8028b4c/) · [Current source](https://github.com/anthropics/claude-code-action/tree/9171db3e57d6a3140a37ddc2ba92788584e0ead6/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/8cf3482550831fb35a4fc3fbf7ca139cf8028b4c...9171db3e57d6a3140a37ddc2ba92788584e0ead6)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 58e66871531eb585869336189d07b4334e963a5f | 6aace2a175483757c64d7aa2105346d1cc34b857 |
-| Selected tag | v0.6.0 | v0.7.1 |
+| Selected SHA | 8cf3482550831fb35a4fc3fbf7ca139cf8028b4c | 9171db3e57d6a3140a37ddc2ba92788584e0ead6 |
+| Selected tag | v1.0.233 | v1.0.234 |
 
-## juliangruber/approve-pull-request-action
+## cloudflare/wrangler-action
 
-[Previous source](https://github.com/juliangruber/approve-pull-request-action/tree/1cecaf0206ba34c4fddd072ded0b42e28ee68dd9/) · [Current source](https://github.com/juliangruber/approve-pull-request-action/tree/22f010b57f3836d0201a691b397aa993554849a4/) · [Upstream code diff](https://github.com/juliangruber/approve-pull-request-action/compare/1cecaf0206ba34c4fddd072ded0b42e28ee68dd9...22f010b57f3836d0201a691b397aa993554849a4)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 1cecaf0206ba34c4fddd072ded0b42e28ee68dd9 | 22f010b57f3836d0201a691b397aa993554849a4 |
-| Selected tag | v2.1.1 | v2.1.2 |
-
-## launchdarkly/find-code-references
-
-[Previous source](https://github.com/launchdarkly/find-code-references) · [Current source](https://github.com/launchdarkly/find-code-references/tree/3f782158d0ee6aec19291b232147e2f6c714f9ee/)
+[Previous source](https://github.com/cloudflare/wrangler-action/tree/25853364521e0d392ece9b0c1e97a4b37b638087/) · [Current source](https://github.com/cloudflare/wrangler-action/tree/953926a2e2182532811c01a25e53647d93bf07c0/) · [Upstream code diff](https://github.com/cloudflare/wrangler-action/compare/25853364521e0d392ece9b0c1e97a4b37b638087...953926a2e2182532811c01a25e53647d93bf07c0)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: accessToken | null | {&quot;description&quot;: &quot;A token with write access to the LaunchDarkly project.&quot;, &quot;required&quot;: true} |
-| Input: allowTags | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Enable storing references for tags. Lists the tag as a branch.&quot;, &quot;required&quot;: false} |
-| Input: baseUri | null | {&quot;default&quot;: &quot;https://app.launchdarkly.com&quot;, &quot;description&quot;: &quot;The base URL of the LaunchDarkly server for this configuration.&quot;, &quot;required&quot;: false} |
-| Input: contextLines | null | {&quot;default&quot;: &quot;2&quot;, &quot;description&quot;: &quot;The number of context lines above and below a code reference for the job to send to LaunchDarkly. By default, the flag finder will not send any context lines to LaunchDarkly. If &lt; 0, it will send no source code to LaunchDarkly. If 0, it will send only the lines containing flag references. If &gt; 0, it will send that number of context lines above and below the flag reference. You may provide a maximum of 5 context lines.&quot;, &quot;required&quot;: false} |
-| Input: debug | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Enable verbose debug logging.&quot;, &quot;required&quot;: false} |
-| Input: ignoreServiceErrors | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;If enabled, the scanner will terminate with exit code 0 when the LaunchDarkly API is unreachable or returns an unexpected response.&quot;, &quot;required&quot;: false} |
-| Input: lookback | null | {&quot;default&quot;: &quot;10&quot;, &quot;description&quot;: &quot;Set the number of commits to search in history for whether you removed a feature flag from code. You may set to 0 to disable this feature. Setting this option to a high value will increase search time.&quot;, &quot;required&quot;: false} |
-| Input: projKey | null | {&quot;description&quot;: &quot;Key of the LaunchDarkly project associated with this repository. Found under Account Settings -&gt; Projects in the LaunchDarkly dashboard. Cannot be combined with \`projects\` block in configuration file.&quot;, &quot;required&quot;: false} |
-| Input: prune | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;There is a known issue where the GitHub Action will not prune deleted branch data in private repos. Only enable this if you are running the action in a public repo.&quot;, &quot;required&quot;: false} |
-| Input: repoName | null | {&quot;description&quot;: &quot;The repository name. Defaults to the current GitHub repository.&quot;, &quot;required&quot;: false} |
-| Input: subdirectory | null | {&quot;description&quot;: &quot;The subdirectory to run the action in.&quot;, &quot;required&quot;: false} |
+| Input: command | {&quot;description&quot;: &quot;The Wrangler command (along with any arguments) you wish to run. Multiple Wrangler commands can be run by separating each command with a newline. Defaults to \`\\&quot;deploy\\&quot;\`. The \`preview\` command requires Wrangler &gt;= 4.136.0.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;The Wrangler command (along with any arguments) you wish to run. Multiple Wrangler commands can be run by separating each command with a newline. Defaults to \`\\&quot;deploy\\&quot;\`. The \`preview\` command requires Wrangler &gt;= 4.136.3.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 25853364521e0d392ece9b0c1e97a4b37b638087 | 953926a2e2182532811c01a25e53647d93bf07c0 |
+| Selected tag | v4.1.2 | v4.1.3 |
+
+## crowdin/github-action
+
+[Previous source](https://github.com/crowdin/github-action/tree/df474cdfb9f41d6ae777118749477c2cdf7cacc8/) · [Current source](https://github.com/crowdin/github-action/tree/9c23991700c0ec5256fd41089b9d9d7d540e424e/) · [Upstream code diff](https://github.com/crowdin/github-action/compare/df474cdfb9f41d6ae777118749477c2cdf7cacc8...9c23991700c0ec5256fd41089b9d9d7d540e424e)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | df474cdfb9f41d6ae777118749477c2cdf7cacc8 | 9c23991700c0ec5256fd41089b9d9d7d540e424e |
+| Selected tag | v3.2.0 | v3.3.0 |
+
+## GitGuardian/ggshield-action
+
+[Previous source](https://github.com/GitGuardian/ggshield-action/tree/7059aef1ffb7d2374ce27201144f5613beecefe0/) · [Current source](https://github.com/GitGuardian/ggshield-action/tree/7f66d3be9c59a821dcf4f45ee5d929203a1a0b90/) · [Upstream code diff](https://github.com/GitGuardian/ggshield-action/compare/7059aef1ffb7d2374ce27201144f5613beecefe0...7f66d3be9c59a821dcf4f45ee5d929203a1a0b90)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 7059aef1ffb7d2374ce27201144f5613beecefe0 | 7f66d3be9c59a821dcf4f45ee5d929203a1a0b90 |
+| Selected tag | v1.54.0 | v1.55.0 |
+
+## github/codeql-action
+
+[Previous source](https://github.com/github/codeql-action/tree/1c5b675653bb5c22dbe9b12b556ec555138e09fd/) · [Current source](https://github.com/github/codeql-action/tree/2892aa5e19bbd11bc0cff5427e3b750a04d9e3c2/) · [Upstream code diff](https://github.com/github/codeql-action/compare/1c5b675653bb5c22dbe9b12b556ec555138e09fd...2892aa5e19bbd11bc0cff5427e3b750a04d9e3c2)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 1c5b675653bb5c22dbe9b12b556ec555138e09fd | 2892aa5e19bbd11bc0cff5427e3b750a04d9e3c2 |
+| Selected tag | v4.38.1 | v4.38.2 |
+
+## hashicorp/actions-docker-build
+
+[Previous source](https://github.com/hashicorp/actions-docker-build/tree/e12557abf02a40557313ab2839d6cd2c6705261e/) · [Current source](https://github.com/hashicorp/actions-docker-build/tree/595f29357108da6d4767b6a48e5f01f25de0c131/) · [Upstream code diff](https://github.com/hashicorp/actions-docker-build/compare/e12557abf02a40557313ab2839d6cd2c6705261e...595f29357108da6d4767b6a48e5f01f25de0c131)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Findings | \[\[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\], \[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;info&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;info&quot;, &quot;code injection via template expansion&quot;\]\] | \[\[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\], \[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;info&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;info&quot;, &quot;code injection via template expansion&quot;\]\] |
+| Input: extra\_build\_args | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Whitespace-separated list of extra build arguments that get passed to docker  build (optional).\\n&quot;} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Whitespace-separated list of extra build arguments that get passed to docker build (optional).\\n&quot;} |
+| Input: repo\_name | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The name of the repository (optional).\\n&quot;} |
+| Selected SHA | e12557abf02a40557313ab2839d6cd2c6705261e | 595f29357108da6d4767b6a48e5f01f25de0c131 |
+| Selected tag | v2.2.1 | v2.3.0 |
+
+## Added: jsdhwfmax/EvalForge
+
+[Source](https://github.com/jsdhwfmax/EvalForge) — Enforce evaluator-neutral AI quality policies and emit JSON, JUnit, and SARIF evidence.
+
+New entries still require observed stability and fresh scan evidence before usage.
+
+## Justintime50/homebrew-releaser
+
+[Previous source](https://github.com/Justintime50/homebrew-releaser) · [Current source](https://github.com/Justintime50/homebrew-releaser/tree/454cc0d45a99949c9ea0bd9f03e6309df1617628/)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: branch | null | {&quot;description&quot;: &quot;The branch to push your formula file to (if not present, the branch used will be your repo default branch).&quot;, &quot;required&quot;: false} |
+| Input: commit\_email | null | {&quot;default&quot;: &quot;homebrew-releaser@example.com&quot;, &quot;description&quot;: &quot;Git author info used to commit to the homebrew tap.&quot;, &quot;required&quot;: false} |
+| Input: commit\_owner | null | {&quot;default&quot;: &quot;homebrew-releaser&quot;, &quot;description&quot;: &quot;Git author info used to commit to the homebrew tap.&quot;, &quot;required&quot;: false} |
+| Input: custom\_require | null | {&quot;description&quot;: &quot;Allows you to add a custom require\_relative at the top of the formula template.&quot;, &quot;required&quot;: false} |
+| Input: custom\_tarball | null | {&quot;description&quot;: &quot;Use a custom tarball on your release instead of the auto generated or templated arch URLs listed above.&quot;, &quot;required&quot;: false} |
+| Input: debug | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Logs debugging info to console.&quot;, &quot;required&quot;: false} |
+| Input: depends\_on | null | {&quot;description&quot;: &quot;Custom dependencies in case other formulas are needed to build the current one (can be multiline).&quot;, &quot;required&quot;: false} |
+| Input: download\_strategy | null | {&quot;description&quot;: &quot;The Homebrew download strategy to use for formulas.&quot;, &quot;required&quot;: false} |
+| Input: formula\_folder | null | {&quot;default&quot;: &quot;Formula&quot;, &quot;description&quot;: &quot;The name of the folder in your homebrew tap where formula will be committed to.&quot;, &quot;required&quot;: false} |
+| Input: formula\_includes | null | {&quot;description&quot;: &quot;Allows you to add custom includes inside the formula class, before dependencies and install blocks.&quot;, &quot;required&quot;: false} |
+| Input: github\_token | null | {&quot;description&quot;: &quot;The GitHub Token (saved as a repo secret) that has \`repo\` permissions for the homebrew tap you want to release to.&quot;, &quot;required&quot;: true} |
+| Input: homebrew\_owner | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The name of the homebrew tap owner to publish your formula to as it appears on GitHub.&quot;, &quot;required&quot;: true} |
+| Input: homebrew\_tap | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The name of the homebrew tap to publish your formula to as it appears on GitHub.&quot;, &quot;required&quot;: true} |
+| Input: ignore\_warnings | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Ignores non-critical warnings by not raising them at the end and failing the action.&quot;, &quot;required&quot;: false} |
+| Input: install | null | {&quot;description&quot;: &quot;Custom install command for your formula.&quot;, &quot;required&quot;: true} |
+| Input: skip\_checksum | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Skips uploading the checksum file for release assets to the release.&quot;, &quot;required&quot;: false} |
+| Input: skip\_commit | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Skips committing the generated formula to a homebrew tap (useful for local testing).&quot;, &quot;required&quot;: false} |
+| Input: target\_darwin\_amd64 | null | {&quot;description&quot;: &quot;Add a custom URL/checksum target for AMD64 Darwin builds.&quot;, &quot;required&quot;: false} |
+| Input: target\_darwin\_arm64 | null | {&quot;description&quot;: &quot;Add a custom URL/checksum target for ARM64 Darwin builds.&quot;, &quot;required&quot;: false} |
+| Input: target\_linux\_amd64 | null | {&quot;description&quot;: &quot;Add a custom URL/checksum target for AMD64 Linux builds.&quot;, &quot;required&quot;: false} |
+| Input: target\_linux\_arm64 | null | {&quot;description&quot;: &quot;Add a custom URL/checksum target for ARM64 Linux builds.&quot;, &quot;required&quot;: false} |
+| Input: test | null | {&quot;description&quot;: &quot;Custom test command for your formula so you can run \`brew test\`.&quot;, &quot;required&quot;: false} |
+| Input: update\_python\_resources | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Run &#x27;brew update-python-resources&#x27; on the formula to add Python resources.&quot;, &quot;required&quot;: false} |
+| Input: update\_readme\_table | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Update your homebrew tap&#x27;s README with a table of all projects in the tap.&quot;, &quot;required&quot;: false} |
+| Input: version | null | {&quot;description&quot;: &quot;Override the automatically detected version of a formula with an explicit value.&quot;, &quot;required&quot;: false} |
 | Observed stability | null | observed |
 | Outputs | null | \[\] |
 | Runtime | null | docker |
 | Security | unknown | clean |
-| Selected SHA | null | 3f782158d0ee6aec19291b232147e2f6c714f9ee |
-| Selected tag | null | v2.18.0 |
+| Selected SHA | null | 454cc0d45a99949c9ea0bd9f03e6309df1617628 |
+| Selected tag | null | v4.0.0 |
 
-## qoomon/actions--access-token
+## plengauer/Thoth
 
-[Previous source](https://github.com/qoomon/actions--access-token) · [Current source](https://github.com/qoomon/actions--access-token/tree/4334811687ce663e7cdeb97f5308b0715679908c/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: app-server | null | {&quot;description&quot;: &quot;Configuration of the app server endpoint.\\n&quot;} |
-| Input: owner | null | {&quot;description&quot;: &quot;Target owner e.g. octocat\\nDefaults to OIDC token repository owner\\n&quot;} |
-| Input: permissions | null | {&quot;description&quot;: &quot;Permissions to request as comma separated strings\\n  or as YAML object string\\n\\nExamples:\\n\\n  permissions: contents:write, pull-requests:write, secrets:write\\n\\n  permissions: \|\\n    contents: write\\n    pull-requests: write\\n    secrets: write\\n&quot;, &quot;required&quot;: true} |
-| Input: repositories | null | {&quot;description&quot;: &quot;Target repositories as comma separated strings\\n  or as a YAML array string\\n  or &#x27;ALL&#x27; to target all repositories of inputs.owner .\\nDefaults to OIDC token repository, only if inputs.owner is equal to OIDC token repository owner.\\n\\nExamples:\\n\\n  repositories: playground, shop\\n\\n  repositories: \|\\n    - playground\\n    - shop\\n\\n  repositories: ALL\\n&quot;} |
-| Observed stability | null | observed |
-| Outputs | null | \[&quot;token&quot;\] |
-| Runtime | null | node24 |
-| Security | unknown | clean |
-| Selected SHA | null | 4334811687ce663e7cdeb97f5308b0715679908c |
-| Selected tag | null | v4.1.1 |
-
-## UiPath/coder\_eval
-
-[Previous source](https://github.com/UiPath/coder_eval/tree/fdb3bc1e33edc1f5c044c9202548f38e4b9ae4f4/) · [Current source](https://github.com/UiPath/coder_eval/tree/7df5bd1581b75a67baed368eb48df7040f05ecb2/) · [Upstream code diff](https://github.com/UiPath/coder_eval/compare/fdb3bc1e33edc1f5c044c9202548f38e4b9ae4f4...7df5bd1581b75a67baed368eb48df7040f05ecb2)
+[Previous source](https://github.com/plengauer/Thoth/tree/74b46584d99a285f5f5300264c94538dcf6e9596/) · [Current source](https://github.com/plengauer/Thoth/tree/db7b5a16bf2d905493c86f582aba4bb056d8aada/) · [Upstream code diff](https://github.com/plengauer/Thoth/compare/74b46584d99a285f5f5300264c94538dcf6e9596...db7b5a16bf2d905493c86f582aba4bb056d8aada)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: version | {&quot;default&quot;: &quot;0.12.5&quot;, &quot;description&quot;: &quot;coder-eval version to install from PyPI, or \\&quot;local\\&quot; to install from the action checkout&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.12.6&quot;, &quot;description&quot;: &quot;coder-eval version to install from PyPI, or \\&quot;local\\&quot; to install from the action checkout&quot;, &quot;required&quot;: false} |
-| Selected SHA | fdb3bc1e33edc1f5c044c9202548f38e4b9ae4f4 | 7df5bd1581b75a67baed368eb48df7040f05ecb2 |
-| Selected tag | v0.12.5 | v0.12.6 |
+| Selected SHA | 74b46584d99a285f5f5300264c94538dcf6e9596 | db7b5a16bf2d905493c86f582aba4bb056d8aada |
+| Selected tag | v5.62.0 | v5.62.1 |
+
+## py-cov-action/python-coverage-comment-action
+
+[Previous source](https://github.com/py-cov-action/python-coverage-comment-action/tree/a05be3d2e8a6272d3ef5fb2840ab20368bb2eb71/) · [Current source](https://github.com/py-cov-action/python-coverage-comment-action/tree/e5fb2218463c3377f3504b0c5b5646ed53da7a2f/) · [Upstream code diff](https://github.com/py-cov-action/python-coverage-comment-action/compare/a05be3d2e8a6272d3ef5fb2840ab20368bb2eb71...e5fb2218463c3377f3504b0c5b5646ed53da7a2f)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | a05be3d2e8a6272d3ef5fb2840ab20368bb2eb71 | e5fb2218463c3377f3504b0c5b5646ed53da7a2f |
+| Selected tag | v4.3 | v4.5 |
+
+## sbt/setup-sbt
+
+[Previous source](https://github.com/sbt/setup-sbt/tree/ce95da69b39609ea153bad087708da5f37366897/) · [Current source](https://github.com/sbt/setup-sbt/tree/6158cb0903b8ceeae04f830055f3155e1b6a5ad7/) · [Upstream code diff](https://github.com/sbt/setup-sbt/compare/ce95da69b39609ea153bad087708da5f37366897...6158cb0903b8ceeae04f830055f3155e1b6a5ad7)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | ce95da69b39609ea153bad087708da5f37366897 | 6158cb0903b8ceeae04f830055f3155e1b6a5ad7 |
+| Selected tag | v1.5.10 | v1.5.11 |
+
+## taiki-e/install-action
+
+[Previous source](https://github.com/taiki-e/install-action/tree/7623a79cdfecb99d681017af368ca353d9f49bb5/) · [Current source](https://github.com/taiki-e/install-action/tree/9983c65e42da123ff25d1f78505eb6de315aa172/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/7623a79cdfecb99d681017af368ca353d9f49bb5...9983c65e42da123ff25d1f78505eb6de315aa172)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 7623a79cdfecb99d681017af368ca353d9f49bb5 | 9983c65e42da123ff25d1f78505eb6de315aa172 |
+| Selected tag | v2.87.19 | v2.87.20 |

@@ -1,6 +1,7 @@
 {
   "admitted": [
-    "Flow-Scanner/lightning-flow-scanner"
+    "jsdhwfmax/EvalForge",
+    "amyu/setup-android"
   ],
   "candidates": {
     "ARM-software/AVH": {
@@ -152,8 +153,8 @@
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
-      "checked_at": "2026-09-25T09:51:42.609964+00:00",
-      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@a7d0a9d644a1b107d7b240644d3733820961a4d9",
+      "checked_at": "2026-10-02T10:45:29.005451+00:00",
+      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@52f64a80b24d2923390e254bde60e7f76508ccf2",
       "status": "rejected"
     },
     "Mic92/hestia": {
@@ -163,8 +164,8 @@
       "status": "admitted"
     },
     "MohammadBahemmat/V2ray-Collector": {
-      "checked_at": "2026-09-25T09:51:42.609964+00:00",
-      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@c4680ba88a54a1045e3dcaaf56f3ba0091aa116d",
+      "checked_at": "2026-10-02T10:45:29.005451+00:00",
+      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@fac95c6e43b5bc9698f8497de3d1bee8894a0f28",
       "status": "rejected"
     },
     "Pradumnasaraf/DevOps": {
@@ -290,6 +291,12 @@
       "source_sha": "a9b0c810bb4a8384f0ffcf0067afbef553d22f0c",
       "status": "admitted"
     },
+    "amyu/setup-android": {
+      "checked_at": "2026-10-02T10:45:29.005451+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "bf7a15678b8ed0963fc9a1e9b68f5946a2fc1871",
+      "status": "admitted"
+    },
     "apisec-inc/AI-Surface": {
       "checked_at": "2026-09-22T09:30:22.736679+00:00",
       "scanner_version": "1.30.1",
@@ -328,8 +335,8 @@
       "status": "admitted"
     },
     "bitscoper/bitscoper_cyberkit": {
-      "checked_at": "2026-09-17T09:40:57.309160+00:00",
-      "reason": "No action.yml or action.yaml at bitscoper/bitscoper_cyberkit@19c8e8cc81cf99efce8c17a7e51fd8886b654a74",
+      "checked_at": "2026-10-02T10:45:29.005451+00:00",
+      "reason": "No action.yml or action.yaml at bitscoper/bitscoper_cyberkit@df425a38f22f82f1d347edf9c07f8056c803ae62",
       "status": "rejected"
     },
     "calibreapp/image-actions": {
@@ -585,6 +592,12 @@
       "source_sha": "884c4725841b5b3f67b8a54458030e1a5c76d0d7",
       "status": "admitted"
     },
+    "jsdhwfmax/EvalForge": {
+      "checked_at": "2026-10-02T10:45:29.005451+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "54c4667a67fefe6d34435cb5bc166c0b81a8deb5",
+      "status": "admitted"
+    },
     "jurplel/install-qt-action": {
       "checked_at": "2026-09-21T10:14:39.436991+00:00",
       "scanner_version": "1.30.1",
@@ -782,8 +795,8 @@
       "status": "admitted"
     },
     "runs-on/runs-on": {
-      "checked_at": "2026-09-10T09:13:49.409079+00:00",
-      "reason": "No action.yml or action.yaml at runs-on/runs-on@ab6d5ca156bb7ac1355c238743cbeb312939e9d5",
+      "checked_at": "2026-10-02T10:45:29.005451+00:00",
+      "reason": "No action.yml or action.yaml at runs-on/runs-on@8b98e15f02c3e02b77bcafadd507916efecb4a0f",
       "status": "rejected"
     },
     "ruzickap/action-my-broken-link-checker": {
@@ -963,7 +976,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-01T11:12:41.093343+00:00",
+  "checked_at": "2026-10-02T10:45:29.005451+00:00",
   "errors": [],
-  "inspected": 4
+  "inspected": 6
 }
