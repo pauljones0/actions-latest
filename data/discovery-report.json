@@ -1,7 +1,9 @@
 {
   "admitted": [
-    "jsdhwfmax/EvalForge",
-    "amyu/setup-android"
+    "pypa/gh-action-pypi-publish",
+    "kerlenton/mcpsnoop",
+    "dawidd6/action-ansible-playbook",
+    "typesafegithub/github-actions-typing"
   ],
   "candidates": {
     "ARM-software/AVH": {
@@ -61,6 +63,11 @@
     "DenverCoder1/DenverCoder1": {
       "checked_at": "2026-09-28T08:46:03.413383+00:00",
       "reason": "No action.yml or action.yaml at DenverCoder1/DenverCoder1@b482690d5b2ab83f87418e660d5a3218d0f0178e",
+      "status": "rejected"
+    },
+    "Dicklesworthstone/doodlestein_self_releaser": {
+      "checked_at": "2026-10-03T10:05:17.356534+00:00",
+      "reason": "No action.yml or action.yaml at Dicklesworthstone/doodlestein_self_releaser@193ecb0ddc0ebe90ed5260db266cf951184ccd64",
       "status": "rejected"
     },
     "Excelius-Wang/harbor": {
@@ -417,6 +424,12 @@
       "source_sha": "d79b75daee9448ee3b1570a8a31c4bd67f76c8f5",
       "status": "admitted"
     },
+    "dawidd6/action-ansible-playbook": {
+      "checked_at": "2026-10-03T10:05:17.356534+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "6b1211fb5425158794e05dafc007273783348e9c",
+      "status": "admitted"
+    },
     "derberg/manage-files-in-multiple-repositories": {
       "checked_at": "2026-09-22T09:30:22.736679+00:00",
       "scanner_version": "1.30.1",
@@ -514,8 +527,8 @@
       "status": "admitted"
     },
     "github/gh-aw": {
-      "checked_at": "2026-09-25T09:51:42.609964+00:00",
-      "reason": "No action.yml or action.yaml at github/gh-aw@158f1a327537e81c946c813ebeeb30e7879b4483",
+      "checked_at": "2026-10-03T10:05:17.356534+00:00",
+      "reason": "No action.yml or action.yaml at github/gh-aw@306bc6bdf8df80f039c69df518a2dc4b73a0f544",
       "status": "rejected"
     },
     "go-gitea/gitea": {
@@ -608,6 +621,12 @@
       "checked_at": "2026-09-30T10:46:22.012766+00:00",
       "reason": "No action.yml or action.yaml at kdeldycke/repomatic@54ae69f894eaecd4f94da5fd393e1fc02c8fac41",
       "status": "rejected"
+    },
+    "kerlenton/mcpsnoop": {
+      "checked_at": "2026-10-03T10:05:17.356534+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "fb8ca5db4793cccbe371c0560f795f8538bd5c41",
+      "status": "admitted"
     },
     "kkzzhizhou/scoop-apps": {
       "checked_at": "2026-09-28T11:16:37.963924+00:00",
@@ -755,6 +774,12 @@
       "source_sha": "ad6da852d942f2a1fd9456119a482bc348c277d5",
       "status": "admitted"
     },
+    "pypa/gh-action-pypi-publish": {
+      "checked_at": "2026-10-03T10:05:17.356534+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "c0d6f8e4af2ad8247a7da213b199ea78dac8395e",
+      "status": "admitted"
+    },
     "qoomon/actions--access-token": {
       "checked_at": "2026-09-24T09:35:05.975472+00:00",
       "scanner_version": "1.30.1",
@@ -871,6 +896,11 @@
       "source_sha": "b48cad6febbd6d60111dae34207b180952bd9fed",
       "status": "admitted"
     },
+    "tailcallhq/gh-workflow": {
+      "checked_at": "2026-10-03T10:05:17.356534+00:00",
+      "reason": "No action.yml or action.yaml at tailcallhq/gh-workflow@1cc03d5b540a2fa10f046cbfa09c1e4a72a0475b",
+      "status": "rejected"
+    },
     "team-aliens/DMS-Android": {
       "checked_at": "2026-09-18T09:14:56.894930+00:00",
       "reason": "No action.yml or action.yaml at team-aliens/DMS-Android@330e7bbf2157e5698edd0e64f044f75d5c291f0e",
@@ -886,6 +916,12 @@
       "checked_at": "2026-09-28T08:46:03.413383+00:00",
       "reason": "No action.yml or action.yaml at tryAGI/AutoSDK@f4094e7b0ce535cae6264992a9c7e4a4b426e29d",
       "status": "rejected"
+    },
+    "typesafegithub/github-actions-typing": {
+      "checked_at": "2026-10-03T10:05:17.356534+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "32a3c4cd9313ad519f262b32cdd09ebcc7305f47",
+      "status": "admitted"
     },
     "ubicloud/ubicloud": {
       "checked_at": "2026-09-28T11:16:37.963924+00:00",
@@ -976,7 +1012,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-02T10:45:29.005451+00:00",
+  "checked_at": "2026-10-03T10:05:17.356534+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 7
 }
