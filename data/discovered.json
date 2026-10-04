@@ -186,6 +186,25 @@
     "reviewed_at": null
   },
   {
+    "action": "arduino/setup-task",
+    "description": "Download Task and add it to the PATH",
+    "category": "Discovered",
+    "tags": [
+      "taskfile"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/arduino/setup-task/tree/a2f87cc0e6a81270a3faf9388997346365541cfc",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "benchmark-action/github-action-benchmark",
     "description": "Continuous Benchmark using GitHub pages as dash board for keeping performance",
     "category": "Discovered",

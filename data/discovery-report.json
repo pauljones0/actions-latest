@@ -1,11 +1,13 @@
 {
   "admitted": [
-    "pypa/gh-action-pypi-publish",
-    "kerlenton/mcpsnoop",
-    "dawidd6/action-ansible-playbook",
-    "typesafegithub/github-actions-typing"
+    "arduino/setup-task"
   ],
   "candidates": {
+    "15H4NT/Grade-Prophet": {
+      "checked_at": "2026-10-04T10:46:40.614767+00:00",
+      "reason": "No action.yml or action.yaml at 15H4NT/Grade-Prophet@687d62147636afd3f35ef1a8fcba6086d214ff8d",
+      "status": "rejected"
+    },
     "ARM-software/AVH": {
       "checked_at": "2026-09-21T10:14:39.436991+00:00",
       "reason": "No action.yml or action.yaml at ARM-software/AVH@bb8431b5d48c0b5d8cbeebe3b31d17e29e94dbf6",
@@ -150,8 +152,8 @@
       "status": "rejected"
     },
     "L0NE-6/WorkBuddy-Daily": {
-      "checked_at": "2026-09-20T09:28:51.994264+00:00",
-      "reason": "No action.yml or action.yaml at L0NE-6/WorkBuddy-Daily@621fa55e33be90191ef1124c718f66a15dcb2b00",
+      "checked_at": "2026-10-04T10:46:40.614767+00:00",
+      "reason": "No action.yml or action.yaml at L0NE-6/WorkBuddy-Daily@7874bc6bc654a8362b0eb573aa73c5cad9a3e525",
       "status": "rejected"
     },
     "LindseyB/dummy": {
@@ -219,6 +221,11 @@
     "Terrenceeeee/AI-frontend-engineering-starter": {
       "checked_at": "2026-09-21T08:01:20.244752+00:00",
       "reason": "No action.yml or action.yaml at Terrenceeeee/AI-frontend-engineering-starter@b36f2cb4a9eb28c6d198dae36e093ded6d2d9aa5",
+      "status": "rejected"
+    },
+    "Thordata/awesome-free-proxy-list": {
+      "checked_at": "2026-10-04T10:46:40.614767+00:00",
+      "reason": "No action.yml or action.yaml at Thordata/awesome-free-proxy-list@9a9f3a62f04cd5d0d0748d53bd7b5dcd9517e79d",
       "status": "rejected"
     },
     "ThreeMoonsLab/agents-shipgate": {
@@ -314,6 +321,12 @@
       "checked_at": "2026-09-28T08:46:03.413383+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
+    },
+    "arduino/setup-task": {
+      "checked_at": "2026-10-04T10:46:40.614767+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "a2f87cc0e6a81270a3faf9388997346365541cfc",
+      "status": "admitted"
     },
     "aripalo/aws-cdk-github-oidc": {
       "checked_at": "2026-09-23T09:35:06.503212+00:00",
@@ -505,8 +518,8 @@
       "status": "rejected"
     },
     "firsttris/plugin.video.sendtokodi": {
-      "checked_at": "2026-09-27T10:14:10.079085+00:00",
-      "reason": "No action.yml or action.yaml at firsttris/plugin.video.sendtokodi@cd28363e4a096705cbf2d849fc2072ddd08431b2",
+      "checked_at": "2026-10-04T10:46:40.614767+00:00",
+      "reason": "No action.yml or action.yaml at firsttris/plugin.video.sendtokodi@da4813b8409a13731733a8cf686e6f0d322f2320",
       "status": "rejected"
     },
     "gensecaihq/Shai-Hulud-2.0-Detector": {
@@ -689,8 +702,8 @@
       "status": "rejected"
     },
     "melogabriel/tinfoil-shops-status": {
-      "checked_at": "2026-09-26T09:34:33.065894+00:00",
-      "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@2ce52caaa2fb4e53a3f9d13c252d93b68fc9b109",
+      "checked_at": "2026-10-04T10:46:40.614767+00:00",
+      "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@750e95e5374554f7a318a266f2addeb8304d8935",
       "status": "rejected"
     },
     "myrotvorets/set-commit-status-action": {
@@ -1012,7 +1025,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-03T10:05:17.356534+00:00",
+  "checked_at": "2026-10-04T10:46:40.614767+00:00",
   "errors": [],
-  "inspected": 7
+  "inspected": 6
 }
