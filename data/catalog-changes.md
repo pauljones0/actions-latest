@@ -2,150 +2,148 @@
 
 13 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## Aletheore/Aletheore
+## asklokesh/loki-mode
 
-[Previous source](https://github.com/Aletheore/Aletheore/tree/9c98d95f5245674a024e982a0b8f8352c32f169a/) · [Current source](https://github.com/Aletheore/Aletheore/tree/24f816e9297f87853b09fe514081863dc6604d30/) · [Upstream code diff](https://github.com/Aletheore/Aletheore/compare/9c98d95f5245674a024e982a0b8f8352c32f169a...24f816e9297f87853b09fe514081863dc6604d30)
+[Previous source](https://github.com/asklokesh/loki-mode/tree/1975cd732a95d5db19012195ecc3531800fe2fd1/) · [Current source](https://github.com/asklokesh/loki-mode/tree/b60ca0ef35273b3553ca99ec530011ae0d33413f/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/1975cd732a95d5db19012195ecc3531800fe2fd1...b60ca0ef35273b3553ca99ec530011ae0d33413f)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 9c98d95f5245674a024e982a0b8f8352c32f169a | 24f816e9297f87853b09fe514081863dc6604d30 |
-| Selected tag | v0.9.20 | v0.9.22 |
+| Selected SHA | 1975cd732a95d5db19012195ecc3531800fe2fd1 | b60ca0ef35273b3553ca99ec530011ae0d33413f |
+| Selected tag | v9.55.0 | v10.1.0 |
 
-## Added: arduino/setup-task
+## bridgecrewio/checkov-action
 
-[Source](https://github.com/arduino/setup-task) — Download Task and add it to the PATH
+[Previous source](https://github.com/bridgecrewio/checkov-action/tree/444c9db6fa75e2d9c19ebf1fde7322089be9009e/) · [Current source](https://github.com/bridgecrewio/checkov-action/tree/5798bad4f6dd9c1fb67ae3ec10d42d8fb67037c4/) · [Upstream code diff](https://github.com/bridgecrewio/checkov-action/compare/444c9db6fa75e2d9c19ebf1fde7322089be9009e...5798bad4f6dd9c1fb67ae3ec10d42d8fb67037c4)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 444c9db6fa75e2d9c19ebf1fde7322089be9009e | 5798bad4f6dd9c1fb67ae3ec10d42d8fb67037c4 |
+| Selected tag | v12.3125.0 | v12.3126.0 |
+
+## duriantaco/skylos
+
+[Previous source](https://github.com/duriantaco/skylos/tree/6d1ac3de35dfff5b53b840b9080f5fa44db6b29e/) · [Current source](https://github.com/duriantaco/skylos/tree/0a42d5c3432221951cc6ab3024916811041b78cf/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/6d1ac3de35dfff5b53b840b9080f5fa44db6b29e...0a42d5c3432221951cc6ab3024916811041b78cf)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: sarif-category | null | {&quot;default&quot;: &quot;skylos&quot;, &quot;description&quot;: &quot;Code scanning category for the uploaded SARIF (distinguishes multiple Skylos runs in one repo)&quot;, &quot;required&quot;: false} |
+| Input: upload-sarif | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Also write skylos.sarif and upload it to GitHub code scanning (source scans only; needs permissions: security-events: write)&quot;, &quot;required&quot;: false} |
+| Selected SHA | 6d1ac3de35dfff5b53b840b9080f5fa44db6b29e | 0a42d5c3432221951cc6ab3024916811041b78cf |
+| Selected tag | v4.39.2 | v4.40.0 |
+
+## flatt-security/setup-takumi-guard-npm
+
+[Previous source](https://github.com/flatt-security/setup-takumi-guard-npm/tree/6d4182745c1e474c35a023573c2612c085be45a4/) · [Current source](https://github.com/flatt-security/setup-takumi-guard-npm/tree/3d2e7e64161c6fb76c74abd6600e4248d4859153/) · [Upstream code diff](https://github.com/flatt-security/setup-takumi-guard-npm/compare/6d4182745c1e474c35a023573c2612c085be45a4...3d2e7e64161c6fb76c74abd6600e4248d4859153)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Description | Authenticate to the Takumi byGMO Guard npm registry via OIDC. Works with npm, pnpm, and yarn. | Authenticate to the Takumi byGMO Guard npm registry via OIDC. Works with npm, pnpm, yarn, and bun. |
+| Findings | \[\[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\], \[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\]\] | \[\[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\], \[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\], \[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\], \[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\], \[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\], \[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\]\] |
+| Input: always-auth | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Also send the token for unscoped packages with Yarn Classic. npm 11 and later warn about this setting on every command.&quot;, &quot;required&quot;: false} |
+| Input: set-registry | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Set the registry URL in .npmrc. Set to false if you manage the registry yourself.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Set the registry URL. Set to false if you manage the registry yourself.&quot;, &quot;required&quot;: false} |
+| Outputs | \[&quot;registry-url&quot;, &quot;token&quot;, &quot;token-expires-at&quot;\] | \[&quot;npmrc-path&quot;, &quot;registry-url&quot;, &quot;token&quot;, &quot;token-expires-at&quot;\] |
+| Selected SHA | 6d4182745c1e474c35a023573c2612c085be45a4 | 3d2e7e64161c6fb76c74abd6600e4248d4859153 |
+| Selected tag | v1.2.0 | v1.3.0 |
+
+## jianruntech/geo-score
+
+[Previous source](https://github.com/jianruntech/geo-score) · [Current source](https://github.com/jianruntech/geo-score/tree/884c4725841b5b3f67b8a54458030e1a5c76d0d7/)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: annotations | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Annotate the run with checks at zero (gates as errors, others as warnings). Set to false to turn off.&quot;, &quot;required&quot;: false} |
+| Input: fail-under | null | {&quot;description&quot;: &quot;Fail the job if the normalised score is below this. Omit to report without failing.&quot;, &quot;required&quot;: false} |
+| Input: json-out | null | {&quot;description&quot;: &quot;Write the machine-readable report (schema/report.v2.json) to this path.&quot;, &quot;required&quot;: false} |
+| Input: junit | null | {&quot;description&quot;: &quot;Write JUnit XML to this path, for CI test-report tools.&quot;, &quot;required&quot;: false} |
+| Input: sample | null | {&quot;default&quot;: &quot;8&quot;, &quot;description&quot;: &quot;How many pages to sample (default 8).&quot;, &quot;required&quot;: false} |
+| Input: sarif | null | {&quot;description&quot;: &quot;Write SARIF 2.1.0 to this path, for github/codeql-action/upload-sarif or any SARIF viewer. Each result points at its check&#x27;s line in the JSON report (json-out, or geo-score-report.json in the workspace).&quot;, &quot;required&quot;: false} |
+| Input: url | null | {&quot;description&quot;: &quot;The URL to score.&quot;, &quot;required&quot;: true} |
+| Input: urls-from | null | {&quot;description&quot;: &quot;Score the pages an earlier JSON report sampled instead of drawing a new sample, so two runs compare the same pages.&quot;, &quot;required&quot;: false} |
+| Observed stability | null | observed |
+| Outputs | null | \[&quot;band&quot;, &quot;gate-capped&quot;, &quot;report&quot;, &quot;report-path&quot;, &quot;score&quot;\] |
+| Runtime | null | composite |
+| Security | unknown | clean |
+| Selected SHA | null | 884c4725841b5b3f67b8a54458030e1a5c76d0d7 |
+| Selected tag | null | v1.4.0 |
+
+## korthout/backport-action
+
+[Previous source](https://github.com/korthout/backport-action/tree/6b65649031ac6d18ffdfd0c0820e9436f3fde22b/) · [Current source](https://github.com/korthout/backport-action/tree/8560fb503c275d433c56f05a2f64850093baa9f7/) · [Upstream code diff](https://github.com/korthout/backport-action/compare/6b65649031ac6d18ffdfd0c0820e9436f3fde22b...8560fb503c275d433c56f05a2f64850093baa9f7)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 6b65649031ac6d18ffdfd0c0820e9436f3fde22b | 8560fb503c275d433c56f05a2f64850093baa9f7 |
+| Selected tag | v4.6.1 | v4.7.0 |
+
+## Added: lukka/get-cmake
+
+[Source](https://github.com/lukka/get-cmake) — Installs CMake and Ninja, and caches them on cloud based GitHub cache, and/or on the local GitHub runner cache.
 
 New entries still require observed stability and fresh scan evidence before usage.
 
-## asklokesh/loki-mode
+## msys2/setup-msys2
 
-[Previous source](https://github.com/asklokesh/loki-mode/tree/d7fb8674c5359d75e3a2bf88e9145b7b03fc24b4/) · [Current source](https://github.com/asklokesh/loki-mode/tree/1975cd732a95d5db19012195ecc3531800fe2fd1/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/d7fb8674c5359d75e3a2bf88e9145b7b03fc24b4...1975cd732a95d5db19012195ecc3531800fe2fd1)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | d7fb8674c5359d75e3a2bf88e9145b7b03fc24b4 | 1975cd732a95d5db19012195ecc3531800fe2fd1 |
-| Selected tag | v9.53.0 | v9.55.0 |
-
-## hermes-labs-ai/lintlang
-
-[Previous source](https://github.com/hermes-labs-ai/lintlang/tree/6aace2a175483757c64d7aa2105346d1cc34b857/) · [Current source](https://github.com/hermes-labs-ai/lintlang/tree/c0cab00048220286858f227aaf4b13cc043f718b/) · [Upstream code diff](https://github.com/hermes-labs-ai/lintlang/compare/6aace2a175483757c64d7aa2105346d1cc34b857...c0cab00048220286858f227aaf4b13cc043f718b)
+[Previous source](https://github.com/msys2/setup-msys2/tree/66cd2cce69caa17b53920067426061ca1de3a884/) · [Current source](https://github.com/msys2/setup-msys2/tree/ec48f7c5447b3140e2b088413ae3a55687bccb6e/) · [Upstream code diff](https://github.com/msys2/setup-msys2/compare/66cd2cce69caa17b53920067426061ca1de3a884...ec48f7c5447b3140e2b088413ae3a55687bccb6e)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 6aace2a175483757c64d7aa2105346d1cc34b857 | c0cab00048220286858f227aaf4b13cc043f718b |
-| Selected tag | v0.7.1 | v0.8.0 |
-
-## int128/datadog-actions-metrics
-
-[Previous source](https://github.com/int128/datadog-actions-metrics/tree/a47f7aac9646e846b5c468caf35da0edacc14e75/) · [Current source](https://github.com/int128/datadog-actions-metrics/tree/de8c8077e77fb52a7eb2e535c42a22b623034724/) · [Upstream code diff](https://github.com/int128/datadog-actions-metrics/compare/a47f7aac9646e846b5c468caf35da0edacc14e75...de8c8077e77fb52a7eb2e535c42a22b623034724)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | a47f7aac9646e846b5c468caf35da0edacc14e75 | de8c8077e77fb52a7eb2e535c42a22b623034724 |
-| Selected tag | v1.183.0 | v1.184.0 |
-
-## macalbert/envilder
-
-[Previous source](https://github.com/macalbert/envilder/tree/d1867bfc646d052bffd45969e0dfba73fbe34500/) · [Current source](https://github.com/macalbert/envilder/tree/5f7258aaeb6aff4c998e4361897037926f30abb8/) · [Upstream code diff](https://github.com/macalbert/envilder/compare/d1867bfc646d052bffd45969e0dfba73fbe34500...5f7258aaeb6aff4c998e4361897037926f30abb8)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | d1867bfc646d052bffd45969e0dfba73fbe34500 | 5f7258aaeb6aff4c998e4361897037926f30abb8 |
-| Selected tag | v0.13.2 | v0.14.0 |
+| Input: suppress-deprecation-warnings | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Whitespace-separated deprecation warning IDs to acknowledge and suppress&quot;, &quot;required&quot;: false} |
+| Selected SHA | 66cd2cce69caa17b53920067426061ca1de3a884 | ec48f7c5447b3140e2b088413ae3a55687bccb6e |
+| Selected tag | v2.32.0 | v2.33.0 |
 
 ## owenthereal/action-upterm
 
-[Previous source](https://github.com/owenthereal/action-upterm/tree/42902ffb5244d6d63501c1daf4f4ec82884025f6/) · [Current source](https://github.com/owenthereal/action-upterm/tree/eec00cabd6cdaa61f61ca9f4939852fcfd2b285f/) · [Upstream code diff](https://github.com/owenthereal/action-upterm/compare/42902ffb5244d6d63501c1daf4f4ec82884025f6...eec00cabd6cdaa61f61ca9f4939852fcfd2b285f)
+[Previous source](https://github.com/owenthereal/action-upterm/tree/eec00cabd6cdaa61f61ca9f4939852fcfd2b285f/) · [Current source](https://github.com/owenthereal/action-upterm/tree/41ec120391a17f0dbc38ba074d19245e925855bf/) · [Upstream code diff](https://github.com/owenthereal/action-upterm/compare/eec00cabd6cdaa61f61ca9f4939852fcfd2b285f...41ec120391a17f0dbc38ba074d19245e925855bf)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: upterm-version | {&quot;description&quot;: &quot;Upterm version/tag to install (e.g., v0.30.0). Requires v0.30.0 or newer. Defaults to latest when unset.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Upterm version/tag to install (e.g., v0.32.0). Requires v0.32.0 or newer. Defaults to latest when unset.&quot;, &quot;required&quot;: false} |
-| Input: wait-timeout-minutes | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Integer number of minutes to wait for user to connect before shutting down server. In detached mode, the countdown starts after all regular steps finish. Once a user connects, the server will stay up.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Integer number of minutes to wait for a guest to join before upterm ends the session. Attached mode: unset or 0 means no timeout. Detached mode: counted from when all regular steps finish; unset or 0 means 10. Once a guest has joined, the session stays up until it ends.&quot;, &quot;required&quot;: false} |
-| Selected SHA | 42902ffb5244d6d63501c1daf4f4ec82884025f6 | eec00cabd6cdaa61f61ca9f4939852fcfd2b285f |
-| Selected tag | v1.16.0 | v2.2.0 |
+| Input: known-hosts | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;known\_hosts entry for the upterm server, pinning its host key. Required when upterm-server is not the default. The default server&#x27;s key is bundled with the action. A relay that presents a host certificate needs an &#x27;@cert-authority &lt;host&gt; &lt;type&gt; &lt;key&gt;&#x27; line.&quot;, &quot;required&quot;: false} |
+| Selected SHA | eec00cabd6cdaa61f61ca9f4939852fcfd2b285f | 41ec120391a17f0dbc38ba074d19245e925855bf |
+| Selected tag | v2.2.0 | v2.3.0 |
 
-## pypa/cibuildwheel
+## renovatebot/github-action
 
-[Previous source](https://github.com/pypa/cibuildwheel) · [Current source](https://github.com/pypa/cibuildwheel/tree/e090b81e30c4d855ea63bf4b6e59204c09a101ae/)
+[Previous source](https://github.com/renovatebot/github-action/tree/f3a31a786096ba6b40d0f0ffe11a494ef73bfa7c/) · [Current source](https://github.com/renovatebot/github-action/tree/1cd96b855fee0da6f230617e89dbff0e06ea393a/) · [Upstream code diff](https://github.com/renovatebot/github-action/compare/f3a31a786096ba6b40d0f0ffe11a494ef73bfa7c...1cd96b855fee0da6f230617e89dbff0e06ea393a)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: config-file | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;File containing the config, defaults to {package}/pyproject.toml&quot;, &quot;required&quot;: false} |
-| Input: extras | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Comma-separated list of extras to install&quot;, &quot;required&quot;: false} |
-| Input: only | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Build a specific wheel only. No need for arch/platform if this is set&quot;, &quot;required&quot;: false} |
-| Input: output-dir | null | {&quot;default&quot;: &quot;wheelhouse&quot;, &quot;description&quot;: &quot;Folder to place the outputs in, defaults to \\&quot;wheelhouse\\&quot;&quot;, &quot;required&quot;: false} |
-| Input: package-dir | null | {&quot;default&quot;: &quot;.&quot;, &quot;description&quot;: &quot;Input directory, defaults to \\&quot;.\\&quot;&quot;, &quot;required&quot;: false} |
+| Selected SHA | f3a31a786096ba6b40d0f0ffe11a494ef73bfa7c | 1cd96b855fee0da6f230617e89dbff0e06ea393a |
+| Selected tag | v46.3.4 | v46.3.5 |
+
+## shaftoe/pi-coding-agent-action
+
+[Previous source](https://github.com/shaftoe/pi-coding-agent-action/tree/8faf601af3a91f4526c8fc0f4b50cea0ef67b5d4/) · [Current source](https://github.com/shaftoe/pi-coding-agent-action/tree/babaa1a909dd7021abc538be6f20c1757b3b8fb7/) · [Upstream code diff](https://github.com/shaftoe/pi-coding-agent-action/compare/8faf601af3a91f4526c8fc0f4b50cea0ef67b5d4...babaa1a909dd7021abc538be6f20c1757b3b8fb7)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: refresh\_model\_catalog | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Whether to refresh the provider&#x27;s model catalog from pi.dev at startup so models newer than the bundled SDK resolve. Set to \`false\` to skip the network round-trip and shorten boot time (the bundled model list is used instead).&quot;, &quot;required&quot;: false} |
+| Selected SHA | 8faf601af3a91f4526c8fc0f4b50cea0ef67b5d4 | babaa1a909dd7021abc538be6f20c1757b3b8fb7 |
+| Selected tag | v2.29.0 | v2.29.1 |
+
+## suzuki-shunsuke/tfaction
+
+[Previous source](https://github.com/suzuki-shunsuke/tfaction/tree/9fdf06dabe8e3d9acb003939af57e477a0d3090e/) · [Current source](https://github.com/suzuki-shunsuke/tfaction/tree/935e0d2db39178f46045c678519a05eefb5c4f52/) · [Upstream code diff](https://github.com/suzuki-shunsuke/tfaction/compare/9fdf06dabe8e3d9acb003939af57e477a0d3090e...935e0d2db39178f46045c678519a05eefb5c4f52)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 9fdf06dabe8e3d9acb003939af57e477a0d3090e | 935e0d2db39178f46045c678519a05eefb5c4f52 |
+| Selected tag | v2.2.0 | v2.3.0 |
+
+## upsidr/merge-gatekeeper
+
+[Previous source](https://github.com/upsidr/merge-gatekeeper) · [Current source](https://github.com/upsidr/merge-gatekeeper/tree/09af7a82c1666d0e64d2bd8c01797a0bcfd3bb5d/)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: ignored | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;set ignored jobs (comma-separated list)&quot;, &quot;required&quot;: false} |
+| Input: interval | null | {&quot;default&quot;: &quot;5&quot;, &quot;description&quot;: &quot;set validate interval second (default 5)&quot;, &quot;required&quot;: false} |
+| Input: ref | null | {&quot;default&quot;: &quot;${{ github.event.pull\_request.head.sha }}&quot;, &quot;description&quot;: &quot;set ref of github repository. the ref can be a SHA, a branch name, or tag name&quot;, &quot;required&quot;: false} |
+| Input: self | null | {&quot;default&quot;: &quot;merge-gatekeeper&quot;, &quot;description&quot;: &quot;set self job name&quot;, &quot;required&quot;: false} |
+| Input: timeout | null | {&quot;default&quot;: &quot;600&quot;, &quot;description&quot;: &quot;set validate timeout second (default 600)&quot;, &quot;required&quot;: false} |
+| Input: token | null | {&quot;description&quot;: &quot;set github token&quot;, &quot;required&quot;: true} |
 | Observed stability | null | observed |
 | Outputs | null | \[\] |
-| Runtime | null | composite |
+| Runtime | null | docker |
 | Security | unknown | clean |
-| Selected SHA | null | e090b81e30c4d855ea63bf4b6e59204c09a101ae |
-| Selected tag | null | v4.2.1 |
-
-## rjstone/discord-webhook-notify
-
-[Previous source](https://github.com/rjstone/discord-webhook-notify) · [Current source](https://github.com/rjstone/discord-webhook-notify/tree/13eb215cbf853107dd9386c4a2f4035b7988cfc2/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: avatarUrl | null | {&quot;default&quot;: &quot;https://github.githubassets.com/images/modules/logos\_page/GitHub-Mark.png&quot;, &quot;description&quot;: &quot;URL to png of discord avatar to use. Default is the GitHub monochrome mark cat logo. May not work depending on Discord policy.\\n&quot;, &quot;required&quot;: false} |
-| Input: color | null | {&quot;description&quot;: &quot;Notification embed color in the form #rrggbb (hex). Default determined by severity.&quot;, &quot;required&quot;: false} |
-| Input: components | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;(EXPERIMENTAL) A YAML or JSON STRING containing RAW message components. This will get passed directly through to the Discord API with no checks, so you have to know what you&#x27;re doing. Not all components are available in webhook messages (since there is no bot/app on the other end). See https://discord.com/developers/docs/components/using-message-components Use \\&quot;\|\\&quot; to preserve whitespace if passing YAML. Note this is a STRING containing YAML or JSON.\\n&quot;, &quot;required&quot;: false} |
-| Input: content | null | {&quot;description&quot;: &quot;Text to be sent as normal Discord markdown text, as if a user had typed it. Defaults to empty string.&quot;, &quot;required&quot;: false} |
-| Input: description | null | {&quot;description&quot;: &quot;Embed notification message. Default provides some minimal github.context workflow info.&quot;, &quot;required&quot;: false} |
-| Input: details | null | {&quot;description&quot;: &quot;Additional text after the description in case you want to retain the default embed description. Defaults to empty string.\\n&quot;, &quot;required&quot;: false} |
-| Input: embeds | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;(EXPERIMENTAL) A YAML or JSON STRING containing RAW embeds. This will let you do anything but it will get passed directly through to the Discord API without any checks, so you have to know what you&#x27;re doing with it. Note that because of limitations on the Actions API, this must be a STRING containing the YAML or JSON. Use \\&quot;\|\\&quot; to preserve whitespace if passing YAML. See https://discord.com/developers/docs/resources/message#embed-object\\n&quot;, &quot;required&quot;: false} |
-| Input: flags | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A whitespace-separated list of MessageFlags. Supported values: SuppressNotifications, SuppressEmbeds, IsComponentsV2.\\n&quot;, &quot;required&quot;: false} |
-| Input: footer | null | {&quot;description&quot;: &quot;Footer for the embed. Defaults to long terminology severity.&quot;, &quot;required&quot;: false} |
-| Input: holddownTime | null | {&quot;default&quot;: &quot;3000&quot;, &quot;description&quot;: &quot;The minimum amount of time in miliseconds between successive notifications to avoid triggering Discord&#x27;s rate limiting.\\n&quot;, &quot;required&quot;: false} |
-| Input: imageUrl | null | {&quot;description&quot;: &quot;A URL to a large image for the embed. Default is no image.&quot;, &quot;required&quot;: false} |
-| Input: lockfileDir | null | {&quot;default&quot;: &quot;.&quot;, &quot;description&quot;: &quot;The directory where the lockfile used for saving last run time is stored.\\n&quot;, &quot;required&quot;: false} |
-| Input: processingOptions | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;(EXPERIMENTAL) Set to \\&quot;percentDecode\\&quot; if you want some inputs that are often multi-line strings to be run through \\&quot;percent decoding\\&quot; using decodeURIComponent(). This can be useful in cases where the output from another action should contain newlines, but won&#x27;t be preserved by the Workflow system if it does.\\n&quot;, &quot;required&quot;: false} |
-| Input: severity | null | {&quot;default&quot;: &quot;none&quot;, &quot;description&quot;: &quot;Severity level - info, warn, error, or none. Using \\&quot;none\\&quot; will cause no embed to be added. Using any other value will cause an embed with a set of matching defaults to be added. Defaults to \\&quot;none\\&quot; (no automatic embed created).\\n&quot;, &quot;required&quot;: false} |
-| Input: text | null | {&quot;description&quot;: &quot;This is an alias for &#x27;content&#x27; for backward compatibility. The Discord API calls this &#x27;content&#x27;, but for unknown reasons &#x27;text&#x27; was used in the past. If both &#x27;text&#x27; and &#x27;content&#x27; are set then &#x27;content&#x27; will be used and &#x27;text&#x27; will be ignored.\\n&quot;, &quot;required&quot;: false} |
-| Input: thumbnailUrl | null | {&quot;description&quot;: &quot;A URL to a thumbnail for the embed. Default is no image.&quot;, &quot;required&quot;: false} |
-| Input: title | null | {&quot;description&quot;: &quot;Title for the embed. Defaults to severity long terminology.&quot;, &quot;required&quot;: false} |
-| Input: username | null | {&quot;default&quot;: &quot;Notification (Github Actions)&quot;, &quot;description&quot;: &quot;Username to display in discord. Must be 2-32 chars long and can&#x27;t contain: @, #, :, \`\`\`, discord Also can&#x27;t be \\&quot;here\\&quot; or \\&quot;everyone\\&quot;, for obvious reasons.\\n&quot;, &quot;required&quot;: false} |
-| Input: webhookUrl | null | {&quot;description&quot;: &quot;Discord webhook URL. Should be stored in a repo secret (Settings&gt;Security&gt;Secrets) and inserted in the action call as a context expression.\\n&quot;, &quot;required&quot;: true} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | node20 |
-| Security | unknown | clean |
-| Selected SHA | null | 13eb215cbf853107dd9386c4a2f4035b7988cfc2 |
-| Selected tag | null | v2.3.0 |
-
-## taiki-e/install-action
-
-[Previous source](https://github.com/taiki-e/install-action/tree/9983c65e42da123ff25d1f78505eb6de315aa172/) · [Current source](https://github.com/taiki-e/install-action/tree/4cef1412cce204788f482e778a0b9187f9626a29/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/9983c65e42da123ff25d1f78505eb6de315aa172...4cef1412cce204788f482e778a0b9187f9626a29)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 9983c65e42da123ff25d1f78505eb6de315aa172 | 4cef1412cce204788f482e778a0b9187f9626a29 |
-| Selected tag | v2.87.20 | v2.87.21 |
-
-## tmatens/compose-lint
-
-[Previous source](https://github.com/tmatens/compose-lint/tree/adf00708734b772686337b69831c8e3912fa0ed4/) · [Current source](https://github.com/tmatens/compose-lint/tree/a6a7a76736de1c72abfa96c41ff8af556ffdc55f/) · [Upstream code diff](https://github.com/tmatens/compose-lint/compare/adf00708734b772686337b69831c8e3912fa0ed4...a6a7a76736de1c72abfa96c41ff8af556ffdc55f)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | adf00708734b772686337b69831c8e3912fa0ed4 | a6a7a76736de1c72abfa96c41ff8af556ffdc55f |
-| Selected tag | v0.30.0 | v0.31.0 |
-
-## uraimo/run-on-arch-action
-
-[Previous source](https://github.com/uraimo/run-on-arch-action/tree/460cb8e6d9f726a588fc9b5e681c8a6cab09ae41/) · [Current source](https://github.com/uraimo/run-on-arch-action/tree/fa1f3e7de95534497266c7265950b5188355fbfb/) · [Upstream code diff](https://github.com/uraimo/run-on-arch-action/compare/460cb8e6d9f726a588fc9b5e681c8a6cab09ae41...fa1f3e7de95534497266c7265950b5188355fbfb)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 460cb8e6d9f726a588fc9b5e681c8a6cab09ae41 | fa1f3e7de95534497266c7265950b5188355fbfb |
-| Selected tag | v3.2.0 | v3.2.1 |
-
-## vmactions/netbsd-vm
-
-[Previous source](https://github.com/vmactions/netbsd-vm/tree/876c34ff21c80ccbf67143b65f1cc5d843d510a4/) · [Current source](https://github.com/vmactions/netbsd-vm/tree/c8a0d7ddb84619a7a8cc4e652efa7950b3fd9f92/) · [Upstream code diff](https://github.com/vmactions/netbsd-vm/compare/876c34ff21c80ccbf67143b65f1cc5d843d510a4...c8a0d7ddb84619a7a8cc4e652efa7950b3fd9f92)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 876c34ff21c80ccbf67143b65f1cc5d843d510a4 | c8a0d7ddb84619a7a8cc4e652efa7950b3fd9f92 |
-| Selected tag | v1.5.1 | v1.5.2 |
+| Selected SHA | null | 09af7a82c1666d0e64d2bd8c01797a0bcfd3bb5d |
+| Selected tag | null | v1.2.1 |

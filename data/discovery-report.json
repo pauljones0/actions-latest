@@ -1,6 +1,6 @@
 {
   "admitted": [
-    "arduino/setup-task"
+    "lukka/get-cmake"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
@@ -106,8 +106,8 @@
       "status": "error"
     },
     "ITJoker233/BingPicApi": {
-      "checked_at": "2026-09-28T08:46:03.413383+00:00",
-      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@022d13a48a122d2c5c9c7426e2d1b9512eb02c08",
+      "checked_at": "2026-10-05T09:11:26.761166+00:00",
+      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@498653fa480b8f994b0a18e3b0cadf07ff8b3b56",
       "status": "rejected"
     },
     "Jackychen-12/AI-Search": {
@@ -157,8 +157,8 @@
       "status": "rejected"
     },
     "LindseyB/dummy": {
-      "checked_at": "2026-09-28T08:46:03.413383+00:00",
-      "reason": "No action.yml or action.yaml at LindseyB/dummy@8e204bbae0db7ceeeef0cbe2bb238209717b3912",
+      "checked_at": "2026-10-05T09:11:26.761166+00:00",
+      "reason": "No action.yml or action.yaml at LindseyB/dummy@5d322ca62d347e28fb8a2b969c29bc02d109aa56",
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
@@ -183,8 +183,8 @@
       "status": "rejected"
     },
     "ProxyScrape/free-proxy-list": {
-      "checked_at": "2026-09-28T08:46:03.413383+00:00",
-      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@7b95bf7eb2b15089ecf29f15875d0185b76df3ea",
+      "checked_at": "2026-10-05T09:11:26.761166+00:00",
+      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@3a48d0b567604e0aa548e3e27663fd0822fe1616",
       "status": "rejected"
     },
     "RamiKrispin/ai-dev-2024-ml-workshop": {
@@ -472,8 +472,8 @@
       "status": "rejected"
     },
     "docker/actions-toolkit": {
-      "checked_at": "2026-09-16T09:33:55.168839+00:00",
-      "reason": "No action.yml or action.yaml at docker/actions-toolkit@bb1de781b459e41bc1ccf549f04764bda0c90564",
+      "checked_at": "2026-10-05T09:11:26.761166+00:00",
+      "reason": "No action.yml or action.yaml at docker/actions-toolkit@1c23ee763a382127405df5821d59304737292848",
       "status": "rejected"
     },
     "duriantaco/skylos": {
@@ -587,8 +587,8 @@
       "status": "admitted"
     },
     "ipitio/backage": {
-      "checked_at": "2026-09-28T08:46:03.413383+00:00",
-      "reason": "No action.yml or action.yaml at ipitio/backage@1bafef45b06953351adeab882c5c70dcb01bbbfe",
+      "checked_at": "2026-10-05T09:11:26.761166+00:00",
+      "reason": "No action.yml or action.yaml at ipitio/backage@d3ee07f53a47d5887e736d614589bd979399fe9c",
       "status": "rejected"
     },
     "its-me-debk007/kotlin-android-mvvm-template": {
@@ -647,7 +647,7 @@
       "status": "rejected"
     },
     "kucherenko/jscpd": {
-      "checked_at": "2026-09-28T08:46:03.413383+00:00",
+      "checked_at": "2026-10-05T09:11:26.761166+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -672,6 +672,12 @@
       "checked_at": "2026-09-08T09:10:11.633765+00:00",
       "reason": "No action.yml or action.yaml at liudf0716/xfrpc@946b88a5328f09da1f3e91922d44b7403e8c4b5f",
       "status": "rejected"
+    },
+    "lukka/get-cmake": {
+      "checked_at": "2026-10-05T09:11:26.761166+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "c27d99ce94ac695ed0908f7a88571cc7987aa06f",
+      "status": "admitted"
     },
     "lukka/run-cmake": {
       "checked_at": "2026-09-09T09:14:54.525651+00:00",
@@ -810,8 +816,8 @@
       "status": "rejected"
     },
     "ram0verflow/ram0verflow": {
-      "checked_at": "2026-09-28T08:46:03.413383+00:00",
-      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@51ae6ff2dfb133974482ffe9cd2084f6490a7084",
+      "checked_at": "2026-10-05T09:11:26.761166+00:00",
+      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@db0ed542d7930227e5b6fd95b7b3918b14ec0849",
       "status": "rejected"
     },
     "redhat-plumbers-in-action/differential-shellcheck": {
@@ -850,8 +856,8 @@
       "status": "admitted"
     },
     "sandro2211/powerbi-ml-insight-engine": {
-      "checked_at": "2026-09-22T09:30:22.736679+00:00",
-      "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@0579e4893085f08b0748d50e6fa38528bfa26e66",
+      "checked_at": "2026-10-05T09:11:26.761166+00:00",
+      "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@ce434bad0ed09e2edcb4ac65ab07b99b395b9a18",
       "status": "rejected"
     },
     "sanitizers/octomachinery": {
@@ -963,6 +969,11 @@
       "source_sha": "2c9e7a64481c1a5ab6aa1ac7aac77823b67c1ee4",
       "status": "admitted"
     },
+    "v-fidelusaleksander/ghcertified": {
+      "checked_at": "2026-10-05T09:11:26.761166+00:00",
+      "reason": "No action.yml or action.yaml at v-fidelusaleksander/ghcertified@6459e0cf5a2e83b9e3e888eb87a23845c2ca2109",
+      "status": "rejected"
+    },
     "vidyabhandary/vidyabhandary": {
       "checked_at": "2026-09-12T08:52:56.533053+00:00",
       "reason": "No action.yml or action.yaml at vidyabhandary/vidyabhandary@0e5f2d1c6869296ae80c82c89d4e77c2db835fb8",
@@ -1015,7 +1026,7 @@
       "status": "admitted"
     },
     "zhongfly/mpv-winbuild": {
-      "checked_at": "2026-09-28T08:46:03.413383+00:00",
+      "checked_at": "2026-10-05T09:11:26.761166+00:00",
       "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@88bdc4db67bb476a7606921eb2d68b273440d59b",
       "status": "rejected"
     },
@@ -1025,7 +1036,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-04T10:46:40.614767+00:00",
+  "checked_at": "2026-10-05T09:11:26.761166+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 11
 }

@@ -1056,6 +1056,31 @@
     "reviewed_at": null
   },
   {
+    "action": "lukka/get-cmake",
+    "description": "Installs CMake and Ninja, and caches them on cloud based GitHub cache, and/or on the local GitHub runner cache.",
+    "category": "Discovered",
+    "tags": [
+      "build",
+      "cmake",
+      "continuous-integration",
+      "cplusplus",
+      "cpp",
+      "ninja",
+      "vcpkg"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/lukka/get-cmake/tree/c27d99ce94ac695ed0908f7a88571cc7987aa06f",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "lukka/run-cmake",
     "description": "Run CMake with CMakePreset.json to configure, build, package and test C/C++ source code.",
     "category": "Discovered",
