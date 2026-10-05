@@ -1,54 +1,74 @@
 {
   "changes": [
     {
-      "package": "pyjwt",
+      "package": "cryptography",
       "before": [
-        "2.14.0"
+        "50.0.1"
       ],
       "after": [
+        "50.0.2"
+      ]
+    },
+    {
+      "package": "pyjwt",
+      "before": [
         "2.15.0"
+      ],
+      "after": [
+        "2.15.1"
+      ]
+    },
+    {
+      "package": "python-dotenv",
+      "before": [
+        "1.2.3"
+      ],
+      "after": [
+        "1.2.4"
+      ]
+    },
+    {
+      "package": "rpds-py",
+      "before": [
+        "0.30.0",
+        "2026.6.3"
+      ],
+      "after": [
+        "0.30.0",
+        "2026.9.1"
       ]
     },
     {
       "package": "ruff",
       "before": [
-        "0.16.8"
+        "0.16.9"
       ],
       "after": [
-        "0.16.9"
+        "0.16.10"
       ]
     },
     {
-      "package": "starlette",
+      "package": "sse-starlette",
       "before": [
-        "1.6.0"
+        "3.4.11"
       ],
       "after": [
-        "1.7.0"
+        "3.5.0"
       ]
     },
     {
       "package": "uv",
       "before": [
-        "0.12.17"
-      ],
-      "after": [
         "0.12.19"
-      ]
-    },
-    {
-      "package": "uvicorn",
-      "before": [
-        "0.53.0"
       ],
       "after": [
-        "0.54.0"
+        "0.12.23"
       ]
     }
   ],
   "validated": true,
   "prepared": true,
-  "base_commit": "e8cfa5cc4798d96694a59ba79da8dfaaba34c7a3",
+  "base_commit": "4926fb354d8dd21478c016880737e24505e538c2",
   "held_tools": [],
-  "run_url": "https://github.com/pauljones0/actions-latest/actions/runs/36399219646"
+  "run_url": "https://github.com/pauljones0/actions-latest/actions/runs/37288290338"
 }
