@@ -51,7 +51,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/mikefarah/yq/tree/c14f446382944492701b16c1ddb48bb9dbe683e3/",
-    "stars": 16057
+    "stars": 16056
   },
   {
     "action": "super-linter/super-linter",
@@ -69,7 +69,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/anthropics/claude-code-action/tree/756cc22e19660d20e8cc9496b4f242475a7f7790/",
-    "stars": 9418
+    "stars": 9417
   },
   {
     "action": "actions/checkout",
@@ -78,7 +78,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/checkout/tree/3d3c42e5aac5ba805825da76410c181273ba90b1/",
-    "stars": 8936
+    "stars": 8935
   },
   {
     "action": "appleboy/ssh-action",
@@ -87,7 +87,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/appleboy/ssh-action/tree/0ff4204d59e8e51228ff73bce53f80d53301dee2/",
-    "stars": 6220
+    "stars": 6219
   },
   {
     "action": "Platane/snk",
@@ -222,7 +222,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/gautamkrishnar/blog-post-workflow/tree/f177491c77670f150ab4e9b9890254d8eba4164b/",
-    "stars": 3448
+    "stars": 3447
   },
   {
     "action": "dorny/paths-filter",
@@ -510,7 +510,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/aklofas/kicad-happy/tree/d5fd7da585fce7e59329b68fd065384216d4ff0a/",
-    "stars": 1331
+    "stars": 1332
   },
   {
     "action": "pnpm/action-setup",
@@ -564,7 +564,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/pullfrog/pullfrog/tree/99c5e781dd54463197d1109998386d37c84f6853/",
-    "stars": 1277
+    "stars": 1278
   },
   {
     "action": "step-security/harden-runner",
@@ -762,7 +762,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/astral-sh/setup-uv/tree/c18668ad3cf93ea998bef934396af7bb5c839dc7/",
-    "stars": 880
+    "stars": 881
   },
   {
     "action": "anothrNick/github-tag-action",
@@ -1311,7 +1311,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/TryGhost/action-deploy-theme/tree/b1ff2a5eeac1d5438a0aab35eb996fe4010d889e/",
-    "stars": 391
+    "stars": 390
   },
   {
     "action": "softprops/turnstyle",
@@ -4545,6 +4545,15 @@
     "stars": 12
   },
   {
+    "action": "aws-actions/aws-devicefarm-mobile-device-testing",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/tree/5a6c9fbb66ca99cb92ce07381c8be038f654eff6/",
+    "stars": 12
+  },
+  {
     "action": "lando/notarize-action",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
@@ -4552,15 +4561,6 @@
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/lando/notarize-action/tree/b5c3ef16cf2fbcf2af26dc58c90255ec242abeed/",
     "stars": 12
-  },
-  {
-    "action": "aws-actions/aws-devicefarm-mobile-device-testing",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/tree/5a6c9fbb66ca99cb92ce07381c8be038f654eff6/",
-    "stars": 11
   },
   {
     "action": "cringdahl/sharepoint-file-upload-action",

@@ -1,6 +1,7 @@
 {
   "admitted": [
-    "lukka/get-cmake"
+    "github-community-projects/contributors",
+    "mikepenz/xray-action"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
@@ -198,8 +199,8 @@
       "status": "rejected"
     },
     "RamiKrispin/useR2024-pipeline-workshop": {
-      "checked_at": "2026-09-28T11:16:37.963924+00:00",
-      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@30f038816bcdc4ba277a6db4dafa6fbc55564f31",
+      "checked_at": "2026-10-05T11:52:28.116974+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@e4c92a0bdec3f7f3af8247908cd619cdfc3fbbc2",
       "status": "rejected"
     },
     "Readme-Workflows/recent-activity": {
@@ -219,8 +220,8 @@
       "status": "rejected"
     },
     "Terrenceeeee/AI-frontend-engineering-starter": {
-      "checked_at": "2026-09-21T08:01:20.244752+00:00",
-      "reason": "No action.yml or action.yaml at Terrenceeeee/AI-frontend-engineering-starter@b36f2cb4a9eb28c6d198dae36e093ded6d2d9aa5",
+      "checked_at": "2026-10-05T11:52:28.116974+00:00",
+      "reason": "No action.yml or action.yaml at Terrenceeeee/AI-frontend-engineering-starter@8e0d41eafcdcb2cfaf8a7d169d542221d75fc4a5",
       "status": "rejected"
     },
     "Thordata/awesome-free-proxy-list": {
@@ -476,6 +477,11 @@
       "reason": "No action.yml or action.yaml at docker/actions-toolkit@1c23ee763a382127405df5821d59304737292848",
       "status": "rejected"
     },
+    "docker/github-builder": {
+      "checked_at": "2026-10-05T11:52:28.116974+00:00",
+      "reason": "No action.yml or action.yaml at docker/github-builder@1e7f549886905c4d146676f63b62a2e85384f579",
+      "status": "rejected"
+    },
     "duriantaco/skylos": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "scanner_version": "1.30.0",
@@ -532,6 +538,12 @@
       "checked_at": "2026-09-20T09:28:51.994264+00:00",
       "reason": "No action.yml or action.yaml at github-aws-runners/terraform-aws-github-runner@05984f6f9e322a8c019073eafb744c9e7e55f866",
       "status": "rejected"
+    },
+    "github-community-projects/contributors": {
+      "checked_at": "2026-10-05T11:52:28.116974+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "8845afc3fa1e7731cc0835583a3fdea6eaf4b3d7",
+      "status": "admitted"
     },
     "github/branch-deploy": {
       "checked_at": "2026-09-22T09:30:22.736679+00:00",
@@ -642,8 +654,8 @@
       "status": "admitted"
     },
     "kkzzhizhou/scoop-apps": {
-      "checked_at": "2026-09-28T11:16:37.963924+00:00",
-      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@ba3c34c5edeb55908ad254218422a0e98ae6bab1",
+      "checked_at": "2026-10-05T11:52:28.116974+00:00",
+      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@df532ac8c45feb7660ae283b5d85f61d82134f33",
       "status": "rejected"
     },
     "kucherenko/jscpd": {
@@ -664,8 +676,8 @@
       "status": "admitted"
     },
     "levnikolaevich/claude-code-skills": {
-      "checked_at": "2026-09-16T09:33:55.168839+00:00",
-      "reason": "No action.yml or action.yaml at levnikolaevich/claude-code-skills@298d9b9d587ec567e24dc6f5a96927ee99a390b4",
+      "checked_at": "2026-10-05T11:52:28.116974+00:00",
+      "reason": "No action.yml or action.yaml at levnikolaevich/claude-code-skills@0ce87969906ac3c00947298ee2127d9e7cd466d8",
       "status": "rejected"
     },
     "liudf0716/xfrpc": {
@@ -712,6 +724,12 @@
       "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@750e95e5374554f7a318a266f2addeb8304d8935",
       "status": "rejected"
     },
+    "mikepenz/xray-action": {
+      "checked_at": "2026-10-05T11:52:28.116974+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "06746d1e902629c5e22e5fea001c3dcbadaa914e",
+      "status": "admitted"
+    },
     "myrotvorets/set-commit-status-action": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "scanner_version": "1.30.0",
@@ -740,7 +758,7 @@
       "status": "admitted"
     },
     "philips-labs/slsa-provenance-action": {
-      "checked_at": "2026-09-21T08:01:20.244752+00:00",
+      "checked_at": "2026-10-05T11:52:28.116974+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -806,8 +824,8 @@
       "status": "admitted"
     },
     "r-lib/actions": {
-      "checked_at": "2026-09-21T08:01:20.244752+00:00",
-      "reason": "No action.yml or action.yaml at r-lib/actions@3a1a90f228ef385997a129f3a8b1e0f39b0203c8",
+      "checked_at": "2026-10-05T11:52:28.116974+00:00",
+      "reason": "No action.yml or action.yaml at r-lib/actions@6cf11da387d58095e7bd4ce3bcc075bd9aea9716",
       "status": "rejected"
     },
     "raeperd/realworld-springboot-java": {
@@ -943,8 +961,8 @@
       "status": "admitted"
     },
     "ubicloud/ubicloud": {
-      "checked_at": "2026-09-28T11:16:37.963924+00:00",
-      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@4a993c27ecc61637ed2337a5243bd981c6ea2fa4",
+      "checked_at": "2026-10-05T11:52:28.116974+00:00",
+      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@0a98691997b9d29fb655e090ca0862dfe1573212",
       "status": "rejected"
     },
     "ultralytics/actions": {
@@ -1031,12 +1049,12 @@
       "status": "rejected"
     },
     "ziwenhahaha/daily-paper-reader": {
-      "checked_at": "2026-09-09T09:14:54.525651+00:00",
-      "reason": "No action.yml or action.yaml at ziwenhahaha/daily-paper-reader@1e93324ac76c35cff7892458b1ac7e09f24f5c78",
+      "checked_at": "2026-10-05T11:52:28.116974+00:00",
+      "reason": "No action.yml or action.yaml at ziwenhahaha/daily-paper-reader@0d4701552bcc7b4e9b771db70836a3c453be9d5c",
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-05T09:11:26.761166+00:00",
+  "checked_at": "2026-10-05T11:52:28.116974+00:00",
   "errors": [],
   "inspected": 11
 }

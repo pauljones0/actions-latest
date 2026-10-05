@@ -722,6 +722,30 @@
     "reviewed_at": null
   },
   {
+    "action": "github-community-projects/contributors",
+    "description": "A GitHub Action to report out contributors and contributions to a repository or organization",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "contributors",
+      "hacktoberfest",
+      "ospo",
+      "python",
+      "sponsors"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/github-community-projects/contributors/tree/8845afc3fa1e7731cc0835583a3fdea6eaf4b3d7",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "github/branch-deploy",
     "description": "Enabling Branch Deployments through IssueOps with GitHub Actions",
     "category": "Discovered",
@@ -1177,6 +1201,36 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/Mic92/hestia/tree/caf58eecd9064d3f7c8b4a436ab16800e3df57e1",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "mikepenz/xray-action",
+    "description": "GitHub action to import test results into \"Xray\" - A complete Test Management tool for Jira.",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "automation",
+      "cd",
+      "ci",
+      "continuous-integration",
+      "hacktoberfest",
+      "jira",
+      "test",
+      "testing",
+      "testing-tools",
+      "workflow",
+      "xray"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/mikepenz/xray-action/tree/06746d1e902629c5e22e5fea001c3dcbadaa914e",
     "reviewed_sha": null,
     "reviewed_at": null
   },
