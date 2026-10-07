@@ -847,6 +847,23 @@
     "reviewed_at": null
   },
   {
+    "action": "Ilshidur/action-discord",
+    "description": "Outputs a message to Discord.",
+    "category": "Discovered",
+    "tags": [],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/Ilshidur/action-discord/tree/d2594079a10f1d6739ee50a2471f0ca57418b554",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "int128/datadog-actions-metrics",
     "description": "submit metrics of GitHub Actions to Datadog",
     "category": "Discovered",

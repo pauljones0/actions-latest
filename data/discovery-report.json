@@ -1,5 +1,7 @@
 {
-  "admitted": [],
+  "admitted": [
+    "Ilshidur/action-discord"
+  ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-10-04T10:46:40.614767+00:00",
@@ -107,6 +109,12 @@
       "checked_at": "2026-10-05T09:11:26.761166+00:00",
       "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@498653fa480b8f994b0a18e3b0cadf07ff8b3b56",
       "status": "rejected"
+    },
+    "Ilshidur/action-discord": {
+      "checked_at": "2026-10-07T11:23:06.040880+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "d2594079a10f1d6739ee50a2471f0ca57418b554",
+      "status": "admitted"
     },
     "Jackychen-12/AI-Search": {
       "checked_at": "2026-09-30T10:46:22.012766+00:00",
@@ -491,8 +499,8 @@
       "status": "admitted"
     },
     "eyupio/zoomies": {
-      "checked_at": "2026-09-30T10:46:22.012766+00:00",
-      "reason": "No action.yml or action.yaml at eyupio/zoomies@a07c744bea1b65023be79c6554e39a7bea3aaca0",
+      "checked_at": "2026-10-07T11:23:06.040880+00:00",
+      "reason": "No action.yml or action.yaml at eyupio/zoomies@dd82ef5e22bfd650f1256b286fc96d2da4b59a8f",
       "status": "rejected"
     },
     "f/wvw.dev": {
@@ -574,13 +582,13 @@
       "status": "rejected"
     },
     "hect0x7/JMComic-APK": {
-      "checked_at": "2026-09-17T09:40:57.309160+00:00",
-      "reason": "No action.yml or action.yaml at hect0x7/JMComic-APK@a19710211d05241cb770f715c4f46710baa14d83",
+      "checked_at": "2026-10-07T11:23:06.040880+00:00",
+      "reason": "No action.yml or action.yaml at hect0x7/JMComic-APK@39f907e53b3136ec059f172f5e244485d576c5a7",
       "status": "rejected"
     },
     "hect0x7/JMComic-Crawler-Python": {
-      "checked_at": "2026-09-28T11:16:37.963924+00:00",
-      "reason": "No action.yml or action.yaml at hect0x7/JMComic-Crawler-Python@5a3f627cea76030886f3da452ffb8ec7a540a0bb",
+      "checked_at": "2026-10-07T11:23:06.040880+00:00",
+      "reason": "No action.yml or action.yaml at hect0x7/JMComic-Crawler-Python@69afe2c38d09960fd43031826af19095f75a42a2",
       "status": "rejected"
     },
     "hermes-labs-ai/lintlang": {
@@ -776,8 +784,8 @@
       "status": "rejected"
     },
     "pmndrs/docs": {
-      "checked_at": "2026-09-30T10:46:22.012766+00:00",
-      "reason": "No action.yml or action.yaml at pmndrs/docs@df4fa242db587e5c86977a35f525010b82bc6fa9",
+      "checked_at": "2026-10-07T11:23:06.040880+00:00",
+      "reason": "No action.yml or action.yaml at pmndrs/docs@96b1fd7825e2da2b32c1d894a8512287becc089f",
       "status": "rejected"
     },
     "poetries/poetries.github.io": {
@@ -824,6 +832,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "65e975c6448e701770da0d9cfe9f0038a7ff29c8",
       "status": "admitted"
+    },
+    "qoomon/starlines": {
+      "checked_at": "2026-10-07T11:23:06.040880+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
     },
     "r-lib/actions": {
       "checked_at": "2026-10-05T11:52:28.116974+00:00",
@@ -919,9 +932,14 @@
       "reason": "No action.yml or action.yaml at some-natalie/kubernoodles@3abcb23bf2c60d10f7eb501726c3c3f5982b059e",
       "status": "rejected"
     },
+    "sorenlouv/backport": {
+      "checked_at": "2026-10-07T11:23:06.040880+00:00",
+      "reason": "No action.yml or action.yaml at sorenlouv/backport@f28b3199d611dfaf426839fce5b093cfde9407d2",
+      "status": "rejected"
+    },
     "stategraph/stategraph": {
-      "checked_at": "2026-09-28T11:16:37.963924+00:00",
-      "reason": "No action.yml or action.yaml at stategraph/stategraph@0449c4af02b247883a92ce5f895e21ae6d241b8e",
+      "checked_at": "2026-10-07T11:23:06.040880+00:00",
+      "reason": "No action.yml or action.yaml at stategraph/stategraph@21b42bcd9fa87d847a60d72c75d0a4138aaeaeff",
       "status": "rejected"
     },
     "step-security/agent": {
@@ -961,6 +979,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "32a3c4cd9313ad519f262b32cdd09ebcc7305f47",
       "status": "admitted"
+    },
+    "typesafegithub/github-workflows-kt": {
+      "checked_at": "2026-10-07T11:23:06.040880+00:00",
+      "reason": "No action.yml or action.yaml at typesafegithub/github-workflows-kt@7f83d6dd8b709690ef38c12889218c29c128500c",
+      "status": "rejected"
     },
     "ubicloud/ubicloud": {
       "checked_at": "2026-10-05T11:52:28.116974+00:00",
@@ -1056,7 +1079,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-06T11:33:12.470763+00:00",
+  "checked_at": "2026-10-07T11:23:06.040880+00:00",
   "errors": [],
-  "inspected": 5
+  "inspected": 9
 }
