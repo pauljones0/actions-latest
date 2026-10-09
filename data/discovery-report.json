@@ -1,5 +1,8 @@
 {
-  "admitted": [],
+  "admitted": [
+    "openqodex/openqodex",
+    "cycjimmy/semantic-release-action"
+  ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-10-04T10:46:40.614767+00:00",
@@ -166,8 +169,8 @@
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
-      "checked_at": "2026-10-02T10:45:29.005451+00:00",
-      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@52f64a80b24d2923390e254bde60e7f76508ccf2",
+      "checked_at": "2026-10-09T11:32:08.649652+00:00",
+      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@22fbf37b49706d0d29014792d672bb506fc26115",
       "status": "rejected"
     },
     "Mic92/hestia": {
@@ -177,8 +180,8 @@
       "status": "admitted"
     },
     "MohammadBahemmat/V2ray-Collector": {
-      "checked_at": "2026-10-02T10:45:29.005451+00:00",
-      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@fac95c6e43b5bc9698f8497de3d1bee8894a0f28",
+      "checked_at": "2026-10-09T11:32:08.649652+00:00",
+      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@dbb1f21c132b0a7383b87030431ec37c4fae2db7",
       "status": "rejected"
     },
     "Pradumnasaraf/DevOps": {
@@ -320,6 +323,11 @@
       "source_sha": "bf7a15678b8ed0963fc9a1e9b68f5946a2fc1871",
       "status": "admitted"
     },
+    "angular-schule/angular-cli-ghpages": {
+      "checked_at": "2026-10-09T11:32:08.649652+00:00",
+      "reason": "No action.yml or action.yaml at angular-schule/angular-cli-ghpages@a77bf049debf305ecd66650937392e0203d025c7",
+      "status": "rejected"
+    },
     "apisec-inc/AI-Surface": {
       "checked_at": "2026-09-22T09:30:22.736679+00:00",
       "scanner_version": "1.30.1",
@@ -364,8 +372,8 @@
       "status": "admitted"
     },
     "bitscoper/bitscoper_cyberkit": {
-      "checked_at": "2026-10-02T10:45:29.005451+00:00",
-      "reason": "No action.yml or action.yaml at bitscoper/bitscoper_cyberkit@df425a38f22f82f1d347edf9c07f8056c803ae62",
+      "checked_at": "2026-10-09T11:32:08.649652+00:00",
+      "reason": "No action.yml or action.yaml at bitscoper/bitscoper_cyberkit@b618bca7a727132efcb0d7b499d68f29f2167127",
       "status": "rejected"
     },
     "calibreapp/image-actions": {
@@ -438,6 +446,12 @@
       "checked_at": "2026-10-06T11:33:12.470763+00:00",
       "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@662e6ce27df2c5944a59c45e4a6921f3159bbf90",
       "status": "rejected"
+    },
+    "cycjimmy/semantic-release-action": {
+      "checked_at": "2026-10-09T11:32:08.649652+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "7261f53f41d97434955b6ca5e26a2b0805f0cba2",
+      "status": "admitted"
     },
     "danielroe/provenance-action": {
       "checked_at": "2026-09-07T09:46:50.517175+00:00",
@@ -769,6 +783,12 @@
       "reason": "No action.yml or action.yaml at oasdiff/oasdiff@3c1bb05fcc64a475852df68745847589791d41dd",
       "status": "rejected"
     },
+    "openqodex/openqodex": {
+      "checked_at": "2026-10-09T11:32:08.649652+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "49527d3c392805e79e8d43dfd171d44089ab01d1",
+      "status": "admitted"
+    },
     "owenthereal/action-upterm": {
       "checked_at": "2026-09-23T09:35:06.503212+00:00",
       "scanner_version": "1.30.1",
@@ -1087,7 +1107,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-08T11:39:09.899533+00:00",
+  "checked_at": "2026-10-09T11:32:08.649652+00:00",
   "errors": [],
-  "inspected": 7
+  "inspected": 6
 }

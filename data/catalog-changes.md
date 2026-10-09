@@ -1,195 +1,249 @@
 # Latest catalog changes
 
-20 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+23 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+
+## actions/upload-code-coverage
+
+[Previous source](https://github.com/actions/upload-code-coverage/tree/bfa741d815a28cb064a8e3a0837e577457a017d5/) · [Current source](https://github.com/actions/upload-code-coverage/tree/2b21a77928be8d5168c2b9581a67f2adbebacc52/) · [Upstream code diff](https://github.com/actions/upload-code-coverage/compare/bfa741d815a28cb064a8e3a0837e577457a017d5...2b21a77928be8d5168c2b9581a67f2adbebacc52)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | bfa741d815a28cb064a8e3a0837e577457a017d5 | 2b21a77928be8d5168c2b9581a67f2adbebacc52 |
+| Selected tag | v1.4.3 | v1.4.4 |
+
+## amyu/setup-android
+
+[Previous source](https://github.com/amyu/setup-android) · [Current source](https://github.com/amyu/setup-android/tree/09345fc2cbed5b3a92beea84d843a22eac6cc841/)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: build-tools-version | null | {&quot;description&quot;: &quot;Android SDK Build Tools version(s) to install&quot;, &quot;required&quot;: false} |
+| Input: cache-disabled | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Disable Android SDK caching&quot;, &quot;required&quot;: false} |
+| Input: cache-key | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Custom Android SDK cache key&quot;, &quot;required&quot;: false} |
+| Input: cmake-version | null | {&quot;description&quot;: &quot;CMake version to install&quot;, &quot;required&quot;: false} |
+| Input: command-line-tools-version | null | {&quot;default&quot;: &quot;15859902&quot;, &quot;description&quot;: &quot;Android command-line tools package revision&quot;, &quot;required&quot;: false} |
+| Input: generate-job-summary | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Generate an Android SDK job summary&quot;, &quot;required&quot;: false} |
+| Input: job-status | null | {&quot;default&quot;: &quot;${{ job.status }}&quot;, &quot;description&quot;: &quot;Workaround to pass job status to post job step. This variable is not intended for manual setting&quot;} |
+| Input: ndk-version | null | {&quot;description&quot;: &quot;Android NDK version to install&quot;, &quot;required&quot;: false} |
+| Input: sdk-version | null | {&quot;default&quot;: &quot;37.0&quot;, &quot;description&quot;: &quot;Android SDK API level(s) or published codename-based platform suffix(es) to install&quot;, &quot;required&quot;: false} |
+| Observed stability | null | observed |
+| Outputs | null | \[\] |
+| Runtime | null | node24 |
+| Security | unknown | clean |
+| Selected SHA | null | 09345fc2cbed5b3a92beea84d843a22eac6cc841 |
+| Selected tag | null | v6.0 |
 
 ## anthropics/claude-code-action
 
-[Previous source](https://github.com/anthropics/claude-code-action/tree/fd1c128679612beff4ca259c78021c506e8aa7a7/) · [Current source](https://github.com/anthropics/claude-code-action/tree/12dd8d74c712f5f3669365b2369b558c495b1104/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/fd1c128679612beff4ca259c78021c506e8aa7a7...12dd8d74c712f5f3669365b2369b558c495b1104)
+[Previous source](https://github.com/anthropics/claude-code-action/tree/12dd8d74c712f5f3669365b2369b558c495b1104/) · [Current source](https://github.com/anthropics/claude-code-action/tree/97c53473391bff1901034d4b454b5bac7ab7a029/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/12dd8d74c712f5f3669365b2369b558c495b1104...97c53473391bff1901034d4b454b5bac7ab7a029)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | fd1c128679612beff4ca259c78021c506e8aa7a7 | 12dd8d74c712f5f3669365b2369b558c495b1104 |
-| Selected tag | v1.0.237 | v1.0.238 |
-
-## apple-actions/upload-testflight-build
-
-[Previous source](https://github.com/apple-actions/upload-testflight-build/tree/1fc69ca369a60b813eaaa2d936eda22794b52e17/) · [Current source](https://github.com/apple-actions/upload-testflight-build/tree/14df18fee5a4ff3b76971dd382f033494a0194e9/) · [Upstream code diff](https://github.com/apple-actions/upload-testflight-build/compare/1fc69ca369a60b813eaaa2d936eda22794b52e17...14df18fee5a4ff3b76971dd382f033494a0194e9)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 1fc69ca369a60b813eaaa2d936eda22794b52e17 | 14df18fee5a4ff3b76971dd382f033494a0194e9 |
-| Selected tag | v5.4.0 | v5.5.0 |
+| Selected SHA | 12dd8d74c712f5f3669365b2369b558c495b1104 | 97c53473391bff1901034d4b454b5bac7ab7a029 |
+| Selected tag | v1.0.238 | v1.0.239 |
 
 ## asklokesh/loki-mode
 
-[Previous source](https://github.com/asklokesh/loki-mode/tree/21b7becda67fa6742e1151e461e3a21d0c064d71/) · [Current source](https://github.com/asklokesh/loki-mode/tree/ee3e4c1fd606ddec4625c5a090e12fc4f5ba3489/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/21b7becda67fa6742e1151e461e3a21d0c064d71...ee3e4c1fd606ddec4625c5a090e12fc4f5ba3489)
+[Previous source](https://github.com/asklokesh/loki-mode/tree/ee3e4c1fd606ddec4625c5a090e12fc4f5ba3489/) · [Current source](https://github.com/asklokesh/loki-mode/tree/456058bae0678ad3b7347c9b6fec9bdf7625bc79/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/ee3e4c1fd606ddec4625c5a090e12fc4f5ba3489...456058bae0678ad3b7347c9b6fec9bdf7625bc79)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 21b7becda67fa6742e1151e461e3a21d0c064d71 | ee3e4c1fd606ddec4625c5a090e12fc4f5ba3489 |
-| Selected tag | v10.5.5 | v10.5.29 |
+| Selected SHA | ee3e4c1fd606ddec4625c5a090e12fc4f5ba3489 | 456058bae0678ad3b7347c9b6fec9bdf7625bc79 |
+| Selected tag | v10.5.29 | v10.6.6 |
 
-## Azure/aks-set-context
+## Added: cycjimmy/semantic-release-action
 
-[Previous source](https://github.com/Azure/aks-set-context/tree/60623acbdcbbdcf799ad50a1adf8703874339f8b/) · [Current source](https://github.com/Azure/aks-set-context/tree/883bdc8d8d1d0fd87e66cc4ba6f0b618f9eb5281/) · [Upstream code diff](https://github.com/Azure/aks-set-context/compare/60623acbdcbbdcf799ad50a1adf8703874339f8b...883bdc8d8d1d0fd87e66cc4ba6f0b618f9eb5281)
+[Source](https://github.com/cycjimmy/semantic-release-action) — GitHub Action for Semantic Release
 
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 60623acbdcbbdcf799ad50a1adf8703874339f8b | 883bdc8d8d1d0fd87e66cc4ba6f0b618f9eb5281 |
-| Selected tag | v5.0.0 | v5.0.1 |
-
-## Azure/load-testing
-
-[Previous source](https://github.com/Azure/load-testing/tree/fa7ee8f7becd06447f042734b6446e8f6fd65f0f/) · [Current source](https://github.com/Azure/load-testing/tree/575d8931b92662596940eb75c9eca346dd785813/) · [Upstream code diff](https://github.com/Azure/load-testing/compare/fa7ee8f7becd06447f042734b6446e8f6fd65f0f...575d8931b92662596940eb75c9eca346dd785813)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | fa7ee8f7becd06447f042734b6446e8f6fd65f0f | 575d8931b92662596940eb75c9eca346dd785813 |
-| Selected tag | v1.2.6 | v1.2.7 |
-
-## bridgecrewio/checkov-action
-
-[Previous source](https://github.com/bridgecrewio/checkov-action/tree/2f9fbe2d1e51440f8f5c42abc829aad8e9e4faab/) · [Current source](https://github.com/bridgecrewio/checkov-action/tree/cc0e17d456ef1713bbfd963ebac19dc776775cb2/) · [Upstream code diff](https://github.com/bridgecrewio/checkov-action/compare/2f9fbe2d1e51440f8f5c42abc829aad8e9e4faab...cc0e17d456ef1713bbfd963ebac19dc776775cb2)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 2f9fbe2d1e51440f8f5c42abc829aad8e9e4faab | cc0e17d456ef1713bbfd963ebac19dc776775cb2 |
-| Selected tag | v12.3127.0 | v12.3128.0 |
-
-## coursier/setup-action
-
-[Previous source](https://github.com/coursier/setup-action/tree/3174df5c784a0c8724f06b7924b849551c40c39e/) · [Current source](https://github.com/coursier/setup-action/tree/648df969f41ef15fda2baba8b37f9fa3d16390a3/) · [Upstream code diff](https://github.com/coursier/setup-action/compare/3174df5c784a0c8724f06b7924b849551c40c39e...648df969f41ef15fda2baba8b37f9fa3d16390a3)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 3174df5c784a0c8724f06b7924b849551c40c39e | 648df969f41ef15fda2baba8b37f9fa3d16390a3 |
-| Selected tag | v3.0.3 | v3.0.4 |
-
-## docker/scout-action
-
-[Previous source](https://github.com/docker/scout-action/tree/7c6b6c3f7844478ace1ffd4e7aef649053d1f87d/) · [Current source](https://github.com/docker/scout-action/tree/221e7f4860634eeb1579e3bd7ca232e577bd1864/) · [Upstream code diff](https://github.com/docker/scout-action/compare/7c6b6c3f7844478ace1ffd4e7aef649053d1f87d...221e7f4860634eeb1579e3bd7ca232e577bd1864)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 7c6b6c3f7844478ace1ffd4e7aef649053d1f87d | 221e7f4860634eeb1579e3bd7ca232e577bd1864 |
-| Selected tag | v1.24.0 | v1.26.0 |
+New entries still require observed stability and fresh scan evidence before usage.
 
 ## duriantaco/skylos
 
-[Previous source](https://github.com/duriantaco/skylos/tree/2ceffe2bc8b35f5f5cf948bb5021e7f2271b0ae4/) · [Current source](https://github.com/duriantaco/skylos/tree/d12b3785bb85e3593bec5e66f06048c6ded568cb/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/2ceffe2bc8b35f5f5cf948bb5021e7f2271b0ae4...d12b3785bb85e3593bec5e66f06048c6ded568cb)
+[Previous source](https://github.com/duriantaco/skylos/tree/d12b3785bb85e3593bec5e66f06048c6ded568cb/) · [Current source](https://github.com/duriantaco/skylos/tree/fc5fffd2bad9ebeb2c215b140868c9b84a4751be/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/d12b3785bb85e3593bec5e66f06048c6ded568cb...fc5fffd2bad9ebeb2c215b140868c9b84a4751be)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 2ceffe2bc8b35f5f5cf948bb5021e7f2271b0ae4 | d12b3785bb85e3593bec5e66f06048c6ded568cb |
-| Selected tag | v4.43.0 | v4.43.1 |
+| Selected SHA | d12b3785bb85e3593bec5e66f06048c6ded568cb | fc5fffd2bad9ebeb2c215b140868c9b84a4751be |
+| Selected tag | v4.43.1 | v4.43.2 |
 
-## Flow-Scanner/lightning-flow-scanner
+## github-community-projects/issue-metrics
 
-[Previous source](https://github.com/Flow-Scanner/lightning-flow-scanner) · [Current source](https://github.com/Flow-Scanner/lightning-flow-scanner/tree/82099739b1880fd187fb6234b491c0f3f07fedb9/)
+[Previous source](https://github.com/github-community-projects/issue-metrics/tree/a7dc2fb675661e208d4fc6fa321a6b95fc4a06f9/) · [Current source](https://github.com/github-community-projects/issue-metrics/tree/671528652402b9b8a33da44b5c693b3161bc090f/) · [Upstream code diff](https://github.com/github-community-projects/issue-metrics/compare/a7dc2fb675661e208d4fc6fa321a6b95fc4a06f9...671528652402b9b8a33da44b5c693b3161bc090f)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: GITHUB\_TOKEN | null | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;GitHub token for API access&quot;, &quot;required&quot;: false} |
-| Input: betaMode | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Enable beta rules at run-time (experimental)&quot;, &quot;required&quot;: false} |
-| Input: branch | null | {&quot;description&quot;: &quot;Branch to scan (defaults to event branch or repository default)&quot;, &quot;required&quot;: false} |
-| Input: categories | null | {&quot;description&quot;: &quot;Filter rules by category (problem, suggestion, layout). Comma or space-separated.&quot;, &quot;required&quot;: false} |
-| Input: config | null | {&quot;description&quot;: &quot;Path to configuration file (e.g., .flow-scanner.yaml)&quot;, &quot;required&quot;: false} |
-| Input: sarif-only | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Only generate SARIF (no structured output). Fails on any violation.&quot;, &quot;required&quot;: false} |
-| Input: threshold | null | {&quot;description&quot;: &quot;Filter results by minimum severity (error, warning, note, never). Config file takes precedence if not set.&quot;, &quot;required&quot;: false} |
+| Selected SHA | a7dc2fb675661e208d4fc6fa321a6b95fc4a06f9 | 671528652402b9b8a33da44b5c693b3161bc090f |
+| Selected tag | v5.0.2 | v5.0.3 |
+
+## github-community-projects/stale-repos
+
+[Previous source](https://github.com/github-community-projects/stale-repos/tree/c42a2821e3ef0cee1b1bc20b7eecbb2bfa7a83b4/) · [Current source](https://github.com/github-community-projects/stale-repos/tree/cd662591ad9d5d8967f84431eb94a45f828c1db3/) · [Upstream code diff](https://github.com/github-community-projects/stale-repos/compare/c42a2821e3ef0cee1b1bc20b7eecbb2bfa7a83b4...cd662591ad9d5d8967f84431eb94a45f828c1db3)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | c42a2821e3ef0cee1b1bc20b7eecbb2bfa7a83b4 | cd662591ad9d5d8967f84431eb94a45f828c1db3 |
+| Selected tag | v9.0.18 | v9.0.19 |
+
+## graalvm/setup-graalvm
+
+[Previous source](https://github.com/graalvm/setup-graalvm/tree/0426e2e191540e8514dff98dc52a5f5146a2a276/) · [Current source](https://github.com/graalvm/setup-graalvm/tree/27b360dbb857524eaf0b4c4cef364d38e5b4f173/) · [Upstream code diff](https://github.com/graalvm/setup-graalvm/compare/0426e2e191540e8514dff98dc52a5f5146a2a276...27b360dbb857524eaf0b4c4cef364d38e5b4f173)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 0426e2e191540e8514dff98dc52a5f5146a2a276 | 27b360dbb857524eaf0b4c4cef364d38e5b4f173 |
+| Selected tag | v1.6.6 | v1.6.7 |
+
+## jsdhwfmax/EvalForge
+
+[Previous source](https://github.com/jsdhwfmax/EvalForge) · [Current source](https://github.com/jsdhwfmax/EvalForge/tree/2f80674feb1f4c1ff2ec03aeb1933865670d6971/)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: baseline | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Optional path to a baseline artifact for delta checks.&quot;, &quot;required&quot;: false} |
+| Input: candidate | null | {&quot;description&quot;: &quot;Path to a candidate EvalForge artifact or flat JSON metric summary.&quot;, &quot;required&quot;: true} |
+| Input: job-summary | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Append the Markdown report to the GitHub job summary, including on failure.&quot;, &quot;required&quot;: false} |
+| Input: json-output | null | {&quot;default&quot;: &quot;evalforge-report.json&quot;, &quot;description&quot;: &quot;JSON gate report path.&quot;, &quot;required&quot;: false} |
+| Input: junit-output | null | {&quot;default&quot;: &quot;evalforge-junit.xml&quot;, &quot;description&quot;: &quot;JUnit XML report path.&quot;, &quot;required&quot;: false} |
+| Input: markdown-output | null | {&quot;default&quot;: &quot;evalforge-summary.md&quot;, &quot;description&quot;: &quot;Markdown gate summary path.&quot;, &quot;required&quot;: false} |
+| Input: policy | null | {&quot;description&quot;: &quot;Path to an EvalForge gate policy.&quot;, &quot;required&quot;: true} |
+| Input: python-version | null | {&quot;default&quot;: &quot;3.12&quot;, &quot;description&quot;: &quot;Python version used by the action.&quot;, &quot;required&quot;: false} |
+| Input: sarif-output | null | {&quot;default&quot;: &quot;evalforge.sarif&quot;, &quot;description&quot;: &quot;SARIF 2.1.0 report path.&quot;, &quot;required&quot;: false} |
 | Observed stability | null | observed |
-| Outputs | null | \[&quot;results&quot;, &quot;sarifPath&quot;, &quot;summary&quot;\] |
-| Runtime | null | node20 |
+| Outputs | null | \[&quot;exit-code&quot;, &quot;json-report&quot;, &quot;markdown-report&quot;\] |
+| Runtime | null | composite |
 | Security | unknown | clean |
-| Selected SHA | null | 82099739b1880fd187fb6234b491c0f3f07fedb9 |
-| Selected tag | null | v6.19.6 |
+| Selected SHA | null | 2f80674feb1f4c1ff2ec03aeb1933865670d6971 |
+| Selected tag | null | v0.5.0 |
 
-## jdx/mise-action
+## Added: openqodex/openqodex
 
-[Previous source](https://github.com/jdx/mise-action/tree/9149ea85001c7435d5a66bb127d6a1b6227cb0a5/) · [Current source](https://github.com/jdx/mise-action/tree/7a4e45a543138629540c9a1616d08632b893e492/) · [Upstream code diff](https://github.com/jdx/mise-action/compare/9149ea85001c7435d5a66bb127d6a1b6227cb0a5...7a4e45a543138629540c9a1616d08632b893e492)
+[Source](https://github.com/openqodex/openqodex) — AI code review and scanners for pull requests: SAST, secrets, dependencies, lint. Review needs your Anthropic key.
 
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 9149ea85001c7435d5a66bb127d6a1b6227cb0a5 | 7a4e45a543138629540c9a1616d08632b893e492 |
-| Selected tag | v5.0.0 | v5.0.1 |
-
-## launchdarkly/find-code-references
-
-[Previous source](https://github.com/launchdarkly/find-code-references/tree/3f782158d0ee6aec19291b232147e2f6c714f9ee/) · [Current source](https://github.com/launchdarkly/find-code-references/tree/5d95481114aab85ab56671002d11218cfc7f9b23/) · [Upstream code diff](https://github.com/launchdarkly/find-code-references/compare/3f782158d0ee6aec19291b232147e2f6c714f9ee...5d95481114aab85ab56671002d11218cfc7f9b23)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 3f782158d0ee6aec19291b232147e2f6c714f9ee | 5d95481114aab85ab56671002d11218cfc7f9b23 |
-| Selected tag | v2.18.0 | v2.18.3 |
-
-## mikepenz/release-changelog-builder-action
-
-[Previous source](https://github.com/mikepenz/release-changelog-builder-action/tree/cb021f9b36a51a7c6f18e4679b6fa2cb77a1260c/) · [Current source](https://github.com/mikepenz/release-changelog-builder-action/tree/aa013739bbc8e7067dbbecd4525ff11aeb51a84b/) · [Upstream code diff](https://github.com/mikepenz/release-changelog-builder-action/compare/cb021f9b36a51a7c6f18e4679b6fa2cb77a1260c...aa013739bbc8e7067dbbecd4525ff11aeb51a84b)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | cb021f9b36a51a7c6f18e4679b6fa2cb77a1260c | aa013739bbc8e7067dbbecd4525ff11aeb51a84b |
-| Selected tag | v6.3.0 | v6.4.0 |
+New entries still require observed stability and fresh scan evidence before usage.
 
 ## pullfrog/pullfrog
 
-[Previous source](https://github.com/pullfrog/pullfrog/tree/9d9014dffa1bc03e4f77b7a3474c5c6aa9a9602f/) · [Current source](https://github.com/pullfrog/pullfrog/tree/0d318bef8c7cf7ae3f193ef32b2bc74e1d94b4d1/) · [Upstream code diff](https://github.com/pullfrog/pullfrog/compare/9d9014dffa1bc03e4f77b7a3474c5c6aa9a9602f...0d318bef8c7cf7ae3f193ef32b2bc74e1d94b4d1)
+[Previous source](https://github.com/pullfrog/pullfrog/tree/0d318bef8c7cf7ae3f193ef32b2bc74e1d94b4d1/) · [Current source](https://github.com/pullfrog/pullfrog/tree/ed800018463e1b84e8e3377f662173aed1da98b0/) · [Upstream code diff](https://github.com/pullfrog/pullfrog/compare/0d318bef8c7cf7ae3f193ef32b2bc74e1d94b4d1...ed800018463e1b84e8e3377f662173aed1da98b0)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 9d9014dffa1bc03e4f77b7a3474c5c6aa9a9602f | 0d318bef8c7cf7ae3f193ef32b2bc74e1d94b4d1 |
-| Selected tag | v0.1.86 | v0.1.90 |
+| Selected SHA | 0d318bef8c7cf7ae3f193ef32b2bc74e1d94b4d1 | ed800018463e1b84e8e3377f662173aed1da98b0 |
+| Selected tag | v0.1.90 | v0.1.95 |
+
+## release-drafter/release-drafter
+
+[Previous source](https://github.com/release-drafter/release-drafter/tree/34d80673e067bdc0c24568d3af899c216adcfaa9/) · [Current source](https://github.com/release-drafter/release-drafter/tree/72967cdc98ddd3160f1fc3dff619de365e137dd0/) · [Upstream code diff](https://github.com/release-drafter/release-drafter/compare/34d80673e067bdc0c24568d3af899c216adcfaa9...72967cdc98ddd3160f1fc3dff619de365e137dd0)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Description | Drafts your next release notes as pull requests are merged into your branch(es). | Draft release notes when pull requests merge into a branch. |
+| Input: commitish | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The release target, i.e. branch, commit SHA, or fully qualified tag or pull request ref it should point to.\\nTag and pull request refs are resolved to commit SHAs.\\nPull request merge refs force dry-run mode and disable publishing because they point to ephemeral merge commits.\\nDefaults to the branch that release-drafter runs for, e.g. \`main\` when configured to run on pushes to \`main\`.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Release target. Use a branch, commit SHA, fully qualified tag, or pull request ref.\\nRelease Drafter resolves tag and pull request refs to commit SHAs.\\nA pull request merge ref forces dry-run mode because its merge commit is temporary.\\nDefault: the workflow branch.\\n&quot;, &quot;required&quot;: false} |
+| Input: config-name | {&quot;default&quot;: &quot;release-drafter.yml&quot;, &quot;description&quot;: &quot;If your workflow requires multiple release-drafter configs it be helpful to override the config-name.\\nThe config should still be located inside \`.github\` as that&#x27;s where we are looking for config files.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;release-drafter.yml&quot;, &quot;description&quot;: &quot;Release Drafter configuration target.\\nA relative path starts in the repository&#x27;s \`.github\` directory.\\n&quot;, &quot;required&quot;: false} |
+| Input: dry-run | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A boolean indicating whether to run without performing any write operations.\\nWhen enabled, the action logs what it would have done instead of creating or updating releases.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Prevents write operations. The action logs the proposed release operation.\\n&quot;, &quot;required&quot;: false} |
+| Input: filter-by-range | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Filter releases that satisfies this semver range. Evaluates the tag name againts node&#x27;s semver.satisfies().\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Filter releases whose tag names satisfy this SemVer range.\\n&quot;, &quot;required&quot;: false} |
+| Input: footer | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A string that would be added after the template body.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Text to add after the template body.\\n&quot;, &quot;required&quot;: false} |
+| Input: from | null | {&quot;description&quot;: &quot;Ref, tag, branch, or commit SHA to use as the change comparison baseline.\\nThis value does not select the release version or the draft release to update.\\n&quot;, &quot;required&quot;: false} |
+| Input: header | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A string that would be added before the template body.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Text to add before the template body.\\n&quot;, &quot;required&quot;: false} |
+| Input: include-pre-releases | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;When looking for the last published release to scan changes up-to, include pre-releases. Has no effect if using \`prerelease: true\` (already enabled). Default \`false\`.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Includes prereleases when Release Drafter selects the last published release.\\nThis input has no effect when \`prerelease\` is \`true\`. Default: \`false\`.\\n&quot;, &quot;required&quot;: false} |
+| Input: latest | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A boolean indicating whether the release being created or updated should be marked as latest.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Marks the created or updated release as latest.\\n&quot;, &quot;required&quot;: false} |
+| Input: name | {&quot;description&quot;: &quot;The name that will be used in the GitHub release that&#x27;s created or updated.\\nThis will override any \`name-template\` specified in your \`release-drafter.yml\` if defined.\\n&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Release name. This value overrides \`name-template\`.\\n&quot;, &quot;required&quot;: false} |
+| Input: prerelease | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Whether to draft a prerelease, with changes since another prerelease (if applicable). Default \`false\`.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Creates a prerelease and includes changes since the previous prerelease when one exists. Default: \`false\`.\\n&quot;, &quot;required&quot;: false} |
+| Input: prerelease-identifier | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A string indicating an identifier (alpha, beta, rc, etc), to increment the prerelease version. This automatically enables \`prerelease\` when both values come from the same config location; explicit action inputs still take precedence.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Prerelease identifier, such as \`alpha\`, \`beta\`, or \`rc\`.\\nThis input enables \`prerelease\`.\\n&quot;, &quot;required&quot;: false} |
+| Input: publish | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A boolean indicating whether the release being created or updated should be immediately published.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Publishes the created or updated release immediately.\\n&quot;, &quot;required&quot;: false} |
+| Input: tag | {&quot;description&quot;: &quot;The tag name to be associated with the GitHub release that&#x27;s created or updated.\\nThis will override any \`tag-template\` specified in your \`release-drafter.yml\` if defined.\\n&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Release tag. This value overrides \`tag-template\`.\\n&quot;, &quot;required&quot;: false} |
+| Input: token | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;Access token used to make requests against the GitHub API. Defaults to github.token.\\n&quot;} | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;Access token for GitHub API requests. Default: github.token.\\n&quot;} |
+| Input: version | {&quot;description&quot;: &quot;The version to be associated with the GitHub release that&#x27;s created or updated.\\nThis will override any version calculated by the release-drafter.\\n&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Release version. This value overrides the calculated version.\\n&quot;, &quot;required&quot;: false} |
+| Outputs | \[&quot;body&quot;, &quot;html\_url&quot;, &quot;id&quot;, &quot;major\_version&quot;, &quot;minor\_version&quot;, &quot;name&quot;, &quot;patch\_version&quot;, &quot;resolved\_version&quot;, &quot;tag\_name&quot;, &quot;upload\_url&quot;\] | \[&quot;body&quot;, &quot;html\_url&quot;, &quot;id&quot;, &quot;labels&quot;, &quot;major\_version&quot;, &quot;minor\_version&quot;, &quot;name&quot;, &quot;patch\_version&quot;, &quot;resolved\_version&quot;, &quot;tag\_name&quot;, &quot;upload\_url&quot;\] |
+| Selected SHA | 34d80673e067bdc0c24568d3af899c216adcfaa9 | 72967cdc98ddd3160f1fc3dff619de365e137dd0 |
+| Selected tag | v7.7.0 | v7.9.0 |
 
 ## reviewdog/action-actionlint
 
-[Previous source](https://github.com/reviewdog/action-actionlint/tree/2085657ab2c7f48c58edcc767fba576f63bea76b/) · [Current source](https://github.com/reviewdog/action-actionlint/tree/1129829fb3230509a1c9aa4e93cec2b234746a68/) · [Upstream code diff](https://github.com/reviewdog/action-actionlint/compare/2085657ab2c7f48c58edcc767fba576f63bea76b...1129829fb3230509a1c9aa4e93cec2b234746a68)
+[Previous source](https://github.com/reviewdog/action-actionlint/tree/1129829fb3230509a1c9aa4e93cec2b234746a68/) · [Current source](https://github.com/reviewdog/action-actionlint/tree/13465d022aa41c282f730be17574b5ce692d0186/) · [Upstream code diff](https://github.com/reviewdog/action-actionlint/compare/1129829fb3230509a1c9aa4e93cec2b234746a68...13465d022aa41c282f730be17574b5ce692d0186)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 2085657ab2c7f48c58edcc767fba576f63bea76b | 1129829fb3230509a1c9aa4e93cec2b234746a68 |
-| Selected tag | v1.77.0 | v1.78.0 |
+| Selected SHA | 1129829fb3230509a1c9aa4e93cec2b234746a68 | 13465d022aa41c282f730be17574b5ce692d0186 |
+| Selected tag | v1.78.0 | v1.78.1 |
 
-## shogo82148/actions-setup-mysql
+## reviewdog/action-detect-secrets
 
-[Previous source](https://github.com/shogo82148/actions-setup-mysql/tree/334a29f22d90428932f75b11e0d5fcc00bb6b4f4/) · [Current source](https://github.com/shogo82148/actions-setup-mysql/tree/1d4ebc60ba1227dd13fc7e6ba845bd3997928d75/) · [Upstream code diff](https://github.com/shogo82148/actions-setup-mysql/compare/334a29f22d90428932f75b11e0d5fcc00bb6b4f4...1d4ebc60ba1227dd13fc7e6ba845bd3997928d75)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 334a29f22d90428932f75b11e0d5fcc00bb6b4f4 | 1d4ebc60ba1227dd13fc7e6ba845bd3997928d75 |
-| Selected tag | v1.54.1 | v1.54.2 |
-
-## shogo82148/actions-setup-perl
-
-[Previous source](https://github.com/shogo82148/actions-setup-perl/tree/b61fd6db748050f91bedd4d72ad5e404b5177cc0/) · [Current source](https://github.com/shogo82148/actions-setup-perl/tree/8b574cdc2dffdae49f803204a4f2b716a2fa1db7/) · [Upstream code diff](https://github.com/shogo82148/actions-setup-perl/compare/b61fd6db748050f91bedd4d72ad5e404b5177cc0...8b574cdc2dffdae49f803204a4f2b716a2fa1db7)
+[Previous source](https://github.com/reviewdog/action-detect-secrets/tree/3bc07a8ce36864e49536f7dba77f7c69ff5219a3/) · [Current source](https://github.com/reviewdog/action-detect-secrets/tree/53195a798553d71f8d0884ab7335aa5ac42e73e9/) · [Upstream code diff](https://github.com/reviewdog/action-detect-secrets/compare/3bc07a8ce36864e49536f7dba77f7c69ff5219a3...53195a798553d71f8d0884ab7335aa5ac42e73e9)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | b61fd6db748050f91bedd4d72ad5e404b5177cc0 | 8b574cdc2dffdae49f803204a4f2b716a2fa1db7 |
-| Selected tag | v1.44.1 | v1.44.2 |
+| Selected SHA | 3bc07a8ce36864e49536f7dba77f7c69ff5219a3 | 53195a798553d71f8d0884ab7335aa5ac42e73e9 |
+| Selected tag | v0.31.0 | v0.31.1 |
 
-## SonarSource/sonarqube-scan-action
+## reviewdog/action-eslint
 
-[Previous source](https://github.com/SonarSource/sonarqube-scan-action/tree/ba9859eae8dd6bd29e412f25ddbbef3d032000f4/) · [Current source](https://github.com/SonarSource/sonarqube-scan-action/tree/d209202bc7d53ff1cc128f7f907dac145c9d6ae9/) · [Upstream code diff](https://github.com/SonarSource/sonarqube-scan-action/compare/ba9859eae8dd6bd29e412f25ddbbef3d032000f4...d209202bc7d53ff1cc128f7f907dac145c9d6ae9)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | ba9859eae8dd6bd29e412f25ddbbef3d032000f4 | d209202bc7d53ff1cc128f7f907dac145c9d6ae9 |
-| Selected tag | v8.2.2 | v8.3.0 |
-
-## ThreeMoonsLab/agents-shipgate
-
-[Previous source](https://github.com/ThreeMoonsLab/agents-shipgate/tree/e3c6cb0c7657d9c53d4e29b2061d04dcf99a4e9b/) · [Current source](https://github.com/ThreeMoonsLab/agents-shipgate/tree/7fc61ef43d8ec5c906bc690765f4a1297dff4fda/) · [Upstream code diff](https://github.com/ThreeMoonsLab/agents-shipgate/compare/e3c6cb0c7657d9c53d4e29b2061d04dcf99a4e9b...7fc61ef43d8ec5c906bc690765f4a1297dff4fda)
+[Previous source](https://github.com/reviewdog/action-eslint/tree/b6303df522851d0e9abaea654da0222037d97e75/) · [Current source](https://github.com/reviewdog/action-eslint/tree/3ee2a450da17e060b9dfa4bffd53976906c6b2b0/) · [Upstream code diff](https://github.com/reviewdog/action-eslint/compare/b6303df522851d0e9abaea654da0222037d97e75...3ee2a450da17e060b9dfa4bffd53976906c6b2b0)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Description | The deterministic merge gate for AI-generated agent capability changes. Verifies PRs that change MCP, OpenAPI, OpenAI Agents SDK, Anthropic, Google ADK, LangChain, CrewAI, OpenAI API, Codex config, Codex plugin, n8n, and Conductor OSS workflow JSON artifacts. Writes verifier.json, report.json, pr-comment.md, capability lock/diff review artifacts, and SARIF before your agent-capability change lands. Local-first and static-by-default. Audited exceptions are pinned per call site in tests/test\_adapter\_static\_only.py::ALLOWED\_EXCEPTIONS. Apache-2.0. | The deterministic merge gate for AI-generated agent capability changes. Review PR changes to declared coding-agent settings, MCP bindings, hooks and workflow permissions without a manifest or saved baseline. Separately, verify declared application-agent tool surfaces from MCP, OpenAPI, OpenAI Agents SDK, Anthropic, Google ADK, LangChain, CrewAI, OpenAI API, Codex config, Codex plugin, n8n, and Conductor OSS workflow JSON artifacts. Host comparisons are static and advisory, name coverage limits, and imply no verdict. Verification artifacts and the configured release gate retain their own control rules. Local-first and static-by-default. Apache-2.0. |
-| Selected SHA | e3c6cb0c7657d9c53d4e29b2061d04dcf99a4e9b | 7fc61ef43d8ec5c906bc690765f4a1297dff4fda |
-| Selected tag | v1.1.0 | v1.2.0 |
+| Selected SHA | b6303df522851d0e9abaea654da0222037d97e75 | 3ee2a450da17e060b9dfa4bffd53976906c6b2b0 |
+| Selected tag | v1.36.0 | v1.36.1 |
 
-## useblacksmith/stickydisk
+## reviewdog/action-golangci-lint
 
-[Previous source](https://github.com/useblacksmith/stickydisk/tree/94697d49e77d0dd78b77deb85ad3de63a28b4b8a/) · [Current source](https://github.com/useblacksmith/stickydisk/tree/3f6be1451e3cad893b778bc93495c80452a5da26/) · [Upstream code diff](https://github.com/useblacksmith/stickydisk/compare/94697d49e77d0dd78b77deb85ad3de63a28b4b8a...3f6be1451e3cad893b778bc93495c80452a5da26)
+[Previous source](https://github.com/reviewdog/action-golangci-lint/tree/db65103266f304d8ac929ad6c0cd02d14f6837ba/) · [Current source](https://github.com/reviewdog/action-golangci-lint/tree/284129a3ac23bc5d8ac1522e0b6511df74a8836d/) · [Upstream code diff](https://github.com/reviewdog/action-golangci-lint/compare/db65103266f304d8ac929ad6c0cd02d14f6837ba...284129a3ac23bc5d8ac1522e0b6511df74a8836d)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 94697d49e77d0dd78b77deb85ad3de63a28b4b8a | 3f6be1451e3cad893b778bc93495c80452a5da26 |
-| Selected tag | v1.7.1 | v1.7.2 |
+| Selected SHA | db65103266f304d8ac929ad6c0cd02d14f6837ba | 284129a3ac23bc5d8ac1522e0b6511df74a8836d |
+| Selected tag | v2.10.1 | v2.10.2 |
+
+## reviewdog/action-shellcheck
+
+[Previous source](https://github.com/reviewdog/action-shellcheck/tree/0a90156c6e0553996a217f0a9e09be6b0f6bee4c/) · [Current source](https://github.com/reviewdog/action-shellcheck/tree/d0b8d5fd7fad6afdb6e1b6ce1778892be4d1f427/) · [Upstream code diff](https://github.com/reviewdog/action-shellcheck/compare/0a90156c6e0553996a217f0a9e09be6b0f6bee4c...d0b8d5fd7fad6afdb6e1b6ce1778892be4d1f427)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 0a90156c6e0553996a217f0a9e09be6b0f6bee4c | d0b8d5fd7fad6afdb6e1b6ce1778892be4d1f427 |
+| Selected tag | v1.34.0 | v1.34.1 |
+
+## reviewdog/action-tflint
+
+[Previous source](https://github.com/reviewdog/action-tflint/tree/2c3945df0a1eca41825ede1ba6b7f1b3fc95acd8/) · [Current source](https://github.com/reviewdog/action-tflint/tree/c332ae72f14fd853c08323a60383b396cc34715a/) · [Upstream code diff](https://github.com/reviewdog/action-tflint/compare/2c3945df0a1eca41825ede1ba6b7f1b3fc95acd8...c332ae72f14fd853c08323a60383b396cc34715a)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: reviewdog\_github\_api\_token | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;REVIEWDOG\_GITHUB\_API\_TOKEN&quot;} |
+| Selected SHA | 2c3945df0a1eca41825ede1ba6b7f1b3fc95acd8 | c332ae72f14fd853c08323a60383b396cc34715a |
+| Selected tag | v1.27.0 | v1.28.0 |
+
+## reviewdog/action-yamllint
+
+[Previous source](https://github.com/reviewdog/action-yamllint/tree/290d92c84b22627946efc7fd6f038ade2d2beede/) · [Current source](https://github.com/reviewdog/action-yamllint/tree/5dd4640db975e4cac6f4e775a401695bafc28068/) · [Upstream code diff](https://github.com/reviewdog/action-yamllint/compare/290d92c84b22627946efc7fd6f038ade2d2beede...5dd4640db975e4cac6f4e775a401695bafc28068)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 290d92c84b22627946efc7fd6f038ade2d2beede | 5dd4640db975e4cac6f4e775a401695bafc28068 |
+| Selected tag | v1.25.0 | v1.25.1 |
+
+## shogo82148/actions-upload-release-asset
+
+[Previous source](https://github.com/shogo82148/actions-upload-release-asset/tree/eee382aaa9c6b13fd841694e63175fac2e2a1b48/) · [Current source](https://github.com/shogo82148/actions-upload-release-asset/tree/9ee13965a8a51926f330b424693f25fcff8f2ef6/) · [Upstream code diff](https://github.com/shogo82148/actions-upload-release-asset/compare/eee382aaa9c6b13fd841694e63175fac2e2a1b48...9ee13965a8a51926f330b424693f25fcff8f2ef6)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | eee382aaa9c6b13fd841694e63175fac2e2a1b48 | 9ee13965a8a51926f330b424693f25fcff8f2ef6 |
+| Selected tag | v1.10.5 | v1.10.6 |
+
+## super-linter/super-linter
+
+[Previous source](https://github.com/super-linter/super-linter/tree/4ce20838b8ab83717e78138c5b3a1407148e0918/) · [Current source](https://github.com/super-linter/super-linter/tree/2da136927bd4a73596db63044b504547c62cb854/) · [Upstream code diff](https://github.com/super-linter/super-linter/compare/4ce20838b8ab83717e78138c5b3a1407148e0918...2da136927bd4a73596db63044b504547c62cb854)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 4ce20838b8ab83717e78138c5b3a1407148e0918 | 2da136927bd4a73596db63044b504547c62cb854 |
+| Selected tag | v8.7.0 | v9.0.0 |
+
+## warpdotdev/oz-agent-action
+
+[Previous source](https://github.com/warpdotdev/oz-agent-action/tree/261367f00a9899a054aac2661b39e6783f5e7c25/) · [Current source](https://github.com/warpdotdev/oz-agent-action/tree/ccb5247d8faee3d0a4b70b8a776727c8f52e2355/) · [Upstream code diff](https://github.com/warpdotdev/oz-agent-action/compare/261367f00a9899a054aac2661b39e6783f5e7c25...ccb5247d8faee3d0a4b70b8a776727c8f52e2355)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 261367f00a9899a054aac2661b39e6783f5e7c25 | ccb5247d8faee3d0a4b70b8a776727c8f52e2355 |
+| Selected tag | v1.0.35 | v1.0.36 |
