@@ -905,6 +905,26 @@
     "reviewed_at": null
   },
   {
+    "action": "irgaly/xcode-cache",
+    "description": "Cache Xcode's DerivedData for incremental build.",
+    "category": "Discovered",
+    "tags": [
+      "ios",
+      "xcode"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/irgaly/xcode-cache/tree/15b2628986cca628d90c3df1c7ad7f695b4a013c",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "jbrooksuk/laravel-forge-action",
     "description": "Trigger Laravel Forge Deployments with Github Actions",
     "category": "Discovered",

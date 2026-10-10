@@ -1,249 +1,261 @@
 # Latest catalog changes
 
-23 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+22 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## actions/upload-code-coverage
+## anchore/sbom-action
 
-[Previous source](https://github.com/actions/upload-code-coverage/tree/bfa741d815a28cb064a8e3a0837e577457a017d5/) · [Current source](https://github.com/actions/upload-code-coverage/tree/2b21a77928be8d5168c2b9581a67f2adbebacc52/) · [Upstream code diff](https://github.com/actions/upload-code-coverage/compare/bfa741d815a28cb064a8e3a0837e577457a017d5...2b21a77928be8d5168c2b9581a67f2adbebacc52)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | bfa741d815a28cb064a8e3a0837e577457a017d5 | 2b21a77928be8d5168c2b9581a67f2adbebacc52 |
-| Selected tag | v1.4.3 | v1.4.4 |
-
-## amyu/setup-android
-
-[Previous source](https://github.com/amyu/setup-android) · [Current source](https://github.com/amyu/setup-android/tree/09345fc2cbed5b3a92beea84d843a22eac6cc841/)
+[Previous source](https://github.com/anchore/sbom-action/tree/3ad7283483fc7af8ff2b4ea19663c2d5ca935e26/) · [Current source](https://github.com/anchore/sbom-action/tree/66cbf4bc1f1c0d2edc94016e65bc221b6bb0ad6c/) · [Upstream code diff](https://github.com/anchore/sbom-action/compare/3ad7283483fc7af8ff2b4ea19663c2d5ca935e26...66cbf4bc1f1c0d2edc94016e65bc221b6bb0ad6c)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: build-tools-version | null | {&quot;description&quot;: &quot;Android SDK Build Tools version(s) to install&quot;, &quot;required&quot;: false} |
-| Input: cache-disabled | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Disable Android SDK caching&quot;, &quot;required&quot;: false} |
-| Input: cache-key | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Custom Android SDK cache key&quot;, &quot;required&quot;: false} |
-| Input: cmake-version | null | {&quot;description&quot;: &quot;CMake version to install&quot;, &quot;required&quot;: false} |
-| Input: command-line-tools-version | null | {&quot;default&quot;: &quot;15859902&quot;, &quot;description&quot;: &quot;Android command-line tools package revision&quot;, &quot;required&quot;: false} |
-| Input: generate-job-summary | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Generate an Android SDK job summary&quot;, &quot;required&quot;: false} |
-| Input: job-status | null | {&quot;default&quot;: &quot;${{ job.status }}&quot;, &quot;description&quot;: &quot;Workaround to pass job status to post job step. This variable is not intended for manual setting&quot;} |
-| Input: ndk-version | null | {&quot;description&quot;: &quot;Android NDK version to install&quot;, &quot;required&quot;: false} |
-| Input: sdk-version | null | {&quot;default&quot;: &quot;37.0&quot;, &quot;description&quot;: &quot;Android SDK API level(s) or published codename-based platform suffix(es) to install&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | node24 |
-| Security | unknown | clean |
-| Selected SHA | null | 09345fc2cbed5b3a92beea84d843a22eac6cc841 |
-| Selected tag | null | v6.0 |
+| Selected SHA | 3ad7283483fc7af8ff2b4ea19663c2d5ca935e26 | 66cbf4bc1f1c0d2edc94016e65bc221b6bb0ad6c |
+| Selected tag | v0.24.2 | v0.24.3 |
 
 ## anthropics/claude-code-action
 
-[Previous source](https://github.com/anthropics/claude-code-action/tree/12dd8d74c712f5f3669365b2369b558c495b1104/) · [Current source](https://github.com/anthropics/claude-code-action/tree/97c53473391bff1901034d4b454b5bac7ab7a029/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/12dd8d74c712f5f3669365b2369b558c495b1104...97c53473391bff1901034d4b454b5bac7ab7a029)
+[Previous source](https://github.com/anthropics/claude-code-action/tree/97c53473391bff1901034d4b454b5bac7ab7a029/) · [Current source](https://github.com/anthropics/claude-code-action/tree/ed670b4cf9de2a5a570d130d2f6197b9e543cd64/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/97c53473391bff1901034d4b454b5bac7ab7a029...ed670b4cf9de2a5a570d130d2f6197b9e543cd64)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 12dd8d74c712f5f3669365b2369b558c495b1104 | 97c53473391bff1901034d4b454b5bac7ab7a029 |
-| Selected tag | v1.0.238 | v1.0.239 |
+| Selected SHA | 97c53473391bff1901034d4b454b5bac7ab7a029 | ed670b4cf9de2a5a570d130d2f6197b9e543cd64 |
+| Selected tag | v1.0.239 | v1.0.240 |
 
 ## asklokesh/loki-mode
 
-[Previous source](https://github.com/asklokesh/loki-mode/tree/ee3e4c1fd606ddec4625c5a090e12fc4f5ba3489/) · [Current source](https://github.com/asklokesh/loki-mode/tree/456058bae0678ad3b7347c9b6fec9bdf7625bc79/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/ee3e4c1fd606ddec4625c5a090e12fc4f5ba3489...456058bae0678ad3b7347c9b6fec9bdf7625bc79)
+[Previous source](https://github.com/asklokesh/loki-mode/tree/456058bae0678ad3b7347c9b6fec9bdf7625bc79/) · [Current source](https://github.com/asklokesh/loki-mode/tree/f9dbe5f4c6fe871138ebe46f2a6f9b4e61c60f43/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/456058bae0678ad3b7347c9b6fec9bdf7625bc79...f9dbe5f4c6fe871138ebe46f2a6f9b4e61c60f43)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | ee3e4c1fd606ddec4625c5a090e12fc4f5ba3489 | 456058bae0678ad3b7347c9b6fec9bdf7625bc79 |
-| Selected tag | v10.5.29 | v10.6.6 |
+| Input: budget\_limit | {&quot;default&quot;: &quot;5.00&quot;, &quot;description&quot;: &quot;Max cost in USD before stopping (maps to --budget CLI flag)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;5.00&quot;, &quot;description&quot;: &quot;Max cost in USD before stopping (maps to the Loki 10 --max-cost flag)&quot;, &quot;required&quot;: false} |
+| Input: prd\_file | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Path to PRD file relative to repo root (optional, used as positional arg to loki start)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Path to PRD file relative to repo root (optional, folded into the task text passed to loki start)&quot;, &quot;required&quot;: false} |
+| Selected SHA | 456058bae0678ad3b7347c9b6fec9bdf7625bc79 | f9dbe5f4c6fe871138ebe46f2a6f9b4e61c60f43 |
+| Selected tag | v10.6.6 | v10.6.11 |
 
-## Added: cycjimmy/semantic-release-action
+## CodelyTV/pr-size-labeler
 
-[Source](https://github.com/cycjimmy/semantic-release-action) — GitHub Action for Semantic Release
+[Previous source](https://github.com/CodelyTV/pr-size-labeler/tree/4e3aa0f77f348c8066513d453515316ffa01a607/) · [Current source](https://github.com/CodelyTV/pr-size-labeler/tree/19c335e7695ba922de938806dd129f0a9b992644/) · [Upstream code diff](https://github.com/CodelyTV/pr-size-labeler/compare/4e3aa0f77f348c8066513d453515316ffa01a607...19c335e7695ba922de938806dd129f0a9b992644)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 4e3aa0f77f348c8066513d453515316ffa01a607 | 19c335e7695ba922de938806dd129f0a9b992644 |
+| Selected tag | v1.11.1 | v1.12.0 |
+
+## danielroe/uppt
+
+[Previous source](https://github.com/danielroe/uppt/tree/65a86313a63b10a6793de6c4ff8614b18e127a71/) · [Current source](https://github.com/danielroe/uppt/tree/6ec27140623aa835e362f866d8ab0018ab057f4d/) · [Upstream code diff](https://github.com/danielroe/uppt/compare/65a86313a63b10a6793de6c4ff8614b18e127a71...6ec27140623aa835e362f866d8ab0018ab057f4d)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 65a86313a63b10a6793de6c4ff8614b18e127a71 | 6ec27140623aa835e362f866d8ab0018ab057f4d |
+| Selected tag | v0.6.10 | v0.6.11 |
+
+## dawidd6/action-ansible-playbook
+
+[Previous source](https://github.com/dawidd6/action-ansible-playbook) · [Current source](https://github.com/dawidd6/action-ansible-playbook/tree/126642a1c6ce512da255ef2b41e8ee90f0077474/)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: check\_mode | null | {&quot;default&quot;: false, &quot;description&quot;: &quot;Set to \\&quot;true\\&quot; to enable check (dry-run) mode&quot;, &quot;required&quot;: false} |
+| Input: configuration | null | {&quot;description&quot;: &quot;Ansible configuration file content (ansible.cfg)&quot;, &quot;required&quot;: false} |
+| Input: directory | null | {&quot;description&quot;: &quot;Root directory of Ansible project (defaults to current)&quot;, &quot;required&quot;: false} |
+| Input: inventory | null | {&quot;description&quot;: &quot;Custom content to write into hosts&quot;, &quot;required&quot;: false} |
+| Input: key | null | {&quot;description&quot;: &quot;SSH private key used to connect to the host&quot;, &quot;required&quot;: false} |
+| Input: known\_hosts | null | {&quot;description&quot;: &quot;Contents of SSH known\_hosts file&quot;, &quot;required&quot;: false} |
+| Input: no\_color | null | {&quot;default&quot;: false, &quot;description&quot;: &quot;Set to \\&quot;true\\&quot; if the Ansible output should not include colors (defaults to \\&quot;false\\&quot;)&quot;, &quot;required&quot;: false} |
+| Input: options | null | {&quot;description&quot;: &quot;Extra options that should be passed to ansible-playbook command&quot;, &quot;required&quot;: false} |
+| Input: playbook | null | {&quot;description&quot;: &quot;Ansible playbook filepath&quot;, &quot;required&quot;: true} |
+| Input: requirements | null | {&quot;description&quot;: &quot;Ansible Galaxy requirements filepath&quot;, &quot;required&quot;: false} |
+| Input: sudo | null | {&quot;default&quot;: false, &quot;description&quot;: &quot;Set to \\&quot;true\\&quot; if root is required for running your playbook&quot;, &quot;required&quot;: false} |
+| Input: vault\_password | null | {&quot;description&quot;: &quot;The password used for decrypting vaulted files&quot;, &quot;required&quot;: false} |
+| Observed stability | null | observed |
+| Outputs | null | \[&quot;output&quot;\] |
+| Runtime | null | node24 |
+| Security | unknown | clean |
+| Selected SHA | null | 126642a1c6ce512da255ef2b41e8ee90f0077474 |
+| Selected tag | null | v9 |
+
+## DeterminateSystems/determinate-nix-action
+
+[Previous source](https://github.com/DeterminateSystems/determinate-nix-action/tree/8d87e8d5e5b8a8309d4281094560f127d9a265f1/) · [Current source](https://github.com/DeterminateSystems/determinate-nix-action/tree/4d65ea9cab522b6d9f29a170aed23ededc1b27af/) · [Upstream code diff](https://github.com/DeterminateSystems/determinate-nix-action/compare/8d87e8d5e5b8a8309d4281094560f127d9a265f1...4d65ea9cab522b6d9f29a170aed23ededc1b27af)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: source-tag | {&quot;default&quot;: &quot;v3.22.5&quot;, &quot;description&quot;: &quot;The tag of \`nix-installer\` to use (conflicts with \`source-revision\`, \`source-branch\`, \`source-pr\`)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;v3.23.0&quot;, &quot;description&quot;: &quot;The tag of \`nix-installer\` to use (conflicts with \`source-revision\`, \`source-branch\`, \`source-pr\`)&quot;, &quot;required&quot;: false} |
+| Selected SHA | 8d87e8d5e5b8a8309d4281094560f127d9a265f1 | 4d65ea9cab522b6d9f29a170aed23ededc1b27af |
+| Selected tag | v3.22.5 | v3.23.0 |
+
+## Added: irgaly/xcode-cache
+
+[Source](https://github.com/irgaly/xcode-cache) — Cache Xcode&#x27;s DerivedData for incremental build.
 
 New entries still require observed stability and fresh scan evidence before usage.
 
-## duriantaco/skylos
+## jianruntech/geo-score
 
-[Previous source](https://github.com/duriantaco/skylos/tree/d12b3785bb85e3593bec5e66f06048c6ded568cb/) · [Current source](https://github.com/duriantaco/skylos/tree/fc5fffd2bad9ebeb2c215b140868c9b84a4751be/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/d12b3785bb85e3593bec5e66f06048c6ded568cb...fc5fffd2bad9ebeb2c215b140868c9b84a4751be)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | d12b3785bb85e3593bec5e66f06048c6ded568cb | fc5fffd2bad9ebeb2c215b140868c9b84a4751be |
-| Selected tag | v4.43.1 | v4.43.2 |
-
-## github-community-projects/issue-metrics
-
-[Previous source](https://github.com/github-community-projects/issue-metrics/tree/a7dc2fb675661e208d4fc6fa321a6b95fc4a06f9/) · [Current source](https://github.com/github-community-projects/issue-metrics/tree/671528652402b9b8a33da44b5c693b3161bc090f/) · [Upstream code diff](https://github.com/github-community-projects/issue-metrics/compare/a7dc2fb675661e208d4fc6fa321a6b95fc4a06f9...671528652402b9b8a33da44b5c693b3161bc090f)
+[Previous source](https://github.com/jianruntech/geo-score/tree/884c4725841b5b3f67b8a54458030e1a5c76d0d7/) · [Current source](https://github.com/jianruntech/geo-score/tree/10423969cc749018934919ae8081ac8085b176b1/) · [Upstream code diff](https://github.com/jianruntech/geo-score/compare/884c4725841b5b3f67b8a54458030e1a5c76d0d7...10423969cc749018934919ae8081ac8085b176b1)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | a7dc2fb675661e208d4fc6fa321a6b95fc4a06f9 | 671528652402b9b8a33da44b5c693b3161bc090f |
-| Selected tag | v5.0.2 | v5.0.3 |
-
-## github-community-projects/stale-repos
-
-[Previous source](https://github.com/github-community-projects/stale-repos/tree/c42a2821e3ef0cee1b1bc20b7eecbb2bfa7a83b4/) · [Current source](https://github.com/github-community-projects/stale-repos/tree/cd662591ad9d5d8967f84431eb94a45f828c1db3/) · [Upstream code diff](https://github.com/github-community-projects/stale-repos/compare/c42a2821e3ef0cee1b1bc20b7eecbb2bfa7a83b4...cd662591ad9d5d8967f84431eb94a45f828c1db3)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | c42a2821e3ef0cee1b1bc20b7eecbb2bfa7a83b4 | cd662591ad9d5d8967f84431eb94a45f828c1db3 |
-| Selected tag | v9.0.18 | v9.0.19 |
-
-## graalvm/setup-graalvm
-
-[Previous source](https://github.com/graalvm/setup-graalvm/tree/0426e2e191540e8514dff98dc52a5f5146a2a276/) · [Current source](https://github.com/graalvm/setup-graalvm/tree/27b360dbb857524eaf0b4c4cef364d38e5b4f173/) · [Upstream code diff](https://github.com/graalvm/setup-graalvm/compare/0426e2e191540e8514dff98dc52a5f5146a2a276...27b360dbb857524eaf0b4c4cef364d38e5b4f173)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 0426e2e191540e8514dff98dc52a5f5146a2a276 | 27b360dbb857524eaf0b4c4cef364d38e5b4f173 |
-| Selected tag | v1.6.6 | v1.6.7 |
+| Input: assert | null | {&quot;description&quot;: &quot;Per-check assertions, one per line, each CHECK OP VALUE: a check id or a glob over them, &gt;=, &gt; or =, and a number or max (for example g.robots=max or p1.llms-txt&gt;=4). A failed one fails the job; a check the run could not observe is skipped.&quot;, &quot;required&quot;: false} |
+| Input: badge | null | {&quot;description&quot;: &quot;Write the score as a badge to this path: a path ending in .json gets shields.io endpoint JSON (host it and use https://img.shields.io/endpoint?url=&lt;its URL&gt;), any other path an SVG. The action writes the file; committing or publishing it is up to the workflow.&quot;, &quot;required&quot;: false} |
+| Input: baseline | null | {&quot;description&quot;: &quot;An earlier JSON report (json-out) to compare with: the action scores the pages it sampled, as urls-from does, prints what changed check by check, adds a &#x27;Changes since baseline&#x27; section to the job summary and sets the delta and dropped-checks outputs. Not with urls-from.&quot;, &quot;required&quot;: false} |
+| Input: fail-on-gate | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;true to fail the job when any gate check (g.\*) scores zero. A gate at zero caps the score at 40: a site that would otherwise score 40 or more reads exactly 40 and passes fail-under: 40; fail-on-gate fails any capped site. The same as the assertion g.\*&gt;0.&quot;, &quot;required&quot;: false} |
+| Input: sample | {&quot;default&quot;: &quot;8&quot;, &quot;description&quot;: &quot;How many pages to sample (default 8).&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;8&quot;, &quot;description&quot;: &quot;How many pages to sample, 1 or more (default 8).&quot;, &quot;required&quot;: false} |
+| Outputs | \[&quot;band&quot;, &quot;gate-capped&quot;, &quot;report&quot;, &quot;report-path&quot;, &quot;score&quot;\] | \[&quot;badge-path&quot;, &quot;band&quot;, &quot;delta&quot;, &quot;dropped-checks&quot;, &quot;gate-capped&quot;, &quot;report&quot;, &quot;report-path&quot;, &quot;score&quot;\] |
+| Selected SHA | 884c4725841b5b3f67b8a54458030e1a5c76d0d7 | 10423969cc749018934919ae8081ac8085b176b1 |
+| Selected tag | v1.4.0 | v1.6.0 |
 
 ## jsdhwfmax/EvalForge
 
-[Previous source](https://github.com/jsdhwfmax/EvalForge) · [Current source](https://github.com/jsdhwfmax/EvalForge/tree/2f80674feb1f4c1ff2ec03aeb1933865670d6971/)
+[Previous source](https://github.com/jsdhwfmax/EvalForge/tree/2f80674feb1f4c1ff2ec03aeb1933865670d6971/) · [Current source](https://github.com/jsdhwfmax/EvalForge/tree/54c4667a67fefe6d34435cb5bc166c0b81a8deb5/) · [Upstream code diff](https://github.com/jsdhwfmax/EvalForge/compare/2f80674feb1f4c1ff2ec03aeb1933865670d6971...54c4667a67fefe6d34435cb5bc166c0b81a8deb5)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: baseline | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Optional path to a baseline artifact for delta checks.&quot;, &quot;required&quot;: false} |
-| Input: candidate | null | {&quot;description&quot;: &quot;Path to a candidate EvalForge artifact or flat JSON metric summary.&quot;, &quot;required&quot;: true} |
-| Input: job-summary | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Append the Markdown report to the GitHub job summary, including on failure.&quot;, &quot;required&quot;: false} |
-| Input: json-output | null | {&quot;default&quot;: &quot;evalforge-report.json&quot;, &quot;description&quot;: &quot;JSON gate report path.&quot;, &quot;required&quot;: false} |
-| Input: junit-output | null | {&quot;default&quot;: &quot;evalforge-junit.xml&quot;, &quot;description&quot;: &quot;JUnit XML report path.&quot;, &quot;required&quot;: false} |
-| Input: markdown-output | null | {&quot;default&quot;: &quot;evalforge-summary.md&quot;, &quot;description&quot;: &quot;Markdown gate summary path.&quot;, &quot;required&quot;: false} |
-| Input: policy | null | {&quot;description&quot;: &quot;Path to an EvalForge gate policy.&quot;, &quot;required&quot;: true} |
-| Input: python-version | null | {&quot;default&quot;: &quot;3.12&quot;, &quot;description&quot;: &quot;Python version used by the action.&quot;, &quot;required&quot;: false} |
-| Input: sarif-output | null | {&quot;default&quot;: &quot;evalforge.sarif&quot;, &quot;description&quot;: &quot;SARIF 2.1.0 report path.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 2f80674feb1f4c1ff2ec03aeb1933865670d6971 | 54c4667a67fefe6d34435cb5bc166c0b81a8deb5 |
+| Selected tag | v0.5.0 | v0.6.0 |
+
+## KengoTODA/actions-setup-docker-compose
+
+[Previous source](https://github.com/KengoTODA/actions-setup-docker-compose/tree/caf887cb5173b7ea66cce3c7db3b1e04974a53d4/) · [Current source](https://github.com/KengoTODA/actions-setup-docker-compose/tree/4c09ef903b1119511e9071b6b076e904f9240f3d/) · [Upstream code diff](https://github.com/KengoTODA/actions-setup-docker-compose/compare/caf887cb5173b7ea66cce3c7db3b1e04974a53d4...4c09ef903b1119511e9071b6b076e904f9240f3d)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | caf887cb5173b7ea66cce3c7db3b1e04974a53d4 | 4c09ef903b1119511e9071b6b076e904f9240f3d |
+| Selected tag | v1.2.8 | v1.2.9 |
+
+## kerlenton/mcpsnoop
+
+[Previous source](https://github.com/kerlenton/mcpsnoop) · [Current source](https://github.com/kerlenton/mcpsnoop/tree/5518964384cd855d3f43a58eace033e75dc222ff/)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: args | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Any other mcpsnoop check flags, quoted as they would be on a command line,\\nfor example: --expect-tool search --max-server-duration 500ms\\n--format is not accepted: the action reads the report this step produces.\\n&quot;} |
+| Input: category | null | {&quot;default&quot;: &quot;mcpsnoop&quot;, &quot;description&quot;: &quot;The code scanning category the report is filed under. A category is a\\nnamespace: two analyses sharing one overwrite each other, so give each tool\\nits own, and vary it per leg of a matrix.\\n&quot;} |
+| Input: fail-on | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Comma-separated signals to fail on, any of error, invalid, warn, mismatch,\\npending, late-result, drift, deprecated, incomplete, schema. Defaults to\\nwhat the CLI defaults to, which is error,invalid,warn.\\n&quot;} |
+| Input: fail-on-findings | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Fail the job when the check finds something. Set to false to file the\\nalerts and let code scanning&#x27;s own required check decide the build. A run\\nthat could not check at all fails either way, since nothing was verified.\\n&quot;} |
+| Input: install | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Install the binary. Set to false when mcpsnoop is already on PATH, which is\\nthe way in on a platform no release is built for.\\n&quot;} |
+| Input: session | null | {&quot;description&quot;: &quot;Path to the .jsonl capture to check, relative to the repository root.\\nRecord one by wrapping your server with mcpsnoop in an earlier step.\\n&quot;, &quot;required&quot;: true} |
+| Input: upload-sarif | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Upload the report to code scanning. Needs security-events: write on the\\njob. Set to false in a repository without code scanning, or to keep the\\nreport to yourself.\\n&quot;} |
+| Input: version | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Which mcpsnoop to install, for example v0.21.0. Defaults to the release you\\npinned the action to, so normally there is nothing to set. Needed only when\\npinning a branch or a commit, which names no release.\\n&quot;} |
 | Observed stability | null | observed |
-| Outputs | null | \[&quot;exit-code&quot;, &quot;json-report&quot;, &quot;markdown-report&quot;\] |
+| Outputs | null | \[&quot;exit-code&quot;, &quot;outcome&quot;, &quot;sarif&quot;\] |
 | Runtime | null | composite |
 | Security | unknown | clean |
-| Selected SHA | null | 2f80674feb1f4c1ff2ec03aeb1933865670d6971 |
-| Selected tag | null | v0.5.0 |
+| Selected SHA | null | 5518964384cd855d3f43a58eace033e75dc222ff |
+| Selected tag | null | v0.23.0 |
 
-## Added: openqodex/openqodex
+## luckyPipewrench/pipelock
 
-[Source](https://github.com/openqodex/openqodex) — AI code review and scanners for pull requests: SAST, secrets, dependencies, lint. Review needs your Anthropic key.
-
-New entries still require observed stability and fresh scan evidence before usage.
-
-## pullfrog/pullfrog
-
-[Previous source](https://github.com/pullfrog/pullfrog/tree/0d318bef8c7cf7ae3f193ef32b2bc74e1d94b4d1/) · [Current source](https://github.com/pullfrog/pullfrog/tree/ed800018463e1b84e8e3377f662173aed1da98b0/) · [Upstream code diff](https://github.com/pullfrog/pullfrog/compare/0d318bef8c7cf7ae3f193ef32b2bc74e1d94b4d1...ed800018463e1b84e8e3377f662173aed1da98b0)
+[Previous source](https://github.com/luckyPipewrench/pipelock/tree/ca05ed06f360f5aac5518ab6ea2b11d729b70bee/) · [Current source](https://github.com/luckyPipewrench/pipelock/tree/3e868ac5d5b62d3a2790958542171143af8a0e38/) · [Upstream code diff](https://github.com/luckyPipewrench/pipelock/compare/ca05ed06f360f5aac5518ab6ea2b11d729b70bee...3e868ac5d5b62d3a2790958542171143af8a0e38)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 0d318bef8c7cf7ae3f193ef32b2bc74e1d94b4d1 | ed800018463e1b84e8e3377f662173aed1da98b0 |
-| Selected tag | v0.1.90 | v0.1.95 |
+| Selected SHA | ca05ed06f360f5aac5518ab6ea2b11d729b70bee | 3e868ac5d5b62d3a2790958542171143af8a0e38 |
+| Selected tag | v3.5.0 | v3.6.0 |
 
-## release-drafter/release-drafter
+## plengauer/Thoth
 
-[Previous source](https://github.com/release-drafter/release-drafter/tree/34d80673e067bdc0c24568d3af899c216adcfaa9/) · [Current source](https://github.com/release-drafter/release-drafter/tree/72967cdc98ddd3160f1fc3dff619de365e137dd0/) · [Upstream code diff](https://github.com/release-drafter/release-drafter/compare/34d80673e067bdc0c24568d3af899c216adcfaa9...72967cdc98ddd3160f1fc3dff619de365e137dd0)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Description | Drafts your next release notes as pull requests are merged into your branch(es). | Draft release notes when pull requests merge into a branch. |
-| Input: commitish | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The release target, i.e. branch, commit SHA, or fully qualified tag or pull request ref it should point to.\\nTag and pull request refs are resolved to commit SHAs.\\nPull request merge refs force dry-run mode and disable publishing because they point to ephemeral merge commits.\\nDefaults to the branch that release-drafter runs for, e.g. \`main\` when configured to run on pushes to \`main\`.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Release target. Use a branch, commit SHA, fully qualified tag, or pull request ref.\\nRelease Drafter resolves tag and pull request refs to commit SHAs.\\nA pull request merge ref forces dry-run mode because its merge commit is temporary.\\nDefault: the workflow branch.\\n&quot;, &quot;required&quot;: false} |
-| Input: config-name | {&quot;default&quot;: &quot;release-drafter.yml&quot;, &quot;description&quot;: &quot;If your workflow requires multiple release-drafter configs it be helpful to override the config-name.\\nThe config should still be located inside \`.github\` as that&#x27;s where we are looking for config files.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;release-drafter.yml&quot;, &quot;description&quot;: &quot;Release Drafter configuration target.\\nA relative path starts in the repository&#x27;s \`.github\` directory.\\n&quot;, &quot;required&quot;: false} |
-| Input: dry-run | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A boolean indicating whether to run without performing any write operations.\\nWhen enabled, the action logs what it would have done instead of creating or updating releases.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Prevents write operations. The action logs the proposed release operation.\\n&quot;, &quot;required&quot;: false} |
-| Input: filter-by-range | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Filter releases that satisfies this semver range. Evaluates the tag name againts node&#x27;s semver.satisfies().\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Filter releases whose tag names satisfy this SemVer range.\\n&quot;, &quot;required&quot;: false} |
-| Input: footer | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A string that would be added after the template body.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Text to add after the template body.\\n&quot;, &quot;required&quot;: false} |
-| Input: from | null | {&quot;description&quot;: &quot;Ref, tag, branch, or commit SHA to use as the change comparison baseline.\\nThis value does not select the release version or the draft release to update.\\n&quot;, &quot;required&quot;: false} |
-| Input: header | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A string that would be added before the template body.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Text to add before the template body.\\n&quot;, &quot;required&quot;: false} |
-| Input: include-pre-releases | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;When looking for the last published release to scan changes up-to, include pre-releases. Has no effect if using \`prerelease: true\` (already enabled). Default \`false\`.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Includes prereleases when Release Drafter selects the last published release.\\nThis input has no effect when \`prerelease\` is \`true\`. Default: \`false\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: latest | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A boolean indicating whether the release being created or updated should be marked as latest.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Marks the created or updated release as latest.\\n&quot;, &quot;required&quot;: false} |
-| Input: name | {&quot;description&quot;: &quot;The name that will be used in the GitHub release that&#x27;s created or updated.\\nThis will override any \`name-template\` specified in your \`release-drafter.yml\` if defined.\\n&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Release name. This value overrides \`name-template\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: prerelease | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Whether to draft a prerelease, with changes since another prerelease (if applicable). Default \`false\`.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Creates a prerelease and includes changes since the previous prerelease when one exists. Default: \`false\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: prerelease-identifier | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A string indicating an identifier (alpha, beta, rc, etc), to increment the prerelease version. This automatically enables \`prerelease\` when both values come from the same config location; explicit action inputs still take precedence.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Prerelease identifier, such as \`alpha\`, \`beta\`, or \`rc\`.\\nThis input enables \`prerelease\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: publish | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A boolean indicating whether the release being created or updated should be immediately published.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Publishes the created or updated release immediately.\\n&quot;, &quot;required&quot;: false} |
-| Input: tag | {&quot;description&quot;: &quot;The tag name to be associated with the GitHub release that&#x27;s created or updated.\\nThis will override any \`tag-template\` specified in your \`release-drafter.yml\` if defined.\\n&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Release tag. This value overrides \`tag-template\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: token | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;Access token used to make requests against the GitHub API. Defaults to github.token.\\n&quot;} | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;Access token for GitHub API requests. Default: github.token.\\n&quot;} |
-| Input: version | {&quot;description&quot;: &quot;The version to be associated with the GitHub release that&#x27;s created or updated.\\nThis will override any version calculated by the release-drafter.\\n&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Release version. This value overrides the calculated version.\\n&quot;, &quot;required&quot;: false} |
-| Outputs | \[&quot;body&quot;, &quot;html\_url&quot;, &quot;id&quot;, &quot;major\_version&quot;, &quot;minor\_version&quot;, &quot;name&quot;, &quot;patch\_version&quot;, &quot;resolved\_version&quot;, &quot;tag\_name&quot;, &quot;upload\_url&quot;\] | \[&quot;body&quot;, &quot;html\_url&quot;, &quot;id&quot;, &quot;labels&quot;, &quot;major\_version&quot;, &quot;minor\_version&quot;, &quot;name&quot;, &quot;patch\_version&quot;, &quot;resolved\_version&quot;, &quot;tag\_name&quot;, &quot;upload\_url&quot;\] |
-| Selected SHA | 34d80673e067bdc0c24568d3af899c216adcfaa9 | 72967cdc98ddd3160f1fc3dff619de365e137dd0 |
-| Selected tag | v7.7.0 | v7.9.0 |
-
-## reviewdog/action-actionlint
-
-[Previous source](https://github.com/reviewdog/action-actionlint/tree/1129829fb3230509a1c9aa4e93cec2b234746a68/) · [Current source](https://github.com/reviewdog/action-actionlint/tree/13465d022aa41c282f730be17574b5ce692d0186/) · [Upstream code diff](https://github.com/reviewdog/action-actionlint/compare/1129829fb3230509a1c9aa4e93cec2b234746a68...13465d022aa41c282f730be17574b5ce692d0186)
+[Previous source](https://github.com/plengauer/Thoth/tree/db7b5a16bf2d905493c86f582aba4bb056d8aada/) · [Current source](https://github.com/plengauer/Thoth/tree/48918a17e96079ba32d8379d536c89679ab39340/) · [Upstream code diff](https://github.com/plengauer/Thoth/compare/db7b5a16bf2d905493c86f582aba4bb056d8aada...48918a17e96079ba32d8379d536c89679ab39340)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 1129829fb3230509a1c9aa4e93cec2b234746a68 | 13465d022aa41c282f730be17574b5ce692d0186 |
-| Selected tag | v1.78.0 | v1.78.1 |
+| Selected SHA | db7b5a16bf2d905493c86f582aba4bb056d8aada | 48918a17e96079ba32d8379d536c89679ab39340 |
+| Selected tag | v5.62.1 | v5.63.0 |
 
-## reviewdog/action-detect-secrets
+## pypa/gh-action-pypi-publish
 
-[Previous source](https://github.com/reviewdog/action-detect-secrets/tree/3bc07a8ce36864e49536f7dba77f7c69ff5219a3/) · [Current source](https://github.com/reviewdog/action-detect-secrets/tree/53195a798553d71f8d0884ab7335aa5ac42e73e9/) · [Upstream code diff](https://github.com/reviewdog/action-detect-secrets/compare/3bc07a8ce36864e49536f7dba77f7c69ff5219a3...53195a798553d71f8d0884ab7335aa5ac42e73e9)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 3bc07a8ce36864e49536f7dba77f7c69ff5219a3 | 53195a798553d71f8d0884ab7335aa5ac42e73e9 |
-| Selected tag | v0.31.0 | v0.31.1 |
-
-## reviewdog/action-eslint
-
-[Previous source](https://github.com/reviewdog/action-eslint/tree/b6303df522851d0e9abaea654da0222037d97e75/) · [Current source](https://github.com/reviewdog/action-eslint/tree/3ee2a450da17e060b9dfa4bffd53976906c6b2b0/) · [Upstream code diff](https://github.com/reviewdog/action-eslint/compare/b6303df522851d0e9abaea654da0222037d97e75...3ee2a450da17e060b9dfa4bffd53976906c6b2b0)
+[Previous source](https://github.com/pypa/gh-action-pypi-publish) · [Current source](https://github.com/pypa/gh-action-pypi-publish/tree/dc37677b2e1c63e2034f94d8a5b11f265b73ba33/)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | b6303df522851d0e9abaea654da0222037d97e75 | 3ee2a450da17e060b9dfa4bffd53976906c6b2b0 |
-| Selected tag | v1.36.0 | v1.36.1 |
+| Findings | \[\] | \[\[&quot;self-repository&quot;, &quot;warning&quot;, &quot;use GitHub&#x27;s dedicated self-repository syntax&quot;\], \[&quot;template-injection&quot;, &quot;info&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;info&quot;, &quot;code injection via template expansion&quot;\]\] |
+| Input: attestations | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Enable support for PEP 740 attestations. Only works with PyPI and TestPyPI via Trusted Publishing.&quot;, &quot;required&quot;: false} |
+| Input: packages-dir | null | {&quot;description&quot;: &quot;The target directory for distribution&quot;, &quot;required&quot;: false} |
+| Input: packages\_dir | null | {&quot;default&quot;: &quot;dist&quot;, &quot;deprecationMessage&quot;: &quot;The inputs have been normalized to use kebab-case. Use \`packages-dir\` instead.&quot;, &quot;description&quot;: &quot;\[DEPRECATED\] The target directory for distribution&quot;, &quot;required&quot;: false} |
+| Input: password | null | {&quot;description&quot;: &quot;Password for your PyPI user or an access token&quot;, &quot;required&quot;: false} |
+| Input: print-hash | null | {&quot;description&quot;: &quot;Show hash values of files to be uploaded&quot;, &quot;required&quot;: false} |
+| Input: print\_hash | null | {&quot;default&quot;: &quot;true&quot;, &quot;deprecationMessage&quot;: &quot;The inputs have been normalized to use kebab-case. Use \`print-hash\` instead.&quot;, &quot;description&quot;: &quot;\[DEPRECATED\] Show hash values of files to be uploaded&quot;, &quot;required&quot;: false} |
+| Input: repository-url | null | {&quot;description&quot;: &quot;The repository URL to use&quot;, &quot;required&quot;: false} |
+| Input: repository\_url | null | {&quot;default&quot;: &quot;https://upload.pypi.org/legacy/&quot;, &quot;deprecationMessage&quot;: &quot;The inputs have been normalized to use kebab-case. Use \`repository-url\` instead.&quot;, &quot;description&quot;: &quot;\[DEPRECATED\] The repository URL to use&quot;, &quot;required&quot;: false} |
+| Input: skip-existing | null | {&quot;description&quot;: &quot;Do not fail if a Python package distribution exists in the target package index&quot;, &quot;required&quot;: false} |
+| Input: skip\_existing | null | {&quot;default&quot;: &quot;false&quot;, &quot;deprecationMessage&quot;: &quot;The inputs have been normalized to use kebab-case. Use \`skip-existing\` instead.&quot;, &quot;description&quot;: &quot;\[DEPRECATED\] Do not fail if a Python package distribution exists in the target package index&quot;, &quot;required&quot;: false} |
+| Input: user | null | {&quot;default&quot;: &quot;\_\_token\_\_&quot;, &quot;description&quot;: &quot;PyPI user&quot;, &quot;required&quot;: false} |
+| Input: verbose | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Show verbose output.&quot;, &quot;required&quot;: false} |
+| Input: verify-metadata | null | {&quot;description&quot;: &quot;Check metadata before uploading&quot;, &quot;required&quot;: false} |
+| Input: verify\_metadata | null | {&quot;default&quot;: &quot;true&quot;, &quot;deprecationMessage&quot;: &quot;The inputs have been normalized to use kebab-case. Use \`verify-metadata\` instead.&quot;, &quot;description&quot;: &quot;\[DEPRECATED\] Check metadata before uploading&quot;, &quot;required&quot;: false} |
+| Observed stability | null | observed |
+| Outputs | null | \[\] |
+| Runtime | null | composite |
+| Security | unknown | warning |
+| Selected SHA | null | dc37677b2e1c63e2034f94d8a5b11f265b73ba33 |
+| Selected tag | null | v1.14.2 |
 
-## reviewdog/action-golangci-lint
+## suzuki-shunsuke/tfaction
 
-[Previous source](https://github.com/reviewdog/action-golangci-lint/tree/db65103266f304d8ac929ad6c0cd02d14f6837ba/) · [Current source](https://github.com/reviewdog/action-golangci-lint/tree/284129a3ac23bc5d8ac1522e0b6511df74a8836d/) · [Upstream code diff](https://github.com/reviewdog/action-golangci-lint/compare/db65103266f304d8ac929ad6c0cd02d14f6837ba...284129a3ac23bc5d8ac1522e0b6511df74a8836d)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | db65103266f304d8ac929ad6c0cd02d14f6837ba | 284129a3ac23bc5d8ac1522e0b6511df74a8836d |
-| Selected tag | v2.10.1 | v2.10.2 |
-
-## reviewdog/action-shellcheck
-
-[Previous source](https://github.com/reviewdog/action-shellcheck/tree/0a90156c6e0553996a217f0a9e09be6b0f6bee4c/) · [Current source](https://github.com/reviewdog/action-shellcheck/tree/d0b8d5fd7fad6afdb6e1b6ce1778892be4d1f427/) · [Upstream code diff](https://github.com/reviewdog/action-shellcheck/compare/0a90156c6e0553996a217f0a9e09be6b0f6bee4c...d0b8d5fd7fad6afdb6e1b6ce1778892be4d1f427)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 0a90156c6e0553996a217f0a9e09be6b0f6bee4c | d0b8d5fd7fad6afdb6e1b6ce1778892be4d1f427 |
-| Selected tag | v1.34.0 | v1.34.1 |
-
-## reviewdog/action-tflint
-
-[Previous source](https://github.com/reviewdog/action-tflint/tree/2c3945df0a1eca41825ede1ba6b7f1b3fc95acd8/) · [Current source](https://github.com/reviewdog/action-tflint/tree/c332ae72f14fd853c08323a60383b396cc34715a/) · [Upstream code diff](https://github.com/reviewdog/action-tflint/compare/2c3945df0a1eca41825ede1ba6b7f1b3fc95acd8...c332ae72f14fd853c08323a60383b396cc34715a)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: reviewdog\_github\_api\_token | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;REVIEWDOG\_GITHUB\_API\_TOKEN&quot;} |
-| Selected SHA | 2c3945df0a1eca41825ede1ba6b7f1b3fc95acd8 | c332ae72f14fd853c08323a60383b396cc34715a |
-| Selected tag | v1.27.0 | v1.28.0 |
-
-## reviewdog/action-yamllint
-
-[Previous source](https://github.com/reviewdog/action-yamllint/tree/290d92c84b22627946efc7fd6f038ade2d2beede/) · [Current source](https://github.com/reviewdog/action-yamllint/tree/5dd4640db975e4cac6f4e775a401695bafc28068/) · [Upstream code diff](https://github.com/reviewdog/action-yamllint/compare/290d92c84b22627946efc7fd6f038ade2d2beede...5dd4640db975e4cac6f4e775a401695bafc28068)
+[Previous source](https://github.com/suzuki-shunsuke/tfaction/tree/e71f80efd3d0eeaca305cb93267e7274d9c6f8c9/) · [Current source](https://github.com/suzuki-shunsuke/tfaction/tree/07a983968cbace490e9059103a7019a638c65e10/) · [Upstream code diff](https://github.com/suzuki-shunsuke/tfaction/compare/e71f80efd3d0eeaca305cb93267e7274d9c6f8c9...07a983968cbace490e9059103a7019a638c65e10)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 290d92c84b22627946efc7fd6f038ade2d2beede | 5dd4640db975e4cac6f4e775a401695bafc28068 |
-| Selected tag | v1.25.0 | v1.25.1 |
+| Selected SHA | e71f80efd3d0eeaca305cb93267e7274d9c6f8c9 | 07a983968cbace490e9059103a7019a638c65e10 |
+| Selected tag | v2.3.2 | v2.3.3 |
 
-## shogo82148/actions-upload-release-asset
+## typesafegithub/github-actions-typing
 
-[Previous source](https://github.com/shogo82148/actions-upload-release-asset/tree/eee382aaa9c6b13fd841694e63175fac2e2a1b48/) · [Current source](https://github.com/shogo82148/actions-upload-release-asset/tree/9ee13965a8a51926f330b424693f25fcff8f2ef6/) · [Upstream code diff](https://github.com/shogo82148/actions-upload-release-asset/compare/eee382aaa9c6b13fd841694e63175fac2e2a1b48...9ee13965a8a51926f330b424693f25fcff8f2ef6)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | eee382aaa9c6b13fd841694e63175fac2e2a1b48 | 9ee13965a8a51926f330b424693f25fcff8f2ef6 |
-| Selected tag | v1.10.5 | v1.10.6 |
-
-## super-linter/super-linter
-
-[Previous source](https://github.com/super-linter/super-linter/tree/4ce20838b8ab83717e78138c5b3a1407148e0918/) · [Current source](https://github.com/super-linter/super-linter/tree/2da136927bd4a73596db63044b504547c62cb854/) · [Upstream code diff](https://github.com/super-linter/super-linter/compare/4ce20838b8ab83717e78138c5b3a1407148e0918...2da136927bd4a73596db63044b504547c62cb854)
+[Previous source](https://github.com/typesafegithub/github-actions-typing) · [Current source](https://github.com/typesafegithub/github-actions-typing/tree/9ddf35b71a482be7d8922b28e8d00df16b77e315/)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 4ce20838b8ab83717e78138c5b3a1407148e0918 | 2da136927bd4a73596db63044b504547c62cb854 |
-| Selected tag | v8.7.0 | v9.0.0 |
+| Input: ignored-action-files | null | {&quot;description&quot;: &quot;Paths to &#x27;action.y(a)ml&#x27; files that shouldn&#x27;t be validated against their typings. The separator character is &#x27;/&#x27;, regardless of the operating system.\\n&quot;, &quot;required&quot;: false} |
+| Observed stability | null | observed |
+| Outputs | null | \[\] |
+| Runtime | null | docker |
+| Security | unknown | clean |
+| Selected SHA | null | 9ddf35b71a482be7d8922b28e8d00df16b77e315 |
+| Selected tag | null | v2.2.2 |
 
-## warpdotdev/oz-agent-action
+## UiPath/coder\_eval
 
-[Previous source](https://github.com/warpdotdev/oz-agent-action/tree/261367f00a9899a054aac2661b39e6783f5e7c25/) · [Current source](https://github.com/warpdotdev/oz-agent-action/tree/ccb5247d8faee3d0a4b70b8a776727c8f52e2355/) · [Upstream code diff](https://github.com/warpdotdev/oz-agent-action/compare/261367f00a9899a054aac2661b39e6783f5e7c25...ccb5247d8faee3d0a4b70b8a776727c8f52e2355)
+[Previous source](https://github.com/UiPath/coder_eval/tree/ee8e145440c1eca48f776f9fa5ff6270158229bc/) · [Current source](https://github.com/UiPath/coder_eval/tree/0fa062a25e6db7cf76edc487cab6967ebe5c55bf/) · [Upstream code diff](https://github.com/UiPath/coder_eval/compare/ee8e145440c1eca48f776f9fa5ff6270158229bc...0fa062a25e6db7cf76edc487cab6967ebe5c55bf)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 261367f00a9899a054aac2661b39e6783f5e7c25 | ccb5247d8faee3d0a4b70b8a776727c8f52e2355 |
-| Selected tag | v1.0.35 | v1.0.36 |
+| Input: version | {&quot;default&quot;: &quot;0.12.9&quot;, &quot;description&quot;: &quot;coder-eval version to install from PyPI, or \\&quot;local\\&quot; to install from the action checkout&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.12.10&quot;, &quot;description&quot;: &quot;coder-eval version to install from PyPI, or \\&quot;local\\&quot; to install from the action checkout&quot;, &quot;required&quot;: false} |
+| Selected SHA | ee8e145440c1eca48f776f9fa5ff6270158229bc | 0fa062a25e6db7cf76edc487cab6967ebe5c55bf |
+| Selected tag | v0.12.9 | v0.12.10 |
+
+## vladopajic/go-test-coverage
+
+[Previous source](https://github.com/vladopajic/go-test-coverage/tree/f94bcf0d6b9fa5fb8b783830b22648f6c17475e2/) · [Current source](https://github.com/vladopajic/go-test-coverage/tree/f484eec846448c97c777a26f8b58c5a69a327e12/) · [Upstream code diff](https://github.com/vladopajic/go-test-coverage/compare/f94bcf0d6b9fa5fb8b783830b22648f6c17475e2...f484eec846448c97c777a26f8b58c5a69a327e12)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | f94bcf0d6b9fa5fb8b783830b22648f6c17475e2 | f484eec846448c97c777a26f8b58c5a69a327e12 |
+| Selected tag | v2.19.0 | v2.20.0 |
+
+## vmactions/freebsd-vm
+
+[Previous source](https://github.com/vmactions/freebsd-vm/tree/a2f9a41fa97f6848b8c3b791087dfcdaa5b473ff/) · [Current source](https://github.com/vmactions/freebsd-vm/tree/c46abacb49f09938ca4e1702d15d836285d694cc/) · [Upstream code diff](https://github.com/vmactions/freebsd-vm/compare/a2f9a41fa97f6848b8c3b791087dfcdaa5b473ff...c46abacb49f09938ca4e1702d15d836285d694cc)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: cache-after-prepare-key-suffix | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Optional. Extra value appended to the cache-after-prepare cache key. Change it to discard the prepared VM image cache and run prepare again. Default is empty.&quot;, &quot;required&quot;: false} |
+| Selected SHA | a2f9a41fa97f6848b8c3b791087dfcdaa5b473ff | c46abacb49f09938ca4e1702d15d836285d694cc |
+| Selected tag | v1.5.8 | v1.5.9 |
+
+## zgosalvez/github-actions-ensure-sha-pinned-actions
+
+[Previous source](https://github.com/zgosalvez/github-actions-ensure-sha-pinned-actions/tree/62574f011e0d1967d555a862bd28a7abba8684fe/) · [Current source](https://github.com/zgosalvez/github-actions-ensure-sha-pinned-actions/tree/c4e71056006d29f90204b2d063be337109507d62/) · [Upstream code diff](https://github.com/zgosalvez/github-actions-ensure-sha-pinned-actions/compare/62574f011e0d1967d555a862bd28a7abba8684fe...c4e71056006d29f90204b2d063be337109507d62)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 62574f011e0d1967d555a862bd28a7abba8684fe | c4e71056006d29f90204b2d063be337109507d62 |
+| Selected tag | v5.0.9 | v5.0.10 |
+
+## zgosalvez/github-actions-report-lcov
+
+[Previous source](https://github.com/zgosalvez/github-actions-report-lcov/tree/72cb85c549acad28913c9607dbd04af41bec7980/) · [Current source](https://github.com/zgosalvez/github-actions-report-lcov/tree/1f890959536bc7cc4f8ac36e78626797c41f6ac1/) · [Upstream code diff](https://github.com/zgosalvez/github-actions-report-lcov/compare/72cb85c549acad28913c9607dbd04af41bec7980...1f890959536bc7cc4f8ac36e78626797c41f6ac1)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 72cb85c549acad28913c9607dbd04af41bec7980 | 1f890959536bc7cc4f8ac36e78626797c41f6ac1 |
+| Selected tag | v7.2.1 | v7.2.2 |

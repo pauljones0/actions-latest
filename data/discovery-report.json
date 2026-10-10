@@ -1,7 +1,6 @@
 {
   "admitted": [
-    "openqodex/openqodex",
-    "cycjimmy/semantic-release-action"
+    "irgaly/xcode-cache"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
@@ -263,7 +262,7 @@
       "status": "rejected"
     },
     "Vladimir-Human/humanizer-ru": {
-      "checked_at": "2026-09-27T10:14:10.079085+00:00",
+      "checked_at": "2026-10-10T10:50:14.851620+00:00",
       "reason": "No action.yml or action.yaml at Vladimir-Human/humanizer-ru@75c7711f174133139e3ff8e22c67bdc11231baee",
       "status": "rejected"
     },
@@ -579,8 +578,8 @@
       "status": "admitted"
     },
     "github/gh-aw": {
-      "checked_at": "2026-10-03T10:05:17.356534+00:00",
-      "reason": "No action.yml or action.yaml at github/gh-aw@306bc6bdf8df80f039c69df518a2dc4b73a0f544",
+      "checked_at": "2026-10-10T10:50:14.851620+00:00",
+      "reason": "No action.yml or action.yaml at github/gh-aw@4636bdcd0f9727c4fe34d56c27bcddd2c2c8c29f",
       "status": "rejected"
     },
     "go-gitea/gitea": {
@@ -634,6 +633,12 @@
       "checked_at": "2026-10-05T09:11:26.761166+00:00",
       "reason": "No action.yml or action.yaml at ipitio/backage@d3ee07f53a47d5887e736d614589bd979399fe9c",
       "status": "rejected"
+    },
+    "irgaly/xcode-cache": {
+      "checked_at": "2026-10-10T10:50:14.851620+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "15b2628986cca628d90c3df1c7ad7f695b4a013c",
+      "status": "admitted"
     },
     "its-me-debk007/kotlin-android-mvvm-template": {
       "checked_at": "2026-09-12T08:52:56.533053+00:00",
@@ -693,6 +698,11 @@
     "kucherenko/jscpd": {
       "checked_at": "2026-10-05T09:11:26.761166+00:00",
       "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
+    "kumarsohitcate98-debug/kazehaya-luau-lab": {
+      "checked_at": "2026-10-10T10:50:14.851620+00:00",
+      "reason": "No action.yml or action.yaml at kumarsohitcate98-debug/kazehaya-luau-lab@ab4d5d75257e928e4c6ba61e23551b52f027d1d2",
       "status": "rejected"
     },
     "laminas/automatic-releases": {
@@ -781,6 +791,11 @@
     "oasdiff/oasdiff": {
       "checked_at": "2026-10-08T11:39:09.899533+00:00",
       "reason": "No action.yml or action.yaml at oasdiff/oasdiff@3c1bb05fcc64a475852df68745847589791d41dd",
+      "status": "rejected"
+    },
+    "omarmhaimdat/pepe": {
+      "checked_at": "2026-10-10T10:50:14.851620+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "openqodex/openqodex": {
@@ -982,8 +997,8 @@
       "status": "admitted"
     },
     "tailcallhq/gh-workflow": {
-      "checked_at": "2026-10-03T10:05:17.356534+00:00",
-      "reason": "No action.yml or action.yaml at tailcallhq/gh-workflow@1cc03d5b540a2fa10f046cbfa09c1e4a72a0475b",
+      "checked_at": "2026-10-10T10:50:14.851620+00:00",
+      "reason": "No action.yml or action.yaml at tailcallhq/gh-workflow@c42e47036c57b73eada19b7dd7277bc4580e1ddd",
       "status": "rejected"
     },
     "team-aliens/DMS-Android": {
@@ -1107,7 +1122,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-09T11:32:08.649652+00:00",
+  "checked_at": "2026-10-10T10:50:14.851620+00:00",
   "errors": [],
   "inspected": 6
 }
