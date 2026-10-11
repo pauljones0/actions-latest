@@ -1,11 +1,9 @@
 {
-  "admitted": [
-    "irgaly/xcode-cache"
-  ],
+  "admitted": [],
   "candidates": {
     "15H4NT/Grade-Prophet": {
-      "checked_at": "2026-10-04T10:46:40.614767+00:00",
-      "reason": "No action.yml or action.yaml at 15H4NT/Grade-Prophet@687d62147636afd3f35ef1a8fcba6086d214ff8d",
+      "checked_at": "2026-10-11T11:02:50.093402+00:00",
+      "reason": "No action.yml or action.yaml at 15H4NT/Grade-Prophet@52a1b58d4f4e4477949fb1f348bdbcefc7ade596",
       "status": "rejected"
     },
     "ARM-software/AVH": {
@@ -14,8 +12,8 @@
       "status": "rejected"
     },
     "Agents365-ai/drawio-skill": {
-      "checked_at": "2026-09-11T09:11:06.276205+00:00",
-      "reason": "No action.yml or action.yaml at Agents365-ai/drawio-skill@cfe61314136431621c9268d8ea0d811bff308f5a",
+      "checked_at": "2026-10-11T11:02:50.093402+00:00",
+      "reason": "No action.yml or action.yaml at Agents365-ai/drawio-skill@701e72833273525c17abe5511e544da2db51265d",
       "status": "rejected"
     },
     "Aletheore/Aletheore": {
@@ -583,8 +581,8 @@
       "status": "rejected"
     },
     "go-gitea/gitea": {
-      "checked_at": "2026-10-01T11:12:41.093343+00:00",
-      "reason": "No action.yml or action.yaml at go-gitea/gitea@2f5cdbd5c141f1309444e6082716e5425b339543",
+      "checked_at": "2026-10-11T11:02:50.093402+00:00",
+      "reason": "No action.yml or action.yaml at go-gitea/gitea@aa32eb97fad8224cc0ef9d4b40df255b8026dd49",
       "status": "rejected"
     },
     "goreleaser/goreleaser": {
@@ -595,6 +593,11 @@
     "goreleaser/goreleaser-pro": {
       "checked_at": "2026-09-05T20:49:50.304295+00:00",
       "reason": "No action.yml or action.yaml at goreleaser/goreleaser-pro@ac8a1a7068cbd14312e1f9eb07292163100938e1",
+      "status": "rejected"
+    },
+    "headlesshq/mc-runtime-test": {
+      "checked_at": "2026-10-11T11:02:50.093402+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "hect0x7/JMComic-APK": {
@@ -639,6 +642,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "15b2628986cca628d90c3df1c7ad7f695b4a013c",
       "status": "admitted"
+    },
+    "isas1/daily-team": {
+      "checked_at": "2026-10-11T11:02:50.093402+00:00",
+      "reason": "No action.yml or action.yaml at isas1/daily-team@302eabc325959350f0c04d3091a03ee53ddc007d",
+      "status": "rejected"
     },
     "its-me-debk007/kotlin-android-mvvm-template": {
       "checked_at": "2026-09-12T08:52:56.533053+00:00",
@@ -693,6 +701,11 @@
     "kkzzhizhou/scoop-apps": {
       "checked_at": "2026-10-05T11:52:28.116974+00:00",
       "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@df532ac8c45feb7660ae283b5d85f61d82134f33",
+      "status": "rejected"
+    },
+    "koobai/blog": {
+      "checked_at": "2026-10-11T11:02:50.093402+00:00",
+      "reason": "No action.yml or action.yaml at koobai/blog@f0599b6c394b801e77f35135f0bd9a9faf06dcc6",
       "status": "rejected"
     },
     "kucherenko/jscpd": {
@@ -990,6 +1003,11 @@
       "reason": "No action.yml or action.yaml at step-security/agent@5dfd35813b46206ef0bc72a139af7811b5102357",
       "status": "rejected"
     },
+    "suzuki-shunsuke/pinact": {
+      "checked_at": "2026-10-11T11:02:50.093402+00:00",
+      "reason": "No action.yml or action.yaml at suzuki-shunsuke/pinact@3e2ab322bd85dce8c1036d01d5f6e6f5c0f2b194",
+      "status": "rejected"
+    },
     "suzuki-shunsuke/tfaction": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "scanner_version": "1.30.0",
@@ -1122,7 +1140,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-10T10:50:14.851620+00:00",
+  "checked_at": "2026-10-11T11:02:50.093402+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 7
 }
