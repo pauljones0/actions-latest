@@ -104,8 +104,8 @@
       "status": "error"
     },
     "ITJoker233/BingPicApi": {
-      "checked_at": "2026-10-05T09:11:26.761166+00:00",
-      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@498653fa480b8f994b0a18e3b0cadf07ff8b3b56",
+      "checked_at": "2026-10-12T09:20:51.202218+00:00",
+      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@e18fb149537551ea3f274798fddb7845cd3ba8c1",
       "status": "rejected"
     },
     "Ilshidur/action-discord": {
@@ -161,8 +161,8 @@
       "status": "rejected"
     },
     "LindseyB/dummy": {
-      "checked_at": "2026-10-05T09:11:26.761166+00:00",
-      "reason": "No action.yml or action.yaml at LindseyB/dummy@5d322ca62d347e28fb8a2b969c29bc02d109aa56",
+      "checked_at": "2026-10-12T09:20:51.202218+00:00",
+      "reason": "No action.yml or action.yaml at LindseyB/dummy@3af593b01a3fef2293727d5507a9573c273312b5",
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
@@ -181,14 +181,19 @@
       "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@dbb1f21c132b0a7383b87030431ec37c4fae2db7",
       "status": "rejected"
     },
+    "MustacheCase/zanadir": {
+      "checked_at": "2026-10-12T09:20:51.202218+00:00",
+      "reason": "No action.yml or action.yaml at MustacheCase/zanadir@0a8a1d3aab08877e0b67f7424a31d8cc17fadd6a",
+      "status": "rejected"
+    },
     "Pradumnasaraf/DevOps": {
       "checked_at": "2026-09-16T09:33:55.168839+00:00",
       "reason": "No action.yml or action.yaml at Pradumnasaraf/DevOps@27e3f647bcbf1886bcc26887db4476aa2b0e582e",
       "status": "rejected"
     },
     "ProxyScrape/free-proxy-list": {
-      "checked_at": "2026-10-05T09:11:26.761166+00:00",
-      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@3a48d0b567604e0aa548e3e27663fd0822fe1616",
+      "checked_at": "2026-10-12T09:20:51.202218+00:00",
+      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@d1e50c5a1b3768f49261eae13d37c40e3d4a8f6a",
       "status": "rejected"
     },
     "RamiKrispin/ai-dev-2024-ml-workshop": {
@@ -518,8 +523,8 @@
       "status": "rejected"
     },
     "f/wvw.dev": {
-      "checked_at": "2026-09-21T08:01:20.244752+00:00",
-      "reason": "No action.yml or action.yaml at f/wvw.dev@eb478ba9726793a02fe0d325301b28147e603670",
+      "checked_at": "2026-10-12T09:20:51.202218+00:00",
+      "reason": "No action.yml or action.yaml at f/wvw.dev@960a3aff90ec9eccb797512552bfe90ccc874ac7",
       "status": "rejected"
     },
     "f2calv/yamlizr": {
@@ -593,6 +598,11 @@
     "goreleaser/goreleaser-pro": {
       "checked_at": "2026-09-05T20:49:50.304295+00:00",
       "reason": "No action.yml or action.yaml at goreleaser/goreleaser-pro@ac8a1a7068cbd14312e1f9eb07292163100938e1",
+      "status": "rejected"
+    },
+    "grifosaint/exurd-roblox-leaderboard-archive": {
+      "checked_at": "2026-10-12T09:20:51.202218+00:00",
+      "reason": "No action.yml or action.yaml at grifosaint/exurd-roblox-leaderboard-archive@7b8a1a6e6cdbb2d7a18ac35c45dd56cf499ba738",
       "status": "rejected"
     },
     "headlesshq/mc-runtime-test": {
@@ -709,7 +719,7 @@
       "status": "rejected"
     },
     "kucherenko/jscpd": {
-      "checked_at": "2026-10-05T09:11:26.761166+00:00",
+      "checked_at": "2026-10-12T09:20:51.202218+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -797,8 +807,8 @@
       "status": "rejected"
     },
     "nowscott/EverydayTechNews": {
-      "checked_at": "2026-09-28T11:16:37.963924+00:00",
-      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@a323061f31f7b297e00a06ff2754b13c72147d27",
+      "checked_at": "2026-10-12T09:20:51.202218+00:00",
+      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@8efa914a6af97c28b3e2412705cf36afd0fe0e1e",
       "status": "rejected"
     },
     "oasdiff/oasdiff": {
@@ -905,8 +915,8 @@
       "status": "rejected"
     },
     "ram0verflow/ram0verflow": {
-      "checked_at": "2026-10-05T09:11:26.761166+00:00",
-      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@db0ed542d7930227e5b6fd95b7b3918b14ec0849",
+      "checked_at": "2026-10-12T09:20:51.202218+00:00",
+      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@da91b77a4235c5d55966579b9caa286faf347887",
       "status": "rejected"
     },
     "redhat-plumbers-in-action/differential-shellcheck": {
@@ -1130,8 +1140,13 @@
       "status": "admitted"
     },
     "zhongfly/mpv-winbuild": {
-      "checked_at": "2026-10-05T09:11:26.761166+00:00",
-      "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@88bdc4db67bb476a7606921eb2d68b273440d59b",
+      "checked_at": "2026-10-12T09:20:51.202218+00:00",
+      "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@8a39c5134b8e16f104ee56a5d85e36a592ad9477",
+      "status": "rejected"
+    },
+    "zhuyansen/new-term-radar": {
+      "checked_at": "2026-10-12T09:20:51.202218+00:00",
+      "reason": "No action.yml or action.yaml at zhuyansen/new-term-radar@c32e95c9a3f69fcd1b629a97724f36daf1749c41",
       "status": "rejected"
     },
     "ziwenhahaha/daily-paper-reader": {
@@ -1140,7 +1155,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-11T11:02:50.093402+00:00",
+  "checked_at": "2026-10-12T09:20:51.202218+00:00",
   "errors": [],
-  "inspected": 7
+  "inspected": 11
 }
