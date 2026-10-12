@@ -1,74 +1,72 @@
 {
   "changes": [
     {
-      "package": "cryptography",
+      "package": "iniconfig",
       "before": [
-        "50.0.1"
+        "2.3.0"
       ],
       "after": [
-        "50.0.2"
+        "2.3.1"
       ]
     },
     {
-      "package": "pyjwt",
+      "package": "pycparser",
       "before": [
-        "2.15.0"
+        "3.0"
       ],
       "after": [
-        "2.15.1"
+        "3.11"
       ]
     },
     {
-      "package": "python-dotenv",
+      "package": "pydantic",
       "before": [
-        "1.2.3"
+        "2.13.5"
       ],
       "after": [
-        "1.2.4"
+        "2.14.1"
       ]
     },
     {
-      "package": "rpds-py",
+      "package": "pydantic-core",
       "before": [
-        "0.30.0",
-        "2026.6.3"
+        "2.46.5"
       ],
       "after": [
-        "0.30.0",
-        "2026.9.1"
+        "2.50.1"
       ]
     },
     {
       "package": "ruff",
       "before": [
-        "0.16.9"
+        "0.16.10"
       ],
       "after": [
-        "0.16.10"
+        "0.17.0"
       ]
     },
     {
-      "package": "sse-starlette",
+      "package": "tomli",
       "before": [
-        "3.4.11"
+        "2.4.1"
       ],
       "after": [
-        "3.5.0"
+        "2.5.0"
       ]
     },
     {
       "package": "uv",
       "before": [
-        "0.12.19"
+        "0.12.23"
       ],
       "after": [
-        "0.12.23"
+        "0.13.0"
       ]
     }
   ],
   "validated": true,
   "prepared": true,
-  "base_commit": "4926fb354d8dd21478c016880737e24505e538c2",
+  "base_commit": "675ba5a4b62c8826bafd47eca11312c00d0dafa7",
   "held_tools": [],
-  "run_url": "https://github.com/pauljones0/actions-latest/actions/runs/37288290338"
+  "run_url": "https://github.com/pauljones0/actions-latest/actions/runs/38229178365"
 }

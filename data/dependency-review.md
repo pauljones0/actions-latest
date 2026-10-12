@@ -6,17 +6,17 @@ Direct tools stay within their current major. Runtime dependencies stay within d
 
 | Package | Before | After | Upstream details |
 | --- | --- | --- | --- |
-| cryptography | \[&quot;50.0.1&quot;\] | \[&quot;50.0.2&quot;\] | [50.0.2](https://pypi.org/project/cryptography/50.0.2/) |
-| pyjwt | \[&quot;2.15.0&quot;\] | \[&quot;2.15.1&quot;\] | [2.15.1](https://pypi.org/project/pyjwt/2.15.1/) |
-| python-dotenv | \[&quot;1.2.3&quot;\] | \[&quot;1.2.4&quot;\] | [1.2.4](https://pypi.org/project/python-dotenv/1.2.4/) |
-| rpds-py | \[&quot;0.30.0&quot;, &quot;2026.6.3&quot;\] | \[&quot;0.30.0&quot;, &quot;2026.9.1&quot;\] | [0.30.0](https://pypi.org/project/rpds-py/0.30.0/) · [2026.9.1](https://pypi.org/project/rpds-py/2026.9.1/) |
-| ruff | \[&quot;0.16.9&quot;\] | \[&quot;0.16.10&quot;\] | [0.16.10](https://pypi.org/project/ruff/0.16.10/) |
-| sse-starlette | \[&quot;3.4.11&quot;\] | \[&quot;3.5.0&quot;\] | [3.5.0](https://pypi.org/project/sse-starlette/3.5.0/) |
-| uv | \[&quot;0.12.19&quot;\] | \[&quot;0.12.23&quot;\] | [0.12.23](https://pypi.org/project/uv/0.12.23/) |
+| iniconfig | \[&quot;2.3.0&quot;\] | \[&quot;2.3.1&quot;\] | [2.3.1](https://pypi.org/project/iniconfig/2.3.1/) |
+| pycparser | \[&quot;3.0&quot;\] | \[&quot;3.11&quot;\] | [3.11](https://pypi.org/project/pycparser/3.11/) |
+| pydantic | \[&quot;2.13.5&quot;\] | \[&quot;2.14.1&quot;\] | [2.14.1](https://pypi.org/project/pydantic/2.14.1/) |
+| pydantic-core | \[&quot;2.46.5&quot;\] | \[&quot;2.50.1&quot;\] | [2.50.1](https://pypi.org/project/pydantic-core/2.50.1/) |
+| ruff | \[&quot;0.16.10&quot;\] | \[&quot;0.17.0&quot;\] | [0.17.0](https://pypi.org/project/ruff/0.17.0/) |
+| tomli | \[&quot;2.4.1&quot;\] | \[&quot;2.5.0&quot;\] | [2.5.0](https://pypi.org/project/tomli/2.5.0/) |
+| uv | \[&quot;0.12.23&quot;\] | \[&quot;0.13.0&quot;\] | [0.13.0](https://pypi.org/project/uv/0.13.0/) |
 
-**Proposal base commit:** `4926fb354d8dd21478c016880737e24505e538c2`. Reproduce the downloaded patch from this exact commit, which can differ from the event that queued the run.
+**Proposal base commit:** `675ba5a4b62c8826bafd47eca11312c00d0dafa7`. Reproduce the downloaded patch from this exact commit, which can differ from the event that queued the run.
 
-[Checks and publication result](https://github.com/pauljones0/actions-latest/actions/runs/37288290338)
+[Checks and publication result](https://github.com/pauljones0/actions-latest/actions/runs/38229178365)
 
 ## Decision
 
