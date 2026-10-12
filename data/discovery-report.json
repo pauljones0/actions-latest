@@ -502,8 +502,8 @@
       "status": "rejected"
     },
     "docker/actions-toolkit": {
-      "checked_at": "2026-10-05T09:11:26.761166+00:00",
-      "reason": "No action.yml or action.yaml at docker/actions-toolkit@1c23ee763a382127405df5821d59304737292848",
+      "checked_at": "2026-10-12T12:29:19.620945+00:00",
+      "reason": "No action.yml or action.yaml at docker/actions-toolkit@1768ff59cc6bdebf7ac98d72a4eef030ee9f52b7",
       "status": "rejected"
     },
     "docker/github-builder": {
@@ -698,8 +698,8 @@
       "status": "admitted"
     },
     "kdeldycke/repomatic": {
-      "checked_at": "2026-09-30T10:46:22.012766+00:00",
-      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@54ae69f894eaecd4f94da5fd393e1fc02c8fac41",
+      "checked_at": "2026-10-12T12:29:19.620945+00:00",
+      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@84e127954d39a56394bec9228ffdaa6efac3998d",
       "status": "rejected"
     },
     "kerlenton/mcpsnoop": {
@@ -709,8 +709,8 @@
       "status": "admitted"
     },
     "kkzzhizhou/scoop-apps": {
-      "checked_at": "2026-10-05T11:52:28.116974+00:00",
-      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@df532ac8c45feb7660ae283b5d85f61d82134f33",
+      "checked_at": "2026-10-12T12:29:19.620945+00:00",
+      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@1482b3c6e9e17de416ceb4b3d04a80f5e8475656",
       "status": "rejected"
     },
     "koobai/blog": {
@@ -741,8 +741,8 @@
       "status": "admitted"
     },
     "levnikolaevich/claude-code-skills": {
-      "checked_at": "2026-10-05T11:52:28.116974+00:00",
-      "reason": "No action.yml or action.yaml at levnikolaevich/claude-code-skills@0ce87969906ac3c00947298ee2127d9e7cd466d8",
+      "checked_at": "2026-10-12T12:29:19.620945+00:00",
+      "reason": "No action.yml or action.yaml at levnikolaevich/claude-code-skills@a4b251c63287ec4e938435fa1c8bd237ea0ab42c",
       "status": "rejected"
     },
     "liudf0716/xfrpc": {
@@ -1155,7 +1155,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-12T09:20:51.202218+00:00",
+  "checked_at": "2026-10-12T12:29:19.620945+00:00",
   "errors": [],
-  "inspected": 11
+  "inspected": 4
 }

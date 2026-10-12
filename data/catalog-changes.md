@@ -1,162 +1,69 @@
 # Latest catalog changes
 
-16 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+4 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## aklofas/kicad-happy
+## getsentry/action-release
 
-[Previous source](https://github.com/aklofas/kicad-happy/tree/d5fd7da585fce7e59329b68fd065384216d4ff0a/) · [Current source](https://github.com/aklofas/kicad-happy/tree/78b8f02e70af5a29aef99ebd66b0d3538fb6010c/) · [Upstream code diff](https://github.com/aklofas/kicad-happy/compare/d5fd7da585fce7e59329b68fd065384216d4ff0a...78b8f02e70af5a29aef99ebd66b0d3538fb6010c)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | d5fd7da585fce7e59329b68fd065384216d4ff0a | 78b8f02e70af5a29aef99ebd66b0d3538fb6010c |
-| Selected tag | v2.2.1 | v2.3.0 |
-
-## asklokesh/loki-mode
-
-[Previous source](https://github.com/asklokesh/loki-mode/tree/1dda5ccec5b833b5b445478790dbc899cf7c5383/) · [Current source](https://github.com/asklokesh/loki-mode/tree/dee1553234d43322779aa31a93c6ae93eca9f15f/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/1dda5ccec5b833b5b445478790dbc899cf7c5383...dee1553234d43322779aa31a93c6ae93eca9f15f)
+[Previous source](https://github.com/getsentry/action-release/tree/ff07929a6537bac57790c3451cf4d364aca38528/) · [Current source](https://github.com/getsentry/action-release/tree/6fb9aeade7061441cf3864e34fbe11a1457ad7dc/) · [Upstream code diff](https://github.com/getsentry/action-release/compare/ff07929a6537bac57790c3451cf4d364aca38528...6fb9aeade7061441cf3864e34fbe11a1457ad7dc)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 1dda5ccec5b833b5b445478790dbc899cf7c5383 | dee1553234d43322779aa31a93c6ae93eca9f15f |
-| Selected tag | v11.0.1 | v11.0.3 |
+| Selected SHA | ff07929a6537bac57790c3451cf4d364aca38528 | 6fb9aeade7061441cf3864e34fbe11a1457ad7dc |
+| Selected tag | v3.7.0 | v3.7.1 |
 
-## bridgecrewio/checkov-action
+## github-community-projects/contributors
 
-[Previous source](https://github.com/bridgecrewio/checkov-action/tree/cc0e17d456ef1713bbfd963ebac19dc776775cb2/) · [Current source](https://github.com/bridgecrewio/checkov-action/tree/7b1bd992e2c40a3404e3511944aeb8d014703d9a/) · [Upstream code diff](https://github.com/bridgecrewio/checkov-action/compare/cc0e17d456ef1713bbfd963ebac19dc776775cb2...7b1bd992e2c40a3404e3511944aeb8d014703d9a)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | cc0e17d456ef1713bbfd963ebac19dc776775cb2 | 7b1bd992e2c40a3404e3511944aeb8d014703d9a |
-| Selected tag | v12.3128.0 | v12.3129.0 |
-
-## duriantaco/skylos
-
-[Previous source](https://github.com/duriantaco/skylos/tree/fc5fffd2bad9ebeb2c215b140868c9b84a4751be/) · [Current source](https://github.com/duriantaco/skylos/tree/3af22c52b27375b1bde87f93768f032afb90c8cf/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/fc5fffd2bad9ebeb2c215b140868c9b84a4751be...3af22c52b27375b1bde87f93768f032afb90c8cf)
+[Previous source](https://github.com/github-community-projects/contributors) · [Current source](https://github.com/github-community-projects/contributors/tree/6bab24b098e0b692d679d59f97d73b9297c96c18/)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | fc5fffd2bad9ebeb2c215b140868c9b84a4751be | 3af22c52b27375b1bde87f93768f032afb90c8cf |
-| Selected tag | v4.43.2 | v4.45.0 |
-
-## hustcer/setup-nu
-
-[Previous source](https://github.com/hustcer/setup-nu/tree/9215c80adb545a85c419d5085b76eb6d082f49e7/) · [Current source](https://github.com/hustcer/setup-nu/tree/95cd3bfe252450ef7d35dd9a7ddecf3484341134/) · [Upstream code diff](https://github.com/hustcer/setup-nu/compare/9215c80adb545a85c419d5085b76eb6d082f49e7...95cd3bfe252450ef7d35dd9a7ddecf3484341134)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 9215c80adb545a85c419d5085b76eb6d082f49e7 | 95cd3bfe252450ef7d35dd9a7ddecf3484341134 |
-| Selected tag | v3.27 | v3.28 |
-
-## j178/prek-action
-
-[Previous source](https://github.com/j178/prek-action/tree/4e14d07f9231acabce116ccfca13b13dd9755ece/) · [Current source](https://github.com/j178/prek-action/tree/1382ad72dea72f9d53832f2bcb65b3e87a947204/) · [Upstream code diff](https://github.com/j178/prek-action/compare/4e14d07f9231acabce116ccfca13b13dd9755ece...1382ad72dea72f9d53832f2bcb65b3e87a947204)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 4e14d07f9231acabce116ccfca13b13dd9755ece | 1382ad72dea72f9d53832f2bcb65b3e87a947204 |
-| Selected tag | v3.0.0 | v3.0.1 |
-
-## jdx/mise-action
-
-[Previous source](https://github.com/jdx/mise-action/tree/94c60b39bc2d90ab2f9bab27f38d3cc4812c1834/) · [Current source](https://github.com/jdx/mise-action/tree/2d8d4cafcbd33be2ea37d2b6f5ad595363d1f1ca/) · [Upstream code diff](https://github.com/jdx/mise-action/compare/94c60b39bc2d90ab2f9bab27f38d3cc4812c1834...2d8d4cafcbd33be2ea37d2b6f5ad595363d1f1ca)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: github\_token | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;GitHub token for API authentication to avoid rate limits when installing GitHub-hosted tools.\\nDefaults to the automatic GitHub token.\\n&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;GitHub token for API authentication to avoid rate limits when installing GitHub-hosted tools.\\nDefaults to the automatic GitHub token. Used only during this action unless persist\_github\_token is set.\\n&quot;, &quot;required&quot;: false} |
-| Input: persist\_github\_token | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Persist MISE\_GITHUB\_TOKEN for subsequent steps. false (default) keeps github\_token local to this action.\\ntrue exports the token used by this action (env.MISE\_GITHUB\_TOKEN takes precedence over github\_token).\\nA token value exports that credential instead, while this action continues to use github\_token or env.MISE\_GITHUB\_TOKEN.\\n&quot;, &quot;required&quot;: false} |
-| Selected SHA | 94c60b39bc2d90ab2f9bab27f38d3cc4812c1834 | 2d8d4cafcbd33be2ea37d2b6f5ad595363d1f1ca |
-| Selected tag | v5.1.0 | v5.1.1 |
+| Observed stability | null | observed |
+| Outputs | null | \[\] |
+| Runtime | null | docker |
+| Security | unknown | clean |
+| Selected SHA | null | 6bab24b098e0b692d679d59f97d73b9297c96c18 |
+| Selected tag | null | v2.0.21 |
 
 ## jianruntech/geo-score
 
-[Previous source](https://github.com/jianruntech/geo-score/tree/10423969cc749018934919ae8081ac8085b176b1/) · [Current source](https://github.com/jianruntech/geo-score/tree/8123c129c93cb0bb4c80c5fbc974110f503d1066/) · [Upstream code diff](https://github.com/jianruntech/geo-score/compare/10423969cc749018934919ae8081ac8085b176b1...8123c129c93cb0bb4c80c5fbc974110f503d1066)
+[Previous source](https://github.com/jianruntech/geo-score/tree/8123c129c93cb0bb4c80c5fbc974110f503d1066/) · [Current source](https://github.com/jianruntech/geo-score/tree/076c2dbf4aedd1ee882cb423bcad8da127fd5cbe/) · [Upstream code diff](https://github.com/jianruntech/geo-score/compare/8123c129c93cb0bb4c80c5fbc974110f503d1066...076c2dbf4aedd1ee882cb423bcad8da127fd5cbe)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 10423969cc749018934919ae8081ac8085b176b1 | 8123c129c93cb0bb4c80c5fbc974110f503d1066 |
-| Selected tag | v1.6.0 | v1.7.1 |
+| Selected SHA | 8123c129c93cb0bb4c80c5fbc974110f503d1066 | 076c2dbf4aedd1ee882cb423bcad8da127fd5cbe |
+| Selected tag | v1.7.1 | v1.8.0 |
 
-## KengoTODA/actions-setup-docker-compose
+## mikepenz/xray-action
 
-[Previous source](https://github.com/KengoTODA/actions-setup-docker-compose/tree/4c09ef903b1119511e9071b6b076e904f9240f3d/) · [Current source](https://github.com/KengoTODA/actions-setup-docker-compose/tree/3365b3ff2fc7b4e5ffa2d9ddbb3c2bd73727d443/) · [Upstream code diff](https://github.com/KengoTODA/actions-setup-docker-compose/compare/4c09ef903b1119511e9071b6b076e904f9240f3d...3365b3ff2fc7b4e5ffa2d9ddbb3c2bd73727d443)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 4c09ef903b1119511e9071b6b076e904f9240f3d | 3365b3ff2fc7b4e5ffa2d9ddbb3c2bd73727d443 |
-| Selected tag | v1.2.9 | v1.2.10 |
-
-## kerlenton/mcpsnoop
-
-[Previous source](https://github.com/kerlenton/mcpsnoop/tree/ab20b0ebbad9f76de884dfd980e8f5ae6c142433/) · [Current source](https://github.com/kerlenton/mcpsnoop/tree/9ffc2205b2ed8976d5693ba77c41ede317814945/) · [Upstream code diff](https://github.com/kerlenton/mcpsnoop/compare/ab20b0ebbad9f76de884dfd980e8f5ae6c142433...9ffc2205b2ed8976d5693ba77c41ede317814945)
+[Previous source](https://github.com/mikepenz/xray-action) · [Current source](https://github.com/mikepenz/xray-action/tree/93fcac936537e41c08c7191229e6106ae511f0da/)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: version | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Which mcpsnoop to install, for example v0.24.0. Defaults to the release you\\npinned the action to, so normally there is nothing to set. Needed only when\\npinning a branch or a commit, which names no release.\\n&quot;} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Which mcpsnoop to install, for example v0.25.0. Defaults to the release you\\npinned the action to, so normally there is nothing to set. Needed only when\\npinning a branch or a commit, which names no release.\\n&quot;} |
-| Selected SHA | ab20b0ebbad9f76de884dfd980e8f5ae6c142433 | 9ffc2205b2ed8976d5693ba77c41ede317814945 |
-| Selected tag | v0.24.0 | v0.25.0 |
-
-## linear/linear-release-action
-
-[Previous source](https://github.com/linear/linear-release-action/tree/d4af10092984f9bc6d5efa075b242bdf01333463/) · [Current source](https://github.com/linear/linear-release-action/tree/30f9ae77461ec29f07fffe0c52edd1909bfbb6f5/) · [Upstream code diff](https://github.com/linear/linear-release-action/compare/d4af10092984f9bc6d5efa075b242bdf01333463...30f9ae77461ec29f07fffe0c52edd1909bfbb6f5)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: description | null | {&quot;description&quot;: &quot;Release description. Applied to the targeted release for \\&quot;sync\\&quot;, \\&quot;complete\\&quot;, and \\&quot;update\\&quot; when non-empty. Supports multiline text.&quot;, &quot;required&quot;: false} |
-| Input: github\_token | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;GitHub token used to authenticate release metadata and downloads. Defaults to the workflow&#x27;s automatic token, which avoids the lower anonymous API rate limit.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;${{ github.server\_url == &#x27;https://github.com&#x27; &amp;&amp; github.token \|\| &#x27;&#x27; }}&quot;, &quot;description&quot;: &quot;github.com token used to authenticate release metadata and downloads. Defaults to the workflow&#x27;s automatic token on github.com, which avoids the lower anonymous API rate limit. On GitHub Enterprise the automatic token is not valid for github.com, so requests are anonymous unless you pass a github.com token.&quot;, &quot;required&quot;: false} |
-| Selected SHA | d4af10092984f9bc6d5efa075b242bdf01333463 | 30f9ae77461ec29f07fffe0c52edd1909bfbb6f5 |
-| Selected tag | v0.18.0 | v0.18.1 |
-
-## lukka/get-cmake
-
-[Previous source](https://github.com/lukka/get-cmake) · [Current source](https://github.com/lukka/get-cmake/tree/a89e43e22a96abafcd7a62db652a65ecd33052c9/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: cmakeVersion | null | {&quot;description&quot;: &quot;Optional CMake version, expressed with the semantic version syntax, e.g. &#x27;~3.25.0&#x27; for the most recent 3.25.x, \`ˆ3.25.0\` for the most recent 3.x version, or a specific version \`3.25.2&#x27;. Or \`latest\` or \`latestrc\` for the latest stable or release candidate version. If not specified the \`latest\` is installed.&quot;, &quot;required&quot;: false} |
-| Input: ninjaVersion | null | {&quot;description&quot;: &quot;Optional Ninja version, same syntax as \`cmakeVersion\` input. If not specified, \`latest\` is installed&quot;, &quot;required&quot;: false} |
-| Input: useCloudCache | null | {&quot;default&quot;: true, &quot;description&quot;: &quot;Optional argument indicating whether to use the cloud based storage of the GitHub cache. Suited for the GitHub-hosted runners.&quot;, &quot;required&quot;: false} |
-| Input: useLocalCache | null | {&quot;default&quot;: false, &quot;description&quot;: &quot;Optional argument indicating whether to use the local cache on the GitHub runner file system. Suited for the self-hosted GitHub runners.&quot;, &quot;required&quot;: false} |
+| Input: combineInSingleTestExec | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;If no \`testExecKey\` is provided, it will generate a testExec with the first import, and reuse the same for all other imports.&quot;, &quot;required&quot;: false} |
+| Input: continueOnImportError | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Defines if the action should continue after a single import error occurred.&quot;, &quot;required&quot;: false} |
+| Input: failOnImportError | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Defines if the action should fail if an import error occurred.&quot;, &quot;required&quot;: false} |
+| Input: fixVersion | null | {&quot;description&quot;: &quot;The Fix Version associated with the test execution (it supports only one value).&quot;, &quot;required&quot;: false} |
+| Input: importParallelism | null | {&quot;default&quot;: &quot;2&quot;, &quot;description&quot;: &quot;Specifies the level of parallelism to import to Xray.&quot;, &quot;required&quot;: false} |
+| Input: importRetryLimit | null | {&quot;default&quot;: &quot;2&quot;, &quot;description&quot;: &quot;Specifies the maximum number of retries for failed import requests. The default is 2.&quot;, &quot;required&quot;: false} |
+| Input: password | null | {&quot;description&quot;: &quot;Xray API client secret (cloud) or Jira password (Server/DC). (Required for xrayCoud)&quot;, &quot;required&quot;: false} |
+| Input: projectKey | null | {&quot;description&quot;: &quot;Key of the project where the Test Execution (if the testExecKey parameter was not provided) and the tests (if they are not created yet) are going to be created.&quot;, &quot;required&quot;: true} |
+| Input: responseTimeout | null | {&quot;default&quot;: &quot;60000&quot;, &quot;description&quot;: &quot;Specifies the maximum duration for a request (in milliseconds) to wait for a response to execute before timing out. The default is 60 seconds.&quot;, &quot;required&quot;: false} |
+| Input: revision | null | {&quot;description&quot;: &quot;Source code and documentation version used in the test execution.&quot;, &quot;required&quot;: false} |
+| Input: testEnvironments | null | {&quot;description&quot;: &quot;A string containing a list of test environments separated by \\&quot;;\\&quot;. This is not supported for cloud.&quot;, &quot;required&quot;: false} |
+| Input: testExecKey | null | {&quot;description&quot;: &quot;Key of the Test Execution.&quot;, &quot;required&quot;: true} |
+| Input: testExecutionJson | null | {&quot;description&quot;: &quot;Links to a json file, defining the meta information to create the test execution ticket.&quot;, &quot;required&quot;: false} |
+| Input: testFormat | null | {&quot;default&quot;: &quot;junit&quot;, &quot;description&quot;: &quot;The format of the to be imported data. \[\\&quot;xray\\&quot;, \\&quot;cucumber\\&quot;, \\&quot;behave\\&quot;, \\&quot;junit\\&quot;, \\&quot;testng\\&quot;, \\&quot;nunit\\&quot;, \\&quot;xunit\\&quot;, \\&quot;robot\\&quot;, \\&quot;bundle\\&quot;\].&quot;} |
+| Input: testJson | null | {&quot;description&quot;: &quot;Links to a json file, defining the meta information to create the test tickets.&quot;, &quot;required&quot;: false} |
+| Input: testMerge | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;When multiple test reports are found, they will be automatically merged into a single test report file. Only supported for: \[\\&quot;junit\\&quot;\]&quot;, &quot;required&quot;: false} |
+| Input: testPaths | null | {&quot;default&quot;: &quot;\*\*/test-results/test/TEST-\*.xml&quot;, &quot;description&quot;: &quot;A \`glob\` pattern, to find all test results which should get imported.&quot;, &quot;required&quot;: true} |
+| Input: testPlanKey | null | {&quot;description&quot;: &quot;Key of the Test Plan; if you specify the Test Plan, the Tests will be added automatically to the Test Plan if they are not part of it.&quot;, &quot;required&quot;: false} |
+| Input: username | null | {&quot;description&quot;: &quot;Xray API client id (cloud) or Jira username (Server/DC). (Required for xrayCoud)&quot;, &quot;required&quot;: false} |
+| Input: xrayBaseUrl | null | {&quot;description&quot;: &quot;Defines the base URL for Xray Server/DC, could be used to change XRay Data region for XRay Cloud (required if xrayCloud=\\&quot;false\\&quot;)&quot;, &quot;required&quot;: false} |
+| Input: xrayCloud | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Defines which variant of Xray to target at \[cloud vs Server/DC\]&quot;, &quot;required&quot;: false} |
+| Input: xrayToken | null | {&quot;description&quot;: &quot;Xray Personal Access Token. If provided username/password are ignored. (Xray Server/DC only)&quot;, &quot;required&quot;: false} |
 | Observed stability | null | observed |
-| Outputs | null | \[&quot;cmake-path&quot;, &quot;ninja-path&quot;\] |
+| Outputs | null | \[&quot;completed&quot;, &quot;count&quot;, &quot;errorMessage&quot;, &quot;errorStatusCode&quot;, &quot;failed&quot;\] |
 | Runtime | null | node24 |
 | Security | unknown | clean |
-| Selected SHA | null | a89e43e22a96abafcd7a62db652a65ecd33052c9 |
-| Selected tag | null | v4.4.4 |
-
-## owenthereal/action-upterm
-
-[Previous source](https://github.com/owenthereal/action-upterm/tree/7df5fa550d6dc458335f4b2685452a0e42d0ba7e/) · [Current source](https://github.com/owenthereal/action-upterm/tree/4d9cc09ee511b59cd5fd26a4dc3e7552665fa51f/) · [Upstream code diff](https://github.com/owenthereal/action-upterm/compare/7df5fa550d6dc458335f4b2685452a0e42d0ba7e...4d9cc09ee511b59cd5fd26a4dc3e7552665fa51f)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 7df5fa550d6dc458335f4b2685452a0e42d0ba7e | 4d9cc09ee511b59cd5fd26a4dc3e7552665fa51f |
-| Selected tag | v2.4.0 | v2.5.0 |
-
-## pypa/cibuildwheel
-
-[Previous source](https://github.com/pypa/cibuildwheel/tree/e090b81e30c4d855ea63bf4b6e59204c09a101ae/) · [Current source](https://github.com/pypa/cibuildwheel/tree/adba99c781d3746d38b3a09b1cf797965bcb7fe6/) · [Upstream code diff](https://github.com/pypa/cibuildwheel/compare/e090b81e30c4d855ea63bf4b6e59204c09a101ae...adba99c781d3746d38b3a09b1cf797965bcb7fe6)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: python-path | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Python interpreter used to install cibuildwheel. If unset, uses actions/setup-python on X64/ARM64, and \\&quot;python3\\&quot; on other architectures.&quot;, &quot;required&quot;: false} |
-| Selected SHA | e090b81e30c4d855ea63bf4b6e59204c09a101ae | adba99c781d3746d38b3a09b1cf797965bcb7fe6 |
-| Selected tag | v4.2.1 | v4.3.0 |
-
-## renovatebot/github-action
-
-[Previous source](https://github.com/renovatebot/github-action/tree/6d26fcf0275dc65624cbc3d51fe78bc773f98321/) · [Current source](https://github.com/renovatebot/github-action/tree/230ce922b08968d0a4f6f70f295601daff09ef1d/) · [Upstream code diff](https://github.com/renovatebot/github-action/compare/6d26fcf0275dc65624cbc3d51fe78bc773f98321...230ce922b08968d0a4f6f70f295601daff09ef1d)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 6d26fcf0275dc65624cbc3d51fe78bc773f98321 | 230ce922b08968d0a4f6f70f295601daff09ef1d |
-| Selected tag | v46.3.6 | v46.3.7 |
-
-## tmatens/compose-lint
-
-[Previous source](https://github.com/tmatens/compose-lint/tree/2d42617e4c6416f797bbfc6a057950131fa02df3/) · [Current source](https://github.com/tmatens/compose-lint/tree/691e08bd1881ada886e3f556d0793079e8114451/) · [Upstream code diff](https://github.com/tmatens/compose-lint/compare/2d42617e4c6416f797bbfc6a057950131fa02df3...691e08bd1881ada886e3f556d0793079e8114451)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: allow-partial-coverage | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Pass \`--allow-partial-coverage\`: downgrade a coverage gap (an \`include:\` or cross-file \`extends:\` that could not be followed, or a \`.env\` that could not be read) from exit 2 to a warning.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Pass \`--allow-partial-coverage\`: downgrade a coverage gap (part of the stack that could not be linted, such as an \`include:\` that could not be followed or a \`.env\` that could not be read) from exit 2 to a warning. Every gap is listed in docs/compatibility.md.&quot;, &quot;required&quot;: false} |
-| Selected SHA | 2d42617e4c6416f797bbfc6a057950131fa02df3 | 691e08bd1881ada886e3f556d0793079e8114451 |
-| Selected tag | v0.32.0 | v0.33.0 |
+| Selected SHA | null | 93fcac936537e41c08c7191229e6106ae511f0da |
+| Selected tag | null | v4.2.0 |
