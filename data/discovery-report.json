@@ -23,13 +23,13 @@
       "status": "admitted"
     },
     "AmadeusITGroup/otter": {
-      "checked_at": "2026-10-06T11:33:12.470763+00:00",
-      "reason": "No action.yml or action.yaml at AmadeusITGroup/otter@b25d067c5294127bde11a8f14023372e03b2ff54",
+      "checked_at": "2026-10-13T12:13:52.792695+00:00",
+      "reason": "No action.yml or action.yaml at AmadeusITGroup/otter@31da3deaf8c0a53b92eec04e344bc6faa0a4bae9",
       "status": "rejected"
     },
     "Bush2021/chrome_installer": {
-      "checked_at": "2026-10-06T11:33:12.470763+00:00",
-      "reason": "No action.yml or action.yaml at Bush2021/chrome_installer@16d549a0c415101cd047457d79d4618d981dfd3b",
+      "checked_at": "2026-10-13T12:13:52.792695+00:00",
+      "reason": "No action.yml or action.yaml at Bush2021/chrome_installer@7ea8c6d2ba7d1719c92d4a2da0373affffba1b6f",
       "status": "rejected"
     },
     "CDFER/jlcpcb-parts-database": {
@@ -66,8 +66,8 @@
       "status": "rejected"
     },
     "Dicklesworthstone/doodlestein_self_releaser": {
-      "checked_at": "2026-10-03T10:05:17.356534+00:00",
-      "reason": "No action.yml or action.yaml at Dicklesworthstone/doodlestein_self_releaser@193ecb0ddc0ebe90ed5260db266cf951184ccd64",
+      "checked_at": "2026-10-13T12:13:52.792695+00:00",
+      "reason": "No action.yml or action.yaml at Dicklesworthstone/doodlestein_self_releaser@e9eaace4cc8e732ab2d748b9e20ebbb1326cdd5e",
       "status": "rejected"
     },
     "Excelius-Wang/harbor": {
@@ -197,8 +197,8 @@
       "status": "rejected"
     },
     "RamiKrispin/ai-dev-2024-ml-workshop": {
-      "checked_at": "2026-10-06T11:33:12.470763+00:00",
-      "reason": "No action.yml or action.yaml at RamiKrispin/ai-dev-2024-ml-workshop@100e43b0c389e186c575fa7372781acd0de4af3c",
+      "checked_at": "2026-10-13T12:13:52.792695+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/ai-dev-2024-ml-workshop@cb0a4314177a1356276b1ec77e83663ecfb0f455",
       "status": "rejected"
     },
     "RamiKrispin/pydata-ny-ga-workshop": {
@@ -207,8 +207,8 @@
       "status": "rejected"
     },
     "RamiKrispin/useR2024-pipeline-workshop": {
-      "checked_at": "2026-10-05T11:52:28.116974+00:00",
-      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@e4c92a0bdec3f7f3af8247908cd619cdfc3fbbc2",
+      "checked_at": "2026-10-13T12:13:52.792695+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@cd3f04bf0287bad861e24ad59d656d2bfdd3cd76",
       "status": "rejected"
     },
     "Readme-Workflows/recent-activity": {
@@ -260,8 +260,8 @@
       "status": "admitted"
     },
     "VeryGoodOpenSource/very_good_workflows": {
-      "checked_at": "2026-09-28T11:16:37.963924+00:00",
-      "reason": "No action.yml or action.yaml at VeryGoodOpenSource/very_good_workflows@d9c1b5f7df33ab2923d303cebb25fee5e6ac7300",
+      "checked_at": "2026-10-13T12:13:52.792695+00:00",
+      "reason": "No action.yml or action.yaml at VeryGoodOpenSource/very_good_workflows@c0b9ffb04fb98d34f674d7b7587bd770789ee37e",
       "status": "rejected"
     },
     "Vladimir-Human/humanizer-ru": {
@@ -445,8 +445,8 @@
       "status": "admitted"
     },
     "cybersecsi/RAUDI": {
-      "checked_at": "2026-10-06T11:33:12.470763+00:00",
-      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@662e6ce27df2c5944a59c45e4a6921f3159bbf90",
+      "checked_at": "2026-10-13T12:13:52.792695+00:00",
+      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@be09149a7b7c1fc904edad7bcffcb35d13414722",
       "status": "rejected"
     },
     "cycjimmy/semantic-release-action": {
@@ -499,6 +499,11 @@
     "diggerhq/digger": {
       "checked_at": "2026-09-13T09:47:10.016412+00:00",
       "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
+    "djunekz/termux-app-store": {
+      "checked_at": "2026-10-13T12:13:52.792695+00:00",
+      "reason": "No action.yml or action.yaml at djunekz/termux-app-store@4ee0d3bbe69e1d6d468d3b9f893dccf924d36376",
       "status": "rejected"
     },
     "docker/actions-toolkit": {
@@ -634,6 +639,11 @@
     "icelib/repoctl": {
       "checked_at": "2026-10-08T11:39:09.899533+00:00",
       "reason": "No action.yml or action.yaml at icelib/repoctl@f9f7755515d51644c8160e51b34cd3572653e626",
+      "status": "rejected"
+    },
+    "infracost/actions": {
+      "checked_at": "2026-10-13T12:13:52.792695+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "int128/datadog-actions-metrics": {
@@ -834,7 +844,7 @@
       "status": "admitted"
     },
     "philips-labs/slsa-provenance-action": {
-      "checked_at": "2026-10-05T11:52:28.116974+00:00",
+      "checked_at": "2026-10-13T12:13:52.792695+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1062,7 +1072,7 @@
       "status": "rejected"
     },
     "ultralytics/actions": {
-      "checked_at": "2026-09-26T09:34:33.065894+00:00",
+      "checked_at": "2026-10-13T12:13:52.792695+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1155,7 +1165,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-12T12:29:19.620945+00:00",
+  "checked_at": "2026-10-13T12:13:52.792695+00:00",
   "errors": [],
-  "inspected": 4
+  "inspected": 11
 }
