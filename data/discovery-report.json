@@ -303,8 +303,8 @@
       "status": "admitted"
     },
     "alirezaeiii/TMDb-Compose-Playground": {
-      "checked_at": "2026-09-24T09:35:05.975472+00:00",
-      "reason": "No action.yml or action.yaml at alirezaeiii/TMDb-Compose-Playground@5694395f4e8408200aa06dd493187611a5948168",
+      "checked_at": "2026-10-14T09:46:51.196855+00:00",
+      "reason": "No action.yml or action.yaml at alirezaeiii/TMDb-Compose-Playground@e38c8718ee457c16f00b586fc589d47f94412048",
       "status": "rejected"
     },
     "aminya/setup-cpp": {
@@ -407,8 +407,8 @@
       "status": "admitted"
     },
     "cobusgreyling/loop-engineering": {
-      "checked_at": "2026-09-23T09:35:06.503212+00:00",
-      "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@02b85b7988949073ad600de200adfe1fc4e3c1a0",
+      "checked_at": "2026-10-14T09:46:51.196855+00:00",
+      "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@7f8ad9d66391fff65b8583f3c721cbb988c2e251",
       "status": "rejected"
     },
     "conda-incubator/setup-miniconda": {
@@ -799,11 +799,21 @@
       "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@750e95e5374554f7a318a266f2addeb8304d8935",
       "status": "rejected"
     },
+    "microsoft/ps-rule": {
+      "checked_at": "2026-10-14T09:46:51.196855+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
     "mikepenz/xray-action": {
       "checked_at": "2026-10-05T11:52:28.116974+00:00",
       "scanner_version": "1.30.1",
       "source_sha": "06746d1e902629c5e22e5fea001c3dcbadaa914e",
       "status": "admitted"
+    },
+    "mockdr/mockdr": {
+      "checked_at": "2026-10-14T09:46:51.196855+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
     },
     "myrotvorets/set-commit-status-action": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
@@ -948,8 +958,8 @@
       "status": "admitted"
     },
     "runs-on/runs-on": {
-      "checked_at": "2026-10-02T10:45:29.005451+00:00",
-      "reason": "No action.yml or action.yaml at runs-on/runs-on@8b98e15f02c3e02b77bcafadd507916efecb4a0f",
+      "checked_at": "2026-10-14T09:46:51.196855+00:00",
+      "reason": "No action.yml or action.yaml at runs-on/runs-on@ed675e20d8501d46d4693eef8745cca168254592",
       "status": "rejected"
     },
     "ruzickap/action-my-broken-link-checker": {
@@ -1067,8 +1077,8 @@
       "status": "rejected"
     },
     "ubicloud/ubicloud": {
-      "checked_at": "2026-10-05T11:52:28.116974+00:00",
-      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@0a98691997b9d29fb655e090ca0862dfe1573212",
+      "checked_at": "2026-10-14T09:46:51.196855+00:00",
+      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@b2ebf6e2b45a266b124b13d63414dce780bd5415",
       "status": "rejected"
     },
     "ultralytics/actions": {
@@ -1165,7 +1175,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-13T12:13:52.792695+00:00",
+  "checked_at": "2026-10-14T09:46:51.196855+00:00",
   "errors": [],
-  "inspected": 11
+  "inspected": 6
 }
