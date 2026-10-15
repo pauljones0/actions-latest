@@ -1695,6 +1695,29 @@
     "reviewed_at": null
   },
   {
+    "action": "scalacenter/sbt-dependency-submission",
+    "description": "Submits the dependency graph of an sbt build to the Github Submission API",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "dependencies",
+      "sbt",
+      "scala",
+      "submission-api"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/scalacenter/sbt-dependency-submission/tree/f0849afe07270e32b6ecb14612c79b94ee4e9e4b",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "sersoft-gmbh/xcodebuild-action",
     "description": "Runs xcodebuild e.g. to run tests.",
     "category": "Discovered",

@@ -1,5 +1,7 @@
 {
-  "admitted": [],
+  "admitted": [
+    "scalacenter/sbt-dependency-submission"
+  ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-10-11T11:02:50.093402+00:00",
@@ -390,8 +392,8 @@
       "status": "rejected"
     },
     "cloudbase/garm": {
-      "checked_at": "2026-09-16T09:33:55.168839+00:00",
-      "reason": "No action.yml or action.yaml at cloudbase/garm@61976c1b0483bfc0322b750ab0204bf624302707",
+      "checked_at": "2026-10-15T09:28:16.792417+00:00",
+      "reason": "No action.yml or action.yaml at cloudbase/garm@ae281e373bc7568d63c0298dc0406109379216d2",
       "status": "rejected"
     },
     "cloudflare/wrangler-action": {
@@ -523,8 +525,8 @@
       "status": "admitted"
     },
     "eyupio/zoomies": {
-      "checked_at": "2026-10-07T11:23:06.040880+00:00",
-      "reason": "No action.yml or action.yaml at eyupio/zoomies@dd82ef5e22bfd650f1256b286fc96d2da4b59a8f",
+      "checked_at": "2026-10-15T09:28:16.792417+00:00",
+      "reason": "No action.yml or action.yaml at eyupio/zoomies@506f66c99635698bfb576b0f03fe487648fb27d6",
       "status": "rejected"
     },
     "f/wvw.dev": {
@@ -821,6 +823,11 @@
       "source_sha": "09b487ee4d14cbba9b85e5e41dee083ddfe940b5",
       "status": "admitted"
     },
+    "nnnkkk7/lazyactions": {
+      "checked_at": "2026-10-15T09:28:16.792417+00:00",
+      "reason": "No action.yml or action.yaml at nnnkkk7/lazyactions@eba68fc7683d8eac7c8b79ba506ea07cbd9c033f",
+      "status": "rejected"
+    },
     "node9-ai/node9-proxy": {
       "checked_at": "2026-09-29T10:55:46.601694+00:00",
       "reason": "Default-branch action manifest has blocking findings",
@@ -975,14 +982,20 @@
       "status": "admitted"
     },
     "sandro2211/powerbi-ml-insight-engine": {
-      "checked_at": "2026-10-05T09:11:26.761166+00:00",
-      "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@ce434bad0ed09e2edcb4ac65ab07b99b395b9a18",
+      "checked_at": "2026-10-15T09:28:16.792417+00:00",
+      "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@9aa5e8e596d61e94e9e8dcf3928d5f41172050a2",
       "status": "rejected"
     },
     "sanitizers/octomachinery": {
       "checked_at": "2026-09-23T09:35:06.503212+00:00",
       "reason": "No action.yml or action.yaml at sanitizers/octomachinery@db0a470321f6af0b40b520deae779578e81d32ae",
       "status": "rejected"
+    },
+    "scalacenter/sbt-dependency-submission": {
+      "checked_at": "2026-10-15T09:28:16.792417+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "f0849afe07270e32b6ecb14612c79b94ee4e9e4b",
+      "status": "admitted"
     },
     "scanaislop/aislop": {
       "checked_at": "2026-09-13T09:47:10.016412+00:00",
@@ -1024,8 +1037,8 @@
       "status": "rejected"
     },
     "stategraph/stategraph": {
-      "checked_at": "2026-10-07T11:23:06.040880+00:00",
-      "reason": "No action.yml or action.yaml at stategraph/stategraph@21b42bcd9fa87d847a60d72c75d0a4138aaeaeff",
+      "checked_at": "2026-10-15T09:28:16.792417+00:00",
+      "reason": "No action.yml or action.yaml at stategraph/stategraph@d9f3cfc2f638d270efb0bf923039149fa1e3155e",
       "status": "rejected"
     },
     "step-security/agent": {
@@ -1173,9 +1186,14 @@
       "checked_at": "2026-10-05T11:52:28.116974+00:00",
       "reason": "No action.yml or action.yaml at ziwenhahaha/daily-paper-reader@0d4701552bcc7b4e9b771db70836a3c453be9d5c",
       "status": "rejected"
+    },
+    "zizmorcore/zizmor-pre-commit": {
+      "checked_at": "2026-10-15T09:28:16.792417+00:00",
+      "reason": "No action.yml or action.yaml at zizmorcore/zizmor-pre-commit@d25b2b1dc80689fb633f21f6978bba69871181d3",
+      "status": "rejected"
     }
   },
-  "checked_at": "2026-10-14T09:46:51.196855+00:00",
+  "checked_at": "2026-10-15T09:28:16.792417+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 7
 }
