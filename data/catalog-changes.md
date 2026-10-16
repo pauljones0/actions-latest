@@ -1,151 +1,123 @@
 # Latest catalog changes
 
-15 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+13 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## actions/download-artifact
+## actions/actions-sync
 
-[Previous source](https://github.com/actions/download-artifact/tree/3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c/) · [Current source](https://github.com/actions/download-artifact/tree/9000827ccba6bdab643e8b6fd33ac0654aef8333/) · [Upstream code diff](https://github.com/actions/download-artifact/compare/3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c...9000827ccba6bdab643e8b6fd33ac0654aef8333)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c | 9000827ccba6bdab643e8b6fd33ac0654aef8333 |
-| Selected tag | v8.0.1 | v8.0.2 |
-
-## actions/upload-artifact
-
-[Previous source](https://github.com/actions/upload-artifact/tree/043fb46d1a93c77aae656e7c1c64a875d1fc6a0a/) · [Current source](https://github.com/actions/upload-artifact/tree/cf430e030ddbb5b0abf93d22962f4752f3646cd9/) · [Upstream code diff](https://github.com/actions/upload-artifact/compare/043fb46d1a93c77aae656e7c1c64a875d1fc6a0a...cf430e030ddbb5b0abf93d22962f4752f3646cd9)
+[Previous source](https://github.com/actions/actions-sync/tree/c813a122adc82b86e60cae8b0d19e3b3b530cbfa/) · [Current source](https://github.com/actions/actions-sync/tree/e0ceb2ddae6eb7a5b609770e3793738f796b13ac/) · [Upstream code diff](https://github.com/actions/actions-sync/compare/c813a122adc82b86e60cae8b0d19e3b3b530cbfa...e0ceb2ddae6eb7a5b609770e3793738f796b13ac)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 043fb46d1a93c77aae656e7c1c64a875d1fc6a0a | cf430e030ddbb5b0abf93d22962f4752f3646cd9 |
-| Selected tag | v7.0.1 | v7.0.2 |
+| Scan error | No action.yml or action.yaml at actions/actions-sync@c813a122adc82b86e60cae8b0d19e3b3b530cbfa | No action.yml or action.yaml at actions/actions-sync@e0ceb2ddae6eb7a5b609770e3793738f796b13ac |
+| Selected SHA | c813a122adc82b86e60cae8b0d19e3b3b530cbfa | e0ceb2ddae6eb7a5b609770e3793738f796b13ac |
+| Selected tag | v202606241747 | v202610071604 |
+
+## actions/setup-node
+
+[Previous source](https://github.com/actions/setup-node/tree/820762786026740c76f36085b0efc47a31fe5020/) · [Current source](https://github.com/actions/setup-node/tree/949feb2413d6458794dcd2491c4babbbce0c15c1/) · [Upstream code diff](https://github.com/actions/setup-node/compare/820762786026740c76f36085b0efc47a31fe5020...949feb2413d6458794dcd2491c4babbbce0c15c1)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: node-version-file | {&quot;description&quot;: &quot;File containing the version Spec of the version to use.  Examples: package.json, .nvmrc, .node-version, .tool-versions.&quot;} | {&quot;description&quot;: &quot;File containing the version Spec of the version to use.  Examples: package.json, .nvmrc, .node-version, .tool-versions, mise.toml.&quot;} |
+| Selected SHA | 820762786026740c76f36085b0efc47a31fe5020 | 949feb2413d6458794dcd2491c4babbbce0c15c1 |
+| Selected tag | v7.0.0 | v7.1.0 |
 
 ## anthropics/claude-code-action
 
-[Previous source](https://github.com/anthropics/claude-code-action/tree/86d88e619d8e6caf07b5c3944dd14f441c533718/) · [Current source](https://github.com/anthropics/claude-code-action/tree/58985842b834ed26087302ba27d07bc24ca8697a/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/86d88e619d8e6caf07b5c3944dd14f441c533718...58985842b834ed26087302ba27d07bc24ca8697a)
+[Previous source](https://github.com/anthropics/claude-code-action/tree/58985842b834ed26087302ba27d07bc24ca8697a/) · [Current source](https://github.com/anthropics/claude-code-action/tree/6fed3ca145920b639991cb756090506e1bcaf515/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/58985842b834ed26087302ba27d07bc24ca8697a...6fed3ca145920b639991cb756090506e1bcaf515)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 86d88e619d8e6caf07b5c3944dd14f441c533718 | 58985842b834ed26087302ba27d07bc24ca8697a |
-| Selected tag | v1.0.243 | v1.0.244 |
+| Selected SHA | 58985842b834ed26087302ba27d07bc24ca8697a | 6fed3ca145920b639991cb756090506e1bcaf515 |
+| Selected tag | v1.0.244 | v1.0.245 |
 
-## apple-actions/upload-testflight-build
+## asklokesh/loki-mode
 
-[Previous source](https://github.com/apple-actions/upload-testflight-build/tree/14df18fee5a4ff3b76971dd382f033494a0194e9/) · [Current source](https://github.com/apple-actions/upload-testflight-build/tree/65a84cdb671ee2ccfa93710cd58e8f7b5d251967/) · [Upstream code diff](https://github.com/apple-actions/upload-testflight-build/compare/14df18fee5a4ff3b76971dd382f033494a0194e9...65a84cdb671ee2ccfa93710cd58e8f7b5d251967)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 14df18fee5a4ff3b76971dd382f033494a0194e9 | 65a84cdb671ee2ccfa93710cd58e8f7b5d251967 |
-| Selected tag | v5.5.0 | v5.5.1 |
-
-## Azure/setup-kubectl
-
-[Previous source](https://github.com/Azure/setup-kubectl/tree/829323503d1be3d00ca8346e5391ca0b07a9ab0d/) · [Current source](https://github.com/Azure/setup-kubectl/tree/bda439f5f36b99b262ebdcd3613869bddb064c8e/) · [Upstream code diff](https://github.com/Azure/setup-kubectl/compare/829323503d1be3d00ca8346e5391ca0b07a9ab0d...bda439f5f36b99b262ebdcd3613869bddb064c8e)
+[Previous source](https://github.com/asklokesh/loki-mode/tree/dee1553234d43322779aa31a93c6ae93eca9f15f/) · [Current source](https://github.com/asklokesh/loki-mode/tree/bee8ac363f1c5c865f990eeb47ca3d8533b95741/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/dee1553234d43322779aa31a93c6ae93eca9f15f...bee8ac363f1c5c865f990eeb47ca3d8533b95741)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: checksum | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Expected SHA256 of the kubectl binary (lowercase 64-char hex). Required when overriding downloadBaseURL; the action fails closed without it to prevent unverified binaries from poisoning the tool cache.&quot;, &quot;required&quot;: false} |
-| Input: downloadAuthToken | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Optional bearer token sent as the Authorization header when fetching from downloadBaseURL. Stripped on cross-origin redirects.&quot;, &quot;required&quot;: false} |
-| Input: downloadBaseURL | null | {&quot;default&quot;: &quot;https://dl.k8s.io&quot;, &quot;description&quot;: &quot;Base URL to download kubectl from (https only). Use for private mirrors.&quot;, &quot;required&quot;: false} |
-| Selected SHA | 829323503d1be3d00ca8346e5391ca0b07a9ab0d | bda439f5f36b99b262ebdcd3613869bddb064c8e |
-| Selected tag | v5.1.0 | v5.2.0 |
+| Selected SHA | dee1553234d43322779aa31a93c6ae93eca9f15f | bee8ac363f1c5c865f990eeb47ca3d8533b95741 |
+| Selected tag | v11.0.3 | v11.3.0 |
 
-## DeterminateSystems/determinate-nix-action
+## aws-actions/aws-devicefarm-mobile-device-testing
 
-[Previous source](https://github.com/DeterminateSystems/determinate-nix-action/tree/4d65ea9cab522b6d9f29a170aed23ededc1b27af/) · [Current source](https://github.com/DeterminateSystems/determinate-nix-action/tree/d0c908e6cbe9f89f36ed8205a3ab6f092636916a/) · [Upstream code diff](https://github.com/DeterminateSystems/determinate-nix-action/compare/4d65ea9cab522b6d9f29a170aed23ededc1b27af...d0c908e6cbe9f89f36ed8205a3ab6f092636916a)
+[Previous source](https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/tree/5a6c9fbb66ca99cb92ce07381c8be038f654eff6/) · [Current source](https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/tree/90ae5c7a3ecc7dc5d556f54ed7a674e542bf772b/) · [Upstream code diff](https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/compare/5a6c9fbb66ca99cb92ce07381c8be038f654eff6...90ae5c7a3ecc7dc5d556f54ed7a674e542bf772b)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: source-tag | {&quot;default&quot;: &quot;v3.23.0&quot;, &quot;description&quot;: &quot;The tag of \`nix-installer\` to use (conflicts with \`source-revision\`, \`source-branch\`, \`source-pr\`)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;v3.23.1&quot;, &quot;description&quot;: &quot;The tag of \`nix-installer\` to use (conflicts with \`source-revision\`, \`source-branch\`, \`source-pr\`)&quot;, &quot;required&quot;: false} |
-| Selected SHA | 4d65ea9cab522b6d9f29a170aed23ededc1b27af | d0c908e6cbe9f89f36ed8205a3ab6f092636916a |
-| Selected tag | v3.23.0 | v3.23.1 |
+| Selected SHA | 5a6c9fbb66ca99cb92ce07381c8be038f654eff6 | 90ae5c7a3ecc7dc5d556f54ed7a674e542bf772b |
+| Selected tag | v3.0 | v3.1 |
+
+## bridgecrewio/checkov-action
+
+[Previous source](https://github.com/bridgecrewio/checkov-action/tree/a76233b2c1d4a820a9dc68be350c473a4a9dceec/) · [Current source](https://github.com/bridgecrewio/checkov-action/tree/c13aafd679d3814a25067d10fcaf98c4f7594931/) · [Upstream code diff](https://github.com/bridgecrewio/checkov-action/compare/a76233b2c1d4a820a9dc68be350c473a4a9dceec...c13aafd679d3814a25067d10fcaf98c4f7594931)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | a76233b2c1d4a820a9dc68be350c473a4a9dceec | c13aafd679d3814a25067d10fcaf98c4f7594931 |
+| Selected tag | v12.3130.0 | v12.3131.0 |
 
 ## duriantaco/skylos
 
-[Previous source](https://github.com/duriantaco/skylos/tree/3af22c52b27375b1bde87f93768f032afb90c8cf/) · [Current source](https://github.com/duriantaco/skylos/tree/a0fdd09f0ec32826b23bb241210e876f98701f37/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/3af22c52b27375b1bde87f93768f032afb90c8cf...a0fdd09f0ec32826b23bb241210e876f98701f37)
+[Previous source](https://github.com/duriantaco/skylos/tree/a0fdd09f0ec32826b23bb241210e876f98701f37/) · [Current source](https://github.com/duriantaco/skylos/tree/d2f8d6a123603724ebfb3838907b69cb0b20aaf4/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/a0fdd09f0ec32826b23bb241210e876f98701f37...d2f8d6a123603724ebfb3838907b69cb0b20aaf4)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 3af22c52b27375b1bde87f93768f032afb90c8cf | a0fdd09f0ec32826b23bb241210e876f98701f37 |
-| Selected tag | v4.45.0 | v4.46.0 |
+| Selected SHA | a0fdd09f0ec32826b23bb241210e876f98701f37 | d2f8d6a123603724ebfb3838907b69cb0b20aaf4 |
+| Selected tag | v4.46.0 | v4.47.1 |
 
-## Ilshidur/action-discord
+## github-community-projects/stale-repos
 
-[Previous source](https://github.com/Ilshidur/action-discord) · [Current source](https://github.com/Ilshidur/action-discord/tree/d2594079a10f1d6739ee50a2471f0ca57418b554/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: args | null | {&quot;description&quot;: &quot;The message to display in the Discord message.&quot;, &quot;required&quot;: true} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | docker |
-| Security | unknown | clean |
-| Selected SHA | null | d2594079a10f1d6739ee50a2471f0ca57418b554 |
-| Selected tag | null | 0.4.0 |
-
-## jfrog/frogbot
-
-[Previous source](https://github.com/jfrog/frogbot/tree/98d710f28baab51f18800cdbbada700f245e9933/) · [Current source](https://github.com/jfrog/frogbot/tree/cbaeef9bb60fd74b9cb3410992a290a47acfe14a/) · [Upstream code diff](https://github.com/jfrog/frogbot/compare/98d710f28baab51f18800cdbbada700f245e9933...cbaeef9bb60fd74b9cb3410992a290a47acfe14a)
+[Previous source](https://github.com/github-community-projects/stale-repos/tree/cd662591ad9d5d8967f84431eb94a45f828c1db3/) · [Current source](https://github.com/github-community-projects/stale-repos/tree/07243c72d78533a27c0e37a93bfa87275fca4aa1/) · [Upstream code diff](https://github.com/github-community-projects/stale-repos/compare/cd662591ad9d5d8967f84431eb94a45f828c1db3...07243c72d78533a27c0e37a93bfa87275fca4aa1)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: version | {&quot;default&quot;: &quot;latest&quot;, &quot;description&quot;: &quot;Frogbot version&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;latest&quot;, &quot;description&quot;: &quot;Frogbot version. The downloaded binary is checked against Artifactory checksums. Set FROGBOT\_INSECURE\_SKIP\_CHECKSUM\_VERIFICATION to 1 to skip that check.&quot;, &quot;required&quot;: false} |
-| Selected SHA | 98d710f28baab51f18800cdbbada700f245e9933 | cbaeef9bb60fd74b9cb3410992a290a47acfe14a |
-| Selected tag | v3.7.0 | v3.8.0 |
+| Selected SHA | cd662591ad9d5d8967f84431eb94a45f828c1db3 | 07243c72d78533a27c0e37a93bfa87275fca4aa1 |
+| Selected tag | v9.0.19 | v9.1.1 |
 
-## kerlenton/mcpsnoop
+## pullfrog/pullfrog
 
-[Previous source](https://github.com/kerlenton/mcpsnoop/tree/9ffc2205b2ed8976d5693ba77c41ede317814945/) · [Current source](https://github.com/kerlenton/mcpsnoop/tree/e027c0a125d2c8b28ce9d5be4a4dc2f33f56774a/) · [Upstream code diff](https://github.com/kerlenton/mcpsnoop/compare/9ffc2205b2ed8976d5693ba77c41ede317814945...e027c0a125d2c8b28ce9d5be4a4dc2f33f56774a)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: fail-on | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Comma-separated signals to fail on, any of error, invalid, warn, mismatch,\\npending, late-result, drift, deprecated, incomplete, schema. Defaults to\\nwhat the CLI defaults to, which is error,invalid,warn.\\n&quot;} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Comma-separated signals to fail on, any of error, invalid, warn, mismatch,\\npending, late-result, duplicate, drift, loosened, deprecated, incomplete,\\nschema, annotations. Defaults to what the CLI defaults to, which is\\nerror,invalid,warn.\\n&quot;} |
-| Input: version | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Which mcpsnoop to install, for example v0.25.0. Defaults to the release you\\npinned the action to, so normally there is nothing to set. Needed only when\\npinning a branch or a commit, which names no release.\\n&quot;} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Which mcpsnoop to install, for example v0.26.1. Defaults to the release you\\npinned the action to, so normally there is nothing to set. Needed only when\\npinning a branch or a commit, which names no release.\\n&quot;} |
-| Selected SHA | 9ffc2205b2ed8976d5693ba77c41ede317814945 | e027c0a125d2c8b28ce9d5be4a4dc2f33f56774a |
-| Selected tag | v0.25.0 | v0.26.1 |
-
-## prefix-dev/setup-pixi
-
-[Previous source](https://github.com/prefix-dev/setup-pixi/tree/d3f436a425481402e6a95a1d1fc10331c708cd9e/) · [Current source](https://github.com/prefix-dev/setup-pixi/tree/9dabb60412d3d2d967a8d682f7ce01317af40514/) · [Upstream code diff](https://github.com/prefix-dev/setup-pixi/compare/d3f436a425481402e6a95a1d1fc10331c708cd9e...9dabb60412d3d2d967a8d682f7ce01317af40514)
+[Previous source](https://github.com/pullfrog/pullfrog/tree/ed800018463e1b84e8e3377f662173aed1da98b0/) · [Current source](https://github.com/pullfrog/pullfrog/tree/5fe4547eb8efd88bdbf9dbc68a38cc3cd0ae7685/) · [Upstream code diff](https://github.com/pullfrog/pullfrog/compare/ed800018463e1b84e8e3377f662173aed1da98b0...5fe4547eb8efd88bdbf9dbc68a38cc3cd0ae7685)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: auth-logout | null | {&quot;description&quot;: &quot;When to run \`pixi auth logout &lt;auth-host&gt;\`. Requires \`auth-host\`.\\noptions: post, after-install, never\\n- \`post\` (default): The credentials stay available to all subsequent steps and are removed in the post step at the end of the job.\\n- \`after-install\`: The credentials are removed at the end of this action, so that later steps cannot reach the private channel anymore.\\n- \`never\`: The credentials are never removed.\\n&quot;} |
-| Input: persist-credentials | {&quot;description&quot;: &quot;Whether to keep the credentials configured by \`auth-host\` available to subsequent workflow\\nsteps. Defaults to \`true\`. If set to \`false\`, the action runs \`pixi auth logout &lt;auth-host&gt;\`\\nafter install, so that later steps cannot reach the private channel anymore. Requires\\n\`auth-host\`.\\n&quot;} | {&quot;deprecationMessage&quot;: &quot;\`persist-credentials\` has been removed, use \`auth-logout: after-install\` (instead of \`false\`) or \`auth-logout: never\` (instead of \`true\`).&quot;, &quot;description&quot;: &quot;Removed, use \`auth-logout\` instead.&quot;} |
-| Selected SHA | d3f436a425481402e6a95a1d1fc10331c708cd9e | 9dabb60412d3d2d967a8d682f7ce01317af40514 |
-| Selected tag | v0.10.2 | v0.11.0 |
+| Input: shell | {&quot;description&quot;: &quot;Shell permission: disabled, restricted (filters secrets from env vars), or enabled. Public repos default to restricted for security; private repos default to enabled.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Shell permission: disabled, restricted (filters secrets from env vars), or enabled. Can only make the repository&#x27;s console setting (restricted by default) stricter.&quot;, &quot;required&quot;: false} |
+| Selected SHA | ed800018463e1b84e8e3377f662173aed1da98b0 | 5fe4547eb8efd88bdbf9dbc68a38cc3cd0ae7685 |
+| Selected tag | v0.1.95 | v0.1.97 |
 
-## Added: scalacenter/sbt-dependency-submission
+## release-drafter/release-drafter
 
-[Source](https://github.com/scalacenter/sbt-dependency-submission) — Submits the dependency graph of an sbt build to the Github Submission API
-
-New entries still require observed stability and fresh scan evidence before usage.
-
-## Songmu/tagpr
-
-[Previous source](https://github.com/Songmu/tagpr/tree/967f2ab22be958948fb5bd439bfa3d404dd9dee8/) · [Current source](https://github.com/Songmu/tagpr/tree/0c4eb5a3b0862693702acea436a7c68bd586530d/) · [Upstream code diff](https://github.com/Songmu/tagpr/compare/967f2ab22be958948fb5bd439bfa3d404dd9dee8...0c4eb5a3b0862693702acea436a7c68bd586530d)
+[Previous source](https://github.com/release-drafter/release-drafter/tree/72967cdc98ddd3160f1fc3dff619de365e137dd0/) · [Current source](https://github.com/release-drafter/release-drafter/tree/978bb0b30c5ee8cdd332ced253758157150d43f0/) · [Upstream code diff](https://github.com/release-drafter/release-drafter/compare/72967cdc98ddd3160f1fc3dff619de365e137dd0...978bb0b30c5ee8cdd332ced253758157150d43f0)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: version | {&quot;default&quot;: &quot;v1.21.1&quot;, &quot;description&quot;: &quot;A version to install tagpr&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;v1.21.2&quot;, &quot;description&quot;: &quot;A version to install tagpr&quot;, &quot;required&quot;: false} |
-| Selected SHA | 967f2ab22be958948fb5bd439bfa3d404dd9dee8 | 0c4eb5a3b0862693702acea436a7c68bd586530d |
-| Selected tag | v1.21.1 | v1.21.2 |
+| Selected SHA | 72967cdc98ddd3160f1fc3dff619de365e137dd0 | 978bb0b30c5ee8cdd332ced253758157150d43f0 |
+| Selected tag | v7.9.0 | v7.10.0 |
 
-## taiki-e/install-action
+## reviewdog/action-actionlint
 
-[Previous source](https://github.com/taiki-e/install-action/tree/183e4297cca2404691e9380e1307288dced5c82a/) · [Current source](https://github.com/taiki-e/install-action/tree/f7e5d7c961414b23f5b25b2da9294395d08513ad/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/183e4297cca2404691e9380e1307288dced5c82a...f7e5d7c961414b23f5b25b2da9294395d08513ad)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 183e4297cca2404691e9380e1307288dced5c82a | f7e5d7c961414b23f5b25b2da9294395d08513ad |
-| Selected tag | v2.87.25 | v2.87.26 |
-
-## UiPath/coder\_eval
-
-[Previous source](https://github.com/UiPath/coder_eval/tree/0b0bd71c3103a0dfd87155cedbfdc44845c48e11/) · [Current source](https://github.com/UiPath/coder_eval/tree/1770360190187638f3b5b4a06503f0e2a28adf4b/) · [Upstream code diff](https://github.com/UiPath/coder_eval/compare/0b0bd71c3103a0dfd87155cedbfdc44845c48e11...1770360190187638f3b5b4a06503f0e2a28adf4b)
+[Previous source](https://github.com/reviewdog/action-actionlint/tree/1758727be30241166609dad4c97588b6ad411f32/) · [Current source](https://github.com/reviewdog/action-actionlint/tree/a8ac3eea598697a830f7d8e701fc9fcbfde88974/) · [Upstream code diff](https://github.com/reviewdog/action-actionlint/compare/1758727be30241166609dad4c97588b6ad411f32...a8ac3eea598697a830f7d8e701fc9fcbfde88974)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: version | {&quot;default&quot;: &quot;0.12.11&quot;, &quot;description&quot;: &quot;coder-eval version to install from PyPI, or \\&quot;local\\&quot; to install from the action checkout&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.12.12&quot;, &quot;description&quot;: &quot;coder-eval version to install from PyPI, or \\&quot;local\\&quot; to install from the action checkout&quot;, &quot;required&quot;: false} |
-| Selected SHA | 0b0bd71c3103a0dfd87155cedbfdc44845c48e11 | 1770360190187638f3b5b4a06503f0e2a28adf4b |
-| Selected tag | v0.12.11 | v0.12.12 |
+| Selected SHA | 1758727be30241166609dad4c97588b6ad411f32 | a8ac3eea598697a830f7d8e701fc9fcbfde88974 |
+| Selected tag | v1.79.1 | v1.80.0 |
+
+## shivammathur/setup-php
+
+[Previous source](https://github.com/shivammathur/setup-php/tree/f3e473d116dcccaddc5834248c87452386958240/) · [Current source](https://github.com/shivammathur/setup-php/tree/eb7c497e18156a6bbabfef1d3a82760b9eda3962/) · [Upstream code diff](https://github.com/shivammathur/setup-php/compare/f3e473d116dcccaddc5834248c87452386958240...eb7c497e18156a6bbabfef1d3a82760b9eda3962)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | f3e473d116dcccaddc5834248c87452386958240 | eb7c497e18156a6bbabfef1d3a82760b9eda3962 |
+| Selected tag | 2.37.2 | 2.40.0 |
+
+## step-security/harden-runner
+
+[Previous source](https://github.com/step-security/harden-runner/tree/351661ca32ac09a36dc5ee2d536e3128f2a3c8ed/) · [Current source](https://github.com/step-security/harden-runner/tree/ccd8616d44fd3846e67624a50d5aad6d37bf2d25/) · [Upstream code diff](https://github.com/step-security/harden-runner/compare/351661ca32ac09a36dc5ee2d536e3128f2a3c8ed...ccd8616d44fd3846e67624a50d5aad6d37bf2d25)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 351661ca32ac09a36dc5ee2d536e3128f2a3c8ed | ccd8616d44fd3846e67624a50d5aad6d37bf2d25 |
+| Selected tag | v2.22.0 | v2.22.1 |

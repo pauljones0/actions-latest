@@ -1,7 +1,5 @@
 {
-  "admitted": [
-    "scalacenter/sbt-dependency-submission"
-  ],
+  "admitted": [],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-10-11T11:02:50.093402+00:00",
@@ -158,8 +156,8 @@
       "status": "rejected"
     },
     "L0NE-6/WorkBuddy-Daily": {
-      "checked_at": "2026-10-04T10:46:40.614767+00:00",
-      "reason": "No action.yml or action.yaml at L0NE-6/WorkBuddy-Daily@7874bc6bc654a8362b0eb573aa73c5cad9a3e525",
+      "checked_at": "2026-10-16T09:21:04.056686+00:00",
+      "reason": "No action.yml or action.yaml at L0NE-6/WorkBuddy-Daily@2aa1d6acb77572fd13243a47ec1f18020a63e441",
       "status": "rejected"
     },
     "LindseyB/dummy": {
@@ -230,8 +228,8 @@
       "status": "rejected"
     },
     "SpaceTimee/Fusion-JetBrainsMapleMono": {
-      "checked_at": "2026-10-08T11:39:09.899533+00:00",
-      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@cdc50a9901d8bd7b2ead6441daa02c6ce62a51ab",
+      "checked_at": "2026-10-16T09:21:04.056686+00:00",
+      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@b41382314ac0f0582706c6315640f74dac732d50",
       "status": "rejected"
     },
     "Terrenceeeee/AI-frontend-engineering-starter": {
@@ -514,8 +512,8 @@
       "status": "rejected"
     },
     "docker/github-builder": {
-      "checked_at": "2026-10-05T11:52:28.116974+00:00",
-      "reason": "No action.yml or action.yaml at docker/github-builder@1e7f549886905c4d146676f63b62a2e85384f579",
+      "checked_at": "2026-10-16T09:21:04.056686+00:00",
+      "reason": "No action.yml or action.yaml at docker/github-builder@377ca3c90d104f7f668112a1e8399b3239055907",
       "status": "rejected"
     },
     "duriantaco/skylos": {
@@ -865,6 +863,11 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "pipelab-org/pipelock": {
+      "checked_at": "2026-10-16T09:21:04.056686+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
     "plengauer/Thoth": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "scanner_version": "1.30.0",
@@ -987,8 +990,8 @@
       "status": "rejected"
     },
     "sanitizers/octomachinery": {
-      "checked_at": "2026-09-23T09:35:06.503212+00:00",
-      "reason": "No action.yml or action.yaml at sanitizers/octomachinery@db0a470321f6af0b40b520deae779578e81d32ae",
+      "checked_at": "2026-10-16T09:21:04.056686+00:00",
+      "reason": "No action.yml or action.yaml at sanitizers/octomachinery@c69244151c23ef9228db745559763658c207ccc3",
       "status": "rejected"
     },
     "scalacenter/sbt-dependency-submission": {
@@ -1193,7 +1196,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-15T09:28:16.792417+00:00",
+  "checked_at": "2026-10-16T09:21:04.056686+00:00",
   "errors": [],
-  "inspected": 7
+  "inspected": 5
 }
