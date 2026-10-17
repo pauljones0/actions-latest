@@ -658,6 +658,26 @@
     "reviewed_at": null
   },
   {
+    "action": "egor-tensin/setup-wireguard",
+    "description": "Set up WireGuard connection",
+    "category": "Discovered",
+    "tags": [
+      "action",
+      "wireguard"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/egor-tensin/setup-wireguard/tree/0c34af0f8ab752230aa963e763d97f3bec8422ec",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "FantasticFiasco/action-update-license-year",
     "description": "Updates the copyright year(s) in your license file and creates a pull request.",
     "category": "Discovered",

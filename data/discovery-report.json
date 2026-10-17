@@ -1,5 +1,7 @@
 {
-  "admitted": [],
+  "admitted": [
+    "egor-tensin/setup-wireguard"
+  ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-10-11T11:02:50.093402+00:00",
@@ -166,8 +168,8 @@
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
-      "checked_at": "2026-10-09T11:32:08.649652+00:00",
-      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@22fbf37b49706d0d29014792d672bb506fc26115",
+      "checked_at": "2026-10-17T08:52:10.996073+00:00",
+      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@31062b5364b78c5e48b69fb65684fa1d30a62398",
       "status": "rejected"
     },
     "Mic92/hestia": {
@@ -177,8 +179,8 @@
       "status": "admitted"
     },
     "MohammadBahemmat/V2ray-Collector": {
-      "checked_at": "2026-10-09T11:32:08.649652+00:00",
-      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@dbb1f21c132b0a7383b87030431ec37c4fae2db7",
+      "checked_at": "2026-10-17T08:52:10.996073+00:00",
+      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@b0ec4553c777689104b5aaf04bd073fcb1450b2c",
       "status": "rejected"
     },
     "MustacheCase/zanadir": {
@@ -521,6 +523,22 @@
       "scanner_version": "1.30.0",
       "source_sha": "d33d5dd545ef12d83a01b243760bc1de830843fc",
       "status": "admitted"
+    },
+    "egor-tensin/setup-mingw": {
+      "checked_at": "2026-10-17T08:52:10.996073+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
+    "egor-tensin/setup-wireguard": {
+      "checked_at": "2026-10-17T08:52:10.996073+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "0c34af0f8ab752230aa963e763d97f3bec8422ec",
+      "status": "admitted"
+    },
+    "egor-tensin/vs-shell": {
+      "checked_at": "2026-10-17T08:52:10.996073+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
     },
     "eyupio/zoomies": {
       "checked_at": "2026-10-15T09:28:16.792417+00:00",
@@ -1196,7 +1214,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-16T09:21:04.056686+00:00",
+  "checked_at": "2026-10-17T08:52:10.996073+00:00",
   "errors": [],
   "inspected": 5
 }
