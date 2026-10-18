@@ -1,7 +1,5 @@
 {
-  "admitted": [
-    "egor-tensin/setup-wireguard"
-  ],
+  "admitted": [],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-10-11T11:02:50.093402+00:00",
@@ -604,8 +602,8 @@
       "status": "admitted"
     },
     "github/gh-aw": {
-      "checked_at": "2026-10-10T10:50:14.851620+00:00",
-      "reason": "No action.yml or action.yaml at github/gh-aw@4636bdcd0f9727c4fe34d56c27bcddd2c2c8c29f",
+      "checked_at": "2026-10-18T09:10:17.904329+00:00",
+      "reason": "No action.yml or action.yaml at github/gh-aw@c86377ec47b38f0b5af463277ee55d1d03d08da8",
       "status": "rejected"
     },
     "go-gitea/gitea": {
@@ -860,7 +858,7 @@
       "status": "rejected"
     },
     "omarmhaimdat/pepe": {
-      "checked_at": "2026-10-10T10:50:14.851620+00:00",
+      "checked_at": "2026-10-18T09:10:17.904329+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1048,8 +1046,8 @@
       "status": "admitted"
     },
     "some-natalie/kubernoodles": {
-      "checked_at": "2026-09-27T10:14:10.079085+00:00",
-      "reason": "No action.yml or action.yaml at some-natalie/kubernoodles@3abcb23bf2c60d10f7eb501726c3c3f5982b059e",
+      "checked_at": "2026-10-18T09:10:17.904329+00:00",
+      "reason": "No action.yml or action.yaml at some-natalie/kubernoodles@a00dc303e2a8f0deb8bc90d4392e085ece629556",
       "status": "rejected"
     },
     "sorenlouv/backport": {
@@ -1214,7 +1212,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-17T08:52:10.996073+00:00",
+  "checked_at": "2026-10-18T09:10:17.904329+00:00",
   "errors": [],
-  "inspected": 5
+  "inspected": 3
 }
