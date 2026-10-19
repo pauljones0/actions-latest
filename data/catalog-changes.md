@@ -1,122 +1,104 @@
 # Latest catalog changes
 
-10 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+11 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## Aletheore/Aletheore
+## ansible/ansible-lint
 
-[Previous source](https://github.com/Aletheore/Aletheore/tree/ec86d25726288b5200009dc49870c047a76c6118/) · [Current source](https://github.com/Aletheore/Aletheore/tree/50a3a3952892a6139b8eb799bca43b96d52097cc/) · [Upstream code diff](https://github.com/Aletheore/Aletheore/compare/ec86d25726288b5200009dc49870c047a76c6118...50a3a3952892a6139b8eb799bca43b96d52097cc)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | ec86d25726288b5200009dc49870c047a76c6118 | 50a3a3952892a6139b8eb799bca43b96d52097cc |
-| Selected tag | v0.9.24 | v0.9.26 |
-
-## anthropics/claude-code-action
-
-[Previous source](https://github.com/anthropics/claude-code-action/tree/2dca132ff0e0c4094ce6048b422c6915a071210b/) · [Current source](https://github.com/anthropics/claude-code-action/tree/1d6de8cb0c237e7c15e9e1bdf973826ebae490cc/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/2dca132ff0e0c4094ce6048b422c6915a071210b...1d6de8cb0c237e7c15e9e1bdf973826ebae490cc)
+[Previous source](https://github.com/ansible/ansible-lint/tree/e7f397ad6dfa20d274afa17cd7bbedd84ed136f5/) · [Current source](https://github.com/ansible/ansible-lint/tree/fac2489f3e4ccffa83a40b839770abbf4ab52327/) · [Upstream code diff](https://github.com/ansible/ansible-lint/compare/e7f397ad6dfa20d274afa17cd7bbedd84ed136f5...fac2489f3e4ccffa83a40b839770abbf4ab52327)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 2dca132ff0e0c4094ce6048b422c6915a071210b | 1d6de8cb0c237e7c15e9e1bdf973826ebae490cc |
-| Selected tag | v1.0.247 | v1.0.248 |
+| Selected SHA | e7f397ad6dfa20d274afa17cd7bbedd84ed136f5 | fac2489f3e4ccffa83a40b839770abbf4ab52327 |
+| Selected tag | v26.9.0 | v26.10.0 |
 
-## astral-sh/setup-uv
+## bridgecrewio/checkov-action
 
-[Previous source](https://github.com/astral-sh/setup-uv/tree/c18668ad3cf93ea998bef934396af7bb5c839dc7/) · [Current source](https://github.com/astral-sh/setup-uv/tree/1c37ad07a6a961277cf70c0d37d6f313000f5884/) · [Upstream code diff](https://github.com/astral-sh/setup-uv/compare/c18668ad3cf93ea998bef934396af7bb5c839dc7...1c37ad07a6a961277cf70c0d37d6f313000f5884)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: python-arch | null | {&quot;description&quot;: &quot;The Python architecture to set UV\_PYTHON\_ARCH to, e.g., x86\_64 or aarch64. Overrides UV\_PYTHON\_ARCH.&quot;, &quot;required&quot;: false} |
-| Selected SHA | c18668ad3cf93ea998bef934396af7bb5c839dc7 | 1c37ad07a6a961277cf70c0d37d6f313000f5884 |
-| Selected tag | v10.2.0 | v10.3.0 |
-
-## aws-actions/amazon-ecs-deploy-task-definition
-
-[Previous source](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/tree/c465972ecbd160473f22e683363b422a5412a3de/) · [Current source](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/tree/a00d4d57ac0de1a99b39fe469f3d898d38717c2b/) · [Upstream code diff](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/c465972ecbd160473f22e683363b422a5412a3de...a00d4d57ac0de1a99b39fe469f3d898d38717c2b)
+[Previous source](https://github.com/bridgecrewio/checkov-action/tree/c13aafd679d3814a25067d10fcaf98c4f7594931/) · [Current source](https://github.com/bridgecrewio/checkov-action/tree/29be5868bfa968f099ae80169f61f42887494b8f/) · [Upstream code diff](https://github.com/bridgecrewio/checkov-action/compare/c13aafd679d3814a25067d10fcaf98c4f7594931...29be5868bfa968f099ae80169f61f42887494b8f)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: wait-max-delay-seconds | {&quot;description&quot;: &quot;Maximum delay in seconds between polling attempts when waiting for service stability or task completion. If not set, AWS SDK uses exponential backoff up to 120 seconds. Set to 15 for consistent 15-second polling intervals.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Maximum delay in seconds between polling attempts when waiting for service stability or task completion. If not set, the AWS SDK applies exponential backoff up to the waiter default maximum delay, which is 600 seconds (10 minutes) for the ECS waiters and 120 seconds for CodeDeploy deployments. Set to 15 for consistent 15-second polling intervals.&quot;, &quot;required&quot;: false} |
-| Selected SHA | c465972ecbd160473f22e683363b422a5412a3de | a00d4d57ac0de1a99b39fe469f3d898d38717c2b |
-| Selected tag | v2.6.3 | v2.6.4 |
+| Selected SHA | c13aafd679d3814a25067d10fcaf98c4f7594931 | 29be5868bfa968f099ae80169f61f42887494b8f |
+| Selected tag | v12.3131.0 | v12.3133.0 |
 
-## cycjimmy/semantic-release-action
+## ctrf-io/github-test-reporter
 
-[Previous source](https://github.com/cycjimmy/semantic-release-action/tree/7261f53f41d97434955b6ca5e26a2b0805f0cba2/) · [Current source](https://github.com/cycjimmy/semantic-release-action/tree/1989a0fefc4aea321e07f717680ed8e345925dc1/) · [Upstream code diff](https://github.com/cycjimmy/semantic-release-action/compare/7261f53f41d97434955b6ca5e26a2b0805f0cba2...1989a0fefc4aea321e07f717680ed8e345925dc1)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: skip\_npm\_plugin | null | {&quot;description&quot;: &quot;Whether to skip the @semantic-release/npm default plugin. Useful for non-Node.js projects without a package.json file. When true, the default plugins are replaced with @semantic-release/commit-analyzer, @semantic-release/release-notes-generator and @semantic-release/github. It will override the plugins attribute in your configuration file.&quot;, &quot;required&quot;: false} |
-| Selected SHA | 7261f53f41d97434955b6ca5e26a2b0805f0cba2 | 1989a0fefc4aea321e07f717680ed8e345925dc1 |
-| Selected tag | v7.0.0 | v7.1.2 |
-
-## helm/chart-testing-action
-
-[Previous source](https://github.com/helm/chart-testing-action/tree/6ec842c01de15ebb84c8627d2744a0c2f2755c9f/) · [Current source](https://github.com/helm/chart-testing-action/tree/720270857a28afd41e2426521a7801db09e9b510/) · [Upstream code diff](https://github.com/helm/chart-testing-action/compare/6ec842c01de15ebb84c8627d2744a0c2f2755c9f...720270857a28afd41e2426521a7801db09e9b510)
+[Previous source](https://github.com/ctrf-io/github-test-reporter/tree/7974087018bf4857cf5a9d78723e152038c3fa31/) · [Current source](https://github.com/ctrf-io/github-test-reporter/tree/dbb08957b5b2af918b39136ab2c5532002c7649b/) · [Upstream code diff](https://github.com/ctrf-io/github-test-reporter/compare/7974087018bf4857cf5a9d78723e152038c3fa31...dbb08957b5b2af918b39136ab2c5532002c7649b)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Findings | \[\[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\]\] | \[\[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\]\] |
-| Input: github\_token | null | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;GitHub token for authenticating with the GitHub API (default: github.token)&quot;, &quot;required&quot;: false} |
-| Input: lint\_config | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Path to a custom yamllint config file. If set, ct lint uses it instead of the default lintconf.yaml.&quot;, &quot;required&quot;: false} |
-| Input: uv\_version | null | {&quot;default&quot;: &quot;latest&quot;, &quot;description&quot;: &quot;The uv version to install (default: latest)&quot;, &quot;required&quot;: false} |
-| Input: verify\_blob | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;determines whether the download blob should be verified (default: true)&quot;, &quot;required&quot;: false} |
-| Input: version | {&quot;default&quot;: &quot;3.14.0&quot;, &quot;description&quot;: &quot;The chart-testing version to install (default: 3.12.0)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;3.15.0&quot;, &quot;description&quot;: &quot;The chart-testing version to install&quot;, &quot;required&quot;: false} |
-| Input: yamale\_version | {&quot;default&quot;: &quot;6.0.0&quot;, &quot;description&quot;: &quot;The yamale version to install (default: 6.0.0)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;6.0.0&quot;, &quot;description&quot;: &quot;The yamale version to install&quot;, &quot;required&quot;: false} |
-| Input: yamllint\_version | {&quot;default&quot;: &quot;1.33.0&quot;, &quot;description&quot;: &quot;The yamllint version to install (default: 1.27.1)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;1.33.0&quot;, &quot;description&quot;: &quot;The yamllint version to install&quot;, &quot;required&quot;: false} |
-| Selected SHA | 6ec842c01de15ebb84c8627d2744a0c2f2755c9f | 720270857a28afd41e2426521a7801db09e9b510 |
-| Selected tag | v2.8.0 | v2.9.0 |
-
-## irgaly/xcode-cache
-
-[Previous source](https://github.com/irgaly/xcode-cache) · [Current source](https://github.com/irgaly/xcode-cache/tree/4141f139f00e335c6e1031fb93e667181f86146f/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: cache-read-only | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;When true, existing entries will be read from the cache but no entries will be written.&quot;, &quot;required&quot;: false} |
-| Input: delete-used-deriveddata-cache | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;delete the DerivedData cache used for this job, when job has succeeded.&quot;, &quot;required&quot;: false} |
-| Input: deriveddata-directory | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;a directory of project&#x27;s DerivedData. default: ~/Library/Developer/Xcode/DerivedData&quot;, &quot;required&quot;: false} |
-| Input: key | null | {&quot;description&quot;: &quot;cache key for DerivedData&quot;, &quot;required&quot;: true} |
-| Input: restore-keys | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;cache restore keys for DerivedData.&quot;, &quot;required&quot;: false} |
-| Input: restore-mtime-targets | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;the targets glob pattern of restoring mtime. exclude pattern &#x27;!{pattern}&#x27; can be used. This glob pattern is applied with GitHub action toolkit glob option implicitDescendants = false&quot;, &quot;required&quot;: false} |
-| Input: sourcepackages-directory | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;a directory of SourcePackages. default: {deriveddata-directory}/SourcePackages&quot;, &quot;required&quot;: false} |
-| Input: swiftpm-cache-key | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;cache key for SourcePackages. default: irgaly/xcode-cache-sourcepackages-{hashFiles({resolvedFiles})}&quot;, &quot;required&quot;: false} |
-| Input: swiftpm-cache-restore-keys | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;cache restore keys for SourcePackages&quot;, &quot;required&quot;: false} |
-| Input: swiftpm-package-resolved-file | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Xcode&#x27;s Package.resolved file path glob pattern. default: \*\*/\*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved , \*\*/\*.xcworkspace/xcshareddata/swiftpm/Package.resolved&quot;, &quot;required&quot;: false} |
-| Input: token | null | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;an GitHub Token for deleting the DerivedData operation. default: github.token&quot;, &quot;required&quot;: false} |
-| Input: use-default-mtime-targets | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;process default mtime targets: \*\*/\*.swift , \*\*/\*.xib , \*\*/\*.storyboard , \*\*/\*.strings , \*\*/\*.xcstrings, \*\*/\*.plist , \*\*/\*.xcassets , \*\*/\*.xcassets/\*\*/\* , \*\*/\*.bundle , \*\*/\*.bundle/\*\*/\*, \*\*/\*.xcdatamodel , \*\*/\*.xcdatamodel/\*\*/\* , \*\*/\*.framework , \*\*/\*.framework/\*\*/\* , \*\*/\*.xcframework , \*\*/\*.xcframework/\*\*/\* , \*\*/\*.m , \*\*/\*.mm , \*\*/\*.h , \*\*/\*.c , \*\*/\*.cc , \*\*/\*.cpp , \*\*/\*.hpp , \*\*/\*.hxx&quot;, &quot;required&quot;: false} |
-| Input: verbose | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;enable verbose logging&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | node24 |
-| Security | unknown | clean |
-| Selected SHA | null | 4141f139f00e335c6e1031fb93e667181f86146f |
-| Selected tag | null | v1.9.2 |
+| Selected SHA | 7974087018bf4857cf5a9d78723e152038c3fa31 | dbb08957b5b2af918b39136ab2c5532002c7649b |
+| Selected tag | v1.3.0 | v1.3.2 |
 
 ## openqodex/openqodex
 
-[Previous source](https://github.com/openqodex/openqodex/tree/5b50fe786786a0b8083204865072a9eba5d0ab85/) · [Current source](https://github.com/openqodex/openqodex/tree/2f2fa9e48c1f62a6123997eb14111140d8e22a74/) · [Upstream code diff](https://github.com/openqodex/openqodex/compare/5b50fe786786a0b8083204865072a9eba5d0ab85...2f2fa9e48c1f62a6123997eb14111140d8e22a74)
+[Previous source](https://github.com/openqodex/openqodex/tree/2f2fa9e48c1f62a6123997eb14111140d8e22a74/) · [Current source](https://github.com/openqodex/openqodex/tree/9c4d516a15954ba3ed648fe1177038c92fb8f884/) · [Upstream code diff](https://github.com/openqodex/openqodex/compare/2f2fa9e48c1f62a6123997eb14111140d8e22a74...9c4d516a15954ba3ed648fe1177038c92fb8f884)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: version | {&quot;default&quot;: &quot;0.10.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.11.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} |
-| Selected SHA | 5b50fe786786a0b8083204865072a9eba5d0ab85 | 2f2fa9e48c1f62a6123997eb14111140d8e22a74 |
-| Selected tag | v0.10.0 | v0.11.0 |
+| Input: version | {&quot;default&quot;: &quot;0.11.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.12.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 2f2fa9e48c1f62a6123997eb14111140d8e22a74 | 9c4d516a15954ba3ed648fe1177038c92fb8f884 |
+| Selected tag | v0.11.0 | v0.12.0 |
+
+## plengauer/Thoth
+
+[Previous source](https://github.com/plengauer/Thoth/tree/48918a17e96079ba32d8379d536c89679ab39340/) · [Current source](https://github.com/plengauer/Thoth/tree/a3202770e6f9c17a81f2a7fd1073352b814d99b1/) · [Upstream code diff](https://github.com/plengauer/Thoth/compare/48918a17e96079ba32d8379d536c89679ab39340...a3202770e6f9c17a81f2a7fd1073352b814d99b1)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 48918a17e96079ba32d8379d536c89679ab39340 | a3202770e6f9c17a81f2a7fd1073352b814d99b1 |
+| Selected tag | v5.63.0 | v5.63.1 |
+
+## pypa/cibuildwheel
+
+[Previous source](https://github.com/pypa/cibuildwheel/tree/adba99c781d3746d38b3a09b1cf797965bcb7fe6/) · [Current source](https://github.com/pypa/cibuildwheel/tree/b3395e271a35f73dad77f21802abe9b986dfe299/) · [Upstream code diff](https://github.com/pypa/cibuildwheel/compare/adba99c781d3746d38b3a09b1cf797965bcb7fe6...b3395e271a35f73dad77f21802abe9b986dfe299)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | adba99c781d3746d38b3a09b1cf797965bcb7fe6 | b3395e271a35f73dad77f21802abe9b986dfe299 |
+| Selected tag | v4.3.0 | v4.3.1 |
+
+## renovatebot/github-action
+
+[Previous source](https://github.com/renovatebot/github-action/tree/230ce922b08968d0a4f6f70f295601daff09ef1d/) · [Current source](https://github.com/renovatebot/github-action/tree/f0f41e5f2e706165f6814b1d0f0d0e319de7d1d9/) · [Upstream code diff](https://github.com/renovatebot/github-action/compare/230ce922b08968d0a4f6f70f295601daff09ef1d...f0f41e5f2e706165f6814b1d0f0d0e319de7d1d9)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 230ce922b08968d0a4f6f70f295601daff09ef1d | f0f41e5f2e706165f6814b1d0f0d0e319de7d1d9 |
+| Selected tag | v46.3.7 | v46.3.8 |
 
 ## taiki-e/install-action
 
-[Previous source](https://github.com/taiki-e/install-action/tree/f7e5d7c961414b23f5b25b2da9294395d08513ad/) · [Current source](https://github.com/taiki-e/install-action/tree/ab6895351a88b908e96a4697860d4ffea5e57dbe/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/f7e5d7c961414b23f5b25b2da9294395d08513ad...ab6895351a88b908e96a4697860d4ffea5e57dbe)
+[Previous source](https://github.com/taiki-e/install-action/tree/ab6895351a88b908e96a4697860d4ffea5e57dbe/) · [Current source](https://github.com/taiki-e/install-action/tree/1168f6810a3cb30a3514bf5756a3b7f0422c6df8/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/ab6895351a88b908e96a4697860d4ffea5e57dbe...1168f6810a3cb30a3514bf5756a3b7f0422c6df8)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | f7e5d7c961414b23f5b25b2da9294395d08513ad | ab6895351a88b908e96a4697860d4ffea5e57dbe |
-| Selected tag | v2.87.26 | v2.87.27 |
+| Selected SHA | ab6895351a88b908e96a4697860d4ffea5e57dbe | 1168f6810a3cb30a3514bf5756a3b7f0422c6df8 |
+| Selected tag | v2.87.27 | v2.87.28 |
+
+## tmatens/compose-lint
+
+[Previous source](https://github.com/tmatens/compose-lint/tree/c8032de1b2efb1bcace4226b388580870db365ed/) · [Current source](https://github.com/tmatens/compose-lint/tree/460732eb877ccc9ea5bd778d876667774ce51ff8/) · [Upstream code diff](https://github.com/tmatens/compose-lint/compare/c8032de1b2efb1bcace4226b388580870db365ed...460732eb877ccc9ea5bd778d876667774ce51ff8)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Description | Security-focused linter for Docker Compose files | Docker Compose security linter — OWASP/CIS-grounded rules, SARIF to GitHub Code Scanning, dry-run auto-fix |
+| Selected SHA | c8032de1b2efb1bcace4226b388580870db365ed | 460732eb877ccc9ea5bd778d876667774ce51ff8 |
+| Selected tag | v0.34.0 | v0.34.1 |
 
 ## upptime/uptime-monitor
 
-[Previous source](https://github.com/upptime/uptime-monitor/tree/8be193bbcb957a3a917d2bb16a0c96959778a889/) · [Current source](https://github.com/upptime/uptime-monitor/tree/5811f280953e960b7667f0031a4d326f5f97ba99/) · [Upstream code diff](https://github.com/upptime/uptime-monitor/compare/8be193bbcb957a3a917d2bb16a0c96959778a889...5811f280953e960b7667f0031a4d326f5f97ba99)
+[Previous source](https://github.com/upptime/uptime-monitor/tree/5811f280953e960b7667f0031a4d326f5f97ba99/) · [Current source](https://github.com/upptime/uptime-monitor/tree/e2f6bb2b40bd1e2d7356c0768576c7d0dc44fe64/) · [Upstream code diff](https://github.com/upptime/uptime-monitor/compare/5811f280953e960b7667f0031a4d326f5f97ba99...e2f6bb2b40bd1e2d7356c0768576c7d0dc44fe64)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 8be193bbcb957a3a917d2bb16a0c96959778a889 | 5811f280953e960b7667f0031a4d326f5f97ba99 |
-| Selected tag | v1.44.1 | v1.45.0 |
+| Selected SHA | 5811f280953e960b7667f0031a4d326f5f97ba99 | e2f6bb2b40bd1e2d7356c0768576c7d0dc44fe64 |
+| Selected tag | v1.45.0 | v1.45.1 |
+
+## voidzero-dev/setup-vp
+
+[Previous source](https://github.com/voidzero-dev/setup-vp/tree/3754dd7dbdb32bd8f6d28b6043de13ad3a75f21f/) · [Current source](https://github.com/voidzero-dev/setup-vp/tree/68f39c78aaf39be468cabd2afb09c162574c84af/) · [Upstream code diff](https://github.com/voidzero-dev/setup-vp/compare/3754dd7dbdb32bd8f6d28b6043de13ad3a75f21f...68f39c78aaf39be468cabd2afb09c162574c84af)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 3754dd7dbdb32bd8f6d28b6043de13ad3a75f21f | 68f39c78aaf39be468cabd2afb09c162574c84af |
+| Selected tag | v1.21.1 | v1.21.2 |

@@ -104,8 +104,8 @@
       "status": "error"
     },
     "ITJoker233/BingPicApi": {
-      "checked_at": "2026-10-12T09:20:51.202218+00:00",
-      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@e18fb149537551ea3f274798fddb7845cd3ba8c1",
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
+      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@900e813165a5b517b369890934c1052b27d67d49",
       "status": "rejected"
     },
     "Ilshidur/action-discord": {
@@ -161,8 +161,8 @@
       "status": "rejected"
     },
     "LindseyB/dummy": {
-      "checked_at": "2026-10-12T09:20:51.202218+00:00",
-      "reason": "No action.yml or action.yaml at LindseyB/dummy@3af593b01a3fef2293727d5507a9573c273312b5",
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
+      "reason": "No action.yml or action.yaml at LindseyB/dummy@5c38aafa2614972800b33d35d31c99c2a92716fe",
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
@@ -182,8 +182,8 @@
       "status": "rejected"
     },
     "MustacheCase/zanadir": {
-      "checked_at": "2026-10-12T09:20:51.202218+00:00",
-      "reason": "No action.yml or action.yaml at MustacheCase/zanadir@0a8a1d3aab08877e0b67f7424a31d8cc17fadd6a",
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
+      "reason": "No action.yml or action.yaml at MustacheCase/zanadir@2b7ec78db9a2126241c6ac38cc8f29b26b2afe25",
       "status": "rejected"
     },
     "Pradumnasaraf/DevOps": {
@@ -192,8 +192,8 @@
       "status": "rejected"
     },
     "ProxyScrape/free-proxy-list": {
-      "checked_at": "2026-10-12T09:20:51.202218+00:00",
-      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@d1e50c5a1b3768f49261eae13d37c40e3d4a8f6a",
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
+      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@58430197bb15d2e372b899db8b1427e9434ce7b3",
       "status": "rejected"
     },
     "RamiKrispin/ai-dev-2024-ml-workshop": {
@@ -223,8 +223,8 @@
       "status": "rejected"
     },
     "SecOpsNews/news": {
-      "checked_at": "2026-09-15T09:38:35.764623+00:00",
-      "reason": "No action.yml or action.yaml at SecOpsNews/news@80c9203bc0733d89070d1d2775abc6976eef5115",
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
+      "reason": "No action.yml or action.yaml at SecOpsNews/news@9392cb4578297b349845c1391a4f220219e13da3",
       "status": "rejected"
     },
     "SpaceTimee/Fusion-JetBrainsMapleMono": {
@@ -578,6 +578,11 @@
       "reason": "No action.yml or action.yaml at firsttris/plugin.video.sendtokodi@da4813b8409a13731733a8cf686e6f0d322f2320",
       "status": "rejected"
     },
+    "geekplux/markvis": {
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
     "gensecaihq/Shai-Hulud-2.0-Detector": {
       "checked_at": "2026-09-17T09:40:57.309160+00:00",
       "scanner_version": "1.30.1",
@@ -585,8 +590,8 @@
       "status": "admitted"
     },
     "github-aws-runners/terraform-aws-github-runner": {
-      "checked_at": "2026-10-08T11:39:09.899533+00:00",
-      "reason": "No action.yml or action.yaml at github-aws-runners/terraform-aws-github-runner@faf57cd1530d80619607d9ebc2495f8327e12eab",
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
+      "reason": "No action.yml or action.yaml at github-aws-runners/terraform-aws-github-runner@c5b9a474f96b1c01e2c05de074dfc6415f4ca928",
       "status": "rejected"
     },
     "github-community-projects/contributors": {
@@ -607,8 +612,8 @@
       "status": "rejected"
     },
     "go-gitea/gitea": {
-      "checked_at": "2026-10-11T11:02:50.093402+00:00",
-      "reason": "No action.yml or action.yaml at go-gitea/gitea@aa32eb97fad8224cc0ef9d4b40df255b8026dd49",
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
+      "reason": "No action.yml or action.yaml at go-gitea/gitea@ba4f8fa24672c95e292aeee583c6055cc8cfc911",
       "status": "rejected"
     },
     "goreleaser/goreleaser": {
@@ -745,7 +750,7 @@
       "status": "rejected"
     },
     "kucherenko/jscpd": {
-      "checked_at": "2026-10-12T09:20:51.202218+00:00",
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -848,8 +853,8 @@
       "status": "rejected"
     },
     "nowscott/EverydayTechNews": {
-      "checked_at": "2026-10-12T09:20:51.202218+00:00",
-      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@8efa914a6af97c28b3e2412705cf36afd0fe0e1e",
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
+      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@bbfc0dd7456eed7adb5c9cf5da2b09a0b94ce0c9",
       "status": "rejected"
     },
     "oasdiff/oasdiff": {
@@ -946,7 +951,7 @@
       "status": "admitted"
     },
     "qoomon/starlines": {
-      "checked_at": "2026-10-07T11:23:06.040880+00:00",
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -961,8 +966,8 @@
       "status": "rejected"
     },
     "ram0verflow/ram0verflow": {
-      "checked_at": "2026-10-12T09:20:51.202218+00:00",
-      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@da91b77a4235c5d55966579b9caa286faf347887",
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
+      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@431b17691967d89faec90d4db027c989e0497ed4",
       "status": "rejected"
     },
     "redhat-plumbers-in-action/differential-shellcheck": {
@@ -1192,7 +1197,7 @@
       "status": "admitted"
     },
     "zhongfly/mpv-winbuild": {
-      "checked_at": "2026-10-12T09:20:51.202218+00:00",
+      "checked_at": "2026-10-19T10:20:53.851081+00:00",
       "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@8a39c5134b8e16f104ee56a5d85e36a592ad9477",
       "status": "rejected"
     },
@@ -1212,7 +1217,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-18T09:10:17.904329+00:00",
+  "checked_at": "2026-10-19T10:20:53.851081+00:00",
   "errors": [],
-  "inspected": 3
+  "inspected": 13
 }
