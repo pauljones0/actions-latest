@@ -729,8 +729,8 @@
       "status": "admitted"
     },
     "kdeldycke/repomatic": {
-      "checked_at": "2026-10-12T12:29:19.620945+00:00",
-      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@84e127954d39a56394bec9228ffdaa6efac3998d",
+      "checked_at": "2026-10-20T09:40:50.325178+00:00",
+      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@81f340671524bd33820d343715caec98a34c6d1f",
       "status": "rejected"
     },
     "kerlenton/mcpsnoop": {
@@ -740,8 +740,8 @@
       "status": "admitted"
     },
     "kkzzhizhou/scoop-apps": {
-      "checked_at": "2026-10-12T12:29:19.620945+00:00",
-      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@1482b3c6e9e17de416ceb4b3d04a80f5e8475656",
+      "checked_at": "2026-10-20T09:40:50.325178+00:00",
+      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@42cbbec8296eba237972edf6f4d4f137f8f1d10f",
       "status": "rejected"
     },
     "koobai/blog": {
@@ -1005,6 +1005,11 @@
       "source_sha": "b783315e3a06e33b82e76d259a7c924ec4ce17a6",
       "status": "admitted"
     },
+    "saadmk11/github-action-utils": {
+      "checked_at": "2026-10-20T09:40:50.325178+00:00",
+      "reason": "No action.yml or action.yaml at saadmk11/github-action-utils@5e0a041fdc6edab55c51a2ead8b96ffdb90d75d5",
+      "status": "rejected"
+    },
     "sandro2211/powerbi-ml-insight-engine": {
       "checked_at": "2026-10-15T09:28:16.792417+00:00",
       "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@9aa5e8e596d61e94e9e8dcf3928d5f41172050a2",
@@ -1087,8 +1092,8 @@
       "status": "rejected"
     },
     "team-aliens/DMS-Android": {
-      "checked_at": "2026-09-18T09:14:56.894930+00:00",
-      "reason": "No action.yml or action.yaml at team-aliens/DMS-Android@330e7bbf2157e5698edd0e64f044f75d5c291f0e",
+      "checked_at": "2026-10-20T09:40:50.325178+00:00",
+      "reason": "No action.yml or action.yaml at team-aliens/DMS-Android@c329692435d5b05dafcf7de3f9348da6e488260b",
       "status": "rejected"
     },
     "tmatens/compose-lint": {
@@ -1217,7 +1222,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-19T10:20:53.851081+00:00",
+  "checked_at": "2026-10-20T09:40:50.325178+00:00",
   "errors": [],
-  "inspected": 13
+  "inspected": 4
 }
