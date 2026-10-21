@@ -249,6 +249,27 @@
     "reviewed_at": null
   },
   {
+    "action": "chromaui/action",
+    "description": "Publish your Storybook to Chromatic and run visual regression tests",
+    "category": "Discovered",
+    "tags": [
+      "chromatic",
+      "cli",
+      "storybook"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/chromaui/action/tree/e24559fbc78e0cda863f3889f0e40ac249b07e20",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "cloudflare/wrangler-action",
     "description": "Deploy your Cloudflare projects from GitHub using Wrangler",
     "category": "Discovered",
