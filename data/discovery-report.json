@@ -1,7 +1,5 @@
 {
-  "admitted": [
-    "chromaui/action"
-  ],
+  "admitted": [],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-10-11T11:02:50.093402+00:00",
@@ -153,8 +151,8 @@
       "status": "rejected"
     },
     "KryptosAI/mcp-observatory": {
-      "checked_at": "2026-10-01T11:12:41.093343+00:00",
-      "reason": "No action.yml or action.yaml at KryptosAI/mcp-observatory@8f148e6fa0350ca48c62888f686a76ab547689f9",
+      "checked_at": "2026-10-22T09:41:32.306837+00:00",
+      "reason": "No action.yml or action.yaml at KryptosAI/mcp-observatory@e37d19791140e8236d233f99d7112a7e8c01a968",
       "status": "rejected"
     },
     "L0NE-6/WorkBuddy-Daily": {
@@ -293,6 +291,11 @@
       "reason": "No action.yml or action.yaml at actions/actions-runner-controller@5256d95d8960d205994544dfec8d1ca1e173b361",
       "status": "rejected"
     },
+    "actions/scaleset": {
+      "checked_at": "2026-10-22T09:41:32.306837+00:00",
+      "reason": "No action.yml or action.yaml at actions/scaleset@7ac570d776a0a65da6148d42daa150d6baea9a1b",
+      "status": "rejected"
+    },
     "aeonfun/aeon": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
       "reason": "No action.yml or action.yaml at aeonfun/aeon@ad4dd8250ccb76c9308c6b27977fa17acd634756",
@@ -376,8 +379,8 @@
       "status": "admitted"
     },
     "bitscoper/bitscoper_cyberkit": {
-      "checked_at": "2026-10-09T11:32:08.649652+00:00",
-      "reason": "No action.yml or action.yaml at bitscoper/bitscoper_cyberkit@b618bca7a727132efcb0d7b499d68f29f2167127",
+      "checked_at": "2026-10-22T09:41:32.306837+00:00",
+      "reason": "No action.yml or action.yaml at bitscoper/bitscoper_cyberkit@c86259a8e802ddf6e807403091c980b73be7bd72",
       "status": "rejected"
     },
     "calibreapp/image-actions": {
@@ -500,8 +503,8 @@
       "status": "admitted"
     },
     "dflook/terraform-github-actions": {
-      "checked_at": "2026-09-11T09:11:06.276205+00:00",
-      "reason": "No action.yml or action.yaml at dflook/terraform-github-actions@bb0ed9a8ea82a38e966e372da328aa881e00fef4",
+      "checked_at": "2026-10-22T09:41:32.306837+00:00",
+      "reason": "No action.yml or action.yaml at dflook/terraform-github-actions@dd5fb128af310eaa8050c9a19e908aa349a404cc",
       "status": "rejected"
     },
     "diggerhq/digger": {
@@ -547,8 +550,8 @@
       "status": "rejected"
     },
     "eyupio/zoomies": {
-      "checked_at": "2026-10-15T09:28:16.792417+00:00",
-      "reason": "No action.yml or action.yaml at eyupio/zoomies@506f66c99635698bfb576b0f03fe487648fb27d6",
+      "checked_at": "2026-10-22T09:41:32.306837+00:00",
+      "reason": "No action.yml or action.yaml at eyupio/zoomies@fd9689ee7d85bf97bd08520730a8296c6c914bab",
       "status": "rejected"
     },
     "f/wvw.dev": {
@@ -639,14 +642,19 @@
       "reason": "No action.yml or action.yaml at grifosaint/exurd-roblox-leaderboard-archive@7b8a1a6e6cdbb2d7a18ac35c45dd56cf499ba738",
       "status": "rejected"
     },
+    "guessi/kubectl-grep": {
+      "checked_at": "2026-10-22T09:41:32.306837+00:00",
+      "reason": "No action.yml or action.yaml at guessi/kubectl-grep@84299b71b3f083cb91424d9695e242d6e1003132",
+      "status": "rejected"
+    },
     "headlesshq/mc-runtime-test": {
       "checked_at": "2026-10-11T11:02:50.093402+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "hect0x7/JMComic-APK": {
-      "checked_at": "2026-10-07T11:23:06.040880+00:00",
-      "reason": "No action.yml or action.yaml at hect0x7/JMComic-APK@39f907e53b3136ec059f172f5e244485d576c5a7",
+      "checked_at": "2026-10-22T09:41:32.306837+00:00",
+      "reason": "No action.yml or action.yaml at hect0x7/JMComic-APK@6b5a31bbc4b7631d7e1175b0d9816e1cd2e2b934",
       "status": "rejected"
     },
     "hect0x7/JMComic-Crawler-Python": {
@@ -666,8 +674,8 @@
       "status": "rejected"
     },
     "icelib/repoctl": {
-      "checked_at": "2026-10-08T11:39:09.899533+00:00",
-      "reason": "No action.yml or action.yaml at icelib/repoctl@f9f7755515d51644c8160e51b34cd3572653e626",
+      "checked_at": "2026-10-22T09:41:32.306837+00:00",
+      "reason": "No action.yml or action.yaml at icelib/repoctl@42c4904d35a6c6cfdf14f9b95c67a116ba7d6bbb",
       "status": "rejected"
     },
     "infracost/actions": {
@@ -866,8 +874,8 @@
       "status": "rejected"
     },
     "oasdiff/oasdiff": {
-      "checked_at": "2026-10-08T11:39:09.899533+00:00",
-      "reason": "No action.yml or action.yaml at oasdiff/oasdiff@3c1bb05fcc64a475852df68745847589791d41dd",
+      "checked_at": "2026-10-22T09:41:32.306837+00:00",
+      "reason": "No action.yml or action.yaml at oasdiff/oasdiff@6e25854f07532a5d2bef71c34513e3af8a38d511",
       "status": "rejected"
     },
     "omarmhaimdat/pepe": {
@@ -969,8 +977,8 @@
       "status": "rejected"
     },
     "raeperd/realworld-springboot-java": {
-      "checked_at": "2026-09-19T09:01:01.538456+00:00",
-      "reason": "No action.yml or action.yaml at raeperd/realworld-springboot-java@bab76acebff861733ae7e24c8e7e626cde12e5f7",
+      "checked_at": "2026-10-22T09:41:32.306837+00:00",
+      "reason": "No action.yml or action.yaml at raeperd/realworld-springboot-java@d64a4af9c4aab5269853fc9eea1431ddcbe405ad",
       "status": "rejected"
     },
     "ram0verflow/ram0verflow": {
@@ -1019,8 +1027,8 @@
       "status": "rejected"
     },
     "sandro2211/powerbi-ml-insight-engine": {
-      "checked_at": "2026-10-15T09:28:16.792417+00:00",
-      "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@9aa5e8e596d61e94e9e8dcf3928d5f41172050a2",
+      "checked_at": "2026-10-22T09:41:32.306837+00:00",
+      "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@63977e6f5f0ddf3f2bdde8e8c25dfca7b83548cc",
       "status": "rejected"
     },
     "sanitizers/octomachinery": {
@@ -1230,7 +1238,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-21T09:42:08.473049+00:00",
+  "checked_at": "2026-10-22T09:41:32.306837+00:00",
   "errors": [],
-  "inspected": 5
+  "inspected": 11
 }
