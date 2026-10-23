@@ -1,5 +1,7 @@
 {
-  "admitted": [],
+  "admitted": [
+    "Teamwork/github-sync"
+  ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-10-11T11:02:50.093402+00:00",
@@ -7,8 +9,8 @@
       "status": "rejected"
     },
     "ARM-software/AVH": {
-      "checked_at": "2026-09-21T10:14:39.436991+00:00",
-      "reason": "No action.yml or action.yaml at ARM-software/AVH@bb8431b5d48c0b5d8cbeebe3b31d17e29e94dbf6",
+      "checked_at": "2026-10-23T09:38:09.252447+00:00",
+      "reason": "No action.yml or action.yaml at ARM-software/AVH@60f78be282b0a071d585d9633c961424d448e17d",
       "status": "rejected"
     },
     "Agents365-ai/drawio-skill": {
@@ -106,6 +108,11 @@
     "ITJoker233/BingPicApi": {
       "checked_at": "2026-10-19T10:20:53.851081+00:00",
       "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@900e813165a5b517b369890934c1052b27d67d49",
+      "status": "rejected"
+    },
+    "Ikalus1988/MisakaNet": {
+      "checked_at": "2026-10-23T09:38:09.252447+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "Ilshidur/action-discord": {
@@ -228,9 +235,15 @@
       "status": "rejected"
     },
     "SpaceTimee/Fusion-JetBrainsMapleMono": {
-      "checked_at": "2026-10-16T09:21:04.056686+00:00",
-      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@b41382314ac0f0582706c6315640f74dac732d50",
+      "checked_at": "2026-10-23T09:38:09.252447+00:00",
+      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@eef9a291d8167ec2f7e8cdd5b4e26b14ad4c0418",
       "status": "rejected"
+    },
+    "Teamwork/github-sync": {
+      "checked_at": "2026-10-23T09:38:09.252447+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "dba4eb44388f3fbc16b777e1cf91d5fa8f36ed06",
+      "status": "admitted"
     },
     "Terrenceeeee/AI-frontend-engineering-starter": {
       "checked_at": "2026-10-05T11:52:28.116974+00:00",
@@ -760,6 +773,11 @@
       "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@42cbbec8296eba237972edf6f4d4f137f8f1d10f",
       "status": "rejected"
     },
+    "koki-develop/ghasec": {
+      "checked_at": "2026-10-23T09:38:09.252447+00:00",
+      "reason": "No action.yml or action.yaml at koki-develop/ghasec@ced22fabd2b18d6771a6193da96cbb5fe4a9b8f5",
+      "status": "rejected"
+    },
     "koobai/blog": {
       "checked_at": "2026-10-11T11:02:50.093402+00:00",
       "reason": "No action.yml or action.yaml at koobai/blog@f0599b6c394b801e77f35135f0bd9a9faf06dcc6",
@@ -901,7 +919,7 @@
       "status": "rejected"
     },
     "pipelab-org/pipelock": {
-      "checked_at": "2026-10-16T09:21:04.056686+00:00",
+      "checked_at": "2026-10-23T09:38:09.252447+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1135,8 +1153,8 @@
       "status": "rejected"
     },
     "ubicloud/ubicloud": {
-      "checked_at": "2026-10-14T09:46:51.196855+00:00",
-      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@b2ebf6e2b45a266b124b13d63414dce780bd5415",
+      "checked_at": "2026-10-23T09:38:09.252447+00:00",
+      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@ff4d9e5bdd6fa62d40b2e2f89cc5133e9dcfac65",
       "status": "rejected"
     },
     "ultralytics/actions": {
@@ -1238,7 +1256,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-22T09:41:32.306837+00:00",
+  "checked_at": "2026-10-23T09:38:09.252447+00:00",
   "errors": [],
-  "inspected": 11
+  "inspected": 7
 }

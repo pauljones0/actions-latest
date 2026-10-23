@@ -1863,6 +1863,25 @@
     "reviewed_at": null
   },
   {
+    "action": "Teamwork/github-sync",
+    "description": "This action helps you to sync your PRs with tasks in Teamwork to streamline team collaboration and your development workflows.",
+    "category": "Discovered",
+    "tags": [
+      "teamwork"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/Teamwork/github-sync/tree/dba4eb44388f3fbc16b777e1cf91d5fa8f36ed06",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "ThreeMoonsLab/agents-shipgate",
     "description": "The deterministic merge gate for AI-generated agent capability changes. Verifies PRs that change MCP, OpenAPI, OpenAI Agents SDK, Anthropic, Google ADK, LangChain, CrewAI, OpenAI API, Codex config, Codex plugin, n8n, and Conductor OSS workflow JSON artifacts. Writes verifier.json, report.json, pr-comment.md, capability lock/diff review artifacts, and SARIF before your agent-capability change lands. Local-first and static-by-default. Audited exceptions are pinned per call site in tests/test_adapter_static_only.py::ALLOWED_EXCEPTIONS. Apache-2.0.",
     "category": "Discovered",
