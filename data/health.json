@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-10-23T09:39:29.562121+00:00",
-  "published_at": "2026-10-23T09:39:27.544085+00:00",
+  "checked_at": "2026-10-24T09:11:28.016285+00:00",
+  "published_at": "2026-10-24T09:11:26.105603+00:00",
   "healthy": true,
   "reasons": [],
-  "actions": 628,
+  "actions": 630,
   "stale_observations": [],
   "update_errors": [],
   "scan_errors": [
@@ -14,10 +14,10 @@
     "bytecodealliance/actions"
   ],
   "security_counts": {
-    "clean": 548,
+    "clean": 550,
     "warning": 11,
-    "blocked": 61,
-    "unknown": 3,
+    "blocked": 60,
+    "unknown": 4,
     "stale": 0,
     "error": 5
   },

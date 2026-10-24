@@ -1,6 +1,7 @@
 {
   "admitted": [
-    "Teamwork/github-sync"
+    "Akimiya-z/codex-guard",
+    "MishaKav/pytest-coverage-comment"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
@@ -17,6 +18,12 @@
       "checked_at": "2026-10-11T11:02:50.093402+00:00",
       "reason": "No action.yml or action.yaml at Agents365-ai/drawio-skill@701e72833273525c17abe5511e544da2db51265d",
       "status": "rejected"
+    },
+    "Akimiya-z/codex-guard": {
+      "checked_at": "2026-10-24T09:10:13.944715+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "87e138cdcca2e2929073bb913212dc06769087fc",
+      "status": "admitted"
     },
     "Aletheore/Aletheore": {
       "checked_at": "2026-09-11T09:11:06.276205+00:00",
@@ -163,8 +170,8 @@
       "status": "rejected"
     },
     "L0NE-6/WorkBuddy-Daily": {
-      "checked_at": "2026-10-16T09:21:04.056686+00:00",
-      "reason": "No action.yml or action.yaml at L0NE-6/WorkBuddy-Daily@2aa1d6acb77572fd13243a47ec1f18020a63e441",
+      "checked_at": "2026-10-24T09:10:13.944715+00:00",
+      "reason": "No action.yml or action.yaml at L0NE-6/WorkBuddy-Daily@007c96f5ba1a933c675d5931d3427bf6341654c1",
       "status": "rejected"
     },
     "LindseyB/dummy": {
@@ -173,8 +180,8 @@
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
-      "checked_at": "2026-10-17T08:52:10.996073+00:00",
-      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@31062b5364b78c5e48b69fb65684fa1d30a62398",
+      "checked_at": "2026-10-24T09:10:13.944715+00:00",
+      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@aef7df8baf3d7499d8ffc5cb7d13bc7e621fb667",
       "status": "rejected"
     },
     "Mic92/hestia": {
@@ -183,9 +190,15 @@
       "source_sha": "caf58eecd9064d3f7c8b4a436ab16800e3df57e1",
       "status": "admitted"
     },
+    "MishaKav/pytest-coverage-comment": {
+      "checked_at": "2026-10-24T09:10:13.944715+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "947ed4e91217f0e5bc24730c1d4508c2fed141be",
+      "status": "admitted"
+    },
     "MohammadBahemmat/V2ray-Collector": {
-      "checked_at": "2026-10-17T08:52:10.996073+00:00",
-      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@b0ec4553c777689104b5aaf04bd073fcb1450b2c",
+      "checked_at": "2026-10-24T09:10:13.944715+00:00",
+      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@31d9c6c588efb8f05c3371aa8f392672ca94a805",
       "status": "rejected"
     },
     "MustacheCase/zanadir": {
@@ -414,8 +427,8 @@
       "status": "rejected"
     },
     "cloudbase/garm": {
-      "checked_at": "2026-10-15T09:28:16.792417+00:00",
-      "reason": "No action.yml or action.yaml at cloudbase/garm@ae281e373bc7568d63c0298dc0406109379216d2",
+      "checked_at": "2026-10-24T09:10:13.944715+00:00",
+      "reason": "No action.yml or action.yaml at cloudbase/garm@33ec0921418a470ca7e00dfb20ae111595da24e1",
       "status": "rejected"
     },
     "cloudflare/wrangler-action": {
@@ -526,8 +539,8 @@
       "status": "rejected"
     },
     "djunekz/termux-app-store": {
-      "checked_at": "2026-10-13T12:13:52.792695+00:00",
-      "reason": "No action.yml or action.yaml at djunekz/termux-app-store@4ee0d3bbe69e1d6d468d3b9f893dccf924d36376",
+      "checked_at": "2026-10-24T09:10:13.944715+00:00",
+      "reason": "No action.yml or action.yaml at djunekz/termux-app-store@25418a9aeb21cee99c79c727d2f67e33f51bcbea",
       "status": "rejected"
     },
     "docker/actions-toolkit": {
@@ -573,8 +586,8 @@
       "status": "rejected"
     },
     "f2calv/yamlizr": {
-      "checked_at": "2026-09-07T09:46:50.517175+00:00",
-      "reason": "No action.yml or action.yaml at f2calv/yamlizr@b2762d5ad83eb35f05a5553151985c6d8aeb901a",
+      "checked_at": "2026-10-24T09:10:13.944715+00:00",
+      "reason": "No action.yml or action.yaml at f2calv/yamlizr@5baecbb3adf0503105d8b3b19ec3e932bfd06bfd",
       "status": "rejected"
     },
     "falcondev-oss/github-actions-cache-server": {
@@ -789,8 +802,8 @@
       "status": "rejected"
     },
     "kumarsohitcate98-debug/kazehaya-luau-lab": {
-      "checked_at": "2026-10-10T10:50:14.851620+00:00",
-      "reason": "No action.yml or action.yaml at kumarsohitcate98-debug/kazehaya-luau-lab@ab4d5d75257e928e4c6ba61e23551b52f027d1d2",
+      "checked_at": "2026-10-24T09:10:13.944715+00:00",
+      "reason": "No action.yml or action.yaml at kumarsohitcate98-debug/kazehaya-luau-lab@c89124bdcf440d488b5f7dce63a32da311c3aaba",
       "status": "rejected"
     },
     "laminas/automatic-releases": {
@@ -1256,7 +1269,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-23T09:38:09.252447+00:00",
+  "checked_at": "2026-10-24T09:10:13.944715+00:00",
   "errors": [],
-  "inspected": 7
+  "inspected": 9
 }

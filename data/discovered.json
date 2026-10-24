@@ -21,6 +21,34 @@
     "reviewed_at": null
   },
   {
+    "action": "Akimiya-z/codex-guard",
+    "description": "Quality gate for AI-generated pull requests: blocks TODO leftovers, leaked secrets, sloppy commits and red CI.",
+    "category": "Discovered",
+    "tags": [
+      "ai",
+      "claude-code",
+      "code-review",
+      "codex",
+      "codex-plugin",
+      "coding-agent",
+      "copilot",
+      "dsh-plugin",
+      "openai-codex",
+      "quality-gate"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/Akimiya-z/codex-guard/tree/87e138cdcca2e2929073bb913212dc06769087fc",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "akiomik/mado",
     "description": "Run mado to check Markdown files",
     "category": "Discovered",
@@ -1329,6 +1357,27 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/mikepenz/xray-action/tree/06746d1e902629c5e22e5fea001c3dcbadaa914e",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "MishaKav/pytest-coverage-comment",
+    "description": "GitHub Action that adds pytest coverage reports as comments to pull requests with badges, test statistics, and direct file links. Requires pull-requests: write permission.",
+    "category": "Discovered",
+    "tags": [
+      "coverage",
+      "test",
+      "testing"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/MishaKav/pytest-coverage-comment/tree/947ed4e91217f0e5bc24730c1d4508c2fed141be",
     "reviewed_sha": null,
     "reviewed_at": null
   },
