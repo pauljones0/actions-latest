@@ -2247,6 +2247,31 @@
     "reviewed_at": null
   },
   {
+    "action": "yu-iskw/action-sqlfluff",
+    "description": "\ud83d\udc36 Run sqlfluff with reviewdog on pull requests to improve code review experience.",
+    "category": "Discovered",
+    "tags": [
+      "ci",
+      "dbt",
+      "lint",
+      "linter",
+      "reviewdog",
+      "sql",
+      "sqlfluff"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/yu-iskw/action-sqlfluff/tree/a13d645d5556b4c9ca6265d8d508595525f10272",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "zaproxy/action-baseline",
     "description": "Scans the web application with the ZAP Baseline Scan",
     "category": "Discovered",

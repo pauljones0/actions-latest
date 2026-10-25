@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-10-24T09:11:28.016285+00:00",
-  "published_at": "2026-10-24T09:11:26.105603+00:00",
+  "checked_at": "2026-10-25T09:28:47.175165+00:00",
+  "published_at": "2026-10-25T09:28:45.320107+00:00",
   "healthy": true,
   "reasons": [],
-  "actions": 630,
+  "actions": 631,
   "stale_observations": [],
   "update_errors": [],
   "scan_errors": [
@@ -17,7 +17,7 @@
     "clean": 550,
     "warning": 11,
     "blocked": 60,
-    "unknown": 4,
+    "unknown": 5,
     "stale": 0,
     "error": 5
   },

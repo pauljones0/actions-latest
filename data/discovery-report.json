@@ -1,12 +1,11 @@
 {
   "admitted": [
-    "Akimiya-z/codex-guard",
-    "MishaKav/pytest-coverage-comment"
+    "yu-iskw/action-sqlfluff"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
-      "checked_at": "2026-10-11T11:02:50.093402+00:00",
-      "reason": "No action.yml or action.yaml at 15H4NT/Grade-Prophet@52a1b58d4f4e4477949fb1f348bdbcefc7ade596",
+      "checked_at": "2026-10-25T09:27:21.732403+00:00",
+      "reason": "No action.yml or action.yaml at 15H4NT/Grade-Prophet@9012678ed5d503ec5aac6d1b367786a07ae0f524",
       "status": "rejected"
     },
     "ARM-software/AVH": {
@@ -644,8 +643,8 @@
       "status": "admitted"
     },
     "github/gh-aw": {
-      "checked_at": "2026-10-18T09:10:17.904329+00:00",
-      "reason": "No action.yml or action.yaml at github/gh-aw@c86377ec47b38f0b5af463277ee55d1d03d08da8",
+      "checked_at": "2026-10-25T09:27:21.732403+00:00",
+      "reason": "No action.yml or action.yaml at github/gh-aw@a834ad4a318b980a99876d6876b894c9124d1efe",
       "status": "rejected"
     },
     "go-gitea/gitea": {
@@ -863,8 +862,8 @@
       "status": "rejected"
     },
     "melogabriel/tinfoil-shops-status": {
-      "checked_at": "2026-10-04T10:46:40.614767+00:00",
-      "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@750e95e5374554f7a318a266f2addeb8304d8935",
+      "checked_at": "2026-10-25T09:27:21.732403+00:00",
+      "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@fa9f618603105feca645c8cf4020ef36dea9a883",
       "status": "rejected"
     },
     "microsoft/ps-rule": {
@@ -1103,8 +1102,8 @@
       "status": "admitted"
     },
     "some-natalie/kubernoodles": {
-      "checked_at": "2026-10-18T09:10:17.904329+00:00",
-      "reason": "No action.yml or action.yaml at some-natalie/kubernoodles@a00dc303e2a8f0deb8bc90d4392e085ece629556",
+      "checked_at": "2026-10-25T09:27:21.732403+00:00",
+      "reason": "No action.yml or action.yaml at some-natalie/kubernoodles@bf9b1b865ee00eed6b304effde5a58caba23e966",
       "status": "rejected"
     },
     "sorenlouv/backport": {
@@ -1236,6 +1235,12 @@
       "source_sha": "9e3f937195cf840d364388973f73e3c4b3753586",
       "status": "admitted"
     },
+    "yu-iskw/action-sqlfluff": {
+      "checked_at": "2026-10-25T09:27:21.732403+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "a13d645d5556b4c9ca6265d8d508595525f10272",
+      "status": "admitted"
+    },
     "zaproxy/action-baseline": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "scanner_version": "1.30.0",
@@ -1269,7 +1274,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-24T09:10:13.944715+00:00",
+  "checked_at": "2026-10-25T09:27:21.732403+00:00",
   "errors": [],
-  "inspected": 9
+  "inspected": 5
 }
