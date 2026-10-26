@@ -1,81 +1,82 @@
 # Latest catalog changes
 
-8 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+9 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+
+## anthropics/claude-code-action
+
+[Previous source](https://github.com/anthropics/claude-code-action/tree/f27be6b65a4652f08a2ba3cff79114829b588967/) · [Current source](https://github.com/anthropics/claude-code-action/tree/5eb090f3c3afd701a0672cd32981197ca27688f6/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/f27be6b65a4652f08a2ba3cff79114829b588967...5eb090f3c3afd701a0672cd32981197ca27688f6)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | f27be6b65a4652f08a2ba3cff79114829b588967 | 5eb090f3c3afd701a0672cd32981197ca27688f6 |
+| Selected tag | v1.0.252 | v1.0.253 |
 
 ## asklokesh/loki-mode
 
-[Previous source](https://github.com/asklokesh/loki-mode/tree/72d4d8bfabfca37ccde4a37f25826e62fa719041/) · [Current source](https://github.com/asklokesh/loki-mode/tree/c22c19b7b6ff7560cac4868fb29da77e771ae7fd/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/72d4d8bfabfca37ccde4a37f25826e62fa719041...c22c19b7b6ff7560cac4868fb29da77e771ae7fd)
+[Previous source](https://github.com/asklokesh/loki-mode/tree/c22c19b7b6ff7560cac4868fb29da77e771ae7fd/) · [Current source](https://github.com/asklokesh/loki-mode/tree/6a710258f01561ae7f91250c617991769d119efe/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/c22c19b7b6ff7560cac4868fb29da77e771ae7fd...6a710258f01561ae7f91250c617991769d119efe)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 72d4d8bfabfca37ccde4a37f25826e62fa719041 | c22c19b7b6ff7560cac4868fb29da77e771ae7fd |
-| Selected tag | v11.17.38 | v11.17.58 |
+| Selected SHA | c22c19b7b6ff7560cac4868fb29da77e771ae7fd | 6a710258f01561ae7f91250c617991769d119efe |
+| Selected tag | v11.17.58 | v11.17.84 |
 
-## cucuwang/geoptimize
+## DeterminateSystems/determinate-nix-action
 
-[Previous source](https://github.com/cucuwang/geoptimize/tree/9b12be12a912243728667b5447391dd1a20cb69d/) · [Current source](https://github.com/cucuwang/geoptimize/tree/3a567d9d3fd94177bd668dfa0ced334fc3d40d33/) · [Upstream code diff](https://github.com/cucuwang/geoptimize/compare/9b12be12a912243728667b5447391dd1a20cb69d...3a567d9d3fd94177bd668dfa0ced334fc3d40d33)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Description | Run the deterministic geoptimize readiness lint against a build directory | Lint content quality in CI for documentation and static-site builds, with optional regression blocking |
-| Input: package-spec | {&quot;default&quot;: &quot;geoptimize@0.11.0&quot;, &quot;description&quot;: &quot;npm package spec to install; keep the default outside prerelease testing&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;geoptimize@0.12.0&quot;, &quot;description&quot;: &quot;npm package spec to install; keep the default outside prerelease testing&quot;, &quot;required&quot;: false} |
-| Selected SHA | 9b12be12a912243728667b5447391dd1a20cb69d | 3a567d9d3fd94177bd668dfa0ced334fc3d40d33 |
-| Selected tag | v0.11.0 | v0.12.0 |
-
-## egor-tensin/setup-gcc
-
-[Previous source](https://github.com/egor-tensin/setup-gcc/tree/eb5588a28b96aaa4ca1c9aa8858f30b9e59b1a08/) · [Current source](https://github.com/egor-tensin/setup-gcc/tree/e06c44b6df51fa631dbc917dfb0ebcc5cec0aa5b/) · [Upstream code diff](https://github.com/egor-tensin/setup-gcc/compare/eb5588a28b96aaa4ca1c9aa8858f30b9e59b1a08...e06c44b6df51fa631dbc917dfb0ebcc5cec0aa5b)
+[Previous source](https://github.com/DeterminateSystems/determinate-nix-action/tree/e847f25223456b3058e12f7fc9d777b6a6f25060/) · [Current source](https://github.com/DeterminateSystems/determinate-nix-action/tree/96c5ee93a9dddf2830d31e1da6ec719077336c28/) · [Upstream code diff](https://github.com/DeterminateSystems/determinate-nix-action/compare/e847f25223456b3058e12f7fc9d777b6a6f25060...96c5ee93a9dddf2830d31e1da6ec719077336c28)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | eb5588a28b96aaa4ca1c9aa8858f30b9e59b1a08 | e06c44b6df51fa631dbc917dfb0ebcc5cec0aa5b |
-| Selected tag | v2.0.2 | v2.0.3 |
+| Input: source-tag | {&quot;default&quot;: &quot;v3.23.2&quot;, &quot;description&quot;: &quot;The tag of \`nix-installer\` to use (conflicts with \`source-revision\`, \`source-branch\`, \`source-pr\`)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;v3.23.3&quot;, &quot;description&quot;: &quot;The tag of \`nix-installer\` to use (conflicts with \`source-revision\`, \`source-branch\`, \`source-pr\`)&quot;, &quot;required&quot;: false} |
+| Selected SHA | e847f25223456b3058e12f7fc9d777b6a6f25060 | 96c5ee93a9dddf2830d31e1da6ec719077336c28 |
+| Selected tag | v3.23.2 | v3.23.3 |
 
-## julia-actions/setup-julia
+## j178/prek-action
 
-[Previous source](https://github.com/julia-actions/setup-julia/tree/fa02766e078afaaf09b14210362cee14137e6a32/) · [Current source](https://github.com/julia-actions/setup-julia/tree/da908477b5db94c10ffce8cfea9f2b3b9d5db687/) · [Upstream code diff](https://github.com/julia-actions/setup-julia/compare/fa02766e078afaaf09b14210362cee14137e6a32...da908477b5db94c10ffce8cfea9f2b3b9d5db687)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | fa02766e078afaaf09b14210362cee14137e6a32 | da908477b5db94c10ffce8cfea9f2b3b9d5db687 |
-| Selected tag | v3.0.2 | v3.0.3 |
-
-## kerlenton/mcpsnoop
-
-[Previous source](https://github.com/kerlenton/mcpsnoop/tree/a82bd3858e8ac6df324ea0cba9b7532d27be1390/) · [Current source](https://github.com/kerlenton/mcpsnoop/tree/3ceaf6fc26807f72978ca0e1ef80653938688dd4/) · [Upstream code diff](https://github.com/kerlenton/mcpsnoop/compare/a82bd3858e8ac6df324ea0cba9b7532d27be1390...3ceaf6fc26807f72978ca0e1ef80653938688dd4)
+[Previous source](https://github.com/j178/prek-action/tree/1382ad72dea72f9d53832f2bcb65b3e87a947204/) · [Current source](https://github.com/j178/prek-action/tree/af4d4fcb6922b8e6f65c0426947125fcc38794ce/) · [Upstream code diff](https://github.com/j178/prek-action/compare/1382ad72dea72f9d53832f2bcb65b3e87a947204...af4d4fcb6922b8e6f65c0426947125fcc38794ce)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: replay | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Path to a recorded capture, relative to the repository root, to replay\\nagainst server instead of checking a capture you made yourself. The\\naction drives the server with the recorded client&#x27;s side of the session,\\nchecks the capture that produces, and also fails when the server got\\nworse than in the recording: a tool removed or changed, a call that\\nfailed or went unanswered, a call that got notably slower.\\n&quot;} |
-| Input: replay-args | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Any other mcpsnoop replay flags, for example: --read-only --wait 30s\\n--out is not accepted: the action decides where the replayed capture goes.\\n&quot;} |
-| Input: server | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The command that starts the server under test, quoted the way it would\\nbe on a command line, for example: node dist/index.js\\nRequired with replay for a stdio server. With target it starts an HTTP\\nserver first, and can be left out when one is already running.\\n&quot;} |
-| Input: session | {&quot;description&quot;: &quot;Path to the .jsonl capture to check, relative to the repository root.\\nRecord one by wrapping your server with mcpsnoop in an earlier step.\\n&quot;, &quot;required&quot;: true} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Path to the .jsonl capture to check, or to a directory of them, relative\\nto the repository root. Record one by wrapping your server with mcpsnoop\\nin an earlier step. Give this or replay, not both.\\n&quot;} |
-| Input: target | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The URL of a Streamable HTTP server to replay against, for example\\nhttp://localhost:3000/mcp. A credential goes in replay-args as\\n--header \\&quot;Authorization: Bearer ...\\&quot;, which the step log shows hidden.\\n&quot;} |
-| Input: version | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Which mcpsnoop to install, for example v0.27.0. Defaults to the release you\\npinned the action to, so normally there is nothing to set. Needed only when\\npinning a branch or a commit, which names no release.\\n&quot;} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Which mcpsnoop to install, for example v0.28.0. Defaults to the release you\\npinned the action to, so normally there is nothing to set. Needed only when\\npinning a branch or a commit, which names no release.\\n&quot;} |
-| Outputs | \[&quot;exit-code&quot;, &quot;outcome&quot;, &quot;sarif&quot;\] | \[&quot;capture&quot;, &quot;exit-code&quot;, &quot;outcome&quot;, &quot;sarif&quot;\] |
-| Selected SHA | a82bd3858e8ac6df324ea0cba9b7532d27be1390 | 3ceaf6fc26807f72978ca0e1ef80653938688dd4 |
-| Selected tag | v0.27.0 | v0.28.0 |
+| Selected SHA | 1382ad72dea72f9d53832f2bcb65b3e87a947204 | af4d4fcb6922b8e6f65c0426947125fcc38794ce |
+| Selected tag | v3.0.1 | v3.0.2 |
 
-## tmatens/compose-lint
+## jdx/mise-action
 
-[Previous source](https://github.com/tmatens/compose-lint/tree/b23c8aaafd4d372c24ccfabb67e412c709a522ad/) · [Current source](https://github.com/tmatens/compose-lint/tree/02651c8ce343efb293e9735695126dc47071b50f/) · [Upstream code diff](https://github.com/tmatens/compose-lint/compare/b23c8aaafd4d372c24ccfabb67e412c709a522ad...02651c8ce343efb293e9735695126dc47071b50f)
+[Previous source](https://github.com/jdx/mise-action/tree/9b200bcecbfd6303e69a4a261b2e09e3757440a7/) · [Current source](https://github.com/jdx/mise-action/tree/fc42bcc7ddbf51124c30f95a877a0c5168a3bfde/) · [Upstream code diff](https://github.com/jdx/mise-action/compare/9b200bcecbfd6303e69a4a261b2e09e3757440a7...fc42bcc7ddbf51124c30f95a877a0c5168a3bfde)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | b23c8aaafd4d372c24ccfabb67e412c709a522ad | 02651c8ce343efb293e9735695126dc47071b50f |
-| Selected tag | v0.36.0 | v0.36.1 |
+| Selected SHA | 9b200bcecbfd6303e69a4a261b2e09e3757440a7 | fc42bcc7ddbf51124c30f95a877a0c5168a3bfde |
+| Selected tag | v5.2.0 | v5.2.1 |
+
+## Added: node9-ai/node9-proxy
+
+[Source](https://github.com/node9-ai/node9-proxy) — Scan a repo for agent-security risks (injectable CI workflows, unsafe agent configs, MCP) and comment on the PR.
+
+New entries still require observed stability and fresh scan evidence before usage.
+
+## renovatebot/github-action
+
+[Previous source](https://github.com/renovatebot/github-action/tree/f0f41e5f2e706165f6814b1d0f0d0e319de7d1d9/) · [Current source](https://github.com/renovatebot/github-action/tree/a63d9a7bc606f7336fd20b47f2f32259a35e6213/) · [Upstream code diff](https://github.com/renovatebot/github-action/compare/f0f41e5f2e706165f6814b1d0f0d0e319de7d1d9...a63d9a7bc606f7336fd20b47f2f32259a35e6213)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | f0f41e5f2e706165f6814b1d0f0d0e319de7d1d9 | a63d9a7bc606f7336fd20b47f2f32259a35e6213 |
+| Selected tag | v46.3.8 | v46.3.9 |
+
+## reviewdog/action-actionlint
+
+[Previous source](https://github.com/reviewdog/action-actionlint/tree/b76d06f8570118465db3190c9a08f1b29d341aa1/) · [Current source](https://github.com/reviewdog/action-actionlint/tree/419a49378266e892f40c773b4f2fc6de9aa87499/) · [Upstream code diff](https://github.com/reviewdog/action-actionlint/compare/b76d06f8570118465db3190c9a08f1b29d341aa1...419a49378266e892f40c773b4f2fc6de9aa87499)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | b76d06f8570118465db3190c9a08f1b29d341aa1 | 419a49378266e892f40c773b4f2fc6de9aa87499 |
+| Selected tag | v1.80.3 | v1.80.4 |
 
 ## upptime/uptime-monitor
 
-[Previous source](https://github.com/upptime/uptime-monitor/tree/a284d6064bcbf89db3f1e2a6c533d0e69111573b/) · [Current source](https://github.com/upptime/uptime-monitor/tree/c34c41a9fc6fc6852ca94c66ae83f54dbe7063ae/) · [Upstream code diff](https://github.com/upptime/uptime-monitor/compare/a284d6064bcbf89db3f1e2a6c533d0e69111573b...c34c41a9fc6fc6852ca94c66ae83f54dbe7063ae)
+[Previous source](https://github.com/upptime/uptime-monitor/tree/c34c41a9fc6fc6852ca94c66ae83f54dbe7063ae/) · [Current source](https://github.com/upptime/uptime-monitor/tree/9aa4499dce16aa3b144134cd767cb5a6aeb9660d/) · [Upstream code diff](https://github.com/upptime/uptime-monitor/compare/c34c41a9fc6fc6852ca94c66ae83f54dbe7063ae...9aa4499dce16aa3b144134cd767cb5a6aeb9660d)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | a284d6064bcbf89db3f1e2a6c533d0e69111573b | c34c41a9fc6fc6852ca94c66ae83f54dbe7063ae |
-| Selected tag | v1.46.0 | v1.46.1 |
-
-## Added: yu-iskw/action-sqlfluff
-
-[Source](https://github.com/yu-iskw/action-sqlfluff) — 🐶 Run sqlfluff with reviewdog on pull requests to improve code review experience.
-
-New entries still require observed stability and fresh scan evidence before usage.
+| Selected SHA | c34c41a9fc6fc6852ca94c66ae83f54dbe7063ae | 9aa4499dce16aa3b144134cd767cb5a6aeb9660d |
+| Selected tag | v1.46.1 | v1.46.2 |
