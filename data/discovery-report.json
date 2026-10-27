@@ -1,6 +1,8 @@
 {
   "admitted": [
-    "node9-ai/node9-proxy"
+    "danharrin/monorepo-split-github-action",
+    "saadmk11/github-actions-version-updater",
+    "Apple-Actions/download-provisioning-profiles"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
@@ -35,9 +37,15 @@
       "reason": "No action.yml or action.yaml at AmadeusITGroup/otter@1bd3c1ef665c18b2de2efe3f2babbe4837025f9e",
       "status": "rejected"
     },
+    "Apple-Actions/download-provisioning-profiles": {
+      "checked_at": "2026-10-27T10:04:47.137048+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "f7bc90b4515e46bc0cd2b2a628a58815ff8b4cf5",
+      "status": "admitted"
+    },
     "Bush2021/chrome_installer": {
-      "checked_at": "2026-10-13T12:13:52.792695+00:00",
-      "reason": "No action.yml or action.yaml at Bush2021/chrome_installer@7ea8c6d2ba7d1719c92d4a2da0373affffba1b6f",
+      "checked_at": "2026-10-27T10:04:47.137048+00:00",
+      "reason": "No action.yml or action.yaml at Bush2021/chrome_installer@3384a58f9a3c910848914e7182c32615590ef341",
       "status": "rejected"
     },
     "CDFER/jlcpcb-parts-database": {
@@ -491,6 +499,12 @@
       "source_sha": "7261f53f41d97434955b6ca5e26a2b0805f0cba2",
       "status": "admitted"
     },
+    "danharrin/monorepo-split-github-action": {
+      "checked_at": "2026-10-27T10:04:47.137048+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "123a5086aa0b57d9a7f9d3102a5d8a5c146b74fe",
+      "status": "admitted"
+    },
     "danielroe/provenance-action": {
       "checked_at": "2026-09-07T09:46:50.517175+00:00",
       "scanner_version": "1.30.0",
@@ -694,8 +708,8 @@
       "status": "admitted"
     },
     "hostinger/fireactions": {
-      "checked_at": "2026-09-15T09:38:35.764623+00:00",
-      "reason": "No action.yml or action.yaml at hostinger/fireactions@80016981f117430585badbd8053049dab1faa9ea",
+      "checked_at": "2026-10-27T10:04:47.137048+00:00",
+      "reason": "No action.yml or action.yaml at hostinger/fireactions@73fad9c2218c2c1733b3b6d61ef6858dd57b1e4c",
       "status": "rejected"
     },
     "icelib/repoctl": {
@@ -770,8 +784,8 @@
       "status": "admitted"
     },
     "kdeldycke/repomatic": {
-      "checked_at": "2026-10-20T09:40:50.325178+00:00",
-      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@81f340671524bd33820d343715caec98a34c6d1f",
+      "checked_at": "2026-10-27T10:04:47.137048+00:00",
+      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@0b9c7fc653bda5b56d60712fa74199aad2850816",
       "status": "rejected"
     },
     "kerlenton/mcpsnoop": {
@@ -781,8 +795,8 @@
       "status": "admitted"
     },
     "kkzzhizhou/scoop-apps": {
-      "checked_at": "2026-10-20T09:40:50.325178+00:00",
-      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@42cbbec8296eba237972edf6f4d4f137f8f1d10f",
+      "checked_at": "2026-10-27T10:04:47.137048+00:00",
+      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@114efc30334f19be6473ea8eb4995557f254bdc6",
       "status": "rejected"
     },
     "koki-develop/ghasec": {
@@ -1013,8 +1027,8 @@
       "status": "rejected"
     },
     "ram0verflow/ram0verflow": {
-      "checked_at": "2026-10-19T10:20:53.851081+00:00",
-      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@431b17691967d89faec90d4db027c989e0497ed4",
+      "checked_at": "2026-10-27T10:04:47.137048+00:00",
+      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@58e543eb0c7ebe0960668db2bc67c470422ac120",
       "status": "rejected"
     },
     "redhat-plumbers-in-action/differential-shellcheck": {
@@ -1056,6 +1070,12 @@
       "checked_at": "2026-10-20T09:40:50.325178+00:00",
       "reason": "No action.yml or action.yaml at saadmk11/github-action-utils@5e0a041fdc6edab55c51a2ead8b96ffdb90d75d5",
       "status": "rejected"
+    },
+    "saadmk11/github-actions-version-updater": {
+      "checked_at": "2026-10-27T10:04:47.137048+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "85d8eb6943dd77b2dfdc5ce98a6dc418cd17b30a",
+      "status": "admitted"
     },
     "sandro2211/powerbi-ml-insight-engine": {
       "checked_at": "2026-10-22T09:41:32.306837+00:00",
@@ -1275,7 +1295,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-26T10:34:43.509008+00:00",
+  "checked_at": "2026-10-27T10:04:47.137048+00:00",
   "errors": [],
-  "inspected": 10
+  "inspected": 8
 }

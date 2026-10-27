@@ -214,6 +214,26 @@
     "reviewed_at": null
   },
   {
+    "action": "Apple-Actions/download-provisioning-profiles",
+    "description": "Downloads an Apple Provisioning Profiles from the AppStore Connect API",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "apple"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/Apple-Actions/download-provisioning-profiles/tree/f7bc90b4515e46bc0cd2b2a628a58815ff8b4cf5",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "arduino/setup-task",
     "description": "Download Task and add it to the PATH",
     "category": "Discovered",
@@ -498,6 +518,26 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/cycjimmy/semantic-release-action/tree/7261f53f41d97434955b6ca5e26a2b0805f0cba2",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "danharrin/monorepo-split-github-action",
+    "description": "Split monorepo packages to many repositories",
+    "category": "Discovered",
+    "tags": [
+      "monorepo",
+      "split"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/danharrin/monorepo-split-github-action/tree/123a5086aa0b57d9a7f9d3102a5d8a5c146b74fe",
     "reviewed_sha": null,
     "reviewed_at": null
   },
@@ -1818,6 +1858,39 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/ryanccn/attic-action/tree/b783315e3a06e33b82e76d259a7c924ec4ce17a6",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "saadmk11/github-actions-version-updater",
+    "description": "Scan workflow files, bump outdated GitHub Action pins, and open a pull request with the changes.",
+    "category": "Discovered",
+    "tags": [
+      "action",
+      "actions",
+      "dependencies",
+      "dependency",
+      "dependency-management",
+      "dependency-manager",
+      "github-api",
+      "hacktoberfest",
+      "python",
+      "python3",
+      "update",
+      "update-checker",
+      "updater",
+      "upgrade",
+      "upgrade-tool"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/saadmk11/github-actions-version-updater/tree/85d8eb6943dd77b2dfdc5ce98a6dc418cd17b30a",
     "reviewed_sha": null,
     "reviewed_at": null
   },
