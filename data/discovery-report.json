@@ -1,9 +1,5 @@
 {
-  "admitted": [
-    "danharrin/monorepo-split-github-action",
-    "saadmk11/github-actions-version-updater",
-    "Apple-Actions/download-provisioning-profiles"
-  ],
+  "admitted": [],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-10-25T09:27:21.732403+00:00",
@@ -234,8 +230,8 @@
       "status": "rejected"
     },
     "RamiKrispin/useR2024-pipeline-workshop": {
-      "checked_at": "2026-10-21T09:42:08.473049+00:00",
-      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@14e521215c4aa05dde46df741e224dca6da250ac",
+      "checked_at": "2026-10-28T10:51:38.846732+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@b5f35aaccc4d2c92e4b3955bb4d7f3b4721d47ca",
       "status": "rejected"
     },
     "Readme-Workflows/recent-activity": {
@@ -489,8 +485,8 @@
       "status": "admitted"
     },
     "cybersecsi/RAUDI": {
-      "checked_at": "2026-10-21T09:42:08.473049+00:00",
-      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@ea3ea2a0c6b5a50900e567db83f69e56e045fc79",
+      "checked_at": "2026-10-28T10:51:38.846732+00:00",
+      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@6202748061d6f62e3e2c746fd330b3b1e30b0aed",
       "status": "rejected"
     },
     "cycjimmy/semantic-release-action": {
@@ -729,8 +725,8 @@
       "status": "admitted"
     },
     "ipitio/backage": {
-      "checked_at": "2026-10-05T09:11:26.761166+00:00",
-      "reason": "No action.yml or action.yaml at ipitio/backage@d3ee07f53a47d5887e736d614589bd979399fe9c",
+      "checked_at": "2026-10-28T10:51:38.846732+00:00",
+      "reason": "No action.yml or action.yaml at ipitio/backage@2d9226d56c0148265e3c2a81d011393316350e47",
       "status": "rejected"
     },
     "irgaly/xcode-cache": {
@@ -896,6 +892,11 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "myoung34/docker-github-actions-runner": {
+      "checked_at": "2026-10-28T10:51:38.846732+00:00",
+      "reason": "No action.yml or action.yaml at myoung34/docker-github-actions-runner@ffa5ab1141b2ed6453ada83f410c457c1382bf34",
+      "status": "rejected"
+    },
     "myrotvorets/set-commit-status-action": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "scanner_version": "1.30.0",
@@ -926,6 +927,11 @@
     "omarmhaimdat/pepe": {
       "checked_at": "2026-10-18T09:10:17.904329+00:00",
       "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
+    "ones20250/Openwrt-AX6600": {
+      "checked_at": "2026-10-28T10:51:38.846732+00:00",
+      "reason": "No action.yml or action.yaml at ones20250/Openwrt-AX6600@b633d845d3d4be4d039072af32dedfbbfd6bda6a",
       "status": "rejected"
     },
     "openqodex/openqodex": {
@@ -1133,8 +1139,8 @@
       "status": "rejected"
     },
     "stategraph/stategraph": {
-      "checked_at": "2026-10-15T09:28:16.792417+00:00",
-      "reason": "No action.yml or action.yaml at stategraph/stategraph@d9f3cfc2f638d270efb0bf923039149fa1e3155e",
+      "checked_at": "2026-10-28T10:51:38.846732+00:00",
+      "reason": "No action.yml or action.yaml at stategraph/stategraph@d8b9d73c687c294f7e92e07c48319e7ed2175deb",
       "status": "rejected"
     },
     "step-security/agent": {
@@ -1295,7 +1301,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-27T10:04:47.137048+00:00",
+  "checked_at": "2026-10-28T10:51:38.846732+00:00",
   "errors": [],
-  "inspected": 8
+  "inspected": 6
 }
