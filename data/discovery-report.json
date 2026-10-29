@@ -585,8 +585,8 @@
       "status": "rejected"
     },
     "eyupio/zoomies": {
-      "checked_at": "2026-10-22T09:41:32.306837+00:00",
-      "reason": "No action.yml or action.yaml at eyupio/zoomies@fd9689ee7d85bf97bd08520730a8296c6c914bab",
+      "checked_at": "2026-10-29T11:08:31.811531+00:00",
+      "reason": "No action.yml or action.yaml at eyupio/zoomies@e5c5b0c6705ee62bbaaceec046b12bb0856a8f26",
       "status": "rejected"
     },
     "f/wvw.dev": {
@@ -1023,13 +1023,13 @@
       "status": "rejected"
     },
     "r-lib/actions": {
-      "checked_at": "2026-10-05T11:52:28.116974+00:00",
-      "reason": "No action.yml or action.yaml at r-lib/actions@6cf11da387d58095e7bd4ce3bcc075bd9aea9716",
+      "checked_at": "2026-10-29T11:08:31.811531+00:00",
+      "reason": "No action.yml or action.yaml at r-lib/actions@d8f8ce35b0abc25ec9fc79f6372ec25a9f7f671d",
       "status": "rejected"
     },
     "raeperd/realworld-springboot-java": {
-      "checked_at": "2026-10-22T09:41:32.306837+00:00",
-      "reason": "No action.yml or action.yaml at raeperd/realworld-springboot-java@d64a4af9c4aab5269853fc9eea1431ddcbe405ad",
+      "checked_at": "2026-10-29T11:08:31.811531+00:00",
+      "reason": "No action.yml or action.yaml at raeperd/realworld-springboot-java@7e27968a495864f26c9f3ffd9d53965e5f05eefb",
       "status": "rejected"
     },
     "ram0verflow/ram0verflow": {
@@ -1084,8 +1084,8 @@
       "status": "admitted"
     },
     "sandro2211/powerbi-ml-insight-engine": {
-      "checked_at": "2026-10-22T09:41:32.306837+00:00",
-      "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@63977e6f5f0ddf3f2bdde8e8c25dfca7b83548cc",
+      "checked_at": "2026-10-29T11:08:31.811531+00:00",
+      "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@b9288d46d2a0e913f4b5d15d62a96e6f3df9c57e",
       "status": "rejected"
     },
     "sanitizers/octomachinery": {
@@ -1197,7 +1197,7 @@
       "status": "rejected"
     },
     "ultralytics/actions": {
-      "checked_at": "2026-10-13T12:13:52.792695+00:00",
+      "checked_at": "2026-10-29T11:08:31.811531+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1301,7 +1301,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-28T10:51:38.846732+00:00",
+  "checked_at": "2026-10-29T11:08:31.811531+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 5
 }
