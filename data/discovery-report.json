@@ -121,7 +121,7 @@
       "status": "rejected"
     },
     "Ikalus1988/MisakaNet": {
-      "checked_at": "2026-10-23T09:38:09.252447+00:00",
+      "checked_at": "2026-10-30T11:03:10.253590+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -205,8 +205,8 @@
       "status": "rejected"
     },
     "MustacheCase/zanadir": {
-      "checked_at": "2026-10-19T10:20:53.851081+00:00",
-      "reason": "No action.yml or action.yaml at MustacheCase/zanadir@2b7ec78db9a2126241c6ac38cc8f29b26b2afe25",
+      "checked_at": "2026-10-30T11:03:10.253590+00:00",
+      "reason": "No action.yml or action.yaml at MustacheCase/zanadir@3c9814e29b5800043de0d77fa2a81338e4538b07",
       "status": "rejected"
     },
     "Pradumnasaraf/DevOps": {
@@ -309,6 +309,11 @@
       "source_sha": "4c5141536933d0ca4c23afe7995c08afc187cd90",
       "status": "admitted"
     },
+    "aalsanie/shamash": {
+      "checked_at": "2026-10-30T11:03:10.253590+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
     "actions-hub/kubectl": {
       "checked_at": "2026-09-24T09:35:05.975472+00:00",
       "scanner_version": "1.30.1",
@@ -399,6 +404,11 @@
     "azat-io/actions-up": {
       "checked_at": "2026-10-21T09:42:08.473049+00:00",
       "reason": "No action.yml or action.yaml at azat-io/actions-up@48f131819afb7c57822cb60c9c0c91e81c093e20",
+      "status": "rejected"
+    },
+    "bahdotsh/wrkflw": {
+      "checked_at": "2026-10-30T11:03:10.253590+00:00",
+      "reason": "No action.yml or action.yaml at bahdotsh/wrkflw@59cf48c6236d1df158fce1228ef90cc4a80760fc",
       "status": "rejected"
     },
     "benchmark-action/github-action-benchmark": {
@@ -553,8 +563,8 @@
       "status": "rejected"
     },
     "docker/actions-toolkit": {
-      "checked_at": "2026-10-12T12:29:19.620945+00:00",
-      "reason": "No action.yml or action.yaml at docker/actions-toolkit@1768ff59cc6bdebf7ac98d72a4eef030ee9f52b7",
+      "checked_at": "2026-10-30T11:03:10.253590+00:00",
+      "reason": "No action.yml or action.yaml at docker/actions-toolkit@7324f2ccf895035b557b204a95b8120f2d8607a8",
       "status": "rejected"
     },
     "docker/github-builder": {
@@ -952,7 +962,7 @@
       "status": "rejected"
     },
     "pipelab-org/pipelock": {
-      "checked_at": "2026-10-23T09:38:09.252447+00:00",
+      "checked_at": "2026-10-30T11:03:10.253590+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1301,7 +1311,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-29T11:08:31.811531+00:00",
+  "checked_at": "2026-10-30T11:03:10.253590+00:00",
   "errors": [],
-  "inspected": 5
+  "inspected": 6
 }

@@ -1,218 +1,215 @@
 # Latest catalog changes
 
-23 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+21 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## actions/setup-python
+## aklofas/kicad-happy
 
-[Previous source](https://github.com/actions/setup-python/tree/5fda3b95a4ea91299a34e894583c3862153e4b97/) · [Current source](https://github.com/actions/setup-python/tree/6d4fd22b20465ccc0f7354476588e8df7c9ca0e0/) · [Upstream code diff](https://github.com/actions/setup-python/compare/5fda3b95a4ea91299a34e894583c3862153e4b97...6d4fd22b20465ccc0f7354476588e8df7c9ca0e0)
+[Previous source](https://github.com/aklofas/kicad-happy/tree/06840467ad0f5d76af45f64449b1f5ecb10f052f/) · [Current source](https://github.com/aklofas/kicad-happy/tree/2fd9aa0fe2d620f36627d9221e8b1393987ae38e/) · [Upstream code diff](https://github.com/aklofas/kicad-happy/compare/06840467ad0f5d76af45f64449b1f5ecb10f052f...2fd9aa0fe2d620f36627d9221e8b1393987ae38e)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: mirror | null | {&quot;default&quot;: &quot;https://raw.githubusercontent.com/actions/python-versions/main&quot;, &quot;description&quot;: &quot;Base URL for downloading Python distributions (only applies to CPython; PyPy and GraalPy are unaffected). Defaults to https://raw.githubusercontent.com/actions/python-versions/main. See docs/advanced-usage.md for details.&quot;} |
-| Input: mirror-token | null | {&quot;description&quot;: &quot;Token used to authenticate requests to the host named in &#x27;mirror&#x27;. Sent verbatim as the Authorization header, so include a scheme if your mirror needs one (e.g. &#x27;Bearer &lt;token&gt;&#x27;).&quot;, &quot;required&quot;: false} |
-| Input: token | {&quot;default&quot;: &quot;${{ github.server\_url == &#x27;https://github.com&#x27; &amp;&amp; github.token \|\| &#x27;&#x27; }}&quot;, &quot;description&quot;: &quot;The token used to authenticate when fetching Python distributions from https://github.com/actions/python-versions. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting.&quot;} | {&quot;default&quot;: &quot;${{ github.server\_url == &#x27;https://github.com&#x27; &amp;&amp; github.token \|\| &#x27;&#x27; }}&quot;, &quot;description&quot;: &quot;The token used to authenticate when fetching Python distributions from https://github.com/actions/python-versions. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting. This token is only sent to GitHub-owned hosts, never to a custom &#x27;mirror&#x27;.&quot;} |
-| Selected SHA | 5fda3b95a4ea91299a34e894583c3862153e4b97 | 6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 |
-| Selected tag | v7.0.0 | v7.1.0 |
+| Selected SHA | 06840467ad0f5d76af45f64449b1f5ecb10f052f | 2fd9aa0fe2d620f36627d9221e8b1393987ae38e |
+| Selected tag | v2.3.1 | v2.3.2 |
 
 ## Aletheore/Aletheore
 
-[Previous source](https://github.com/Aletheore/Aletheore/tree/c6a30932649c6d543123f67bd74b22803290156c/) · [Current source](https://github.com/Aletheore/Aletheore/tree/fa59f60e248dabbbf8917c68cc81ac077992b579/) · [Upstream code diff](https://github.com/Aletheore/Aletheore/compare/c6a30932649c6d543123f67bd74b22803290156c...fa59f60e248dabbbf8917c68cc81ac077992b579)
+[Previous source](https://github.com/Aletheore/Aletheore/tree/fa59f60e248dabbbf8917c68cc81ac077992b579/) · [Current source](https://github.com/Aletheore/Aletheore/tree/fffa9f1f81d0de4cee736027ad142135b5ea5130/) · [Upstream code diff](https://github.com/Aletheore/Aletheore/compare/fa59f60e248dabbbf8917c68cc81ac077992b579...fffa9f1f81d0de4cee736027ad142135b5ea5130)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | c6a30932649c6d543123f67bd74b22803290156c | fa59f60e248dabbbf8917c68cc81ac077992b579 |
-| Selected tag | v0.9.27 | v0.10.0 |
+| Selected SHA | fa59f60e248dabbbf8917c68cc81ac077992b579 | fffa9f1f81d0de4cee736027ad142135b5ea5130 |
+| Selected tag | v0.10.0 | v0.10.2 |
 
 ## anthropics/claude-code-action
 
-[Previous source](https://github.com/anthropics/claude-code-action/tree/a5a423f75c251dcbff8a74e99f83b2cb03c72bfa/) · [Current source](https://github.com/anthropics/claude-code-action/tree/6b6870e649b5ff408753befeaee5fc7989d4e6a9/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/a5a423f75c251dcbff8a74e99f83b2cb03c72bfa...6b6870e649b5ff408753befeaee5fc7989d4e6a9)
+[Previous source](https://github.com/anthropics/claude-code-action/tree/6b6870e649b5ff408753befeaee5fc7989d4e6a9/) · [Current source](https://github.com/anthropics/claude-code-action/tree/ae68417a745a5df4b2124873632bd73a2255e6f6/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/6b6870e649b5ff408753befeaee5fc7989d4e6a9...ae68417a745a5df4b2124873632bd73a2255e6f6)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | a5a423f75c251dcbff8a74e99f83b2cb03c72bfa | 6b6870e649b5ff408753befeaee5fc7989d4e6a9 |
-| Selected tag | v1.0.256 | v1.0.258 |
+| Selected SHA | 6b6870e649b5ff408753befeaee5fc7989d4e6a9 | ae68417a745a5df4b2124873632bd73a2255e6f6 |
+| Selected tag | v1.0.258 | v1.0.259 |
 
-## astral-sh/setup-uv
+## asklokesh/loki-mode
 
-[Previous source](https://github.com/astral-sh/setup-uv/tree/1c37ad07a6a961277cf70c0d37d6f313000f5884/) · [Current source](https://github.com/astral-sh/setup-uv/tree/07a047e608db84b3d8c06cd9a7c7dcc9c355c18e/) · [Upstream code diff](https://github.com/astral-sh/setup-uv/compare/1c37ad07a6a961277cf70c0d37d6f313000f5884...07a047e608db84b3d8c06cd9a7c7dcc9c355c18e)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 1c37ad07a6a961277cf70c0d37d6f313000f5884 | 07a047e608db84b3d8c06cd9a7c7dcc9c355c18e |
-| Selected tag | v10.3.0 | v10.3.2 |
-
-## aws-actions/aws-devicefarm-mobile-device-testing
-
-[Previous source](https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/tree/90ae5c7a3ecc7dc5d556f54ed7a674e542bf772b/) · [Current source](https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/tree/bb964f15f6f623d527a964c1c0bffc36437b8f7a/) · [Upstream code diff](https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/compare/90ae5c7a3ecc7dc5d556f54ed7a674e542bf772b...bb964f15f6f623d527a964c1c0bffc36437b8f7a)
+[Previous source](https://github.com/asklokesh/loki-mode/tree/96bf456ce704b32f454588206efa07da8f46ebf8/) · [Current source](https://github.com/asklokesh/loki-mode/tree/b40726d8203799c817692898cbbe8f7373a8cf68/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/96bf456ce704b32f454588206efa07da8f46ebf8...b40726d8203799c817692898cbbe8f7373a8cf68)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 90ae5c7a3ecc7dc5d556f54ed7a674e542bf772b | bb964f15f6f623d527a964c1c0bffc36437b8f7a |
-| Selected tag | v3.1 | v3.2 |
+| Selected SHA | 96bf456ce704b32f454588206efa07da8f46ebf8 | b40726d8203799c817692898cbbe8f7373a8cf68 |
+| Selected tag | v11.18.0 | v11.66.0 |
 
 ## chromaui/action
 
-[Previous source](https://github.com/chromaui/action/tree/e24559fbc78e0cda863f3889f0e40ac249b07e20/) · [Current source](https://github.com/chromaui/action/tree/882b4728513a3720bfcd27bd9ad1260c603c6090/) · [Upstream code diff](https://github.com/chromaui/action/compare/e24559fbc78e0cda863f3889f0e40ac249b07e20...882b4728513a3720bfcd27bd9ad1260c603c6090)
+[Previous source](https://github.com/chromaui/action/tree/882b4728513a3720bfcd27bd9ad1260c603c6090/) · [Current source](https://github.com/chromaui/action/tree/5bcadb5104b09e360e210c54f95a7437c2d82bab/) · [Upstream code diff](https://github.com/chromaui/action/compare/882b4728513a3720bfcd27bd9ad1260c603c6090...5bcadb5104b09e360e210c54f95a7437c2d82bab)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | e24559fbc78e0cda863f3889f0e40ac249b07e20 | 882b4728513a3720bfcd27bd9ad1260c603c6090 |
-| Selected tag | v18.13.1 | v18.13.2 |
+| Selected SHA | 882b4728513a3720bfcd27bd9ad1260c603c6090 | 5bcadb5104b09e360e210c54f95a7437c2d82bab |
+| Selected tag | v18.13.2 | v18.13.3 |
 
-## dawidd6/action-send-mail
+## DeterminateSystems/determinate-nix-action
 
-[Previous source](https://github.com/dawidd6/action-send-mail/tree/67ce3558d613188179559c61d3565140cf389968/) · [Current source](https://github.com/dawidd6/action-send-mail/tree/47af4a10b540781705f283a2cf1a9650713ac795/) · [Upstream code diff](https://github.com/dawidd6/action-send-mail/compare/67ce3558d613188179559c61d3565140cf389968...47af4a10b540781705f283a2cf1a9650713ac795)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: connection\_url | {&quot;description&quot;: &quot;Connection URL protocol://user:password@server:port, protocol can be smtp or smtp+starttls, replaces server\_address, server\_port, secure, username and password&quot;} | {&quot;description&quot;: &quot;Connection URL protocol://user:password@server:port, protocol can be smtp, smtps (TLS, default port 465) or smtp+starttls (STARTTLS required, default port 587), replaces server\_address, server\_port, username and password&quot;} |
-| Input: convert\_markdown | {&quot;description&quot;: &quot;Convert body from Markdown to HTML (set content\_type input as text/html too)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Convert body from Markdown to HTML (set content\_type input as text/html too)&quot;, &quot;required&quot;: false} |
-| Selected SHA | 67ce3558d613188179559c61d3565140cf389968 | 47af4a10b540781705f283a2cf1a9650713ac795 |
-| Selected tag | v22 | v23 |
-
-## docker/scout-action
-
-[Previous source](https://github.com/docker/scout-action/tree/221e7f4860634eeb1579e3bd7ca232e577bd1864/) · [Current source](https://github.com/docker/scout-action/tree/a4119c5a8c5076236a54e4ce99531f7e4dd2ef84/) · [Upstream code diff](https://github.com/docker/scout-action/compare/221e7f4860634eeb1579e3bd7ca232e577bd1864...a4119c5a8c5076236a54e4ce99531f7e4dd2ef84)
+[Previous source](https://github.com/DeterminateSystems/determinate-nix-action/tree/96c5ee93a9dddf2830d31e1da6ec719077336c28/) · [Current source](https://github.com/DeterminateSystems/determinate-nix-action/tree/f296148a827001a9a82d3685b53210c06e5d3b67/) · [Upstream code diff](https://github.com/DeterminateSystems/determinate-nix-action/compare/96c5ee93a9dddf2830d31e1da6ec719077336c28...f296148a827001a9a82d3685b53210c06e5d3b67)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 221e7f4860634eeb1579e3bd7ca232e577bd1864 | a4119c5a8c5076236a54e4ce99531f7e4dd2ef84 |
-| Selected tag | v1.26.0 | v1.27.0 |
+| Input: source-tag | {&quot;default&quot;: &quot;v3.23.3&quot;, &quot;description&quot;: &quot;The tag of \`nix-installer\` to use (conflicts with \`source-revision\`, \`source-branch\`, \`source-pr\`)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;v3.24.0&quot;, &quot;description&quot;: &quot;The tag of \`nix-installer\` to use (conflicts with \`source-revision\`, \`source-branch\`, \`source-pr\`)&quot;, &quot;required&quot;: false} |
+| Selected SHA | 96c5ee93a9dddf2830d31e1da6ec719077336c28 | f296148a827001a9a82d3685b53210c06e5d3b67 |
+| Selected tag | v3.23.3 | v3.24.0 |
 
-## docker/setup-docker-action
+## duriantaco/skylos
 
-[Previous source](https://github.com/docker/setup-docker-action/tree/2bf61fb9464cc67f0cbdeabed6aa0380accd1c70/) · [Current source](https://github.com/docker/setup-docker-action/tree/7ec28a010822b4626af4874f9448a4b05ac6f3e5/) · [Upstream code diff](https://github.com/docker/setup-docker-action/compare/2bf61fb9464cc67f0cbdeabed6aa0380accd1c70...7ec28a010822b4626af4874f9448a4b05ac6f3e5)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 2bf61fb9464cc67f0cbdeabed6aa0380accd1c70 | 7ec28a010822b4626af4874f9448a4b05ac6f3e5 |
-| Selected tag | v5.5.0 | v5.6.0 |
-
-## foundry-rs/foundry-toolchain
-
-[Previous source](https://github.com/foundry-rs/foundry-toolchain/tree/908c540300062bd5a7e473851cdb4282204cee09/) · [Current source](https://github.com/foundry-rs/foundry-toolchain/tree/dba66c27052e63476d886f22216e119ba7e615bf/) · [Upstream code diff](https://github.com/foundry-rs/foundry-toolchain/compare/908c540300062bd5a7e473851cdb4282204cee09...dba66c27052e63476d886f22216e119ba7e615bf)
+[Previous source](https://github.com/duriantaco/skylos/tree/beb6518c90071ebe6326fca6c262161758ebd44d/) · [Current source](https://github.com/duriantaco/skylos/tree/85227d186026d6f85bb592460c2e9a4ff3d42778/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/beb6518c90071ebe6326fca6c262161758ebd44d...85227d186026d6f85bb592460c2e9a4ff3d42778)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 908c540300062bd5a7e473851cdb4282204cee09 | dba66c27052e63476d886f22216e119ba7e615bf |
-| Selected tag | v1.9.1 | v1.9.2 |
+| Selected SHA | beb6518c90071ebe6326fca6c262161758ebd44d | 85227d186026d6f85bb592460c2e9a4ff3d42778 |
+| Selected tag | v4.50.1 | v5.0.0 |
 
-## garnet-org/action
+## jfrog/setup-jfrog-cli
 
-[Previous source](https://github.com/garnet-org/action/tree/245ad6be82de3200c205109c8ca7ac816dc692ea/) · [Current source](https://github.com/garnet-org/action/tree/8cccc85403e4ac4e05fb7822c994d3c199f9aa57/) · [Upstream code diff](https://github.com/garnet-org/action/compare/245ad6be82de3200c205109c8ca7ac816dc692ea...8cccc85403e4ac4e05fb7822c994d3c199f9aa57)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: api\_token | {&quot;description&quot;: &quot;Garnet API token from app.garnet.ai. Optional when the job has \`id-token: write\`\\n(GitHub OIDC is the preferred authentication method). When set, the token is used\\nas-is and no OIDC token is requested, so \`id-token: write\` is not needed.\\nIf neither OIDC nor api\_token is available, runtime recording is skipped with\\na warning and a Job Summary explanation. The workflow continues.\\n&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Garnet API token from app.garnet.ai. Optional when the job has \`id-token: write\`\\n(GitHub OIDC is the preferred authentication method). When set, the token is used\\nas-is and no OIDC token is requested, so \`id-token: write\` is not needed.\\nIf neither OIDC nor api\_token is available, a pull request run — including one from a\\nfork, which GitHub denies both secrets and OIDC — is still recorded locally and uploaded\\nas a workflow artifact for the Garnet GitHub App to collect. On any other event runtime\\nrecording is skipped with a warning and a Job Summary explanation. The workflow continues.\\n&quot;, &quot;required&quot;: false} |
-| Input: job\_index | null | {&quot;description&quot;: &quot;Index of this leg within a matrix job. Strongly recommended on matrix jobs: set it to\\nthe strategy.job-index expression. Every leg of a matrix shares the same job name, so\\nwithout this the Runtime Review reports a single leg instead of all of them and cannot\\nline legs up against the previous commit. Leave unset on non-matrix jobs.\\n&quot;, &quot;required&quot;: false} |
-| Selected SHA | 245ad6be82de3200c205109c8ca7ac816dc692ea | 8cccc85403e4ac4e05fb7822c994d3c199f9aa57 |
-| Selected tag | v2.3.0 | v2.4.0 |
-
-## getsentry/action-release
-
-[Previous source](https://github.com/getsentry/action-release/tree/6fb9aeade7061441cf3864e34fbe11a1457ad7dc/) · [Current source](https://github.com/getsentry/action-release/tree/e6703d0b00208e0b3687ba660d18ab5af7892821/) · [Upstream code diff](https://github.com/getsentry/action-release/compare/6fb9aeade7061441cf3864e34fbe11a1457ad7dc...e6703d0b00208e0b3687ba660d18ab5af7892821)
+[Previous source](https://github.com/jfrog/setup-jfrog-cli/tree/1e584506871998c267b7c100c02628a5b9c81db6/) · [Current source](https://github.com/jfrog/setup-jfrog-cli/tree/1a84ddcff2d475751d8392ef6d7ecb478a7cfe53/) · [Upstream code diff](https://github.com/jfrog/setup-jfrog-cli/compare/1e584506871998c267b7c100c02628a5b9c81db6...1a84ddcff2d475751d8392ef6d7ecb478a7cfe53)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 6fb9aeade7061441cf3864e34fbe11a1457ad7dc | e6703d0b00208e0b3687ba660d18ab5af7892821 |
-| Selected tag | v3.7.1 | v3.7.2 |
+| Input: version | {&quot;default&quot;: &quot;2.127.0&quot;, &quot;description&quot;: &quot;JFrog CLI Version. A concrete X.Y.Z is recommended when download-repository points to a remote repository that stores artifacts locally, since latest is requested as the v2/\[RELEASE\] path and can be served from cache.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;2.128.0&quot;, &quot;description&quot;: &quot;JFrog CLI Version. A concrete X.Y.Z is recommended when download-repository points to a remote repository that stores artifacts locally, since latest is requested as the v2/\[RELEASE\] path and can be served from cache.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 1e584506871998c267b7c100c02628a5b9c81db6 | 1a84ddcff2d475751d8392ef6d7ecb478a7cfe53 |
+| Selected tag | v5.3.0 | v5.3.1 |
 
-## github/codeql-action
+## launchdarkly/find-code-references
 
-[Previous source](https://github.com/github/codeql-action/tree/6f2ac81f5cd81fe351a197ba0b00d91d03cd2aee/) · [Current source](https://github.com/github/codeql-action/tree/9b3254085494b55a0f7c4c2b3d2d52cc712ce370/) · [Upstream code diff](https://github.com/github/codeql-action/compare/6f2ac81f5cd81fe351a197ba0b00d91d03cd2aee...9b3254085494b55a0f7c4c2b3d2d52cc712ce370)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 6f2ac81f5cd81fe351a197ba0b00d91d03cd2aee | 9b3254085494b55a0f7c4c2b3d2d52cc712ce370 |
-| Selected tag | v4.39.0 | v4.39.1 |
-
-## jdx/mise-action
-
-[Previous source](https://github.com/jdx/mise-action/tree/fc42bcc7ddbf51124c30f95a877a0c5168a3bfde/) · [Current source](https://github.com/jdx/mise-action/tree/8418fedb1110381a0d3ba51a7a415d7c1b884550/) · [Upstream code diff](https://github.com/jdx/mise-action/compare/fc42bcc7ddbf51124c30f95a877a0c5168a3bfde...8418fedb1110381a0d3ba51a7a415d7c1b884550)
+[Previous source](https://github.com/launchdarkly/find-code-references/tree/5d95481114aab85ab56671002d11218cfc7f9b23/) · [Current source](https://github.com/launchdarkly/find-code-references/tree/a0de74620aaebcec8f2bcdac36d8122e46be8b11/) · [Upstream code diff](https://github.com/launchdarkly/find-code-references/compare/5d95481114aab85ab56671002d11218cfc7f9b23...a0de74620aaebcec8f2bcdac36d8122e46be8b11)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | fc42bcc7ddbf51124c30f95a877a0c5168a3bfde | 8418fedb1110381a0d3ba51a7a415d7c1b884550 |
-| Selected tag | v5.2.1 | v5.2.2 |
+| Selected SHA | 5d95481114aab85ab56671002d11218cfc7f9b23 | a0de74620aaebcec8f2bcdac36d8122e46be8b11 |
+| Selected tag | v2.18.3 | v2.18.4 |
 
-## macalbert/envilder
+## luckyPipewrench/pipelock
 
-[Previous source](https://github.com/macalbert/envilder/tree/181ea06aed55af1dd5ba1d89007629bb1f5324cc/) · [Current source](https://github.com/macalbert/envilder/tree/d8950f7061049bf5665ccbaa06f799b400bb1cfd/) · [Upstream code diff](https://github.com/macalbert/envilder/compare/181ea06aed55af1dd5ba1d89007629bb1f5324cc...d8950f7061049bf5665ccbaa06f799b400bb1cfd)
+[Previous source](https://github.com/luckyPipewrench/pipelock/tree/47c14c59b14f835f53971d22941b556f44f2baa0/) · [Current source](https://github.com/luckyPipewrench/pipelock/tree/d6bb0003c1dac00d3b2df8dd1eb1a51ed8cecd6a/) · [Upstream code diff](https://github.com/luckyPipewrench/pipelock/compare/47c14c59b14f835f53971d22941b556f44f2baa0...d6bb0003c1dac00d3b2df8dd1eb1a51ed8cecd6a)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 181ea06aed55af1dd5ba1d89007629bb1f5324cc | d8950f7061049bf5665ccbaa06f799b400bb1cfd |
-| Selected tag | v0.15.0 | v0.15.1 |
+| Selected SHA | 47c14c59b14f835f53971d22941b556f44f2baa0 | d6bb0003c1dac00d3b2df8dd1eb1a51ed8cecd6a |
+| Selected tag | v3.7.0 | v3.7.1 |
 
 ## pozil/auto-assign-issue
 
-[Previous source](https://github.com/pozil/auto-assign-issue/tree/af6beea6bdf1e8eb373f061c5bc168681fc6d011/) · [Current source](https://github.com/pozil/auto-assign-issue/tree/bec9ebf443592887b8f9bed643afafdfd3f62f1d/) · [Upstream code diff](https://github.com/pozil/auto-assign-issue/compare/af6beea6bdf1e8eb373f061c5bc168681fc6d011...bec9ebf443592887b8f9bed643afafdfd3f62f1d)
+[Previous source](https://github.com/pozil/auto-assign-issue/tree/bec9ebf443592887b8f9bed643afafdfd3f62f1d/) · [Current source](https://github.com/pozil/auto-assign-issue/tree/d6e511896e5f1d2408e74db74416647d8ff80c8c/) · [Upstream code diff](https://github.com/pozil/auto-assign-issue/compare/bec9ebf443592887b8f9bed643afafdfd3f62f1d...d6e511896e5f1d2408e74db74416647d8ff80c8c)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | af6beea6bdf1e8eb373f061c5bc168681fc6d011 | bec9ebf443592887b8f9bed643afafdfd3f62f1d |
-| Selected tag | v4.0.1 | v4.0.2 |
+| Selected SHA | bec9ebf443592887b8f9bed643afafdfd3f62f1d | d6e511896e5f1d2408e74db74416647d8ff80c8c |
+| Selected tag | v4.0.2 | v4.1.0 |
+
+## pypa/cibuildwheel
+
+[Previous source](https://github.com/pypa/cibuildwheel/tree/8c2dcd2e96041a619f5ff03c9638d7941e2553a4/) · [Current source](https://github.com/pypa/cibuildwheel/tree/b9e566a2b284570af229f6c2a33673410d0389a3/) · [Upstream code diff](https://github.com/pypa/cibuildwheel/compare/8c2dcd2e96041a619f5ff03c9638d7941e2553a4...b9e566a2b284570af229f6c2a33673410d0389a3)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 8c2dcd2e96041a619f5ff03c9638d7941e2553a4 | b9e566a2b284570af229f6c2a33673410d0389a3 |
+| Selected tag | v4.3.3 | v4.3.4 |
 
 ## reviewdog/action-actionlint
 
-[Previous source](https://github.com/reviewdog/action-actionlint/tree/419a49378266e892f40c773b4f2fc6de9aa87499/) · [Current source](https://github.com/reviewdog/action-actionlint/tree/8bacd0b6ac20de8f143bda009d7c86f263c06bd1/) · [Upstream code diff](https://github.com/reviewdog/action-actionlint/compare/419a49378266e892f40c773b4f2fc6de9aa87499...8bacd0b6ac20de8f143bda009d7c86f263c06bd1)
+[Previous source](https://github.com/reviewdog/action-actionlint/tree/8bacd0b6ac20de8f143bda009d7c86f263c06bd1/) · [Current source](https://github.com/reviewdog/action-actionlint/tree/48e36f54d8da326b83ab061aee2cc5e01b5ca46f/) · [Upstream code diff](https://github.com/reviewdog/action-actionlint/compare/8bacd0b6ac20de8f143bda009d7c86f263c06bd1...48e36f54d8da326b83ab061aee2cc5e01b5ca46f)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 419a49378266e892f40c773b4f2fc6de9aa87499 | 8bacd0b6ac20de8f143bda009d7c86f263c06bd1 |
-| Selected tag | v1.80.4 | v1.80.5 |
+| Selected SHA | 8bacd0b6ac20de8f143bda009d7c86f263c06bd1 | 48e36f54d8da326b83ab061aee2cc5e01b5ca46f |
+| Selected tag | v1.80.5 | v1.80.6 |
 
-## reviewdog/action-misspell
+## reviewdog/action-detect-secrets
 
-[Previous source](https://github.com/reviewdog/action-misspell/tree/ce198e1db0d029be165f2d3e809c1a42353446b0/) · [Current source](https://github.com/reviewdog/action-misspell/tree/3467363dab5b42db2b1372c5fd2b1771fea2ea48/) · [Upstream code diff](https://github.com/reviewdog/action-misspell/compare/ce198e1db0d029be165f2d3e809c1a42353446b0...3467363dab5b42db2b1372c5fd2b1771fea2ea48)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | ce198e1db0d029be165f2d3e809c1a42353446b0 | 3467363dab5b42db2b1372c5fd2b1771fea2ea48 |
-| Selected tag | v1.30.2 | v1.30.3 |
-
-## shogo82148/actions-goveralls
-
-[Previous source](https://github.com/shogo82148/actions-goveralls/tree/daabb2902148216a0b13c82107a6e67ed97f796e/) · [Current source](https://github.com/shogo82148/actions-goveralls/tree/4b30166c2ac96ac557328a27874a16b777f9b8bd/) · [Upstream code diff](https://github.com/shogo82148/actions-goveralls/compare/daabb2902148216a0b13c82107a6e67ed97f796e...4b30166c2ac96ac557328a27874a16b777f9b8bd)
+[Previous source](https://github.com/reviewdog/action-detect-secrets/tree/8eeb4956ce5c9f4bebff8e21fd31066a9a011c4c/) · [Current source](https://github.com/reviewdog/action-detect-secrets/tree/d4720f862b52060d151f232944d0f6151eea9a9f/) · [Upstream code diff](https://github.com/reviewdog/action-detect-secrets/compare/8eeb4956ce5c9f4bebff8e21fd31066a9a011c4c...d4720f862b52060d151f232944d0f6151eea9a9f)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | daabb2902148216a0b13c82107a6e67ed97f796e | 4b30166c2ac96ac557328a27874a16b777f9b8bd |
-| Selected tag | v1.11.3 | v1.11.4 |
+| Selected SHA | 8eeb4956ce5c9f4bebff8e21fd31066a9a011c4c | d4720f862b52060d151f232944d0f6151eea9a9f |
+| Selected tag | v0.31.2 | v0.31.3 |
 
-## shogo82148/actions-setup-mysql
+## reviewdog/action-yamllint
 
-[Previous source](https://github.com/shogo82148/actions-setup-mysql/tree/64d04a653a0c02af310009d36ce74bec5f4dce4f/) · [Current source](https://github.com/shogo82148/actions-setup-mysql/tree/82f905a724a02641b2a3e6e72b5a41087668fa04/) · [Upstream code diff](https://github.com/shogo82148/actions-setup-mysql/compare/64d04a653a0c02af310009d36ce74bec5f4dce4f...82f905a724a02641b2a3e6e72b5a41087668fa04)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 64d04a653a0c02af310009d36ce74bec5f4dce4f | 82f905a724a02641b2a3e6e72b5a41087668fa04 |
-| Selected tag | v1.55.0 | v1.56.0 |
-
-## stefanzweifel/git-auto-commit-action
-
-[Previous source](https://github.com/stefanzweifel/git-auto-commit-action/tree/4a55954c782fc1ea30b9056cd3e7a2b40ca8887d/) · [Current source](https://github.com/stefanzweifel/git-auto-commit-action/tree/d0b01107b5db882071f96de5dd4b54961ea93f4c/) · [Upstream code diff](https://github.com/stefanzweifel/git-auto-commit-action/compare/4a55954c782fc1ea30b9056cd3e7a2b40ca8887d...d0b01107b5db882071f96de5dd4b54961ea93f4c)
+[Previous source](https://github.com/reviewdog/action-yamllint/tree/3224b47de22a2fd9c8c0fbc120e6d0049d1f5060/) · [Current source](https://github.com/reviewdog/action-yamllint/tree/8f84f0fb670d777d3e584ef50faf60eb61605b2a/) · [Upstream code diff](https://github.com/reviewdog/action-yamllint/compare/3224b47de22a2fd9c8c0fbc120e6d0049d1f5060...8f84f0fb670d777d3e584ef50faf60eb61605b2a)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 4a55954c782fc1ea30b9056cd3e7a2b40ca8887d | d0b01107b5db882071f96de5dd4b54961ea93f4c |
-| Selected tag | v7.2.0 | v7.2.1 |
+| Selected SHA | 3224b47de22a2fd9c8c0fbc120e6d0049d1f5060 | 8f84f0fb670d777d3e584ef50faf60eb61605b2a |
+| Selected tag | v1.25.2 | v1.25.3 |
 
-## taiki-e/install-action
+## shogo82148/actions-setup-perl
 
-[Previous source](https://github.com/taiki-e/install-action/tree/8cca0918f8471c33515202b73f56ab27f2bed283/) · [Current source](https://github.com/taiki-e/install-action/tree/a4d3f3f761dcd95cce1b72cb61cb6d1963438177/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/8cca0918f8471c33515202b73f56ab27f2bed283...a4d3f3f761dcd95cce1b72cb61cb6d1963438177)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 8cca0918f8471c33515202b73f56ab27f2bed283 | a4d3f3f761dcd95cce1b72cb61cb6d1963438177 |
-| Selected tag | v2.87.29 | v2.87.30 |
-
-## UiPath/coder\_eval
-
-[Previous source](https://github.com/UiPath/coder_eval/tree/d48c8cb8d9f7f58dc80b022db193b6e7df82c4be/) · [Current source](https://github.com/UiPath/coder_eval/tree/8d853946ba38f23556d367b7826986162baae0b5/) · [Upstream code diff](https://github.com/UiPath/coder_eval/compare/d48c8cb8d9f7f58dc80b022db193b6e7df82c4be...8d853946ba38f23556d367b7826986162baae0b5)
+[Previous source](https://github.com/shogo82148/actions-setup-perl/tree/8b574cdc2dffdae49f803204a4f2b716a2fa1db7/) · [Current source](https://github.com/shogo82148/actions-setup-perl/tree/a99edab616eaa8a66bbc16363c77a83361e5f2ce/) · [Upstream code diff](https://github.com/shogo82148/actions-setup-perl/compare/8b574cdc2dffdae49f803204a4f2b716a2fa1db7...a99edab616eaa8a66bbc16363c77a83361e5f2ce)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: version | {&quot;default&quot;: &quot;0.12.14&quot;, &quot;description&quot;: &quot;coder-eval version to install from PyPI, or \\&quot;local\\&quot; to install from the action checkout&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.12.16&quot;, &quot;description&quot;: &quot;coder-eval version to install from PyPI, or \\&quot;local\\&quot; to install from the action checkout&quot;, &quot;required&quot;: false} |
-| Selected SHA | d48c8cb8d9f7f58dc80b022db193b6e7df82c4be | 8d853946ba38f23556d367b7826986162baae0b5 |
-| Selected tag | v0.12.14 | v0.12.16 |
+| Selected SHA | 8b574cdc2dffdae49f803204a4f2b716a2fa1db7 | a99edab616eaa8a66bbc16363c77a83361e5f2ce |
+| Selected tag | v1.44.2 | v1.44.3 |
+
+## Songmu/tagpr
+
+[Previous source](https://github.com/Songmu/tagpr/tree/1fcd7292d1fe8ea9a8313eef46b8d80b7a15d227/) · [Current source](https://github.com/Songmu/tagpr/tree/e1250d6c84e4425db82b5e90549d62dfe23e9ebe/) · [Upstream code diff](https://github.com/Songmu/tagpr/compare/1fcd7292d1fe8ea9a8313eef46b8d80b7a15d227...e1250d6c84e4425db82b5e90549d62dfe23e9ebe)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: attestation-token | null | {&quot;description&quot;: &quot;A github.com token used to verify release attestations when running on GHES or \*.ghe.com. If unset there, SHA-256 checksum verification is used instead&quot;, &quot;required&quot;: false} |
+| Input: version | {&quot;default&quot;: &quot;v1.21.3&quot;, &quot;description&quot;: &quot;A version to install tagpr&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;v1.21.4&quot;, &quot;description&quot;: &quot;A version to install tagpr&quot;, &quot;required&quot;: false} |
+| Selected SHA | 1fcd7292d1fe8ea9a8313eef46b8d80b7a15d227 | e1250d6c84e4425db82b5e90549d62dfe23e9ebe |
+| Selected tag | v1.21.3 | v1.21.4 |
+
+## tailscale/github-action
+
+[Previous source](https://github.com/tailscale/github-action/tree/d1b6cd204f8dceda5b3eaad7f1f767be390056cd/) · [Current source](https://github.com/tailscale/github-action/tree/99a8333667fff04fdd6cffb46dfd409f8329a7bf/) · [Upstream code diff](https://github.com/tailscale/github-action/compare/d1b6cd204f8dceda5b3eaad7f1f767be390056cd...99a8333667fff04fdd6cffb46dfd409f8329a7bf)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: version | {&quot;default&quot;: &quot;1.94.2&quot;, &quot;description&quot;: &quot;Tailscale version to use. Specify \`latest\` to use the latest stable version, and \`unstable\` to use the latest development version.&quot;, &quot;required&quot;: true} | {&quot;default&quot;: &quot;1.104.2&quot;, &quot;description&quot;: &quot;Tailscale version to use. Specify \`latest\` to use the latest stable version, and \`unstable\` to use the latest development version.&quot;, &quot;required&quot;: true} |
+| Selected SHA | d1b6cd204f8dceda5b3eaad7f1f767be390056cd | 99a8333667fff04fdd6cffb46dfd409f8329a7bf |
+| Selected tag | v4.2.0 | v4.3.0 |
+
+## Teamwork/github-sync
+
+[Previous source](https://github.com/Teamwork/github-sync) · [Current source](https://github.com/Teamwork/github-sync/tree/d0317cde6837c33a9999c43fdf5c704b6d9f215e/)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: AUTOMATIC\_TAGGING | null | {&quot;description&quot;: &quot;Do you want to enable automatic tagging: true/false&quot;, &quot;required&quot;: false} |
+| Input: BOARD\_COLUMN\_CLOSED | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Deprecated.&quot;, &quot;required&quot;: false} |
+| Input: BOARD\_COLUMN\_MERGED | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Deprecated.&quot;, &quot;required&quot;: false} |
+| Input: BOARD\_COLUMN\_OPENED | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Deprecated.&quot;, &quot;required&quot;: false} |
+| Input: GITHUB\_TOKEN | null | {&quot;description&quot;: &quot;GitHub token&quot;, &quot;required&quot;: true} |
+| Input: LIGHTWEIGHT\_COMMENT | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Generate tiny comments with minimal information&quot;, &quot;required&quot;: false} |
+| Input: TEAMWORK\_API\_TOKEN | null | {&quot;description&quot;: &quot;Teamwork API token&quot;, &quot;required&quot;: true} |
+| Input: TEAMWORK\_URI | null | {&quot;description&quot;: &quot;Teamwork URI&quot;, &quot;required&quot;: true} |
+| Input: WORKFLOW\_STAGE\_CLOSED | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The case-sensitive name of the workflow stage you would like the task to be moved to if the PR was closed without being merged&quot;, &quot;required&quot;: false} |
+| Input: WORKFLOW\_STAGE\_MERGED | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The case-sensitive name of the workflow stage you would like the task to be moved to once the PR has been merged&quot;, &quot;required&quot;: false} |
+| Input: WORKFLOW\_STAGE\_OPENED | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The case-sensitive name of the workflow stage you would like the task to be moved to once the PR has been opened&quot;, &quot;required&quot;: false} |
+| Observed stability | null | observed |
+| Outputs | null | \[\] |
+| Runtime | null | docker |
+| Security | unknown | clean |
+| Selected SHA | null | d0317cde6837c33a9999c43fdf5c704b6d9f215e |
+| Selected tag | null | v1.5.0 |
+
+## vladopajic/go-test-coverage
+
+[Previous source](https://github.com/vladopajic/go-test-coverage/tree/f484eec846448c97c777a26f8b58c5a69a327e12/) · [Current source](https://github.com/vladopajic/go-test-coverage/tree/239670d50ed072bfce8b9ab1765227a53429d664/) · [Upstream code diff](https://github.com/vladopajic/go-test-coverage/compare/f484eec846448c97c777a26f8b58c5a69a327e12...239670d50ed072bfce8b9ab1765227a53429d664)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | f484eec846448c97c777a26f8b58c5a69a327e12 | 239670d50ed072bfce8b9ab1765227a53429d664 |
+| Selected tag | v2.20.0 | v2.20.1 |
+
+## voidzero-dev/setup-vp
+
+[Previous source](https://github.com/voidzero-dev/setup-vp/tree/68f39c78aaf39be468cabd2afb09c162574c84af/) · [Current source](https://github.com/voidzero-dev/setup-vp/tree/cab1ab9eaff52d4857875f4f2c016e36af8f2c76/) · [Upstream code diff](https://github.com/voidzero-dev/setup-vp/compare/68f39c78aaf39be468cabd2afb09c162574c84af...cab1ab9eaff52d4857875f4f2c016e36af8f2c76)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: cache-save | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Whether to save the dependency cache in the post action. Has no effect when cache is false.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Whether to save enabled dependency and toolchain caches in the post action.&quot;, &quot;required&quot;: false} |
+| Input: cache-toolchain | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Cache Vite+, the managed Node.js runtime, and the selected managed package manager. Requires exact Vite+ and Node.js versions. Independent of the project dependency cache.&quot;, &quot;required&quot;: false} |
+| Outputs | \[&quot;cache-hit&quot;, &quot;version&quot;\] | \[&quot;cache-hit&quot;, &quot;node-version&quot;, &quot;package-manager&quot;, &quot;package-manager-cache-hit&quot;, &quot;package-manager-version&quot;, &quot;toolchain-cache-hit&quot;, &quot;version&quot;\] |
+| Selected SHA | 68f39c78aaf39be468cabd2afb09c162574c84af | cab1ab9eaff52d4857875f4f2c016e36af8f2c76 |
+| Selected tag | v1.21.2 | v1.22.0 |
