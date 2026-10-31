@@ -151,6 +151,11 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "Justin3go/justin3go.com": {
+      "checked_at": "2026-10-31T10:37:49.470676+00:00",
+      "reason": "No action.yml or action.yaml at Justin3go/justin3go.com@0d9756571a94774aebdef2003b71e69b55c13a22",
+      "status": "rejected"
+    },
     "Justintime50/homebrew-releaser": {
       "checked_at": "2026-09-25T09:51:42.609964+00:00",
       "scanner_version": "1.30.1",
@@ -183,8 +188,8 @@
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
-      "checked_at": "2026-10-24T09:10:13.944715+00:00",
-      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@aef7df8baf3d7499d8ffc5cb7d13bc7e621fb667",
+      "checked_at": "2026-10-31T10:37:49.470676+00:00",
+      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@2ebeb92369a30edfe4b689b10a339e3497d6e4fd",
       "status": "rejected"
     },
     "Mic92/hestia": {
@@ -200,8 +205,8 @@
       "status": "admitted"
     },
     "MohammadBahemmat/V2ray-Collector": {
-      "checked_at": "2026-10-24T09:10:13.944715+00:00",
-      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@31d9c6c588efb8f05c3371aa8f392672ca94a805",
+      "checked_at": "2026-10-31T10:37:49.470676+00:00",
+      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@995f1b15cbd13e9f72dba81e1ea536914886f195",
       "status": "rejected"
     },
     "MustacheCase/zanadir": {
@@ -278,8 +283,8 @@
       "status": "admitted"
     },
     "TideDra/zotero-arxiv-daily": {
-      "checked_at": "2026-09-28T08:46:03.413383+00:00",
-      "reason": "No action.yml or action.yaml at TideDra/zotero-arxiv-daily@1752039ad2ec41a97ea8f5e65b0838e995b8c461",
+      "checked_at": "2026-10-31T10:37:49.470676+00:00",
+      "reason": "No action.yml or action.yaml at TideDra/zotero-arxiv-daily@0b1df9d118342f89091a3d9957e91b42db06020b",
       "status": "rejected"
     },
     "UiPath/coder_eval": {
@@ -461,6 +466,11 @@
       "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@7f8ad9d66391fff65b8583f3c721cbb988c2e251",
       "status": "rejected"
     },
+    "codician-team/diffinery": {
+      "checked_at": "2026-10-31T10:37:49.470676+00:00",
+      "reason": "No action.yml or action.yaml at codician-team/diffinery@738f22907ef1bb38526ed94b88c239633bdcec6b",
+      "status": "rejected"
+    },
     "conda-incubator/setup-miniconda": {
       "checked_at": "2026-09-14T07:57:42.638604+00:00",
       "scanner_version": "1.30.1",
@@ -578,6 +588,11 @@
       "source_sha": "d33d5dd545ef12d83a01b243760bc1de830843fc",
       "status": "admitted"
     },
+    "egor-tensin/setup-clang": {
+      "checked_at": "2026-10-31T10:37:49.470676+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
     "egor-tensin/setup-mingw": {
       "checked_at": "2026-10-17T08:52:10.996073+00:00",
       "reason": "Default-branch action manifest has blocking findings",
@@ -683,8 +698,8 @@
       "status": "rejected"
     },
     "grifosaint/exurd-roblox-leaderboard-archive": {
-      "checked_at": "2026-10-12T09:20:51.202218+00:00",
-      "reason": "No action.yml or action.yaml at grifosaint/exurd-roblox-leaderboard-archive@7b8a1a6e6cdbb2d7a18ac35c45dd56cf499ba738",
+      "checked_at": "2026-10-31T10:37:49.470676+00:00",
+      "reason": "No action.yml or action.yaml at grifosaint/exurd-roblox-leaderboard-archive@c7856353c2f80048d9a494691b86e61ad34da26f",
       "status": "rejected"
     },
     "guessi/kubectl-grep": {
@@ -886,6 +901,11 @@
       "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@fa9f618603105feca645c8cf4020ef36dea9a883",
       "status": "rejected"
     },
+    "membrowse/membrowse-action": {
+      "checked_at": "2026-10-31T10:37:49.470676+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
     "microsoft/ps-rule": {
       "checked_at": "2026-10-14T09:46:51.196855+00:00",
       "reason": "Default-branch action manifest has blocking findings",
@@ -1042,6 +1062,11 @@
       "reason": "No action.yml or action.yaml at raeperd/realworld-springboot-java@7e27968a495864f26c9f3ffd9d53965e5f05eefb",
       "status": "rejected"
     },
+    "rakeshnitb23/toolism": {
+      "checked_at": "2026-10-31T10:37:49.470676+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
     "ram0verflow/ram0verflow": {
       "checked_at": "2026-10-27T10:04:47.137048+00:00",
       "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@58e543eb0c7ebe0960668db2bc67c470422ac120",
@@ -1158,9 +1183,14 @@
       "reason": "No action.yml or action.yaml at step-security/agent@5dfd35813b46206ef0bc72a139af7811b5102357",
       "status": "rejected"
     },
+    "suzuki-shunsuke/ghalint": {
+      "checked_at": "2026-10-31T10:37:49.470676+00:00",
+      "reason": "No action.yml or action.yaml at suzuki-shunsuke/ghalint@175075dad44963996b5b048f7e57bbddac5d4650",
+      "status": "rejected"
+    },
     "suzuki-shunsuke/pinact": {
-      "checked_at": "2026-10-11T11:02:50.093402+00:00",
-      "reason": "No action.yml or action.yaml at suzuki-shunsuke/pinact@3e2ab322bd85dce8c1036d01d5f6e6f5c0f2b194",
+      "checked_at": "2026-10-31T10:37:49.470676+00:00",
+      "reason": "No action.yml or action.yaml at suzuki-shunsuke/pinact@b11d3a8ca99ea316e956b19ac1d7d830bf7b74ef",
       "status": "rejected"
     },
     "suzuki-shunsuke/tfaction": {
@@ -1311,7 +1341,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-30T11:03:10.253590+00:00",
+  "checked_at": "2026-10-31T10:37:49.470676+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 11
 }
