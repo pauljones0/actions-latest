@@ -649,6 +649,11 @@
       "reason": "No action.yml or action.yaml at firsttris/plugin.video.sendtokodi@da4813b8409a13731733a8cf686e6f0d322f2320",
       "status": "rejected"
     },
+    "garagon/aguara": {
+      "checked_at": "2026-11-01T11:31:18.587464+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
     "geekplux/markvis": {
       "checked_at": "2026-10-26T10:34:43.509008+00:00",
       "reason": "Default-branch action manifest has blocking findings",
@@ -678,13 +683,18 @@
       "status": "admitted"
     },
     "github/gh-aw": {
-      "checked_at": "2026-10-25T09:27:21.732403+00:00",
-      "reason": "No action.yml or action.yaml at github/gh-aw@a834ad4a318b980a99876d6876b894c9124d1efe",
+      "checked_at": "2026-11-01T11:31:18.587464+00:00",
+      "reason": "No action.yml or action.yaml at github/gh-aw@e6398d97e5bceaa0e4ecc4111c7a27949050bdee",
       "status": "rejected"
     },
     "go-gitea/gitea": {
       "checked_at": "2026-10-26T10:34:43.509008+00:00",
       "reason": "No action.yml or action.yaml at go-gitea/gitea@e221551c7ba6c08833845495ac123c3758573aab",
+      "status": "rejected"
+    },
+    "godot-gdunit-labs/gdUnit4-action": {
+      "checked_at": "2026-11-01T11:31:18.587464+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "goreleaser/goreleaser": {
@@ -791,6 +801,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "884c4725841b5b3f67b8a54458030e1a5c76d0d7",
       "status": "admitted"
+    },
+    "jidicula/clang-format-action": {
+      "checked_at": "2026-11-01T11:31:18.587464+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
     },
     "jsdhwfmax/EvalForge": {
       "checked_at": "2026-10-02T10:45:29.005451+00:00",
@@ -943,6 +958,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "e827cf0c9a3501029b566f839a76776b9e7a373d",
       "status": "admitted"
+    },
+    "nomadicmehul/CloudCaptain": {
+      "checked_at": "2026-11-01T11:31:18.587464+00:00",
+      "reason": "No action.yml or action.yaml at nomadicmehul/CloudCaptain@f87da14b8e5340322ae69797c4c422fd3b629d99",
+      "status": "rejected"
     },
     "nowscott/EverydayTechNews": {
       "checked_at": "2026-10-26T10:34:43.509008+00:00",
@@ -1341,7 +1361,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-10-31T10:37:49.470676+00:00",
+  "checked_at": "2026-11-01T11:31:18.587464+00:00",
   "errors": [],
-  "inspected": 11
+  "inspected": 5
 }
