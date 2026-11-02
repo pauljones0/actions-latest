@@ -1,128 +1,169 @@
 # Latest catalog changes
 
-11 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+16 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## anthropics/claude-code-action
+## Aletheore/Aletheore
 
-[Previous source](https://github.com/anthropics/claude-code-action/tree/16f9f71ab9c490faf367f94dd294897edc25be33/) · [Current source](https://github.com/anthropics/claude-code-action/tree/925afb53776cf1a2b738c6bdbed37b4d4000ef13/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/16f9f71ab9c490faf367f94dd294897edc25be33...925afb53776cf1a2b738c6bdbed37b4d4000ef13)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 16f9f71ab9c490faf367f94dd294897edc25be33 | 925afb53776cf1a2b738c6bdbed37b4d4000ef13 |
-| Selected tag | v1.0.261 | v1.0.262 |
-
-## asklokesh/loki-mode
-
-[Previous source](https://github.com/asklokesh/loki-mode/tree/ef781549cb5f72d58cfdb943a978d3980672aa3c/) · [Current source](https://github.com/asklokesh/loki-mode/tree/30f02277c65d60a938947190bf68a728910bab84/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/ef781549cb5f72d58cfdb943a978d3980672aa3c...30f02277c65d60a938947190bf68a728910bab84)
+[Previous source](https://github.com/Aletheore/Aletheore/tree/fffa9f1f81d0de4cee736027ad142135b5ea5130/) · [Current source](https://github.com/Aletheore/Aletheore/tree/efccbe82f027de70c80265a9338d0d19c0b7f829/) · [Upstream code diff](https://github.com/Aletheore/Aletheore/compare/fffa9f1f81d0de4cee736027ad142135b5ea5130...efccbe82f027de70c80265a9338d0d19c0b7f829)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | ef781549cb5f72d58cfdb943a978d3980672aa3c | 30f02277c65d60a938947190bf68a728910bab84 |
-| Selected tag | v11.75.1 | v11.77.0 |
+| Selected SHA | fffa9f1f81d0de4cee736027ad142135b5ea5130 | efccbe82f027de70c80265a9338d0d19c0b7f829 |
+| Selected tag | v0.10.2 | v0.11.0 |
 
-## int128/datadog-actions-metrics
+## cross-platform-actions/action
 
-[Previous source](https://github.com/int128/datadog-actions-metrics/tree/453ea18176f0469f6c9ee6e65a3818a866b82bf1/) · [Current source](https://github.com/int128/datadog-actions-metrics/tree/f931edb45f0f2e886cb311031b189eb5919d159f/) · [Upstream code diff](https://github.com/int128/datadog-actions-metrics/compare/453ea18176f0469f6c9ee6e65a3818a866b82bf1...f931edb45f0f2e886cb311031b189eb5919d159f)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 453ea18176f0469f6c9ee6e65a3818a866b82bf1 | f931edb45f0f2e886cb311031b189eb5919d159f |
-| Selected tag | v1.186.0 | v1.187.0 |
-
-## int128/docker-manifest-create-action
-
-[Previous source](https://github.com/int128/docker-manifest-create-action/tree/a118e9fe12455375d4810aa318c20e6dba77288e/) · [Current source](https://github.com/int128/docker-manifest-create-action/tree/d6ac360314337bbfb870747d9616b83118acb330/) · [Upstream code diff](https://github.com/int128/docker-manifest-create-action/compare/a118e9fe12455375d4810aa318c20e6dba77288e...d6ac360314337bbfb870747d9616b83118acb330)
+[Previous source](https://github.com/cross-platform-actions/action/tree/e0b9770014ba65d5e0815f15b74031c3a635f641/) · [Current source](https://github.com/cross-platform-actions/action/tree/82668f1fbd89d9c99487604f822cbf6716f124d3/) · [Upstream code diff](https://github.com/cross-platform-actions/action/compare/e0b9770014ba65d5e0815f15b74031c3a635f641...82668f1fbd89d9c99487604f822cbf6716f124d3)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | a118e9fe12455375d4810aa318c20e6dba77288e | d6ac360314337bbfb870747d9616b83118acb330 |
-| Selected tag | v2.29.0 | v2.30.0 |
+| Selected SHA | e0b9770014ba65d5e0815f15b74031c3a635f641 | 82668f1fbd89d9c99487604f822cbf6716f124d3 |
+| Selected tag | v1.6.0 | v1.7.0 |
 
-## jdx/mise-action
+## cygwin/cygwin-install-action
 
-[Previous source](https://github.com/jdx/mise-action/tree/8418fedb1110381a0d3ba51a7a415d7c1b884550/) · [Current source](https://github.com/jdx/mise-action/tree/82a612c5ab8bcda7cc5db6b7e81a8e7584c3dc6e/) · [Upstream code diff](https://github.com/jdx/mise-action/compare/8418fedb1110381a0d3ba51a7a415d7c1b884550...82a612c5ab8bcda7cc5db6b7e81a8e7584c3dc6e)
+[Previous source](https://github.com/cygwin/cygwin-install-action/tree/3f0a3f9f988f7e96b8c18098ae05eaec175f5b52/) · [Current source](https://github.com/cygwin/cygwin-install-action/tree/5a1b0cd107181fa6bb6bf3f90d500f4fb3132f18/) · [Upstream code diff](https://github.com/cygwin/cygwin-install-action/compare/3f0a3f9f988f7e96b8c18098ae05eaec175f5b52...5a1b0cd107181fa6bb6bf3f90d500f4fb3132f18)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 8418fedb1110381a0d3ba51a7a415d7c1b884550 | 82a612c5ab8bcda7cc5db6b7e81a8e7584c3dc6e |
-| Selected tag | v5.2.2 | v5.2.3 |
+| Findings | \[\[&quot;github-env&quot;, &quot;error&quot;, &quot;dangerous use of environment file&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\], \[&quot;template-injection&quot;, &quot;error&quot;, &quot;code injection via template expansion&quot;\]\] | \[\] |
+| Security | blocked | clean |
+| Selected SHA | 3f0a3f9f988f7e96b8c18098ae05eaec175f5b52 | 5a1b0cd107181fa6bb6bf3f90d500f4fb3132f18 |
+| Selected tag | v6.1 | v7.0.0 |
+
+## DavidAnson/markdownlint-cli2-action
+
+[Previous source](https://github.com/DavidAnson/markdownlint-cli2-action/tree/21c1be1b93ad9ed58fa840aacc3f279cde2a72ff/) · [Current source](https://github.com/DavidAnson/markdownlint-cli2-action/tree/696eb3f2509270d7b882d2aa68347bc676e7af34/) · [Upstream code diff](https://github.com/DavidAnson/markdownlint-cli2-action/compare/21c1be1b93ad9ed58fa840aacc3f279cde2a72ff...696eb3f2509270d7b882d2aa68347bc676e7af34)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 21c1be1b93ad9ed58fa840aacc3f279cde2a72ff | 696eb3f2509270d7b882d2aa68347bc676e7af34 |
+| Selected tag | v24.2.0 | v25.0.0 |
+
+## DeterminateSystems/determinate-nix-action
+
+[Previous source](https://github.com/DeterminateSystems/determinate-nix-action/tree/f296148a827001a9a82d3685b53210c06e5d3b67/) · [Current source](https://github.com/DeterminateSystems/determinate-nix-action/tree/92957199488000b908fdad19f63711000965d8f3/) · [Upstream code diff](https://github.com/DeterminateSystems/determinate-nix-action/compare/f296148a827001a9a82d3685b53210c06e5d3b67...92957199488000b908fdad19f63711000965d8f3)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: source-tag | {&quot;default&quot;: &quot;v3.24.0&quot;, &quot;description&quot;: &quot;The tag of \`nix-installer\` to use (conflicts with \`source-revision\`, \`source-branch\`, \`source-pr\`)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;v3.24.1&quot;, &quot;description&quot;: &quot;The tag of \`nix-installer\` to use (conflicts with \`source-revision\`, \`source-branch\`, \`source-pr\`)&quot;, &quot;required&quot;: false} |
+| Selected SHA | f296148a827001a9a82d3685b53210c06e5d3b67 | 92957199488000b908fdad19f63711000965d8f3 |
+| Selected tag | v3.24.0 | v3.24.1 |
+
+## duriantaco/skylos
+
+[Previous source](https://github.com/duriantaco/skylos/tree/85227d186026d6f85bb592460c2e9a4ff3d42778/) · [Current source](https://github.com/duriantaco/skylos/tree/bab257fa347d106778c84216749eae15d4ddd3f6/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/85227d186026d6f85bb592460c2e9a4ff3d42778...bab257fa347d106778c84216749eae15d4ddd3f6)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 85227d186026d6f85bb592460c2e9a4ff3d42778 | bab257fa347d106778c84216749eae15d4ddd3f6 |
+| Selected tag | v5.0.0 | v5.1.0 |
+
+## jurplel/install-qt-action
+
+[Previous source](https://github.com/jurplel/install-qt-action/tree/a9c63c7c123f3069cff414e7e482d95dfa9d8125/) · [Current source](https://github.com/jurplel/install-qt-action/tree/b344308e4483fc892e0d27b3cd1b173ebdd95f06/) · [Upstream code diff](https://github.com/jurplel/install-qt-action/compare/a9c63c7c123f3069cff414e7e482d95dfa9d8125...b344308e4483fc892e0d27b3cd1b173ebdd95f06)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: arch | {&quot;description&quot;: &quot;Architecture for Windows/Android&quot;} | {&quot;description&quot;: &quot;Architecture or build variant&quot;} |
+| Input: tools-only | {&quot;default&quot;: false, &quot;description&quot;: &quot;Synonym for \`no-qt-binaries\`, used for backwards compatibility.&quot;} | {&quot;default&quot;: false, &quot;description&quot;: &quot;Synonym for \`no-qt-binaries\`, used for backwards compatibility. Deprecated.&quot;} |
+| Outputs | \[\] | \[&quot;arch&quot;, &quot;host&quot;, &quot;qml2-import-path&quot;, &quot;qt-host-path&quot;, &quot;qt-plugin-path&quot;, &quot;qt-root-dir&quot;, &quot;target&quot;, &quot;version&quot;\] |
+| Selected SHA | a9c63c7c123f3069cff414e7e482d95dfa9d8125 | b344308e4483fc892e0d27b3cd1b173ebdd95f06 |
+| Selected tag | v4.4.1 | v4.5.0 |
+
+## macalbert/envilder
+
+[Previous source](https://github.com/macalbert/envilder/tree/d8950f7061049bf5665ccbaa06f799b400bb1cfd/) · [Current source](https://github.com/macalbert/envilder/tree/12b022c17902fdd38182b18378057b9b1b95f836/) · [Upstream code diff](https://github.com/macalbert/envilder/compare/d8950f7061049bf5665ccbaa06f799b400bb1cfd...12b022c17902fdd38182b18378057b9b1b95f836)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | d8950f7061049bf5665ccbaa06f799b400bb1cfd | 12b022c17902fdd38182b18378057b9b1b95f836 |
+| Selected tag | v0.15.1 | v0.16.0 |
 
 ## MishaKav/pytest-coverage-comment
 
-[Previous source](https://github.com/MishaKav/pytest-coverage-comment/tree/9ee59af31bd7bcada1cc496f086b407122602dbd/) · [Current source](https://github.com/MishaKav/pytest-coverage-comment/tree/93af7d8b7260ffe62dd0eb35bebd01c544f204e9/) · [Upstream code diff](https://github.com/MishaKav/pytest-coverage-comment/compare/9ee59af31bd7bcada1cc496f086b407122602dbd...93af7d8b7260ffe62dd0eb35bebd01c544f204e9)
+[Previous source](https://github.com/MishaKav/pytest-coverage-comment/tree/93af7d8b7260ffe62dd0eb35bebd01c544f204e9/) · [Current source](https://github.com/MishaKav/pytest-coverage-comment/tree/9516bf7f32a9229cf18d5e1717ae387c7154f279/) · [Upstream code diff](https://github.com/MishaKav/pytest-coverage-comment/compare/93af7d8b7260ffe62dd0eb35bebd01c544f204e9...9516bf7f32a9229cf18d5e1717ae387c7154f279)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 9ee59af31bd7bcada1cc496f086b407122602dbd | 93af7d8b7260ffe62dd0eb35bebd01c544f204e9 |
-| Selected tag | v1.12.3 | v1.12.5 |
+| Input: annotate-missing-lines | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Add annotations on lines added in the pull request or push that are not covered by tests&quot;, &quot;required&quot;: false} |
+| Input: annotation-type | null | {&quot;default&quot;: &quot;warning&quot;, &quot;description&quot;: &quot;Annotation level for \`annotate-missing-lines\`: notice, warning or error&quot;, &quot;required&quot;: false} |
+| Selected SHA | 93af7d8b7260ffe62dd0eb35bebd01c544f204e9 | 9516bf7f32a9229cf18d5e1717ae387c7154f279 |
+| Selected tag | v1.12.5 | v1.13.0 |
 
-## shogo82148/actions-goveralls
+## node9-ai/node9-proxy
 
-[Previous source](https://github.com/shogo82148/actions-goveralls/tree/4b30166c2ac96ac557328a27874a16b777f9b8bd/) · [Current source](https://github.com/shogo82148/actions-goveralls/tree/548a2a7896df420c38df648845a5525a33f82585/) · [Upstream code diff](https://github.com/shogo82148/actions-goveralls/compare/4b30166c2ac96ac557328a27874a16b777f9b8bd...548a2a7896df420c38df648845a5525a33f82585)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 4b30166c2ac96ac557328a27874a16b777f9b8bd | 548a2a7896df420c38df648845a5525a33f82585 |
-| Selected tag | v1.11.4 | v1.11.5 |
-
-## upptime/uptime-monitor
-
-[Previous source](https://github.com/upptime/uptime-monitor/tree/6d218cca63a6249035b9f3b52765ee501cf88b20/) · [Current source](https://github.com/upptime/uptime-monitor/tree/74f0683383384927e064d76a5f21f340d6af36fc/) · [Upstream code diff](https://github.com/upptime/uptime-monitor/compare/6d218cca63a6249035b9f3b52765ee501cf88b20...74f0683383384927e064d76a5f21f340d6af36fc)
+[Previous source](https://github.com/node9-ai/node9-proxy) · [Current source](https://github.com/node9-ai/node9-proxy/tree/dd425ec9e4145aae972a63d1dd60b75e49121ed7/)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 6d218cca63a6249035b9f3b52765ee501cf88b20 | 74f0683383384927e064d76a5f21f340d6af36fc |
-| Selected tag | v1.46.3 | v1.46.5 |
-
-## wechuli/allcheckspassed
-
-[Previous source](https://github.com/wechuli/allcheckspassed/tree/e4240aa9cc76fd6828ce27a71ad16c406c25adb3/) · [Current source](https://github.com/wechuli/allcheckspassed/tree/1e77c91db5ec91faa94bf441f91b91327d269ab0/) · [Upstream code diff](https://github.com/wechuli/allcheckspassed/compare/e4240aa9cc76fd6828ce27a71ad16c406c25adb3...1e77c91db5ec91faa94bf441f91b91327d269ab0)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: checks\_include | {&quot;default&quot;: &quot;-1&quot;, &quot;description&quot;: &quot;A comma separated list of checks to include in the evaluation, by default, all checks are included. You can provide a list of map keys, with app\_id and check\_name, to include only checks from a specific app, or with a specific name. Supports regex&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;-1&quot;, &quot;description&quot;: &quot;A comma separated list of checks to include in the evaluation, by default, all checks are included. You can provide a list of map keys, with app\_id and name, to include only checks from a specific app, or with a specific name. Supports regex&quot;, &quot;required&quot;: false} |
-| Selected SHA | e4240aa9cc76fd6828ce27a71ad16c406c25adb3 | 1e77c91db5ec91faa94bf441f91b91327d269ab0 |
-| Selected tag | v2.5.0 | v2.6.0 |
-
-## yu-iskw/action-sqlfluff
-
-[Previous source](https://github.com/yu-iskw/action-sqlfluff) · [Current source](https://github.com/yu-iskw/action-sqlfluff/tree/b8c4a04f2094e1748bc3cc426cda21f405187199/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: config | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Include additional config file.\\nBy default the config is generated from the standard configuration files described in the documentation.\\nThis argument allows you to specify an additional configuration file that overrides the standard configuration files.\\nN.B. cfg format is required.\\n&quot;, &quot;required&quot;: false} |
-| Input: dialect | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The dialect of SQL to lint&quot;, &quot;required&quot;: false} |
-| Input: disable-noqa | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Set this flag to ignore inline noqa comments.&quot;, &quot;required&quot;: false} |
-| Input: encoding | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Specifiy encoding to use when reading and writing files. Defaults to autodetect.&quot;, &quot;required&quot;: false} |
-| Input: exclude-rules | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Exclude specific rules.\\nFor example specifying –exclude-rules L001 will remove rule L001 (Unnecessary trailing whitespace) from the set of considered rules.\\nThis could either be the allowlist, or the general set if there is no specific allowlist.\\nMultiple rules can be specified with commas e.g. –exclude-rules L001,L002 will exclude violations of rule L001 and rule L002.\\n&quot;, &quot;required&quot;: false} |
-| Input: extra\_requirements\_txt | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;A path to your custom \`requirements.txt\` to install extra modules for your dbt adapters.\\nPlease make sure not to contain \`sqlfluff\` and its dependent packages, because the action can be broken by the conflicts.\\n&quot;, &quot;required&quot;: false} |
-| Input: fail\_on\_error | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Exit code for reviewdog when errors are found \[true,false\]\\nDefault is \`false\`.\\n&quot;, &quot;required&quot;: false} |
-| Input: file\_pattern | null | {&quot;default&quot;: &quot;\\\\.sql$&quot;, &quot;description&quot;: &quot;The regular expression to filter checked files&quot;, &quot;required&quot;: false} |
-| Input: filter\_mode | null | {&quot;default&quot;: &quot;file&quot;, &quot;description&quot;: &quot;Filtering mode for the reviewdog command \[added,diff\_context,file,nofilter\].\\nDefault is file.\\n&quot;, &quot;required&quot;: false} |
-| Input: github\_base\_ref | null | {&quot;default&quot;: &quot;${{ github.base\_ref }}&quot;, &quot;description&quot;: &quot;Pull request target branch name&quot;, &quot;required&quot;: false} |
-| Input: github\_token | null | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;GITHUB\_TOKEN&quot;, &quot;required&quot;: true} |
-| Input: level | null | {&quot;default&quot;: &quot;error&quot;, &quot;description&quot;: &quot;Report level for reviewdog \[info,warning,error\]&quot;, &quot;required&quot;: false} |
-| Input: paths | null | {&quot;description&quot;: &quot;PATH is the path to a sql file or directory to lint.\\nThis can be either a file (&#x27;path/to/file.sql&#x27;), a path (&#x27;directory/of/sql/files&#x27;), a single (&#x27;-&#x27;) character to indicate reading from \*stdin\* or a dot/blank (&#x27;.&#x27;/&#x27; &#x27;) which will be interpreted like passing the current working directory as a path argument.\\n&quot;, &quot;required&quot;: true} |
-| Input: processes | null | {&quot;default&quot;: &quot;2&quot;, &quot;description&quot;: &quot;The number of parallel processes to run.&quot;, &quot;required&quot;: false} |
-| Input: reporter | null | {&quot;default&quot;: &quot;github-check&quot;, &quot;description&quot;: &quot;Reporter of reviewdog command \[github-check,github-pr-review\].&quot;, &quot;required&quot;: false} |
-| Input: reviewdog\_version | null | {&quot;default&quot;: &quot;v0.21.0&quot;, &quot;description&quot;: &quot;reviewdog version&quot;, &quot;required&quot;: false} |
-| Input: rules | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Narrow the search to only specific rules.\\nFor example specifying –rules L001 will only search for rule L001 (Unnecessary trailing whitespace).\\nMultiple rules can be specified with commas e.g. –rules L001,L002 will specify only looking for violations of rule L001 and rule L002.\\n&quot;, &quot;required&quot;: false} |
-| Input: sqlfluff\_command | null | {&quot;default&quot;: &quot;lint&quot;, &quot;description&quot;: &quot;The sub command of sqlfluff. One of lint and fix&quot;, &quot;required&quot;: false} |
-| Input: sqlfluff\_version | null | {&quot;default&quot;: &quot;4.1.0&quot;, &quot;description&quot;: &quot;sqlfluff version (pinned default). Set this input to override, for example to stay on SQLFluff 3.x.\\n&quot;, &quot;required&quot;: false} |
-| Input: templater | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The templater to use&quot;, &quot;required&quot;: false} |
-| Input: working-directory | null | {&quot;default&quot;: &quot;${{ github.workspace }}&quot;, &quot;description&quot;: &quot;working directory&quot;, &quot;required&quot;: false} |
+| Findings | \[\] | \[\[&quot;artipacked&quot;, &quot;warning&quot;, &quot;credential persistence through GitHub Actions artifacts&quot;\]\] |
+| Input: annotate | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Annotate the findings inline on the PR diff&quot;, &quot;required&quot;: false} |
+| Input: comment | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Post a sticky comment on the PR with the findings&quot;, &quot;required&quot;: false} |
+| Input: fail-on | null | {&quot;default&quot;: &quot;never&quot;, &quot;description&quot;: &quot;Fail the check when the worst finding is at least this severity: never \| medium \| high \| critical&quot;, &quot;required&quot;: false} |
+| Input: fail-on-scope | null | {&quot;default&quot;: &quot;all&quot;, &quot;description&quot;: &quot;Which findings the gate judges: \\&quot;all\\&quot; (the repo as it stands, the default and the pre-CI-5 behaviour) or \\&quot;introduced\\&quot; (only what this PR added or made worse). Use \\&quot;introduced\\&quot; to turn the gate on for a repository that is already dirty. When the base commit cannot be read the scan falls back to \\&quot;all\\&quot; rather than passing.&quot;, &quot;required&quot;: false} |
+| Input: github-token | null | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;Token for posting the comment + check-run (defaults to the job token)&quot;, &quot;required&quot;: false} |
+| Input: node9-api-url | null | {&quot;default&quot;: &quot;https://api.node9.ai&quot;, &quot;description&quot;: &quot;node9 API for uploads. Only https://api.node9.ai (the default) or node9&#x27;s test deployment are accepted.&quot;, &quot;required&quot;: false} |
+| Input: node9-upload-key | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Repository upload key from the node9 dashboard (Repositories, Scan on every push). When set, each push scan is also sent to that node9 workspace. Add \`id-token: write\` to the job&#x27;s existing permissions (keep \`contents: read\` and the others). Empty (the default) sends nothing. Uploads never change the check result.&quot;, &quot;required&quot;: false} |
+| Input: node9-version | null | {&quot;default&quot;: &quot;latest&quot;, &quot;description&quot;: &quot;node9-ai version to run (pin for reproducibility; \\&quot;latest\\&quot; for newest)&quot;, &quot;required&quot;: false} |
+| Input: telemetry | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Send node9 an anonymous usage count for each run: the scanner version, the operating system, that it ran from the Action, the worst severity, whether the scan finished, and a hash of the repository&#x27;s numeric GitHub id that node9 keeps only inside a count. Never the repository name, a path, a finding or any code. Set to false (or NODE9\_NO\_TELEMETRY=1 on the job) to turn it off.&quot;, &quot;required&quot;: false} |
 | Observed stability | null | observed |
-| Outputs | null | \[&quot;reviewdog-exit-code&quot;, &quot;sqlfluff-exit-code&quot;, &quot;sqlfluff-results&quot;, &quot;sqlfluff-results-rdjson&quot;\] |
-| Runtime | null | docker |
-| Security | unknown | clean |
-| Selected SHA | null | b8c4a04f2094e1748bc3cc426cda21f405187199 |
-| Selected tag | null | v5.0.3 |
+| Outputs | null | \[\] |
+| Runtime | null | composite |
+| Security | unknown | warning |
+| Selected SHA | null | dd425ec9e4145aae972a63d1dd60b75e49121ed7 |
+| Selected tag | null | v2.41.2 |
 
-## zgosalvez/github-actions-ensure-sha-pinned-actions
+## Added: ocaml/setup-ocaml
 
-[Previous source](https://github.com/zgosalvez/github-actions-ensure-sha-pinned-actions/tree/c4e71056006d29f90204b2d063be337109507d62/) · [Current source](https://github.com/zgosalvez/github-actions-ensure-sha-pinned-actions/tree/76ed8a4c86957c2d27d44bab47f172193149d926/) · [Upstream code diff](https://github.com/zgosalvez/github-actions-ensure-sha-pinned-actions/compare/c4e71056006d29f90204b2d063be337109507d62...76ed8a4c86957c2d27d44bab47f172193149d926)
+[Source](https://github.com/ocaml/setup-ocaml) — Set up an OCaml and opam environment and add to PATH
+
+New entries still require observed stability and fresh scan evidence before usage.
+
+## openqodex/openqodex
+
+[Previous source](https://github.com/openqodex/openqodex/tree/68ef6b851181518e8b3372b04d67da86fb333de7/) · [Current source](https://github.com/openqodex/openqodex/tree/7c3e5924b7c2a08fb2154a98106f188ded596942/) · [Upstream code diff](https://github.com/openqodex/openqodex/compare/68ef6b851181518e8b3372b04d67da86fb333de7...7c3e5924b7c2a08fb2154a98106f188ded596942)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | c4e71056006d29f90204b2d063be337109507d62 | 76ed8a4c86957c2d27d44bab47f172193149d926 |
-| Selected tag | v5.0.10 | v5.0.11 |
+| Input: version | {&quot;default&quot;: &quot;0.14.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.15.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 68ef6b851181518e8b3372b04d67da86fb333de7 | 7c3e5924b7c2a08fb2154a98106f188ded596942 |
+| Selected tag | v0.14.0 | v0.15.0 |
+
+## renovatebot/github-action
+
+[Previous source](https://github.com/renovatebot/github-action/tree/a63d9a7bc606f7336fd20b47f2f32259a35e6213/) · [Current source](https://github.com/renovatebot/github-action/tree/2804199d260ad00c1fae0e9e842888369391c776/) · [Upstream code diff](https://github.com/renovatebot/github-action/compare/a63d9a7bc606f7336fd20b47f2f32259a35e6213...2804199d260ad00c1fae0e9e842888369391c776)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | a63d9a7bc606f7336fd20b47f2f32259a35e6213 | 2804199d260ad00c1fae0e9e842888369391c776 |
+| Selected tag | v46.3.9 | v46.3.10 |
+
+## shogo82148/actions-setup-mysql
+
+[Previous source](https://github.com/shogo82148/actions-setup-mysql/tree/82f905a724a02641b2a3e6e72b5a41087668fa04/) · [Current source](https://github.com/shogo82148/actions-setup-mysql/tree/fb8ae72ad9f2f8244e594d6d48a981e975aee78e/) · [Upstream code diff](https://github.com/shogo82148/actions-setup-mysql/compare/82f905a724a02641b2a3e6e72b5a41087668fa04...fb8ae72ad9f2f8244e594d6d48a981e975aee78e)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 82f905a724a02641b2a3e6e72b5a41087668fa04 | fb8ae72ad9f2f8244e594d6d48a981e975aee78e |
+| Selected tag | v1.56.0 | v1.56.1 |
+
+## shogo82148/actions-setup-perl
+
+[Previous source](https://github.com/shogo82148/actions-setup-perl/tree/a99edab616eaa8a66bbc16363c77a83361e5f2ce/) · [Current source](https://github.com/shogo82148/actions-setup-perl/tree/3b59bd33efdae98406a9bc4b75a4aa041e11993a/) · [Upstream code diff](https://github.com/shogo82148/actions-setup-perl/compare/a99edab616eaa8a66bbc16363c77a83361e5f2ce...3b59bd33efdae98406a9bc4b75a4aa041e11993a)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | a99edab616eaa8a66bbc16363c77a83361e5f2ce | 3b59bd33efdae98406a9bc4b75a4aa041e11993a |
+| Selected tag | v1.44.3 | v1.44.4 |
+
+## vn7n24fzkq/github-profile-summary-cards
+
+[Previous source](https://github.com/vn7n24fzkq/github-profile-summary-cards/tree/58ec032e39377dd38329bdc1db70074fe74fbb17/) · [Current source](https://github.com/vn7n24fzkq/github-profile-summary-cards/tree/7022eb6bd48de38b092f54110a8ff8185f2ac4a1/) · [Upstream code diff](https://github.com/vn7n24fzkq/github-profile-summary-cards/compare/58ec032e39377dd38329bdc1db70074fe74fbb17...7022eb6bd48de38b092f54110a8ff8185f2ac4a1)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: TIME\_ZONE | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;IANA time zone for the Productive Time Card (e.g., Europe/Zurich). Handles daylight saving time and overrides UTC\_OFFSET.&quot;, &quot;required&quot;: false, &quot;type&quot;: &quot;string&quot;} |
+| Input: UTC\_OFFSET | {&quot;default&quot;: 0, &quot;description&quot;: &quot;The UTC offset used in the Productive Time Card.(e.g., 8, -3)&quot;, &quot;required&quot;: false, &quot;type&quot;: &quot;string&quot;} | {&quot;default&quot;: 0, &quot;description&quot;: &quot;The UTC offset used in the Productive Time Card.(e.g., 8, -3). Ignored when TIME\_ZONE is set.&quot;, &quot;required&quot;: false, &quot;type&quot;: &quot;string&quot;} |
+| Selected SHA | 58ec032e39377dd38329bdc1db70074fe74fbb17 | 7022eb6bd48de38b092f54110a8ff8185f2ac4a1 |
+| Selected tag | v0.12.1 | v0.13.0 |

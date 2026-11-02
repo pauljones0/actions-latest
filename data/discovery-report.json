@@ -1,5 +1,7 @@
 {
-  "admitted": [],
+  "admitted": [
+    "ocaml/setup-ocaml"
+  ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-10-25T09:27:21.732403+00:00",
@@ -29,8 +31,8 @@
       "status": "admitted"
     },
     "AmadeusITGroup/otter": {
-      "checked_at": "2026-10-21T09:42:08.473049+00:00",
-      "reason": "No action.yml or action.yaml at AmadeusITGroup/otter@1bd3c1ef665c18b2de2efe3f2babbe4837025f9e",
+      "checked_at": "2026-11-02T12:53:59.834194+00:00",
+      "reason": "No action.yml or action.yaml at AmadeusITGroup/otter@9d6af1109bcd52e924d28439f737b9d85c93e3fb",
       "status": "rejected"
     },
     "Apple-Actions/download-provisioning-profiles": {
@@ -183,8 +185,8 @@
       "status": "rejected"
     },
     "LindseyB/dummy": {
-      "checked_at": "2026-10-26T10:34:43.509008+00:00",
-      "reason": "No action.yml or action.yaml at LindseyB/dummy@d591273c9fe03281181b5c7d9143b90951ebe90c",
+      "checked_at": "2026-11-02T12:53:59.834194+00:00",
+      "reason": "No action.yml or action.yaml at LindseyB/dummy@6f5b6600805a7da068b191ca68d76f122baf7533",
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
@@ -220,8 +222,8 @@
       "status": "rejected"
     },
     "ProxyScrape/free-proxy-list": {
-      "checked_at": "2026-10-26T10:34:43.509008+00:00",
-      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@7a0d927597d120ea02af9360fc34445fbf0b57d3",
+      "checked_at": "2026-11-02T12:53:59.834194+00:00",
+      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@739f7393010488b9cfdd2e1d5c37f80b5896f0c5",
       "status": "rejected"
     },
     "RamiKrispin/ai-dev-2024-ml-workshop": {
@@ -272,8 +274,8 @@
       "status": "rejected"
     },
     "Thordata/awesome-free-proxy-list": {
-      "checked_at": "2026-10-04T10:46:40.614767+00:00",
-      "reason": "No action.yml or action.yaml at Thordata/awesome-free-proxy-list@9a9f3a62f04cd5d0d0748d53bd7b5dcd9517e79d",
+      "checked_at": "2026-11-02T12:53:59.834194+00:00",
+      "reason": "No action.yml or action.yaml at Thordata/awesome-free-proxy-list@9891f20b77362b5de7b9247fdb2d9f92c7ed2486",
       "status": "rejected"
     },
     "ThreeMoonsLab/agents-shipgate": {
@@ -615,8 +617,8 @@
       "status": "rejected"
     },
     "f/wvw.dev": {
-      "checked_at": "2026-10-12T09:20:51.202218+00:00",
-      "reason": "No action.yml or action.yaml at f/wvw.dev@960a3aff90ec9eccb797512552bfe90ccc874ac7",
+      "checked_at": "2026-11-02T12:53:59.834194+00:00",
+      "reason": "No action.yml or action.yaml at f/wvw.dev@3cc13cfde9af2c60bb5f4262578987ab11309cd7",
       "status": "rejected"
     },
     "f2calv/yamlizr": {
@@ -846,7 +848,7 @@
       "status": "rejected"
     },
     "kucherenko/jscpd": {
-      "checked_at": "2026-10-26T10:34:43.509008+00:00",
+      "checked_at": "2026-11-02T12:53:59.834194+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -965,14 +967,20 @@
       "status": "rejected"
     },
     "nowscott/EverydayTechNews": {
-      "checked_at": "2026-10-26T10:34:43.509008+00:00",
-      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@c2e993470e2d12e12016511585d58717b120d934",
+      "checked_at": "2026-11-02T12:53:59.834194+00:00",
+      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@d37e21fdb777e0e2a8d813d047a598744bc3047b",
       "status": "rejected"
     },
     "oasdiff/oasdiff": {
       "checked_at": "2026-10-22T09:41:32.306837+00:00",
       "reason": "No action.yml or action.yaml at oasdiff/oasdiff@6e25854f07532a5d2bef71c34513e3af8a38d511",
       "status": "rejected"
+    },
+    "ocaml/setup-ocaml": {
+      "checked_at": "2026-11-02T12:53:59.834194+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "a831b8e39be47fe9cb739eeb917703e3f458b5ff",
+      "status": "admitted"
     },
     "omarmhaimdat/pepe": {
       "checked_at": "2026-10-18T09:10:17.904329+00:00",
@@ -1252,8 +1260,8 @@
       "status": "rejected"
     },
     "ubicloud/ubicloud": {
-      "checked_at": "2026-10-23T09:38:09.252447+00:00",
-      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@ff4d9e5bdd6fa62d40b2e2f89cc5133e9dcfac65",
+      "checked_at": "2026-11-02T12:53:59.834194+00:00",
+      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@b9c8b5a39ba10750e148bc70ba4c1f306572934f",
       "status": "rejected"
     },
     "ultralytics/actions": {
@@ -1341,8 +1349,8 @@
       "status": "admitted"
     },
     "zhongfly/mpv-winbuild": {
-      "checked_at": "2026-10-26T10:34:43.509008+00:00",
-      "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@b120d7d8a64d17bd40b893f585429ef3845ac766",
+      "checked_at": "2026-11-02T12:53:59.834194+00:00",
+      "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@37b83557ec1cb08a241defc77f60cb151f7b314c",
       "status": "rejected"
     },
     "zhuyansen/new-term-radar": {
@@ -1361,7 +1369,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-01T11:31:18.587464+00:00",
+  "checked_at": "2026-11-02T12:53:59.834194+00:00",
   "errors": [],
-  "inspected": 5
+  "inspected": 10
 }

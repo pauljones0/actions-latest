@@ -1478,6 +1478,25 @@
     "reviewed_at": null
   },
   {
+    "action": "ocaml/setup-ocaml",
+    "description": "Set up an OCaml and opam environment and add to PATH",
+    "category": "Discovered",
+    "tags": [
+      "ocaml"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/ocaml/setup-ocaml/tree/a831b8e39be47fe9cb739eeb917703e3f458b5ff",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "openqodex/openqodex",
     "description": "AI code review and scanners for pull requests: SAST, secrets, dependencies, lint. Review needs your Anthropic key.",
     "category": "Discovered",
