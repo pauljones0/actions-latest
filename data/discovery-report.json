@@ -1,9 +1,11 @@
 {
-  "admitted": [],
+  "admitted": [
+    "coactions/setup-xvfb"
+  ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
-      "checked_at": "2026-10-25T09:27:21.732403+00:00",
-      "reason": "No action.yml or action.yaml at 15H4NT/Grade-Prophet@9012678ed5d503ec5aac6d1b367786a07ae0f524",
+      "checked_at": "2026-11-04T12:36:43.337874+00:00",
+      "reason": "No action.yml or action.yaml at 15H4NT/Grade-Prophet@aaf5c391f305dd2901a6bf40c4f1bff05378871e",
       "status": "rejected"
     },
     "ARM-software/AVH": {
@@ -235,8 +237,8 @@
       "status": "rejected"
     },
     "RamiKrispin/useR2024-pipeline-workshop": {
-      "checked_at": "2026-10-28T10:51:38.846732+00:00",
-      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@b5f35aaccc4d2c92e4b3955bb4d7f3b4721d47ca",
+      "checked_at": "2026-11-04T12:36:43.337874+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@b994b2efcf21bd04e40e13742da4d0b42aa0c45e",
       "status": "rejected"
     },
     "Readme-Workflows/recent-activity": {
@@ -423,8 +425,8 @@
       "status": "admitted"
     },
     "bitscoper/bitscoper_cyberkit": {
-      "checked_at": "2026-10-22T09:41:32.306837+00:00",
-      "reason": "No action.yml or action.yaml at bitscoper/bitscoper_cyberkit@c86259a8e802ddf6e807403091c980b73be7bd72",
+      "checked_at": "2026-11-04T12:36:43.337874+00:00",
+      "reason": "No action.yml or action.yaml at bitscoper/bitscoper_cyberkit@249dcead287d4dd1c915c56ec13ebba238726791",
       "status": "rejected"
     },
     "calibreapp/image-actions": {
@@ -461,6 +463,12 @@
       "source_sha": "9cd93b8428b53111b005d4882145aa9142b52be1",
       "status": "admitted"
     },
+    "coactions/setup-xvfb": {
+      "checked_at": "2026-11-04T12:36:43.337874+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "6b00cf1889f4e1d5a48635647013c0508128ee1a",
+      "status": "admitted"
+    },
     "cobusgreyling/loop-engineering": {
       "checked_at": "2026-10-14T09:46:51.196855+00:00",
       "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@7f8ad9d66391fff65b8583f3c721cbb988c2e251",
@@ -469,6 +477,11 @@
     "codician-team/diffinery": {
       "checked_at": "2026-10-31T10:37:49.470676+00:00",
       "reason": "No action.yml or action.yaml at codician-team/diffinery@738f22907ef1bb38526ed94b88c239633bdcec6b",
+      "status": "rejected"
+    },
+    "community/community": {
+      "checked_at": "2026-11-04T12:36:43.337874+00:00",
+      "reason": "No action.yml or action.yaml at community/community@5a4231db873b54491745d47f8853b6a71cfdb127",
       "status": "rejected"
     },
     "conda-incubator/setup-miniconda": {
@@ -505,8 +518,8 @@
       "status": "admitted"
     },
     "cybersecsi/RAUDI": {
-      "checked_at": "2026-10-28T10:51:38.846732+00:00",
-      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@6202748061d6f62e3e2c746fd330b3b1e30b0aed",
+      "checked_at": "2026-11-04T12:36:43.337874+00:00",
+      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@f739e2ef814c4b19bc1d32d9a2a4986dac7f104f",
       "status": "rejected"
     },
     "cycjimmy/semantic-release-action": {
@@ -568,8 +581,8 @@
       "status": "rejected"
     },
     "djunekz/termux-app-store": {
-      "checked_at": "2026-10-24T09:10:13.944715+00:00",
-      "reason": "No action.yml or action.yaml at djunekz/termux-app-store@25418a9aeb21cee99c79c727d2f67e33f51bcbea",
+      "checked_at": "2026-11-04T12:36:43.337874+00:00",
+      "reason": "No action.yml or action.yaml at djunekz/termux-app-store@c4500333dca89e640fc2abcbe983003fcb98444b",
       "status": "rejected"
     },
     "docker/actions-toolkit": {
@@ -948,6 +961,11 @@
       "source_sha": "09b487ee4d14cbba9b85e5e41dee083ddfe940b5",
       "status": "admitted"
     },
+    "nirtal85/Selenium-Python-Example": {
+      "checked_at": "2026-11-04T12:36:43.337874+00:00",
+      "reason": "No action.yml or action.yaml at nirtal85/Selenium-Python-Example@08de648ff6528605d5661295a0871d90bbc9fd89",
+      "status": "rejected"
+    },
     "nnnkkk7/lazyactions": {
       "checked_at": "2026-10-15T09:28:16.792417+00:00",
       "reason": "No action.yml or action.yaml at nnnkkk7/lazyactions@eba68fc7683d8eac7c8b79ba506ea07cbd9c033f",
@@ -1117,8 +1135,8 @@
       "status": "admitted"
     },
     "runs-on/runs-on": {
-      "checked_at": "2026-10-14T09:46:51.196855+00:00",
-      "reason": "No action.yml or action.yaml at runs-on/runs-on@ed675e20d8501d46d4693eef8745cca168254592",
+      "checked_at": "2026-11-04T12:36:43.337874+00:00",
+      "reason": "No action.yml or action.yaml at runs-on/runs-on@c141428e26cb3cdda9a3ab9280d0beec56bacc39",
       "status": "rejected"
     },
     "ruzickap/action-my-broken-link-checker": {
@@ -1367,7 +1385,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-03T12:25:18.945096+00:00",
+  "checked_at": "2026-11-04T12:36:43.337874+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 9
 }

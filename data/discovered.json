@@ -359,6 +359,25 @@
     "reviewed_at": null
   },
   {
+    "action": "coactions/setup-xvfb",
+    "description": "Run your headless tests with XVFB",
+    "category": "Discovered",
+    "tags": [
+      "xvfb"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/coactions/setup-xvfb/tree/6b00cf1889f4e1d5a48635647013c0508128ee1a",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "CodelyTV/pr-size-labeler",
     "description": "Label a PR based on the amount of changes",
     "category": "Discovered",

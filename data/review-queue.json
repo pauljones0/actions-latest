@@ -15,7 +15,7 @@
     "detail": "No action.yml or action.yaml at actions/actions-sync@e0ceb2ddae6eb7a5b609770e3793738f796b13ac",
     "next_step": "Inspect the immutable source. For a missing root manifest, check subdirectory actions; for a transient failure, rerun refresh. Never mark this clean.",
     "source": "https://github.com/actions/actions-sync/tree/e0ceb2ddae6eb7a5b609770e3793738f796b13ac/",
-    "stars": 160
+    "stars": 161
   },
   {
     "action": "ansible/ansible-content-actions",
@@ -51,7 +51,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/mikefarah/yq/tree/504fc38780cc46be8444ea1b72fb55919fc0bfb0/",
-    "stars": 16218
+    "stars": 16224
   },
   {
     "action": "super-linter/super-linter",
@@ -60,7 +60,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/super-linter/super-linter/tree/2da136927bd4a73596db63044b504547c62cb854/",
-    "stars": 10647
+    "stars": 10646
   },
   {
     "action": "anthropics/claude-code-action",
@@ -68,8 +68,8 @@
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/anthropics/claude-code-action/tree/8041f1d17e0e7d2f2cfe35002962e9f26237c0bb/",
-    "stars": 9773
+    "source": "https://github.com/anthropics/claude-code-action/tree/d70510b174a1244958df0b03166a54912811f3e6/",
+    "stars": 9783
   },
   {
     "action": "actions/checkout",
@@ -78,7 +78,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/checkout/tree/3d3c42e5aac5ba805825da76410c181273ba90b1/",
-    "stars": 8999
+    "stars": 9003
   },
   {
     "action": "appleboy/ssh-action",
@@ -87,7 +87,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/appleboy/ssh-action/tree/0ff4204d59e8e51228ff73bce53f80d53301dee2/",
-    "stars": 6237
+    "stars": 6240
   },
   {
     "action": "Platane/snk",
@@ -96,7 +96,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/Platane/snk/tree/d8f6715049803e982ee5ff501b6b9b7d5deeb09b/",
-    "stars": 6170
+    "stars": 6173
   },
   {
     "action": "softprops/action-gh-release",
@@ -114,7 +114,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/cache/tree/55cc8345863c7cc4c66a329aec7e433d2d1c52a9/",
-    "stars": 5595
+    "stars": 5594
   },
   {
     "action": "docker/build-push-action",
@@ -123,7 +123,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/docker/build-push-action/tree/c3c9e263c25d99ce0380d002d59b67737d91b0dc/",
-    "stars": 5428
+    "stars": 5429
   },
   {
     "action": "peaceiris/actions-gh-pages",
@@ -141,7 +141,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/github-script/tree/3a2844b7e9c422d3c10d287c895573f7108da1b3/",
-    "stars": 5051
+    "stars": 5052
   },
   {
     "action": "actions/setup-node",
@@ -150,7 +150,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/setup-node/tree/949feb2413d6458794dcd2491c4babbbce0c15c1/",
-    "stars": 5015
+    "stars": 5014
   },
   {
     "action": "JamesIves/github-pages-deploy-action",
@@ -159,7 +159,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/JamesIves/github-pages-deploy-action/tree/fa24774553152dd7873cd16ebd8d959b010c5445/",
-    "stars": 4617
+    "stars": 4616
   },
   {
     "action": "anc95/ChatGPT-CodeReview",
@@ -168,7 +168,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/anc95/ChatGPT-CodeReview/tree/1af98686be7c2079f7be2f16ae887c8c023cc506/",
-    "stars": 4468
+    "stars": 4469
   },
   {
     "action": "actions/upload-artifact",
@@ -177,7 +177,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/upload-artifact/tree/cf430e030ddbb5b0abf93d22962f4752f3646cd9/",
-    "stars": 4251
+    "stars": 4252
   },
   {
     "action": "anmol098/waka-readme-stats",
@@ -204,7 +204,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/ansible/ansible-lint/tree/9bce2bfb8f4a984e6b13767bc0d6bf0a49492164/",
-    "stars": 3933
+    "stars": 3932
   },
   {
     "action": "mxschmitt/action-tmate",
@@ -213,7 +213,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/mxschmitt/action-tmate/tree/35b54afac29c97fb54faba5b513f8fbd1882f113/",
-    "stars": 3592
+    "stars": 3591
   },
   {
     "action": "gautamkrishnar/blog-post-workflow",
@@ -222,7 +222,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/gautamkrishnar/blog-post-workflow/tree/f177491c77670f150ab4e9b9890254d8eba4164b/",
-    "stars": 3445
+    "stars": 3447
   },
   {
     "action": "dorny/paths-filter",
@@ -231,7 +231,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/dorny/paths-filter/tree/ceb8a2b8f2d89434be7ff52d3de7ec3738c5cc9d/",
-    "stars": 3386
+    "stars": 3388
   },
   {
     "action": "shivammathur/setup-php",
@@ -240,7 +240,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/shivammathur/setup-php/tree/eb7c497e18156a6bbabfef1d3a82760b9eda3962/",
-    "stars": 3269
+    "stars": 3274
   },
   {
     "action": "aws-actions/configure-aws-credentials",
@@ -249,7 +249,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/aws-actions/configure-aws-credentials/tree/e1253824e5c10ff9df46874f81ed3ec929e19cfd/",
-    "stars": 3020
+    "stars": 3021
   },
   {
     "action": "peter-evans/create-pull-request",
@@ -258,7 +258,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/peter-evans/create-pull-request/tree/5f6978faf089d4d20b00c7766989d076bb2fc7f1/",
-    "stars": 2875
+    "stars": 2872
   },
   {
     "action": "tj-actions/changed-files",
@@ -267,7 +267,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/tj-actions/changed-files/tree/9426d40962ed5378910ee2e21d5f8c6fcbf2dd96/",
-    "stars": 2738
+    "stars": 2736
   },
   {
     "action": "subosito/flutter-action",
@@ -312,7 +312,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/google-github-actions/run-gemini-cli/tree/f77273f4c914e4bf38440cf36a0369cb64a37489/",
-    "stars": 2117
+    "stars": 2118
   },
   {
     "action": "actions/setup-java",
@@ -321,7 +321,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/setup-java/tree/b843ebf9b913146b38da2eaa7aeddf76074ae1ad/",
-    "stars": 2028
+    "stars": 2027
   },
   {
     "action": "Swatinem/rust-cache",
@@ -357,7 +357,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/setup-go/tree/b7ad1dad31e06c5925ef5d2fc7ad053ef454303e/",
-    "stars": 1773
+    "stars": 1772
   },
   {
     "action": "actions/stale",
@@ -366,7 +366,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/stale/tree/4391f3da665fdf50b6810c1a66712fb9ba21aa93/",
-    "stars": 1727
+    "stars": 1729
   },
   {
     "action": "ncipollo/release-action",
@@ -414,6 +414,15 @@
     "stars": 1594
   },
   {
+    "action": "aklofas/kicad-happy",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/aklofas/kicad-happy/tree/2fd9aa0fe2d620f36627d9221e8b1393987ae38e/",
+    "stars": 1584
+  },
+  {
     "action": "appleboy/scp-action",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
@@ -423,22 +432,13 @@
     "stars": 1582
   },
   {
-    "action": "aklofas/kicad-happy",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/aklofas/kicad-happy/tree/2fd9aa0fe2d620f36627d9221e8b1393987ae38e/",
-    "stars": 1577
-  },
-  {
     "action": "peaceiris/actions-hugo",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/peaceiris/actions-hugo/tree/2752ce1d29631191ea3f27c23495fa06139a5b78/",
-    "stars": 1576
+    "stars": 1577
   },
   {
     "action": "docker/login-action",
@@ -474,7 +474,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/pullfrog/pullfrog/tree/25a837a2b078177c3acdce790506d1fd1acedd82/",
-    "stars": 1416
+    "stars": 1420
   },
   {
     "action": "google-github-actions/auth",
@@ -510,7 +510,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/affaan-m/agentshield/tree/b0891303bdcd6037376a94263d45cfd2ff3dfb98/",
-    "stars": 1359
+    "stars": 1361
   },
   {
     "action": "slackapi/slack-github-action",
@@ -537,7 +537,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/pnpm/action-setup/tree/ea17c68df8912ef543352723c149a84f56e3d413/",
-    "stars": 1323
+    "stars": 1324
   },
   {
     "action": "ReactiveCircus/android-emulator-runner",
@@ -554,17 +554,8 @@
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/step-security/harden-runner/tree/dc2769abcc0fcfbadfc1df54081c1608579ef6b2/",
+    "source": "https://github.com/step-security/harden-runner/tree/46b06cea07f9e64621fdf066ba77ac6915163d43/",
     "stars": 1295
-  },
-  {
-    "action": "EndBug/add-and-commit",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/EndBug/add-and-commit/tree/cc9c08ba6c8df3b93a8f2db63e89b98368ae2ae8/",
-    "stars": 1293
   },
   {
     "action": "treosh/lighthouse-ci-action",
@@ -573,6 +564,15 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/treosh/lighthouse-ci-action/tree/3e7e23fb74242897f95c0ba9cabad3d0227b9b18/",
+    "stars": 1293
+  },
+  {
+    "action": "EndBug/add-and-commit",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/EndBug/add-and-commit/tree/cc9c08ba6c8df3b93a8f2db63e89b98368ae2ae8/",
     "stars": 1292
   },
   {
@@ -582,7 +582,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/openai/codex-action/tree/bdf19a4a223ec2549a3e2274a0cf61556bc07675/",
-    "stars": 1289
+    "stars": 1292
   },
   {
     "action": "ad-m/github-push-action",
@@ -600,7 +600,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/setup-dotnet/tree/a98b56852c35b8e3190ac28c8c2271da59106c68/",
-    "stars": 1218
+    "stars": 1220
   },
   {
     "action": "peter-evans/repository-dispatch",
@@ -609,7 +609,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/peter-evans/repository-dispatch/tree/28959ce8df70de7be546dd1250a005dd32156697/",
-    "stars": 1218
+    "stars": 1217
   },
   {
     "action": "rtCamp/action-slack-notify",
@@ -627,7 +627,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/dorny/test-reporter/tree/d1b5dff021aa968b288b02285a8bf47471c5928a/",
-    "stars": 1185
+    "stars": 1186
   },
   {
     "action": "docker/metadata-action",
@@ -645,7 +645,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/asklokesh/loki-mode/tree/30f02277c65d60a938947190bf68a728910bab84/",
-    "stars": 1117
+    "stars": 1118
   },
   {
     "action": "aws-actions/amazon-ecr-login",
@@ -690,7 +690,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/luckyPipewrench/pipelock/tree/d6bb0003c1dac00d3b2df8dd1eb1a51ed8cecd6a/",
-    "stars": 980
+    "stars": 984
   },
   {
     "action": "actions/deploy-pages",
@@ -699,7 +699,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/deploy-pages/tree/368f82528645a54fb793d4d04e342629a3f51346/",
-    "stars": 968
+    "stars": 967
   },
   {
     "action": "tailscale/github-action",
@@ -717,7 +717,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/czl9707/gh-space-shooter/tree/eea3dd4d83e464ec7c4153e09e303952b924f5c5/",
-    "stars": 936
+    "stars": 935
   },
   {
     "action": "peter-evans/create-or-update-comment",
@@ -762,7 +762,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/first-interaction/tree/1c4688942c71f71d4f5502a26ea67c331730fa4d/",
-    "stars": 901
+    "stars": 900
   },
   {
     "action": "anothrNick/github-tag-action",
@@ -798,7 +798,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/peakoss/anti-slop/tree/57858eead489d08b255fab2af45a506c2ca6eab2/",
-    "stars": 854
+    "stars": 855
   },
   {
     "action": "cyprieng/github-breakout",
@@ -834,7 +834,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/alstr/todo-to-issue-action/tree/37bb7b56e58569ef273b60678048030a7f0c261a/",
-    "stars": 800
+    "stars": 801
   },
   {
     "action": "elgohr/Publish-Docker-Github-Action",
@@ -843,7 +843,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/elgohr/Publish-Docker-Github-Action/tree/1c2f28ccd9476e8a936ac9a1f287405504c93304/",
-    "stars": 797
+    "stars": 796
   },
   {
     "action": "aws-actions/amazon-ecs-deploy-task-definition",
@@ -870,7 +870,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/EnricoMi/publish-unit-test-result-action/tree/7622c5bf3d112a72ab4fa3951c2aa5723d8ab92d/",
-    "stars": 753
+    "stars": 754
   },
   {
     "action": "uraimo/run-on-arch-action",
@@ -888,7 +888,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/oven-sh/setup-bun/tree/0c5077e51419868618aeaa5fe8019c62421857d6/",
-    "stars": 730
+    "stars": 729
   },
   {
     "action": "svenstaro/upload-release-action",
@@ -906,7 +906,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/peter-evans/slash-command-dispatch/tree/9bdcd7914ec1b75590b790b844aa3b8eee7c683a/",
-    "stars": 711
+    "stars": 710
   },
   {
     "action": "trstringer/manual-approval",
@@ -924,16 +924,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/gitleaks/gitleaks-action/tree/e0c47f4f8be36e29cdc102c57e68cb5cbf0e8d1e/",
-    "stars": 673
-  },
-  {
-    "action": "JS-DevTools/npm-publish",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/JS-DevTools/npm-publish/tree/0fd2f4369c5d6bcfcde6091a7c527d810b9b5c3f/",
-    "stars": 668
+    "stars": 674
   },
   {
     "action": "einaregilsson/beanstalk-deploy",
@@ -950,7 +941,16 @@
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/helm/chart-releaser-action/tree/cae68fefc6b5f367a0275617c9f83181ba54714f/",
+    "source": "https://github.com/helm/chart-releaser-action/tree/df287104677278f869ca5480bd260358397cc3f9/",
+    "stars": 667
+  },
+  {
+    "action": "JS-DevTools/npm-publish",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/JS-DevTools/npm-publish/tree/0fd2f4369c5d6bcfcde6091a7c527d810b9b5c3f/",
     "stars": 667
   },
   {
@@ -1041,7 +1041,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/Azure/login/tree/a641126d1b8aa4d1fa005f4f92df94a3a4c4c906/",
-    "stars": 566
+    "stars": 567
   },
   {
     "action": "tibdex/github-app-token",
@@ -1059,7 +1059,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/renovatebot/github-action/tree/2804199d260ad00c1fae0e9e842888369391c776/",
-    "stars": 558
+    "stars": 559
   },
   {
     "action": "taiki-e/install-action",
@@ -1068,7 +1068,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/taiki-e/install-action/tree/5488ac5a951645ce95062214902ac4b6bc1a1037/",
-    "stars": 554
+    "stars": 555
   },
   {
     "action": "wangyoucao577/go-release-action",
@@ -1095,7 +1095,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/github-community-projects/issue-metrics/tree/671528652402b9b8a33da44b5c693b3161bc090f/",
-    "stars": 540
+    "stars": 541
   },
   {
     "action": "lycheeverse/lychee-action",
@@ -1107,15 +1107,6 @@
     "stars": 526
   },
   {
-    "action": "foo-software/lighthouse-check-action",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/foo-software/lighthouse-check-action/tree/a80267da2e0244b8a2e457a8575fc47590615852/",
-    "stars": 513
-  },
-  {
     "action": "hashicorp/vault-action",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
@@ -1125,13 +1116,22 @@
     "stars": 513
   },
   {
+    "action": "foo-software/lighthouse-check-action",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/foo-software/lighthouse-check-action/tree/a80267da2e0244b8a2e457a8575fc47590615852/",
+    "stars": 512
+  },
+  {
     "action": "getsentry/action-release",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/getsentry/action-release/tree/e6703d0b00208e0b3687ba660d18ab5af7892821/",
-    "stars": 495
+    "stars": 496
   },
   {
     "action": "PaulHatch/semantic-version",
@@ -1265,8 +1265,8 @@
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/jdx/mise-action/tree/82a612c5ab8bcda7cc5db6b7e81a8e7584c3dc6e/",
-    "stars": 401
+    "source": "https://github.com/jdx/mise-action/tree/6be3c7ed4c21d4f76b208d351d95aac273ebb76d/",
+    "stars": 402
   },
   {
     "action": "microsoft/setup-msbuild",
@@ -1283,7 +1283,7 @@
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/SonarSource/sonarqube-scan-action/tree/d209202bc7d53ff1cc128f7f907dac145c9d6ae9/",
+    "source": "https://github.com/SonarSource/sonarqube-scan-action/tree/4d1dc0c91ee400dcf8a6dddf2f705ac36542e304/",
     "stars": 401
   },
   {
@@ -1311,7 +1311,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/TryGhost/action-deploy-theme/tree/b1ff2a5eeac1d5438a0aab35eb996fe4010d889e/",
-    "stars": 392
+    "stars": 393
   },
   {
     "action": "msys2/setup-msys2",
@@ -1321,15 +1321,6 @@
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/msys2/setup-msys2/tree/ec48f7c5447b3140e2b088413ae3a55687bccb6e/",
     "stars": 390
-  },
-  {
-    "action": "softprops/turnstyle",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/softprops/turnstyle/tree/3805450be63b8c80577dc253e8c17e9132036df4/",
-    "stars": 387
   },
   {
     "action": "kishikawakatsumi/xcresulttool",
@@ -1347,6 +1338,15 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/peter-evans/dockerhub-description/tree/1b9a80c056b620d92cedb9d9b5a223409c68ddfa/",
+    "stars": 386
+  },
+  {
+    "action": "softprops/turnstyle",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/softprops/turnstyle/tree/3805450be63b8c80577dc253e8c17e9132036df4/",
     "stars": 386
   },
   {
@@ -1401,7 +1401,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/1Password/load-secrets-action/tree/70062d7a876d3eb6334754fa26efd2fbd90c32f2/",
-    "stars": 356
+    "stars": 357
   },
   {
     "action": "rlespinasse/github-slug-action",
@@ -1449,15 +1449,6 @@
     "stars": 347
   },
   {
-    "action": "gradle/actions",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/gradle/actions/tree/3f5f9adaf7d9fecd50b5935e54106014257a94e6/",
-    "stars": 347
-  },
-  {
     "action": "OP5dev/TF-via-PR",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
@@ -1476,13 +1467,22 @@
     "stars": 346
   },
   {
+    "action": "gradle/actions",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/gradle/actions/tree/3f5f9adaf7d9fecd50b5935e54106014257a94e6/",
+    "stars": 346
+  },
+  {
     "action": "dependabot/fetch-metadata",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/dependabot/fetch-metadata/tree/25dd0e34f4fe68f24cc83900b1fe3fe149efef98/",
-    "stars": 344
+    "stars": 345
   },
   {
     "action": "TriPSs/conventional-changelog-action",
@@ -1536,7 +1536,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/Songmu/tagpr/tree/e1250d6c84e4425db82b5e90549d62dfe23e9ebe/",
-    "stars": 335
+    "stars": 336
   },
   {
     "action": "aormsby/Fork-Sync-With-Upstream-action",
@@ -1581,7 +1581,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/taiki-e/upload-rust-binary-action/tree/f0d45ae91ee7b8ee928de7a9d04d893a08bcbec6/",
-    "stars": 324
+    "stars": 326
   },
   {
     "action": "bridgecrewio/checkov-action",
@@ -1671,7 +1671,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/android-actions/setup-android/tree/be39fa834029ff78f1a44aa3bb0819b8fc2bd8fd/",
-    "stars": 307
+    "stars": 306
   },
   {
     "action": "docker/bake-action",
@@ -1755,15 +1755,6 @@
     "stars": 285
   },
   {
-    "action": "LouisBrunner/checks-action",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/LouisBrunner/checks-action/tree/937cbbcde3259005b50746dc91cde29098aac2ff/",
-    "stars": 284
-  },
-  {
     "action": "sarisia/actions-status-discord",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
@@ -1779,6 +1770,15 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/aws-actions/aws-cloudformation-github-deploy/tree/81e3b03d2266bcb76c4bcc37a7d71d9cb67838bb/",
+    "stars": 283
+  },
+  {
+    "action": "LouisBrunner/checks-action",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/LouisBrunner/checks-action/tree/937cbbcde3259005b50746dc91cde29098aac2ff/",
     "stars": 283
   },
   {
@@ -1850,7 +1850,7 @@
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/apple-actions/upload-testflight-build/tree/acf1166e95edc302069b74b258a788004fe39a08/",
+    "source": "https://github.com/apple-actions/upload-testflight-build/tree/958b2fe4969e2ab1824f79f07c270b950f06bb3a/",
     "stars": 266
   },
   {
@@ -1860,7 +1860,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/anchore/sbom-action/tree/66cbf4bc1f1c0d2edc94016e65bc221b6bb0ad6c/",
-    "stars": 264
+    "stars": 265
   },
   {
     "action": "withastro/action",
@@ -2007,15 +2007,6 @@
     "stars": 240
   },
   {
-    "action": "GeekyEggo/delete-artifact",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/GeekyEggo/delete-artifact/tree/176a747ab7e287e3ff4787bf8a148716375ca118/",
-    "stars": 236
-  },
-  {
     "action": "tj-actions/branch-names",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
@@ -2023,6 +2014,15 @@
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/tj-actions/branch-names/tree/5250492686b253f06fa55861556d1027b067aeb5/",
     "stars": 236
+  },
+  {
+    "action": "GeekyEggo/delete-artifact",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/GeekyEggo/delete-artifact/tree/176a747ab7e287e3ff4787bf8a148716375ca118/",
+    "stars": 235
   },
   {
     "action": "techpivot/terraform-module-releaser",
@@ -2040,7 +2040,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/browser-actions/setup-chrome/tree/48ad923757ca74d66703209fe939badbdf80f2f4/",
-    "stars": 231
+    "stars": 230
   },
   {
     "action": "getsentry/action-github-app-token",
@@ -2124,15 +2124,6 @@
     "stars": 206
   },
   {
-    "action": "github-community-projects/stale-repos",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/github-community-projects/stale-repos/tree/07243c72d78533a27c0e37a93bfa87275fca4aa1/",
-    "stars": 205
-  },
-  {
     "action": "terraform-linters/setup-tflint",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
@@ -2148,6 +2139,15 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/cross-platform-actions/action/tree/82668f1fbd89d9c99487604f822cbf6716f124d3/",
+    "stars": 204
+  },
+  {
+    "action": "github-community-projects/stale-repos",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/github-community-projects/stale-repos/tree/07243c72d78533a27c0e37a93bfa87275fca4aa1/",
     "stars": 204
   },
   {
@@ -2211,7 +2211,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/EmbarkStudios/cargo-deny-action/tree/3c6349835b2b7b196a839186cb8b78e02f7b5f25/",
-    "stars": 194
+    "stars": 195
   },
   {
     "action": "Azure/setup-helm",
@@ -2427,7 +2427,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/hashicorp/packer-github-actions/tree/ce93c3c08a6c2ff2275bf4b54ff0d9a75f6c9789/",
-    "stars": 165
+    "stars": 164
   },
   {
     "action": "hashicorp/setup-packer",
@@ -2436,7 +2436,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/hashicorp/setup-packer/tree/ce93c3c08a6c2ff2275bf4b54ff0d9a75f6c9789/",
-    "stars": 165
+    "stars": 164
   },
   {
     "action": "Addepar/RedFlag",
@@ -2543,7 +2543,7 @@
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/docker/scout-action/tree/a4119c5a8c5076236a54e4ce99531f7e4dd2ef84/",
+    "source": "https://github.com/docker/scout-action/tree/4bbf17a9da65a7b5497361bb407e88cc9548f69c/",
     "stars": 144
   },
   {
@@ -2574,12 +2574,12 @@
     "stars": 143
   },
   {
-    "action": "artis3n/ansible_galaxy_collection",
+    "action": "Azure/artifact-signing-action",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/artis3n/ansible_galaxy_collection/tree/ffbca2460a5a1c600b941bbf1536bd61de1c2227/",
+    "source": "https://github.com/Azure/artifact-signing-action/tree/c7ab2a863ab5f9a846ddb8265964877ef296ee82/",
     "stars": 140
   },
   {
@@ -2592,12 +2592,12 @@
     "stars": 140
   },
   {
-    "action": "Azure/artifact-signing-action",
+    "action": "artis3n/ansible_galaxy_collection",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/Azure/artifact-signing-action/tree/c7ab2a863ab5f9a846ddb8265964877ef296ee82/",
+    "source": "https://github.com/artis3n/ansible_galaxy_collection/tree/ffbca2460a5a1c600b941bbf1536bd61de1c2227/",
     "stars": 139
   },
   {
@@ -2670,7 +2670,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/vercel/ai-action/tree/bd265252c9d1d8295ceda28dadb56ad9321c8ccc/",
-    "stars": 129
+    "stars": 131
   },
   {
     "action": "andstor/file-existence-action",
@@ -2691,21 +2691,21 @@
     "stars": 128
   },
   {
-    "action": "s4u/maven-settings-action",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/s4u/maven-settings-action/tree/4cfd36368400327fd45dcb28f190ae7b85533deb/",
-    "stars": 127
-  },
-  {
     "action": "voidzero-dev/setup-vp",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/voidzero-dev/setup-vp/tree/cab1ab9eaff52d4857875f4f2c016e36af8f2c76/",
+    "stars": 128
+  },
+  {
+    "action": "s4u/maven-settings-action",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/s4u/maven-settings-action/tree/4cfd36368400327fd45dcb28f190ae7b85533deb/",
     "stars": 127
   },
   {
@@ -3011,7 +3011,7 @@
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/reviewdog/action-misspell/tree/3467363dab5b42db2b1372c5fd2b1771fea2ea48/",
+    "source": "https://github.com/reviewdog/action-misspell/tree/840bfbe9f804da9afb0bd739dc4689012f3fdd2d/",
     "stars": 101
   },
   {
@@ -3165,7 +3165,7 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/actions/go-dependency-submission/tree/f35d5c9af13ce9cc32f7930b171e315e878f6921/",
-    "stars": 88
+    "stars": 87
   },
   {
     "action": "peaceiris/actions-label-commenter",
@@ -3618,15 +3618,6 @@
     "stars": 52
   },
   {
-    "action": "raven-actions/actionlint",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/raven-actions/actionlint/tree/3d39aea434753780c3b3d4a1a31c854b4dbf49d7/",
-    "stars": 52
-  },
-  {
     "action": "reviewdog/action-stylelint",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
@@ -3651,6 +3642,15 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/Amadevus/pwsh-script/tree/97a8b211a5922816aa8a69ced41fa32f23477186/",
+    "stars": 51
+  },
+  {
+    "action": "raven-actions/actionlint",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/raven-actions/actionlint/tree/3d39aea434753780c3b3d4a1a31c854b4dbf49d7/",
     "stars": 51
   },
   {
@@ -3866,7 +3866,7 @@
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/oras-project/setup-oras/tree/005458ad77f1c8facd38a094e4af2e69e5607ff4/",
+    "source": "https://github.com/oras-project/setup-oras/tree/5e2f2482b30b0cb3e14e67f89a80c88c659a7c63/",
     "stars": 38
   },
   {
@@ -3903,15 +3903,6 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/cygwin/cygwin-install-action/tree/5a1b0cd107181fa6bb6bf3f90d500f4fb3132f18/",
-    "stars": 36
-  },
-  {
-    "action": "humbletim/install-vulkan-sdk",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/humbletim/install-vulkan-sdk/tree/30ba978f977e81b72d091fc8888feb1fb26f9aff/",
     "stars": 36
   },
   {
@@ -3957,6 +3948,15 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/google-github-actions/run-vertexai-notebook/tree/9322561b61e4c720ac7868db5450409acdfb0131/",
+    "stars": 35
+  },
+  {
+    "action": "humbletim/install-vulkan-sdk",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/humbletim/install-vulkan-sdk/tree/30ba978f977e81b72d091fc8888feb1fb26f9aff/",
     "stars": 35
   },
   {
@@ -4059,22 +4059,13 @@
     "stars": 30
   },
   {
-    "action": "Azure/functions-container-action",
-    "priority": 2,
-    "reason": "Historical editorial guidance has not been reviewed",
-    "detail": "",
-    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
-    "source": "https://github.com/Azure/functions-container-action/tree/34b21fe082f2ef9e4c1e686c2ec56a582dcf7de6/",
-    "stars": 29
-  },
-  {
     "action": "microsoft/microsoft-store-apppublisher",
     "priority": 2,
     "reason": "Historical editorial guidance has not been reviewed",
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/microsoft/microsoft-store-apppublisher/tree/cc9910a8d59f2eb55cbb83df0a3800cf3b5300e0/",
-    "stars": 29
+    "stars": 30
   },
   {
     "action": "microsoft/setup-msstore-cli",
@@ -4083,6 +4074,15 @@
     "detail": "",
     "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
     "source": "https://github.com/microsoft/setup-msstore-cli/tree/cc9910a8d59f2eb55cbb83df0a3800cf3b5300e0/",
+    "stars": 30
+  },
+  {
+    "action": "Azure/functions-container-action",
+    "priority": 2,
+    "reason": "Historical editorial guidance has not been reviewed",
+    "detail": "",
+    "next_step": "Review source-backed facts and human claims. Unsupported claims should be corrected or removed.",
+    "source": "https://github.com/Azure/functions-container-action/tree/34b21fe082f2ef9e4c1e686c2ec56a582dcf7de6/",
     "stars": 29
   },
   {
