@@ -1577,6 +1577,27 @@
     "reviewed_at": null
   },
   {
+    "action": "peter-evans/rebase",
+    "description": "Rebase pull requests in a repository",
+    "category": "Discovered",
+    "tags": [
+      "automation",
+      "rebase",
+      "workflow"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/peter-evans/rebase/tree/d1cdf2d6f94f69c4ef91d5ecdf5988312b7fb250",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "plengauer/Thoth",
     "description": "Export traces, metrics, and logs by injecting deeply into javascript, docker, shell and composite actions.",
     "category": "Discovered",
