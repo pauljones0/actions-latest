@@ -1420,6 +1420,27 @@
     "reviewed_at": null
   },
   {
+    "action": "Minionguyjpro/Inno-Setup-Action",
+    "description": "GitHub action to compile .iss (Inno Setup Script) files.",
+    "category": "Discovered",
+    "tags": [
+      "action",
+      "actions",
+      "inno-setup"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/Minionguyjpro/Inno-Setup-Action/tree/36e43b836ce2c78d21787b1f7183caf85c60ba05",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "MishaKav/pytest-coverage-comment",
     "description": "GitHub Action that adds pytest coverage reports as comments to pull requests with badges, test statistics, and direct file links. Requires pull-requests: write permission.",
     "category": "Discovered",

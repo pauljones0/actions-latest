@@ -1,6 +1,6 @@
 {
   "admitted": [
-    "peter-evans/rebase"
+    "Minionguyjpro/Inno-Setup-Action"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
@@ -123,7 +123,7 @@
       "status": "rejected"
     },
     "Ikalus1988/MisakaNet": {
-      "checked_at": "2026-10-30T11:03:10.253590+00:00",
+      "checked_at": "2026-11-06T12:31:42.530919+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -198,6 +198,12 @@
       "checked_at": "2026-09-22T09:30:22.736679+00:00",
       "scanner_version": "1.30.1",
       "source_sha": "caf58eecd9064d3f7c8b4a436ab16800e3df57e1",
+      "status": "admitted"
+    },
+    "Minionguyjpro/Inno-Setup-Action": {
+      "checked_at": "2026-11-06T12:31:42.530919+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "36e43b836ce2c78d21787b1f7183caf85c60ba05",
       "status": "admitted"
     },
     "MishaKav/pytest-coverage-comment": {
@@ -414,8 +420,8 @@
       "status": "rejected"
     },
     "bahdotsh/wrkflw": {
-      "checked_at": "2026-10-30T11:03:10.253590+00:00",
-      "reason": "No action.yml or action.yaml at bahdotsh/wrkflw@59cf48c6236d1df158fce1228ef90cc4a80760fc",
+      "checked_at": "2026-11-06T12:31:42.530919+00:00",
+      "reason": "No action.yml or action.yaml at bahdotsh/wrkflw@5b933c78830018f127e5b5ec6b940a10a2e38788",
       "status": "rejected"
     },
     "benchmark-action/github-action-benchmark": {
@@ -706,8 +712,8 @@
       "status": "rejected"
     },
     "go-gitea/gitea": {
-      "checked_at": "2026-10-26T10:34:43.509008+00:00",
-      "reason": "No action.yml or action.yaml at go-gitea/gitea@e221551c7ba6c08833845495ac123c3758573aab",
+      "checked_at": "2026-11-06T12:31:42.530919+00:00",
+      "reason": "No action.yml or action.yaml at go-gitea/gitea@7e18e81c7d05390d356c2735350db329c6e5ad32",
       "status": "rejected"
     },
     "godot-gdunit-labs/gdUnit4-action": {
@@ -778,8 +784,8 @@
       "status": "admitted"
     },
     "ipitio/backage": {
-      "checked_at": "2026-10-28T10:51:38.846732+00:00",
-      "reason": "No action.yml or action.yaml at ipitio/backage@2d9226d56c0148265e3c2a81d011393316350e47",
+      "checked_at": "2026-11-06T12:31:42.530919+00:00",
+      "reason": "No action.yml or action.yaml at ipitio/backage@6904ab03482cba53ec0f022fc6ef4d0f1527a902",
       "status": "rejected"
     },
     "irgaly/xcode-cache": {
@@ -930,8 +936,8 @@
       "status": "rejected"
     },
     "melogabriel/tinfoil-shops-status": {
-      "checked_at": "2026-10-25T09:27:21.732403+00:00",
-      "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@fa9f618603105feca645c8cf4020ef36dea9a883",
+      "checked_at": "2026-11-06T12:31:42.530919+00:00",
+      "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@8a71f953846f799ea7dc939c56dd167f6ce9184b",
       "status": "rejected"
     },
     "membrowse/membrowse-action": {
@@ -1009,8 +1015,8 @@
       "status": "rejected"
     },
     "ones20250/Openwrt-AX6600": {
-      "checked_at": "2026-10-28T10:51:38.846732+00:00",
-      "reason": "No action.yml or action.yaml at ones20250/Openwrt-AX6600@b633d845d3d4be4d039072af32dedfbbfd6bda6a",
+      "checked_at": "2026-11-06T12:31:42.530919+00:00",
+      "reason": "No action.yml or action.yaml at ones20250/Openwrt-AX6600@9e5276ef02a02330c9f7f9a1b0cc912db8b55ed6",
       "status": "rejected"
     },
     "openqodex/openqodex": {
@@ -1037,7 +1043,7 @@
       "status": "rejected"
     },
     "pipelab-org/pipelock": {
-      "checked_at": "2026-10-30T11:03:10.253590+00:00",
+      "checked_at": "2026-11-06T12:31:42.530919+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1123,8 +1129,8 @@
       "status": "rejected"
     },
     "ram0verflow/ram0verflow": {
-      "checked_at": "2026-10-27T10:04:47.137048+00:00",
-      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@58e543eb0c7ebe0960668db2bc67c470422ac120",
+      "checked_at": "2026-11-06T12:31:42.530919+00:00",
+      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@c9e43ff815fa40abbc8918fd1191bee93053c976",
       "status": "rejected"
     },
     "redhat-plumbers-in-action/differential-shellcheck": {
@@ -1401,7 +1407,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-05T12:47:16.397358+00:00",
+  "checked_at": "2026-11-06T12:31:42.530919+00:00",
   "errors": [],
-  "inspected": 5
+  "inspected": 9
 }
