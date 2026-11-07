@@ -1,6 +1,6 @@
 {
   "admitted": [
-    "Minionguyjpro/Inno-Setup-Action"
+    "aalsanie/shamash"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
@@ -190,8 +190,8 @@
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
-      "checked_at": "2026-10-31T10:37:49.470676+00:00",
-      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@2ebeb92369a30edfe4b689b10a339e3497d6e4fd",
+      "checked_at": "2026-11-07T11:21:51.548787+00:00",
+      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@309f159f1fd9594489376abbc7cc4a099cbbece0",
       "status": "rejected"
     },
     "Mic92/hestia": {
@@ -199,6 +199,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "caf58eecd9064d3f7c8b4a436ab16800e3df57e1",
       "status": "admitted"
+    },
+    "MichaelCurrin/code-cookbook": {
+      "checked_at": "2026-11-07T11:21:51.548787+00:00",
+      "reason": "No action.yml or action.yaml at MichaelCurrin/code-cookbook@0e1c35e2ad51f9b0687be3762a8870ecb7e0939f",
+      "status": "rejected"
     },
     "Minionguyjpro/Inno-Setup-Action": {
       "checked_at": "2026-11-06T12:31:42.530919+00:00",
@@ -213,13 +218,18 @@
       "status": "admitted"
     },
     "MohammadBahemmat/V2ray-Collector": {
-      "checked_at": "2026-10-31T10:37:49.470676+00:00",
-      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@995f1b15cbd13e9f72dba81e1ea536914886f195",
+      "checked_at": "2026-11-07T11:21:51.548787+00:00",
+      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@1b1142fdea7d4bef3433e2a3b89511ecb870967e",
       "status": "rejected"
     },
     "MustacheCase/zanadir": {
-      "checked_at": "2026-10-30T11:03:10.253590+00:00",
-      "reason": "No action.yml or action.yaml at MustacheCase/zanadir@3c9814e29b5800043de0d77fa2a81338e4538b07",
+      "checked_at": "2026-11-07T11:21:51.548787+00:00",
+      "reason": "No action.yml or action.yaml at MustacheCase/zanadir@672caa86a0556ca757c3df4110178973a7b7716e",
+      "status": "rejected"
+    },
+    "Oval-Tutu/bootstrap-love2d-project": {
+      "checked_at": "2026-11-07T11:21:51.548787+00:00",
+      "reason": "No action.yml or action.yaml at Oval-Tutu/bootstrap-love2d-project@bebf4865cd5e1e94354e4d1441a09fb97abcd112",
       "status": "rejected"
     },
     "Pradumnasaraf/DevOps": {
@@ -256,6 +266,11 @@
     "RookieEnough/Morphe-AutoBuilds": {
       "checked_at": "2026-10-06T11:33:12.470763+00:00",
       "reason": "No action.yml or action.yaml at RookieEnough/Morphe-AutoBuilds@96b9adeca645ad56b0187438f19268a3c6a872b1",
+      "status": "rejected"
+    },
+    "Sarthzk/internship-tracker": {
+      "checked_at": "2026-11-07T11:21:51.548787+00:00",
+      "reason": "No action.yml or action.yaml at Sarthzk/internship-tracker@2531c4672b0782a0ae923a322b79052772117a02",
       "status": "rejected"
     },
     "SecOpsNews/news": {
@@ -323,9 +338,10 @@
       "status": "admitted"
     },
     "aalsanie/shamash": {
-      "checked_at": "2026-10-30T11:03:10.253590+00:00",
-      "reason": "Default-branch action manifest has blocking findings",
-      "status": "rejected"
+      "checked_at": "2026-11-07T11:21:51.548787+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "3bb1d27041b05c9ab40dc122b15f913a3636ff70",
+      "status": "admitted"
     },
     "actions-hub/kubectl": {
       "checked_at": "2026-09-24T09:35:05.975472+00:00",
@@ -433,6 +449,11 @@
     "bitscoper/bitscoper_cyberkit": {
       "checked_at": "2026-11-04T12:36:43.337874+00:00",
       "reason": "No action.yml or action.yaml at bitscoper/bitscoper_cyberkit@249dcead287d4dd1c915c56ec13ebba238726791",
+      "status": "rejected"
+    },
+    "brunnojob/patchscope": {
+      "checked_at": "2026-11-07T11:21:51.548787+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "calibreapp/image-actions": {
@@ -732,8 +753,8 @@
       "status": "rejected"
     },
     "grifosaint/exurd-roblox-leaderboard-archive": {
-      "checked_at": "2026-10-31T10:37:49.470676+00:00",
-      "reason": "No action.yml or action.yaml at grifosaint/exurd-roblox-leaderboard-archive@c7856353c2f80048d9a494691b86e61ad34da26f",
+      "checked_at": "2026-11-07T11:21:51.548787+00:00",
+      "reason": "No action.yml or action.yaml at grifosaint/exurd-roblox-leaderboard-archive@a29205fdcc692bdef2298358c91feb68f09810ea",
       "status": "rejected"
     },
     "guessi/kubectl-grep": {
@@ -946,7 +967,7 @@
       "status": "rejected"
     },
     "microsoft/ps-rule": {
-      "checked_at": "2026-10-14T09:46:51.196855+00:00",
+      "checked_at": "2026-11-07T11:21:51.548787+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1124,7 +1145,7 @@
       "status": "rejected"
     },
     "rakeshnitb23/toolism": {
-      "checked_at": "2026-10-31T10:37:49.470676+00:00",
+      "checked_at": "2026-11-07T11:21:51.548787+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1407,7 +1428,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-06T12:31:42.530919+00:00",
+  "checked_at": "2026-11-07T11:21:51.548787+00:00",
   "errors": [],
-  "inspected": 9
+  "inspected": 11
 }

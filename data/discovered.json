@@ -1,5 +1,32 @@
 [
   {
+    "action": "aalsanie/shamash",
+    "description": "Scan compiled JVM code for architecture violations with Shamash.",
+    "category": "Discovered",
+    "tags": [
+      "architecture-testing",
+      "code-quality",
+      "dependency-analysis",
+      "intellij-plugin",
+      "java",
+      "jvm",
+      "kotlin",
+      "software-architecture",
+      "static-analysis"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/aalsanie/shamash/tree/3bb1d27041b05c9ab40dc122b15f913a3636ff70",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "actions-hub/kubectl",
     "description": "GitHub Action for interacting with kubectl (k8s)",
     "category": "Discovered",
