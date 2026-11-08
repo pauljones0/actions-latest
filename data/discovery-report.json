@@ -1,7 +1,5 @@
 {
-  "admitted": [
-    "aalsanie/shamash"
-  ],
+  "admitted": [],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-11-04T12:36:43.337874+00:00",
@@ -42,8 +40,8 @@
       "status": "admitted"
     },
     "Bush2021/chrome_installer": {
-      "checked_at": "2026-10-27T10:04:47.137048+00:00",
-      "reason": "No action.yml or action.yaml at Bush2021/chrome_installer@3384a58f9a3c910848914e7182c32615590ef341",
+      "checked_at": "2026-11-08T11:33:53.115600+00:00",
+      "reason": "No action.yml or action.yaml at Bush2021/chrome_installer@d6c4b2fe81a4af293f7194b63de2789e5ddaf077",
       "status": "rejected"
     },
     "CDFER/jlcpcb-parts-database": {
@@ -371,8 +369,8 @@
       "status": "admitted"
     },
     "alirezaeiii/TMDb-Compose-Playground": {
-      "checked_at": "2026-10-26T10:34:43.509008+00:00",
-      "reason": "No action.yml or action.yaml at alirezaeiii/TMDb-Compose-Playground@e8e90bf593658ac3f7f454ad01c926e21258e92e",
+      "checked_at": "2026-11-08T11:33:53.115600+00:00",
+      "reason": "No action.yml or action.yaml at alirezaeiii/TMDb-Compose-Playground@73d069aac3ad19f855fd0a99d0ae182b6eed4de1",
       "status": "rejected"
     },
     "aminya/setup-cpp": {
@@ -1020,8 +1018,8 @@
       "status": "rejected"
     },
     "oasdiff/oasdiff": {
-      "checked_at": "2026-10-22T09:41:32.306837+00:00",
-      "reason": "No action.yml or action.yaml at oasdiff/oasdiff@6e25854f07532a5d2bef71c34513e3af8a38d511",
+      "checked_at": "2026-11-08T11:33:53.115600+00:00",
+      "reason": "No action.yml or action.yaml at oasdiff/oasdiff@316821e7173ea0db5028c044a2dc36d419f068e3",
       "status": "rejected"
     },
     "ocaml/setup-ocaml": {
@@ -1051,6 +1049,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "42902ffb5244d6d63501c1daf4f4ec82884025f6",
       "status": "admitted"
+    },
+    "pedrocatalao/github-cool-readme": {
+      "checked_at": "2026-11-08T11:33:53.115600+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
     },
     "peter-evans/rebase": {
       "checked_at": "2026-11-05T12:47:16.397358+00:00",
@@ -1428,7 +1431,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-07T11:21:51.548787+00:00",
+  "checked_at": "2026-11-08T11:33:53.115600+00:00",
   "errors": [],
-  "inspected": 11
+  "inspected": 4
 }
