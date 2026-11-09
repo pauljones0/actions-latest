@@ -1,5 +1,7 @@
 {
-  "admitted": [],
+  "admitted": [
+    "mi-kas/kover-report"
+  ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-11-04T12:36:43.337874+00:00",
@@ -183,8 +185,8 @@
       "status": "rejected"
     },
     "LindseyB/dummy": {
-      "checked_at": "2026-11-02T12:53:59.834194+00:00",
-      "reason": "No action.yml or action.yaml at LindseyB/dummy@6f5b6600805a7da068b191ca68d76f122baf7533",
+      "checked_at": "2026-11-09T13:25:28.909187+00:00",
+      "reason": "No action.yml or action.yaml at LindseyB/dummy@a5b69e3ed714d88157f8872e846cafa3c8312394",
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
@@ -236,8 +238,8 @@
       "status": "rejected"
     },
     "ProxyScrape/free-proxy-list": {
-      "checked_at": "2026-11-02T12:53:59.834194+00:00",
-      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@739f7393010488b9cfdd2e1d5c37f80b5896f0c5",
+      "checked_at": "2026-11-09T13:25:28.909187+00:00",
+      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@3eeee35a72bd298cb88a6400c2afb52d16165b53",
       "status": "rejected"
     },
     "RamiKrispin/ai-dev-2024-ml-workshop": {
@@ -293,8 +295,8 @@
       "status": "rejected"
     },
     "Thordata/awesome-free-proxy-list": {
-      "checked_at": "2026-11-02T12:53:59.834194+00:00",
-      "reason": "No action.yml or action.yaml at Thordata/awesome-free-proxy-list@9891f20b77362b5de7b9247fdb2d9f92c7ed2486",
+      "checked_at": "2026-11-09T13:25:28.909187+00:00",
+      "reason": "No action.yml or action.yaml at Thordata/awesome-free-proxy-list@6c3e56fea49124c9da77fb6613e7e8e6d4701d8f",
       "status": "rejected"
     },
     "ThreeMoonsLab/agents-shipgate": {
@@ -726,8 +728,8 @@
       "status": "admitted"
     },
     "github/gh-aw": {
-      "checked_at": "2026-11-01T11:31:18.587464+00:00",
-      "reason": "No action.yml or action.yaml at github/gh-aw@e6398d97e5bceaa0e4ecc4111c7a27949050bdee",
+      "checked_at": "2026-11-09T13:25:28.909187+00:00",
+      "reason": "No action.yml or action.yaml at github/gh-aw@f9b6db0745d7e3246ad9422d325df0c951b330a2",
       "status": "rejected"
     },
     "go-gitea/gitea": {
@@ -761,7 +763,7 @@
       "status": "rejected"
     },
     "headlesshq/mc-runtime-test": {
-      "checked_at": "2026-10-11T11:02:50.093402+00:00",
+      "checked_at": "2026-11-09T13:25:28.909187+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -782,8 +784,8 @@
       "status": "admitted"
     },
     "hostinger/fireactions": {
-      "checked_at": "2026-10-27T10:04:47.137048+00:00",
-      "reason": "No action.yml or action.yaml at hostinger/fireactions@73fad9c2218c2c1733b3b6d61ef6858dd57b1e4c",
+      "checked_at": "2026-11-09T13:25:28.909187+00:00",
+      "reason": "No action.yml or action.yaml at hostinger/fireactions@c6d21e7ef9f95a1fa2e4bae17827da729fd6776a",
       "status": "rejected"
     },
     "icelib/repoctl": {
@@ -889,7 +891,7 @@
       "status": "rejected"
     },
     "kucherenko/jscpd": {
-      "checked_at": "2026-11-02T12:53:59.834194+00:00",
+      "checked_at": "2026-11-09T13:25:28.909187+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -964,6 +966,12 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "mi-kas/kover-report": {
+      "checked_at": "2026-11-09T13:25:28.909187+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "64cdb5b4dd1a890ab40a889fc4d83c8cd863c75a",
+      "status": "admitted"
+    },
     "microsoft/ps-rule": {
       "checked_at": "2026-11-07T11:21:51.548787+00:00",
       "reason": "Default-branch action manifest has blocking findings",
@@ -1013,8 +1021,8 @@
       "status": "rejected"
     },
     "nowscott/EverydayTechNews": {
-      "checked_at": "2026-11-02T12:53:59.834194+00:00",
-      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@d37e21fdb777e0e2a8d813d047a598744bc3047b",
+      "checked_at": "2026-11-09T13:25:28.909187+00:00",
+      "reason": "No action.yml or action.yaml at nowscott/EverydayTechNews@ecb8dc4a9ce86cf49ad2e816c50d5f1f30a81b87",
       "status": "rejected"
     },
     "oasdiff/oasdiff": {
@@ -1062,7 +1070,7 @@
       "status": "admitted"
     },
     "philips-labs/slsa-provenance-action": {
-      "checked_at": "2026-10-13T12:13:52.792695+00:00",
+      "checked_at": "2026-11-09T13:25:28.909187+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1317,8 +1325,8 @@
       "status": "rejected"
     },
     "ubicloud/ubicloud": {
-      "checked_at": "2026-11-02T12:53:59.834194+00:00",
-      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@b9c8b5a39ba10750e148bc70ba4c1f306572934f",
+      "checked_at": "2026-11-09T13:25:28.909187+00:00",
+      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@230181e83156fec45a5627aea763ae5dcbc3f04b",
       "status": "rejected"
     },
     "ultralytics/actions": {
@@ -1411,8 +1419,8 @@
       "status": "admitted"
     },
     "zhongfly/mpv-winbuild": {
-      "checked_at": "2026-11-02T12:53:59.834194+00:00",
-      "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@37b83557ec1cb08a241defc77f60cb151f7b314c",
+      "checked_at": "2026-11-09T13:25:28.909187+00:00",
+      "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@75ff3a0bb83ae864c279bceac5168693443bf493",
       "status": "rejected"
     },
     "zhuyansen/new-term-radar": {
@@ -1431,7 +1439,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-08T11:33:53.115600+00:00",
+  "checked_at": "2026-11-09T13:25:28.909187+00:00",
   "errors": [],
-  "inspected": 4
+  "inspected": 12
 }

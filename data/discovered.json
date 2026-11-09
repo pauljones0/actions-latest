@@ -1395,6 +1395,32 @@
     "reviewed_at": null
   },
   {
+    "action": "mi-kas/kover-report",
+    "description": "Github action that publishes the Kover code coverage report as a comment in pull requests",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "code-coverage",
+      "code-quality",
+      "coverage",
+      "github",
+      "kotlin",
+      "kotlinx",
+      "kover"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/mi-kas/kover-report/tree/64cdb5b4dd1a890ab40a889fc4d83c8cd863c75a",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "Mic92/hestia",
     "description": "Nix binary cache backed by the GitHub Actions cache (v2 API). Wires a substituter and post-build-hook into nix.conf.\n",
     "category": "Discovered",
