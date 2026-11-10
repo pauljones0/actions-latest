@@ -1,165 +1,218 @@
 # Latest catalog changes
 
-16 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+22 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+
+## a104437ana/sakura-garden
+
+[Previous source](https://github.com/a104437ana/sakura-garden/tree/649673267a80e81ee1a7b6bb128195ff9fc43eb8/) · [Current source](https://github.com/a104437ana/sakura-garden/tree/58155c8cdd7968a89a28402a45b8dc9ffdee43da/) · [Upstream code diff](https://github.com/a104437ana/sakura-garden/compare/649673267a80e81ee1a7b6bb128195ff9fc43eb8...58155c8cdd7968a89a28402a45b8dc9ffdee43da)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 649673267a80e81ee1a7b6bb128195ff9fc43eb8 | 58155c8cdd7968a89a28402a45b8dc9ffdee43da |
+| Selected tag | v1.4.0 | v1.4.1 |
+
+## actions-rust-lang/setup-rust-toolchain
+
+[Previous source](https://github.com/actions-rust-lang/setup-rust-toolchain/tree/ecabd13d1c56bd1345c230e542e9144811ad706f/) · [Current source](https://github.com/actions-rust-lang/setup-rust-toolchain/tree/a188e68d0fd2bd36ad51dccb2b07ba6e75105f30/) · [Upstream code diff](https://github.com/actions-rust-lang/setup-rust-toolchain/compare/ecabd13d1c56bd1345c230e542e9144811ad706f...a188e68d0fd2bd36ad51dccb2b07ba6e75105f30)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | ecabd13d1c56bd1345c230e542e9144811ad706f | a188e68d0fd2bd36ad51dccb2b07ba6e75105f30 |
+| Selected tag | v2.0.0 | v2.0.1 |
+
+## actions/setup-dotnet
+
+[Previous source](https://github.com/actions/setup-dotnet/tree/a98b56852c35b8e3190ac28c8c2271da59106c68/) · [Current source](https://github.com/actions/setup-dotnet/tree/0f4a354dd5547a28c70b7853dbd95d5b67886e73/) · [Upstream code diff](https://github.com/actions/setup-dotnet/compare/a98b56852c35b8e3190ac28c8c2271da59106c68...0f4a354dd5547a28c70b7853dbd95d5b67886e73)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: check-latest | null | {&quot;description&quot;: &quot;Optional, defaults to true. When false, a locally installed SDK that satisfies the requested version is reused without any network calls, otherwise the latest matching version is installed online. Cross-architecture requests always install online. Falls back to the DOTNET\_CHECK\_LATEST environment variable when this input is not set.&quot;, &quot;required&quot;: false} |
+| Input: skip-lts-prepass | null | {&quot;default&quot;: false, &quot;description&quot;: &quot;Optional. When true, skips the LTS runtime pre-pass and installs only the requested dotnet-version. Default: false.&quot;, &quot;required&quot;: false} |
+| Selected SHA | a98b56852c35b8e3190ac28c8c2271da59106c68 | 0f4a354dd5547a28c70b7853dbd95d5b67886e73 |
+| Selected tag | v6.0.0 | v6.1.0 |
+
+## anthropics/claude-code-action
+
+[Previous source](https://github.com/anthropics/claude-code-action/tree/d535f5172dec02b204866b393d6b20b9b2aaf98d/) · [Current source](https://github.com/anthropics/claude-code-action/tree/4845bacbb38b3c4b15d948f035349786f678e068/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/d535f5172dec02b204866b393d6b20b9b2aaf98d...4845bacbb38b3c4b15d948f035349786f678e068)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | d535f5172dec02b204866b393d6b20b9b2aaf98d | 4845bacbb38b3c4b15d948f035349786f678e068 |
+| Selected tag | v1.0.266 | v1.0.267 |
 
 ## asklokesh/loki-mode
 
-[Previous source](https://github.com/asklokesh/loki-mode/tree/1f467b855cd733c74352dfbc6b5b49d61d8403de/) · [Current source](https://github.com/asklokesh/loki-mode/tree/d1adc0adac8fdc82b80ea89545be2af75edf84b9/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/1f467b855cd733c74352dfbc6b5b49d61d8403de...d1adc0adac8fdc82b80ea89545be2af75edf84b9)
+[Previous source](https://github.com/asklokesh/loki-mode/tree/d1adc0adac8fdc82b80ea89545be2af75edf84b9/) · [Current source](https://github.com/asklokesh/loki-mode/tree/5ba09bd246bf4401ef6afc8c053f78c41b4daa73/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/d1adc0adac8fdc82b80ea89545be2af75edf84b9...5ba09bd246bf4401ef6afc8c053f78c41b4daa73)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 1f467b855cd733c74352dfbc6b5b49d61d8403de | d1adc0adac8fdc82b80ea89545be2af75edf84b9 |
-| Selected tag | v11.103.0 | v11.120.0 |
-
-## aws-actions/aws-devicefarm-mobile-device-testing
-
-[Previous source](https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/tree/bb964f15f6f623d527a964c1c0bffc36437b8f7a/) · [Current source](https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/tree/76912d577210947890c4a0485dd808651a1ff8e5/) · [Upstream code diff](https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/compare/bb964f15f6f623d527a964c1c0bffc36437b8f7a...76912d577210947890c4a0485dd808651a1ff8e5)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | bb964f15f6f623d527a964c1c0bffc36437b8f7a | 76912d577210947890c4a0485dd808651a1ff8e5 |
-| Selected tag | v3.2 | v3.3 |
+| Description | Multi-agent autonomous code review using loki-mode. Supports Claude, Codex, Cline, and Aider providers. | Multi-agent autonomous code review using loki-mode. Supports Claude Code and opencode providers. |
+| Input: provider | {&quot;default&quot;: &quot;claude&quot;, &quot;description&quot;: &quot;AI provider: claude, codex, cline, or aider&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;claude&quot;, &quot;description&quot;: &quot;AI provider: claude or opencode&quot;, &quot;required&quot;: false} |
+| Selected SHA | d1adc0adac8fdc82b80ea89545be2af75edf84b9 | 5ba09bd246bf4401ef6afc8c053f78c41b4daa73 |
+| Selected tag | v11.120.0 | v11.125.0 |
 
 ## bridgecrewio/checkov-action
 
-[Previous source](https://github.com/bridgecrewio/checkov-action/tree/c10e2438743528f9e4549758fad8b7a62052541d/) · [Current source](https://github.com/bridgecrewio/checkov-action/tree/409f5224b2f01b138cdf053b1e14dc7e538bbec9/) · [Upstream code diff](https://github.com/bridgecrewio/checkov-action/compare/c10e2438743528f9e4549758fad8b7a62052541d...409f5224b2f01b138cdf053b1e14dc7e538bbec9)
+[Previous source](https://github.com/bridgecrewio/checkov-action/tree/409f5224b2f01b138cdf053b1e14dc7e538bbec9/) · [Current source](https://github.com/bridgecrewio/checkov-action/tree/45edc9d8856b664db2ec251f5f8632361f0a67aa/) · [Upstream code diff](https://github.com/bridgecrewio/checkov-action/compare/409f5224b2f01b138cdf053b1e14dc7e538bbec9...45edc9d8856b664db2ec251f5f8632361f0a67aa)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | c10e2438743528f9e4549758fad8b7a62052541d | 409f5224b2f01b138cdf053b1e14dc7e538bbec9 |
-| Selected tag | v12.3136.0 | v12.3137.0 |
+| Selected SHA | 409f5224b2f01b138cdf053b1e14dc7e538bbec9 | 45edc9d8856b664db2ec251f5f8632361f0a67aa |
+| Selected tag | v12.3137.0 | v12.3139.0 |
 
-## crowdin/github-action
+## chromaui/action
 
-[Previous source](https://github.com/crowdin/github-action/tree/959dc74ac104447731cba99a016f85d0ae719788/) · [Current source](https://github.com/crowdin/github-action/tree/5b9790df740c85af5412a3a3a91b24988d5d324f/) · [Upstream code diff](https://github.com/crowdin/github-action/compare/959dc74ac104447731cba99a016f85d0ae719788...5b9790df740c85af5412a3a3a91b24988d5d324f)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 959dc74ac104447731cba99a016f85d0ae719788 | 5b9790df740c85af5412a3a3a91b24988d5d324f |
-| Selected tag | v3.5.0 | v3.5.1 |
-
-## jfrog/frogbot
-
-[Previous source](https://github.com/jfrog/frogbot/tree/cad4840a9169a65d2add8d3326ebe3cee8e1723e/) · [Current source](https://github.com/jfrog/frogbot/tree/4e80fdf501fa8fb34249d32fe981e6e37acdb5b3/) · [Upstream code diff](https://github.com/jfrog/frogbot/compare/cad4840a9169a65d2add8d3326ebe3cee8e1723e...4e80fdf501fa8fb34249d32fe981e6e37acdb5b3)
+[Previous source](https://github.com/chromaui/action/tree/f305ef908327aee3b80b0e6b3bbb60a742eaa049/) · [Current source](https://github.com/chromaui/action/tree/80379940a37537422d4419aa4c9578673b8bcd34/) · [Upstream code diff](https://github.com/chromaui/action/compare/f305ef908327aee3b80b0e6b3bbb60a742eaa049...80379940a37537422d4419aa4c9578673b8bcd34)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | cad4840a9169a65d2add8d3326ebe3cee8e1723e | 4e80fdf501fa8fb34249d32fe981e6e37acdb5b3 |
-| Selected tag | v3.8.1 | v3.8.2 |
+| Selected SHA | f305ef908327aee3b80b0e6b3bbb60a742eaa049 | 80379940a37537422d4419aa4c9578673b8bcd34 |
+| Selected tag | v18.13.6 | v18.13.9 |
 
-## Added: mi-kas/kover-report
+## coursier/setup-action
 
-[Source](https://github.com/mi-kas/kover-report) — Github action that publishes the Kover code coverage report as a comment in pull requests
+[Previous source](https://github.com/coursier/setup-action/tree/648df969f41ef15fda2baba8b37f9fa3d16390a3/) · [Current source](https://github.com/coursier/setup-action/tree/d5a17f9aaeb260f9ba336a5b582fb49f79c64ac4/) · [Upstream code diff](https://github.com/coursier/setup-action/compare/648df969f41ef15fda2baba8b37f9fa3d16390a3...d5a17f9aaeb260f9ba336a5b582fb49f79c64ac4)
 
-New entries still require observed stability and fresh scan evidence before usage.
+| Changed | Before | After |
+| --- | --- | --- |
+| Description | Use Coursier to install JVM and Scala apps | Install Coursier, a JVM, and JVM / Scala command-line tools such as sbt, Scala CLI or scalafmt |
+| Input: apps | {&quot;default&quot;: &quot;sbtn&quot;, &quot;description&quot;: &quot;Applications to install&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;sbtn&quot;, &quot;description&quot;: &quot;Whitespace- or newline-separated list of apps to install from the Coursier main and contrib channels (set to an empty string to install none)&quot;, &quot;required&quot;: false} |
+| Input: customRepositories | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;The pipe (\|) seperated locations of non-standard repositories. See https://get-coursier.io/docs/other-repositories&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Pipe-separated (\|) list of extra repositories passed to every cs command. See https://get-coursier.io/docs/other-repositories&quot;, &quot;required&quot;: false} |
+| Input: disableDefaultRepos | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether to pass the --no-default flag to coursier&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Set to true to pass --no-default to every cs command, so that only customRepositories are used&quot;, &quot;required&quot;: false} |
+| Input: jvm | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;JVM to install (leave empty to use default)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;JVM to install, such as \\&quot;21\\&quot; or \\&quot;temurin:21\\&quot; (see cs java --available). When empty, an existing JAVA\_HOME is kept, or Coursier&#x27;s default JVM is installed.&quot;, &quot;required&quot;: false} |
+| Input: jvm-index | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Arbitrary URL containing the JVM index source (leave empty to use default)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;URL of a custom JVM index (leave empty to use the Coursier JVM index)&quot;, &quot;required&quot;: false} |
+| Input: mirrors | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Newline-separated list of \\&quot;from=to\\&quot; mirror entries written to ~/.config/coursier/mirror.properties before any cs invocation. The \\&quot;from\\&quot; side may be a comma-separated list of source URLs. Unlike customRepositories / disableDefaultRepos, mirrors are applied at the resolver level to every repository coursier sees — including ones declared inside app descriptors that customRepositories cannot override. See https://get-coursier.io/docs/other-mirrors&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Newline-separated list of \\&quot;from=to\\&quot; mirror entries written to a mirror file owned by the action (under $RUNNER\_TEMP) before any cs invocation. Its path is exported as COURSIER\_EXTRA\_MIRRORS, so that coursier-based tools (sbt, mill, scala-cli…) in later steps use these mirrors too. The user&#x27;s own coursier mirror config is left untouched, and if COURSIER\_EXTRA\_MIRRORS is already set, the mirrors of that file are kept. The \\&quot;from\\&quot; side may be a comma-separated list of source URLs. Unlike customRepositories / disableDefaultRepos, mirrors are applied at the resolver level to every repository coursier sees — including ones declared inside app descriptors that customRepositories cannot override. See https://get-coursier.io/docs/other-mirrors&quot;, &quot;required&quot;: false} |
+| Input: requireChecksum | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Whether to require the downloaded Coursier launcher to be checked against a checksum pinned in the action. Only the default Coursier version has pinned checksums, so when enabled, version must be left empty (or set to the default version).&quot;, &quot;required&quot;: false} |
+| Outputs | \[&quot;cs-version&quot;\] | \[&quot;cs-bin-dir&quot;, &quot;cs-version&quot;, &quot;java-home&quot;\] |
+| Selected SHA | 648df969f41ef15fda2baba8b37f9fa3d16390a3 | d5a17f9aaeb260f9ba336a5b582fb49f79c64ac4 |
+| Selected tag | v3.0.4 | v3.1.0 |
+
+## davelosert/vitest-coverage-report-action
+
+[Previous source](https://github.com/davelosert/vitest-coverage-report-action/tree/8f86cfb56ed6d5613ea8cdc5259f207fbfd51ece/) · [Current source](https://github.com/davelosert/vitest-coverage-report-action/tree/74c2d9210b4fc44c84d8213f61d7ec99837b7aa0/) · [Upstream code diff](https://github.com/davelosert/vitest-coverage-report-action/compare/8f86cfb56ed6d5613ea8cdc5259f207fbfd51ece...74c2d9210b4fc44c84d8213f61d7ec99837b7aa0)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 8f86cfb56ed6d5613ea8cdc5259f207fbfd51ece | 74c2d9210b4fc44c84d8213f61d7ec99837b7aa0 |
+| Selected tag | v2.13.1 | v2.13.2 |
+
+## duriantaco/skylos
+
+[Previous source](https://github.com/duriantaco/skylos/tree/82d97b9f6418f596cece2cc74537064693421138/) · [Current source](https://github.com/duriantaco/skylos/tree/32bee306c4c72a577f7d6a231bbbde7ee5b75017/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/82d97b9f6418f596cece2cc74537064693421138...32bee306c4c72a577f7d6a231bbbde7ee5b75017)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 82d97b9f6418f596cece2cc74537064693421138 | 32bee306c4c72a577f7d6a231bbbde7ee5b75017 |
+| Selected tag | v5.3.0 | v5.4.0 |
+
+## github/codeql-action
+
+[Previous source](https://github.com/github/codeql-action/tree/9b3254085494b55a0f7c4c2b3d2d52cc712ce370/) · [Current source](https://github.com/github/codeql-action/tree/1fc58d04a4d4374f921bdac573c3811c240f9c26/) · [Upstream code diff](https://github.com/github/codeql-action/compare/9b3254085494b55a0f7c4c2b3d2d52cc712ce370...1fc58d04a4d4374f921bdac573c3811c240f9c26)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 9b3254085494b55a0f7c4c2b3d2d52cc712ce370 | 1fc58d04a4d4374f921bdac573c3811c240f9c26 |
+| Selected tag | v4.39.1 | v4.39.2 |
+
+## jdx/mise-action
+
+[Previous source](https://github.com/jdx/mise-action/tree/6612f0ef07ed2a736cd1e00a94a065522dd41195/) · [Current source](https://github.com/jdx/mise-action/tree/f5be966e4a917d54244728e6a5fdcd1d93a35e6c/) · [Upstream code diff](https://github.com/jdx/mise-action/compare/6612f0ef07ed2a736cd1e00a94a065522dd41195...f5be966e4a917d54244728e6a5fdcd1d93a35e6c)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 6612f0ef07ed2a736cd1e00a94a065522dd41195 | f5be966e4a917d54244728e6a5fdcd1d93a35e6c |
+| Selected tag | v5.2.5 | v5.2.6 |
+
+## jfrog/setup-jfrog-cli
+
+[Previous source](https://github.com/jfrog/setup-jfrog-cli/tree/6ed45ef1a24199bd4c94d3fd55a7e8cb7e45985d/) · [Current source](https://github.com/jfrog/setup-jfrog-cli/tree/ae385c7164244e984cd20a58674e5b57f53596d7/) · [Upstream code diff](https://github.com/jfrog/setup-jfrog-cli/compare/6ed45ef1a24199bd4c94d3fd55a7e8cb7e45985d...ae385c7164244e984cd20a58674e5b57f53596d7)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: version | {&quot;default&quot;: &quot;2.129.0&quot;, &quot;description&quot;: &quot;JFrog CLI Version. A concrete X.Y.Z is recommended when download-repository points to a remote repository that stores artifacts locally, since latest is requested as the v2/\[RELEASE\] path and can be served from cache.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;2.131.0&quot;, &quot;description&quot;: &quot;JFrog CLI Version. A concrete X.Y.Z is recommended when download-repository points to a remote repository that stores artifacts locally, since latest is requested as the v2/\[RELEASE\] path and can be served from cache.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 6ed45ef1a24199bd4c94d3fd55a7e8cb7e45985d | ae385c7164244e984cd20a58674e5b57f53596d7 |
+| Selected tag | v5.3.2 | v5.3.4 |
 
 ## node9-ai/node9-proxy
 
-[Previous source](https://github.com/node9-ai/node9-proxy/tree/c9c501a761c75ba4173b0f8d49804dbf40865d09/) · [Current source](https://github.com/node9-ai/node9-proxy/tree/93bc28544c452978dfae2e2088ffa0cb9ad66383/) · [Upstream code diff](https://github.com/node9-ai/node9-proxy/compare/c9c501a761c75ba4173b0f8d49804dbf40865d09...93bc28544c452978dfae2e2088ffa0cb9ad66383)
+[Previous source](https://github.com/node9-ai/node9-proxy/tree/93bc28544c452978dfae2e2088ffa0cb9ad66383/) · [Current source](https://github.com/node9-ai/node9-proxy/tree/78a00b751ecc0c1438bb179c168b46c69f4a7377/) · [Upstream code diff](https://github.com/node9-ai/node9-proxy/compare/93bc28544c452978dfae2e2088ffa0cb9ad66383...78a00b751ecc0c1438bb179c168b46c69f4a7377)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | c9c501a761c75ba4173b0f8d49804dbf40865d09 | 93bc28544c452978dfae2e2088ffa0cb9ad66383 |
-| Selected tag | v2.45.0 | v2.47.2 |
+| Selected SHA | 93bc28544c452978dfae2e2088ffa0cb9ad66383 | 78a00b751ecc0c1438bb179c168b46c69f4a7377 |
+| Selected tag | v2.47.2 | v2.49.0 |
 
-## ocaml/setup-ocaml
+## PaulHatch/semantic-version
 
-[Previous source](https://github.com/ocaml/setup-ocaml) · [Current source](https://github.com/ocaml/setup-ocaml/tree/ff66428f72b64472e749b22e0ad4dded4b2ddca6/)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: allow-prerelease-opam | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Allow the use of a pre-release version of opam. Set to \\&quot;true\\&quot; to opt in to pre-release builds when available. Has no effect when no pre-release version is available.&quot;, &quot;required&quot;: false} |
-| Input: cache | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Cache the opam root and local switch using GitHub Actions cache. Set to \\&quot;false\\&quot; to disable all GitHub Actions cache operations, including the deprecated Dune cache. This does not affect the hosted tool cache.&quot;, &quot;required&quot;: false} |
-| Input: cache-prefix | null | {&quot;default&quot;: &quot;v3&quot;, &quot;description&quot;: &quot;The prefix used for all cache keys. Change this value to force a cache invalidation when the cache becomes corrupted or stale.&quot;, &quot;required&quot;: false} |
-| Input: dune-cache | null | {&quot;default&quot;: &quot;false&quot;, &quot;deprecationMessage&quot;: &quot;This input will be removed in v4. The \\&quot;cache\\&quot; input takes precedence: \\&quot;cache: false\\&quot; disables Dune caching. Manage Dune caching separately after removal.&quot;, &quot;description&quot;: &quot;Deprecated. Enable Dune build caching via GitHub Actions cache. This has no effect when \\&quot;cache\\&quot; is \\&quot;false\\&quot; and will be removed in the next major release.&quot;, &quot;required&quot;: false} |
-| Input: github-token | null | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;GitHub token used internally to query opam-repository for available compiler versions. The default token is sufficient for most use cases. DO NOT SET THIS unless you need to use a custom token.&quot;, &quot;required&quot;: false} |
-| Input: ocaml-compiler | null | {&quot;description&quot;: &quot;The OCaml compiler packages to initialise. Accepts a semver version range (e.g. \\&quot;5.5\\&quot;, \\&quot;4.14.x\\&quot;) which is resolved to the latest matching version from opam-repository, or a full opam package name (e.g. \\&quot;ocaml-variants.5.5.0+options,ocaml-option-flambda\\&quot;).&quot;, &quot;required&quot;: true} |
-| Input: opam-disable-sandboxing | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Disable the opam sandboxing feature. opam uses Bubblewrap on Linux and sandbox-exec on macOS. This is useful for self-hosted runners where the sandbox tool is not available. On Windows, sandboxing is always disabled regardless of this setting.&quot;, &quot;required&quot;: false} |
-| Input: opam-local-packages | null | {&quot;default&quot;: &quot;\*.opam&quot;, &quot;description&quot;: &quot;A glob pattern matching the local .opam files to be pinned when \\&quot;opam-pin\\&quot; is enabled. The default \\&quot;\*.opam\\&quot; matches all .opam files in the repository root.&quot;, &quot;required&quot;: false} |
-| Input: opam-pin | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Automatically pin local opam packages (matched by \\&quot;opam-local-packages\\&quot;) in the opam switch. Set to \\&quot;false\\&quot; to skip pinning.&quot;, &quot;required&quot;: false} |
-| Input: opam-repositories | null | {&quot;default&quot;: &quot;default: https://opam.ocaml.org\\n&quot;, &quot;description&quot;: &quot;A YAML mapping of opam repository name/URL pairs to use. Repositories listed first take priority over later ones. The default is the official opam-repository. Set this to add custom or overlay repositories (e.g. \\&quot;custom: https://my-repo.example.com\\&quot;).&quot;, &quot;required&quot;: false} |
-| Input: windows-compiler | null | {&quot;default&quot;: &quot;mingw&quot;, &quot;description&quot;: &quot;The C compiler toolchain used for building on Windows. Use \\&quot;mingw\\&quot; (default) for mingw-w64 (GCC), or \\&quot;msvc\\&quot; for the Microsoft Visual C compiler. MSVC requires Visual Studio on the runner (pre-installed on GitHub-hosted runners).&quot;, &quot;required&quot;: false} |
-| Input: windows-environment | null | {&quot;default&quot;: &quot;cygwin&quot;, &quot;description&quot;: &quot;The Unix environment used for building on Windows. Use \\&quot;cygwin\\&quot; (default) for opam&#x27;s internal Cygwin, or \\&quot;msys2\\&quot; to use the pre-installed MSYS2 on GitHub-hosted runners.&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | node24 |
-| Security | unknown | clean |
-| Selected SHA | null | ff66428f72b64472e749b22e0ad4dded4b2ddca6 |
-| Selected tag | null | v3.9.1 |
-
-## owenthereal/action-upterm
-
-[Previous source](https://github.com/owenthereal/action-upterm/tree/b9dfa526f890bbd5162d781f8d9c69b97731d73d/) · [Current source](https://github.com/owenthereal/action-upterm/tree/95a37de421619d5caf052b4c796c894b1f663afb/) · [Upstream code diff](https://github.com/owenthereal/action-upterm/compare/b9dfa526f890bbd5162d781f8d9c69b97731d73d...95a37de421619d5caf052b4c796c894b1f663afb)
+[Previous source](https://github.com/PaulHatch/semantic-version/tree/79147b94804704a613626766998afe7b2bd0bb47/) · [Current source](https://github.com/PaulHatch/semantic-version/tree/5ae1354e589c5a67345fb2c6e65b025ff676d7c7/) · [Upstream code diff](https://github.com/PaulHatch/semantic-version/compare/79147b94804704a613626766998afe7b2bd0bb47...5ae1354e589c5a67345fb2c6e65b025ff676d7c7)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: allow-exec | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;If guests may run commands (ssh SESSION CMD, VS Code Remote-SSH) as the runner&#x27;s user without approval. Requires an upterm whose &#x27;upterm host --help&#x27; lists --allow-exec&quot;, &quot;required&quot;: false} |
-| Input: allow-forwarding | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;loopback lets guests forward ports (ssh -L, LocalForward) to the runner&#x27;s literal loopback addresses, 127.0.0.0/8 and ::1, without approval; empty or false allows none. Requires an upterm whose &#x27;upterm host --help&#x27; lists --allow-forwarding&quot;, &quot;required&quot;: false} |
-| Input: full-access | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;If authorized guests may do what an SSH login to the runner&#x27;s account can, without approval: run commands (ssh SESSION CMD, VS Code Remote-SSH), transfer files (scp, sftp) and forward ports to the runner&#x27;s loopback addresses (ssh -L 3000:127.0.0.1:3000). Requires limit-access-to-actor or limit-access-to-users, and an upterm whose &#x27;upterm host --help&#x27; lists --full-access&quot;, &quot;required&quot;: false} |
-| Outputs | \[&quot;join-command&quot;, &quot;ssh-command&quot;\] | \[&quot;join-command&quot;, &quot;ssh-command&quot;, &quot;ssh-config&quot;\] |
-| Selected SHA | b9dfa526f890bbd5162d781f8d9c69b97731d73d | 95a37de421619d5caf052b4c796c894b1f663afb |
-| Selected tag | v2.7.0 | v2.8.0 |
+| Selected SHA | 79147b94804704a613626766998afe7b2bd0bb47 | 5ae1354e589c5a67345fb2c6e65b025ff676d7c7 |
+| Selected tag | v6.0.5 | v6.0.7 |
 
-## plengauer/Thoth
+## Added: peter-evans/s3-backup
 
-[Previous source](https://github.com/plengauer/Thoth/tree/93ce0b69b0f9f22a50cc67b08f4a55c84616b5bd/) · [Current source](https://github.com/plengauer/Thoth/tree/5d34a21816f798c24f19857225b018a7f2af731f/) · [Upstream code diff](https://github.com/plengauer/Thoth/compare/93ce0b69b0f9f22a50cc67b08f4a55c84616b5bd...5d34a21816f798c24f19857225b018a7f2af731f)
+[Source](https://github.com/peter-evans/s3-backup) — Mirror a repository to S3 compatible object storage
 
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 93ce0b69b0f9f22a50cc67b08f4a55c84616b5bd | 5d34a21816f798c24f19857225b018a7f2af731f |
-| Selected tag | v5.65.0 | v5.66.0 |
+New entries still require observed stability and fresh scan evidence before usage.
 
-## prefix-dev/setup-pixi
+## pullfrog/pullfrog
 
-[Previous source](https://github.com/prefix-dev/setup-pixi/tree/ad1da6449d9e506fd127fd67ab2d054a769f6a94/) · [Current source](https://github.com/prefix-dev/setup-pixi/tree/9936258fee697aff89b3fed6ca1f80a382ef694e/) · [Upstream code diff](https://github.com/prefix-dev/setup-pixi/compare/ad1da6449d9e506fd127fd67ab2d054a769f6a94...9936258fee697aff89b3fed6ca1f80a382ef694e)
+[Previous source](https://github.com/pullfrog/pullfrog/tree/895164fc90f5c493e72693c919c6cf269af158eb/) · [Current source](https://github.com/pullfrog/pullfrog/tree/8d51c15b11db058894ef609a7c1ca3d1eb1a1d97/) · [Upstream code diff](https://github.com/pullfrog/pullfrog/compare/895164fc90f5c493e72693c919c6cf269af158eb...8d51c15b11db058894ef609a7c1ca3d1eb1a1d97)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: configuration | null | {&quot;description&quot;: &quot;Global pixi configuration in TOML format. Will be written to \`$PIXI\_HOME/config.toml\` (\`~/.pixi/config.toml\` by default).\\nFails if this file already exists.\\nFor example, to enable insecure post-link scripts: \`run-post-link-scripts = \\&quot;insecure\\&quot;\`\\n&quot;} |
-| Selected SHA | ad1da6449d9e506fd127fd67ab2d054a769f6a94 | 9936258fee697aff89b3fed6ca1f80a382ef694e |
-| Selected tag | v0.11.2 | v0.11.3 |
+| Selected SHA | 895164fc90f5c493e72693c919c6cf269af158eb | 8d51c15b11db058894ef609a7c1ca3d1eb1a1d97 |
+| Selected tag | v0.1.110 | v0.1.111 |
 
-## renovatebot/github-action
+## pulumi/actions
 
-[Previous source](https://github.com/renovatebot/github-action/tree/43b963bf5dd5e57f1f95c59765a018d782870211/) · [Current source](https://github.com/renovatebot/github-action/tree/1c0cf989c02653fba0efe7ca5772338860ca71dc/) · [Upstream code diff](https://github.com/renovatebot/github-action/compare/43b963bf5dd5e57f1f95c59765a018d782870211...1c0cf989c02653fba0efe7ca5772338860ca71dc)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 43b963bf5dd5e57f1f95c59765a018d782870211 | 1c0cf989c02653fba0efe7ca5772338860ca71dc |
-| Selected tag | v46.3.11 | v46.3.12 |
-
-## shogo82148/actions-setup-mysql
-
-[Previous source](https://github.com/shogo82148/actions-setup-mysql/tree/fb8ae72ad9f2f8244e594d6d48a981e975aee78e/) · [Current source](https://github.com/shogo82148/actions-setup-mysql/tree/13a38f2af408e58a0c80168fc620a63a15357339/) · [Upstream code diff](https://github.com/shogo82148/actions-setup-mysql/compare/fb8ae72ad9f2f8244e594d6d48a981e975aee78e...13a38f2af408e58a0c80168fc620a63a15357339)
+[Previous source](https://github.com/pulumi/actions/tree/8e5e406f4007fca908480587cb9893c07090f58d/) · [Current source](https://github.com/pulumi/actions/tree/96c7761824268174e0d2a4e8c7d75671eebd24a7/) · [Upstream code diff](https://github.com/pulumi/actions/compare/8e5e406f4007fca908480587cb9893c07090f58d...96c7761824268174e0d2a4e8c7d75671eebd24a7)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | fb8ae72ad9f2f8244e594d6d48a981e975aee78e | 13a38f2af408e58a0c80168fc620a63a15357339 |
-| Selected tag | v1.56.1 | v1.56.2 |
+| Input: run-program | null | {&quot;description&quot;: &quot;Run the Pulumi program before refreshing or destroying resources. Only valid for refresh, destroy, preview (with refresh), and up/update (with refresh) commands. If unset, the flag is not passed to the Pulumi CLI&quot;, &quot;required&quot;: false} |
+| Selected SHA | 8e5e406f4007fca908480587cb9893c07090f58d | 96c7761824268174e0d2a4e8c7d75671eebd24a7 |
+| Selected tag | v7.0.0 | v7.1.0 |
 
-## suzuki-shunsuke/tfaction
+## SonarSource/sonarqube-scan-action
 
-[Previous source](https://github.com/suzuki-shunsuke/tfaction/tree/07a983968cbace490e9059103a7019a638c65e10/) · [Current source](https://github.com/suzuki-shunsuke/tfaction/tree/e892f1d582adb0c401caee0e768c9bd7b063e86e/) · [Upstream code diff](https://github.com/suzuki-shunsuke/tfaction/compare/07a983968cbace490e9059103a7019a638c65e10...e892f1d582adb0c401caee0e768c9bd7b063e86e)
+[Previous source](https://github.com/SonarSource/sonarqube-scan-action/tree/4d1dc0c91ee400dcf8a6dddf2f705ac36542e304/) · [Current source](https://github.com/SonarSource/sonarqube-scan-action/tree/e805d875275f728fac1885b413934be6d7c63f65/) · [Upstream code diff](https://github.com/SonarSource/sonarqube-scan-action/compare/4d1dc0c91ee400dcf8a6dddf2f705ac36542e304...e805d875275f728fac1885b413934be6d7c63f65)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 07a983968cbace490e9059103a7019a638c65e10 | e892f1d582adb0c401caee0e768c9bd7b063e86e |
-| Selected tag | v2.3.3 | v2.3.4 |
+| Input: scannerVersion | {&quot;default&quot;: &quot;8.3.0.16463&quot;, &quot;description&quot;: &quot;Version of the Sonar Scanner CLI to use&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;8.3.1.16491&quot;, &quot;description&quot;: &quot;Version of the Sonar Scanner CLI to use&quot;, &quot;required&quot;: false} |
+| Selected SHA | 4d1dc0c91ee400dcf8a6dddf2f705ac36542e304 | e805d875275f728fac1885b413934be6d7c63f65 |
+| Selected tag | v8.4.0 | v8.4.1 |
+
+## Songmu/tagpr
+
+[Previous source](https://github.com/Songmu/tagpr/tree/e1250d6c84e4425db82b5e90549d62dfe23e9ebe/) · [Current source](https://github.com/Songmu/tagpr/tree/047aec4b6c0ce166f52958b5a97f5a3d927fd65b/) · [Upstream code diff](https://github.com/Songmu/tagpr/compare/e1250d6c84e4425db82b5e90549d62dfe23e9ebe...047aec4b6c0ce166f52958b5a97f5a3d927fd65b)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: mode | null | {&quot;default&quot;: &quot;auto&quot;, &quot;description&quot;: &quot;Execution mode: auto, plan, or apply. The plan and apply modes are experimental&quot;, &quot;required&quot;: false} |
+| Input: plan | null | {&quot;description&quot;: &quot;Experimental release plan JSON emitted by plan mode, required in apply mode&quot;, &quot;required&quot;: false} |
+| Input: version | {&quot;default&quot;: &quot;v1.21.4&quot;, &quot;description&quot;: &quot;A version to install tagpr&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;v1.22.0&quot;, &quot;description&quot;: &quot;A version to install tagpr&quot;, &quot;required&quot;: false} |
+| Outputs | \[&quot;base\_tag&quot;, &quot;pull\_request&quot;, &quot;tag&quot;\] | \[&quot;base\_tag&quot;, &quot;plan&quot;, &quot;pull\_request&quot;, &quot;tag&quot;\] |
+| Selected SHA | e1250d6c84e4425db82b5e90549d62dfe23e9ebe | 047aec4b6c0ce166f52958b5a97f5a3d927fd65b |
+| Selected tag | v1.21.4 | v1.22.0 |
 
 ## taiki-e/install-action
 
-[Previous source](https://github.com/taiki-e/install-action/tree/68a389c788b2cd04016ce8c80ee23b80d2ab3d68/) · [Current source](https://github.com/taiki-e/install-action/tree/1919c4a95903d2c33e4a221102edca87309fc14b/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/68a389c788b2cd04016ce8c80ee23b80d2ab3d68...1919c4a95903d2c33e4a221102edca87309fc14b)
+[Previous source](https://github.com/taiki-e/install-action/tree/1919c4a95903d2c33e4a221102edca87309fc14b/) · [Current source](https://github.com/taiki-e/install-action/tree/682ce6c3c696a4cd5168a05f98e51aa02b877941/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/1919c4a95903d2c33e4a221102edca87309fc14b...682ce6c3c696a4cd5168a05f98e51aa02b877941)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 68a389c788b2cd04016ce8c80ee23b80d2ab3d68 | 1919c4a95903d2c33e4a221102edca87309fc14b |
-| Selected tag | v2.88.1 | v2.89.0 |
+| Selected SHA | 1919c4a95903d2c33e4a221102edca87309fc14b | 682ce6c3c696a4cd5168a05f98e51aa02b877941 |
+| Selected tag | v2.89.0 | v2.89.1 |
 
-## zgosalvez/github-actions-report-lcov
+## xalvarez/prevent-file-change-action
 
-[Previous source](https://github.com/zgosalvez/github-actions-report-lcov/tree/1f890959536bc7cc4f8ac36e78626797c41f6ac1/) · [Current source](https://github.com/zgosalvez/github-actions-report-lcov/tree/7e6043a0e3ae37bc6e45291401ddea852fc750e5/) · [Upstream code diff](https://github.com/zgosalvez/github-actions-report-lcov/compare/1f890959536bc7cc4f8ac36e78626797c41f6ac1...7e6043a0e3ae37bc6e45291401ddea852fc750e5)
+[Previous source](https://github.com/xalvarez/prevent-file-change-action/tree/dbc67c205c9ed02aa39c497b422c24f364c3e8dd/) · [Current source](https://github.com/xalvarez/prevent-file-change-action/tree/440fe0989b54093ce834a504af595ee55967da4d/) · [Upstream code diff](https://github.com/xalvarez/prevent-file-change-action/compare/dbc67c205c9ed02aa39c497b422c24f364c3e8dd...440fe0989b54093ce834a504af595ee55967da4d)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 1f890959536bc7cc4f8ac36e78626797c41f6ac1 | 7e6043a0e3ae37bc6e45291401ddea852fc750e5 |
-| Selected tag | v7.2.2 | v7.2.3 |
+| Selected SHA | dbc67c205c9ed02aa39c497b422c24f364c3e8dd | 440fe0989b54093ce834a504af595ee55967da4d |
+| Selected tag | v3.0.1 | v3.0.2 |

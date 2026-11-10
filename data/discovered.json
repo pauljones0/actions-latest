@@ -1672,6 +1672,26 @@
     "reviewed_at": null
   },
   {
+    "action": "peter-evans/s3-backup",
+    "description": "Mirror a repository to S3 compatible object storage",
+    "category": "Discovered",
+    "tags": [
+      "backup-utility",
+      "s3-storage"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/peter-evans/s3-backup/tree/dad590ef7dec70abb26fe5f74774b545c1b27e62",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "plengauer/Thoth",
     "description": "Export traces, metrics, and logs by injecting deeply into javascript, docker, shell and composite actions.",
     "category": "Discovered",

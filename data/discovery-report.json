@@ -1,6 +1,6 @@
 {
   "admitted": [
-    "mi-kas/kover-report"
+    "peter-evans/s3-backup"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
@@ -113,9 +113,9 @@
       "status": "admitted"
     },
     "IT-NuanxinPro/wallpaper-gallery": {
-      "checked_at": "2026-09-05T20:09:31.916888+00:00",
-      "reason": "No action.yml or action.yaml at IT-NuanxinPro/wallpaper-gallery@e08ad863f840369f9f93000f17752f00b95b5726",
-      "status": "error"
+      "checked_at": "2026-11-10T13:03:41.127296+00:00",
+      "reason": "No action.yml or action.yaml at IT-NuanxinPro/wallpaper-gallery@3b696f999a7cbfc3047892f2457eafa39252d09d",
+      "status": "rejected"
     },
     "ITJoker233/BingPicApi": {
       "checked_at": "2026-10-26T10:34:43.509008+00:00",
@@ -243,8 +243,8 @@
       "status": "rejected"
     },
     "RamiKrispin/ai-dev-2024-ml-workshop": {
-      "checked_at": "2026-11-03T12:25:18.945096+00:00",
-      "reason": "No action.yml or action.yaml at RamiKrispin/ai-dev-2024-ml-workshop@dd7c61e7f15d31fcd91cdf1b75d4ce45dddb6f70",
+      "checked_at": "2026-11-10T13:03:41.127296+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/ai-dev-2024-ml-workshop@547c3e6e5ce2059fd28720a7f762220d8f937c32",
       "status": "rejected"
     },
     "RamiKrispin/pydata-ny-ga-workshop": {
@@ -821,8 +821,8 @@
       "status": "rejected"
     },
     "its-me-debk007/kotlin-android-mvvm-template": {
-      "checked_at": "2026-09-12T08:52:56.533053+00:00",
-      "reason": "No action.yml or action.yaml at its-me-debk007/kotlin-android-mvvm-template@bc5223b91c8d3c1475c4173d8a7b9b643faa98fd",
+      "checked_at": "2026-11-10T13:03:41.127296+00:00",
+      "reason": "No action.yml or action.yaml at its-me-debk007/kotlin-android-mvvm-template@08d1c3159061a708125a567abfae91bb11e91b7b",
       "status": "rejected"
     },
     "jacopone/antigravity-nix": {
@@ -865,8 +865,8 @@
       "status": "admitted"
     },
     "kdeldycke/repomatic": {
-      "checked_at": "2026-11-03T12:25:18.945096+00:00",
-      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@d77b6ac550fa1926389bd04a07639da327ec78c7",
+      "checked_at": "2026-11-10T13:03:41.127296+00:00",
+      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@d18fea3b599579327e54f590af92eb5c19947c56",
       "status": "rejected"
     },
     "kerlenton/mcpsnoop": {
@@ -876,8 +876,8 @@
       "status": "admitted"
     },
     "kkzzhizhou/scoop-apps": {
-      "checked_at": "2026-11-03T12:25:18.945096+00:00",
-      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@95759ec9fb214b2835f6ca8149ed352915e44272",
+      "checked_at": "2026-11-10T13:03:41.127296+00:00",
+      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@2593bf86166a3ac9a9d2014690fa842bfd92ff9f",
       "status": "rejected"
     },
     "koki-develop/ghasec": {
@@ -1067,6 +1067,12 @@
       "checked_at": "2026-11-05T12:47:16.397358+00:00",
       "scanner_version": "1.30.1",
       "source_sha": "d1cdf2d6f94f69c4ef91d5ecdf5988312b7fb250",
+      "status": "admitted"
+    },
+    "peter-evans/s3-backup": {
+      "checked_at": "2026-11-10T13:03:41.127296+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "dad590ef7dec70abb26fe5f74774b545c1b27e62",
       "status": "admitted"
     },
     "philips-labs/slsa-provenance-action": {
@@ -1439,7 +1445,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-09T13:25:28.909187+00:00",
+  "checked_at": "2026-11-10T13:03:41.127296+00:00",
   "errors": [],
-  "inspected": 12
+  "inspected": 6
 }
