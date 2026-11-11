@@ -1,7 +1,5 @@
 {
-  "admitted": [
-    "peter-evans/s3-backup"
-  ],
+  "admitted": [],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-11-04T12:36:43.337874+00:00",
@@ -180,8 +178,8 @@
       "status": "rejected"
     },
     "L0NE-6/WorkBuddy-Daily": {
-      "checked_at": "2026-10-24T09:10:13.944715+00:00",
-      "reason": "No action.yml or action.yaml at L0NE-6/WorkBuddy-Daily@007c96f5ba1a933c675d5931d3427bf6341654c1",
+      "checked_at": "2026-11-11T12:13:33.931925+00:00",
+      "reason": "No action.yml or action.yaml at L0NE-6/WorkBuddy-Daily@fe93e09acc061a9877ffad9c674a134a1f5a8d7e",
       "status": "rejected"
     },
     "LindseyB/dummy": {
@@ -279,8 +277,8 @@
       "status": "rejected"
     },
     "SpaceTimee/Fusion-JetBrainsMapleMono": {
-      "checked_at": "2026-10-23T09:38:09.252447+00:00",
-      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@eef9a291d8167ec2f7e8cdd5b4e26b14ad4c0418",
+      "checked_at": "2026-11-11T12:13:33.931925+00:00",
+      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@32276addf583bcf7e9074c5b4e88a85bc7e529f7",
       "status": "rejected"
     },
     "Teamwork/github-sync": {
@@ -421,8 +419,8 @@
       "status": "rejected"
     },
     "ashleymavericks/ashleymavericks": {
-      "checked_at": "2026-09-22T09:30:22.736679+00:00",
-      "reason": "No action.yml or action.yaml at ashleymavericks/ashleymavericks@23cc78df0b6bc8a03c48a03de6181800240e5a9e",
+      "checked_at": "2026-11-11T12:13:33.931925+00:00",
+      "reason": "No action.yml or action.yaml at ashleymavericks/ashleymavericks@9ade3f1771a8337736657318fe6a99ec7e09be2c",
       "status": "rejected"
     },
     "ashtanko/flutter_bloc_app_template": {
@@ -598,8 +596,8 @@
       "status": "admitted"
     },
     "dflook/terraform-github-actions": {
-      "checked_at": "2026-10-22T09:41:32.306837+00:00",
-      "reason": "No action.yml or action.yaml at dflook/terraform-github-actions@dd5fb128af310eaa8050c9a19e908aa349a404cc",
+      "checked_at": "2026-11-11T12:13:33.931925+00:00",
+      "reason": "No action.yml or action.yaml at dflook/terraform-github-actions@049f2bade5858447674e0b49c6530a40051f0480",
       "status": "rejected"
     },
     "diggerhq/digger": {
@@ -1016,8 +1014,8 @@
       "status": "admitted"
     },
     "nomadicmehul/CloudCaptain": {
-      "checked_at": "2026-11-01T11:31:18.587464+00:00",
-      "reason": "No action.yml or action.yaml at nomadicmehul/CloudCaptain@f87da14b8e5340322ae69797c4c422fd3b629d99",
+      "checked_at": "2026-11-11T12:13:33.931925+00:00",
+      "reason": "No action.yml or action.yaml at nomadicmehul/CloudCaptain@708a5c3d55336827ac44d1064234dfcdcadf6b9e",
       "status": "rejected"
     },
     "nowscott/EverydayTechNews": {
@@ -1218,8 +1216,8 @@
       "status": "admitted"
     },
     "sandro2211/powerbi-ml-insight-engine": {
-      "checked_at": "2026-10-29T11:08:31.811531+00:00",
-      "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@b9288d46d2a0e913f4b5d15d62a96e6f3df9c57e",
+      "checked_at": "2026-11-11T12:13:33.931925+00:00",
+      "reason": "No action.yml or action.yaml at sandro2211/powerbi-ml-insight-engine@ccc6bac00b820e85ecce41f1e0cf886d07e785bc",
       "status": "rejected"
     },
     "sanitizers/octomachinery": {
@@ -1270,6 +1268,11 @@
     "sorenlouv/backport": {
       "checked_at": "2026-10-07T11:23:06.040880+00:00",
       "reason": "No action.yml or action.yaml at sorenlouv/backport@f28b3199d611dfaf426839fce5b093cfde9407d2",
+      "status": "rejected"
+    },
+    "starslingdev/skills": {
+      "checked_at": "2026-11-11T12:13:33.931925+00:00",
+      "reason": "No action.yml or action.yaml at starslingdev/skills@2768545f3b0904609350c25910282d7966eb7ce5",
       "status": "rejected"
     },
     "stategraph/stategraph": {
@@ -1445,7 +1448,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-10T13:03:41.127296+00:00",
+  "checked_at": "2026-11-11T12:13:33.931925+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 7
 }
