@@ -11,6 +11,11 @@
       "reason": "No action.yml or action.yaml at ARM-software/AVH@60f78be282b0a071d585d9633c961424d448e17d",
       "status": "rejected"
     },
+    "ATLURI0001/BuildSite": {
+      "checked_at": "2026-11-12T13:19:38.892595+00:00",
+      "reason": "No supported numeric version tags to observe",
+      "status": "rejected"
+    },
     "Agents365-ai/drawio-skill": {
       "checked_at": "2026-10-11T11:02:50.093402+00:00",
       "reason": "No action.yml or action.yaml at Agents365-ai/drawio-skill@701e72833273525c17abe5511e544da2db51265d",
@@ -173,8 +178,8 @@
       "status": "rejected"
     },
     "KryptosAI/mcp-observatory": {
-      "checked_at": "2026-10-22T09:41:32.306837+00:00",
-      "reason": "No action.yml or action.yaml at KryptosAI/mcp-observatory@e37d19791140e8236d233f99d7112a7e8c01a968",
+      "checked_at": "2026-11-12T13:19:38.892595+00:00",
+      "reason": "No action.yml or action.yaml at KryptosAI/mcp-observatory@669a2676e25127eabc0ba951acfe8fd18728ce4c",
       "status": "rejected"
     },
     "L0NE-6/WorkBuddy-Daily": {
@@ -543,8 +548,8 @@
       "status": "admitted"
     },
     "cybersecsi/RAUDI": {
-      "checked_at": "2026-11-04T12:36:43.337874+00:00",
-      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@f739e2ef814c4b19bc1d32d9a2a4986dac7f104f",
+      "checked_at": "2026-11-12T13:19:38.892595+00:00",
+      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@9244a0218153b730c362aadc507f0d7413b0ada9",
       "status": "rejected"
     },
     "cycjimmy/semantic-release-action": {
@@ -648,13 +653,13 @@
       "status": "rejected"
     },
     "eyupio/zoomies": {
-      "checked_at": "2026-11-05T12:47:16.397358+00:00",
-      "reason": "No action.yml or action.yaml at eyupio/zoomies@b72407becdc21143edc5a548cfdf9b8ead287473",
+      "checked_at": "2026-11-12T13:19:38.892595+00:00",
+      "reason": "No action.yml or action.yaml at eyupio/zoomies@0756dd00873e80c9e1211d326a8d065c5b31f274",
       "status": "rejected"
     },
     "f/wvw.dev": {
-      "checked_at": "2026-11-02T12:53:59.834194+00:00",
-      "reason": "No action.yml or action.yaml at f/wvw.dev@3cc13cfde9af2c60bb5f4262578987ab11309cd7",
+      "checked_at": "2026-11-12T13:19:38.892595+00:00",
+      "reason": "No action.yml or action.yaml at f/wvw.dev@afe3150fc4450957c109f70511478e3aa0d28294",
       "status": "rejected"
     },
     "f2calv/yamlizr": {
@@ -725,6 +730,11 @@
       "source_sha": "97edad089bbbe0c0ad13db7bf9ac085eaa47e255",
       "status": "admitted"
     },
+    "github/gh-actions-lock": {
+      "checked_at": "2026-11-12T13:19:38.892595+00:00",
+      "reason": "No action.yml or action.yaml at github/gh-actions-lock@90ae563599cf303ff91eb5b46277ff04f5d2b4fc",
+      "status": "rejected"
+    },
     "github/gh-aw": {
       "checked_at": "2026-11-09T13:25:28.909187+00:00",
       "reason": "No action.yml or action.yaml at github/gh-aw@f9b6db0745d7e3246ad9422d325df0c951b330a2",
@@ -771,8 +781,8 @@
       "status": "rejected"
     },
     "hect0x7/JMComic-Crawler-Python": {
-      "checked_at": "2026-10-07T11:23:06.040880+00:00",
-      "reason": "No action.yml or action.yaml at hect0x7/JMComic-Crawler-Python@69afe2c38d09960fd43031826af19095f75a42a2",
+      "checked_at": "2026-11-12T13:19:38.892595+00:00",
+      "reason": "No action.yml or action.yaml at hect0x7/JMComic-Crawler-Python@f60b752c771dbc50212a7c9b7929951573c76001",
       "status": "rejected"
     },
     "hermes-labs-ai/lintlang": {
@@ -1301,6 +1311,11 @@
       "source_sha": "b48cad6febbd6d60111dae34207b180952bd9fed",
       "status": "admitted"
     },
+    "synacktiv/octoscan": {
+      "checked_at": "2026-11-12T13:19:38.892595+00:00",
+      "reason": "No action.yml or action.yaml at synacktiv/octoscan@9ec236ebfcc8fbc5421cf8dff4dd2313ca932866",
+      "status": "rejected"
+    },
     "tailcallhq/gh-workflow": {
       "checked_at": "2026-10-10T10:50:14.851620+00:00",
       "reason": "No action.yml or action.yaml at tailcallhq/gh-workflow@c42e47036c57b73eada19b7dd7277bc4580e1ddd",
@@ -1448,7 +1463,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-11T12:13:33.931925+00:00",
+  "checked_at": "2026-11-12T13:19:38.892595+00:00",
   "errors": [],
-  "inspected": 7
+  "inspected": 8
 }
