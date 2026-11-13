@@ -1,5 +1,7 @@
 {
-  "admitted": [],
+  "admitted": [
+    "auscaster/silvertongue"
+  ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-11-04T12:36:43.337874+00:00",
@@ -126,7 +128,7 @@
       "status": "rejected"
     },
     "Ikalus1988/MisakaNet": {
-      "checked_at": "2026-11-06T12:31:42.530919+00:00",
+      "checked_at": "2026-11-13T12:40:25.039905+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -168,8 +170,8 @@
       "status": "admitted"
     },
     "Kesin11/CIAnalyzer": {
-      "checked_at": "2026-09-19T09:01:01.538456+00:00",
-      "reason": "No action.yml or action.yaml at Kesin11/CIAnalyzer@5c5c4534c6d1ce10f6f6d9eb591aea552cea5eb0",
+      "checked_at": "2026-11-13T12:40:25.039905+00:00",
+      "reason": "No action.yml or action.yaml at Kesin11/CIAnalyzer@2a928514821c6f6e933e82d38d7264de69f0eae4",
       "status": "rejected"
     },
     "Kleidukos/get-tested": {
@@ -185,6 +187,11 @@
     "L0NE-6/WorkBuddy-Daily": {
       "checked_at": "2026-11-11T12:13:33.931925+00:00",
       "reason": "No action.yml or action.yaml at L0NE-6/WorkBuddy-Daily@fe93e09acc061a9877ffad9c674a134a1f5a8d7e",
+      "status": "rejected"
+    },
+    "LE0-Lin/AgentConfigScore": {
+      "checked_at": "2026-11-13T12:40:25.039905+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "LindseyB/dummy": {
@@ -433,6 +440,12 @@
       "reason": "No action.yml or action.yaml at ashtanko/flutter_bloc_app_template@c7235604d0cc66e86dc894f64b6f03d8ca617ee2",
       "status": "rejected"
     },
+    "auscaster/silvertongue": {
+      "checked_at": "2026-11-13T12:40:25.039905+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "06fe432eac6f8420e30102cf7b7cdb13b03f282d",
+      "status": "admitted"
+    },
     "azat-io/actions-up": {
       "checked_at": "2026-10-21T09:42:08.473049+00:00",
       "reason": "No action.yml or action.yaml at azat-io/actions-up@48f131819afb7c57822cb60c9c0c91e81c093e20",
@@ -441,6 +454,11 @@
     "bahdotsh/wrkflw": {
       "checked_at": "2026-11-06T12:31:42.530919+00:00",
       "reason": "No action.yml or action.yaml at bahdotsh/wrkflw@5b933c78830018f127e5b5ec6b940a10a2e38788",
+      "status": "rejected"
+    },
+    "bartstc/vite-ts-react-template": {
+      "checked_at": "2026-11-13T12:40:25.039905+00:00",
+      "reason": "No action.yml or action.yaml at bartstc/vite-ts-react-template@fce5cfb4f25cb5cf3cf4615bef659f19bb4e577f",
       "status": "rejected"
     },
     "benchmark-action/github-action-benchmark": {
@@ -611,8 +629,8 @@
       "status": "rejected"
     },
     "djunekz/termux-app-store": {
-      "checked_at": "2026-11-04T12:36:43.337874+00:00",
-      "reason": "No action.yml or action.yaml at djunekz/termux-app-store@c4500333dca89e640fc2abcbe983003fcb98444b",
+      "checked_at": "2026-11-13T12:40:25.039905+00:00",
+      "reason": "No action.yml or action.yaml at djunekz/termux-app-store@43a3b9a59b9779bae9486c0c2aa3f7ff4a2da5bc",
       "status": "rejected"
     },
     "docker/actions-toolkit": {
@@ -813,8 +831,8 @@
       "status": "admitted"
     },
     "ipitio/backage": {
-      "checked_at": "2026-11-06T12:31:42.530919+00:00",
-      "reason": "No action.yml or action.yaml at ipitio/backage@6904ab03482cba53ec0f022fc6ef4d0f1527a902",
+      "checked_at": "2026-11-13T12:40:25.039905+00:00",
+      "reason": "No action.yml or action.yaml at ipitio/backage@0886ab43876c6609d89f59e0cc9c301c242aeb41",
       "status": "rejected"
     },
     "irgaly/xcode-cache": {
@@ -1089,7 +1107,7 @@
       "status": "rejected"
     },
     "pipelab-org/pipelock": {
-      "checked_at": "2026-11-06T12:31:42.530919+00:00",
+      "checked_at": "2026-11-13T12:40:25.039905+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1463,7 +1481,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-12T13:19:38.892595+00:00",
+  "checked_at": "2026-11-13T12:40:25.039905+00:00",
   "errors": [],
   "inspected": 8
 }
