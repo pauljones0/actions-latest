@@ -1,6 +1,7 @@
 {
   "admitted": [
-    "auscaster/silvertongue"
+    "secfoo-com/secfoo",
+    "suzuki-shunsuke/pinact-action"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
@@ -200,8 +201,8 @@
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
-      "checked_at": "2026-11-07T11:21:51.548787+00:00",
-      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@309f159f1fd9594489376abbc7cc4a099cbbece0",
+      "checked_at": "2026-11-14T11:47:57.292540+00:00",
+      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@28d4eec22ac1f67fcf63959f4bbd68b07f5d7858",
       "status": "rejected"
     },
     "Mic92/hestia": {
@@ -228,13 +229,13 @@
       "status": "admitted"
     },
     "MohammadBahemmat/V2ray-Collector": {
-      "checked_at": "2026-11-07T11:21:51.548787+00:00",
-      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@1b1142fdea7d4bef3433e2a3b89511ecb870967e",
+      "checked_at": "2026-11-14T11:47:57.292540+00:00",
+      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@2b5cc2b487341db11caace2d61732fa087f51ee8",
       "status": "rejected"
     },
     "MustacheCase/zanadir": {
-      "checked_at": "2026-11-07T11:21:51.548787+00:00",
-      "reason": "No action.yml or action.yaml at MustacheCase/zanadir@672caa86a0556ca757c3df4110178973a7b7716e",
+      "checked_at": "2026-11-14T11:47:57.292540+00:00",
+      "reason": "No action.yml or action.yaml at MustacheCase/zanadir@67323d1b7afbe949f42096c70a35aaa421087a8b",
       "status": "rejected"
     },
     "Oval-Tutu/bootstrap-love2d-project": {
@@ -279,8 +280,8 @@
       "status": "rejected"
     },
     "Sarthzk/internship-tracker": {
-      "checked_at": "2026-11-07T11:21:51.548787+00:00",
-      "reason": "No action.yml or action.yaml at Sarthzk/internship-tracker@2531c4672b0782a0ae923a322b79052772117a02",
+      "checked_at": "2026-11-14T11:47:57.292540+00:00",
+      "reason": "No action.yml or action.yaml at Sarthzk/internship-tracker@913ab0d0de602298fb29c1d890daecaabdb6e010",
       "status": "rejected"
     },
     "SecOpsNews/news": {
@@ -402,6 +403,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "bf7a15678b8ed0963fc9a1e9b68f5946a2fc1871",
       "status": "admitted"
+    },
+    "anandanair/job-scraper": {
+      "checked_at": "2026-11-14T11:47:57.292540+00:00",
+      "reason": "No action.yml or action.yaml at anandanair/job-scraper@9ed2fc5b3f77914c4462f6b7bca55335ce9f4340",
+      "status": "rejected"
     },
     "angular-schule/angular-cli-ghpages": {
       "checked_at": "2026-10-09T11:32:08.649652+00:00",
@@ -715,6 +721,11 @@
       "reason": "No action.yml or action.yaml at firsttris/plugin.video.sendtokodi@da4813b8409a13731733a8cf686e6f0d322f2320",
       "status": "rejected"
     },
+    "flare-collection/flare-redact": {
+      "checked_at": "2026-11-14T11:47:57.292540+00:00",
+      "reason": "No action.yml or action.yaml at flare-collection/flare-redact@eb6151a0bd128d1f11c428daf1209dfc520b170b",
+      "status": "rejected"
+    },
     "garagon/aguara": {
       "checked_at": "2026-11-01T11:31:18.587464+00:00",
       "reason": "Default-branch action manifest has blocking findings",
@@ -786,6 +797,11 @@
     "guessi/kubectl-grep": {
       "checked_at": "2026-10-22T09:41:32.306837+00:00",
       "reason": "No action.yml or action.yaml at guessi/kubectl-grep@84299b71b3f083cb91424d9695e242d6e1003132",
+      "status": "rejected"
+    },
+    "gy15901580825/Argus": {
+      "checked_at": "2026-11-14T11:47:57.292540+00:00",
+      "reason": "No action.yml or action.yaml at gy15901580825/Argus@ba97689c054b58828d9183b7030884c887e4e99b",
       "status": "rejected"
     },
     "headlesshq/mc-runtime-test": {
@@ -1260,9 +1276,15 @@
       "status": "admitted"
     },
     "scanaislop/aislop": {
-      "checked_at": "2026-09-13T09:47:10.016412+00:00",
+      "checked_at": "2026-11-14T11:47:57.292540+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
+    },
+    "secfoo-com/secfoo": {
+      "checked_at": "2026-11-14T11:47:57.292540+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "e27a871a9401986f36e56dfecc2aaa3de6d07268",
+      "status": "admitted"
     },
     "sersoft-gmbh/xcodebuild-action": {
       "checked_at": "2026-09-14T07:57:42.638604+00:00",
@@ -1322,6 +1344,12 @@
       "checked_at": "2026-10-31T10:37:49.470676+00:00",
       "reason": "No action.yml or action.yaml at suzuki-shunsuke/pinact@b11d3a8ca99ea316e956b19ac1d7d830bf7b74ef",
       "status": "rejected"
+    },
+    "suzuki-shunsuke/pinact-action": {
+      "checked_at": "2026-11-14T11:47:57.292540+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "edef358f45ac7bcf278977d6457cd0b9bb25f0e2",
+      "status": "admitted"
     },
     "suzuki-shunsuke/tfaction": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -1481,7 +1509,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-13T12:40:25.039905+00:00",
+  "checked_at": "2026-11-14T11:47:57.292540+00:00",
   "errors": [],
-  "inspected": 8
+  "inspected": 10
 }
