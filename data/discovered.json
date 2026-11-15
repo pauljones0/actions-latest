@@ -261,6 +261,28 @@
     "reviewed_at": null
   },
   {
+    "action": "arduino/arduino-lint-action",
+    "description": "Check Arduino projects for problems.",
+    "category": "Discovered",
+    "tags": [
+      "arduino",
+      "ci",
+      "continuous-integration",
+      "linter"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/arduino/arduino-lint-action/tree/bafd3e146800ed37fba32c9700d520f7bdf605be",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "arduino/setup-task",
     "description": "Download Task and add it to the PATH",
     "category": "Discovered",
@@ -1197,6 +1219,32 @@
     "performance": "",
     "origin": "discovered",
     "source_url": "https://github.com/jsdhwfmax/EvalForge/tree/54c4667a67fefe6d34435cb5bc166c0b81a8deb5",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
+    "action": "JulienKode/team-labeler-action",
+    "description": "Add a team label based on the author's team",
+    "category": "Discovered",
+    "tags": [
+      "actions",
+      "github",
+      "javascript",
+      "labeler-action",
+      "pull-request",
+      "teams",
+      "typescript",
+      "workflow"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/JulienKode/team-labeler-action/tree/746bb324a6fcd0d42db538d72520fa56a3b760ad",
     "reviewed_sha": null,
     "reviewed_at": null
   },

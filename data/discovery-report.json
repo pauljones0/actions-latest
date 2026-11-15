@@ -1,7 +1,7 @@
 {
   "admitted": [
-    "secfoo-com/secfoo",
-    "suzuki-shunsuke/pinact-action"
+    "JulienKode/team-labeler-action",
+    "arduino/arduino-lint-action"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
@@ -148,6 +148,12 @@
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at Jasonliu-0/Newapi-checkin@fccc8ce399f23ae638f70fe566533b287d63bd80",
       "status": "rejected"
+    },
+    "JulienKode/team-labeler-action": {
+      "checked_at": "2026-11-15T12:19:24.053630+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "746bb324a6fcd0d42db538d72520fa56a3b760ad",
+      "status": "admitted"
     },
     "JuliusBairaktaris/Qualcommax_NSS_Builder": {
       "checked_at": "2026-09-14T07:57:42.638604+00:00",
@@ -418,6 +424,12 @@
       "checked_at": "2026-09-22T09:30:22.736679+00:00",
       "scanner_version": "1.30.1",
       "source_sha": "2a44c23db5043868aad8a096971c8a6945224b3d",
+      "status": "admitted"
+    },
+    "arduino/arduino-lint-action": {
+      "checked_at": "2026-11-15T12:19:24.053630+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "bafd3e146800ed37fba32c9700d520f7bdf605be",
       "status": "admitted"
     },
     "arduino/compile-sketches": {
@@ -770,8 +782,8 @@
       "status": "rejected"
     },
     "go-gitea/gitea": {
-      "checked_at": "2026-11-06T12:31:42.530919+00:00",
-      "reason": "No action.yml or action.yaml at go-gitea/gitea@7e18e81c7d05390d356c2735350db329c6e5ad32",
+      "checked_at": "2026-11-15T12:19:24.053630+00:00",
+      "reason": "No action.yml or action.yaml at go-gitea/gitea@6579749a0278926965a7371bd23be70f798c6098",
       "status": "rejected"
     },
     "godot-gdunit-labs/gdUnit4-action": {
@@ -1101,7 +1113,7 @@
       "status": "admitted"
     },
     "pedrocatalao/github-cool-readme": {
-      "checked_at": "2026-11-08T11:33:53.115600+00:00",
+      "checked_at": "2026-11-15T12:19:24.053630+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1209,8 +1221,8 @@
       "status": "rejected"
     },
     "ram0verflow/ram0verflow": {
-      "checked_at": "2026-11-06T12:31:42.530919+00:00",
-      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@c9e43ff815fa40abbc8918fd1191bee93053c976",
+      "checked_at": "2026-11-15T12:19:24.053630+00:00",
+      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@73855de8b83957c67d42a0b967b59c9db0a0aefa",
       "status": "rejected"
     },
     "redhat-plumbers-in-action/differential-shellcheck": {
@@ -1224,6 +1236,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "65e1bcce8eb085032806d3876cb7cb7e64d50fd7",
       "status": "admitted"
+    },
+    "roaldnefs/roaldnefs": {
+      "checked_at": "2026-11-15T12:19:24.053630+00:00",
+      "reason": "No action.yml or action.yaml at roaldnefs/roaldnefs@4e4db46d12f908e179fdf33e3d23c9e978f7bda1",
+      "status": "rejected"
     },
     "robvanderleek/create-issue-branch": {
       "checked_at": "2026-09-05T20:09:31.916888+00:00",
@@ -1265,8 +1282,8 @@
       "status": "rejected"
     },
     "sanitizers/octomachinery": {
-      "checked_at": "2026-11-05T12:47:16.397358+00:00",
-      "reason": "No action.yml or action.yaml at sanitizers/octomachinery@ae82b695703cbc1458149b3befbecd0b60bedda4",
+      "checked_at": "2026-11-15T12:19:24.053630+00:00",
+      "reason": "No action.yml or action.yaml at sanitizers/octomachinery@eb64b5c01876a859ef08e04123c86a3385cc6e96",
       "status": "rejected"
     },
     "scalacenter/sbt-dependency-submission": {
@@ -1341,8 +1358,8 @@
       "status": "rejected"
     },
     "suzuki-shunsuke/pinact": {
-      "checked_at": "2026-10-31T10:37:49.470676+00:00",
-      "reason": "No action.yml or action.yaml at suzuki-shunsuke/pinact@b11d3a8ca99ea316e956b19ac1d7d830bf7b74ef",
+      "checked_at": "2026-11-15T12:19:24.053630+00:00",
+      "reason": "No action.yml or action.yaml at suzuki-shunsuke/pinact@5783849eab2ef9431b20893457bfe3b906d8acb4",
       "status": "rejected"
     },
     "suzuki-shunsuke/pinact-action": {
@@ -1453,6 +1470,11 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "xandemon/developer-icons": {
+      "checked_at": "2026-11-15T12:19:24.053630+00:00",
+      "reason": "No action.yml or action.yaml at xandemon/developer-icons@94559559231f54780bc6f1fbd0306ef595cdeff1",
+      "status": "rejected"
+    },
     "yamadashy/tech-blog-rss-feed": {
       "checked_at": "2026-09-13T09:47:10.016412+00:00",
       "reason": "No action.yml or action.yaml at yamadashy/tech-blog-rss-feed@d58541832514ff00f3203839bd01e06fc1dd607c",
@@ -1509,7 +1531,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-14T11:47:57.292540+00:00",
+  "checked_at": "2026-11-15T12:19:24.053630+00:00",
   "errors": [],
-  "inspected": 10
+  "inspected": 9
 }
