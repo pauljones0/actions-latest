@@ -1,8 +1,5 @@
 {
-  "admitted": [
-    "JulienKode/team-labeler-action",
-    "arduino/arduino-lint-action"
-  ],
+  "admitted": [],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-11-04T12:36:43.337874+00:00",
@@ -88,6 +85,11 @@
     "Dicklesworthstone/doodlestein_self_releaser": {
       "checked_at": "2026-10-13T12:13:52.792695+00:00",
       "reason": "No action.yml or action.yaml at Dicklesworthstone/doodlestein_self_releaser@e9eaace4cc8e732ab2d748b9e20ebbb1326cdd5e",
+      "status": "rejected"
+    },
+    "Drieam/rspec-github": {
+      "checked_at": "2026-11-16T13:12:00.047619+00:00",
+      "reason": "No action.yml or action.yaml at Drieam/rspec-github@03bce604e89f2974228cdad8a5bbe154d1c52a21",
       "status": "rejected"
     },
     "Excelius-Wang/harbor": {
@@ -536,8 +538,8 @@
       "status": "admitted"
     },
     "cobusgreyling/loop-engineering": {
-      "checked_at": "2026-10-14T09:46:51.196855+00:00",
-      "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@7f8ad9d66391fff65b8583f3c721cbb988c2e251",
+      "checked_at": "2026-11-16T13:12:00.047619+00:00",
+      "reason": "No action.yml or action.yaml at cobusgreyling/loop-engineering@260e575bf5fa6f0636ab3fdd7122b430f8b2d1f9",
       "status": "rejected"
     },
     "codician-team/diffinery": {
@@ -1096,8 +1098,8 @@
       "status": "rejected"
     },
     "ones20250/Openwrt-AX6600": {
-      "checked_at": "2026-11-06T12:31:42.530919+00:00",
-      "reason": "No action.yml or action.yaml at ones20250/Openwrt-AX6600@9e5276ef02a02330c9f7f9a1b0cc912db8b55ed6",
+      "checked_at": "2026-11-16T13:12:00.047619+00:00",
+      "reason": "No action.yml or action.yaml at ones20250/Openwrt-AX6600@6987882e8d0add2ed519c27aab5c7d1becf82a5a",
       "status": "rejected"
     },
     "openqodex/openqodex": {
@@ -1211,8 +1213,8 @@
       "status": "rejected"
     },
     "raeperd/realworld-springboot-java": {
-      "checked_at": "2026-10-29T11:08:31.811531+00:00",
-      "reason": "No action.yml or action.yaml at raeperd/realworld-springboot-java@7e27968a495864f26c9f3ffd9d53965e5f05eefb",
+      "checked_at": "2026-11-16T13:12:00.047619+00:00",
+      "reason": "No action.yml or action.yaml at raeperd/realworld-springboot-java@b5ba0712a3fa446b3e6eae8c2a4ba3269f3fb8ba",
       "status": "rejected"
     },
     "rakeshnitb23/toolism": {
@@ -1396,8 +1398,8 @@
       "status": "admitted"
     },
     "tryAGI/AutoSDK": {
-      "checked_at": "2026-09-28T08:46:03.413383+00:00",
-      "reason": "No action.yml or action.yaml at tryAGI/AutoSDK@f4094e7b0ce535cae6264992a9c7e4a4b426e29d",
+      "checked_at": "2026-11-16T13:12:00.047619+00:00",
+      "reason": "No action.yml or action.yaml at tryAGI/AutoSDK@972435f01a84ae7c74ddc83d9fd0f2f1430b35de",
       "status": "rejected"
     },
     "typesafegithub/github-actions-typing": {
@@ -1531,7 +1533,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-15T12:19:24.053630+00:00",
+  "checked_at": "2026-11-16T13:12:00.047619+00:00",
   "errors": [],
-  "inspected": 9
+  "inspected": 5
 }
