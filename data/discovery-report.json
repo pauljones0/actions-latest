@@ -2,8 +2,8 @@
   "admitted": [],
   "candidates": {
     "15H4NT/Grade-Prophet": {
-      "checked_at": "2026-11-04T12:36:43.337874+00:00",
-      "reason": "No action.yml or action.yaml at 15H4NT/Grade-Prophet@aaf5c391f305dd2901a6bf40c4f1bff05378871e",
+      "checked_at": "2026-11-17T13:54:34.572670+00:00",
+      "reason": "No action.yml or action.yaml at 15H4NT/Grade-Prophet@f78699db94203295e3536c3ac6769b1a94743b9b",
       "status": "rejected"
     },
     "ARM-software/AVH": {
@@ -204,8 +204,8 @@
       "status": "rejected"
     },
     "LindseyB/dummy": {
-      "checked_at": "2026-11-09T13:25:28.909187+00:00",
-      "reason": "No action.yml or action.yaml at LindseyB/dummy@a5b69e3ed714d88157f8872e846cafa3c8312394",
+      "checked_at": "2026-11-17T13:54:34.572670+00:00",
+      "reason": "No action.yml or action.yaml at LindseyB/dummy@54ae3257e6d5a8e062080de96c4454f50211e756",
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
@@ -257,8 +257,8 @@
       "status": "rejected"
     },
     "ProxyScrape/free-proxy-list": {
-      "checked_at": "2026-11-09T13:25:28.909187+00:00",
-      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@3eeee35a72bd298cb88a6400c2afb52d16165b53",
+      "checked_at": "2026-11-17T13:54:34.572670+00:00",
+      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@1736737b17aa996a901d5aa0c037baca45866607",
       "status": "rejected"
     },
     "RamiKrispin/ai-dev-2024-ml-workshop": {
@@ -272,8 +272,8 @@
       "status": "rejected"
     },
     "RamiKrispin/useR2024-pipeline-workshop": {
-      "checked_at": "2026-11-04T12:36:43.337874+00:00",
-      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@b994b2efcf21bd04e40e13742da4d0b42aa0c45e",
+      "checked_at": "2026-11-17T13:54:34.572670+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/useR2024-pipeline-workshop@b7906424202ae90aa20e7b2e68377dd4d17cabd4",
       "status": "rejected"
     },
     "Readme-Workflows/recent-activity": {
@@ -314,8 +314,8 @@
       "status": "rejected"
     },
     "Thordata/awesome-free-proxy-list": {
-      "checked_at": "2026-11-09T13:25:28.909187+00:00",
-      "reason": "No action.yml or action.yaml at Thordata/awesome-free-proxy-list@6c3e56fea49124c9da77fb6613e7e8e6d4701d8f",
+      "checked_at": "2026-11-17T13:54:34.572670+00:00",
+      "reason": "No action.yml or action.yaml at Thordata/awesome-free-proxy-list@154a554549ca32917dd99e1c841cc6bbf80bfec4",
       "status": "rejected"
     },
     "ThreeMoonsLab/agents-shipgate": {
@@ -390,8 +390,8 @@
       "status": "admitted"
     },
     "alirezaeiii/TMDb-Compose-Playground": {
-      "checked_at": "2026-11-08T11:33:53.115600+00:00",
-      "reason": "No action.yml or action.yaml at alirezaeiii/TMDb-Compose-Playground@73d069aac3ad19f855fd0a99d0ae182b6eed4de1",
+      "checked_at": "2026-11-17T13:54:34.572670+00:00",
+      "reason": "No action.yml or action.yaml at alirezaeiii/TMDb-Compose-Playground@7fba12cd4cb0f22157eba4051987a14ac88278a4",
       "status": "rejected"
     },
     "aminya/setup-cpp": {
@@ -654,8 +654,8 @@
       "status": "rejected"
     },
     "docker/actions-toolkit": {
-      "checked_at": "2026-10-30T11:03:10.253590+00:00",
-      "reason": "No action.yml or action.yaml at docker/actions-toolkit@7324f2ccf895035b557b204a95b8120f2d8607a8",
+      "checked_at": "2026-11-17T13:54:34.572670+00:00",
+      "reason": "No action.yml or action.yaml at docker/actions-toolkit@3b74925fbe07013061ed035900165764b5817552",
       "status": "rejected"
     },
     "docker/github-builder": {
@@ -932,8 +932,8 @@
       "status": "admitted"
     },
     "kkzzhizhou/scoop-apps": {
-      "checked_at": "2026-11-10T13:03:41.127296+00:00",
-      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@2593bf86166a3ac9a9d2014690fa842bfd92ff9f",
+      "checked_at": "2026-11-17T13:54:34.572670+00:00",
+      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@ec8b6b9c236cfef4cffa6f2618124717de549792",
       "status": "rejected"
     },
     "koki-develop/ghasec": {
@@ -947,7 +947,7 @@
       "status": "rejected"
     },
     "kucherenko/jscpd": {
-      "checked_at": "2026-11-09T13:25:28.909187+00:00",
+      "checked_at": "2026-11-17T13:54:34.572670+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1029,7 +1029,7 @@
       "status": "admitted"
     },
     "microsoft/ps-rule": {
-      "checked_at": "2026-11-07T11:21:51.548787+00:00",
+      "checked_at": "2026-11-17T13:54:34.572670+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1391,6 +1391,11 @@
       "reason": "No action.yml or action.yaml at team-aliens/DMS-Android@c329692435d5b05dafcf7de3f9348da6e488260b",
       "status": "rejected"
     },
+    "thelastbackspace/traceperf": {
+      "checked_at": "2026-11-17T13:54:34.572670+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
     "tmatens/compose-lint": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "scanner_version": "1.30.0",
@@ -1513,8 +1518,8 @@
       "status": "admitted"
     },
     "zhongfly/mpv-winbuild": {
-      "checked_at": "2026-11-09T13:25:28.909187+00:00",
-      "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@75ff3a0bb83ae864c279bceac5168693443bf493",
+      "checked_at": "2026-11-17T13:54:34.572670+00:00",
+      "reason": "No action.yml or action.yaml at zhongfly/mpv-winbuild@49520b9987f0e6dc7cf0db83634e45c416bd58b6",
       "status": "rejected"
     },
     "zhuyansen/new-term-radar": {
@@ -1533,7 +1538,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-16T13:12:00.047619+00:00",
+  "checked_at": "2026-11-17T13:54:34.572670+00:00",
   "errors": [],
-  "inspected": 5
+  "inspected": 12
 }
