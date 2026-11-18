@@ -1,5 +1,7 @@
 {
-  "admitted": [],
+  "admitted": [
+    "JetBrains/qodana-action"
+  ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-11-17T13:54:34.572670+00:00",
@@ -114,6 +116,11 @@
       "source_sha": "82099739b1880fd187fb6234b491c0f3f07fedb9",
       "status": "admitted"
     },
+    "HoussemDellai/github-actions-course": {
+      "checked_at": "2026-11-18T13:30:26.544589+00:00",
+      "reason": "No action.yml or action.yaml at HoussemDellai/github-actions-course@ef48d9c7bd62de559c4a7de3d591708d2c2b76f9",
+      "status": "rejected"
+    },
     "IEvangelist/resource-translator": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "scanner_version": "1.30.0",
@@ -150,6 +157,12 @@
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "reason": "No action.yml or action.yaml at Jasonliu-0/Newapi-checkin@fccc8ce399f23ae638f70fe566533b287d63bd80",
       "status": "rejected"
+    },
+    "JetBrains/qodana-action": {
+      "checked_at": "2026-11-18T13:30:26.544589+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "13e3acbbaeb2cbfc37893b98e74594985edf42eb",
+      "status": "admitted"
     },
     "JulienKode/team-labeler-action": {
       "checked_at": "2026-11-15T12:19:24.053630+00:00",
@@ -298,8 +311,8 @@
       "status": "rejected"
     },
     "SpaceTimee/Fusion-JetBrainsMapleMono": {
-      "checked_at": "2026-11-11T12:13:33.931925+00:00",
-      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@32276addf583bcf7e9074c5b4e88a85bc7e529f7",
+      "checked_at": "2026-11-18T13:30:26.544589+00:00",
+      "reason": "No action.yml or action.yaml at SpaceTimee/Fusion-JetBrainsMapleMono@90180b6dd96419e623c0f907e2dbc7ac1b7418b1",
       "status": "rejected"
     },
     "Teamwork/github-sync": {
@@ -336,8 +349,8 @@
       "status": "admitted"
     },
     "VeryGoodOpenSource/very_good_workflows": {
-      "checked_at": "2026-10-13T12:13:52.792695+00:00",
-      "reason": "No action.yml or action.yaml at VeryGoodOpenSource/very_good_workflows@c0b9ffb04fb98d34f674d7b7587bd770789ee37e",
+      "checked_at": "2026-11-18T13:30:26.544589+00:00",
+      "reason": "No action.yml or action.yaml at VeryGoodOpenSource/very_good_workflows@ffa474d22032d8e08506a28f8b661cb06d5e3792",
       "status": "rejected"
     },
     "Vladimir-Human/humanizer-ru": {
@@ -1467,6 +1480,11 @@
       "source_sha": "e722eded97059b31d7e8ad3ae0267b74ff24172d",
       "status": "admitted"
     },
+    "wader/bump": {
+      "checked_at": "2026-11-18T13:30:26.544589+00:00",
+      "reason": "No action.yml or action.yaml at wader/bump@75e0149b45f7bc1fba0b4f46256fe4710113de81",
+      "status": "rejected"
+    },
     "whywaita/myshoes": {
       "checked_at": "2026-09-14T10:09:02.295269+00:00",
       "reason": "No action.yml or action.yaml at whywaita/myshoes@8681509cb62bf7317710abecd18a6a3f043e4e3d",
@@ -1480,6 +1498,11 @@
     "xandemon/developer-icons": {
       "checked_at": "2026-11-15T12:19:24.053630+00:00",
       "reason": "No action.yml or action.yaml at xandemon/developer-icons@94559559231f54780bc6f1fbd0306ef595cdeff1",
+      "status": "rejected"
+    },
+    "yahyaouiraouf31-sys/l-ve-light-shadow-library": {
+      "checked_at": "2026-11-18T13:30:26.544589+00:00",
+      "reason": "No action.yml or action.yaml at yahyaouiraouf31-sys/l-ve-light-shadow-library@59294d383a2d0e83dcf213677d3e1f487fdd69e0",
       "status": "rejected"
     },
     "yamadashy/tech-blog-rss-feed": {
@@ -1538,7 +1561,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-17T13:54:34.572670+00:00",
+  "checked_at": "2026-11-18T13:30:26.544589+00:00",
   "errors": [],
-  "inspected": 12
+  "inspected": 6
 }
