@@ -1,7 +1,5 @@
 {
-  "admitted": [
-    "JetBrains/qodana-action"
-  ],
+  "admitted": [],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-11-17T13:54:34.572670+00:00",
@@ -133,8 +131,8 @@
       "status": "rejected"
     },
     "ITJoker233/BingPicApi": {
-      "checked_at": "2026-10-26T10:34:43.509008+00:00",
-      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@3d4565e404fd105b7d1daf3bec2e75d60af97674",
+      "checked_at": "2026-11-19T13:58:02.056106+00:00",
+      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@0031082331fab4c62a4b8538157b6a746d002b9c",
       "status": "rejected"
     },
     "Ikalus1988/MisakaNet": {
@@ -275,8 +273,8 @@
       "status": "rejected"
     },
     "RamiKrispin/ai-dev-2024-ml-workshop": {
-      "checked_at": "2026-11-10T13:03:41.127296+00:00",
-      "reason": "No action.yml or action.yaml at RamiKrispin/ai-dev-2024-ml-workshop@547c3e6e5ce2059fd28720a7f762220d8f937c32",
+      "checked_at": "2026-11-19T13:58:02.056106+00:00",
+      "reason": "No action.yml or action.yaml at RamiKrispin/ai-dev-2024-ml-workshop@22d9b4f4bf2f9a387f9d1b41bb6b67688cbc31e1",
       "status": "rejected"
     },
     "RamiKrispin/pydata-ny-ga-workshop": {
@@ -599,8 +597,8 @@
       "status": "admitted"
     },
     "cybersecsi/RAUDI": {
-      "checked_at": "2026-11-12T13:19:38.892595+00:00",
-      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@9244a0218153b730c362aadc507f0d7413b0ada9",
+      "checked_at": "2026-11-19T13:58:02.056106+00:00",
+      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@126fd160e52f9067ec44a84827474f45e1bec1a2",
       "status": "rejected"
     },
     "cycjimmy/semantic-release-action": {
@@ -704,8 +702,8 @@
       "status": "rejected"
     },
     "eyupio/zoomies": {
-      "checked_at": "2026-11-12T13:19:38.892595+00:00",
-      "reason": "No action.yml or action.yaml at eyupio/zoomies@0756dd00873e80c9e1211d326a8d065c5b31f274",
+      "checked_at": "2026-11-19T13:58:02.056106+00:00",
+      "reason": "No action.yml or action.yaml at eyupio/zoomies@41f4bda84252f51c3b36a0751427cfe4cf110289",
       "status": "rejected"
     },
     "f/wvw.dev": {
@@ -792,8 +790,8 @@
       "status": "rejected"
     },
     "github/gh-aw": {
-      "checked_at": "2026-11-09T13:25:28.909187+00:00",
-      "reason": "No action.yml or action.yaml at github/gh-aw@f9b6db0745d7e3246ad9422d325df0c951b330a2",
+      "checked_at": "2026-11-19T13:58:02.056106+00:00",
+      "reason": "No action.yml or action.yaml at github/gh-aw@5bbe055a9d6ad01d0c94e67dc3646c1be77e50bb",
       "status": "rejected"
     },
     "go-gitea/gitea": {
@@ -817,8 +815,8 @@
       "status": "rejected"
     },
     "grifosaint/exurd-roblox-leaderboard-archive": {
-      "checked_at": "2026-11-07T11:21:51.548787+00:00",
-      "reason": "No action.yml or action.yaml at grifosaint/exurd-roblox-leaderboard-archive@a29205fdcc692bdef2298358c91feb68f09810ea",
+      "checked_at": "2026-11-19T13:58:02.056106+00:00",
+      "reason": "No action.yml or action.yaml at grifosaint/exurd-roblox-leaderboard-archive@4357cb2c21376663db8ad07e9a11d64dcce05e15",
       "status": "rejected"
     },
     "guessi/kubectl-grep": {
@@ -1085,8 +1083,8 @@
       "status": "admitted"
     },
     "nomadicmehul/CloudCaptain": {
-      "checked_at": "2026-11-11T12:13:33.931925+00:00",
-      "reason": "No action.yml or action.yaml at nomadicmehul/CloudCaptain@708a5c3d55336827ac44d1064234dfcdcadf6b9e",
+      "checked_at": "2026-11-19T13:58:02.056106+00:00",
+      "reason": "No action.yml or action.yaml at nomadicmehul/CloudCaptain@929788196a2d0ea739ea6fbcf744ba6cfd771950",
       "status": "rejected"
     },
     "nowscott/EverydayTechNews": {
@@ -1561,7 +1559,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-18T13:30:26.544589+00:00",
+  "checked_at": "2026-11-19T13:58:02.056106+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 7
 }
