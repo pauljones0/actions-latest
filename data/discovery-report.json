@@ -45,8 +45,8 @@
       "status": "admitted"
     },
     "Bush2021/chrome_installer": {
-      "checked_at": "2026-11-08T11:33:53.115600+00:00",
-      "reason": "No action.yml or action.yaml at Bush2021/chrome_installer@d6c4b2fe81a4af293f7194b63de2789e5ddaf077",
+      "checked_at": "2026-11-20T13:39:03.843541+00:00",
+      "reason": "No action.yml or action.yaml at Bush2021/chrome_installer@85de9d3391511c12fea20f73455114ce7ee5ac45",
       "status": "rejected"
     },
     "CDFER/jlcpcb-parts-database": {
@@ -136,7 +136,7 @@
       "status": "rejected"
     },
     "Ikalus1988/MisakaNet": {
-      "checked_at": "2026-11-13T12:40:25.039905+00:00",
+      "checked_at": "2026-11-20T13:39:03.843541+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -145,6 +145,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "d2594079a10f1d6739ee50a2471f0ca57418b554",
       "status": "admitted"
+    },
+    "IsraelBH/ticktock-automation": {
+      "checked_at": "2026-11-20T13:39:03.843541+00:00",
+      "reason": "No action.yml or action.yaml at IsraelBH/ticktock-automation@b7c718c9bdd851ef202cc045f756034b094ab84c",
+      "status": "rejected"
     },
     "Jackychen-12/AI-Search": {
       "checked_at": "2026-09-30T10:46:22.012766+00:00",
@@ -707,8 +712,8 @@
       "status": "rejected"
     },
     "f/wvw.dev": {
-      "checked_at": "2026-11-12T13:19:38.892595+00:00",
-      "reason": "No action.yml or action.yaml at f/wvw.dev@afe3150fc4450957c109f70511478e3aa0d28294",
+      "checked_at": "2026-11-20T13:39:03.843541+00:00",
+      "reason": "No action.yml or action.yaml at f/wvw.dev@bb5f5659b7175d69df3fca84b8ee0223f554cf67",
       "status": "rejected"
     },
     "f2calv/yamlizr": {
@@ -872,8 +877,8 @@
       "status": "admitted"
     },
     "ipitio/backage": {
-      "checked_at": "2026-11-13T12:40:25.039905+00:00",
-      "reason": "No action.yml or action.yaml at ipitio/backage@0886ab43876c6609d89f59e0cc9c301c242aeb41",
+      "checked_at": "2026-11-20T13:39:03.843541+00:00",
+      "reason": "No action.yml or action.yaml at ipitio/backage@39769d6cf5b328c52641080bb87b41e0fbecb79b",
       "status": "rejected"
     },
     "irgaly/xcode-cache": {
@@ -1014,7 +1019,7 @@
       "status": "admitted"
     },
     "maehr/academic-pandoc-template": {
-      "checked_at": "2026-09-19T09:01:01.538456+00:00",
+      "checked_at": "2026-11-20T13:39:03.843541+00:00",
       "reason": "No action.yml or action.yaml at maehr/academic-pandoc-template@b029b8645bbf2406757935c5b5a686c5dfd9967f",
       "status": "rejected"
     },
@@ -1056,8 +1061,8 @@
       "status": "rejected"
     },
     "myoung34/docker-github-actions-runner": {
-      "checked_at": "2026-10-28T10:51:38.846732+00:00",
-      "reason": "No action.yml or action.yaml at myoung34/docker-github-actions-runner@ffa5ab1141b2ed6453ada83f410c457c1382bf34",
+      "checked_at": "2026-11-20T13:39:03.843541+00:00",
+      "reason": "No action.yml or action.yaml at myoung34/docker-github-actions-runner@5df28a36678fff960994cc1749efe4d4cc6c9f83",
       "status": "rejected"
     },
     "myrotvorets/set-commit-status-action": {
@@ -1143,12 +1148,12 @@
       "status": "admitted"
     },
     "philips-labs/slsa-provenance-action": {
-      "checked_at": "2026-11-09T13:25:28.909187+00:00",
+      "checked_at": "2026-11-20T13:39:03.843541+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "pipelab-org/pipelock": {
-      "checked_at": "2026-11-13T12:40:25.039905+00:00",
+      "checked_at": "2026-11-20T13:39:03.843541+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1229,7 +1234,7 @@
       "status": "rejected"
     },
     "rakeshnitb23/toolism": {
-      "checked_at": "2026-11-07T11:21:51.548787+00:00",
+      "checked_at": "2026-11-20T13:39:03.843541+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1356,8 +1361,8 @@
       "status": "rejected"
     },
     "stategraph/stategraph": {
-      "checked_at": "2026-10-28T10:51:38.846732+00:00",
-      "reason": "No action.yml or action.yaml at stategraph/stategraph@d8b9d73c687c294f7e92e07c48319e7ed2175deb",
+      "checked_at": "2026-11-20T13:39:03.843541+00:00",
+      "reason": "No action.yml or action.yaml at stategraph/stategraph@bebd9f93e8bbd9372994d00d85e164d3b3d1eb31",
       "status": "rejected"
     },
     "step-security/agent": {
@@ -1559,7 +1564,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-19T13:58:02.056106+00:00",
+  "checked_at": "2026-11-20T13:39:03.843541+00:00",
   "errors": [],
-  "inspected": 7
+  "inspected": 11
 }
