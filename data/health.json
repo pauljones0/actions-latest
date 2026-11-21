@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-20T13:40:32.404054+00:00",
-  "published_at": "2026-11-20T13:40:30.615124+00:00",
+  "checked_at": "2026-11-21T13:06:31.210382+00:00",
+  "published_at": "2026-11-21T13:06:29.193860+00:00",
   "healthy": true,
   "reasons": [],
   "actions": 648,
@@ -12,15 +12,16 @@
     "ansible/ansible-content-actions",
     "asdf-vm/actions",
     "bitwarden/gh-actions",
-    "bytecodealliance/actions"
+    "bytecodealliance/actions",
+    "secfoo-com/secfoo"
   ],
   "security_counts": {
-    "clean": 566,
+    "clean": 567,
     "warning": 12,
     "blocked": 59,
-    "unknown": 5,
+    "unknown": 3,
     "stale": 0,
-    "error": 6
+    "error": 7
   },
   "editorial_review_queue": [
     "1Password/load-secrets-action",

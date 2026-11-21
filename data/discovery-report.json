@@ -225,8 +225,8 @@
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
-      "checked_at": "2026-11-14T11:47:57.292540+00:00",
-      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@28d4eec22ac1f67fcf63959f4bbd68b07f5d7858",
+      "checked_at": "2026-11-21T13:05:17.040519+00:00",
+      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@7b8b85367ec09f350a808529e8dfd38d37ce16d6",
       "status": "rejected"
     },
     "Mic92/hestia": {
@@ -253,13 +253,13 @@
       "status": "admitted"
     },
     "MohammadBahemmat/V2ray-Collector": {
-      "checked_at": "2026-11-14T11:47:57.292540+00:00",
-      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@2b5cc2b487341db11caace2d61732fa087f51ee8",
+      "checked_at": "2026-11-21T13:05:17.040519+00:00",
+      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@730b34293a700318f985172f112d4f6f3f510859",
       "status": "rejected"
     },
     "MustacheCase/zanadir": {
-      "checked_at": "2026-11-14T11:47:57.292540+00:00",
-      "reason": "No action.yml or action.yaml at MustacheCase/zanadir@67323d1b7afbe949f42096c70a35aaa421087a8b",
+      "checked_at": "2026-11-21T13:05:17.040519+00:00",
+      "reason": "No action.yml or action.yaml at MustacheCase/zanadir@f0803446872d37be0b8bc148129cb4051a992998",
       "status": "rejected"
     },
     "Oval-Tutu/bootstrap-love2d-project": {
@@ -304,8 +304,8 @@
       "status": "rejected"
     },
     "Sarthzk/internship-tracker": {
-      "checked_at": "2026-11-14T11:47:57.292540+00:00",
-      "reason": "No action.yml or action.yaml at Sarthzk/internship-tracker@913ab0d0de602298fb29c1d890daecaabdb6e010",
+      "checked_at": "2026-11-21T13:05:17.040519+00:00",
+      "reason": "No action.yml or action.yaml at Sarthzk/internship-tracker@c614012206a8023f102925e826cfc8117d3befc6",
       "status": "rejected"
     },
     "SecOpsNews/news": {
@@ -742,8 +742,8 @@
       "status": "rejected"
     },
     "fibelatti/pinboard-kotlin": {
-      "checked_at": "2026-09-14T07:57:42.638604+00:00",
-      "reason": "No action.yml or action.yaml at fibelatti/pinboard-kotlin@e9394d6de4dee346124acf01ce397860427212aa",
+      "checked_at": "2026-11-21T13:05:17.040519+00:00",
+      "reason": "No action.yml or action.yaml at fibelatti/pinboard-kotlin@caeb6cff410c701fed00d79c3d9b4b76f568a0eb",
       "status": "rejected"
     },
     "firsttris/plugin.video.sendtokodi": {
@@ -937,8 +937,8 @@
       "status": "admitted"
     },
     "kdeldycke/repomatic": {
-      "checked_at": "2026-11-10T13:03:41.127296+00:00",
-      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@d18fea3b599579327e54f590af92eb5c19947c56",
+      "checked_at": "2026-11-21T13:05:17.040519+00:00",
+      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@28e43a59dbcaf7d7e7b76e30d286e8c11f4d4031",
       "status": "rejected"
     },
     "kerlenton/mcpsnoop": {
@@ -1029,8 +1029,8 @@
       "status": "rejected"
     },
     "melogabriel/tinfoil-shops-status": {
-      "checked_at": "2026-11-06T12:31:42.530919+00:00",
-      "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@8a71f953846f799ea7dc939c56dd167f6ce9184b",
+      "checked_at": "2026-11-21T13:05:17.040519+00:00",
+      "reason": "No action.yml or action.yaml at melogabriel/tinfoil-shops-status@26797e711259b7980f6e568839281c56384caf02",
       "status": "rejected"
     },
     "membrowse/membrowse-action": {
@@ -1356,8 +1356,8 @@
       "status": "rejected"
     },
     "starslingdev/skills": {
-      "checked_at": "2026-11-11T12:13:33.931925+00:00",
-      "reason": "No action.yml or action.yaml at starslingdev/skills@2768545f3b0904609350c25910282d7966eb7ce5",
+      "checked_at": "2026-11-21T13:05:17.040519+00:00",
+      "reason": "No action.yml or action.yaml at starslingdev/skills@5d7a1dbd1643c131430a65ef76ef8b178ba293dc",
       "status": "rejected"
     },
     "stategraph/stategraph": {
@@ -1564,7 +1564,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-20T13:39:03.843541+00:00",
+  "checked_at": "2026-11-21T13:05:17.040519+00:00",
   "errors": [],
-  "inspected": 11
+  "inspected": 8
 }
