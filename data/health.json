@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-21T13:06:31.210382+00:00",
-  "published_at": "2026-11-21T13:06:29.193860+00:00",
+  "checked_at": "2026-11-22T12:55:27.512262+00:00",
+  "published_at": "2026-11-22T12:55:25.306871+00:00",
   "healthy": true,
   "reasons": [],
   "actions": 648,
@@ -16,10 +16,10 @@
     "secfoo-com/secfoo"
   ],
   "security_counts": {
-    "clean": 567,
+    "clean": 569,
     "warning": 12,
     "blocked": 59,
-    "unknown": 3,
+    "unknown": 1,
     "stale": 0,
     "error": 7
   },

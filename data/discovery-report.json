@@ -984,6 +984,11 @@
       "source_sha": "3f782158d0ee6aec19291b232147e2f6c714f9ee",
       "status": "admitted"
     },
+    "learning-cloud-native-go/myapp": {
+      "checked_at": "2026-11-22T12:53:55.900287+00:00",
+      "reason": "No action.yml or action.yaml at learning-cloud-native-go/myapp@e47bceb2a53e121acebb656fd050ba1790c3fe9c",
+      "status": "rejected"
+    },
     "levnikolaevich/claude-code-skills": {
       "checked_at": "2026-10-12T12:29:19.620945+00:00",
       "reason": "No action.yml or action.yaml at levnikolaevich/claude-code-skills@a4b251c63287ec4e938435fa1c8bd237ea0ab42c",
@@ -1239,8 +1244,8 @@
       "status": "rejected"
     },
     "ram0verflow/ram0verflow": {
-      "checked_at": "2026-11-15T12:19:24.053630+00:00",
-      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@73855de8b83957c67d42a0b967b59c9db0a0aefa",
+      "checked_at": "2026-11-22T12:53:55.900287+00:00",
+      "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@1e602dc7c91e5ae5757657dd414eb5036db6a3a1",
       "status": "rejected"
     },
     "redhat-plumbers-in-action/differential-shellcheck": {
@@ -1435,8 +1440,8 @@
       "status": "rejected"
     },
     "ubicloud/ubicloud": {
-      "checked_at": "2026-11-09T13:25:28.909187+00:00",
-      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@230181e83156fec45a5627aea763ae5dcbc3f04b",
+      "checked_at": "2026-11-22T12:53:55.900287+00:00",
+      "reason": "No action.yml or action.yaml at ubicloud/ubicloud@e3d15f22faf7b1a75a8bea368cd45213b1b8527d",
       "status": "rejected"
     },
     "ultralytics/actions": {
@@ -1445,8 +1450,8 @@
       "status": "rejected"
     },
     "unfunco/terraform-aws-oidc-github": {
-      "checked_at": "2026-09-30T10:46:22.012766+00:00",
-      "reason": "No action.yml or action.yaml at unfunco/terraform-aws-oidc-github@4be06dcc472c8b352f73a7f77f5155ce13a71683",
+      "checked_at": "2026-11-22T12:53:55.900287+00:00",
+      "reason": "No action.yml or action.yaml at unfunco/terraform-aws-oidc-github@5d24024bfbfd01cc774e473417001b762a82c014",
       "status": "rejected"
     },
     "upptime/uptime-monitor": {
@@ -1564,7 +1569,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-21T13:05:17.040519+00:00",
+  "checked_at": "2026-11-22T12:53:55.900287+00:00",
   "errors": [],
-  "inspected": 8
+  "inspected": 4
 }
