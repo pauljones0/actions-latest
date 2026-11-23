@@ -675,8 +675,8 @@
       "status": "rejected"
     },
     "docker/github-builder": {
-      "checked_at": "2026-10-16T09:21:04.056686+00:00",
-      "reason": "No action.yml or action.yaml at docker/github-builder@377ca3c90d104f7f668112a1e8399b3239055907",
+      "checked_at": "2026-11-23T15:26:06.966192+00:00",
+      "reason": "No action.yml or action.yaml at docker/github-builder@b446b747a509b6f3d2fea4b17e100577aceb448d",
       "status": "rejected"
     },
     "duriantaco/skylos": {
@@ -706,6 +706,11 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "endersonmenezes/free-disk-space": {
+      "checked_at": "2026-11-23T15:26:06.966192+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
+      "status": "rejected"
+    },
     "eyupio/zoomies": {
       "checked_at": "2026-11-19T13:58:02.056106+00:00",
       "reason": "No action.yml or action.yaml at eyupio/zoomies@41f4bda84252f51c3b36a0751427cfe4cf110289",
@@ -727,8 +732,8 @@
       "status": "rejected"
     },
     "falcondev-oss/github-actions-cache-server": {
-      "checked_at": "2026-09-14T10:09:02.295269+00:00",
-      "reason": "No action.yml or action.yaml at falcondev-oss/github-actions-cache-server@c866ae42315af2cb5e165a23a414228fd2fc035f",
+      "checked_at": "2026-11-23T15:26:06.966192+00:00",
+      "reason": "No action.yml or action.yaml at falcondev-oss/github-actions-cache-server@7561558120a9ae3a44a4cc96af1ab1b10cd4ce4a",
       "status": "rejected"
     },
     "fastapi/full-stack-fastapi-template": {
@@ -752,8 +757,8 @@
       "status": "rejected"
     },
     "flare-collection/flare-redact": {
-      "checked_at": "2026-11-14T11:47:57.292540+00:00",
-      "reason": "No action.yml or action.yaml at flare-collection/flare-redact@eb6151a0bd128d1f11c428daf1209dfc520b170b",
+      "checked_at": "2026-11-23T15:26:06.966192+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "garagon/aguara": {
@@ -771,6 +776,11 @@
       "scanner_version": "1.30.1",
       "source_sha": "d96885a17a1b9ce40bb669c6fa34bbdf75fe2c17",
       "status": "admitted"
+    },
+    "gh-intel/sisakulint": {
+      "checked_at": "2026-11-23T15:26:06.966192+00:00",
+      "reason": "No action.yml or action.yaml at gh-intel/sisakulint@9e8ceee10b8021398e213555d1312e01b1177dbb",
+      "status": "rejected"
     },
     "github-aws-runners/terraform-aws-github-runner": {
       "checked_at": "2026-10-19T10:20:53.851081+00:00",
@@ -995,8 +1005,8 @@
       "status": "rejected"
     },
     "liudf0716/xfrpc": {
-      "checked_at": "2026-09-08T09:10:11.633765+00:00",
-      "reason": "No action.yml or action.yaml at liudf0716/xfrpc@946b88a5328f09da1f3e91922d44b7403e8c4b5f",
+      "checked_at": "2026-11-23T15:26:06.966192+00:00",
+      "reason": "No action.yml or action.yaml at liudf0716/xfrpc@1b8c8ccba5ab93f0d7307152ae2dcd4d7a4861e1",
       "status": "rejected"
     },
     "lukka/get-cmake": {
@@ -1119,8 +1129,8 @@
       "status": "rejected"
     },
     "ones20250/Openwrt-AX6600": {
-      "checked_at": "2026-11-16T13:12:00.047619+00:00",
-      "reason": "No action.yml or action.yaml at ones20250/Openwrt-AX6600@6987882e8d0add2ed519c27aab5c7d1becf82a5a",
+      "checked_at": "2026-11-23T15:26:06.966192+00:00",
+      "reason": "No action.yml or action.yaml at ones20250/Openwrt-AX6600@f6c9c22ddc137df6a739d85eebb554939df68769",
       "status": "rejected"
     },
     "openqodex/openqodex": {
@@ -1466,6 +1476,11 @@
       "source_sha": "2c9e7a64481c1a5ab6aa1ac7aac77823b67c1ee4",
       "status": "admitted"
     },
+    "uucz/moyu": {
+      "checked_at": "2026-11-23T15:26:06.966192+00:00",
+      "reason": "No action.yml or action.yaml at uucz/moyu@f9ef7d0a01fe10c177a15f0f311c35acb0dad6b5",
+      "status": "rejected"
+    },
     "v-fidelusaleksander/ghcertified": {
       "checked_at": "2026-10-05T09:11:26.761166+00:00",
       "reason": "No action.yml or action.yaml at v-fidelusaleksander/ghcertified@6459e0cf5a2e83b9e3e888eb87a23845c2ca2109",
@@ -1569,7 +1584,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-22T12:53:55.900287+00:00",
+  "checked_at": "2026-11-23T15:26:06.966192+00:00",
   "errors": [],
-  "inspected": 4
+  "inspected": 8
 }

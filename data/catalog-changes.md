@@ -1,89 +1,97 @@
 # Latest catalog changes
 
-7 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+9 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## adil192/setup-flutter-submodule
+## aklofas/kicad-happy
 
-[Previous source](https://github.com/adil192/setup-flutter-submodule/tree/e8bf7d1176ee26d99292948523738532400a0de3/) · [Current source](https://github.com/adil192/setup-flutter-submodule/tree/2ece31d15023c66b1e2ee16bcf57db2ebeaa08b6/) · [Upstream code diff](https://github.com/adil192/setup-flutter-submodule/compare/e8bf7d1176ee26d99292948523738532400a0de3...2ece31d15023c66b1e2ee16bcf57db2ebeaa08b6)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | e8bf7d1176ee26d99292948523738532400a0de3 | 2ece31d15023c66b1e2ee16bcf57db2ebeaa08b6 |
-| Selected tag | v3.2 | v3.3 |
-
-## arduino/arduino-lint-action
-
-[Previous source](https://github.com/arduino/arduino-lint-action) · [Current source](https://github.com/arduino/arduino-lint-action/tree/9a3603836c75e41753e531167395edeb90ba5dae/)
+[Previous source](https://github.com/aklofas/kicad-happy/tree/7d9d4d9fef87ac2d3eb16cfc5cdc9a0869f417f4/) · [Current source](https://github.com/aklofas/kicad-happy/tree/6b9767e19979cdef91631573753b1547efdbeab9/) · [Upstream code diff](https://github.com/aklofas/kicad-happy/compare/7d9d4d9fef87ac2d3eb16cfc5cdc9a0869f417f4...6b9767e19979cdef91631573753b1547efdbeab9)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: compliance | null | {&quot;default&quot;: &quot;specification&quot;, &quot;description&quot;: &quot;How strict the checks are.&quot;, &quot;required&quot;: false} |
-| Input: library-manager | null | {&quot;description&quot;: &quot;Configuration of the checks for libraries in the Arduino Library Manager index.&quot;, &quot;required&quot;: false} |
-| Input: official | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Run the checks that only apply to official (non 3rd party) Arduino projects.&quot;, &quot;required&quot;: false} |
-| Input: path | null | {&quot;description&quot;: &quot;Path containing Arduino projects.&quot;, &quot;required&quot;: false} |
-| Input: project-type | null | {&quot;default&quot;: &quot;all&quot;, &quot;description&quot;: &quot;The type of project to check.&quot;, &quot;required&quot;: false} |
-| Input: recursive | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Search path recursively for projects to check.&quot;, &quot;required&quot;: false} |
-| Input: report-file | null | {&quot;description&quot;: &quot;Save a JSON formatted report on the checks to this file.&quot;, &quot;required&quot;: false} |
-| Input: token | null | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;GitHub access token used to get information from the GitHub API.&quot;, &quot;required&quot;: false} |
-| Input: verbose | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Show more information on the checks being run.&quot;, &quot;required&quot;: false} |
-| Input: version | null | {&quot;default&quot;: &quot;1.x&quot;, &quot;description&quot;: &quot;Version of the Arduino Lint tool to use.&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | node24 |
-| Security | unknown | clean |
-| Selected SHA | null | 9a3603836c75e41753e531167395edeb90ba5dae |
-| Selected tag | null | v3.0.0 |
+| Input: derating-profile | {&quot;default&quot;: &quot;commercial&quot;, &quot;description&quot;: &quot;Voltage derating profile: commercial, military, automotive&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;commercial&quot;, &quot;deprecationMessage&quot;: &quot;Has no effect: the schematic analysis always uses the commercial derating profile. The input will be removed in a later release.&quot;, &quot;description&quot;: &quot;Deprecated, no effect (see deprecationMessage)&quot;, &quot;required&quot;: false} |
+| Selected SHA | 7d9d4d9fef87ac2d3eb16cfc5cdc9a0869f417f4 | 6b9767e19979cdef91631573753b1547efdbeab9 |
+| Selected tag | v3.0.1 | v3.0.2 |
 
 ## asklokesh/loki-mode
 
-[Previous source](https://github.com/asklokesh/loki-mode/tree/e7115330b30d0b0e701db18207a94b99c82b5f6e/) · [Current source](https://github.com/asklokesh/loki-mode/tree/f125ad09a0213b3cb5989a1208ca121d60528f59/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/e7115330b30d0b0e701db18207a94b99c82b5f6e...f125ad09a0213b3cb5989a1208ca121d60528f59)
+[Previous source](https://github.com/asklokesh/loki-mode/tree/f125ad09a0213b3cb5989a1208ca121d60528f59/) · [Current source](https://github.com/asklokesh/loki-mode/tree/e44061e21655c81453a2610f1e77720a93a23b55/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/f125ad09a0213b3cb5989a1208ca121d60528f59...e44061e21655c81453a2610f1e77720a93a23b55)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | e7115330b30d0b0e701db18207a94b99c82b5f6e | f125ad09a0213b3cb5989a1208ca121d60528f59 |
-| Selected tag | v11.140.0 | v11.141.4 |
+| Selected SHA | f125ad09a0213b3cb5989a1208ca121d60528f59 | e44061e21655c81453a2610f1e77720a93a23b55 |
+| Selected tag | v11.141.4 | v11.143.0 |
 
-## JulienKode/team-labeler-action
+## game-ci/steam-deploy
 
-[Previous source](https://github.com/JulienKode/team-labeler-action) · [Current source](https://github.com/JulienKode/team-labeler-action/tree/e912b4b3a2e329a4dc6ad282cfecad79cab8fe81/)
+[Previous source](https://github.com/game-ci/steam-deploy/tree/87f8a362c6a8a7dbde08099e4c05da88877f7113/) · [Current source](https://github.com/game-ci/steam-deploy/tree/1c487ecde10efac6b6630e38978187c09497c427/) · [Upstream code diff](https://github.com/game-ci/steam-deploy/compare/87f8a362c6a8a7dbde08099e4c05da88877f7113...1c487ecde10efac6b6630e38978187c09497c427)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: configuration-path | null | {&quot;default&quot;: &quot;.github/teams.yml&quot;, &quot;description&quot;: &quot;The path for the label configurations&quot;, &quot;required&quot;: false} |
-| Input: org-token | null | {&quot;description&quot;: &quot;The organization-level token for reading team memberships&quot;, &quot;required&quot;: false} |
-| Input: repo-token | null | {&quot;description&quot;: &quot;The GITHUB\_TOKEN secret&quot;, &quot;required&quot;: true} |
-| Input: teams-branch | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;To get the teams config from another repo, specify the branch&quot;, &quot;required&quot;: false} |
-| Input: teams-repo | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Get the teams config from another repo&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[&quot;team\_labels&quot;\] |
-| Runtime | null | node24 |
-| Security | unknown | clean |
-| Selected SHA | null | e912b4b3a2e329a4dc6ad282cfecad79cab8fe81 |
-| Selected tag | null | v3.0.0 |
+| Input: depot1Id | null | {&quot;description&quot;: &quot;Explicit Steam depot ID for depot1. Defaults to firstDepotIdOverride or appId plus one.&quot;, &quot;required&quot;: false} |
+| Input: depot2Id | null | {&quot;description&quot;: &quot;Explicit Steam depot ID for depot2. Defaults to the depot1 ID plus one.&quot;, &quot;required&quot;: false} |
+| Input: depot3Id | null | {&quot;description&quot;: &quot;Explicit Steam depot ID for depot3. Defaults to the depot1 ID plus two.&quot;, &quot;required&quot;: false} |
+| Input: depot4Id | null | {&quot;description&quot;: &quot;Explicit Steam depot ID for depot4. Defaults to the depot1 ID plus three.&quot;, &quot;required&quot;: false} |
+| Input: depot5Id | null | {&quot;description&quot;: &quot;Explicit Steam depot ID for depot5. Defaults to the depot1 ID plus four.&quot;, &quot;required&quot;: false} |
+| Input: depot6Id | null | {&quot;description&quot;: &quot;Explicit Steam depot ID for depot6. Defaults to the depot1 ID plus five.&quot;, &quot;required&quot;: false} |
+| Input: depot7Id | null | {&quot;description&quot;: &quot;Explicit Steam depot ID for depot7. Defaults to the depot1 ID plus six.&quot;, &quot;required&quot;: false} |
+| Input: depot8Id | null | {&quot;description&quot;: &quot;Explicit Steam depot ID for depot8. Defaults to the depot1 ID plus seven.&quot;, &quot;required&quot;: false} |
+| Input: depot9Id | null | {&quot;description&quot;: &quot;Explicit Steam depot ID for depot9. Defaults to the depot1 ID plus eight.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 87f8a362c6a8a7dbde08099e4c05da88877f7113 | 1c487ecde10efac6b6630e38978187c09497c427 |
+| Selected tag | v3.2.2 | v3.3.0 |
+
+## j178/prek-action
+
+[Previous source](https://github.com/j178/prek-action/tree/44924fe9ef4a6f88253c4b6b1bf11c689d3ce53d/) · [Current source](https://github.com/j178/prek-action/tree/7b101f8338a08d2bd6fdb3625e4e7692428763a3/) · [Upstream code diff](https://github.com/j178/prek-action/compare/44924fe9ef4a6f88253c4b6b1bf11c689d3ce53d...7b101f8338a08d2bd6fdb3625e4e7692428763a3)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 44924fe9ef4a6f88253c4b6b1bf11c689d3ce53d | 7b101f8338a08d2bd6fdb3625e4e7692428763a3 |
+| Selected tag | v3.1.0 | v3.1.1 |
+
+## jdx/mise-action
+
+[Previous source](https://github.com/jdx/mise-action/tree/d5574b52816a478f9d4e6529a3f6ff17a8a36785/) · [Current source](https://github.com/jdx/mise-action/tree/236a21c3b91f5db6d4e174b348674a0f0caac06d/) · [Upstream code diff](https://github.com/jdx/mise-action/compare/d5574b52816a478f9d4e6529a3f6ff17a8a36785...236a21c3b91f5db6d4e174b348674a0f0caac06d)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | d5574b52816a478f9d4e6529a3f6ff17a8a36785 | 236a21c3b91f5db6d4e174b348674a0f0caac06d |
+| Selected tag | v5.2.8 | v5.2.9 |
+
+## jfrog/setup-jfrog-cli
+
+[Previous source](https://github.com/jfrog/setup-jfrog-cli/tree/ae385c7164244e984cd20a58674e5b57f53596d7/) · [Current source](https://github.com/jfrog/setup-jfrog-cli/tree/4c2f06da03095113100534a16d58d8a252680949/) · [Upstream code diff](https://github.com/jfrog/setup-jfrog-cli/compare/ae385c7164244e984cd20a58674e5b57f53596d7...4c2f06da03095113100534a16d58d8a252680949)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: version | {&quot;default&quot;: &quot;2.131.0&quot;, &quot;description&quot;: &quot;JFrog CLI Version. A concrete X.Y.Z is recommended when download-repository points to a remote repository that stores artifacts locally, since latest is requested as the v2/\[RELEASE\] path and can be served from cache.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;2.133.0&quot;, &quot;description&quot;: &quot;JFrog CLI Version. A concrete X.Y.Z is recommended when download-repository points to a remote repository that stores artifacts locally, since latest is requested as the v2/\[RELEASE\] path and can be served from cache.&quot;, &quot;required&quot;: false} |
+| Selected SHA | ae385c7164244e984cd20a58674e5b57f53596d7 | 4c2f06da03095113100534a16d58d8a252680949 |
+| Selected tag | v5.3.4 | v5.3.5 |
 
 ## node9-ai/node9-proxy
 
-[Previous source](https://github.com/node9-ai/node9-proxy/tree/1d1aee7b2574a1155600e6c79f015163582b8438/) · [Current source](https://github.com/node9-ai/node9-proxy/tree/726a1812de7325628b34b1d36e0e971542952b98/) · [Upstream code diff](https://github.com/node9-ai/node9-proxy/compare/1d1aee7b2574a1155600e6c79f015163582b8438...726a1812de7325628b34b1d36e0e971542952b98)
+[Previous source](https://github.com/node9-ai/node9-proxy/tree/726a1812de7325628b34b1d36e0e971542952b98/) · [Current source](https://github.com/node9-ai/node9-proxy/tree/ecc4dfb9273728c9e6321485ffe3cdb55bd6f8d6/) · [Upstream code diff](https://github.com/node9-ai/node9-proxy/compare/726a1812de7325628b34b1d36e0e971542952b98...ecc4dfb9273728c9e6321485ffe3cdb55bd6f8d6)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 1d1aee7b2574a1155600e6c79f015163582b8438 | 726a1812de7325628b34b1d36e0e971542952b98 |
-| Selected tag | v2.61.1 | v2.62.0 |
+| Selected SHA | 726a1812de7325628b34b1d36e0e971542952b98 | ecc4dfb9273728c9e6321485ffe3cdb55bd6f8d6 |
+| Selected tag | v2.62.0 | v2.62.1 |
 
-## release-drafter/release-drafter
+## peaceiris/actions-hugo
 
-[Previous source](https://github.com/release-drafter/release-drafter/tree/978bb0b30c5ee8cdd332ced253758157150d43f0/) · [Current source](https://github.com/release-drafter/release-drafter/tree/d1a19e60e81a7e650d00a7de9277f87e439117ea/) · [Upstream code diff](https://github.com/release-drafter/release-drafter/compare/978bb0b30c5ee8cdd332ced253758157150d43f0...d1a19e60e81a7e650d00a7de9277f87e439117ea)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 978bb0b30c5ee8cdd332ced253758157150d43f0 | d1a19e60e81a7e650d00a7de9277f87e439117ea |
-| Selected tag | v7.10.0 | v7.11.0 |
-
-## taiki-e/install-action
-
-[Previous source](https://github.com/taiki-e/install-action/tree/4a76afe23f9e08d2d9550fb56e556444e8611d21/) · [Current source](https://github.com/taiki-e/install-action/tree/ab49d3c64680143e184118bed66a46419fc15519/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/4a76afe23f9e08d2d9550fb56e556444e8611d21...ab49d3c64680143e184118bed66a46419fc15519)
+[Previous source](https://github.com/peaceiris/actions-hugo/tree/2752ce1d29631191ea3f27c23495fa06139a5b78/) · [Current source](https://github.com/peaceiris/actions-hugo/tree/d1c81a15d4e6dca7086a17b9c2565cb70fd576bf/) · [Upstream code diff](https://github.com/peaceiris/actions-hugo/compare/2752ce1d29631191ea3f27c23495fa06139a5b78...d1c81a15d4e6dca7086a17b9c2565cb70fd576bf)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 4a76afe23f9e08d2d9550fb56e556444e8611d21 | ab49d3c64680143e184118bed66a46419fc15519 |
-| Selected tag | v2.90.4 | v2.90.5 |
+| Input: dart-sass-version | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Optional fixed standalone Dart Sass version (e.g. 1.108.2). Requires a GitHub API SHA-256 digest.&quot;, &quot;required&quot;: false} |
+| Input: github-token | null | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;GitHub token for Dart Sass release metadata. Read-only permissions suffice; set empty for unauthenticated requests.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 2752ce1d29631191ea3f27c23495fa06139a5b78 | d1c81a15d4e6dca7086a17b9c2565cb70fd576bf |
+| Selected tag | v3.2.1 | v3.3.0 |
+
+## renovatebot/github-action
+
+[Previous source](https://github.com/renovatebot/github-action/tree/266fef21329c44765ad42f9dea1f01f5d2d91084/) · [Current source](https://github.com/renovatebot/github-action/tree/acdd6bda8b035c99ce59d5675816af2aa65a1774/) · [Upstream code diff](https://github.com/renovatebot/github-action/compare/266fef21329c44765ad42f9dea1f01f5d2d91084...acdd6bda8b035c99ce59d5675816af2aa65a1774)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 266fef21329c44765ad42f9dea1f01f5d2d91084 | acdd6bda8b035c99ce59d5675816af2aa65a1774 |
+| Selected tag | v46.3.13 | v46.3.14 |
