@@ -209,9 +209,14 @@
       "reason": "No action.yml or action.yaml at KryptosAI/mcp-observatory@669a2676e25127eabc0ba951acfe8fd18728ce4c",
       "status": "rejected"
     },
+    "L0NE-6/Trae-AutoCheckin": {
+      "checked_at": "2026-11-24T15:20:57.267879+00:00",
+      "reason": "No action.yml or action.yaml at L0NE-6/Trae-AutoCheckin@e7ef5bb29bf04f0b2eaf5e8edc8dadc5ad91abc9",
+      "status": "rejected"
+    },
     "L0NE-6/WorkBuddy-Daily": {
-      "checked_at": "2026-11-11T12:13:33.931925+00:00",
-      "reason": "No action.yml or action.yaml at L0NE-6/WorkBuddy-Daily@fe93e09acc061a9877ffad9c674a134a1f5a8d7e",
+      "checked_at": "2026-11-24T15:20:57.267879+00:00",
+      "reason": "No action.yml or action.yaml at L0NE-6/WorkBuddy-Daily@cc7dbc9f3de14125a873008ca62db379b84cb809",
       "status": "rejected"
     },
     "LE0-Lin/AgentConfigScore": {
@@ -220,8 +225,8 @@
       "status": "rejected"
     },
     "LindseyB/dummy": {
-      "checked_at": "2026-11-17T13:54:34.572670+00:00",
-      "reason": "No action.yml or action.yaml at LindseyB/dummy@54ae3257e6d5a8e062080de96c4454f50211e756",
+      "checked_at": "2026-11-24T15:20:57.267879+00:00",
+      "reason": "No action.yml or action.yaml at LindseyB/dummy@68884ed3a8592fe32642c4e584f5a54e9377d331",
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
@@ -273,8 +278,8 @@
       "status": "rejected"
     },
     "ProxyScrape/free-proxy-list": {
-      "checked_at": "2026-11-17T13:54:34.572670+00:00",
-      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@1736737b17aa996a901d5aa0c037baca45866607",
+      "checked_at": "2026-11-24T15:20:57.267879+00:00",
+      "reason": "No action.yml or action.yaml at ProxyScrape/free-proxy-list@5ab0f08fe0ec965f80d433a9258699d041cf3d2f",
       "status": "rejected"
     },
     "RamiKrispin/ai-dev-2024-ml-workshop": {
@@ -385,8 +390,8 @@
       "status": "admitted"
     },
     "actions/actions-runner-controller": {
-      "checked_at": "2026-09-28T08:46:03.413383+00:00",
-      "reason": "No action.yml or action.yaml at actions/actions-runner-controller@5256d95d8960d205994544dfec8d1ca1e173b361",
+      "checked_at": "2026-11-24T15:20:57.267879+00:00",
+      "reason": "No action.yml or action.yaml at actions/actions-runner-controller@50f96097c06ff45d00c47a7309bdfcf73235a2ab",
       "status": "rejected"
     },
     "actions/scaleset": {
@@ -762,7 +767,7 @@
       "status": "rejected"
     },
     "garagon/aguara": {
-      "checked_at": "2026-11-01T11:31:18.587464+00:00",
+      "checked_at": "2026-11-24T15:20:57.267879+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -842,6 +847,11 @@
     "gy15901580825/Argus": {
       "checked_at": "2026-11-14T11:47:57.292540+00:00",
       "reason": "No action.yml or action.yaml at gy15901580825/Argus@ba97689c054b58828d9183b7030884c887e4e99b",
+      "status": "rejected"
+    },
+    "haidang666/awesome-tool-for-readme-profile": {
+      "checked_at": "2026-11-24T15:20:57.267879+00:00",
+      "reason": "No action.yml or action.yaml at haidang666/awesome-tool-for-readme-profile@79e0ec189111d0cf15fb11376249fbfe3ff5f344",
       "status": "rejected"
     },
     "headlesshq/mc-runtime-test": {
@@ -958,8 +968,8 @@
       "status": "admitted"
     },
     "kkzzhizhou/scoop-apps": {
-      "checked_at": "2026-11-17T13:54:34.572670+00:00",
-      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@ec8b6b9c236cfef4cffa6f2618124717de549792",
+      "checked_at": "2026-11-24T15:20:57.267879+00:00",
+      "reason": "No action.yml or action.yaml at kkzzhizhou/scoop-apps@d0ca433f293e2344b6cdf1f0d3294cf33f676be0",
       "status": "rejected"
     },
     "koki-develop/ghasec": {
@@ -973,7 +983,7 @@
       "status": "rejected"
     },
     "kucherenko/jscpd": {
-      "checked_at": "2026-11-17T13:54:34.572670+00:00",
+      "checked_at": "2026-11-24T15:20:57.267879+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1282,8 +1292,8 @@
       "status": "admitted"
     },
     "runs-on/runs-on": {
-      "checked_at": "2026-11-04T12:36:43.337874+00:00",
-      "reason": "No action.yml or action.yaml at runs-on/runs-on@c141428e26cb3cdda9a3ab9280d0beec56bacc39",
+      "checked_at": "2026-11-24T15:20:57.267879+00:00",
+      "reason": "No action.yml or action.yaml at runs-on/runs-on@473048f31af9d51123f8f5a8a6d7f4e88079b78f",
       "status": "rejected"
     },
     "ruzickap/action-my-broken-link-checker": {
@@ -1584,7 +1594,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-23T15:26:06.966192+00:00",
+  "checked_at": "2026-11-24T15:20:57.267879+00:00",
   "errors": [],
-  "inspected": 8
+  "inspected": 10
 }
