@@ -1,6 +1,7 @@
 {
   "admitted": [
-    "gauravsharmaGG/mergejudge-runner"
+    "anzy-renlab-ai/pronounce",
+    "tiangolo/issue-manager"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
@@ -138,8 +139,8 @@
       "status": "rejected"
     },
     "ITJoker233/BingPicApi": {
-      "checked_at": "2026-11-19T13:58:02.056106+00:00",
-      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@0031082331fab4c62a4b8538157b6a746d002b9c",
+      "checked_at": "2026-11-26T14:31:56.294681+00:00",
+      "reason": "No action.yml or action.yaml at ITJoker233/BingPicApi@d6d908bb0650e28607625fc0e23134a21fb9152d",
       "status": "rejected"
     },
     "Ikalus1988/MisakaNet": {
@@ -342,8 +343,8 @@
       "status": "rejected"
     },
     "Thordata/awesome-free-proxy-list": {
-      "checked_at": "2026-11-17T13:54:34.572670+00:00",
-      "reason": "No action.yml or action.yaml at Thordata/awesome-free-proxy-list@154a554549ca32917dd99e1c841cc6bbf80bfec4",
+      "checked_at": "2026-11-26T14:31:56.294681+00:00",
+      "reason": "No action.yml or action.yaml at Thordata/awesome-free-proxy-list@979b43d940adbac581b43ebf3003f852e8f55958",
       "status": "rejected"
     },
     "ThreeMoonsLab/agents-shipgate": {
@@ -449,6 +450,12 @@
       "checked_at": "2026-10-09T11:32:08.649652+00:00",
       "reason": "No action.yml or action.yaml at angular-schule/angular-cli-ghpages@a77bf049debf305ecd66650937392e0203d025c7",
       "status": "rejected"
+    },
+    "anzy-renlab-ai/pronounce": {
+      "checked_at": "2026-11-26T14:31:56.294681+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "718d786d81fc00e5031240413d8b04f234141af6",
+      "status": "admitted"
     },
     "apisec-inc/AI-Surface": {
       "checked_at": "2026-09-22T09:30:22.736679+00:00",
@@ -619,8 +626,8 @@
       "status": "admitted"
     },
     "cybersecsi/RAUDI": {
-      "checked_at": "2026-11-19T13:58:02.056106+00:00",
-      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@126fd160e52f9067ec44a84827474f45e1bec1a2",
+      "checked_at": "2026-11-26T14:31:56.294681+00:00",
+      "reason": "No action.yml or action.yaml at cybersecsi/RAUDI@3f0b57f74f6506a77d9e605902b0a3b3690963ab",
       "status": "rejected"
     },
     "cycjimmy/semantic-release-action": {
@@ -729,8 +736,8 @@
       "status": "rejected"
     },
     "eyupio/zoomies": {
-      "checked_at": "2026-11-19T13:58:02.056106+00:00",
-      "reason": "No action.yml or action.yaml at eyupio/zoomies@41f4bda84252f51c3b36a0751427cfe4cf110289",
+      "checked_at": "2026-11-26T14:31:56.294681+00:00",
+      "reason": "No action.yml or action.yaml at eyupio/zoomies@bee8f8d7a941133b012dee6840949d19d781104f",
       "status": "rejected"
     },
     "f/wvw.dev": {
@@ -828,13 +835,13 @@
       "status": "rejected"
     },
     "github/gh-aw": {
-      "checked_at": "2026-11-19T13:58:02.056106+00:00",
-      "reason": "No action.yml or action.yaml at github/gh-aw@5bbe055a9d6ad01d0c94e67dc3646c1be77e50bb",
+      "checked_at": "2026-11-26T14:31:56.294681+00:00",
+      "reason": "No action.yml or action.yaml at github/gh-aw@1774173a53b0d7faa267b1a851bf469365bdc42b",
       "status": "rejected"
     },
     "go-gitea/gitea": {
-      "checked_at": "2026-11-15T12:19:24.053630+00:00",
-      "reason": "No action.yml or action.yaml at go-gitea/gitea@6579749a0278926965a7371bd23be70f798c6098",
+      "checked_at": "2026-11-26T14:31:56.294681+00:00",
+      "reason": "No action.yml or action.yaml at go-gitea/gitea@14d2bdc19a2f7142f58cd641fc723fa695aeb64c",
       "status": "rejected"
     },
     "godot-gdunit-labs/gdUnit4-action": {
@@ -963,7 +970,7 @@
       "status": "admitted"
     },
     "jidicula/clang-format-action": {
-      "checked_at": "2026-11-01T11:31:18.587464+00:00",
+      "checked_at": "2026-11-26T14:31:56.294681+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1040,6 +1047,11 @@
     "liudf0716/xfrpc": {
       "checked_at": "2026-11-23T15:26:06.966192+00:00",
       "reason": "No action.yml or action.yaml at liudf0716/xfrpc@1b8c8ccba5ab93f0d7307152ae2dcd4d7a4861e1",
+      "status": "rejected"
+    },
+    "lucernae/nixos-pi": {
+      "checked_at": "2026-11-26T14:31:56.294681+00:00",
+      "reason": "No action.yml or action.yaml at lucernae/nixos-pi@957af53f4b35a7f4b15f03ca68cfc3861743f0ab",
       "status": "rejected"
     },
     "lukka/get-cmake": {
@@ -1465,6 +1477,12 @@
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
+    "tiangolo/issue-manager": {
+      "checked_at": "2026-11-26T14:31:56.294681+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "41c0ac51b1dd4a3c01e60a5186bff7e9cad261cf",
+      "status": "admitted"
+    },
     "tmatens/compose-lint": {
       "checked_at": "2026-09-07T07:23:29.528680+00:00",
       "scanner_version": "1.30.0",
@@ -1622,7 +1640,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-25T15:01:55.366001+00:00",
+  "checked_at": "2026-11-26T14:31:56.294681+00:00",
   "errors": [],
-  "inspected": 12
+  "inspected": 10
 }

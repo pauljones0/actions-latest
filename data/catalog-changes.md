@@ -2,195 +2,169 @@
 
 18 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
-## actions/dependency-review-action
+## actions/create-github-app-token
 
-[Previous source](https://github.com/actions/dependency-review-action/tree/a1d282b36b6f3519aa1f3fc636f609c47dddb294/) · [Current source](https://github.com/actions/dependency-review-action/tree/bbc44d14a204704ccc493733616cd1e93a0321ec/) · [Upstream code diff](https://github.com/actions/dependency-review-action/compare/a1d282b36b6f3519aa1f3fc636f609c47dddb294...bbc44d14a204704ccc493733616cd1e93a0321ec)
+[Previous source](https://github.com/actions/create-github-app-token/tree/64ab729a6294000f5aa4a4bc0b73d1f32bc45510/) · [Current source](https://github.com/actions/create-github-app-token/tree/f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc/) · [Upstream code diff](https://github.com/actions/create-github-app-token/compare/64ab729a6294000f5aa4a4bc0b73d1f32bc45510...f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | a1d282b36b6f3519aa1f3fc636f609c47dddb294 | bbc44d14a204704ccc493733616cd1e93a0321ec |
-| Selected tag | v5.0.0 | v5.0.1 |
+| Selected SHA | 64ab729a6294000f5aa4a4bc0b73d1f32bc45510 | f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc |
+| Selected tag | v3.3.0 | v3.4.0 |
 
 ## anthropics/claude-code-action
 
-[Previous source](https://github.com/anthropics/claude-code-action/tree/cc98b3ae241b0fcfb6a42a2690751afffecb4452/) · [Current source](https://github.com/anthropics/claude-code-action/tree/e5812cd75691ca7bbfc57c0ecf4441db3a1ab7dd/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/cc98b3ae241b0fcfb6a42a2690751afffecb4452...e5812cd75691ca7bbfc57c0ecf4441db3a1ab7dd)
+[Previous source](https://github.com/anthropics/claude-code-action/tree/e5812cd75691ca7bbfc57c0ecf4441db3a1ab7dd/) · [Current source](https://github.com/anthropics/claude-code-action/tree/f431adaf77e0fecf918431e75a2b5b45b85af002/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/e5812cd75691ca7bbfc57c0ecf4441db3a1ab7dd...f431adaf77e0fecf918431e75a2b5b45b85af002)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: allow\_fork\_prs | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Whether to run on pull requests from forks, and on workflow\_run events for a fork&#x27;s run. With any value other than &#x27;true&#x27;, the action skips them, whoever opened them, before it checks anything out. See docs/security.md.&quot;, &quot;required&quot;: false} |
-| Input: base\_branch | {&quot;description&quot;: &quot;The branch to use as the base/source when creating new branches (defaults to repository default branch)&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;The branch to use as the base/source when creating new branches (defaults to repository default branch). On pull requests from authors without write access that don&#x27;t target the default branch, Claude&#x27;s config also comes from it, so don&#x27;t set it to a value from the pull request&quot;, &quot;required&quot;: false} |
-| Selected SHA | cc98b3ae241b0fcfb6a42a2690751afffecb4452 | e5812cd75691ca7bbfc57c0ecf4441db3a1ab7dd |
-| Selected tag | v1.0.278 | v1.0.281 |
+| Selected SHA | e5812cd75691ca7bbfc57c0ecf4441db3a1ab7dd | f431adaf77e0fecf918431e75a2b5b45b85af002 |
+| Selected tag | v1.0.281 | v1.0.283 |
 
-## asklokesh/loki-mode
+## Added: anzy-renlab-ai/pronounce
 
-[Previous source](https://github.com/asklokesh/loki-mode/tree/3ee0df67c0be7bcdec404e9fd9323d638bc586a4/) · [Current source](https://github.com/asklokesh/loki-mode/tree/15e73cbfa4fd97ddb01c17f7a775474d81ecbe22/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/3ee0df67c0be7bcdec404e9fd9323d638bc586a4...15e73cbfa4fd97ddb01c17f7a775474d81ecbe22)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 3ee0df67c0be7bcdec404e9fd9323d638bc586a4 | 15e73cbfa4fd97ddb01c17f7a775474d81ecbe22 |
-| Selected tag | v11.152.0 | v11.156.0 |
-
-## auscaster/silvertongue
-
-[Previous source](https://github.com/auscaster/silvertongue/tree/06fe432eac6f8420e30102cf7b7cdb13b03f282d/) · [Current source](https://github.com/auscaster/silvertongue/tree/d0ec739c6867dd5b8113c3f8667eae60b28328a5/) · [Upstream code diff](https://github.com/auscaster/silvertongue/compare/06fe432eac6f8420e30102cf7b7cdb13b03f282d...d0ec739c6867dd5b8113c3f8667eae60b28328a5)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Description | Funny AI code review. Let Gordon Ramsay school your sloppy PRs, or Ricky Gervais roast them. 65+ celebrity voices and styles. | AI code review in 65+ famous voices. From comedians, to Shakespeare, to Brainrot. Slop doesn&#x27;t have to be boring. |
-| Selected SHA | 06fe432eac6f8420e30102cf7b7cdb13b03f282d | d0ec739c6867dd5b8113c3f8667eae60b28328a5 |
-| Selected tag | v1.1.1 | v1.2.0 |
-
-## aws-actions/amazon-ecr-login
-
-[Previous source](https://github.com/aws-actions/amazon-ecr-login/tree/03f1aad4c6c7ffd436567f42f9384779290529bd/) · [Current source](https://github.com/aws-actions/amazon-ecr-login/tree/7290e214a610b32bc0eef81748948b6d466a8783/) · [Upstream code diff](https://github.com/aws-actions/amazon-ecr-login/compare/03f1aad4c6c7ffd436567f42f9384779290529bd...7290e214a610b32bc0eef81748948b6d466a8783)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: ecr-private-token-type | null | {&quot;default&quot;: &quot;regional-token&quot;, &quot;description&quot;: &quot;Choose the token type for ECR Private registries. Options: \[regional-token, global-token\]&quot;, &quot;required&quot;: false} |
-| Selected SHA | 03f1aad4c6c7ffd436567f42f9384779290529bd | 7290e214a610b32bc0eef81748948b6d466a8783 |
-| Selected tag | v2.1.7 | v2.2.0 |
-
-## aws-actions/aws-secretsmanager-get-secrets
-
-[Previous source](https://github.com/aws-actions/aws-secretsmanager-get-secrets/tree/2297f9a879480a9e3af9b293ed15c70caf8e1c88/) · [Current source](https://github.com/aws-actions/aws-secretsmanager-get-secrets/tree/e952bd7125c27e5be0060e50955b90a7e5addd99/) · [Upstream code diff](https://github.com/aws-actions/aws-secretsmanager-get-secrets/compare/2297f9a879480a9e3af9b293ed15c70caf8e1c88...e952bd7125c27e5be0060e50955b90a7e5addd99)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: http-proxy | null | {&quot;description&quot;: &quot;(Optional) HTTP or HTTPS proxy URL to route Secrets Manager API calls through, e.g. http://proxy.example.com:3128. Defaults to the https\_proxy/HTTPS\_PROXY environment variable. Set no-proxy to \\&quot;\*\\&quot; to ignore a proxy from the environment.&quot;, &quot;required&quot;: false} |
-| Input: no-proxy | null | {&quot;description&quot;: &quot;(Optional) Comma-separated hosts that bypass the proxy, e.g. .amazonaws.com, or \\&quot;\*\\&quot; for all hosts. Defaults to the no\_proxy/NO\_PROXY environment variable, also when http-proxy is set. Only used when a proxy is configured.&quot;, &quot;required&quot;: false} |
-| Selected SHA | 2297f9a879480a9e3af9b293ed15c70caf8e1c88 | e952bd7125c27e5be0060e50955b90a7e5addd99 |
-| Selected tag | v3.0.2 | v4.0.0 |
-
-## chromaui/action
-
-[Previous source](https://github.com/chromaui/action/tree/6efa19d4a40404313897de5a6d516e0333a2a787/) · [Current source](https://github.com/chromaui/action/tree/86505fc3fa3b2ed5f39eda89f34f4051ea8ff0c8/) · [Upstream code diff](https://github.com/chromaui/action/compare/6efa19d4a40404313897de5a6d516e0333a2a787...86505fc3fa3b2ed5f39eda89f34f4051ea8ff0c8)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: onlyChanged | {&quot;description&quot;: &quot;Enables TurboSnap: Only run stories affected by files changed since the baseline build&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Enables TurboSnap: Only run stories potentially affected by files changed since the baseline build&quot;, &quot;required&quot;: false} |
-| Input: traceChanged | {&quot;description&quot;: &quot;Print dependency trace for changed files to affected story files; set to \\&quot;expanded\\&quot; to list individual modules&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Print dependency trace for changed files to potentially affected story files; set to \\&quot;expanded\\&quot; to list individual modules&quot;, &quot;required&quot;: false} |
-| Selected SHA | 6efa19d4a40404313897de5a6d516e0333a2a787 | 86505fc3fa3b2ed5f39eda89f34f4051ea8ff0c8 |
-| Selected tag | v18.14.5 | v18.14.6 |
-
-## dawidd6/action-homebrew-bump-formula
-
-[Previous source](https://github.com/dawidd6/action-homebrew-bump-formula/tree/b12d2bc99c46444125e606142f28200ec71a1214/) · [Current source](https://github.com/dawidd6/action-homebrew-bump-formula/tree/346ef10bbd55df1c9c70fbaa6b016d26876eefb1/) · [Upstream code diff](https://github.com/dawidd6/action-homebrew-bump-formula/compare/b12d2bc99c46444125e606142f28200ec71a1214...346ef10bbd55df1c9c70fbaa6b016d26876eefb1)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | b12d2bc99c46444125e606142f28200ec71a1214 | 346ef10bbd55df1c9c70fbaa6b016d26876eefb1 |
-| Selected tag | v10 | v11 |
-
-## Added: gauravsharmaGG/mergejudge-runner
-
-[Source](https://github.com/gauravsharmaGG/mergejudge-runner) — Open-source AI pull request reviewer: sorts every PR into auto, review or block. Rules first, your own AI key.
+[Source](https://github.com/anzy-renlab-ai/pronounce) — Generate a sourced pronunciation glossary for developer jargon found in Markdown documentation.
 
 New entries still require observed stability and fresh scan evidence before usage.
 
-## graalvm/setup-graalvm
+## asklokesh/loki-mode
 
-[Previous source](https://github.com/graalvm/setup-graalvm/tree/d6eca2595046623d69d636041513c80abf745406/) · [Current source](https://github.com/graalvm/setup-graalvm/tree/60e76998d25690099182b796e99b8804da582d90/) · [Upstream code diff](https://github.com/graalvm/setup-graalvm/compare/d6eca2595046623d69d636041513c80abf745406...60e76998d25690099182b796e99b8804da582d90)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | d6eca2595046623d69d636041513c80abf745406 | 60e76998d25690099182b796e99b8804da582d90 |
-| Selected tag | v1.6.9 | v1.6.10 |
-
-## JetBrains/qodana-action
-
-[Previous source](https://github.com/JetBrains/qodana-action) · [Current source](https://github.com/JetBrains/qodana-action/tree/13e3acbbaeb2cbfc37893b98e74594985edf42eb/)
+[Previous source](https://github.com/asklokesh/loki-mode/tree/15e73cbfa4fd97ddb01c17f7a775474d81ecbe22/) · [Current source](https://github.com/asklokesh/loki-mode/tree/3b8cdc5a65cbdf4a53b441f1c9d0255c20aa92f6/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/15e73cbfa4fd97ddb01c17f7a775474d81ecbe22...3b8cdc5a65cbdf4a53b441f1c9d0255c20aa92f6)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: additional-cache-key | null | {&quot;default&quot;: &quot;qodana-2026.2-${{ github.ref }}&quot;, &quot;description&quot;: &quot;Set the additional cache key&quot;, &quot;required&quot;: false} |
-| Input: args | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Additional Qodana CLI arguments, e.g. \\&quot;--log-level debug --property key=value\\&quot;. Quote arguments containing spaces. Comma-separated format is deprecated.&quot;, &quot;required&quot;: false} |
-| Input: artifact-name | null | {&quot;default&quot;: &quot;qodana-report&quot;, &quot;description&quot;: &quot;Specify Qodana results artifact name, used for results uploading&quot;, &quot;required&quot;: false} |
-| Input: cache-default-branch-only | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Upload cache for the default branch only&quot;, &quot;required&quot;: false} |
-| Input: cache-dir | null | {&quot;default&quot;: &quot;${{ runner.temp }}/qodana/caches&quot;, &quot;description&quot;: &quot;Directory to store Qodana caches&quot;, &quot;required&quot;: false} |
-| Input: commit-message | null | {&quot;default&quot;: &quot;🤖 Apply quick-fixes by Qodana&quot;, &quot;description&quot;: &quot;Commit message for the commit with quick-fixes. Not used if \`push-fixes\` is set to \`none\`&quot;, &quot;required&quot;: false} |
-| Input: env-vars-to-linter | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Comma-separated names of environment variables whose values should be passed to the Qodana linter container. Docker mode only; ignored in native mode because the linter already inherits the process environment.&quot;, &quot;required&quot;: false} |
-| Input: github-token | null | {&quot;default&quot;: &quot;${{ github.token }}&quot;, &quot;description&quot;: &quot;GitHub token to access the repository: post annotations, comments&quot;, &quot;required&quot;: false} |
-| Input: nightly-version | null | {&quot;default&quot;: &quot;&quot;, &quot;deprecationMessage&quot;: &quot;This option is for development purposes only. Do not use it in production.&quot;, &quot;description&quot;: &quot;Qodana CLI nightly version to use (e.g. 2026.2 or latest). Downloads CLI from tag v{version}-nightly.&quot;, &quot;required&quot;: false} |
-| Input: post-pr-comment | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Post a comment with the Qodana results summary to the pull request&quot;, &quot;required&quot;: false} |
-| Input: pr-mode | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Analyze ONLY changed files in a pull request&quot;, &quot;required&quot;: false} |
-| Input: primary-cache-key | null | {&quot;default&quot;: &quot;qodana-2026.2-${{ github.ref }}-${{ github.sha }}&quot;, &quot;description&quot;: &quot;Set the primary cache key&quot;, &quot;required&quot;: false} |
-| Input: push-fixes | null | {&quot;default&quot;: &quot;none&quot;, &quot;description&quot;: &quot;Push Qodana fixes to the repository, can be none, branch to the current branch, or a pull request&quot;, &quot;required&quot;: false} |
-| Input: results-dir | null | {&quot;default&quot;: &quot;${{ runner.temp }}/qodana/results&quot;, &quot;description&quot;: &quot;Directory to store the analysis results&quot;, &quot;required&quot;: false} |
-| Input: upload-result | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Upload Qodana results (SARIF, other artifacts, logs) as an artifact to the job&quot;, &quot;required&quot;: false} |
-| Input: use-annotations | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Use annotations to mark the results in the GitHub user interface&quot;, &quot;required&quot;: false} |
-| Input: use-caches | null | {&quot;default&quot;: &quot;true&quot;, &quot;description&quot;: &quot;Automatically restore and save Qodana caches using GitHub caches&quot;, &quot;required&quot;: false} |
-| Input: use-installed-cli | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Use a Qodana CLI already available on PATH instead of downloading one.&quot;, &quot;required&quot;: false} |
-| Observed stability | null | observed |
-| Outputs | null | \[\] |
-| Runtime | null | node24 |
-| Security | unknown | clean |
-| Selected SHA | null | 13e3acbbaeb2cbfc37893b98e74594985edf42eb |
-| Selected tag | null | v2026.2.4 |
+| Selected SHA | 15e73cbfa4fd97ddb01c17f7a775474d81ecbe22 | 3b8cdc5a65cbdf4a53b441f1c9d0255c20aa92f6 |
+| Selected tag | v11.156.0 | v11.161.0 |
 
-## node9-ai/node9-proxy
+## bridgecrewio/checkov-action
 
-[Previous source](https://github.com/node9-ai/node9-proxy/tree/e766c8953278ec5379754a864ec63907aaf8593a/) · [Current source](https://github.com/node9-ai/node9-proxy/tree/094b4fb1d72ea3b0ee5bb47755aad1d0433c1e59/) · [Upstream code diff](https://github.com/node9-ai/node9-proxy/compare/e766c8953278ec5379754a864ec63907aaf8593a...094b4fb1d72ea3b0ee5bb47755aad1d0433c1e59)
+[Previous source](https://github.com/bridgecrewio/checkov-action/tree/3f0caf0c3aa9f56ade6b49f6e60b63aaeafb75a3/) · [Current source](https://github.com/bridgecrewio/checkov-action/tree/b17b606d6ec72bb8ba5721ad5b7e340b80a9fc39/) · [Upstream code diff](https://github.com/bridgecrewio/checkov-action/compare/3f0caf0c3aa9f56ade6b49f6e60b63aaeafb75a3...b17b606d6ec72bb8ba5721ad5b7e340b80a9fc39)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | e766c8953278ec5379754a864ec63907aaf8593a | 094b4fb1d72ea3b0ee5bb47755aad1d0433c1e59 |
-| Selected tag | v2.65.0 | v2.65.6 |
+| Selected SHA | 3f0caf0c3aa9f56ade6b49f6e60b63aaeafb75a3 | b17b606d6ec72bb8ba5721ad5b7e340b80a9fc39 |
+| Selected tag | v12.3141.0 | v12.3142.0 |
+
+## chromaui/action
+
+[Previous source](https://github.com/chromaui/action/tree/86505fc3fa3b2ed5f39eda89f34f4051ea8ff0c8/) · [Current source](https://github.com/chromaui/action/tree/b46fae7df99a74cc2201b00cb59ec498c3346530/) · [Upstream code diff](https://github.com/chromaui/action/compare/86505fc3fa3b2ed5f39eda89f34f4051ea8ff0c8...b46fae7df99a74cc2201b00cb59ec498c3346530)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 86505fc3fa3b2ed5f39eda89f34f4051ea8ff0c8 | b46fae7df99a74cc2201b00cb59ec498c3346530 |
+| Selected tag | v18.14.6 | v18.15.0 |
+
+## cross-platform-actions/action
+
+[Previous source](https://github.com/cross-platform-actions/action/tree/82668f1fbd89d9c99487604f822cbf6716f124d3/) · [Current source](https://github.com/cross-platform-actions/action/tree/30cde56b87a128507bebea9531205087890ee360/) · [Upstream code diff](https://github.com/cross-platform-actions/action/compare/82668f1fbd89d9c99487604f822cbf6716f124d3...30cde56b87a128507bebea9531205087890ee360)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 82668f1fbd89d9c99487604f822cbf6716f124d3 | 30cde56b87a128507bebea9531205087890ee360 |
+| Selected tag | v1.7.0 | v1.8.0 |
+
+## danielroe/uppt
+
+[Previous source](https://github.com/danielroe/uppt/tree/427b736befa839b403dd145f2a7c16dbf3fd4482/) · [Current source](https://github.com/danielroe/uppt/tree/2c9a289359311b9661cc99886a71121209b89d17/) · [Upstream code diff](https://github.com/danielroe/uppt/compare/427b736befa839b403dd145f2a7c16dbf3fd4482...2c9a289359311b9661cc99886a71121209b89d17)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 427b736befa839b403dd145f2a7c16dbf3fd4482 | 2c9a289359311b9661cc99886a71121209b89d17 |
+| Selected tag | v0.6.13 | v0.6.14 |
+
+## getsentry/action-release
+
+[Previous source](https://github.com/getsentry/action-release/tree/d55c8c3b7375607e972b710f12926b676d89d7d2/) · [Current source](https://github.com/getsentry/action-release/tree/2e505a70ff06dac263413242aa3617fec90134e5/) · [Upstream code diff](https://github.com/getsentry/action-release/compare/d55c8c3b7375607e972b710f12926b676d89d7d2...2e505a70ff06dac263413242aa3617fec90134e5)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: ext | null | {&quot;description&quot;: &quot;Space-separated list of file extensions to upload from \`sourcemaps\`\\ndirectories (e.g. \\&quot;js map ts\\&quot;). Replaces the sentry-cli defaults\\n(js cjs mjs map jsbundle bundle), so list them too if you still need them.\\nOmit to use the defaults.&quot;, &quot;required&quot;: false} |
+| Input: sourcemaps | {&quot;description&quot;: &quot;Space-separated list of paths to JavaScript source maps.\\nOmit to skip uploading sourcemaps.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Space-separated list of paths or glob patterns to JavaScript source maps.\\nOmit to skip uploading sourcemaps.&quot;, &quot;required&quot;: false} |
+| Input: strip\_prefix | null | {&quot;description&quot;: &quot;Space-separated list of prefixes to remove from the source paths\\ninside uploaded source maps. E.g. \\&quot;../\\&quot; turns \\&quot;../src/app.ts\\&quot; into \\&quot;src/app.ts\\&quot;.&quot;, &quot;required&quot;: false} |
+| Input: url\_prefix | {&quot;description&quot;: &quot;Adds a prefix to source map urls after stripping them.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Adds a prefix to source map urls after stripping them.\\nA single prefix applies to all sourcemaps entries. To use a different prefix\\nper entry, give a space-separated list with one prefix per entry, in the same order.&quot;, &quot;required&quot;: false} |
+| Selected SHA | d55c8c3b7375607e972b710f12926b676d89d7d2 | 2e505a70ff06dac263413242aa3617fec90134e5 |
+| Selected tag | v3.8.0 | v3.9.1 |
+
+## jdx/mise-action
+
+[Previous source](https://github.com/jdx/mise-action/tree/236a21c3b91f5db6d4e174b348674a0f0caac06d/) · [Current source](https://github.com/jdx/mise-action/tree/90f833d396d0cc3674b631d2d225e306476c303a/) · [Upstream code diff](https://github.com/jdx/mise-action/compare/236a21c3b91f5db6d4e174b348674a0f0caac06d...90f833d396d0cc3674b631d2d225e306476c303a)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 236a21c3b91f5db6d4e174b348674a0f0caac06d | 90f833d396d0cc3674b631d2d225e306476c303a |
+| Selected tag | v5.2.9 | v5.2.10 |
+
+## jonelantha/gatsby-s3-action
+
+[Previous source](https://github.com/jonelantha/gatsby-s3-action/tree/08b1e5dc1df5022aa5c416355788d0294a232f44/) · [Current source](https://github.com/jonelantha/gatsby-s3-action/tree/fc8b21b0cd1f074b9d9b842b5908a1718a1bb1c6/) · [Upstream code diff](https://github.com/jonelantha/gatsby-s3-action/compare/08b1e5dc1df5022aa5c416355788d0294a232f44...fc8b21b0cd1f074b9d9b842b5908a1718a1bb1c6)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 08b1e5dc1df5022aa5c416355788d0294a232f44 | fc8b21b0cd1f074b9d9b842b5908a1718a1bb1c6 |
+| Selected tag | v4.0.0 | v4.0.1 |
 
 ## openqodex/openqodex
 
-[Previous source](https://github.com/openqodex/openqodex/tree/833bfb4f11d058b35da61014f1f406dac7516e16/) · [Current source](https://github.com/openqodex/openqodex/tree/0a67e51fdf9e67aebf082d4dcf700a54c200e1af/) · [Upstream code diff](https://github.com/openqodex/openqodex/compare/833bfb4f11d058b35da61014f1f406dac7516e16...0a67e51fdf9e67aebf082d4dcf700a54c200e1af)
+[Previous source](https://github.com/openqodex/openqodex/tree/0a67e51fdf9e67aebf082d4dcf700a54c200e1af/) · [Current source](https://github.com/openqodex/openqodex/tree/e92228a3b0611d4641acf69abbd2c7c3c089599b/) · [Upstream code diff](https://github.com/openqodex/openqodex/compare/0a67e51fdf9e67aebf082d4dcf700a54c200e1af...e92228a3b0611d4641acf69abbd2c7c3c089599b)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: version | {&quot;default&quot;: &quot;0.18.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.19.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} |
-| Selected SHA | 833bfb4f11d058b35da61014f1f406dac7516e16 | 0a67e51fdf9e67aebf082d4dcf700a54c200e1af |
-| Selected tag | v0.18.0 | v0.19.0 |
+| Input: version | {&quot;default&quot;: &quot;0.19.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.20.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 0a67e51fdf9e67aebf082d4dcf700a54c200e1af | e92228a3b0611d4641acf69abbd2c7c3c089599b |
+| Selected tag | v0.19.0 | v0.20.0 |
 
-## pullfrog/pullfrog
+## oras-project/setup-oras
 
-[Previous source](https://github.com/pullfrog/pullfrog/tree/75f7ee99ad40922d195eff131f025f4ba79035ff/) · [Current source](https://github.com/pullfrog/pullfrog/tree/9eb4e93d38160a21b0e85b759ab8ea9fecaf5e58/) · [Upstream code diff](https://github.com/pullfrog/pullfrog/compare/75f7ee99ad40922d195eff131f025f4ba79035ff...9eb4e93d38160a21b0e85b759ab8ea9fecaf5e58)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 75f7ee99ad40922d195eff131f025f4ba79035ff | 9eb4e93d38160a21b0e85b759ab8ea9fecaf5e58 |
-| Selected tag | v0.1.131 | v0.1.138 |
-
-## sbt/setup-sbt
-
-[Previous source](https://github.com/sbt/setup-sbt/tree/67d461eba2c4753196c230e02da850757ba4775e/) · [Current source](https://github.com/sbt/setup-sbt/tree/7e114eae4f32ec3f93c851c2793376a77f384409/) · [Upstream code diff](https://github.com/sbt/setup-sbt/compare/67d461eba2c4753196c230e02da850757ba4775e...7e114eae4f32ec3f93c851c2793376a77f384409)
+[Previous source](https://github.com/oras-project/setup-oras/tree/5e2f2482b30b0cb3e14e67f89a80c88c659a7c63/) · [Current source](https://github.com/oras-project/setup-oras/tree/ac735097e22fe643015b0d19645f7c9a69942128/) · [Upstream code diff](https://github.com/oras-project/setup-oras/compare/5e2f2482b30b0cb3e14e67f89a80c88c659a7c63...ac735097e22fe643015b0d19645f7c9a69942128)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: sbt-runner-version | {&quot;default&quot;: &quot;2.0.12&quot;, &quot;description&quot;: &quot;The runner version (The actual version is controlled via project/build.properties)&quot;, &quot;required&quot;: true} | {&quot;default&quot;: &quot;2.1.0&quot;, &quot;description&quot;: &quot;The runner version (The actual version is controlled via project/build.properties)&quot;, &quot;required&quot;: true} |
-| Selected SHA | 67d461eba2c4753196c230e02da850757ba4775e | 7e114eae4f32ec3f93c851c2793376a77f384409 |
-| Selected tag | v1.5.14 | v1.5.15 |
+| Input: token | null | {&quot;default&quot;: &quot;${{ github.server\_url == &#x27;https://github.com&#x27; &amp;&amp; github.token \|\| &#x27;&#x27; }}&quot;, &quot;description&quot;: &quot;GitHub token for the download. Set to an empty string to download without a token.&quot;, &quot;required&quot;: false} |
+| Input: version | {&quot;default&quot;: &quot;1.3.1&quot;, &quot;description&quot;: &quot;Version of the official ORAS CLI to install&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;1.4.0&quot;, &quot;description&quot;: &quot;Version of the official ORAS CLI to install&quot;, &quot;required&quot;: false} |
+| Selected SHA | 5e2f2482b30b0cb3e14e67f89a80c88c659a7c63 | ac735097e22fe643015b0d19645f7c9a69942128 |
+| Selected tag | v2.0.3 | v2.0.4 |
 
-## step-security/harden-runner
+## py-cov-action/python-coverage-comment-action
 
-[Previous source](https://github.com/step-security/harden-runner/tree/1d88384fd173af6ecb012dfd0264a306b711241a/) · [Current source](https://github.com/step-security/harden-runner/tree/aebdcf6156ab6691adf63218240e476564a1ed4c/) · [Upstream code diff](https://github.com/step-security/harden-runner/compare/1d88384fd173af6ecb012dfd0264a306b711241a...aebdcf6156ab6691adf63218240e476564a1ed4c)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: check-run-id | null | {&quot;default&quot;: &quot;${{ job.check\_run\_id }}&quot;, &quot;description&quot;: &quot;Internal, do not set. The job&#x27;s check run ID, used by secure-registry to identify the job when no OIDC token is available.&quot;, &quot;required&quot;: false} |
-| Input: secure-registry | null | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Route npm installs in this job through StepSecurity secure-registry. Set to true for the default settings, or to a YAML block: \`ecosystems\` (all, the default, or a list such as \[npm\]) picks which ecosystems are routed, \`ecosystem-defaults\` holds settings shared by every ecosystem, and a block per ecosystem (for example \`npm:\`) overrides them. id-token: write permission is recommended so GitHub verifies the job&#x27;s identity. Leave empty or set to false to disable.&quot;, &quot;required&quot;: false} |
-| Selected SHA | 1d88384fd173af6ecb012dfd0264a306b711241a | aebdcf6156ab6691adf63218240e476564a1ed4c |
-| Selected tag | v2.22.4 | v2.23.0 |
-
-## taiki-e/install-action
-
-[Previous source](https://github.com/taiki-e/install-action/tree/ab49d3c64680143e184118bed66a46419fc15519/) · [Current source](https://github.com/taiki-e/install-action/tree/75a7c0f87bd666af3cdb75c5b9e9d03ab6044e6f/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/ab49d3c64680143e184118bed66a46419fc15519...75a7c0f87bd666af3cdb75c5b9e9d03ab6044e6f)
+[Previous source](https://github.com/py-cov-action/python-coverage-comment-action/tree/07249dd712cd2464873eb8a59a24f97fd281e76f/) · [Current source](https://github.com/py-cov-action/python-coverage-comment-action/tree/281cb0dcb5b15d4773037d51873558fddc5a7df8/) · [Upstream code diff](https://github.com/py-cov-action/python-coverage-comment-action/compare/07249dd712cd2464873eb8a59a24f97fd281e76f...281cb0dcb5b15d4773037d51873558fddc5a7df8)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | ab49d3c64680143e184118bed66a46419fc15519 | 75a7c0f87bd666af3cdb75c5b9e9d03ab6044e6f |
-| Selected tag | v2.90.5 | v2.90.6 |
+| Input: COMMENT\_ON\_PR | null | {&quot;default&quot;: true, &quot;description&quot;: &quot;If false, will not comment on the pull request (nor write the comment file for the workflow\_run step). The job summary, annotations and outputs are unaffected.\\n&quot;} |
+| Input: WRITE\_JOB\_SUMMARY | null | {&quot;default&quot;: true, &quot;description&quot;: &quot;If false, will not write the coverage report to the job summary.\\n&quot;} |
+| Selected SHA | 07249dd712cd2464873eb8a59a24f97fd281e76f | 281cb0dcb5b15d4773037d51873558fddc5a7df8 |
+| Selected tag | v4.6 | v4.7 |
 
-## tmatens/compose-lint
+## shogo82148/actions-setup-redis
 
-[Previous source](https://github.com/tmatens/compose-lint/tree/ad1d18f46b594e89658acc08fbc73e04011829d9/) · [Current source](https://github.com/tmatens/compose-lint/tree/a6689c40dc419086077e6ca7d001302c818f0b33/) · [Upstream code diff](https://github.com/tmatens/compose-lint/compare/ad1d18f46b594e89658acc08fbc73e04011829d9...a6689c40dc419086077e6ca7d001302c818f0b33)
+[Previous source](https://github.com/shogo82148/actions-setup-redis/tree/d566e806806d1bac2b414538d57b2b7f721e1d83/) · [Current source](https://github.com/shogo82148/actions-setup-redis/tree/ae0182647afadb63583dd695f4312b6965fc28df/) · [Upstream code diff](https://github.com/shogo82148/actions-setup-redis/compare/d566e806806d1bac2b414538d57b2b7f721e1d83...ae0182647afadb63583dd695f4312b6965fc28df)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | ad1d18f46b594e89658acc08fbc73e04011829d9 | a6689c40dc419086077e6ca7d001302c818f0b33 |
-| Selected tag | v1.6.0 | v1.6.1 |
+| Selected SHA | d566e806806d1bac2b414538d57b2b7f721e1d83 | ae0182647afadb63583dd695f4312b6965fc28df |
+| Selected tag | v1.60.0 | v1.61.0 |
+
+## Teamwork/github-sync
+
+[Previous source](https://github.com/Teamwork/github-sync/tree/d0317cde6837c33a9999c43fdf5c704b6d9f215e/) · [Current source](https://github.com/Teamwork/github-sync/tree/f1583e6a648574e36d95b15c9d56babad3454383/) · [Upstream code diff](https://github.com/Teamwork/github-sync/compare/d0317cde6837c33a9999c43fdf5c704b6d9f215e...f1583e6a648574e36d95b15c9d56babad3454383)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: GITHUB\_TOKEN | {&quot;description&quot;: &quot;GitHub token&quot;, &quot;required&quot;: true} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Deprecated, no longer used.&quot;, &quot;required&quot;: false} |
+| Input: TEAMWORK\_API\_TOKEN | {&quot;description&quot;: &quot;Teamwork API token&quot;, &quot;required&quot;: true} | {&quot;description&quot;: &quot;Teamwork API key, or a bearer token (starts with \\&quot;tkn.\\&quot;)&quot;, &quot;required&quot;: true} |
+| Selected SHA | d0317cde6837c33a9999c43fdf5c704b6d9f215e | f1583e6a648574e36d95b15c9d56babad3454383 |
+| Selected tag | v1.5.0 | v1.6.0 |
+
+## Added: tiangolo/issue-manager
+
+[Source](https://github.com/tiangolo/issue-manager) — Close issues using special keywords after a period of time with a custom message
+
+New entries still require observed stability and fresh scan evidence before usage.
+
+## warpdotdev/oz-agent-action
+
+[Previous source](https://github.com/warpdotdev/oz-agent-action/tree/8025b8045e60b8733022456300c304a2ed8a3764/) · [Current source](https://github.com/warpdotdev/oz-agent-action/tree/b0c640eb560d1f2fc283244c582830aa16cefd8c/) · [Upstream code diff](https://github.com/warpdotdev/oz-agent-action/compare/8025b8045e60b8733022456300c304a2ed8a3764...b0c640eb560d1f2fc283244c582830aa16cefd8c)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 8025b8045e60b8733022456300c304a2ed8a3764 | b0c640eb560d1f2fc283244c582830aa16cefd8c |
+| Selected tag | v1.0.37 | v1.0.39 |
