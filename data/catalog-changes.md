@@ -1,170 +1,126 @@
 # Latest catalog changes
 
-18 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
-
-## actions/create-github-app-token
-
-[Previous source](https://github.com/actions/create-github-app-token/tree/64ab729a6294000f5aa4a4bc0b73d1f32bc45510/) · [Current source](https://github.com/actions/create-github-app-token/tree/f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc/) · [Upstream code diff](https://github.com/actions/create-github-app-token/compare/64ab729a6294000f5aa4a4bc0b73d1f32bc45510...f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 64ab729a6294000f5aa4a4bc0b73d1f32bc45510 | f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc |
-| Selected tag | v3.3.0 | v3.4.0 |
+13 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
 
 ## anthropics/claude-code-action
 
-[Previous source](https://github.com/anthropics/claude-code-action/tree/e5812cd75691ca7bbfc57c0ecf4441db3a1ab7dd/) · [Current source](https://github.com/anthropics/claude-code-action/tree/f431adaf77e0fecf918431e75a2b5b45b85af002/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/e5812cd75691ca7bbfc57c0ecf4441db3a1ab7dd...f431adaf77e0fecf918431e75a2b5b45b85af002)
+[Previous source](https://github.com/anthropics/claude-code-action/tree/f431adaf77e0fecf918431e75a2b5b45b85af002/) · [Current source](https://github.com/anthropics/claude-code-action/tree/c84e279f859e2591391e95bd309286eb111c345f/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/f431adaf77e0fecf918431e75a2b5b45b85af002...c84e279f859e2591391e95bd309286eb111c345f)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | e5812cd75691ca7bbfc57c0ecf4441db3a1ab7dd | f431adaf77e0fecf918431e75a2b5b45b85af002 |
-| Selected tag | v1.0.281 | v1.0.283 |
-
-## Added: anzy-renlab-ai/pronounce
-
-[Source](https://github.com/anzy-renlab-ai/pronounce) — Generate a sourced pronunciation glossary for developer jargon found in Markdown documentation.
-
-New entries still require observed stability and fresh scan evidence before usage.
+| Selected SHA | f431adaf77e0fecf918431e75a2b5b45b85af002 | c84e279f859e2591391e95bd309286eb111c345f |
+| Selected tag | v1.0.283 | v1.0.284 |
 
 ## asklokesh/loki-mode
 
-[Previous source](https://github.com/asklokesh/loki-mode/tree/15e73cbfa4fd97ddb01c17f7a775474d81ecbe22/) · [Current source](https://github.com/asklokesh/loki-mode/tree/3b8cdc5a65cbdf4a53b441f1c9d0255c20aa92f6/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/15e73cbfa4fd97ddb01c17f7a775474d81ecbe22...3b8cdc5a65cbdf4a53b441f1c9d0255c20aa92f6)
+[Previous source](https://github.com/asklokesh/loki-mode/tree/3b8cdc5a65cbdf4a53b441f1c9d0255c20aa92f6/) · [Current source](https://github.com/asklokesh/loki-mode/tree/e614a9c0ca51c93943395dd905bc05677f3b517b/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/3b8cdc5a65cbdf4a53b441f1c9d0255c20aa92f6...e614a9c0ca51c93943395dd905bc05677f3b517b)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 15e73cbfa4fd97ddb01c17f7a775474d81ecbe22 | 3b8cdc5a65cbdf4a53b441f1c9d0255c20aa92f6 |
-| Selected tag | v11.156.0 | v11.161.0 |
+| Selected SHA | 3b8cdc5a65cbdf4a53b441f1c9d0255c20aa92f6 | e614a9c0ca51c93943395dd905bc05677f3b517b |
+| Selected tag | v11.161.0 | v11.170.0 |
 
-## bridgecrewio/checkov-action
+## aws-actions/sustainability-scanner
 
-[Previous source](https://github.com/bridgecrewio/checkov-action/tree/3f0caf0c3aa9f56ade6b49f6e60b63aaeafb75a3/) · [Current source](https://github.com/bridgecrewio/checkov-action/tree/b17b606d6ec72bb8ba5721ad5b7e340b80a9fc39/) · [Upstream code diff](https://github.com/bridgecrewio/checkov-action/compare/3f0caf0c3aa9f56ade6b49f6e60b63aaeafb75a3...b17b606d6ec72bb8ba5721ad5b7e340b80a9fc39)
+[Previous source](https://github.com/aws-actions/sustainability-scanner/tree/e9cc38a79df82ee4130722108aad2f87a2083fa2/) · [Current source](https://github.com/aws-actions/sustainability-scanner/tree/f29275aa264da97e6e1f1cda9502554739e91ad9/) · [Upstream code diff](https://github.com/aws-actions/sustainability-scanner/compare/e9cc38a79df82ee4130722108aad2f87a2083fa2...f29275aa264da97e6e1f1cda9502554739e91ad9)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 3f0caf0c3aa9f56ade6b49f6e60b63aaeafb75a3 | b17b606d6ec72bb8ba5721ad5b7e340b80a9fc39 |
-| Selected tag | v12.3141.0 | v12.3142.0 |
+| Selected SHA | e9cc38a79df82ee4130722108aad2f87a2083fa2 | f29275aa264da97e6e1f1cda9502554739e91ad9 |
+| Selected tag | v1.4.1 | v1.5.0 |
 
 ## chromaui/action
 
-[Previous source](https://github.com/chromaui/action/tree/86505fc3fa3b2ed5f39eda89f34f4051ea8ff0c8/) · [Current source](https://github.com/chromaui/action/tree/b46fae7df99a74cc2201b00cb59ec498c3346530/) · [Upstream code diff](https://github.com/chromaui/action/compare/86505fc3fa3b2ed5f39eda89f34f4051ea8ff0c8...b46fae7df99a74cc2201b00cb59ec498c3346530)
+[Previous source](https://github.com/chromaui/action/tree/b46fae7df99a74cc2201b00cb59ec498c3346530/) · [Current source](https://github.com/chromaui/action/tree/9cb4d65a86fe1c4c67a76a8d90f35a51a118e55f/) · [Upstream code diff](https://github.com/chromaui/action/compare/b46fae7df99a74cc2201b00cb59ec498c3346530...9cb4d65a86fe1c4c67a76a8d90f35a51a118e55f)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 86505fc3fa3b2ed5f39eda89f34f4051ea8ff0c8 | b46fae7df99a74cc2201b00cb59ec498c3346530 |
-| Selected tag | v18.14.6 | v18.15.0 |
+| Selected SHA | b46fae7df99a74cc2201b00cb59ec498c3346530 | 9cb4d65a86fe1c4c67a76a8d90f35a51a118e55f |
+| Selected tag | v18.15.0 | v18.15.1 |
 
-## cross-platform-actions/action
+## coursier/setup-action
 
-[Previous source](https://github.com/cross-platform-actions/action/tree/82668f1fbd89d9c99487604f822cbf6716f124d3/) · [Current source](https://github.com/cross-platform-actions/action/tree/30cde56b87a128507bebea9531205087890ee360/) · [Upstream code diff](https://github.com/cross-platform-actions/action/compare/82668f1fbd89d9c99487604f822cbf6716f124d3...30cde56b87a128507bebea9531205087890ee360)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 82668f1fbd89d9c99487604f822cbf6716f124d3 | 30cde56b87a128507bebea9531205087890ee360 |
-| Selected tag | v1.7.0 | v1.8.0 |
-
-## danielroe/uppt
-
-[Previous source](https://github.com/danielroe/uppt/tree/427b736befa839b403dd145f2a7c16dbf3fd4482/) · [Current source](https://github.com/danielroe/uppt/tree/2c9a289359311b9661cc99886a71121209b89d17/) · [Upstream code diff](https://github.com/danielroe/uppt/compare/427b736befa839b403dd145f2a7c16dbf3fd4482...2c9a289359311b9661cc99886a71121209b89d17)
+[Previous source](https://github.com/coursier/setup-action/tree/d5a17f9aaeb260f9ba336a5b582fb49f79c64ac4/) · [Current source](https://github.com/coursier/setup-action/tree/6eefb29fad2c9de9f52a5f2cef1154195c9d4609/) · [Upstream code diff](https://github.com/coursier/setup-action/compare/d5a17f9aaeb260f9ba336a5b582fb49f79c64ac4...6eefb29fad2c9de9f52a5f2cef1154195c9d4609)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 427b736befa839b403dd145f2a7c16dbf3fd4482 | 2c9a289359311b9661cc99886a71121209b89d17 |
-| Selected tag | v0.6.13 | v0.6.14 |
+| Input: apps | {&quot;default&quot;: &quot;sbtn&quot;, &quot;description&quot;: &quot;Whitespace- or newline-separated list of apps to install from the Coursier main and contrib channels (set to an empty string to install none)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;sbtn&quot;, &quot;description&quot;: &quot;Whitespace- or newline-separated list of apps to install from the Coursier main and contrib channels, optionally pinned to a version with app:version, like sbt:1.10.7 or scalafmt:3.8.3 (set to an empty string to install none)&quot;, &quot;required&quot;: false} |
+| Input: customRepositories | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Pipe-separated (\|) list of extra repositories passed to every cs command. See https://get-coursier.io/docs/other-repositories&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;List of extra repositories passed to every cs command, separated by pipes (\|) or newlines. Empty entries are ignored. See https://get-coursier.io/docs/other-repositories&quot;, &quot;required&quot;: false} |
+| Input: extraJvmArgs | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Space-separated list of -D JVM property args passed to every cs invocation. The -J prefix is added automatically if missing (e.g. -Dhttps.proxyHost=proxy.example.com -Dhttps.proxyPort=8080)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;JVM arguments passed to every cs invocation: -D&lt;key&gt;\[=&lt;value&gt;\] properties, -Xmx / -Xms / -Xss memory settings and -XX: options, optionally prefixed with -J (e.g. -Xmx2g -Dhttps.proxyHost=proxy.example.com). Space-separated, or one argument per line, allowing spaces in values, when the input spans several lines. Native launchers only get -D properties.&quot;, &quot;required&quot;: false} |
+| Input: jvm | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;JVM to install, such as \\&quot;21\\&quot; or \\&quot;temurin:21\\&quot; (see cs java --available). When empty, an existing JAVA\_HOME is kept, or Coursier&#x27;s default JVM is installed.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;JVM to install, such as \\&quot;21\\&quot; or \\&quot;temurin:21\\&quot; (see cs java --available). When empty, an existing JAVA\_HOME is kept if it contains bin/java (bin/java.exe on Windows), else Coursier&#x27;s default JVM is installed (with a warning if JAVA\_HOME was set but invalid).&quot;, &quot;required&quot;: false} |
+| Selected SHA | d5a17f9aaeb260f9ba336a5b582fb49f79c64ac4 | 6eefb29fad2c9de9f52a5f2cef1154195c9d4609 |
+| Selected tag | v3.1.0 | v3.1.1 |
 
-## getsentry/action-release
+## duriantaco/skylos
 
-[Previous source](https://github.com/getsentry/action-release/tree/d55c8c3b7375607e972b710f12926b676d89d7d2/) · [Current source](https://github.com/getsentry/action-release/tree/2e505a70ff06dac263413242aa3617fec90134e5/) · [Upstream code diff](https://github.com/getsentry/action-release/compare/d55c8c3b7375607e972b710f12926b676d89d7d2...2e505a70ff06dac263413242aa3617fec90134e5)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: ext | null | {&quot;description&quot;: &quot;Space-separated list of file extensions to upload from \`sourcemaps\`\\ndirectories (e.g. \\&quot;js map ts\\&quot;). Replaces the sentry-cli defaults\\n(js cjs mjs map jsbundle bundle), so list them too if you still need them.\\nOmit to use the defaults.&quot;, &quot;required&quot;: false} |
-| Input: sourcemaps | {&quot;description&quot;: &quot;Space-separated list of paths to JavaScript source maps.\\nOmit to skip uploading sourcemaps.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Space-separated list of paths or glob patterns to JavaScript source maps.\\nOmit to skip uploading sourcemaps.&quot;, &quot;required&quot;: false} |
-| Input: strip\_prefix | null | {&quot;description&quot;: &quot;Space-separated list of prefixes to remove from the source paths\\ninside uploaded source maps. E.g. \\&quot;../\\&quot; turns \\&quot;../src/app.ts\\&quot; into \\&quot;src/app.ts\\&quot;.&quot;, &quot;required&quot;: false} |
-| Input: url\_prefix | {&quot;description&quot;: &quot;Adds a prefix to source map urls after stripping them.&quot;, &quot;required&quot;: false} | {&quot;description&quot;: &quot;Adds a prefix to source map urls after stripping them.\\nA single prefix applies to all sourcemaps entries. To use a different prefix\\nper entry, give a space-separated list with one prefix per entry, in the same order.&quot;, &quot;required&quot;: false} |
-| Selected SHA | d55c8c3b7375607e972b710f12926b676d89d7d2 | 2e505a70ff06dac263413242aa3617fec90134e5 |
-| Selected tag | v3.8.0 | v3.9.1 |
-
-## jdx/mise-action
-
-[Previous source](https://github.com/jdx/mise-action/tree/236a21c3b91f5db6d4e174b348674a0f0caac06d/) · [Current source](https://github.com/jdx/mise-action/tree/90f833d396d0cc3674b631d2d225e306476c303a/) · [Upstream code diff](https://github.com/jdx/mise-action/compare/236a21c3b91f5db6d4e174b348674a0f0caac06d...90f833d396d0cc3674b631d2d225e306476c303a)
+[Previous source](https://github.com/duriantaco/skylos/tree/436a838c4e177cdfec37bfdb080957b8f1d576aa/) · [Current source](https://github.com/duriantaco/skylos/tree/87978e69adf91b3811e97b00c40aa39d7937cd94/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/436a838c4e177cdfec37bfdb080957b8f1d576aa...87978e69adf91b3811e97b00c40aa39d7937cd94)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 236a21c3b91f5db6d4e174b348674a0f0caac06d | 90f833d396d0cc3674b631d2d225e306476c303a |
-| Selected tag | v5.2.9 | v5.2.10 |
+| Input: diff | null | {&quot;default&quot;: &quot;auto&quot;, &quot;description&quot;: &quot;On pull requests, scan and gate only the lines the PR changes (&#x27;auto&#x27;, the default), so findings already in the repository don&#x27;t fail it. &#x27;false&#x27; scans the whole repository. With a shallow checkout the action fetches the history it needs; set fetch-depth: 0 on actions/checkout to skip that.&quot;, &quot;required&quot;: false} |
+| Selected SHA | 436a838c4e177cdfec37bfdb080957b8f1d576aa | 87978e69adf91b3811e97b00c40aa39d7937cd94 |
+| Selected tag | v5.6.0 | v5.7.0 |
 
-## jonelantha/gatsby-s3-action
+## EmbarkStudios/cargo-deny-action
 
-[Previous source](https://github.com/jonelantha/gatsby-s3-action/tree/08b1e5dc1df5022aa5c416355788d0294a232f44/) · [Current source](https://github.com/jonelantha/gatsby-s3-action/tree/fc8b21b0cd1f074b9d9b842b5908a1718a1bb1c6/) · [Upstream code diff](https://github.com/jonelantha/gatsby-s3-action/compare/08b1e5dc1df5022aa5c416355788d0294a232f44...fc8b21b0cd1f074b9d9b842b5908a1718a1bb1c6)
+[Previous source](https://github.com/EmbarkStudios/cargo-deny-action/tree/70f81531115945ba6eb6b941ec9d39d063438eb9/) · [Current source](https://github.com/EmbarkStudios/cargo-deny-action/tree/17aeb3c839e42274e2b8adf721c8c65edfdc74dd/) · [Upstream code diff](https://github.com/EmbarkStudios/cargo-deny-action/compare/70f81531115945ba6eb6b941ec9d39d063438eb9...17aeb3c839e42274e2b8adf721c8c65edfdc74dd)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 08b1e5dc1df5022aa5c416355788d0294a232f44 | fc8b21b0cd1f074b9d9b842b5908a1718a1bb1c6 |
-| Selected tag | v4.0.0 | v4.0.1 |
+| Selected SHA | 70f81531115945ba6eb6b941ec9d39d063438eb9 | 17aeb3c839e42274e2b8adf721c8c65edfdc74dd |
+| Selected tag | v2.1.2 | v2.1.3 |
+
+## github/codeql-action
+
+[Previous source](https://github.com/github/codeql-action/tree/33d7b85da1a04171e211befe2c739303b9a4c066/) · [Current source](https://github.com/github/codeql-action/tree/1bd86f2fdb4b86187fa4059f16f31a3202acc9ea/) · [Upstream code diff](https://github.com/github/codeql-action/compare/33d7b85da1a04171e211befe2c739303b9a4c066...1bd86f2fdb4b86187fa4059f16f31a3202acc9ea)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 33d7b85da1a04171e211befe2c739303b9a4c066 | 1bd86f2fdb4b86187fa4059f16f31a3202acc9ea |
+| Selected tag | v4.39.3 | v4.39.4 |
+
+## JetBrains/qodana-action
+
+[Previous source](https://github.com/JetBrains/qodana-action/tree/13e3acbbaeb2cbfc37893b98e74594985edf42eb/) · [Current source](https://github.com/JetBrains/qodana-action/tree/aa698739cd4b8204ad53291bea7e16cd75da3c9f/) · [Upstream code diff](https://github.com/JetBrains/qodana-action/compare/13e3acbbaeb2cbfc37893b98e74594985edf42eb...aa698739cd4b8204ad53291bea7e16cd75da3c9f)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Input: additional-cache-key | {&quot;default&quot;: &quot;qodana-2026.2-${{ github.ref }}&quot;, &quot;description&quot;: &quot;Set the additional cache key&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;qodana-2026.3-${{ github.ref }}&quot;, &quot;description&quot;: &quot;Set the additional cache key&quot;, &quot;required&quot;: false} |
+| Input: nightly-version | {&quot;default&quot;: &quot;&quot;, &quot;deprecationMessage&quot;: &quot;This option is for development purposes only. Do not use it in production.&quot;, &quot;description&quot;: &quot;Qodana CLI nightly version to use (e.g. 2026.2 or latest). Downloads CLI from tag v{version}-nightly.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;deprecationMessage&quot;: &quot;This option is for development purposes only. Do not use it in production.&quot;, &quot;description&quot;: &quot;Qodana CLI nightly version to use (e.g. 2026.3 or latest). Downloads CLI from tag v{version}-nightly.&quot;, &quot;required&quot;: false} |
+| Input: primary-cache-key | {&quot;default&quot;: &quot;qodana-2026.2-${{ github.ref }}-${{ github.sha }}&quot;, &quot;description&quot;: &quot;Set the primary cache key&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;qodana-2026.3-${{ github.ref }}-${{ github.sha }}&quot;, &quot;description&quot;: &quot;Set the primary cache key&quot;, &quot;required&quot;: false} |
+| Selected SHA | 13e3acbbaeb2cbfc37893b98e74594985edf42eb | aa698739cd4b8204ad53291bea7e16cd75da3c9f |
+| Selected tag | v2026.2.4 | v2026.3.1 |
+
+## node9-ai/node9-proxy
+
+[Previous source](https://github.com/node9-ai/node9-proxy/tree/094b4fb1d72ea3b0ee5bb47755aad1d0433c1e59/) · [Current source](https://github.com/node9-ai/node9-proxy/tree/d12ef7dc57652589f3358a75571a612c8dfd66c9/) · [Upstream code diff](https://github.com/node9-ai/node9-proxy/compare/094b4fb1d72ea3b0ee5bb47755aad1d0433c1e59...d12ef7dc57652589f3358a75571a612c8dfd66c9)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 094b4fb1d72ea3b0ee5bb47755aad1d0433c1e59 | d12ef7dc57652589f3358a75571a612c8dfd66c9 |
+| Selected tag | v2.65.6 | v2.65.8 |
 
 ## openqodex/openqodex
 
-[Previous source](https://github.com/openqodex/openqodex/tree/0a67e51fdf9e67aebf082d4dcf700a54c200e1af/) · [Current source](https://github.com/openqodex/openqodex/tree/e92228a3b0611d4641acf69abbd2c7c3c089599b/) · [Upstream code diff](https://github.com/openqodex/openqodex/compare/0a67e51fdf9e67aebf082d4dcf700a54c200e1af...e92228a3b0611d4641acf69abbd2c7c3c089599b)
+[Previous source](https://github.com/openqodex/openqodex/tree/e92228a3b0611d4641acf69abbd2c7c3c089599b/) · [Current source](https://github.com/openqodex/openqodex/tree/9d057d09347c5ce3ada31d214156760a5be55a12/) · [Upstream code diff](https://github.com/openqodex/openqodex/compare/e92228a3b0611d4641acf69abbd2c7c3c089599b...9d057d09347c5ce3ada31d214156760a5be55a12)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: version | {&quot;default&quot;: &quot;0.19.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.20.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} |
-| Selected SHA | 0a67e51fdf9e67aebf082d4dcf700a54c200e1af | e92228a3b0611d4641acf69abbd2c7c3c089599b |
-| Selected tag | v0.19.0 | v0.20.0 |
+| Input: version | {&quot;default&quot;: &quot;0.20.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.22.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} |
+| Selected SHA | e92228a3b0611d4641acf69abbd2c7c3c089599b | 9d057d09347c5ce3ada31d214156760a5be55a12 |
+| Selected tag | v0.20.0 | v0.22.0 |
 
-## oras-project/setup-oras
+## Added: reagento/relator
 
-[Previous source](https://github.com/oras-project/setup-oras/tree/5e2f2482b30b0cb3e14e67f89a80c88c659a7c63/) · [Current source](https://github.com/oras-project/setup-oras/tree/ac735097e22fe643015b0d19645f7c9a69942128/) · [Upstream code diff](https://github.com/oras-project/setup-oras/compare/5e2f2482b30b0cb3e14e67f89a80c88c659a7c63...ac735097e22fe643015b0d19645f7c9a69942128)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: token | null | {&quot;default&quot;: &quot;${{ github.server\_url == &#x27;https://github.com&#x27; &amp;&amp; github.token \|\| &#x27;&#x27; }}&quot;, &quot;description&quot;: &quot;GitHub token for the download. Set to an empty string to download without a token.&quot;, &quot;required&quot;: false} |
-| Input: version | {&quot;default&quot;: &quot;1.3.1&quot;, &quot;description&quot;: &quot;Version of the official ORAS CLI to install&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;1.4.0&quot;, &quot;description&quot;: &quot;Version of the official ORAS CLI to install&quot;, &quot;required&quot;: false} |
-| Selected SHA | 5e2f2482b30b0cb3e14e67f89a80c88c659a7c63 | ac735097e22fe643015b0d19645f7c9a69942128 |
-| Selected tag | v2.0.3 | v2.0.4 |
-
-## py-cov-action/python-coverage-comment-action
-
-[Previous source](https://github.com/py-cov-action/python-coverage-comment-action/tree/07249dd712cd2464873eb8a59a24f97fd281e76f/) · [Current source](https://github.com/py-cov-action/python-coverage-comment-action/tree/281cb0dcb5b15d4773037d51873558fddc5a7df8/) · [Upstream code diff](https://github.com/py-cov-action/python-coverage-comment-action/compare/07249dd712cd2464873eb8a59a24f97fd281e76f...281cb0dcb5b15d4773037d51873558fddc5a7df8)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: COMMENT\_ON\_PR | null | {&quot;default&quot;: true, &quot;description&quot;: &quot;If false, will not comment on the pull request (nor write the comment file for the workflow\_run step). The job summary, annotations and outputs are unaffected.\\n&quot;} |
-| Input: WRITE\_JOB\_SUMMARY | null | {&quot;default&quot;: true, &quot;description&quot;: &quot;If false, will not write the coverage report to the job summary.\\n&quot;} |
-| Selected SHA | 07249dd712cd2464873eb8a59a24f97fd281e76f | 281cb0dcb5b15d4773037d51873558fddc5a7df8 |
-| Selected tag | v4.6 | v4.7 |
-
-## shogo82148/actions-setup-redis
-
-[Previous source](https://github.com/shogo82148/actions-setup-redis/tree/d566e806806d1bac2b414538d57b2b7f721e1d83/) · [Current source](https://github.com/shogo82148/actions-setup-redis/tree/ae0182647afadb63583dd695f4312b6965fc28df/) · [Upstream code diff](https://github.com/shogo82148/actions-setup-redis/compare/d566e806806d1bac2b414538d57b2b7f721e1d83...ae0182647afadb63583dd695f4312b6965fc28df)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | d566e806806d1bac2b414538d57b2b7f721e1d83 | ae0182647afadb63583dd695f4312b6965fc28df |
-| Selected tag | v1.60.0 | v1.61.0 |
-
-## Teamwork/github-sync
-
-[Previous source](https://github.com/Teamwork/github-sync/tree/d0317cde6837c33a9999c43fdf5c704b6d9f215e/) · [Current source](https://github.com/Teamwork/github-sync/tree/f1583e6a648574e36d95b15c9d56babad3454383/) · [Upstream code diff](https://github.com/Teamwork/github-sync/compare/d0317cde6837c33a9999c43fdf5c704b6d9f215e...f1583e6a648574e36d95b15c9d56babad3454383)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: GITHUB\_TOKEN | {&quot;description&quot;: &quot;GitHub token&quot;, &quot;required&quot;: true} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Deprecated, no longer used.&quot;, &quot;required&quot;: false} |
-| Input: TEAMWORK\_API\_TOKEN | {&quot;description&quot;: &quot;Teamwork API token&quot;, &quot;required&quot;: true} | {&quot;description&quot;: &quot;Teamwork API key, or a bearer token (starts with \\&quot;tkn.\\&quot;)&quot;, &quot;required&quot;: true} |
-| Selected SHA | d0317cde6837c33a9999c43fdf5c704b6d9f215e | f1583e6a648574e36d95b15c9d56babad3454383 |
-| Selected tag | v1.5.0 | v1.6.0 |
-
-## Added: tiangolo/issue-manager
-
-[Source](https://github.com/tiangolo/issue-manager) — Close issues using special keywords after a period of time with a custom message
+[Source](https://github.com/reagento/relator) — Send Telegram and Discord notifications for new GitHub issues or PRs
 
 New entries still require observed stability and fresh scan evidence before usage.
 
-## warpdotdev/oz-agent-action
+## stefanzweifel/changelog-updater-action
 
-[Previous source](https://github.com/warpdotdev/oz-agent-action/tree/8025b8045e60b8733022456300c304a2ed8a3764/) · [Current source](https://github.com/warpdotdev/oz-agent-action/tree/b0c640eb560d1f2fc283244c582830aa16cefd8c/) · [Upstream code diff](https://github.com/warpdotdev/oz-agent-action/compare/8025b8045e60b8733022456300c304a2ed8a3764...b0c640eb560d1f2fc283244c582830aa16cefd8c)
+[Previous source](https://github.com/stefanzweifel/changelog-updater-action/tree/1171d74932456fd2049c486b8757956a6adcc11b/) · [Current source](https://github.com/stefanzweifel/changelog-updater-action/tree/f7c43fed0c8760b25199be6eae5c28fc22830ec6/) · [Upstream code diff](https://github.com/stefanzweifel/changelog-updater-action/compare/1171d74932456fd2049c486b8757956a6adcc11b...f7c43fed0c8760b25199be6eae5c28fc22830ec6)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 8025b8045e60b8733022456300c304a2ed8a3764 | b0c640eb560d1f2fc283244c582830aa16cefd8c |
-| Selected tag | v1.0.37 | v1.0.39 |
+| Selected SHA | 1171d74932456fd2049c486b8757956a6adcc11b | f7c43fed0c8760b25199be6eae5c28fc22830ec6 |
+| Selected tag | v1.13.0 | v1.13.3 |

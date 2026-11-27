@@ -1,7 +1,6 @@
 {
   "admitted": [
-    "anzy-renlab-ai/pronounce",
-    "tiangolo/issue-manager"
+    "reagento/relator"
   ],
   "candidates": {
     "15H4NT/Grade-Prophet": {
@@ -48,8 +47,8 @@
       "status": "admitted"
     },
     "Bush2021/chrome_installer": {
-      "checked_at": "2026-11-20T13:39:03.843541+00:00",
-      "reason": "No action.yml or action.yaml at Bush2021/chrome_installer@85de9d3391511c12fea20f73455114ce7ee5ac45",
+      "checked_at": "2026-11-27T14:26:42.118723+00:00",
+      "reason": "No action.yml or action.yaml at Bush2021/chrome_installer@ca0874030280c91e672475e6460007e4d8c3c8e0",
       "status": "rejected"
     },
     "CDFER/jlcpcb-parts-database": {
@@ -312,8 +311,8 @@
       "status": "admitted"
     },
     "RookieEnough/Morphe-AutoBuilds": {
-      "checked_at": "2026-10-06T11:33:12.470763+00:00",
-      "reason": "No action.yml or action.yaml at RookieEnough/Morphe-AutoBuilds@96b9adeca645ad56b0187438f19268a3c6a872b1",
+      "checked_at": "2026-11-27T14:26:42.118723+00:00",
+      "reason": "No action.yml or action.yaml at RookieEnough/Morphe-AutoBuilds@88faa8c0c3ba338f6fb2ec4102da34130edc48cc",
       "status": "rejected"
     },
     "Sarthzk/internship-tracker": {
@@ -741,8 +740,8 @@
       "status": "rejected"
     },
     "f/wvw.dev": {
-      "checked_at": "2026-11-20T13:39:03.843541+00:00",
-      "reason": "No action.yml or action.yaml at f/wvw.dev@bb5f5659b7175d69df3fca84b8ee0223f554cf67",
+      "checked_at": "2026-11-27T14:26:42.118723+00:00",
+      "reason": "No action.yml or action.yaml at f/wvw.dev@0aa27f1107c9086e5b71ef9ca3717b59a61cbd22",
       "status": "rejected"
     },
     "f2calv/yamlizr": {
@@ -927,8 +926,8 @@
       "status": "admitted"
     },
     "ipitio/backage": {
-      "checked_at": "2026-11-20T13:39:03.843541+00:00",
-      "reason": "No action.yml or action.yaml at ipitio/backage@39769d6cf5b328c52641080bb87b41e0fbecb79b",
+      "checked_at": "2026-11-27T14:26:42.118723+00:00",
+      "reason": "No action.yml or action.yaml at ipitio/backage@bed106603c58badf753e1ef3baefe84d1cc1c8f7",
       "status": "rejected"
     },
     "irgaly/xcode-cache": {
@@ -1218,7 +1217,7 @@
       "status": "rejected"
     },
     "pipelab-org/pipelock": {
-      "checked_at": "2026-11-20T13:39:03.843541+00:00",
+      "checked_at": "2026-11-27T14:26:42.118723+00:00",
       "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
@@ -1307,6 +1306,12 @@
       "checked_at": "2026-11-22T12:53:55.900287+00:00",
       "reason": "No action.yml or action.yaml at ram0verflow/ram0verflow@1e602dc7c91e5ae5757657dd414eb5036db6a3a1",
       "status": "rejected"
+    },
+    "reagento/relator": {
+      "checked_at": "2026-11-27T14:26:42.118723+00:00",
+      "scanner_version": "1.30.1",
+      "source_sha": "b5ceff06111c7082e0032e156173441f442b9dde",
+      "status": "admitted"
     },
     "redhat-plumbers-in-action/differential-shellcheck": {
       "checked_at": "2026-09-14T10:09:02.295269+00:00",
@@ -1640,7 +1645,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-26T14:31:56.294681+00:00",
+  "checked_at": "2026-11-27T14:26:42.118723+00:00",
   "errors": [],
-  "inspected": 10
+  "inspected": 6
 }

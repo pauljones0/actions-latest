@@ -2082,6 +2082,27 @@
     "reviewed_at": null
   },
   {
+    "action": "reagento/relator",
+    "description": "Send Telegram and Discord notifications for new GitHub issues or PRs",
+    "category": "Discovered",
+    "tags": [
+      "notifications",
+      "sulguk",
+      "telegram"
+    ],
+    "match_logic": "",
+    "requires": [],
+    "conflicts": [],
+    "permissions": {},
+    "auth": "",
+    "side_effects": [],
+    "performance": "",
+    "origin": "discovered",
+    "source_url": "https://github.com/reagento/relator/tree/b5ceff06111c7082e0032e156173441f442b9dde",
+    "reviewed_sha": null,
+    "reviewed_at": null
+  },
+  {
     "action": "redhat-plumbers-in-action/differential-shellcheck",
     "description": "GitHub Action for performing differential scans using ShellCheck linter.",
     "category": "Discovered",
