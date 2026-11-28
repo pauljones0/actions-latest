@@ -1,126 +1,140 @@
 # Latest catalog changes
 
-13 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+15 actions have meaningful changes. Observation timestamps and popularity fluctuations are omitted.
+
+## amannn/action-semantic-pull-request
+
+[Previous source](https://github.com/amannn/action-semantic-pull-request/tree/2252a14e810aa9b85c2d560bd7070c802206ecf6/) · [Current source](https://github.com/amannn/action-semantic-pull-request/tree/c5e23b7e584519ee15caa684cf60d056aa9f035f/) · [Upstream code diff](https://github.com/amannn/action-semantic-pull-request/compare/2252a14e810aa9b85c2d560bd7070c802206ecf6...c5e23b7e584519ee15caa684cf60d056aa9f035f)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 2252a14e810aa9b85c2d560bd7070c802206ecf6 | c5e23b7e584519ee15caa684cf60d056aa9f035f |
+| Selected tag | v6.1.2 | v6.1.3 |
 
 ## anthropics/claude-code-action
 
-[Previous source](https://github.com/anthropics/claude-code-action/tree/f431adaf77e0fecf918431e75a2b5b45b85af002/) · [Current source](https://github.com/anthropics/claude-code-action/tree/c84e279f859e2591391e95bd309286eb111c345f/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/f431adaf77e0fecf918431e75a2b5b45b85af002...c84e279f859e2591391e95bd309286eb111c345f)
+[Previous source](https://github.com/anthropics/claude-code-action/tree/c84e279f859e2591391e95bd309286eb111c345f/) · [Current source](https://github.com/anthropics/claude-code-action/tree/acfe7992852970efb4fee683d63d628e3e52df67/) · [Upstream code diff](https://github.com/anthropics/claude-code-action/compare/c84e279f859e2591391e95bd309286eb111c345f...acfe7992852970efb4fee683d63d628e3e52df67)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | f431adaf77e0fecf918431e75a2b5b45b85af002 | c84e279f859e2591391e95bd309286eb111c345f |
-| Selected tag | v1.0.283 | v1.0.284 |
+| Selected SHA | c84e279f859e2591391e95bd309286eb111c345f | acfe7992852970efb4fee683d63d628e3e52df67 |
+| Selected tag | v1.0.284 | v1.0.286 |
 
 ## asklokesh/loki-mode
 
-[Previous source](https://github.com/asklokesh/loki-mode/tree/3b8cdc5a65cbdf4a53b441f1c9d0255c20aa92f6/) · [Current source](https://github.com/asklokesh/loki-mode/tree/e614a9c0ca51c93943395dd905bc05677f3b517b/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/3b8cdc5a65cbdf4a53b441f1c9d0255c20aa92f6...e614a9c0ca51c93943395dd905bc05677f3b517b)
+[Previous source](https://github.com/asklokesh/loki-mode/tree/e614a9c0ca51c93943395dd905bc05677f3b517b/) · [Current source](https://github.com/asklokesh/loki-mode/tree/6e34bc3845da41f30bdbf2a2c758bdfdd32dff52/) · [Upstream code diff](https://github.com/asklokesh/loki-mode/compare/e614a9c0ca51c93943395dd905bc05677f3b517b...6e34bc3845da41f30bdbf2a2c758bdfdd32dff52)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 3b8cdc5a65cbdf4a53b441f1c9d0255c20aa92f6 | e614a9c0ca51c93943395dd905bc05677f3b517b |
-| Selected tag | v11.161.0 | v11.170.0 |
+| Selected SHA | e614a9c0ca51c93943395dd905bc05677f3b517b | 6e34bc3845da41f30bdbf2a2c758bdfdd32dff52 |
+| Selected tag | v11.170.0 | v11.174.0 |
 
-## aws-actions/sustainability-scanner
+## astral-sh/setup-uv
 
-[Previous source](https://github.com/aws-actions/sustainability-scanner/tree/e9cc38a79df82ee4130722108aad2f87a2083fa2/) · [Current source](https://github.com/aws-actions/sustainability-scanner/tree/f29275aa264da97e6e1f1cda9502554739e91ad9/) · [Upstream code diff](https://github.com/aws-actions/sustainability-scanner/compare/e9cc38a79df82ee4130722108aad2f87a2083fa2...f29275aa264da97e6e1f1cda9502554739e91ad9)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | e9cc38a79df82ee4130722108aad2f87a2083fa2 | f29275aa264da97e6e1f1cda9502554739e91ad9 |
-| Selected tag | v1.4.1 | v1.5.0 |
-
-## chromaui/action
-
-[Previous source](https://github.com/chromaui/action/tree/b46fae7df99a74cc2201b00cb59ec498c3346530/) · [Current source](https://github.com/chromaui/action/tree/9cb4d65a86fe1c4c67a76a8d90f35a51a118e55f/) · [Upstream code diff](https://github.com/chromaui/action/compare/b46fae7df99a74cc2201b00cb59ec498c3346530...9cb4d65a86fe1c4c67a76a8d90f35a51a118e55f)
+[Previous source](https://github.com/astral-sh/setup-uv/tree/68559e99cc807c1eb7e9238fd43a15bba460eec2/) · [Current source](https://github.com/astral-sh/setup-uv/tree/1db35dd8eee11c5894872e0b383ae6c406cf738d/) · [Upstream code diff](https://github.com/astral-sh/setup-uv/compare/68559e99cc807c1eb7e9238fd43a15bba460eec2...1db35dd8eee11c5894872e0b383ae6c406cf738d)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | b46fae7df99a74cc2201b00cb59ec498c3346530 | 9cb4d65a86fe1c4c67a76a8d90f35a51a118e55f |
-| Selected tag | v18.15.0 | v18.15.1 |
+| Input: require-checksums | null | {&quot;default&quot;: &quot;false&quot;, &quot;description&quot;: &quot;Require a SHA-256 checksum bundled with setup-uv or supplied through the checksum input.&quot;} |
+| Selected SHA | 68559e99cc807c1eb7e9238fd43a15bba460eec2 | 1db35dd8eee11c5894872e0b383ae6c406cf738d |
+| Selected tag | v10.3.3 | v10.4.0 |
 
-## coursier/setup-action
+## Azure/k8s-create-secret
 
-[Previous source](https://github.com/coursier/setup-action/tree/d5a17f9aaeb260f9ba336a5b582fb49f79c64ac4/) · [Current source](https://github.com/coursier/setup-action/tree/6eefb29fad2c9de9f52a5f2cef1154195c9d4609/) · [Upstream code diff](https://github.com/coursier/setup-action/compare/d5a17f9aaeb260f9ba336a5b582fb49f79c64ac4...6eefb29fad2c9de9f52a5f2cef1154195c9d4609)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: apps | {&quot;default&quot;: &quot;sbtn&quot;, &quot;description&quot;: &quot;Whitespace- or newline-separated list of apps to install from the Coursier main and contrib channels (set to an empty string to install none)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;sbtn&quot;, &quot;description&quot;: &quot;Whitespace- or newline-separated list of apps to install from the Coursier main and contrib channels, optionally pinned to a version with app:version, like sbt:1.10.7 or scalafmt:3.8.3 (set to an empty string to install none)&quot;, &quot;required&quot;: false} |
-| Input: customRepositories | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Pipe-separated (\|) list of extra repositories passed to every cs command. See https://get-coursier.io/docs/other-repositories&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;List of extra repositories passed to every cs command, separated by pipes (\|) or newlines. Empty entries are ignored. See https://get-coursier.io/docs/other-repositories&quot;, &quot;required&quot;: false} |
-| Input: extraJvmArgs | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;Space-separated list of -D JVM property args passed to every cs invocation. The -J prefix is added automatically if missing (e.g. -Dhttps.proxyHost=proxy.example.com -Dhttps.proxyPort=8080)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;JVM arguments passed to every cs invocation: -D&lt;key&gt;\[=&lt;value&gt;\] properties, -Xmx / -Xms / -Xss memory settings and -XX: options, optionally prefixed with -J (e.g. -Xmx2g -Dhttps.proxyHost=proxy.example.com). Space-separated, or one argument per line, allowing spaces in values, when the input spans several lines. Native launchers only get -D properties.&quot;, &quot;required&quot;: false} |
-| Input: jvm | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;JVM to install, such as \\&quot;21\\&quot; or \\&quot;temurin:21\\&quot; (see cs java --available). When empty, an existing JAVA\_HOME is kept, or Coursier&#x27;s default JVM is installed.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;description&quot;: &quot;JVM to install, such as \\&quot;21\\&quot; or \\&quot;temurin:21\\&quot; (see cs java --available). When empty, an existing JAVA\_HOME is kept if it contains bin/java (bin/java.exe on Windows), else Coursier&#x27;s default JVM is installed (with a warning if JAVA\_HOME was set but invalid).&quot;, &quot;required&quot;: false} |
-| Selected SHA | d5a17f9aaeb260f9ba336a5b582fb49f79c64ac4 | 6eefb29fad2c9de9f52a5f2cef1154195c9d4609 |
-| Selected tag | v3.1.0 | v3.1.1 |
-
-## duriantaco/skylos
-
-[Previous source](https://github.com/duriantaco/skylos/tree/436a838c4e177cdfec37bfdb080957b8f1d576aa/) · [Current source](https://github.com/duriantaco/skylos/tree/87978e69adf91b3811e97b00c40aa39d7937cd94/) · [Upstream code diff](https://github.com/duriantaco/skylos/compare/436a838c4e177cdfec37bfdb080957b8f1d576aa...87978e69adf91b3811e97b00c40aa39d7937cd94)
+[Previous source](https://github.com/Azure/k8s-create-secret/tree/ba774cded95cc0d795806a986fecd1205a6c2320/) · [Current source](https://github.com/Azure/k8s-create-secret/tree/39b454ea37d7846d278306e9de84e870e88a5aff/) · [Upstream code diff](https://github.com/Azure/k8s-create-secret/compare/ba774cded95cc0d795806a986fecd1205a6c2320...39b454ea37d7846d278306e9de84e870e88a5aff)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: diff | null | {&quot;default&quot;: &quot;auto&quot;, &quot;description&quot;: &quot;On pull requests, scan and gate only the lines the PR changes (&#x27;auto&#x27;, the default), so findings already in the repository don&#x27;t fail it. &#x27;false&#x27; scans the whole repository. With a shallow checkout the action fetches the history it needs; set fetch-depth: 0 on actions/checkout to skip that.&quot;, &quot;required&quot;: false} |
-| Selected SHA | 436a838c4e177cdfec37bfdb080957b8f1d576aa | 87978e69adf91b3811e97b00c40aa39d7937cd94 |
-| Selected tag | v5.6.0 | v5.7.0 |
+| Selected SHA | ba774cded95cc0d795806a986fecd1205a6c2320 | 39b454ea37d7846d278306e9de84e870e88a5aff |
+| Selected tag | v6.0.1 | v6.0.2 |
 
-## EmbarkStudios/cargo-deny-action
+## DeterminateSystems/determinate-nix-action
 
-[Previous source](https://github.com/EmbarkStudios/cargo-deny-action/tree/70f81531115945ba6eb6b941ec9d39d063438eb9/) · [Current source](https://github.com/EmbarkStudios/cargo-deny-action/tree/17aeb3c839e42274e2b8adf721c8c65edfdc74dd/) · [Upstream code diff](https://github.com/EmbarkStudios/cargo-deny-action/compare/70f81531115945ba6eb6b941ec9d39d063438eb9...17aeb3c839e42274e2b8adf721c8c65edfdc74dd)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Selected SHA | 70f81531115945ba6eb6b941ec9d39d063438eb9 | 17aeb3c839e42274e2b8adf721c8c65edfdc74dd |
-| Selected tag | v2.1.2 | v2.1.3 |
-
-## github/codeql-action
-
-[Previous source](https://github.com/github/codeql-action/tree/33d7b85da1a04171e211befe2c739303b9a4c066/) · [Current source](https://github.com/github/codeql-action/tree/1bd86f2fdb4b86187fa4059f16f31a3202acc9ea/) · [Upstream code diff](https://github.com/github/codeql-action/compare/33d7b85da1a04171e211befe2c739303b9a4c066...1bd86f2fdb4b86187fa4059f16f31a3202acc9ea)
+[Previous source](https://github.com/DeterminateSystems/determinate-nix-action/tree/16f94ba7aae399b9f9077c254b6719ec6de7e3e3/) · [Current source](https://github.com/DeterminateSystems/determinate-nix-action/tree/4b040423529d49b1a19ba918742e0aa9aa95031a/) · [Upstream code diff](https://github.com/DeterminateSystems/determinate-nix-action/compare/16f94ba7aae399b9f9077c254b6719ec6de7e3e3...4b040423529d49b1a19ba918742e0aa9aa95031a)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 33d7b85da1a04171e211befe2c739303b9a4c066 | 1bd86f2fdb4b86187fa4059f16f31a3202acc9ea |
-| Selected tag | v4.39.3 | v4.39.4 |
+| Input: source-tag | {&quot;default&quot;: &quot;v3.24.2&quot;, &quot;description&quot;: &quot;The tag of \`nix-installer\` to use (conflicts with \`source-revision\`, \`source-branch\`, \`source-pr\`)&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;v3.24.3&quot;, &quot;description&quot;: &quot;The tag of \`nix-installer\` to use (conflicts with \`source-revision\`, \`source-branch\`, \`source-pr\`)&quot;, &quot;required&quot;: false} |
+| Selected SHA | 16f94ba7aae399b9f9077c254b6719ec6de7e3e3 | 4b040423529d49b1a19ba918742e0aa9aa95031a |
+| Selected tag | v3.24.2 | v3.24.3 |
 
-## JetBrains/qodana-action
+## docker/scout-action
 
-[Previous source](https://github.com/JetBrains/qodana-action/tree/13e3acbbaeb2cbfc37893b98e74594985edf42eb/) · [Current source](https://github.com/JetBrains/qodana-action/tree/aa698739cd4b8204ad53291bea7e16cd75da3c9f/) · [Upstream code diff](https://github.com/JetBrains/qodana-action/compare/13e3acbbaeb2cbfc37893b98e74594985edf42eb...aa698739cd4b8204ad53291bea7e16cd75da3c9f)
+[Previous source](https://github.com/docker/scout-action/tree/e7e2a72bf1485d10a58f30696b6c513b261ce4fa/) · [Current source](https://github.com/docker/scout-action/tree/b265cd48f8a1451d2680815b3e8dc4ed65ee16e7/) · [Upstream code diff](https://github.com/docker/scout-action/compare/e7e2a72bf1485d10a58f30696b6c513b261ce4fa...b265cd48f8a1451d2680815b3e8dc4ed65ee16e7)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Input: additional-cache-key | {&quot;default&quot;: &quot;qodana-2026.2-${{ github.ref }}&quot;, &quot;description&quot;: &quot;Set the additional cache key&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;qodana-2026.3-${{ github.ref }}&quot;, &quot;description&quot;: &quot;Set the additional cache key&quot;, &quot;required&quot;: false} |
-| Input: nightly-version | {&quot;default&quot;: &quot;&quot;, &quot;deprecationMessage&quot;: &quot;This option is for development purposes only. Do not use it in production.&quot;, &quot;description&quot;: &quot;Qodana CLI nightly version to use (e.g. 2026.2 or latest). Downloads CLI from tag v{version}-nightly.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;&quot;, &quot;deprecationMessage&quot;: &quot;This option is for development purposes only. Do not use it in production.&quot;, &quot;description&quot;: &quot;Qodana CLI nightly version to use (e.g. 2026.3 or latest). Downloads CLI from tag v{version}-nightly.&quot;, &quot;required&quot;: false} |
-| Input: primary-cache-key | {&quot;default&quot;: &quot;qodana-2026.2-${{ github.ref }}-${{ github.sha }}&quot;, &quot;description&quot;: &quot;Set the primary cache key&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;qodana-2026.3-${{ github.ref }}-${{ github.sha }}&quot;, &quot;description&quot;: &quot;Set the primary cache key&quot;, &quot;required&quot;: false} |
-| Selected SHA | 13e3acbbaeb2cbfc37893b98e74594985edf42eb | aa698739cd4b8204ad53291bea7e16cd75da3c9f |
-| Selected tag | v2026.2.4 | v2026.3.1 |
+| Selected SHA | e7e2a72bf1485d10a58f30696b6c513b261ce4fa | b265cd48f8a1451d2680815b3e8dc4ed65ee16e7 |
+| Selected tag | v1.29.0 | v1.30.0 |
+
+## hendrikmuhs/ccache-action
+
+[Previous source](https://github.com/hendrikmuhs/ccache-action/tree/dbeefd73e8e2ffc1bbc412570072735eb4db3607/) · [Current source](https://github.com/hendrikmuhs/ccache-action/tree/e91f31892a1d1b8c44424b1a94c0b7f52d337168/) · [Upstream code diff](https://github.com/hendrikmuhs/ccache-action/compare/dbeefd73e8e2ffc1bbc412570072735eb4db3607...e91f31892a1d1b8c44424b1a94c0b7f52d337168)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | dbeefd73e8e2ffc1bbc412570072735eb4db3607 | e91f31892a1d1b8c44424b1a94c0b7f52d337168 |
+| Selected tag | v1.2.25 | v1.2.26 |
+
+## lukka/get-cmake
+
+[Previous source](https://github.com/lukka/get-cmake/tree/16e8153a8b4918849d92aad131befe67a3705daa/) · [Current source](https://github.com/lukka/get-cmake/tree/a1a8216777d3cbbf5602c73b9ddd3e98257ecdc4/) · [Upstream code diff](https://github.com/lukka/get-cmake/compare/16e8153a8b4918849d92aad131befe67a3705daa...a1a8216777d3cbbf5602c73b9ddd3e98257ecdc4)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 16e8153a8b4918849d92aad131befe67a3705daa | a1a8216777d3cbbf5602c73b9ddd3e98257ecdc4 |
+| Selected tag | v4.5.0 | v4.5.1 |
+
+## msys2/setup-msys2
+
+[Previous source](https://github.com/msys2/setup-msys2/tree/ec48f7c5447b3140e2b088413ae3a55687bccb6e/) · [Current source](https://github.com/msys2/setup-msys2/tree/3c51bf698df1e37b2261f53cb67797b97761185c/) · [Upstream code diff](https://github.com/msys2/setup-msys2/compare/ec48f7c5447b3140e2b088413ae3a55687bccb6e...3c51bf698df1e37b2261f53cb67797b97761185c)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | ec48f7c5447b3140e2b088413ae3a55687bccb6e | 3c51bf698df1e37b2261f53cb67797b97761185c |
+| Selected tag | v2.33.0 | v2.34.0 |
 
 ## node9-ai/node9-proxy
 
-[Previous source](https://github.com/node9-ai/node9-proxy/tree/094b4fb1d72ea3b0ee5bb47755aad1d0433c1e59/) · [Current source](https://github.com/node9-ai/node9-proxy/tree/d12ef7dc57652589f3358a75571a612c8dfd66c9/) · [Upstream code diff](https://github.com/node9-ai/node9-proxy/compare/094b4fb1d72ea3b0ee5bb47755aad1d0433c1e59...d12ef7dc57652589f3358a75571a612c8dfd66c9)
+[Previous source](https://github.com/node9-ai/node9-proxy/tree/d12ef7dc57652589f3358a75571a612c8dfd66c9/) · [Current source](https://github.com/node9-ai/node9-proxy/tree/7cfb2cbea9fa2cedc741be36aa11149d128ec1a9/) · [Upstream code diff](https://github.com/node9-ai/node9-proxy/compare/d12ef7dc57652589f3358a75571a612c8dfd66c9...7cfb2cbea9fa2cedc741be36aa11149d128ec1a9)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 094b4fb1d72ea3b0ee5bb47755aad1d0433c1e59 | d12ef7dc57652589f3358a75571a612c8dfd66c9 |
-| Selected tag | v2.65.6 | v2.65.8 |
+| Selected SHA | d12ef7dc57652589f3358a75571a612c8dfd66c9 | 7cfb2cbea9fa2cedc741be36aa11149d128ec1a9 |
+| Selected tag | v2.65.8 | v2.65.10 |
 
-## openqodex/openqodex
+## pullfrog/pullfrog
 
-[Previous source](https://github.com/openqodex/openqodex/tree/e92228a3b0611d4641acf69abbd2c7c3c089599b/) · [Current source](https://github.com/openqodex/openqodex/tree/9d057d09347c5ce3ada31d214156760a5be55a12/) · [Upstream code diff](https://github.com/openqodex/openqodex/compare/e92228a3b0611d4641acf69abbd2c7c3c089599b...9d057d09347c5ce3ada31d214156760a5be55a12)
-
-| Changed | Before | After |
-| --- | --- | --- |
-| Input: version | {&quot;default&quot;: &quot;0.20.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} | {&quot;default&quot;: &quot;0.22.0&quot;, &quot;description&quot;: &quot;The openqodex version to run, an exact release version such as 0.6.1. The release workflow sets the default to the version it publishes.&quot;, &quot;required&quot;: false} |
-| Selected SHA | e92228a3b0611d4641acf69abbd2c7c3c089599b | 9d057d09347c5ce3ada31d214156760a5be55a12 |
-| Selected tag | v0.20.0 | v0.22.0 |
-
-## Added: reagento/relator
-
-[Source](https://github.com/reagento/relator) — Send Telegram and Discord notifications for new GitHub issues or PRs
-
-New entries still require observed stability and fresh scan evidence before usage.
-
-## stefanzweifel/changelog-updater-action
-
-[Previous source](https://github.com/stefanzweifel/changelog-updater-action/tree/1171d74932456fd2049c486b8757956a6adcc11b/) · [Current source](https://github.com/stefanzweifel/changelog-updater-action/tree/f7c43fed0c8760b25199be6eae5c28fc22830ec6/) · [Upstream code diff](https://github.com/stefanzweifel/changelog-updater-action/compare/1171d74932456fd2049c486b8757956a6adcc11b...f7c43fed0c8760b25199be6eae5c28fc22830ec6)
+[Previous source](https://github.com/pullfrog/pullfrog/tree/9eb4e93d38160a21b0e85b759ab8ea9fecaf5e58/) · [Current source](https://github.com/pullfrog/pullfrog/tree/ef3a939a663d6eb5701ecbcbb824621076cf10e5/) · [Upstream code diff](https://github.com/pullfrog/pullfrog/compare/9eb4e93d38160a21b0e85b759ab8ea9fecaf5e58...ef3a939a663d6eb5701ecbcbb824621076cf10e5)
 
 | Changed | Before | After |
 | --- | --- | --- |
-| Selected SHA | 1171d74932456fd2049c486b8757956a6adcc11b | f7c43fed0c8760b25199be6eae5c28fc22830ec6 |
-| Selected tag | v1.13.0 | v1.13.3 |
+| Selected SHA | 9eb4e93d38160a21b0e85b759ab8ea9fecaf5e58 | ef3a939a663d6eb5701ecbcbb824621076cf10e5 |
+| Selected tag | v0.1.138 | v0.1.140 |
+
+## slackapi/slack-github-action
+
+[Previous source](https://github.com/slackapi/slack-github-action/tree/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/) · [Current source](https://github.com/slackapi/slack-github-action/tree/0bc3581177d9a0f8d555e07689384b376528e8fa/) · [Upstream code diff](https://github.com/slackapi/slack-github-action/compare/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d...0bc3581177d9a0f8d555e07689384b376528e8fa)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | dcb1066f776dd043e64d0e8ba94ca15cc7e1875d | 0bc3581177d9a0f8d555e07689384b376528e8fa |
+| Selected tag | v4.0.0 | v4.1.0 |
+
+## taiki-e/install-action
+
+[Previous source](https://github.com/taiki-e/install-action/tree/75a7c0f87bd666af3cdb75c5b9e9d03ab6044e6f/) · [Current source](https://github.com/taiki-e/install-action/tree/25f51f6b1bf4e18876107cece836f4f77ac17c8c/) · [Upstream code diff](https://github.com/taiki-e/install-action/compare/75a7c0f87bd666af3cdb75c5b9e9d03ab6044e6f...25f51f6b1bf4e18876107cece836f4f77ac17c8c)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | 75a7c0f87bd666af3cdb75c5b9e9d03ab6044e6f | 25f51f6b1bf4e18876107cece836f4f77ac17c8c |
+| Selected tag | v2.90.6 | v2.90.7 |
+
+## tmatens/compose-lint
+
+[Previous source](https://github.com/tmatens/compose-lint/tree/a6689c40dc419086077e6ca7d001302c818f0b33/) · [Current source](https://github.com/tmatens/compose-lint/tree/bb2fcad35842826935f894097b71610d4161e203/) · [Upstream code diff](https://github.com/tmatens/compose-lint/compare/a6689c40dc419086077e6ca7d001302c818f0b33...bb2fcad35842826935f894097b71610d4161e203)
+
+| Changed | Before | After |
+| --- | --- | --- |
+| Selected SHA | a6689c40dc419086077e6ca7d001302c818f0b33 | bb2fcad35842826935f894097b71610d4161e203 |
+| Selected tag | v1.6.1 | v1.7.0 |

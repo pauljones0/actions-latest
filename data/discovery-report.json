@@ -1,7 +1,5 @@
 {
-  "admitted": [
-    "reagento/relator"
-  ],
+  "admitted": [],
   "candidates": {
     "15H4NT/Grade-Prophet": {
       "checked_at": "2026-11-17T13:54:34.572670+00:00",
@@ -121,6 +119,11 @@
       "source_sha": "82099739b1880fd187fb6234b491c0f3f07fedb9",
       "status": "admitted"
     },
+    "HengXin666/BiLiBiLi_DanMu_Crawling": {
+      "checked_at": "2026-11-28T13:42:21.758004+00:00",
+      "reason": "No action.yml or action.yaml at HengXin666/BiLiBiLi_DanMu_Crawling@6e071f57cf2633da75c674c0188ca0dab82a7f38",
+      "status": "rejected"
+    },
     "HoussemDellai/github-actions-course": {
       "checked_at": "2026-11-18T13:30:26.544589+00:00",
       "reason": "No action.yml or action.yaml at HoussemDellai/github-actions-course@ef48d9c7bd62de559c4a7de3d591708d2c2b76f9",
@@ -202,8 +205,8 @@
       "status": "admitted"
     },
     "Kesin11/CIAnalyzer": {
-      "checked_at": "2026-11-13T12:40:25.039905+00:00",
-      "reason": "No action.yml or action.yaml at Kesin11/CIAnalyzer@2a928514821c6f6e933e82d38d7264de69f0eae4",
+      "checked_at": "2026-11-28T13:42:21.758004+00:00",
+      "reason": "No action.yml or action.yaml at Kesin11/CIAnalyzer@c20ebf69c5bb7dab3ea3153ad06dd99451434e83",
       "status": "rejected"
     },
     "Kleidukos/get-tested": {
@@ -237,8 +240,8 @@
       "status": "rejected"
     },
     "MauroDruwel/NIMStats": {
-      "checked_at": "2026-11-21T13:05:17.040519+00:00",
-      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@7b8b85367ec09f350a808529e8dfd38d37ce16d6",
+      "checked_at": "2026-11-28T13:42:21.758004+00:00",
+      "reason": "No action.yml or action.yaml at MauroDruwel/NIMStats@2d93e0894ffe565ff9a985c8651b832f1318022f",
       "status": "rejected"
     },
     "Mic92/hestia": {
@@ -265,13 +268,18 @@
       "status": "admitted"
     },
     "MohammadBahemmat/V2ray-Collector": {
-      "checked_at": "2026-11-21T13:05:17.040519+00:00",
-      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@730b34293a700318f985172f112d4f6f3f510859",
+      "checked_at": "2026-11-28T13:42:21.758004+00:00",
+      "reason": "No action.yml or action.yaml at MohammadBahemmat/V2ray-Collector@822fa62ff8b78d9952c590d572fcd894e24b5ff5",
       "status": "rejected"
     },
     "MustacheCase/zanadir": {
       "checked_at": "2026-11-21T13:05:17.040519+00:00",
       "reason": "No action.yml or action.yaml at MustacheCase/zanadir@f0803446872d37be0b8bc148129cb4051a992998",
+      "status": "rejected"
+    },
+    "Nuitka/Nuitka-Action": {
+      "checked_at": "2026-11-28T13:42:21.758004+00:00",
+      "reason": "Default-branch action manifest has blocking findings",
       "status": "rejected"
     },
     "Oval-Tutu/bootstrap-love2d-project": {
@@ -316,8 +324,8 @@
       "status": "rejected"
     },
     "Sarthzk/internship-tracker": {
-      "checked_at": "2026-11-21T13:05:17.040519+00:00",
-      "reason": "No action.yml or action.yaml at Sarthzk/internship-tracker@c614012206a8023f102925e826cfc8117d3befc6",
+      "checked_at": "2026-11-28T13:42:21.758004+00:00",
+      "reason": "No action.yml or action.yaml at Sarthzk/internship-tracker@04a9cf1245fd9cb7e127b27ac51ace2076bfb4d5",
       "status": "rejected"
     },
     "SecOpsNews/news": {
@@ -702,6 +710,11 @@
       "reason": "No action.yml or action.yaml at docker/github-builder@b446b747a509b6f3d2fea4b17e100577aceb448d",
       "status": "rejected"
     },
+    "drumdiscipletz-tz/lighter-love-library": {
+      "checked_at": "2026-11-28T13:42:21.758004+00:00",
+      "reason": "No action.yml or action.yaml at drumdiscipletz-tz/lighter-love-library@0b5b18f064496ce7e0334ba4a92b49f4369cf819",
+      "status": "rejected"
+    },
     "duriantaco/skylos": {
       "checked_at": "2026-09-06T08:58:28.620886+00:00",
       "scanner_version": "1.30.0",
@@ -986,8 +999,8 @@
       "status": "admitted"
     },
     "kdeldycke/repomatic": {
-      "checked_at": "2026-11-21T13:05:17.040519+00:00",
-      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@28e43a59dbcaf7d7e7b76e30d286e8c11f4d4031",
+      "checked_at": "2026-11-28T13:42:21.758004+00:00",
+      "reason": "No action.yml or action.yaml at kdeldycke/repomatic@106aa505bd298a95ee64c6ac1672884b701f6044",
       "status": "rejected"
     },
     "kerlenton/mcpsnoop": {
@@ -1515,6 +1528,11 @@
       "reason": "No action.yml or action.yaml at ubicloud/ubicloud@e3d15f22faf7b1a75a8bea368cd45213b1b8527d",
       "status": "rejected"
     },
+    "ugurroski-commits/ticktock-automation": {
+      "checked_at": "2026-11-28T13:42:21.758004+00:00",
+      "reason": "No action.yml or action.yaml at ugurroski-commits/ticktock-automation@8ebd760e54a76818e8c873ddac8e7d7823df6862",
+      "status": "rejected"
+    },
     "ultralytics/actions": {
       "checked_at": "2026-10-29T11:08:31.811531+00:00",
       "reason": "Default-branch action manifest has blocking findings",
@@ -1645,7 +1663,7 @@
       "status": "rejected"
     }
   },
-  "checked_at": "2026-11-27T14:26:42.118723+00:00",
+  "checked_at": "2026-11-28T13:42:21.758004+00:00",
   "errors": [],
-  "inspected": 6
+  "inspected": 9
 }
